@@ -22,8 +22,8 @@ const Wlax = {
     '!./wp-content/themes/LevelUp/*.scss',
     '!./wp-content/themes/LevelUp/**/*.js'
   ],
-  // scss: './src/**/*.scss',
-  scss: './wp-content/themes/LevelUp/css/main.scss',
+  scss: './src/**/*.scss',
+  // scss: './wp-content/themes/LevelUp/css/main.scss',
   // eslint-disable-next-line sort-keys
   aljs: [
     './wp-content/themes/LevelUp/js/*.js'
