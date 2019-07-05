@@ -33,6 +33,19 @@ const Wlax = {
   css: './dist/css',
   js: './dist/js'
 };
+
+
+let cleanCSS = require('gulp-clean-css');
+
+gulp.task('minify-css', () => {
+  return gulp.src('./wp-content/themes/LevelUp/css/*.css')
+    .pipe(cleanCSS({ compatibility: 'ie8' }))
+    .pipe(gulp.dest('dist'));
+});
+
+
+
+
 // const clear = () => src('./dist', {read: false}).pipe(gcln());
 const clear = () => del(Wlax.pub).then((paths) => {
   console.log('Deleted files and folders:\n', paths.join('\n'));
