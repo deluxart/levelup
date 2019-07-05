@@ -51,9 +51,14 @@ pipe(cleanCSS({ compatibility: 'ie8' })).
 pipe(rename('all.min.css')).
 pipe(dest(Wlax.css));
 
+gulp.task('minify-css', () => {
+  return gulp.src('./wp-content/themes/LevelUp/css/*.css')
+    .pipe(cleanCSS({ compatibility: 'ie8' }))
+    .pipe(gulp.dest('dist'));
+});
+
 const js = () => src(Wlax.aljs).
 pipe(concat('dist')).
-pipe(plumber({errorHandler: console.log})).
 pipe(rename('nd.bild.js')).
 pipe(dest(Wlax.js));
 exports.clean = clear;
