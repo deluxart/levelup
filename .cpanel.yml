@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export REPOPATH=/home/uaitsmar/repo/levelup.ua/
+    - export REPOPATH=/home/uaitsmar/repo/levelup.ua/*
     - export SITEPATH=/home/uaitsmar/levelup.ua/
     - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
