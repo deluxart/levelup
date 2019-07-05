@@ -19,6 +19,7 @@ const Wlax = {
     './wp-content/themes/LevelUp/fonts/*.*',
     './wp-content/themes/LevelUp/img/**/*.*',
     '!./wp-content/themes/LevelUp/**/*.scss',
+    '!./wp-content/themes/LevelUp/*.scss',
     '!./wp-content/themes/LevelUp/**/*.js'
   ],
   // scss: './src/**/*.scss',
