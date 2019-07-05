@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 /* eslint-disable camelcase */
 const {
   dest,
@@ -9,7 +8,6 @@ const {
   concat = require('gulp-concat'),
   del = require("del"),
   // gcln = require('gulp-clean'),
-  cleanCSS = require('gulp-clean-css'),
   plumber = require('gulp-plumber'),
   rename = require('gulp-rename'),
   sass = require('gulp-sass');
@@ -41,25 +39,31 @@ const clear = () => del(Wlax.pub).then((paths) => {
   console.log('Deleted files and folders:\n', paths.join('\n'));
 });
 
-const allf = () => src(Wlax.all, {base: './src'}).
-pipe(dest(Wlax.pub));
+// const allf = () => src(Wlax.all, { base: './wp-content/themes/LevelUp'}).
+// pipe(dest(Wlax.pub));
+
+
 
 const css = () => src(Wlax.scss).
-pipe(concat('dist')).
-pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError)).
-pipe(cleanCSS({ compatibility: 'ie8' })).
-pipe(rename('all.min.css')).
-pipe(dest(Wlax.css));
+  pipe(concat('dist')).
+  pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError)).
+  pipe(rename('all.min.css')).
+
+  pipe(dest(Wlax.css));
+
 
 const js = () => src(Wlax.aljs).
-pipe(concat('dist')).
-pipe(rename('nd.bild.js')).
-pipe(dest(Wlax.js));
+  pipe(concat('dist')).
+  pipe(rename('nd.bild.js')).
+  pipe(dest(Wlax.js));
 exports.clean = clear;
-exports.all = allf;
 exports.styles = css;
 exports.scripts = js;
-exports.all = allf;
+// exports.all = allf;
 
-exports.build = series(clear, parallel(allf, css, js));
-exports.default = series(clear, parallel(allf, css, js));
+// exports.build = series(clear, parallel(allf, css, js));
+// exports.default = series(clear, parallel(allf, css, js));
+
+exports.build = series(clear, parallel(css, js));
+exports.default = series(clear, parallel(css, js));
+
