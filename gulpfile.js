@@ -41,6 +41,12 @@ const clear = () => del(Wlax.pub).then((paths) => {
   console.log('Deleted files and folders:\n', paths.join('\n'));
 });
 
+gulp.task('minify-css', () => {
+  return gulp.src('styles/*.css')
+    .pipe(cleanCSS({ compatibility: 'ie8' }))
+    .pipe(gulp.dest('dist'));
+});
+
 const allf = () => src(Wlax.all, {base: './src'}).
 pipe(dest(Wlax.pub));
 
@@ -50,12 +56,6 @@ pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError)).
 pipe(cleanCSS({ compatibility: 'ie8' })).
 pipe(rename('all.min.css')).
 pipe(dest(Wlax.css));
-
-gulp.task('minify-css', () => {
-  return gulp.src('./wp-content/themes/LevelUp/css/*.css')
-    .pipe(cleanCSS({ compatibility: 'ie8' }))
-    .pipe(gulp.dest('dist'));
-});
 
 const js = () => src(Wlax.aljs).
 pipe(concat('dist')).
