@@ -9,6 +9,7 @@ const {
   concat = require('gulp-concat'),
   del = require("del"),
   // gcln = require('gulp-clean'),
+  cleanCSS = require('gulp-clean-css'),
   plumber = require('gulp-plumber'),
   rename = require('gulp-rename'),
   sass = require('gulp-sass');
@@ -20,6 +21,7 @@ const Wlax = {
     './wp-content/themes/LevelUp/img/**/*.*',
     '!./wp-content/themes/LevelUp/**/*.scss',
     '!./wp-content/themes/LevelUp/*.scss',
+    '!./wp-content/themes/LevelUp/css/*.css',
     '!./wp-content/themes/LevelUp/**/*.js'
   ],
   scss: './wp-content/themes/LevelUp/css/*.scss',
@@ -32,19 +34,7 @@ const Wlax = {
   // eslint-disable-next-line sort-keys
   css: './dist/css',
   js: './dist/js'
-};
-
-
-let cleanCSS = require('gulp-clean-css');
-
-gulp.task('minify-css', () => {
-  return gulp.src('./wp-content/themes/LevelUp/css/*.css')
-    .pipe(cleanCSS({ compatibility: 'ie8' }))
-    .pipe(gulp.dest('dist'));
-});
-
-
-
+}
 
 // const clear = () => src('./dist', {read: false}).pipe(gcln());
 const clear = () => del(Wlax.pub).then((paths) => {
@@ -56,7 +46,8 @@ pipe(dest(Wlax.pub));
 
 const css = () => src(Wlax.scss).
 pipe(concat('dist')).
-pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError)).
+pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError)).
+pipe(cleanCSS({ compatibility: 'ie8' })).
 pipe(rename('all.min.css')).
 pipe(dest(Wlax.css));
 
