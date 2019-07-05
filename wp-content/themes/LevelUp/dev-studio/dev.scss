@@ -1,0 +1,168 @@
+$blue: #15acf2;
+$blue-g: linear-gradient(to bottom, #0e6ed7 , #00abff);
+
+@import "_inclined-sections.scss";
+
+#dev-slider {
+
+	/*Временно*/
+	margin-top: -86px;
+
+	position: relative;
+	color: #fff;
+
+	& > .head {
+		background: $blue-g;
+
+		&:before {
+			height: 100%;
+			left: 0;
+			top: 0;
+			width: 100%;
+			content: '';
+			position: absolute;
+			background: url(https://levelup.ua/wp-content/uploads/2019/03/Web.svg) no-repeat;
+			background-size: contain;
+			background-position: right;
+		}
+
+		&:after {
+			height: 100%;
+			left: 0;
+			top: 0;
+			width: 100%;
+			content: '';
+			position: absolute;
+			background: url(https://levelup.ua/wp-content/uploads/2019/03/Штучки-дрючки.png) no-repeat;
+			background-size: contain;
+			background-position: center
+		}
+
+		img {
+			display: block;
+		}
+	}
+
+	& > .container {
+		position: absolute;
+		top: 0;
+		transform: translateX(-50%);
+		left: 50%;
+		height: 100%;
+
+		.content {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			align-items: center;
+			position: relative;
+			z-index: 1;
+			height: 100%;
+			position: relative;
+
+			& > .text {
+				align-self: end;
+				position: relative;
+				bottom: -27px;
+				text-align: center;
+
+				h1 {
+					font-size: 48px;
+					font-weight: 600;
+					padding-bottom: 85px;
+				}
+
+				& > p {
+					font-size: 24px;
+					font-weight: 300;
+					line-height: normal;
+					padding-bottom: 100px;
+				}
+
+				a {
+					&.sg-show-popup {
+						background: #eaff00;
+						box-shadow: 26px 15px 70px 0px rgba(56, 56, 56, 0.45); 
+						border-color: #eaff00;
+						color: #4c4c4c;
+
+						&:hover {
+							color: #4c4c4c;
+						}
+
+						&:after {
+							background-image: url("/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg");
+						}
+					}
+				}
+			}
+
+			& > div {
+
+				&:nth-child(2) {
+					height: 100%;
+					position: relative;
+				}
+
+				.dev-slide-img {
+					position: absolute;
+					bottom: -50%;
+					content: '';
+					display: block;
+					height: 100%;
+					width: 100%;
+					background: url(/wp-content/uploads/2019/03/Head_img.png) no-repeat;
+					background-size: contain;
+					background-position: right;
+				}
+			}
+
+		}
+	}
+}
+
+
+#dev-about {
+	padding: 140px 0;
+
+	h2 {
+		color: #323232;
+		font-weight: 600;
+		font-size: 56px;
+		margin-bottom: 70px;
+		padding-left: 48px;
+		position: relative;
+
+		span {
+			color: #15acf2;
+		}
+
+		&:before {
+			height: 1px;
+			width: 100%;
+			content: '';
+			position: absolute;
+			background: #000;
+			left: -100%;
+			top: 50%;
+		}
+	}
+
+	.content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 40px;
+		align-items: center;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
+
+
+#dev-scheme {
+	padding: 200px 0;
+	background: $blue-g;
+	color: #fff;
+}

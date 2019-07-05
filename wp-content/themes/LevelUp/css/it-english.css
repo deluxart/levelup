@@ -1,0 +1,102 @@
+.it-english { overflow: hidden; }
+.it-english #dev-slider { margin-top: 0; background: linear-gradient(to right, #02c4fe, #07a7ff); }
+.it-english #dev-slider > .container .content { grid-column-gap: 0px; grid-template-columns: 1fr 1fr; }
+.it-english #dev-slider > .container .content > .text { text-align: left; align-self: center; bottom: auto; }
+.it-english #dev-slider > .container .content > .text h1 { color: #eaff00; padding-bottom: 35px; font-size: 46px; }
+.it-english #dev-slider > .container .content > .text h5 { font-size: 24px; }
+.it-english #dev-slider > .container .content > .text > p { padding-bottom: 40px; }
+.it-english #dev-slider > .container .content > .text a.sg-show-popup { margin-bottom: 19px; }
+.it-english #dev-slider > .container .content > div .dev-slide-img { background: url(https://levelup.ua/wp-content/uploads/2019/04/head.png) no-repeat; background-size: contain; bottom: -20%; }
+.it-english #dev-slider > .head { background: none; }
+.it-english #dev-slider > .head:before { display: none; }
+.it-english #dev-slider > .head:after { display: none; }
+.it-english #dev-slider.edge--bottom::after { background: #fff; height: 10%; }
+.it-english #dev-about { padding: 90px 0; }
+.it-english #dev-about h2 { padding-left: 0; margin-bottom: 0; }
+.it-english #dev-about h2 span { color: #15acf2; }
+.it-english #dev-about h2:before { width: calc(100% - 47px); }
+.it-english .reg-offer { margin: 50px 0; }
+.it-english .reg-offer .container > div { grid-column: 1; }
+.it-english .reg-offer .container > div.img { grid-column: 2; }
+.it-english #dev-scheme { background: #fff; color: #4c4c4c; padding: 70px 0 0 0; }
+.it-english #dev-scheme h2 { color: #4c4c4c; margin-bottom: 20px; }
+.it-english #dev-scheme h2 span { color: #15acf2; }
+.it-english #dev-scheme .invite .content { margin-top: 0; }
+.it-english #dev-scheme .invite .content img { max-width: 400px; }
+.it-english #dev-scheme .invite .content ul { margin-bottom: 30px; grid-row-gap: 50px; }
+.it-english #dev-scheme .invite .content ul li h4 { font-size: 24px; }
+.it-english #dev-scheme .invite .content ul li .check { fill: #15acf2; }
+.it-english .sec-testing { background: linear-gradient(to right, #01c9fe, #08a2ff); color: #fff; position: relative; box-shadow: 0px 41px 163px 0px rgba(0, 0, 0, 0.41); }
+.it-english .sec-testing:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://levelup.ua/wp-content/uploads/2019/04/bg_offer2.png) no-repeat; background-position: 100% -70px; background-size: 725px; }
+.it-english .sec-testing .container { position: relative; z-index: 2; }
+.it-english .sec-testing h3 { color: #fff; font-weight: 600; }
+.it-english .sec-testing h3 span { color: #eaff00; }
+.it-english .sec-testing p { color: #fff; }
+.it-english .sec-testing p span { display: block; }
+.it-english #english-program { background: #fff; position: relative; padding: 70px 0 0 0; }
+.it-english #english-program .container { position: relative; z-index: 2; }
+.it-english #english-program h2 span { color: #15acf2; }
+.it-english #english-program .sec-descr { margin-top: 10px; }
+.it-english #english-program .sec-descr span { display: block; }
+.it-english #english-program .en-program { padding-top: 50px; }
+.it-english #english-program .en-program .en-tabs { display: flex; }
+.it-english #english-program .en-program .en-tabs li { flex-basis: auto; flex-grow: 1; text-align: center; cursor: pointer; font-size: 18px; font-weight: bold; padding: 20px 0; }
+.it-english #english-program .en-program .en-tabs li.current { background: #15acf2; color: #fff; }
+.it-english #english-program .en-cont { position: relative; background: #15acf2; padding: 35px 0; color: #fff; }
+.it-english #english-program .en-cont:after { content: ''; position: absolute; top: 0; left: 0; background: url(https://levelup.ua/wp-content/uploads/2019/04/bg_program_english.png) no-repeat; background-size: cover; height: 100%; width: 100%; }
+.it-english #english-program .en-cont .tab-content { display: none; }
+.it-english #english-program .en-cont .tab-content.current { display: inherit; }
+.it-english #english-program .en-cont .tab-content .tab-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); grid-column-gap: 60px; }
+.it-english #english-program .en-cont .tab-content .tab-grid-3 ul li { padding-bottom: 10px; }
+.it-english #english-program .en-cont .tab-content .tab-grid-3 ul li:last-child { padding: 0; }
+.it-english #english-program .en-cont .tab-content h4 { font-size: 21px; margin-bottom: 30px; }
+.it-english #english-program .en-cont .tab-sec-title { overflow: hidden; text-align: center; font-size: 21px; margin-top: 30px; margin-bottom: 30px; }
+.it-english #english-program .en-cont .tab-sec-title:before, .it-english #english-program .en-cont .tab-sec-title:after { content: ''; display: inline-block; vertical-align: middle; width: calc(100% - 35px); height: 2px; background-color: white; opacity: 0.302; position: relative; }
+.it-english #english-program .en-cont .tab-sec-title:before { margin-left: -100%; left: -35px; }
+.it-english #english-program .en-cont .tab-sec-title:after { margin-right: -100%; right: -35px; }
+.it-english #english-program .btn { margin: 30px 0 0 0; display: block; }
+.it-english #english-program .btn a.sg-show-popup:hover { color: #4c4c4c !important; }
+.it-english .about-text { overflow: auto; position: relative; display: block; height: 300px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.it-english #course-prepod.course { padding: 70px 0; }
+.it-english #english-club { text-align: center; background: #eaf2f6; z-index: 0; padding-top: 50px; }
+.it-english #english-club .container > .tc .btn { position: relative; bottom: -44px; }
+.it-english #english-club h2 span { color: #15acf2; }
+.it-english #english-club .sec-descr { margin-top: 10px; }
+.it-english #english-club .sec-descr span { display: block; }
+.it-english #english-club .content { display: grid; grid-template-columns: repeat(4, 1fr); align-items: center; padding: 50px 0 10px 0; counter-reset: myCounter; text-align: left; }
+.it-english #english-club .content > div:nth-child(3) { grid-column: 2/4; grid-row: 1/3; text-align: center; }
+.it-english #english-club .content > div:nth-child(1) { grid-column: 1/2; grid-row: 1; }
+.it-english #english-club .content > div:nth-child(2) { grid-column: 1/2; }
+.it-english #english-club .content > div:nth-child(4) { grid-column: 4/5; grid-row: 1; }
+.it-english #english-club .content > div:nth-child(5) { grid-column: 4/5; grid-row: 2; }
+.it-english #english-club .content p { position: relative; }
+.it-english #english-club .content p span { position: relative; z-index: 2; }
+.it-english #english-club .content p:before { counter-increment: myCounter; content: counter(myCounter,decimal-leading-zero); position: absolute; width: 100%; text-align: center; top: 50%; left: 0; transform: translateY(-50%); color: #e1e9ec; font-size: 155px; font-weight: bold; z-index: 0; }
+.it-english .instruments_section { background: none; margin-top: 50px; }
+
+@media (max-width: 992px) { .it-english #dev-slider > .container .content { grid-template-columns: 1fr; }
+  .it-english #dev-slider > .container .content > .text h1 { font-size: 32px; }
+  .it-english #dev-slider > .container .content > .text { text-align: center; }
+  .it-english #dev-about { padding: 0; z-index: 5; position: relative; }
+  .it-english #dev-about h2 { margin-bottom: 20px; }
+  .it-english #english-program .en-cont .tab-content .tab-grid-3 { grid-template-columns: 1fr; grid-row-gap: 30px; }
+  .it-english .about-text { height: 132px; }
+  .it-english #english-club .content { grid-template-columns: 1fr; padding-top: 20px; }
+  .it-english #english-club .content > div:nth-child(1) { grid-column: 1/2; grid-row: inherit; }
+  .it-english #english-club .content > div:nth-child(2) { grid-column: 1/2; grid-row: inherit; }
+  .it-english #english-club .content > div:nth-child(3) { grid-column: 1/2; grid-row: 5/6; }
+  .it-english #english-club .content > div:nth-child(4) { grid-column: 1/2; grid-row: inherit; }
+  .it-english #english-club .content > div:nth-child(5) { grid-column: 1/2; grid-row: inherit; }
+  .it-english #english-club .content p { text-align: left; margin: 20px 0; padding-left: 52px; }
+  .it-english #english-club .content p::before { width: auto; font-size: 35px; color: #c6d8de; }
+  .it-english #english-program { padding-top: 30px; } }
+@media (max-width: 768px) { .about-text { padding: 0; margin: 0; }
+  .it-english #dev-scheme { padding-top: 0; }
+  .it-english #english-program .en-program .en-tabs { display: block; }
+  .it-english #english-program .en-program .en-tabs li.current { border-radius: 50px; }
+  .it-english #dev-about .content > div:nth-child(1) { grid-column: 1; }
+  .it-english #dev-about .content > div:nth-child(2) { grid-column: 1; grid-row: 2; }
+  .it-english #dev-about .content > div:nth-child(3) { grid-column: 1; grid-row: 4; }
+  .it-english #dev-about .content > div:nth-child(4) { grid-column: 1; grid-row: 3; } }
+
+/*# sourceMappingURL=it-english.css.map */

@@ -1,0 +1,185 @@
+.page-template-page-event .pm_slide .text_course_2 { font-size: 50px; }
+.page-template-page-event .course_program .card-header h5 button { font-size: 21px; }
+.page-template-page-event .Slider_courses_block { padding-top: 88px; }
+
+.about-bg { border-radius: 10px; background-color: #f8f8f8; padding: 30px; }
+
+#you_can.course { padding-bottom: 0; }
+#you_can .container .content { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 0; counter-reset: myCounter; }
+#you_can .container .content > div { display: grid; grid-template-columns: auto 1fr; align-items: center; grid-column-gap: 30px; padding: 30px; }
+#you_can .container .content > div > div { position: relative; z-index: 3; }
+#you_can .container .content > div > div:before { position: absolute; font-size: 200px; transform: translate(-50%, -50%); counter-increment: myCounter; content: counter(myCounter,decimal-leading-zero); top: 50%; left: 50%; color: #f8f8f8; z-index: -1; }
+#you_can .container .content > div.c-right { grid-template-columns: 1fr auto; }
+#you_can .container .content > div.bg-gray { background: #f9f9f9; }
+#you_can .container .content > div.bg-gray > div:before { color: #f0f0f0; }
+
+#offer-pm { background: linear-gradient(to right, #01c9fe 0%, #08a1ff 100%); position: relative; }
+#offer-pm:after { position: absolute; content: ''; left: 0; top: 0; width: 60%; height: 100%; background: url(https://levelup.ua/wp-content/uploads/2019/05/bg_offer.png) right no-repeat; background-repeat: no-repeat; background-size: cover; }
+#offer-pm:before { position: absolute; content: ''; left: 0; top: 0; width: 100%; height: 100%; background: url(https://levelup.ua/wp-content/uploads/2019/05/pattern-pm.png) center center no-repeat; z-index: 1; }
+#offer-pm .container .content { display: grid; grid-template-columns: 60% 1fr; align-items: center; position: relative; z-index: 1; color: #fff; }
+#offer-pm .container .content strong { color: #eaff00; }
+#offer-pm .container .content p { color: #fff; font-size: 29px; }
+#offer-pm .container .content p strong { color: #fff; }
+#offer-pm .container .content > div:nth-child(2) { text-align: center; }
+#offer-pm .container .content > div:nth-child(2) .buttonLight, #offer-pm .container .content > div:nth-child(2) .sg-show-popup { box-shadow: 13px 13px 36.1px 1.9px rgba(234, 255, 0, 0.5); }
+#offer-pm .container .content > div:nth-child(2) .buttonLight:hover, #offer-pm .container .content > div:nth-child(2) .sg-show-popup:hover { color: #000; }
+
+#pm-course.course { padding-bottom: 20px; }
+#pm-course .container .content { display: grid; grid-template-columns: repeat(4, 1fr); align-items: center; }
+#pm-course .container .content > div span { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 20px; font-size: 18px; }
+#pm-course .container .content > div span i { font-size: 24px; color: #15acf2; line-height: 1.2; text-shadow: 12.245px 6.787px 18px rgba(27, 161, 255, 0.7); }
+#pm-course .container .content > div.image { grid-column: 2/4; grid-row: 1/5; text-align: center; }
+
+#reg-offer { margin-top: 50px; }
+#reg-offer.reg-offer .container { grid-template-columns: 61% 1fr; }
+#reg-offer.reg-offer .container > div { grid-column: 1; color: #fff; }
+#reg-offer.reg-offer .container > .img { grid-column: 2; text-align: right; }
+#reg-offer .container h2 { color: #fff; }
+#reg-offer .container h2 span { color: #eaff00; }
+#reg-offer .container p { font-size: 24px; margin-bottom: 30px; margin-top: 14px; line-height: normal; }
+
+#reg-offer-two { margin-top: 50px; }
+#reg-offer-two.reg-offer { max-height: 360px; }
+#reg-offer-two.reg-offer > div { background-position: center; }
+#reg-offer-two.reg-offer .container { grid-template-columns: 501px 1fr; }
+#reg-offer-two.reg-offer .container h2 span { color: #fff; }
+#reg-offer-two.reg-offer .container h2 span.t1 { font-size: 37px; font-weight: bold; }
+#reg-offer-two.reg-offer .container h2 span.t2 { font-size: 22px; }
+#reg-offer-two.reg-offer .container h2 span.t3 { font-size: 47px; font-weight: bold; }
+#reg-offer-two.reg-offer .container h2 span.t4 { font-size: 47px; }
+#reg-offer-two.reg-offer .container h2 span.t5 { font-size: 41px; color: #eaff00; font-weight: bold; }
+#reg-offer-two.reg-offer .container h2 span.t6 { font-size: 40px; font-weight: bold; }
+#reg-offer-two.reg-offer .container > div { grid-column: 2; color: #fff; text-align: center; top: -62px; }
+#reg-offer-two.reg-offer .container > .img { grid-column: 1; text-align: left; }
+#reg-offer-two.reg-offer .container > .img img { width: auto; height: auto; }
+#reg-offer-two.reg-offer .container .text { position: relative; height: 100%; max-height: 360px; }
+#reg-offer-two.reg-offer .container .text:before { position: absolute; content: ''; top: -0px; border: 38px solid transparent; border-top: 20px solid white; transform: translateX(-50%); left: 50%; }
+#reg-offer-two.reg-offer .container .text:after { position: absolute; content: ''; bottom: -0px; border: 38px solid transparent; border-bottom: 20px solid white; transform: translateX(-50%); left: 50%; }
+#reg-offer-two .container h2 { color: #fff; }
+#reg-offer-two .container h2 span { color: #eaff00; }
+#reg-offer-two .container p { font-size: 18px; margin-bottom: 30px; margin-top: 14px; line-height: normal; }
+
+#video-present.video-present { min-height: 640px; background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://levelup.ua/wp-content/uploads/2019/05/bg_video.jpg) !important; /*display: grid;*/ display: none; }
+#video-present.video-present .container .content { display: grid; align-items: center; position: relative; /*    		top: 50%; 		transform: translateY(-50%);*/ height: 100%; }
+#video-present.video-present .container .content .VideoButton { top: 0; }
+#video-present.video-present .container .content .name { position: absolute; left: 60%; bottom: 40px; }
+#video-present.video-present .container .content .name h5 { text-transform: uppercase; color: #fff; font-weight: normal; font-size: 18px; }
+#video-present.video-present .container .content .name h3 { text-transform: uppercase; color: #15acf1; font-weight: normal; font-size: 28px; margin: 0; padding: 0; }
+
+#pm-prepod { background: #f3f3f3; }
+#pm-prepod.course { padding-bottom: 0; }
+#pm-prepod .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; grid-column-gap: 40px; }
+#pm-prepod .content > div:nth-child(1) { align-self: end; }
+#pm-prepod .content h2 { margin-bottom: 60px; }
+#pm-prepod .content h2 span { color: #15acf2; }
+#pm-prepod .content h4 { color: #15acf2; }
+#pm-prepod .content p { color: #979797; }
+#pm-prepod .content p.description { padding-top: 50px; color: #4c4c4c; }
+#pm-prepod .content p.description:before { display: none; }
+#pm-prepod .content img { display: block; }
+
+#course-result-list { overflow: hidden; }
+#course-result-list.course { padding: 110px 0; }
+#course-result-list .container .white-block { box-shadow: 24.489px 13.575px 109px 0px rgba(50, 50, 50, 0.17); background: #fff; padding: 50px; position: relative; }
+#course-result-list .container .white-block:before { content: ''; top: 0; left: -100%; z-index: -1; position: absolute; background: url(https://levelup.ua/wp-content/uploads/2019/05/s_left.jpg); width: 100%; height: 100%; background-size: contain; background-position: right; background-repeat: no-repeat; }
+#course-result-list .container .white-block:after { content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/05/c-right.png); top: 0; right: -100%; z-index: -1; position: absolute; width: 100%; height: 100%; background-size: contain; background-position: left; background-repeat: no-repeat; }
+#course-result-list .container .white-block .content { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 40px; }
+#course-result-list .container .white-block .content .list-num > div { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 20px; align-items: center; position: relative; padding-bottom: 30px; font-size: 18px; }
+#course-result-list .container .white-block .content .list-num > div span { width: 50px; height: 50px; background: #15acf2; color: #fff; border-radius: 50%; text-align: center; line-height: 40px; border: 5px solid #99dfff; position: relative; }
+#course-result-list .container .white-block .content .list-num > div:after { content: ''; height: 100%; width: 1px; position: absolute; background: #15acf2; top: 50px; left: 25px; z-index: 0; }
+#course-result-list .container .white-block .content .list-num > div:last-child { padding-bottom: 20px; }
+#course-result-list .container .white-block .content .list-num > div:last-child:after { display: none; }
+
+#pm-details { overflow: hidden; }
+#pm-details.course { padding-top: 0; }
+#pm-details.course h2 { padding-bottom: 50px; }
+#pm-details .container { position: relative; }
+#pm-details .container.line { position: relative; }
+#pm-details .container.line:before { position: absolute; content: ''; top: 42px; left: -50%; width: 200%; height: 6px; background: #f6f6f6; z-index: -1; }
+#pm-details .container.line .content { display: grid; grid-template-columns: repeat(4, 1fr); grid-column-gap: 30px; text-align: center; }
+#pm-details .container.line .content > div { display: grid; }
+#pm-details .container.line .content > div img { max-width: 90px; display: block; margin: 0 auto 20px auto; }
+#pm-details .container.line .content > div h4 { font-size: 22px; color: #999999; font-weight: normal; }
+#pm-details .container.line .content > div p { font-size: 22px; color: #15acf2; }
+
+#pm-contact.course { padding-top: 60px; padding-bottom: 0; }
+#pm-contact .container h2 { color: #15acf2; }
+#pm-contact .container .content { display: grid; grid-template-columns: 60% 1fr; position: relative; padding-bottom: 120px; }
+#pm-contact .container .content > div > h4 { font-size: 20px; font-weight: bold; color: #4c4c4c; }
+#pm-contact .container .content > div > p { font-size: 14px; font-weight: normal; max-width: 300px; }
+#pm-contact .container .content .pm-form { position: relative; padding: 40px 0; }
+#pm-contact .container .content .pm-form div.wpcf7-mail-sent-ok { display: inline-block; margin: 0 auto; height: 49px; bottom: 9px; width: auto; background: #398f14; padding: 5px 40px; border: 1px solid #398f14; font-size: 18px; box-shadow: 0px 10px 20px 0px rgba(0, 67, 91, 0.25); color: #fff; border-radius: 50px; text-transform: none; font-weight: 300; line-height: 34px; left: 50%; white-space: nowrap; transform: translateX(-50%); }
+#pm-contact .container .content .pm-form .title_cf { font-size: 45px; font-weight: bold; color: #15acf2; line-height: 42px; }
+#pm-contact .container .content .pm-form .wpcf7-not-valid-tip { margin: 0; }
+#pm-contact .container .content .pm-form .wpcf7-not-valid-tip { position: absolute; right: -34px; top: 0; display: inline-block !important; }
+#pm-contact .container .content .pm-form .wpcf7-form { position: relative; z-index: 10; }
+#pm-contact .container .content .pm-form .wpcf7-form p { margin: 0; }
+#pm-contact .container .content .pm-form:before { content: ''; position: absolute; background: #fff; width: 100%; box-shadow: 10.181px 18.367px 70px 0px rgba(0, 0, 0, 0.1); border-radius: 10px; height: 100%; left: 0; z-index: -2; top: 0; }
+#pm-contact .container .content:before { position: absolute; bottom: 0; height: 100%; content: ''; width: 100%; background: url(https://levelup.ua/wp-content/uploads/2019/05/bg_contacts.png) no-repeat; background-position: left bottom; background-size: contain; z-index: -1; max-width: 900px; }
+
+#pm-help h2 { color: #15acf2; padding-bottom: 50px; }
+#pm-help .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; grid-column-gap: 70px; }
+#pm-help .content p.txt { font-size: 24px; line-height: normal; font-weight: 600; margin-bottom: 30px; }
+#pm-help .content p.txt span { color: #15acf2; }
+#pm-help .content ul > li { font-size: 18px; padding-bottom: 20px; }
+#pm-help .content ul > li span { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 20px; font-size: 18px; }
+#pm-help .content ul > li span i { font-size: 24px; color: #15acf2; line-height: 1.2; text-shadow: 12.245px 6.787px 18px rgba(27, 161, 255, 0.7); }
+#pm-help .content ul > li:last-child { padding-bottom: 0; }
+
+@media (max-width: 1100px) { #reg-offer.reg-offer .container { grid-template-columns: 1fr auto; }
+  #reg-offer.reg-offer { max-height: 350px; }
+  #reg-offer.reg-offer .container img { height: auto; width: auto; max-width: 300px; }
+  #reg-offer.reg-offer .container > div { top: -7px; }
+  #reg-offer.reg-offer .container h2 { font-size: 38px; } }
+@media (min-width: 992px) { #header .header-phone { display: none; } }
+@media (max-width: 992px) { #reg-offer.reg-offer .container > .img { display: none; }
+  #reg-offer.reg-offer .container { grid-template-columns: 1fr; }
+  #you_can .container .content { grid-template-columns: 1fr; }
+  #you_can .container .content > div.bg-gray { background: inherit; }
+  #you_can .container .content > div:nth-child(even) { background: #f9f9f9; }
+  #offer-pm .container .content { grid-template-columns: 1fr; text-align: center; grid-row-gap: 20px; }
+  #reg-offer.reg-offer .container > div { text-align: center; }
+  #pm-course .container .content { grid-template-columns: 1fr; grid-row-gap: 20px; }
+  #pm-course .container .content > div.image { grid-column: 1/2; grid-row: inherit; }
+  #course-result-list .container .white-block .content { grid-template-columns: 1fr; }
+  #course-result-list .container .white-block .content > div.list-num:first-child > div:last-child { padding-bottom: 10px; }
+  #course-result-list .container .white-block .content > div.list-num:first-child > div:last-child:after { display: block; }
+  #pm-contact .container .content { grid-template-columns: 1fr; grid-row-gap: 40px; text-align: center; }
+  #pm-contact .container .content::before { display: none; }
+  #pm-contact .container .content > div > p { display: block; margin: 0 auto; }
+  #pm-details .container.line::before { display: none; }
+  #pm-details .container.line .content { grid-template-columns: 1fr; text-align: left; grid-row-gap: 20px; }
+  #pm-details .container.line .content > div { grid-template-columns: auto 1fr; align-items: center; grid-column-gap: 20px; grid-row-gap: 20px; }
+  #pm-details .container.line .content > div img { width: 90px; grid-row: 1/2; margin: 0; }
+  #pm-prepod .content { grid-template-columns: 1fr; grid-row-gap: 30px; }
+  #pm-prepod .content > div:nth-child(1) { grid-row: 2; }
+  #footer.site-footer.event div.loc ul li, #footer.site-footer.event div.rec ul li { text-align: left; }
+  .page-template-page-event #footer.site-footer .content { text-align: center; }
+  #footer.site-footer.event div.loc, #footer.site-footer.event div.rec { display: inline-block; }
+  #footer.site-footer.event .content > div:last-child { text-align: left; }
+  #footer.site-footer.event .content { max-width: 320px; margin: 0 auto; }
+  .page-template-page-event .Slider_courses_block .row { align-items: center !important; }
+  .page-template-page-event .pm_slide .text_course_2 { font-size: inherit; line-height: 46px !important; }
+  .page-template-page-event .Slider_courses_block, .page-template-page-event .course_slide { padding-top: 0; }
+  .home.page-template-page-event .snj_sandwitch-menu a { padding: 15px 0; }
+  .home.page-template-page-event .snj_sandwitch-menu a::before { display: none; }
+  #reg-offer-two.reg-offer .container { grid-template-columns: 1fr; }
+  /*#reg-offer-two.reg-offer .container > .img { display: none; }*/
+  #reg-offer-two.reg-offer .container > div.text { top: 0; grid-column: 1; grid-row: 1; }
+  #reg-offer-two.reg-offer .container > div.img { top: 0; grid-column: 1; grid-row: 2; display: block; max-width: 300px; margin: 0 auto 30px auto; position: relative; left: 35px; }
+  #reg-offer-two.reg-offer .container .text, #reg-offer-two.reg-offer { max-height: none; }
+  #reg-offer-two.reg-offer .container .text::after { display: none; }
+  #reg-offer-two.reg-offer .container > div { padding-bottom: 0; }
+  #pm-help .content { grid-template-columns: 1fr; grid-row-gap: 30px; }
+  #course-result-list.course { padding-top: 74px; }
+  #pm-help.course { padding-bottom: 0; } }
+@media (max-width: 768px) { #pm-contact .container .content .pm-form .title_cf { font-size: 24px; }
+  #reg-offer.reg-offer .container h2 { font-size: 30px; }
+  #reg-offer .container p, #offer-pm .container .content p { font-size: 21px; }
+  #pm-prepod .content h2 { margin-bottom: 30px; text-align: center; }
+  #pm-contact.course { padding-top: 20px; }
+  #pm-contact .container .content { padding-bottom: 60px; }
+  #you_can .container .content > div > div::before { font-size: 120px; }
+  .page-template-page-event .pm_slide .text_course_2 { line-height: 36px !important; } }
+
+/*# sourceMappingURL=pm.css.map */

@@ -1,0 +1,2267 @@
+/*.list-img-icon-1:after{background: url(/wp-content/uploads/2018/03/Icon-1-Round.svg);}
+.list-img-icon-2:after{background: url(/wp-content/uploads/2018/03/Icon-2-Round.svg);}
+.list-img-icon-3:after{background: url(/wp-content/uploads/2018/03/Icon-3-Round.svg);}
+.list-img-icon-4:after{background: url(/wp-content/uploads/2018/03/Icon-4-Round.svg);}
+.list-img-icon-5:after{background: url(/wp-content/uploads/2018/03/Icon-5-Round.svg);}
+.list-img-icon-6:after{background: url(/wp-content/uploads/2018/03/Icon-6-Round.svg);}
+.list-img-icon-7:after{background: url(/wp-content/uploads/2018/03/Icon-7-Round.svg);}
+.list-img-icon-8:after{background: url(/wp-content/uploads/2018/03/Icon-8-Round.svg);}
+.list-img-icon-9:after{background: url(/wp-content/uploads/2018/03/Icon-9-Round.svg);}
+.list-img-icon-10:after{background: url(/wp-content/uploads/2018/03/Icon-10-Round.png);}*/
+
+.bg-kirpichik { background: #2e3035; transition: 0.7s all;}
+.bg-blue.course h2 span { color: #eaff00; }
+
+.module-icon-1::after {background: url(/wp-content/uploads/2019/02/module.png) !important ;}
+.module-icon-2::after {background: url(/wp-content/uploads/2019/02/module-2.png) !important;}
+
+.result-of-the-course .list-group-item::before {content: '';height: 100%;width: 1px;position: absolute;background: #15acf2;top: 12px;left: 25px;}
+.result-of-the-course .list-group-item::after {width: 50px !important;height: 50px !important;}
+.list-img-icon-1::after {content: "01" !important;}
+.list-img-icon-2::after {content: "02" !important;}
+.list-img-icon-3::after {content: "03" !important;}
+.list-img-icon-4::after {content: "04" !important;}
+.list-img-icon-5::after {content: "05" !important;}
+.list-img-icon-6::after {content: "06" !important;}
+.list-img-icon-7::after {content: "07" !important;}
+.list-img-icon-8::after {content: "08" !important;}
+.list-img-icon-9::after {content: "09" !important;}
+.list-img-icon-10::after {content: "10" !important;}
+
+.result-of-the-course .list-group-item {position: relative;}
+
+.list-img-icon-1::after, .list-img-icon-2::after ,.list-img-icon-3::after ,.list-img-icon-4::after ,
+.list-img-icon-5::after ,.list-img-icon-6::after ,.list-img-icon-7::after ,.list-img-icon-8::after , .list-img-icon-9::after ,.list-img-icon-10::after {background: #15acf2 !important;color: #fff !important;position: absolute;border-radius: 50%;text-align: center;line-height: 40px;border: 5px solid #99dfff;background-image: none !important;}
+
+@media (min-width: 768px) {
+.result-of-the-course .col-sm-12 .list-group-item:last-child::before { display: none; }
+}
+
+@media (max-width:768px) {
+.prepod-text-block {padding: 20px;box-shadow: 0 4px 10px 0 rgba(0,0,0,.1);background: #fff;}
+.bg-mountains {background: none !important;}
+.result-of-the-course .col-sm-12:last-child .list-group-item:last-child::before { display: none; }
+
+}
+
+
+
+
+.list-img-icon-levelup1:after{background: url(/wp-content/uploads/2018/02/Icon-Podderzhka-prepoda-min.png);}
+.list-img-icon-levelup2:after{background: url(/wp-content/uploads/2018/02/Icon-Praktika-min.png);}
+.list-img-icon-levelup3:after{background: url(/wp-content/uploads/2018/02/Icon-Videozapisi-min.png);}
+.list-img-icon-levelup4:after{background: url(/wp-content/uploads/2018/02/Icon-Domashnie-zadaniya-min.png);}
+.list-img-icon-levelup5:after{background: url(/wp-content/uploads/2018/02/Icon-Kollektiv-min.png);}
+.list-img-icon-levelup6:after{background: url(/wp-content/uploads/2018/02/Icon-Inkubator-min.png);}
+
+
+
+.list-img-icon-yellow-numbers1:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-1.png);}
+.list-img-icon-yellow-numbers2:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-2.png);}
+.list-img-icon-yellow-numbers3:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-3.png);}
+.list-img-icon-yellow-numbers4:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-4.png);}
+.list-img-icon-yellow-numbers5:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-5.png);}
+.list-img-icon-yellow-numbers6:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-6.png);}
+.list-img-icon-yellow-numbers7:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-7.png);}
+.list-img-icon-yellow-numbers8:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-8.png);}
+.list-img-icon-yellow-numbers9:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-9.png);}
+.list-img-icon-yellow-numbers10:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-10.png);}
+.list-img-icon-yellow-numbers11:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-11.png);}
+.list-img-icon-yellow-numbers12:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-12.png);}
+.list-img-icon-yellow-numbers13:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-13.png);}
+.list-img-icon-yellow-numbers14:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-14.png);}
+.list-img-icon-yellow-numbers15:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-15.png);}
+.list-img-icon-yellow-numbers16:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-16.png);}
+.list-img-icon-yellow-numbers17:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-17.png);}
+.list-img-icon-yellow-numbers18:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-18.png);}
+.list-img-icon-yellow-numbers19:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-19.png);}
+.list-img-icon-yellow-numbers20:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-20.png);}
+
+
+.list-img-icon-blue-1:after{background: url(/wp-content/uploads/2018/03/Icon-One.png);}
+.list-img-icon-blue-2:after{background: url(/wp-content/uploads/2018/03/Icon-Two.png);}
+.list-img-icon-blue-3:after{background: url(/wp-content/uploads/2018/03/Icon-Three.png);}
+.list-img-icon-blue-4:after{background: url(/wp-content/uploads/2018/03/Icon-Four.png);}
+.list-img-icon-blue-5:after{background: url(/wp-content/uploads/2018/03/Icon-Five.png);}
+.list-img-icon-blue-6:after{background: url(/wp-content/uploads/2018/03/Icon-Six.png);}
+.list-img-icon-blue-7:after{background: url(/wp-content/uploads/2018/03/Icon-Seven.png);}
+.list-img-icon-blue-8:after{background: url(/wp-content/uploads/2018/03/Icon-Eight.png);}
+
+
+.list-img-white-check {background-size: contain;}
+.list-img-white-check:after {content: "";width: 30px;height: 30px;position: absolute;background: url(/wp-content/uploads/2019/01/Cheklist_1.svg);left: 0;top: 0;}
+.list-img-white-check {background: none !important; border:none !important;padding-left: 50px;position: relative;padding-bottom: 10px;}
+
+
+.list-img-icon-blue {background-size: contain;}
+.list-img-icon-blue:after {content: "";width: 60px;height: 60px;position: absolute;background: url(/wp-content/uploads/2018/07/Icon-Checkbox-Blue.svg);left: 0;top: 0;}
+
+.list-img-icon-blue {background: none !important; border:none !important;padding-left: 70px;position: relative;}
+.skillup .list-img-icon-blue::after{ width: 52px; height: 52px; top: 4px; }
+
+.list-img-icon-yellow {background-size: contain;}
+.list-img-icon-yellow:after {content: "";width: 60px;height: 60px;position: absolute;background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-ok.png);left: 0;top: 0;}
+.list-img-icon-yellow {background: none !important; border:none !important;padding-left: 70px;position: relative;}
+
+
+.programs-two-rows .list-group-item:after {background-size: contain;}
+
+.programs-two-rows .list-group-item {border-bottom: 1px solid #fff3 !important;}
+.programs-two-rows .mb-1 {color: #fff}
+/*.bg-mountains {background: url(/wp-content/uploads/2018/04/BG-Java-Work-Hard.jpg);}*/
+
+.pt30 {padding-top: 30px;}
+@media (max-width:768px) {
+.mob-pt30 {padding-top: 30px;}
+}
+.va-b {vertical-align: bottom;}
+.bg-blue { background-image: linear-gradient(to right, #09a1ff , #00ccff);}
+.w-fix {max-width: 1140px;}
+
+.title_achivments {padding-bottom: 50px;}
+
+.welcome_box {padding: 40px 0;}
+
+
+
+.Slider_courses_block{background-position: center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;}
+.Slider_courses_block .row {min-height: 83vh;}
+
+/*Конец Общие стили*/
+.basic_program_slide {background-image: url(/wp-content/uploads/2018/07/SLIDER-OP-2.jpg) !important;}
+.threed_slide {background-image: url(/wp-content/uploads/2018/04/SLIDER-3D.jpg) !important;}
+@media (max-width:768px){
+.Slider_courses_block{min-height:90vh !important;}}
+
+  .text_course_1 {text-shadow: 1px 1px 3px rgba(63, 110, 176, 0.5);transition: none;line-height: 60px;border-width: 0px;display: block;margin: 0px;padding: 0px;letter-spacing: 0px;font-weight: 200;font-size: 45px;color: rgb(255, 255, 255);font-family: Montserrat;text-transform: uppercase;}
+  .text_course_2 {font-family: Montserrat;color: #eaff00 !important;display: block;text-shadow: 1px 1px 3px rgba(63, 110, 176, 0.5);transition: none;line-height: 60px;border-width: 0px;margin: 0px;padding: 0px;letter-spacing: 1px;font-weight: 700;font-size: 40px;text-transform: uppercase;}
+  .text_course_3{text-align: left;text-shadow: 1px 1px 3px rgba(63, 110, 176, 0.5);color: #fff;font-family: Montserrat;transition: none;line-height: 30px;border-width: 0px;margin: 0px;padding: 0px;letter-spacing: 0px;font-weight: 300;font-size: 22px;}
+  .start_slide {text-shadow: 1px 1px 3px rgba(63, 110, 176, 0.5);line-height: 30px;border-width: 0px;margin: 0px;letter-spacing: 0px;font-size: 28px;color: rgb(255, 255, 255);font-family: Montserrat;padding: 40px 0 60px 0;}
+
+
+
+  /* Slide emojie */
+
+  /* .images_column {padding: 0 11px;  font-size: 18px; color: #121212; border-radius: 50px; text-transform: none; display: inline-block; box-shadow: none !important;  border: 0px !important; } */
+ #enroll_on_course  input.wpcf7-form-control.wpcf7-submit:hover { background: #ff1569; border: 0 !important; }
+ #enroll_on_course  input.wpcf7-form-control.wpcf7-text:focus { border: 2px solid #ff1569 !important; }
+
+  .form_input_enroll_on_course span.wpcf7-not-valid-tip{position: absolute;left: 111px;top: 16px;font-size: 12px !important;}
+  .paidPlace {font-weight:600;}
+  .pickImagesBOX {background: url(/wp-content/uploads/2018/11/angle_final.jpg) top center no-repeat;}
+  /* #enroll_on_course {padding-bottom:20px;} */
+
+
+
+  .SliderMainbox {padding-bottom: 8px;}
+  .p_Courses {display:block}
+  #clockdiv span.days, #clockdiv span.hours, #clockdiv span.minutes, #clockdiv span.seconds {font-size: 24px; color: #eaff00}
+  .checked {position:relative;}
+  #clockdiv span {color: #eaff00;font-size: 24px;}
+  #enroll_on_course input.wpcf7-form-control.wpcf7-submit, #enroll_on_course input.wpcf7-form-control.wpcf7-submit:focus, #enroll_on_course input.wpcf7-form-control.wpcf7-submit:hover {outline: none !important;}
+
+
+   .name_Courses::first-letter {text-transform: lowercase;
+  }
+.borderTwo {display: inherit;padding: 20px;background: #fff5;border-radius: 10px;margin: 0;height: auto;}.borderOne {display: inline-block;padding: 20px;background:#fff3;border-radius:10px;}.BlueROW {border-radius: 8px 8px 0 0;background: #15acf2;overflow: hidden;}.slideTitle {padding: 20px 20px 0 20px;}.p_Courses {font-weight: 400;font-size: 20px;color: #fff;margin-bottom: 0;}.name_Courses {font-weight: 400;font-size: 30px;color: #eaff00;margin-bottom: 0;line-height: 30px;display: block;padding-bottom: 8px;}.p_courses, .p_date_title {line-height: 20px;font-size: 12px !important;color: #fff;margin-bottom: 0;padding-top: 5px;}.slideInfoTopLeft {width: 50%;position: relative;display: inline-block;float: left;text-align: center;}.slideInfoTopRight {width: 50%;position: relative;display: inline-block;float: right;text-align: center;}.ShowShedulle {overflow: hidden;background: #c5ecfb}.name_courses {font-size: 24px !important;color: #eaff00;margin-bottom: 0;padding-bottom: 10px;}.shedulle_text {margin-bottom: 0;text-align:  center;color: #575656;padding: 10px 0;}/*.name_Courses {border-bottom: 1px solid #eaff00;}*/.totalTitle {margin-bottom: 0;color: #ec008c;font-size: 12px;text-align: center;line-height: 20px;padding-top: 30px;padding-bottom: 10px;}/* .images_column {column-count: 6;column-gap: 0;} */.pickImagesBOX {background: #fff}#clockdiv div {display: inline-block;}
+#clockdiv span.smalltext {font-size: 14px; color: #eaff00}
+.pickImagesBOX {background: url(/wp-content/uploads/2018/11/angle_final.jpg) top center no-repeat;}
+
+  @media (max-width:768px) {.p_date_title {font-size: 16px !important;line-height: 20px !important;font-weight: 400;}.p_courses {font-size: 16px !important;line-height: 20px !important;font-weight: 400;}.name_courses {  font-size: 16px !important;line-height: 20px !important;font-weight: 400;}#clockdiv span.smalltext {font-size: 10px;}.slideTitle {padding: 10px 20px 0 20px;}.borderOne {padding:0;border:0;margin: 0;margin-top: 0px;background: none;}  .name_Courses {font-size: 22px;}  .newBannerSlide {line-height:22px !important;}  #clockdiv span:first-child {font-size: 17px !important;}    .slideInfoBottom  p{font-size: 12px !important;}
+
+  }
+
+
+/*Слайдер карусель */
+  .sale-slide {background: url(/wp-content/uploads/2018/11/bg-slider-final-editon.jpg)}
+/* Конец Слайдер карусель */
+
+/*В результате курса вы:*/
+.result-of-the-course h3 {padding: 0px !important;}
+
+.result-of-the-course .list-group-item:after { content: ""; width: 60px; height: 60px; position: absolute;left: 0; top: 7px;}
+.result-of-the-course .list-group-item {background: none !important; border: none; padding-left: 70px; justify-content: left !important; display: grid; text-align: left; min-height: 65px;}
+/*Конец В результате курса вы:*/
+
+/*Преподаватель курса:*/
+ @media (min-width: 768px) {
+ .solo-prepod-img {text-align: right;}
+ .social_prepod_block {text-align: right;padding-top: 30px; margin: 0 auto;}
+}
+
+.prepod-course img {max-width:250px;}
+
+  .prepod-course .data {  background-position-x: 0%;  background-position-y: 0%;  background-repeat: no-repeat;  background-size: 90%}
+  /*.prepod-course {background: #fff;}*/
+  .prepod-course .prepod_descr {color: #959595;}
+  .prepod-course .prepod_descr {padding-bottom: 20px;}
+  .prepod-course .data { margin:  0 auto;display: inline-block;}
+  .prepod-course .rotate-anim img {vertical-align:   middle;}
+  @media (max-width: 768px) {
+  .prepod-course .data {background-size: 40%;background-position-x: 9px !important;background-position-y: 11px !important;margin-bottom: 20px;
+   }
+  .prepod-course .data img {width: 45%;float: left;}
+  .social_prepod_block {text-align: left;}
+  }
+
+
+.social_prepod_block {margin-top: 0px;width: 50%;position: relative;}
+.social_prepod {display: inline-block;}
+/*Конец Преподаватель курса:*/
+
+
+
+/*Старт Список Преподаватель курса:*/
+.prepod-course .senin {background: url(/wp-content/uploads/2018/03/muzhik-min-1.png)}
+.prepod-course .pura {background-image: url(/wp-content/uploads/2018/03/pyure-min-1.png)}
+.prepod-course .pilugin {background-image: url(/wp-content/uploads/2018/05/pilyugin-min.png) !important;}
+.prepod-course .stepanenko {background-image: url(/wp-content/uploads/2018/03/stepanenko-min-2.png) !important;}
+.prepod-course .blajivskii {background-image: url(/wp-content/uploads/2019/03/blajivskii.png) !important;}
+.prepod-course .kalashnik {background-image: url(/wp-content/uploads/2018/03/prepod-kalashnik.png) !important;}
+.prepod-course .koskor {background-image: url(/wp-content/uploads/2018/03/koskor-min.png) !important;}
+.prepod-course .kostrova {background-image: url(/wp-content/uploads/2018/09/prepod.png) !important;}
+.prepod-course .stupachenko {background-image: url(/wp-content/uploads/2018/03/muzhik-2-min.png) !important;}
+.prepod-course .javtushenko {background-image: url(/wp-content/uploads/2018/03/kolya-min.png) !important;}
+.prepod-course .seredina {background-image: url(/wp-content/uploads/2018/03/lada-min.png) !important;}
+.prepod-course .klimber {background-image: url(/wp-content/uploads/2018/12/prepod_1_2.png) !important;}
+.prepod-course .kostykevich {background-image: url(/wp-content/uploads/2018/12/prepod_2_2.png) !important;}
+
+/*Конец Список Преподаватель курса:*/
+
+
+/*Пропустили занятие?*/
+.leave-lesson {background: #15acf2;}
+.recordTitle {font-size: 40px;color: #eaff00;line-height: normal;}
+.recordDescr {font-size: 20px;padding-top: 20px;line-height: normal;color: #fff;font-weight: 300;}
+
+@media (max-width:768px){
+  .recordTitle{  font-size: 30px;  text-align: center;  padding-bottom: 20px;          }
+  .recordDescr{font-size: 16px;   text-align: center;}
+}
+
+
+/*Конец Пропустили занятие?*/
+
+/*Учеба в Level Up — это:*/
+.study-levelup .list-group-item {background: none !important; border:none !important;padding-left: 70px;}
+.study-levelup .list-group-item:after {content: ""; width: 60px; height: 60px; position: absolute; left: 0; top: 19px; background-repeat: no-repeat; background-size: contain;}
+/*Конец Учеба в Level Up — это:*/
+
+
+/*Зачем изучать основы дизайна?*/
+.who-do-you-want-study {background: #f1f5f9;}
+.button-study {padding-top: 40px;padding-bottom: 50px;}
+.who-do-you-want-study.course {padding-bottom: 0 !important}
+
+@media (max-width:768px){
+.who-do-you-want-study .row {flex-direction: column-reverse;}
+}
+/*Конец Зачем изучать основы дизайна?*/
+
+
+
+/*Видео презентация курса*/
+.VideoButton img { box-shadow: none; border: 0; max-width: 100%; display: block; line-height: 100px; top: calc(50% - 32px); left: 3px;
+  position: relative; z-index: 999; background: url(/wp-content/uploads/2018/05/music-player-play.png);  background-position-x: 0%;  background-position-y: 0%;  background-repeat: repeat;  background-size: auto auto;
+  background-size: 30px 30px; background-repeat: no-repeat; background-position: center;}
+.VideoButton::before {content: ''; width: 140px; height: 140px; border-radius: 50%; border: 2px solid #fff; opacity: .1; position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); -webkit-animation: pulsingVideo 1s ease-in-out infinite alternate; animation: pulsingVideo 1s ease-in-out infinite alternate;}
+.VideoButton { text-align: center; line-height: 100px; border: 2px solid #fff; width: 100px; height: 100px; text-align: center; margin: 0 auto; margin-top: 0px; margin-bottom: 0px;
+  margin-top: 0px; margin-bottom: 0px; line-height: 100px; border-radius: 50px; top: 22px; position: relative; transition: .3s ease-in-out; }
+
+img.ult-align-center {margin: 0 auto;}
+
+
+@keyframes pulsingVideo {
+  0% {-webkit-transform: translate(-50%, -50%) scale(0.9);transform: translate(-50%, -50%) scale(0.9); }
+  60% {-webkit-transform: translate(-50%, -50%) scale(1);transform: translate(-50%, -50%) scale(1); }
+  100% {-webkit-transform: translate(-50%, -50%) scale(0.8);transform: translate(-50%, -50%) scale(0.8);z-index: 1; }
+}
+
+.video-present { background-position-x: center; background-image: url(/wp-content/uploads/2018/06/BG-Homepage-Yankula-Anton-Black-1.jpg) !important;}
+.VideoButton:hover {border: 2px solid #15acf2;border-top-color: rgb(21, 172, 242);border-right-color: rgb(21, 172, 242);border-bottom-color: rgb(21, 172, 242);border-left-color: rgb(21, 172, 242);
+background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform: scale(1.1); transform: scale(1.1); cursor: pointer;}
+
+.video-present .row {min-height: 400px;}
+.video-present h2 {color: #fff;text-align: center;}
+
+.video-present .text-bottom {padding-top: 50px;color: #f3f3f3;text-align: center;}
+/*Конец Видео презентация курса*/
+
+
+/*Карусель Преподаватель */
+.prepod-carusel {background: #fff;}
+.prepod-carusel img {max-width:250px;}
+/*Конец Карусель Преподаватель*/
+
+/*ФОТОГАЛЛЕРЕя*/
+.grid, .grid2 { display: grid; grid-template-columns:repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); grid-gap:10px;}
+.grid div:nth-child(1) {grid-column: 1/3;grid-row: 1/3; }
+.grid2 div:nth-child(2) {grid-column: 2/4;grid-row: 1/3;}
+.grid img,.grid2 img {max-width: 100%;}
+.grid div, .grid2 div {border-radius:10px; }
+
+
+.student-portfolios3d .img1 {background: url(/wp-content/uploads/2018/10/Untitled-1.jpg);}
+.student-portfolios3d .img2 {background: url(/wp-content/uploads/2018/10/Untitled-2.jpg);}
+.student-portfolios3d .img3 {background: url(/wp-content/uploads/2018/10/Untitled-3.jpg);}
+.student-portfolios3d .img4 {background: url(/wp-content/uploads/2018/10/Untitled-4.jpg);}
+.student-portfolios3d .img5 {background: url(/wp-content/uploads/2018/10/Untitled-5.jpg);}
+.student-portfolios3d .img6 {background: url(/wp-content/uploads/2018/10/Untitled-6.jpg);}
+.student-portfolios3d .img7 {background: url(/wp-content/uploads/2018/10/Untitled-7.jpg);}
+.student-portfolios3d .img8 {background: url(/wp-content/uploads/2018/10/Untitled-8.jpg);}
+.student-portfolios3d .img9 {background: url(/wp-content/uploads/2018/10/Untitled-9.jpg);}
+.student-portfolios3d .img10 {background: url(/wp-content/uploads/2018/10/Untitled-10.jpg);}
+.student-portfolios3d .img11 {background: url(/wp-content/uploads/2018/10/Untitled-11.jpg);}
+.student-portfolios3d .img12 {background: url(/wp-content/uploads/2018/10/Untitled-12.jpg);}
+
+.student-portfolios3d div {background-size: cover !important;}
+.wrapper-grid div { background: #15acf2; padding: 1em; border-radius: 10px; color: #fff; }
+
+@media (min-width: 992px) {
+  .wrapper-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; grid-gap: 1em; }
+   .wrapper-grid div:nth-child(2) { grid-column: 2/4; grid-row: 1/3; }
+  .wrapper-grid div:nth-child(4) { grid-column: 4/6; grid-row: 1/3; }
+}
+
+@media (max-width: 992px) {
+  .wrapper-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 1em; }
+  .wrapper-grid div:nth-child(1) { grid-column: 2/4; grid-row: 1/3; }
+  .wrapper-grid div:nth-child(11) { grid-column: 1/3; grid-row: 4/6; }
+}
+/*ФОТОГАЛЛЕРЕя*/
+
+.reviews-row {box-shadow: 0 4px 10px 0 rgba(0,0,0,.1);padding: 10px;margin: 10px;}
+.reviews-row {box-shadow: 0 4px 10px 0 rgba(0,0,0,.1);padding: 10px;margin: 10px;display: grid;grid-template-columns: 1fr 2fr;grid-template-rows: 2fr;}
+.reviews_photo {grid-row: 1/3;}
+.reviews_photo img {border-radius: 50%;width: 80%;margin: 0 auto;}
+
+.modal .reviews-row {box-shadow: none; margin:0; padding:0;}
+.reviews_descr .abc {padding: 20px 0;}
+.reviews_name {font-size: 18px;}
+.btn-reviews {background: none;color: #15acf2;border: none;padding: 0;}
+.btn-reviews:hover {background: none;color: #4c4c4c;border: none;padding: 0;}
+.btn-reviews:focus {box-shadow: none;}
+.btn-reviews:active {background: none;color: #4c4c4c;border: none;outline: none;}
+
+/* Конец ФОТОГАЛЛЕРЕя*/
+
+.eng-programs .accordion {max-width: 100% !important; }
+
+
+.sub-menu {display:none; transition: 0.2s all}
+
+/* .menu-item-491:hover .sub-menu, .sub-menu:hover .sub-menu {display:inline-block !important;} */
+.nav-link:hover {color: #15acf2 !important;}
+.sub-menu {font-size: 12px;}
+.nav-link {padding: 5px !important;}
+
+.menu-item-491 {width: 200px}
+
+.sub-menu { background: url(/wp-content/uploads/2018/05/BG-Kirpichik.jpg); }
+.menu-item:hover .sub-menu, .sub-menu:hover .sub-menu {display: grid !important;position: absolute;left: 0;width: 100%;top: 106px;grid-template-columns: 1fr 1fr 1fr;padding: 20px; }
+
+.navbar { padding: 0; }
+.navbar-dark .navbar-nav > li > .nav-link {padding: 15px 20px !important; position: relative;}
+
+
+.last-list {padding-bottom:40px;}
+
+.qa h5{color: #fff}
+
+@media (min-width:768px){
+.loading-padding-bottom {padding-bottom:30px;}
+.navbar-dark .navbar-nav > li > .nav-link:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 20px;
+  width: 1px;
+  border-right: 1px dotted #41444d;
+  top: 50%;
+  transform: translateY(-50%);
+}
+}
+
+
+.course_details.mobile .col-sm-12 {text-align: center;}
+.course_details.mobile .list-group {display: inline-block;position: relative;text-align: left;}
+
+@media (max-width:768px){
+.course_details .list-group {margin-bottom: 20px;}
+}
+
+.english-dtls h3 {font-size: 27px !important;}
+
+
+@media (min-width:769px){
+.prepod-carusel .carusel-img {text-align: right;}
+.prepod-carusel .carusel-img img{display: inline-block;}
+}
+
+.list-img-icon-10::after {background-size: contain;}
+
+/*Unreal engine UE4*/
+
+.about-course-ue4 {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-Engine-Robot-New.jpg?id=34510); background-position: center !important;
+background-repeat: no-repeat !important; background-size: cover !important;}
+
+.about-course-ue4-2 {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-Engine-Girl-1.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover;min-height: 450px; }
+@media (max-width: 768px) {
+.about-course-ue4 {background: #f7f7f7 !important;}
+}
+
+.black-padding-box {background: #121212bd;padding: 20px 30px;border-radius: 20px;font-size: 16px;font-weight: 300;}
+
+.about-course-ue4-2 {display: flex;}
+.about-course-ue4-2 .container {align-self: center;}
+
+
+.polesnie-ue4 {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-For-Who.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+
+
+.polesnie-ue4.course h3 {padding: 0 0 5px 0 !important; }
+
+.polesnie-ue4.course h3 {color: #eaff00 !important;}
+
+.ue-4-wdy {background-image: url(/wp-content/uploads/2018/06/BG-Why-Unreal.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: top;background-size: cover}
+@media (max-width: 768px) {
+  .ue-4-wdy {background-position: right !important;}
+}
+
+
+.ue-4-rofc {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-Engine-Game.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+
+
+
+.ue-4-rofc .list-group-item:after { background-size: contain;}
+.ue-4-rofc .list-group-item {margin: 10px 0;}
+.ue-4-rofc .sg-show-popup {margin-top: 30px;}
+
+.ue-4-rofc .mb-1 {color: #fff;}
+
+
+.co-ue-4 .video-1-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-Inventory.svg) no-repeat;}
+.co-ue-4 .video-2-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-Char.svg) no-repeat;}
+.co-ue-4 .video-3-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-Physics.svg) no-repeat;}
+.co-ue-4 .video-4-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-Interface.svg) no-repeat;}
+.co-ue-4 .video-5-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-C-plus.svg) no-repeat;}
+.co-ue-4 .video-6-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-Inventory.svg) no-repeat;}
+.co-ue-4 .rotate-anim {background-size: 114px 114px;}
+
+.co-unity .video-unity-1 {background: url(/wp-content/uploads/2018/08/Icon-Unity.svg) no-repeat;}
+.co-unity .video-unity-2 {background: url(/wp-content/uploads/2018/08/Icon-Unity-C.svg) no-repeat;}
+.co-unity .video-unity-3 {background: url(/wp-content/uploads/2018/08/Icon-Unity-OOP.svg) no-repeat;}
+.co-unity .video-unity-4 {background: url(/wp-content/uploads/2018/03/Icon-Circle-CorelDraw.png) no-repeat;}
+.co-unity .video-unity-5 {background: url(/wp-content/uploads/2018/06/Icon-UE-Char.svg) no-repeat;}
+.co-unity .video-unity-6 {background: url(/wp-content/uploads/2018/06/Icon-UE-Interface.svg) no-repeat;}
+.co-unity .rotate-anim {background-size: 114px 114px;}
+
+
+.co-ue-4 {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-City-White-1.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+
+
+.pc-ue-4 {background-image: url(/wp-content/uploads/2018/06/UE4-BG-Teacher.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+
+
+/* Конец Unreal engine UE4*/
+
+
+.about-course-unity {background-image: url(/wp-content/uploads/2018/08/BG-Unity-First-Screen.jpg); background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 450px}
+
+.about-course-unity-2 {background-image: url(/wp-content/uploads/2018/08/BG-Unity-2Screen-Girl.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover;min-height: 450px;
+}
+@media (max-width: 768px) {
+.about-course-unity {background: #f7f7f7 !important;}
+}
+
+
+.about-course-unity-2 {display: flex;}
+.about-course-unity-2 .container {align-self: center;}
+
+
+.polesnie-unity {background-image: url(/wp-content/uploads/2018/08/BG-Unity-Dark.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+
+
+.polesnie-unity.course h3 {padding: 0 0 5px 0 !important; }
+
+.polesnie-unity.course h3 {color: #eaff00 !important;}
+
+
+
+.unity-rofc {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-Engine-Game.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+
+
+
+.unity-rofc .list-group-item:after { background-size: contain;}
+.unity-rofc .list-group-item {margin: 10px 0;}
+.unity-rofc .sg-show-popup {margin-top: 30px;}
+
+.unity-rofc .mb-1 {color: #fff;}
+
+.co-unity {background-image: url(/wp-content/uploads/2018/08/BG-Unity-Boomsday-White.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+
+
+.leave-lesson {background: url(/wp-content/uploads/2018/11/video_record_pc.png); background-position: 0%; background-size: auto auto; min-height: 300px; display: flex;
+  align-items: center; justify-content: center; background-size: cover; background-position: center;}
+
+@media (max-width: 768px) {
+    .leave-lesson {background: url(/wp-content/uploads/2019/01/camera_768x720.png )!important;background-position-x: 0% !important;background-position-y: 0% !important;background-size: auto auto;min-height: 400px !important;background-position-y: bottom !important;align-items: start !important;background-size: cover !important;}
+}
+
+/*  APPLE*/
+
+.apple-mac .mac-1 {background: url(/wp-content/uploads/2018/03/Icon-Circle-Diploma.png) no-repeat;}
+.apple-mac .mac-2 {background: url(/wp-content/uploads/2018/03/Icon-Circle-Practice.png) no-repeat;}
+.apple-mac .mac-3 {background: url(/wp-content/uploads/2018/03/Icon-Circle-Discount.png) no-repeat;}
+
+.apple-mac .course_open-block p {padding-top: 20px;}
+
+/*КОНЕЦ  APPLE*/
+.why_do_you_want.javascript { background-position: center; height: 800px; }
+
+.testirovanie-po .list-group-item::after {top: 1px !important}
+
+.testirovanie-po .list-group-item {margin-bottom: 20px;}
+
+
+.iconRound2{ width: 100px; height: 100px; transform: translate(-50%, -50%); position: absolute; top: 135%; left: 24%; }
+span .five2,.one2,.two2,.three2,.four2 { display: block; position: absolute; width: 100%; height: 100%; -webkit-animation: run2 4s infinite ease-in-out; animation: run2 4s infinite ease-in-out; }
+
+.one2 { background: url("/wp-content/uploads/2018/05/Icon-Guru-4.png") no-repeat; -webkit-animation-delay: 3s; animation-delay: 3s; }
+.two2 { background: url("/wp-content/uploads/2018/05/Icon-Guru-3.png") no-repeat; -webkit-animation-delay: 2s; animation-delay: 2s; }
+.three2 { background: url("/wp-content/uploads/2018/05/Icon-Guru-2.png") no-repeat; -webkit-animation-delay: 1s; animation-delay: 1s; }
+.four2 { background: url("/wp-content/uploads/2018/05/Icon-Guru-1.png") no-repeat; }
+
+@-webkit-keyframes run2 {
+  0% {transform: translate(0%);}
+  25% {transform: translate(120%) scale(0.8);}
+  50% {transform: translate(120%, 150%);}
+  75% {transform: translate(0%, 120%) scale(0.8);}
+}
+@keyframes run2 {
+  0% {transform: translate(0%);}
+  25% {transform: translate(120%) scale(0.8);}
+  50% {transform: translate(120%, 120%);}
+  75% {transform: translate(0%, 120%) scale(0.8);}
+}
+
+.iconRound{ width: 100px; height: 100px; transform: translate(-50%, -50%); position: absolute; top: 128%; left: 55%; }
+span .five,.one,.two,.three,.four { display: block; position: absolute; width: 100%; height: 100%; -webkit-animation: run 4s infinite ease-in-out; animation: run 4s infinite ease-in-out; }
+
+.one { background: url("/wp-content/uploads/2018/05/Icon-Guru-8.png") no-repeat; -webkit-animation-delay: 3s; animation-delay: 3s; }
+.two { background: url("/wp-content/uploads/2018/05/Icon-Guru-7.png") no-repeat; -webkit-animation-delay: 2s; animation-delay: 2s; }
+.three { background: url("/wp-content/uploads/2018/05/Icon-Guru-6.png") no-repeat; -webkit-animation-delay: 1s; animation-delay: 1s; }
+.four { background: url("/wp-content/uploads/2018/05/Icon-Guru-5.png") no-repeat; }
+
+@-webkit-keyframes run {
+  0% {transform: translate(0%);}
+  25% {transform: translate(120%) scale(0.8);}
+  50% {transform: translate(120%, 150%);}
+  75% {transform: translate(0%, 120%) scale(0.8);}
+}
+@keyframes run {
+  0% {transform: translate(0%);}
+  25% {transform: translate(120%) scale(0.8);}
+  50% {transform: translate(120%, 120%);}
+  75% {transform: translate(0%, 120%) scale(0.8);}
+}
+
+
+.JavaScript .course_includes-block p {padding: 20px 0;}
+.JavaScript .second-row {padding-top: 20px;}
+
+/*Level Up — рассылка*/
+.email-subscribe {color:#fff;}
+.email-subscribe img{align-self: end;display: block;}
+.email-subscribe .form {padding: 40px 0;}
+
+
+.subscribe {padding: 30px 0 0 0;}
+.subscribe input[type="email"] {border: 1px solid #ffffff80 !important;border-radius: 50px;}
+.wpcf7-form .subscribe p {margin-bottom: 0px}
+.subscribe .qbtn {margin-top:0px !important;}
+.subscribe .container {padding: 0px;}
+.subscribe input::placeholder { color: #fff; }
+.subscribe input {color: #ffffffb3; height: 54px !important;}
+.subscribe .qbtn {padding: 9px 52px !important;font-size: 16px !important;}
+.subscribe  span.wpcf7-not-valid-tip {font-weight: normal; display: inline-block; position: absolute; right: 10px; background: #ff1569;
+  font-size: 12px;color: #fff;padding: 2px 5px;top: 0;border-radius: 0 10px 10px 0;border: none;outline: none;margin: 0px;}
+.subscribe > .container > .row > div {padding: 0px !important}
+.subscribe .wpcf7-not-valid-tip::before { content: ''; border: 11px solid transparent; border-right: 10px solid #ff1569; position: absolute; left: -21px; top: 0; }
+.subscribe input[type="email"] {text-align: center; padding: 0;}
+
+.email-subscribe .wpcf7-mail-sent-ok {display: inline-block;border: none; margin: 0;width: auto;background: green;font-size: 12px;}
+
+ .email-subscribe .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok::after {content: ''; border: 11px solid transparent; border-bottom: 10px solid #006c00; position: absolute; left: 0px; top: -21px;}
+
+
+@media (max-width: 992px) {
+  .email-subscribe > .container > .row {flex-direction: column-reverse;}
+  .email-subscribe .form {padding: 40px 20px;}
+  .subscribe input {margin-bottom: 10px;width: 100% !important;}
+  .subscribe span.wpcf7-not-valid-tip {top: -4px !important;}
+  .subscribe .ajax-loader {display: none !important;}
+}
+
+.subscribe input.wpcf7-form-control.wpcf7-submit:hover {background: #eaff00 !important; border: 1px solid #eaff00 !important; font-size: 16px !important; color: #4c4c4c !important;}
+/*Конец Level Up — рассылка*/
+
+
+/*консультацию по профориентации*/
+.consultation-block {padding: 40px 0;}
+.consultation-block p {padding: 0px !important;}
+.consultation-block h2 {color: #fff;text-align: center;}
+.consultation-block .title-2 {padding-top:10px !important;text-align: center;}
+.consultation .form_input_cf {width: 100%;border-bottom: 1px solid #fff6;}
+.consultation input::placeholder {color: #fff;}
+.consultation input {color: #ffffffb3;padding-left: 30px !important;width: 100% !important;}
+.consultation input.wpcf7-form-control.wpcf7-submit:hover {border: 1px solid #eaff00;}
+.consultation .submit_cf {padding: 20px 0px 0 0px !important;}
+.consultation .wpcf7-submit {width:  auto !important;}
+.consultation input.wpcf7-form-control.wpcf7-submit {background: #eaff00 !important;border: 1px solid #eaff00 !important;font-size: 16px !important;color: #4c4c4c !important;}
+.consultation  span.wpcf7-not-valid-tip {font-weight: normal; display: inline-block; position: absolute; right: 10px; background: #ff1569; font-size: 12px; color: #fff; padding: 2px 5px; top: 0; border: none;
+  outline: none; margin: 0px; }
+.consultation  span.wpcf7-not-valid-tip::before { content: ''; border: 11px solid transparent; border-right: 10px solid #ff1569; position: absolute; left: -21px; top: 0; }
+.consultation-block .wpcf7-mail-sent-ok {display: inline-block;border: none;
+  margin: 0;width: auto;background: green;font-size: 12px;width: 170px;color: #fff; bottom: auto !important;left: calc(50% - 85px);}
+.consultation-block .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok::after {content: '';border: 11px solid transparent;border-bottom: 10px solid #006c00;position: absolute;left: 0px;top: -21px;left: calc(50% - 11px);top: -21px;}
+.consultation .ajax-loader {display: none;}
+.consultation input.wpcf7-form-control.wpcf7-submit {padding: 9px 40px !important;}
+/*Конец консультацию по профориентации*/
+
+
+/*Все курсы */
+.all-courses .course_card_block{box-shadow: 0 10px 30px rgba(82,106,194,.28);transition: box-shadow .5s ease-out;margin-bottom: 25px;}
+/*Конец Все курсы*/
+
+
+.tabs_courses .nav-tabs .nav-link { padding: 14px 0 !important; font-size: 16px !important; flex-grow: 1; text-align: center; }
+.nav-tab {display: flex;}
+
+.tabs_courses .nav-tabs .nav-link.active {color: #15acf2 !important;}
+.tabs_courses .nav-tabs .nav-link {color: #4c4c4c;}
+.tabs_courses.course {padding-bottom: 0px !important;}
+
+.course_card_title {min-height: 80px;display: grid;align-items: center;}
+#courses_schedulle_tbl > tbody > tr > td.title > a {position: relative; font-size: 16px; font-weight: 600;white-space: nowrap;}
+@media (min-width: 992px ){.sc-table td:first-child span {padding-left: 80px;}}
+/*Табы курсов*/
+
+/*Конец Табы курсов*/
+
+
+
+
+
+/*Страница О нас*/
+
+/*Блок заголовок*/
+.title_page {color: #fff;}
+@media (max-width: 768px) {.title_page {text-align:center;padding-top:39px;}}
+@media (min-width: 768px) {.title_page {color: #fff; font-size: 62px; text-align:center;}}
+/*End Блок заголовок*/
+
+
+
+/*START Наш опыт работы*/
+.p_our_skill_works {color: #fff;font-weight: 300;position: relative;}
+.title_our_skill_works {color:#fff;}
+@media (max-width: 768px) {.title_our_skill_works {text-align:left;}}.our_skill_works_block {padding-top:30px !important;}
+@media (min-width: 768px) {.title_our_skill_works {text-align:left;} .our_skill_works_block {padding-top: 69px !important;} }
+@media (min-width: 992px) { .p_our_skill_works {padding-bottom: 180px;}}
+@media (min-width: 768px) and (max-width: 992px) { .p_our_skill_works { padding-bottom: 64px; } }
+
+/*END Наш опыт работы*/
+
+
+.p_our_skill_works {padding-top: 10px;}
+
+/*START Миссия Level Up*/
+.our_mission_block {overflow: visible !important;}
+
+@media (min-width: 768px) {
+  .bg_blue_gradient {width: 80%;margin: 0 auto;top: -150px;}
+  .title_mission_blue_box {color: #fff;padding-top: 40px;text-align: center;}
+  .p_mission_blue_box {line-height: normal;padding-top: 20px;width: 66%;margin: 0 auto;text-align: center;font-size: 20px;color: #fff;font-weight: 300;padding-bottom: 40px;}
+  .p_mission {width: 80%; position: relative; }
+  .vc_row_mission {top: -30px;padding-bottom:59px;}
+}
+
+@media (max-width: 768px) {.p_our_skill_works {color: #fff;font-weight: 300;padding-bottom: 150px;}.bg_blue_gradient.our_mission {top: -150px;width: 90%;margin: 0 auto;}.title_mission_blue_box {padding-top: 30px;color: #fff;}.p_mission_blue_box{padding-bottom: 20px;color: #fff;}.bg_blue_gradient.our_mission div.vc_column-inner {padding: 0 0 0 30px;}.vc_row_mission {margin-top: -120px !important;padding-bottom: 20px !important;}
+}
+/*END Миссия Level Up*/
+
+/*START Готовим специалистов*/
+.education-way::before{display: block;top: 2px;position: relative;float: left;font-family: 'FontAwesome';color:#fff;font-weight: normal;content: '\f0da';font-size: 14px;vertical-align: middle;width: 15px;text-align: center;}
+.education-way{color:#fff;font-weight:300;padding-bottom: 10px;}
+
+@media (min-width: 768px) { .vc_row_education-way {padding-top: 80px;padding-bottom: 70px;} }
+@media (max-width: 768px) {.vc_row_education-way {padding-top:20px !important;}}
+/*END Готовим специалистов*/
+
+/*START Наши преподаватели*/
+@media (min-width: 768px) {.vc_row_prepod {padding-top: 80px;padding-bottom: 80px;}}
+@media (max-width: 768px) {.vc_row_prepod {padding-top: 10px;padding-bottom: 20px !important;}}
+
+.p_prepod {color: #fff;font-weight: 300;}
+/*END Наши преподаватели*/
+
+
+/*START Кураторы наших курсов*/
+@media (min-width: 768px) {.vc_row_kurator {padding-top: 80px !important;padding-bottom: 80px !important;}}
+@media (max-width: 768px) {.vc_row_kurator {padding-top: 20px !important;padding-bottom: 20px !important;}}
+/*END Кураторы наших курсов*/
+
+/*START Первая работа выпускников*/
+.title_vipusknik {color:#fff;}
+.p_vipusknik {color:#fff;}
+@media (min-width: 768px) {.vc_row_vipusknik {padding-top: 80px !important;padding-bottom: 80px !important;}}
+@media (max-width: 768px) {.vc_row_vipusknika {padding-top: 20px !important;padding-bottom: 20px !important;}.vc_row_vipusknik { padding-bottom: 30px !important;padding-top: 30px !important;}}
+/*END Первая работа выпускников*/
+
+
+/*START Комфортная инфраструктура*/
+.title_infrastruct {color:#fff;}
+.p_infrastruct { color: #fff;font-weight: 300;}
+@media (min-width: 768px) {.vc_row_infrastruct {padding-top: 80px !important;padding-bottom: 80px !important;}}
+
+@media (max-width: 768px) {
+.vc_row_infrastruct {}
+}
+/*END Комфортная инфраструктура*/
+
+
+
+.achivments img {width:60px!important;}
+
+
+
+
+/*START Достижения, которыми мы гордимся*/
+.achivments div.icon_list_icon img {width:60px;}
+
+
+
+@media (max-width: 768px) {
+.title_achivments { text-align: center; }
+.vc_row_infrastruct {padding-top: 30px !important;} }
+
+
+@media (min-width: 768px) {
+.title_achivments {text-align:center; }
+.vc_row_achivments{ padding-bottom:50px;}
+}
+
+
+
+.achivments ul.smile_icon_list {padding-left:0px;}
+.achivments div.icon_description_text {color:#fff;}
+
+/*END Достижения, которыми мы гордимся*/
+
+
+
+
+@media (min-width: 768px) {    .title_partners {text-align:center;font-size: 26px; line-height: 30px;}    .p_partners   {text-align:center;font-size: 20px !important;}    .welcome_text {font-size: 35px;line-height: 50px;}
+}
+
+@media (max-width: 768px) {     .title_partners   {text-align:center;font-size: 22px !important;line-height: 30px;}     .p_partners   {text-align:center;}     .welcome_text {font-size:20px;}
+}
+
+.aboutus-block {padding: 100px 0;}
+
+.aboutus-block2 {top: -100px;position: absolute;width: 100%;}
+
+
+.bg-au1 {background-image: url(/wp-content/uploads/2018/09/AboutUs-BG-1.jpg?id=38437) !important;}
+.aboutus-block.bg-au1  {position: relative;}
+.welcome_box {text-align: center;}
+.container.mission {padding-top: 140px;}
+.title_partners {padding-bottom: 31px}
+.aboutus-btn {padding-top: 30px;}
+.p_mission, .p_prepod, .p_kurator, .p_vipusknik, .p_infrastruct, .list-course, .p_our_skill_works {padding-top: 30px; position: relative;}
+
+.p_our_skill_works:before, .p_prepod:before, .p_vipusknik:before, .p_infrastruct:before, .list-course:before { position: absolute; content: ''; top: 14px; width: 60px; height: 1px; background: #fff9; }
+.p_mission:before, .p_kurator:before { position: absolute; content: ''; top: 14px; width: 60px; height: 1px; background: #d4d4d4; }
+
+.bg-au2 {background-image: url(/wp-content/uploads/2018/09/AboutUs-BG-2.jpg?id=38438) !important;}
+.bg-au3 {background-image: url(/wp-content/uploads/2018/09/AboutUs-BG-3.jpg?id=38439) !important;}
+.bg-au4 {background-image: url(/wp-content/uploads/2018/09/AboutUs-BG-4.jpg?id=38440) !important;}
+/*Конец Страница О нас*/
+
+.skillup .list-img-icon-blue {margin-bottom: 20px;}
+
+/* .p_about_us, .title_about_us {padding: 0 15px;} */
+@media (max-width: 768px) {
+.aboutus-block {padding: 40px 0;}
+.aboutus-block2 {top: -100px;}
+.p_our_skill_works {padding-bottom: 100px;}
+.container.mission {padding-top: 90px;}
+.title_our_skill_works, .title_kurator  {padding-top: 10px;}
+.p_mission, .bg-au2 .aboutus-btn , .vipusknik .aboutus-btn{padding-bottom: 40px;}
+}
+
+
+/*START Учебный IT-центр Level Up*/
+
+
+@media (min-width: 768px) {
+.title_about_us {text-align:center;}
+.p_about_us {width: 80%;margin: 0 auto;text-align: center;}
+}
+@media (max-width: 768px) {.title_about_us {text-align:left;padding-bottom: 15px;}}
+/*END Учебный IT-центр Level Up*/
+
+.text_course_1.inkubator_text {list-style: disc;}
+@media (max-width: 768px) {
+.text_course_1.inkubator_text {text-align: center;}}
+
+@media (min-width: 768px) {
+.inkubator-opisanie h2{text-align: center;}
+
+.bg-blue-room {background-image: url(/wp-content/uploads/2018/03/BG-Otkryt-nabor.jpg) !important;}
+
+.inkubator-offer p {color: #fff; text-align: center; line-height: normal; font-weight: 300;}
+}
+
+@media (min-width: 992px) {
+ .inkubator-offer p { font-size: 26px;}
+}
+
+.inkubator-offer h3 {color: #eaff00}
+.inkubator-solid-text {text-align: center;}
+
+.inkubator-1 {background: url(/wp-content/uploads/2018/06/Inkubator-Icon-1.png) no-repeat;}
+.inkubator-2 {background: url(/wp-content/uploads/2018/06/Inkubator-Icon-2.png) no-repeat;}
+.inkubator-3 {background: url(/wp-content/uploads/2018/06/Inkubator-Icon-3.png) no-repeat;}
+
+.circle-inkubator-number img {
+max-width: 50%;}
+.circle-inkubator-number {z-index: 2;}
+
+.stajirivka div {text-align: center;}
+.stajirivka .sg-show-popup {margin-top: 30px;}
+.stajirivka p {color: #fff;}
+.stajirivka .row {position: relative;}
+
+.dashed-inkubator {height: 1px;width: 70%;position: absolute;left: calc(50% - 35%);border-bottom: 1px dashed #fff;}
+
+@media (min-width:1200px){
+ .dashed-inkubator  {top: 86px;}
+.stajirivka p {padding-top: 20px;}
+}
+
+@media (min-width:992px) and (max-width:1200px){
+.dashed-inkubator {top: 72px;}
+.stajirivka p {padding-top: 20px;}
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+  .dashed-inkubator {top: 52px;}
+.stajirivka p {padding-top: 20px;}
+}
+
+@media (max-width:768px) {
+  .circle-inkubator-number {overflow: hidden;}
+  .circle-inkubator-number img {max-width: 80px;float: left;}
+  .stajirivka p { color: #fff;align-self: center;text-align: left;}
+  .dashed-inkubator {display: none;}
+  .circle-inkubator-number {padding-bottom: 15px;display: grid;grid-template-columns: minmax(100px, 100px) 1fr;align-self: center;}
+.stajirivka div.col-12:nth-child(3) {padding-bottom: 0px; }
+}
+
+.prilojeniya {border-radius: 10px;width: 150px;margin: 5px;}
+
+.prolozhenie-descr {padding: 20px 0;}
+
+.inkubator-solid-text h4 {padding: 0 20px;}
+
+/*Контакты*/
+.managers {background-color: #f5f5f5;}
+.manager-photo.artem { line-height: 0; background: url(/wp-content/uploads/2018/12/artemiy-contacts.jpg) no-repeat;
+  background-size: 100% 200%; background-position: bottom center; }
+.manager-photo.artem:hover { background: url(/wp-content/uploads/2018/12/artemiy-contacts.jpg) no-repeat;
+  background-size: 100% 200%; background-position: top center; }
+
+.manager-photo.lesnyh { line-height: 0; background: url(https://levelup.ua/wp-content/uploads/2019/03/Anna_HR_full.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
+.manager-photo.lesnyh:hover { background: url(https://levelup.ua/wp-content/uploads/2019/03/Anna_HR_full.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
+
+.manager-photo.karpenko { line-height: 0; background: url(/wp-content/uploads/2018/12/karpenko-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
+.manager-photo.karpenko:hover { background: url(/wp-content/uploads/2018/12/karpenko-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
+
+.manager-photo.marina { line-height: 0; background: url(/wp-content/uploads/2018/12/marina-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
+.manager-photo.marina:hover { background: url(/wp-content/uploads/2018/12/marina-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
+
+.manager-photo.tatyna { line-height: 0; background: url(/wp-content/uploads/2018/12/tatyna-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
+.manager-photo.tatyna:hover { background: url(/wp-content/uploads/2018/12/tatyna-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
+
+.profile .name {color: #000000;font-size: 24px;text-align: center;}
+.profile .position {text-align: center;font-size: 16px;color: #adadad; padding: 0 12px; }
+.profile .description {padding:10px 30px 20px 30px;}
+.profile {background:#fff;}
+
+.img-social img {width: 30px;border-radius: 5px; box-shadow: 0px 0px 6px 0px rgba(0, 54, 79, 0.35);margin: 0 7px;}
+.img-social {display: inline-block;}
+.profile .social {text-align: center;display: inline-block;width: 100%;}
+.profile .position {padding-bottom: 10px;}
+.welcome {background: url(/wp-content/uploads/2018/05/Background-Light.jpg) }
+
+@media (max-width: 768px) {
+    .welcome .content {padding-bottom: 15px;display: grid;grid-template-columns: minmax(100px, 100px) 1fr;align-self: center;}
+    .welcome .content img {max-width: 80px;float: left;}
+}
+
+.titleNew{font-size:36px;line-height: 38px;}
+
+@media (max-width:700px){
+    .titleNew{font-size:28px !important;}.partnes-left {width: 40%;float: left;}
+    .partnes-right {width: 60%;float: right;}
+    .partnersTitle, .partnersDescr {text-align:left !important;padding-left:10px;}
+}
+
+
+.partnersTitle {font-weight: 600 !important;font-size: 21px !important;text-align: center;}
+.partnersDescr {font-size: 16px !important;line-height: 24px !important;text-align: center;}
+/*Конец Контакты*/
+
+.welcome .img {text-align: center;}
+@media (min-width: 768px) and (max-width: 1140px) {
+.welcome .img img { max-width: 80%; }
+}
+.titleNew {padding-bottom: 30px;}
+
+.profile .description {min-height: 300px}
+.jobs {background-image: url(/wp-content/uploads/2018/02/BG-Blog-Header.jpg);}
+
+/*.jobs h1 {font-size: 52px; color: #fff; text-align: center; font-weight: 300}*/
+.wantWork {color: #15acf2;font-size: 22px !important;line-height: 30px !important;}
+
+
+.programs-two-rows.jobs-like .list-group-item {border: none !important}
+
+@media (max-width: 992px) {
+  .prepod-course img {max-width:100%;}
+}
+
+/* 3d - Портфолио */
+.student-portfolios-3d { padding: 40px 15px !important }.student-portfolios-3d .wrapper-grid > div { background-size: 140%;background-position: center center; }.student-portfolios-3d .img1 {background: url(/wp-content/uploads/2018/10/Untitled-2.jpg);}.student-portfolios-3d .img2 {background: url(/wp-content/uploads/2018/10/Untitled-6.jpg);}.student-portfolios-3d .img3 {background: url(/wp-content/uploads/2018/10/Untitled-7.jpg);}.student-portfolios-3d .img4 {background: url(/wp-content/uploads/2018/10/Untitled-12.jpg);}.student-portfolios-3d .img5 {background: url(/wp-content/uploads/2018/10/Untitled-3.jpg);}.student-portfolios-3d .img6 {background: url(/wp-content/uploads/2018/10/Untitled-11.jpg);}.student-portfolios-3d .img7 {background: url(/wp-content/uploads/2018/10/Untitled-5.jpg);}.student-portfolios-3d .img8 {background: url(/wp-content/uploads/2018/10/Untitled-4.jpg);}.student-portfolios-3d .img9 {background: url(/wp-content/uploads/2018/10/Untitled-1.jpg);}.student-portfolios-3d .img10 {background: url(/wp-content/uploads/2018/10/Untitled-10.jpg);}.student-portfolios-3d .img11 {background: url(/wp-content/uploads/2018/10/Untitled-9.jpg);}.student-portfolios-3d .img12 {background: url(/wp-content/uploads/2018/10/Untitled-8.jpg);}
+@media (max-width: 768px) { }
+/* Конец - 3d - Портфолио */
+
+@media (max-width: 768px) {
+  .mpt {padding-top: 30px;}
+  .welcome img {width: 100%;border-radius: 50%;border: 5px solid #1212121a;}
+.welcome .aboutus-btn {padding: 10px 0 20px 0; }
+.welcome .aboutus-btn:last-child {padding: 10px 0 0px 0;}
+}
+
+@media (min-width: 768px) {
+.welcome img {width: 60%;border-radius: 50%;border: 15px solid #1212121a;text-align: center;}
+.welcome .aboutus-btn {text-align: center;}
+}
+
+
+
+@media (max-width: 768px) {
+.welcome .sg-show-popup {width: 100%;text-align: center;}
+.welcome .aboutus-btn {grid-column: 1/3;}
+.aboutus-block2 .col-10 { width: 100%; flex: 0 0 100%; max-width: 100%; }
+.p_mission_blue_box { padding-top: 12px; padding-bottom: 32px;}
+.title_achivments { padding-bottom: 20px; }
+.who-are-need-a-course h2 { padding-bottom: 50px; }
+}
+
+@media (min-width: 769px) {
+.home-news-slider.mobile {display: none;}
+.page-id-4007 .result-of-the-course {margin-top: -50px;}
+}
+
+@media (min-width: 769px) {
+.mobile {display: none !important;}
+}
+
+
+
+.mobile-home-slide-two { background-size: cover;background-position: center;background-repeat: no-repeat;display: flex !important;align-items: center;justify-content: center;position: relative; }
+
+
+
+ .mobile-home-slide-two img { max-width: 350px !important; margin: 0 auto; padding: 30px; }
+
+ .home-news-slider.mobile .tc {padding: 20px;margin-bottom: 40px;}
+
+
+/*Слайдер Скидка для тех, кто умеет планировать*/
+.home-desktop-slide-one{    background-repeat: no-repeat;background-image: url(/wp-content/uploads/2019/01/Android_dev_1920x660.jpg);background-size: cover;background-position: center;display: flex !important;align-items: center;justify-content: center;position: relative;
+}
+
+
+.home-desktop-slide-one .container {position: absolute;}
+.home-desktop-slide-one .row {padding: 40px}
+.home-desktop-slide-one a {margin-top: 40px}
+@media (min-width: 768px) and (max-width: 1400px) {
+  .home-desktop-slide-one .container img {max-width: 250px;}
+}
+
+
+/*Мобилка*/
+.mobile-home-slide-one {background: url(/wp-content/uploads/2019/01/Android_dev_480x500.jpg);background-size: cover;background-position: center;}
+
+ .mobile-home-slide-one img { max-width: 350px !important; margin: 0 auto; padding: 30px; }
+
+/*Конец Слайдер Скидка для тех, кто умеет планировать*/
+
+
+
+/*Слайдер Новогодний подарок 10 000 */
+.home-desktop-slide-two{    background-repeat: no-repeat;background-size: cover;background-position: center;display: flex !important;align-items: center;justify-content: center;position: relative;
+}
+
+
+.home-desktop-slide-two .container {position: absolute;}
+.home-desktop-slide-two .row {padding: 40px}
+.home-desktop-slide-two a {margin-top: 40px}
+@media (min-width: 768px) and (max-width: 1400px) {
+/*   .home-desktop-slide-two .container img {max-width: 250px;} */
+   .home-desktop-slide-two .row { margin-left: 120px; }
+}
+/*Конец Новогодний подарок 10 000 */  
+
+/*Открыт набор таблица*/
+.price-table-portfolios{font-size: 21px;color: #15acf2;font-weight: 400;}
+.price-table-portfolios-uah{  white-space: nowrap;font-size: 16px;color: #15acf2;font-weight: 300;}
+
+@media (max-width: 768px){
+.sc-table-responsive .tabletolist{text-align: center !important;}
+ .shadow-box a{font-size: 20px;color: #121212 !important;}   
+.price-table-portfolios-mob{font-size:20px;color:#15acf2;}.shadow-box img{        display: flex;    margin: 0 auto 10px auto;}
+.buttonSlider-nabor{    color:#15acf2 !important;    border-color: #15acf2 !important;
+}
+}
+
+.price-table-portfolios{    white-space: nowrap;}
+.price-now-bottom{padding-bottom: 30px !important;}
+
+.price-table-portfolios-uah{font-size: 16px;color: #15acf2;font-weight: 300;}
+ .price-new-top  {  text-align: center;     text-shadow: 0 0px 0px #e61876;color: rgba(0, 0, 0, .009);  font-size:12px !important; margin-bottom: 0 !important;   /*  display: none;*/
+  }
+
+  .price-new-bottom {  text-shadow: 0 0px 0px #e61876;color: rgba(0, 0, 0, .009);font-weight: 700;font-size:12px;padding-bottom:0px; /*   display: none;*/
+   }
+.price-new-bottom-q{    text-align: center;line-height: 15px;padding-top:15px;    padding-bottom: 15px;
+} 
+
+@media (min-width:900px){
+.zoom-fade, .price-new-top, .price-new-bottom {
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  -webkit-text-shadow: 0 30px 0px transparent;
+  -moz-text-shadow: 0 30px 0px transparent;
+  -ms-text-shadow: 0 30px 0px transparent;
+  -o-text-shadow: 0 30px 0px transparent;
+  text-shadow: 0 30px 0px transparent;
+  color: rgba(0, 0, 0, .009);
+  overflow: visible;
+}}
+@media (max-width:1000px){.zoom-fade, .price-new-top, .price-new-bottom{    color:#e61876 !important;}
+}
+.portfolios:hover .price-new-top, .portfolios:hover .price-new-bottom,#courses_schedulle_tbl tr:hover .price-new-top, #courses_schedulle_tbl tr:hover .price-new-bottom {
+  -webkit-text-shadow: 0 0px 0px #e61876;
+  -moz-text-shadow: 0 0px 0px #e61876;
+  -ms-text-shadow: 0 0px 0px #e61876;
+  -o-text-shadow: 0 0px 0px #e61876;
+  text-shadow: 0 0px 0px #e61876;
+}
+
+
+.table-price {white-space: nowrap;}
+.price-table-portfolios-mob {   
+display: inline-block !important;    font-size: 21px;color: #15acf2;padding-right: 5px;font-weight: 400;margin: 0;}
+.price-table-portfolios-uah {    display: inline-block !important;/*width: 50%;*/ }.price-new-bottom {white-space: nowrap;}.price-table-portfolios-uah-new {display: inline-block !important;}.price-table-portfolios-new {    display: inline-block !important;}
+
+
+
+
+.zoom-fade,.course_card_block .price-new-top,.course_card_block .price-new-bottom {
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -ms-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  -webkit-text-shadow: 0 30px 0px transparent;
+  -moz-text-shadow: 0 30px 0px transparent;
+  -ms-text-shadow: 0 30px 0px transparent;
+  -o-text-shadow: 0 30px 0px transparent;
+  text-shadow: 0 30px 0px transparent;
+  color: rgba(0, 0, 0, .009);
+  overflow: visible;
+}
+@media (max-width:1000px){.zoom-fade,.course_card_block .price-new-top,.course_card_block .price-new-bottom{    color:#e61876 !important;}
+}
+.course_card_block:hover .price-new-top, .course_card_block:hover .price-new-bottom {
+  -webkit-text-shadow: 0 0px 0px #e61876;
+  -moz-text-shadow: 0 0px 0px #e61876;
+  -ms-text-shadow: 0 0px 0px #e61876;
+  -o-text-shadow: 0 0px 0px #e61876;
+  text-shadow: 0 0px 0px #e61876;
+}
+
+/*Для блока акции on/off*/
+.course_card_block .buttonLight, .course_card_block .sg-show-popup {    margin-top: 5px !important;}
+/*Конец Открыт набор таблица*/
+
+
+.write-reviews {padding: 40px 0;}
+/*.popup-reviews {padding:0 40px;}*/
+
+
+
+
+
+.container-fluid.reviews-container {border-radius: 10px 10px 0 0 ;}
+
+/*
+BLOG*/
+
+.wpb_column.vc_column_container.col-12.col-sm-6.col-md-6.col-lg-6 {    padding-bottom: 30px;}
+.alignleft {display: inline;float: left;}
+img.alignleft {margin: 3px;}
+
+
+.single h3 {padding: 0px 0 5px 0 !important;}
+.wpb_wrapper h4, .single h4{     padding: 10px 0 5px 0 !important;}
+/*.single p {padding-bottom: 25px }*/
+.meetup-form p {padding-bottom: 0px !important }
+
+  .quoteb {font-style: italic;padding-left: 20px;border-left: 4px solid #15acf2;padding-top: 7px;padding-bottom: 7px;}
+.smile_icon_list .list-img-icon {width: 45px;display: block;margin: 0 auto;max-height: 100%!important;max-width: 100%!important;-webkit-border-radius: 0!important;border-radius: 0!important;-webkit-box-shadow: none!important;box-shadow: none!important;top: 50%;position: absolute;left: 50%;-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
+.block_info_reg {    padding-top: 30px;}.wpb_wrapper p {padding-bottom:10px;}
+.icon_description {    font-size: 16px !important;}
+
+
+.saleTop {text-transform: lowercase;}
+
+.saleRow {/*padding-bottom:30px;*/ display: none !important;}
+
+/* Новая цена на всех курсах  */
+.saleBottom {text-align: center;background: #eaff00;color: #4c4c4c;}
+.saleTop {font-weight: 500;color:#eaff00;display: inline-block;margin-bottom: 0 !important;}
+.saleRow {color: #eaff00;position: relative;display: inline-block;margin: 0 auto;}
+
+
+.saleRow.animate{-webkit-animation-name:ripple;animation-name:ripple;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-duration:5s;animation-duration:5s}
+
+@-webkit-keyframes ripple{0%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}10%{-webkit-transform:scale3d(.9,.9,.9) rotate3d(0,0,1,-3deg);transform:scale3d(.9,.9,.9) rotate3d(0,0,1,-3deg)}15%,25%,35%,45%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate3d(0,0,1,3deg);transform:scale3d(1.1,1.1,1.1) rotate3d(0,0,1,3deg)}20%,30%,40%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate3d(0,0,1,-3deg);transform:scale3d(1.1,1.1,1.1) rotate3d(0,0,1,-3deg)}50%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes ripple{0%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}10%{-webkit-transform:scale3d(.9,.9,.9) rotate3d(0,0,1,-3deg);transform:scale3d(.9,.9,.9) rotate3d(0,0,1,-3deg)}15%,25%,35%,45%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate3d(0,0,1,3deg);transform:scale3d(1.1,1.1,1.1) rotate3d(0,0,1,3deg)}20%,30%,40%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate3d(0,0,1,-3deg);transform:scale3d(1.1,1.1,1.1) rotate3d(0,0,1,-3deg)}50%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+
+
+.saleWrapper .wpb_wrapper {text-align:center;}
+.saleBottom2 {text-align: center;margin-top: -20px;font-weight: 200;font-size: 14px;}
+.saleTop {text-transform: lowercase;}
+
+.saleBottom .units {font-size: 12px;}
+@media (min-width:700px){
+.saleWrapper {padding-bottom: 20px;}
+}
+
+
+@media (max-width:700px){
+  .dtls_block {margin: 0 auto;margin-bottom: 0px;position: relative;width: 90%;}
+  .saleWrapper {padding-top:10px}
+}
+
+@media (min-width:998px){
+  .saleRow {padding-top: 20px; display: none !important}
+  }
+
+
+.meetup-form label {display: grid;grid-template-columns: minmax(20px, 20px) 1fr;align-items: center;}
+.meetup-form label input {  -moz-appearance: radio;appearance: border-radiusio;-webkit-appearance: radio;}
+
+
+ .meetup-form span.wpcf7-list-item {display: block !important;}
+ .ul-programs {padding: 20px 0}
+
+.sale-block {display:none;}
+
+
+#footer .wpcf7-mail-sent-ok {display: block;position: absolute;margin: 0 auto;width: 100% !important;text-align: center;z-index: 9999999;bottom: 5px;border: none !important;
+  background: green;font-size: 12px;color: #fff !important;bottom: auto !important;top: -1px;line-height: 36px;margin: 0 !important;border-radius: 7px; }
+
+
+#footer div.wpcf7 {position: relative;}
+.setting-position{position: relative;left: 18px;}
+
+.opendoor-slide img {margin: 0 auto;}
+
+.pt20 {padding-top: 20px;}
+
+.about-course h3::after{content: "";position: absolute;width: 50%;height: 1px;background: #15acf2;right: 0;top: 17px;}
+.about-course h3{text-align: center;font-weight: 500;}
+.about-course h3 span {color: #15acf2;background: #fff;z-index: 2; position: relative;}
+
+.mobile.who-are-need-a-course {text-align: center;}
+.mobile.who-are-need-a-course .course {background: #15acf2;clip-path: polygon(0 31%, 100% 0, 100% 100%, 0% 100%);padding-top: 150px; text-align: left;}
+.mobile.who-are-need-a-course img {max-width: 70%;margin-bottom: -200px;z-index: 2; position: relative;}
+.mobile.who-are-need-a-course .course{background: #15acf2;-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%); clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%); padding-top: 180px;}
+.mobile.who-are-need-a-course p {color: #fff; font-weight: 300;}
+
+
+
+
+@media (max-width:768px) {
+  .prepod-carusel .carusel-img:after {content: "";height: 1px;width: 100%;left: 0;border-bottom: 1px dashed #ddd;position: absolute;z-index: 1;top: 53px;}
+  .prepod-carusel  .carusel-img img {margin: 0 auto;}
+  .prepod-carusel .carusel-img img {z-index: 99;position: relative;}
+  .about-course h3 span::after {content: '';height: 20px;width: 10px;background: #fff;right: -10px;position: absolute;}
+}
+
+@media (max-width: 768px) {
+  .second-list-info {padding-top: 20px;}
+  .news-details .details {width: 80%;margin: 0 auto;padding-top: 20px;}
+  
+}
+
+
+.page-id-406 .result-of-the-course .list-group-item::before, .page-id-409 .result-of-the-course .list-group-item::before {display: none;}
+
+@media (min-width: 768px) {
+.patern-cicle-1 { top: -150px;overflow: hidden;left: 250px;width: 200px;height: 200px; position: absolute;opacity: 0.1; }
+.patern-cicle-2 { top: 250px;overflow: hidden;right: 250px;width: 200px;height: 200px;position: absolute;opacity: 0.1; }
+.footer-menu-title.mon span {color: #15acf2;}
+.footer-menu-third.mon span {color: #eaff00;}
+  .first-block-footer .fa {color: #eaff00;padding-right: 10px;font-size: 14px !important;}
+  .footer-place-adress {color: #eaff00;}
+  .footer-title-adress {color: #fff;font-size: 18px;vertical-align: middle;font-weight: 600;padding-top: 20px;padding-bottom: 10px;}
+  .list-contact.mon {padding: 0 !important;}
+  .adress-footer-2 {padding-top:  10px;}
+  .first-block-footer .fa {color: #eaff00;}
+  .footer-menu-third.mon span {color: #fff;}
+  .footer-place-adress {color: #fff !important;}
+  .phone-footer-first a {color: #eaff00 !important;}
+  .phone-footer-second a {color: #eaff00 !important;}
+  .footer-menu-title-post span, .footer-title-adress, .footer-menu-title.title3 {font-weight: 400;}
+}
+
+
+/*Новый футер МОБИЛКА*/
+
+@media (max-width: 768px) {
+   .footer-title-adress {color: #fff;font-size: 18px;vertical-align: middle;font-weight: 600;}
+.footer-menu-title.mon span {color: #15acf2;}
+.footer-menu-third.mon span {color: #eaff00;}
+  .first-block-footer .fa {color: #eaff00;padding-right: 10px;font-size: 14px !important;}
+  .footer-place-adress {color: #eaff00;}
+.footer-menu-title.mon { text-align: center; }
+.footer-menu-second.mon { text-align: center; }
+.footer-img, .first-block-footer {padding-left: 0 !important}
+.first-block-footer {display: grid; grid-template-columns: 1fr 1fr; }
+.footer-menu-title.mon {grid-column: 1/3;}
+.footer-menu-second.mon {grid-column: 1/3;}
+.footer-menu-third.mon {grid-column: 1; grid-row: 3;}
+.phone-footer-first {grid-row: 4;padding: 15px 0 25px 0;}
+.phone-footer-second {grid-row: 4;padding: 15px 0 25px 0 !important;grid-column: 2;}
+.footer-menu-third.mon {font-size: 14px;}
+.list-contact.mon {padding-top: 20px !important;}
+.list-contact.mon .footer-contacts {font-size: 14px; color:#fff;}
+.list-contact.mon .footer-contacts:hover {font-size: 14px;}
+.phone-footer-second {padding: 15px 0 0 0;}
+.phone-footer-first a, .phone-footer-second a { color: #fff !important; }
+.first-block-footer .text-light {display: block;padding-left: 20px;}
+.adress-footer-2 {grid-row: 5; grid-column: 2;}
+.adress-footer-1, .adress-footer-2 {font-size: 14px; grid-row: 6;padding-top: 10px;padding-bottom: 10px;}
+.footer-title-adress {grid-column: 1/3;text-align: center;grid-row: 5;color: #fff;font-size: 18px;vertical-align: middle;font-weight: 600;}
+
+.footer-img {text-align: center;}
+.footer-img a {float: none !important;}
+.menu3 {margin-top: 20px !important;}
+.footer-menu-third.mon span {color: #eaff00;display: block;margin-top: -10px;padding-left: 23px;}
+
+.footer-menu-third.mon, .list-contact.mon {line-height: 30px;}
+.footer-contacts {font-size: 16px;}
+.patern-cicle-1, .patern-cicle-2 {position: absolute;opacity: 0.2;}
+#footer {overflow: hidden;}
+.patern-cicle-1 {top: -150px;overflow: hidden;left: 250px;width: 200px;height: 200px;}
+.patern-cicle-2 {top: 250px;overflow: hidden;right: 250px;width: 200px;height: 200px;}
+.footer-post {z-index: 2;}
+#custom_html-3 {z-index: 2; position: relative; border-radius: 7px;padding-bottom: 40px;}
+ .footer-menu-title-post span, .footer-title-adress, .footer-menu-title.title3 {font-weight: 400;}
+ .footer-menu-title {font-weight: 400;}
+}
+.text-light.block {display: block}
+
+
+ /*Коенц Новый футер МОБИЛКА*/
+
+@media (min-width: 768px) {
+ .page-id-558 .list-group h3{line-height: 30px;}
+ .page-id-558 .list-group-title.tc {min-height: 66px;align-items: center;align-self: center;display: grid;}
+}
+
+.more-course-text {color: #eaff00;text-align: center;padding: 30px 0 10px 0;margin: 0 auto;}
+
+.speacker-grid {display: grid;grid-template-columns: 150px 1fr;align-items: center;grid-column-gap: 30px;padding: 0 10px;}
+
+@media (max-width: 768px) {
+.speacker-grid{grid-template-columns: 1fr;}
+.speacker-grid img {max-width: 40% !important;}
+.news-details { margin-bottom: 0px !important; }
+}
+.odinochnyy-slider-prepodovatel .cd-section.prepod-course.course p{padding-bottom:5px;}
+/*It conferation*/
+.slider.it-conf {height: 80vh;background: url(/wp-content/uploads/2019/01/banner-bez-daty.jpg);background-size: auto auto;background-size: cover;background-position: center;}
+
+.icons-inline-block {display: inline-block;}
+.icons-block {display: grid;grid-template-columns: minmax(40px, 40px) 1fr;text-align: left;margin: 0 auto;width: auto;}
+.icons-block div {padding-left: 10px;padding-bottom: 20px;font-size: 20px;color: #000 !important; }
+
+.icons-block img {top: 5px;position: relative;}
+.slider.it-conf .container, .slider.it-conf .row {height: 100%}
+
+
+
+.counters {background-image: linear-gradient(to right, #09a1ff , #00ccff);}
+.counters .stats-number {font-size: 48px !important; color: #fff;line-height: 40px;}
+.counters .p_counter_second_text {font-size: 28px;line-height: 30px;color: #fff;position: relative;padding-bottom: 10px;}
+.counters .p_counter_second_text::after {content: "";width: 30px;height: 1px;background: #e1e1e1cc;position: absolute;left: 0;bottom: 0;}
+.counters .counter_text {color: #fff;padding-top: 5px;}
+.counters .row:nth-child(3) {padding-top: 30px;}
+
+@media (max-width: 768px) {
+.counters .sector {padding-top: 40px;}
+}
+
+.about-conf p {margin: 15px 15px 0 15px;}
+.about-conf h4::after {content: "";background: #15acf2;height: 1px;width: 220px;position: absolute;bottom: -10px;left: calc(50% - 110px);}
+.about-conf h4 {position: relative;margin: 0 auto;margin-bottom: 20px;}
+
+.programs-conf .list-group-item::after {top: 20px;}
+.programs-conf .list-group-item{min-height: 95px;}
+
+.partners .col-sm {display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;text-align: center;}
+
+ .partners .element {border: 1px solid #f3f3f3;}
+.el17 {grid-column: 2/3;}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .partners .col-sm {display: grid;grid-template-columns: 1fr 1fr 1fr;text-align: center;}
+  .el17 {grid-column: auto;}
+}
+@media (max-width: 768px){
+ .partners .col-sm {display: grid;grid-template-columns: 1fr 1fr;text-align: center;}
+ .el17 {grid-column: auto;}
+
+}
+
+.partners h2 {text-align: center;color: #15acf2;}
+
+.whom-conf {background-image: url(/wp-content/uploads/2018/10/bf-conf-black.jpg?id=39114) !important;}
+
+.whom-conf p {color: #fff}
+.icons-block {align-items: center;}
+
+@media (min-width: 992px) {
+.whom-conf .icons-block {grid-template-columns: minmax(100px, 100px) 1fr;}
+}
+
+@media (max-width: 768px) {
+.whom-conf .icons-block {grid-template-columns: minmax(100px, 100px) 1fr;}
+}
+.whom-conf .icons-block div {padding-bottom:0px;}
+
+.news-block-reg a.sg-show-popup {color: #4c4c4c;
+}
+
+
+/*testing-skills course*/
+
+.testing-skills .row { display: grid; grid-template-columns: 25% 42% 33%; align-items: center; }
+  .testing-skills .row > h4:before { content: ""; font-family: FontAwesome; color: #fff;padding-right: 20px;
+background: url(/wp-content/uploads/2018/10/clock-1.svg); background-size: auto auto; width: 25px;
+height: 25px; position: absolute; overflow: visible; top: 0; left: 0; background-size: contain;top: 4px;}
+ .testing-skills .row > h4 {position: relative;padding-left: 40px;}
+ .testing-skills .row h4 {color: #fff}
+  .testing-skills .row > div:nth-child(2) { display: grid; grid-template-columns: 112px 1fr; align-items: center }.testing-skills .row > div:nth-child(2) img {padding: 10px;}
+  .testing-skills .row > div:nth-child(3) { position: relative; padding-left: 40px; }.testing-skills .row > div:nth-child(3):before { content: ""; font-family: FontAwesome; color: #fff;padding-right: 20px;
+background: url(/wp-content/uploads/2018/10/exam.svg); background-size: auto auto; width: 25px;
+height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; background-size: contain;top: 15px;} 
+
+
+
+.testing-skills .row > div:nth-child(3) p {color: #eaff00; font-weight: 200;}
+.testing-skills .row > div:nth-child(2) p {color: #fff; font-weight: 200;}
+ .testing-skills .row > div:nth-child(2) {border-left: 1px solid #ffffff4d;border-right: 1px solid #ffffff4d;}
+
+.testing-skills .row { min-height: 100px; border-top: 1px solid #ffffff4d; margin: 10px 0; position: relative; }
+
+.testing-skills .row:nth-child(1) {border-top:0px;}
+ .testing-skills .row img {border-radius: 50%}
+
+.audText span {font-size: 20px;}
+
+.testing-skills h2 {padding-bottom:0px !important;}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .testing-skills .row h4 {font-size: 18px}
+}
+
+
+@media (max-width: 768px) {
+.testing-skills .row > div:nth-child(2) {border: none !important}
+.testing-skills .row {grid-template-columns: 1fr;grid-row-gap: 20px;padding: 20px 0;}
+.info {grid-row: 1/2;}
+.info:before {left: 0;}
+.prepod {display: grid;grid-template-columns: 80px 1fr;align-items: center;grid-column-gap: 20px;}
+}
+
+.whom-conf .icons-block p {line-height: normal;}
+.rotate-photo .item {padding: 0; margin: 0}
+
+@media (min-width: 1900px) {
+.rotate-photo .r2{position: relative;margin-top: -75px;margin-bottom: -75px;}
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+.rotate-photo .r2 {margin-top: -55px;margin-bottom: -55px; position: relative;}
+}
+
+@media (min-width: 1400px) and (max-width: 1900px) {
+.rotate-photo .r2 {margin-top: -65px;margin-bottom: -65px; position: relative;}
+}
+
+
+.rotate-photo {background-image: linear-gradient(to right, #09a1ff , #00ccff);}
+
+.why-do-you-arrive {background: url(/wp-content/uploads/2018/06/BG-Homepage-Yankula-Anton.jpg);}
+.why-do-you-arrive {color: #fff;}
+.why-do-you-arrive .item {text-align: center;}
+
+
+@media (min-width: 768px) {
+.why-do-you-arrive {margin-top: -50px;}
+}
+.why-do-you-arrive h2 {padding-top: 30px !important}
+
+
+@media (max-width: 768px) {
+    .why-do-you-arrive .item {display: grid;grid-template-columns: minmax(80px,80px) 1fr;text-align: left;grid-column-gap: 20px;text-align: left;padding-bottom: 20px;}
+    .why-do-you-arrive .item:last-child {padding-bottom:0;}
+    .why-do-you-arrive .item img {grid-row: 1/3;}
+    .testing-skills .row > div:nth-child(3)::before {left: 0 !important;}
+}
+
+.course.registration { background: url(/wp-content/uploads/2018/10/MAIN-Banner.jpg); }
+.registration .item { display: grid;grid-template-columns: minmax(50px,50px) 1fr;align-self: center; grid-column-gap: 20px; }
+.registration .item img {grid-row: 1/3;}
+.registration .item {color: #fff;}
+
+.registration h2, .registration h3 {color: #fff; text-align: center;}
+
+.yaellow-text {color: #d1f700; text-align: center;padding: 0 0 20px 0;}
+
+
+@media (max-width: 768px) {
+.course.registration .container {text-align: center;}
+.registration .item {margin: 0 auto !important;width: 100%;padding-bottom: 10px;}
+.registration .row {display: inline-block; text-align: left;}
+.slider.it-conf {background: url(/wp-content/uploads/2018/10/banner-mob1.png);height: 450px;background-position: center !important;}
+.slider.it-conf .icons-block {display: none;}
+.whom-conf .icons-block {padding-bottom: 20px;}
+.whom-conf .icons-inline-block:last-child {padding-bottom: 0px !important}
+}
+
+.prepod-carusel.conference img {max-width: 100% !important;}
+.prepod-carusel.conference .cd-section .row .top {margin-bottom: -50px;}
+.partners .element img {padding: 10px}
+.rotate-photo .item:hover { -webkit-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05); z-index: 99;}
+.rotate-photo .item {-moz-transition: all 0.2s 0.1s ease-in; -o-transition: all 0.2s 0.1s ease-in; -webkit-transition: all 0.2s 0.1s ease-in; cursor: pointer;}
+
+
+@media (max-width: 768px) {
+.news-reg h5 { font-size:16px; }
+}
+
+
+@media (max-width: 768px) {
+    .news-details h4 {font-size: 15px !important;font-weight: 400 !important;text-transform: capitalize;margin-top: -20px;position: relative;margin-bottom: 10px !important; }
+}
+
+.single-post .date-time { margin-top: -20px; }
+.news-details .col-12 {align-items: center;}
+.news-details h4 {margin-bottom: 20px;font-size: 18px ;font-weight: 400 !important;}
+
+
+.course_program ul li:before {content: "\f105";font-family: FontAwesome;font-style: normal;font-weight: normal;text-decoration: inherit;color: #fff6;font-size: 18px;padding-right: 0.5em;position: absolute;top: -2px;left: 0;}
+.course_program ul li {position: relative; padding-left: 15px; padding-bottom: 10px;}
+.course_program ul li:last-child {padding-bottom:0;}
+
+.company-title {color: #15acf2;font-size: 22px;display: grid; grid-template-columns: minmax(80px,80px) 1fr;padding-top: 20px;align-items: center; grid-column-gap: 10px;}
+.company-title p {grid-row: 2;}
+.company-rate {font-size: 20px; color: #121212;}
+
+
+.six-yaear-slide {background: url(/wp-content/uploads/2018/02/SLIDER-6-years-Level-Up.jpg); height: 70vh; background-size: cover; }
+.six-yaear-slide .row, .six-yaear-slide .container {height: 100%}
+.six-yaear-slide .row {display: grid;align-items: center;height: 100%;text-align: center; }
+.six-yaear-slide p {font-size: 25px;}
+.six-yaear-block-1 hr{margin: 20px auto;}
+.six-yaear-block-2 {background: url(/wp-content/uploads/2018/02/BG-Blue.jpg); background-size: cover; }
+.six-yaear-block-2 .content { display: grid;grid-template-columns: 1fr 1fr 1fr; text-align: center; grid-gap: 30px;color: #fff; font-weight: 300}
+.six-yaear-block-2.happy-row .content {grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+@media (max-width: 768px) {
+    .six-yaear-block-2 .content {grid-template-columns: 1fr; text-align: left;}
+    .six-yaear-block-2 .items {display: grid; grid-template-columns: minmax(150px,150px) 1fr !important;grid-template-rows: auto !important; align-items: center;grid-gap: 30px;}
+    .six-yaear-block-2 h2 {margin: 0 auto;}
+}
+
+.six-yaear-block-3 .content{display: grid;grid-template-columns: 1fr 1fr;text-align: left;grid-gap: 30px; font-weight: 300}
+.six-yaear-block-3 .items {display: grid;grid-template-columns: minmax(150px,150px) 1fr;align-items: center;grid-gap: 30px;}
+
+@media (max-width: 768px) {
+ .six-yaear-block-3 .content {grid-template-columns: 1fr; text-align: left;}
+}
+
+.six-yaear-block-3 img {border-radius: 50%;border: 5px solid #dddddd80;}
+
+.six-yaear-block-3 .six-name {color: #000000;}
+.six-yaear-block-3 .six-work {color: #15acf2;}
+.six-yaear-block-3 .six-descr {font-style:italic; color: #999999;}
+
+/*Блоок 4*/
+.six-yaear-block-4 {background: url(/wp-content/uploads/2018/02/BG-Why-this-course.jpg);background-size: cover;}
+.six-yaear-block-4 .content {display: grid;grid-template-columns: 1fr 1fr 1fr;text-align: center;grid-gap: 30px;color: #4с4с4с; font-weight: 300}
+
+@media (max-width: 768px){
+    .six-yaear-block-4 .content {grid-template-columns: 1fr; text-align: left;}
+    .six-yaear-block-4 .items {display: grid;grid-template-columns: minmax(150px,150px) 1fr;align-items: center;grid-gap: 30px;}
+    .six-yaear-block-4 h2 {margin: 0 auto;}
+}
+/*Конец Блоок 4*/
+ 
+
+ /*Блоок 5*/
+.six-yaear-block-5 .content {display: grid;grid-template-columns: 1fr 1fr 1fr;text-align: center;grid-gap: 30px;color: #4с4с4с; font-weight: 300}
+
+
+@media (max-width: 768px){
+  .six-yaear-block-5 .content {grid-template-columns: 1fr; text-align: left;max-width: 60%;margin: 0 auto;}
+  .six-yaear-block-5 .items {display: grid;grid-template-columns: minmax(70px,70px) 1fr;align-items: center;grid-gap: 20px;}
+  .six-yaear-block-5 h2 {margin: 0 auto;}
+}
+.six-yaear-block-5 .bottom-text {padding: 20px 0; text-align: center}
+/*Конец Блоок 5*/
+
+
+.seven-yaear-slide {background: url(/wp-content/uploads/2019/02/7_years_Level_UP_1920x660.jpg);height: 70vh;background-size: cover;}
+.seven-yaear-slide .container, .seven-yaear-slide .row {height: 100%;}
+
+
+@media (min-width: 768px){
+.seven-yaear-slide .container .img {text-align: right;}
+.seven-yaear-slide .button {text-align: right; padding-right: 50px}
+}
+
+@media (max-width: 768px){
+  .seven-yaear-slide .container .img {text-align: center;}
+  .seven-yaear-slide {background: url(/wp-content/uploads/2019/02/7bg_Small.png);background-size: cover;}
+  .seven-yaear-slide .empty {display: none;}
+  .seven-yaear-slide .button {text-align: center;}
+}
+
+
+
+/*counters*/
+.counters-seven .content {display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-column-gap: 50px;}
+.counters-seven .number {font-size: 68px; color: #15acf2;text-align: center;font-weight: 600;}
+.counters-seven .text {font-size: 25px; color: #fff;text-align: center;background: #15acf2}
+.counters-seven .descr {font-size: 24px; text-align: center;}
+@media (max-width: 992px) {
+  .counters-seven .content {display: grid;grid-template-columns: 1fr 1fr;grid-column-gap: 30px;}
+}
+
+@media (max-width: 768px) {
+  .counters-seven .number {font-size: 34px}
+  .counters-seven .text {font-size: 16px}
+  .counters-seven .descr {font-size: 14px;}
+}
+
+
+/*О КОМПАНИИ*/
+.about-seven {background: url(/wp-content/uploads/2019/02/bg-figure.png) !important;background-size: cover;background: no-repeat;background-position: center bottom !important;}
+.about-seven p {padding-bottom: 10px;}
+.about-seven .content {background: #fff; padding: 20px; box-shadow: 10px 10px 33px 0px rgba(231,243,255,0.72);}
+
+
+/*О ЧТО НА МЕРОПРИЯТИИ? */
+.result-seven {background: linear-gradient(to right, #7ddcff, #51c6ff);background-position-x: 0%;background-position-y: 0%; background-position: left bottom;}
+.result-seven .item {display: grid;grid-template-columns: minmax(60px, 60px) 1fr;align-items: center;grid-column-gap: 10px; }
+.result-seven .item {margin-bottom: 40px;}
+.result-seven .container {background-position: center center; background-size: contain;}
+.result-seven .button { text-align: center; }
+
+
+.prepod-carusel.conference.seven {background: none;}
+.rotate-photo.seven {background: none;}
+
+.prepod-carusel.conference.seven .prepod-course {background: none;}
+
+.six-yaear-block-2.welcome-seven .items{display: grid;grid-template-columns: 1fr;grid-row: 300px 1fr;grid-template-rows: 230px 1fr;align-items: center;text-align: center;margin: 0 auto; }
+.six-yaear-block-2.welcome-seven .items img { display: inline-block; margin: 0 auto; }
+
+@media (max-width: 768px) {
+.six-yaear-block-2.welcome-seven .items { text-align: left !important; }
+}
+
+.six-yaear-block-2.welcome-seven {background: linear-gradient(to top, #caecfc, #fff);}
+.six-yaear-block-2.welcome-seven .items { color: #4c4c4c; }
+.six-yaear-block-2.welcome-seven .title-seven {font-weight: 500;}
+.timeline-block.seven {background: linear-gradient(to top, #40bbf5, #caecfc);background-size: contain;}
+.timeline-block.seven .container { background: url(/wp-content/uploads/2019/02/druchki-bg2.png) ;}
+.timeline-block.seven .timeline-heading { display: none; }
+
+/*НАШИ ПАРТНЕРЫ*/
+.our-parnters-seven { background: url(/wp-content/uploads/2019/02/druchki-bg3parnters.png); background-size: cover;background-repeat: no-repeat;}
+.our-parnters-seven .img { text-align: center; }
+
+
+.six-yaear-block-2.event-seven { background:url(/wp-content/uploads/2019/02/bg-bottom2-blue-rectage.png) !important; background-size: contain !important;}
+.six-yaear-block-2.event-seven .items { color: #4c4c4c; }
+.button a {    background: #eaff00;border: 2px solid #eaff00;color: #4c4c4c;}
+   .button .sg-show-popup:after {    background-image: url(/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg);}
+.course.timeline-block.seven .theme {display: none;}
+
+.course.six-yaear-block-5.seven{background: url(/wp-content/uploads/2019/02/bg-registration.png);background-position-x: center;background-position-y: top;background-repeat: no-repeat;background-size:  cover}
+
+
+.dtls-seven  {color: #eaff00 !important; font-weight: 500;}
+
+.button.footer-seven {text-align: center;padding: 50px 0 40px 0;}
+
+.six-yaear-block-5.seven .items p {color: #fff;}
+.line_and_circle.active {position: relative;}
+.line_and_circle::before {content: '';height: 1px;width: 100%;background: #fff;position: absolute;left: -100%;margin-top: 24px;}
+
+.course.result-seven h2{text-align: left;padding-left: 31px;}
+
+
+.course.result-seven {padding: 80px;}
+
+.page-id-3812 .course {padding:80px 0 10px 0;}
+.page-id-3812 .course h2 {padding-bottom:  50px;}
+
+
+  .course.counters-seven h2{text-align: center !important;}
+
+.line_and_circle.active.black::before  {background: #4c4c4c;}
+.line_and_circle.blue::before  {background: #15acf2;}
+.line_and_circle.yellow::before  {background: #eaff00;}
+
+.counters-seven h2 {padding-right: 20px !important;}
+.line_and_circle.right:before {right: -100%;left: auto;}
+
+.course.about-seven h2, .course.our-parnters-seven h2{text-align: left !important;padding-left: 20px !important; }
+
+
+.course.result-seven h2, .six-yaear-block-2.welcome-seven h2 {text-align: right !important; padding-right: 20px;}
+.course.timeline-block.seven h2 {padding-left: 20px;}
+.course.six-yaear-block-5.seven h2 {text-align: left !important; padding-left: 20px;}
+
+
+@media (min-width: 768px) {
+.six-yaear-block-5 .content {width: 80%;margin: 0 auto;}
+}
+
+
+.page-id-3812 .course {overflow: hidden;}
+/*imc bridge^sitecore*/
+.result-seven .button {padding-bottom: 60px;}
+.rotate-photo.desktop.seven {top: -70px;
+
+position: relative;}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .six-yaear-block-2.welcome-seven.happy-row .content {grid-template-columns: 1fr 1fr;}
+}
+
+.six-yaear-block-2.welcome-seven.happy-row .content {align-items: start;}
+.rotate-photo.desktop.seven, .conference.mobile.seven {display: none}
+.prepod-course .leshenko {background-image: url(/wp-content/uploads/2019/02/leshenko-246x246.png) !important;}
+
+.reg-offer {background-image: linear-gradient(to right, #08a2ff, #01c9fe);}
+.reg-offer > div {background: url(/wp-content/uploads/2019/02/patern-fluid.png);}
+
+.yellow-btn a:hover {box-shadow: 13px 13px 36.1px 1.9px rgba(234, 255, 0, 0.5) !important;}
+.yellow-btn a { background: #eaff00 !important; border: 2px solid #eaff00; color: #4c4c4c !important}
+.yellow-btn a:after { background-image: url("/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg") !important; }
+
+
+
+
+
+
+
+/*--------page-id-4007--------*/
+
+/*Блок Покинули занятие?*/ 
+.leave-lesson { background: url(/wp-content/uploads/2019/02/bg_recording.svg) !important; min-height: 580px;background-position: center center !important;margin-top: -60px; background-repeat: no-repeat !important;}
+.recordTitle .white { color: #fff; }
+
+
+.leave-lesson .img { text-align: center; }
+.leave-lesson .img img { top: 80px; position: relative; max-width: 50%; }
+.leave-lesson .row-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
+.leave-lesson .pattern { background: url(/wp-content/uploads/2019/02/patter-loyality-videorecord.png);     background-repeat: no-repeat; background-size: 100% 100%;background-position: center center; width: 100%;height: 100%;}
+
+
+
+
+@media (max-width: 992px) {
+.leave-lesson .pattern { background: none; }
+}
+
+@media (max-width: 768px) {
+.recordTitle, .recordDescr { text-align: left; }
+.leave-lesson .container { background: url(/wp-content/uploads/2019/02/videocamera.png);background-repeat: no-repeat;background-size: contain;background-position: 103% 0 !important; margin: auto; }
+.leave-lesson .row-grid { grid-template-columns: 1fr 100px; }
+.leave-lesson .img {display: none;}
+.leave-lesson {margin-top: -15px;}
+.leave-lesson .pattern {margin: auto;}
+.leave-lesson {   background: url(/wp-content/uploads/2019/02/bg_recording.svg) !important;   background-size: cover !important;  background-repeat: no-repeat !important;   background-position: center !important;}
+}
+
+
+/*Конец Покинули занятие?*/ 
+
+/*Блок оффер*/ 
+.reg-offer .container {display: grid;grid-template-columns: 1fr 1fr;align-items: center;grid-gap: 20px;}
+.ot1 {font-size: 44px; font-weight: 500; color: #eaff00}
+.ot2 {font-size: 37px; font-weight: 400; color: #fff;}
+.ot3 {font-size: 37px; font-weight: 500; color: #eaff00}
+.ot4 {font-size: 37px; font-weight: 400; color: #fff; text-transform: uppercase;}
+.ot5 {font-size: 37px; font-weight: 400; color: #fff;}
+.ot6 {font-size: 37px; font-weight: 400; color: #fff;}
+.ot7 {font-size: 48px; font-weight: 400; color: #fff;}
+
+.page-id-483 .ot7, .page-id-483 .ot8{color: #eaff00}
+.page-id-483 .ot3 {color: #fff;}
+
+.ot8 {font-size: 37px; font-weight: 200; color: #fff;}
+.offer-many-text {text-align: center;}
+.reg-offer .container > div {padding: 30px 0;}
+ .offer-many-text { padding-bottom: 20px; }
+
+ .reg-offer { margin: 50px 0; max-height: 300px; }
+ .reg-offer .container > div { top: -80px; position: relative; }
+@media (min-width: 768px) {
+
+.reg-offer .container img { height: 400px; width: 400px; }
+ .offer-many-text { line-height: 35px;text-align: center; }
+}
+@media (max-width: 768px) {
+.reg-offer .img {display: none;}
+.reg-offer .container {grid-template-columns: 1fr;}
+.offer-many-text {line-height: normal;}}
+/*Конец Блок оффер*/ 
+
+
+/*Кому может быть полезен этот курс?*/
+.who-are-need-a-course {background: none;}
+.who-are-need-a-course .grid-row {display: grid;grid-template-columns: 1fr 1fr;align-items: center;}
+
+
+.who-are-need-a-course p,.page-id-4007 .who-are-need-a-course h4 {color: #383838;}
+.who-are-need-a-course p { padding-bottom:  20px; }
+.who-are-need-a-course .list > div{display: grid;grid-template-columns: 64px 1fr;grid-column-gap: 20px;}
+/*.who-are-need-a-course .list > div .mb-1 {max-width: 400px;}*/
+
+
+
+@media (min-width: 769px) {
+  .who-are-need-a-course .list > div { top: 45px; position: relative; }
+}
+
+.who-are-need-a-course .list .img {background: url(/wp-content/uploads/2019/02/chek_colors.svg);background-position-x: 0%;background-position-y: 0%;background-size: auto;width: 64px;height: 64px;background-size: 64px;background-position: 0 -64px;position: relative;}
+/*Кому может быть полезен этот курс?*/
+
+/*Баннер*/
+.page-id-4007 span.name-course:after { width: 50px;height: 1px;content: "";background: #15acf2;bottom: -5px;/* padding-top: 20px; */left: 0;position: absolute;}
+.page-id-4007 .slide .container p { padding-top: 40px;max-width: 400px; }
+.page-id-4007 .course-way span {     background: #15acf2;font-size: 18px !important;padding: 3px 10px;line-height: 18px;font-weight: 600;margin-right: 3px; }
+.page-id-4007 .course-way {padding-top: 25px;}
+.page-id-4007 .start_slide { text-align: left;color: #383838;text-shadow: none; }.page-id-4007 .btn-blue   { padding: 0 !important; }
+.page-id-4007 .btn-blue a:hover {     background: #15acf2;box-shadow: 26px 15px 59px 0px rgba(21, 172, 242, 0.7);border: 2px solid #15acf2 !important; }
+.page-id-4007 .btn-blue a  {line-height: 34px;transition: box-shadow 0.3s ease-in-out;letter-spacing: 0px;color: #fff !important;background: none;position: relative;font-size: 18px;font-weight: 300;border-radius: 50px;background: #15acf2;border: 2px solid #15acf2;padding: 8px 58px 8px 32px;display: inline-block;}  .page-id-4007 .btn-blue a:hover:after {background-image: url(/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg);}
+.page-id-4007 section.slide .container { display: grid; grid-template-columns: 1fr 1fr;     height: 100%;align-items: center;}
+.page-id-4007 section.slide .container img {top: 200px;position: relative;}
+.page-id-4007 section.slide  {    background: url(/wp-content/uploads/2019/02/icons_on_web.svg);background-size: 80%;background-repeat: no-repeat;background-position-x: right;background-position-y: -200px;    height: 80vh;}
+.page-id-4007 .about-courses .grid-section {display: grid;grid-template-columns: 1fr 1fr;grid-row-gap: 40px;}
+.page-id-4007 .about-courses h3 { font-weight: 500 }.page-id-4007 .about-courses h3 span { color: #15acf2; }
+.page-id-4007  .about-courses {margin-top: -100px;}
+
+@media (max-width: 768px) {.page-id-4007  .about-courses {margin-top: 0px;} .page-id-4007 section.slide {height: auto;}
+  
+}
+  .page-id-4007 section.slide span.name-course { position: relative; }
+
+
+
+
+/*2 МОДУЛЯ*/
+
+.imm-module h2 {text-align: center;font-weight: 500; }
+
+.imm-module h2 span {color: #15acf2;}
+.imm-module .sub {text-align: center; font-size: 22px}
+.imm-module .grid-item {display: grid; grid-template-columns: 1fr 1fr 1fr;    padding: 20px 0;}
+.imm-module .grid-item .fork:nth-child(1) {justify-self: end;    padding-top: 65px;}
+.imm-module .grid-item .fork:nth-child(3) {justify-self: start;    padding-top: 65px;}
+.imm-module .grid-item .word {font-size: 25px;background: #15acf2;color: #fff;display: inline-block;line-height: normal;font-weight: 700;padding: 3px 10px;}
+.imm-module .grid-item .fork {text-align: center;}
+.imm-module .grid-item .circle {  background: #15acf2;margin-top: 30px;border-radius: 50%;padding: 50px;width: 200px;height: 200px;    padding: 20px;display: grid;align-items: center; }
+.imm-module .grid-item .circle .t-1 {    font-size: 40px;color: #fff;font-weight: 700;line-height: normal;}
+
+.imm-module.java .grid-item .circle .t-1 { font-size: 28px;}
+
+.imm-module .grid-item .circle .t-2 {color: #fff;line-height: normal;font-size: 20px;}
+.imm-module {background: url(/wp-content/uploads/2019/02/bg-blue-shadow.jpg);background-repeat: no-repeat; background-position-y: bottom;background-size: contain; background-repeat-x: repeat;}
+.imm-module .grid-item .circle {position: relative;}
+.imm-module .grid-item .circle:after { width: 100%; position: absolute; background: url(/wp-content/uploads/2019/02/bottom-shadow.png); content: ""; height: 50px;bottom: -50px; background-repeat: no-repeat;background-position: center center; background-size: 100%;}
+.reg-offer { margin-top: 0px; }
+
+
+
+@media (min-width: 768px) {
+  .imm-module h2 {width: 75%;    margin: 0 auto;}.imm-module .sub {width: 50%;    margin: 0 auto;}.imm-module .grid-item {padding-bottom: 100px;}
+}
+
+/*Конец 2 МОДУЛЯ*/
+
+
+
+/*Программа курса */
+#wraper {height: 100%;margin: 10px auto;overflow: visible;position: absolute;display: grid;grid-template-columns: 1fr 1fr 1fr;}
+.svgCont {width: 175px;height: 175px;overflow: hidden;position: relative;float: left;}
+
+.course_program .card {background: none;}
+.course_program .card-header {background: none;}
+
+/*В результате курса */
+
+
+  .page-id-4007 .list-img-icon-1::after,
+  .page-id-4007 .list-img-icon-2::after,
+  .page-id-4007 .list-img-icon-3::after,
+  .page-id-4007 .list-img-icon-4::after,
+  .page-id-4007 .list-img-icon-5::after,
+  .page-id-4007 .list-img-icon-6::after,
+  .page-id-4007 .list-img-icon-7::after,
+  .page-id-4007 .list-img-icon-8::after,
+  .page-id-4007 .list-img-icon-9::after,
+  .page-id-4007 .list-img-icon-10::after {background: #15acf2 !important;color: #fff !important;position: absolute;border-radius: 50%;text-align: center;line-height: 40px;border: 5px solid #99dfff;background-image: none !important;}
+
+
+   .page-id-4007 .result-of-the-course .list-group-item::after {width: 50px;height: 50px; background: #15acf2 !important;background-image: none;color: #fff !important;position: absolute;border-radius: 50%;text-align: center;line-height: 40px;border: 5px solid #99dfff;background-image: none !important;}
+
+
+.page-id-4007 .list-img-icon-1::after {content: "01" !important;}
+.page-id-4007 .list-img-icon-2::after {content: "02" !important;}
+.page-id-4007 .list-img-icon-3::after {content: "03" !important;}.page-id-4007 .list-img-icon-4::after {content: "04" !important;} .page-id-4007 .list-img-icon-5::after {content: "01" !important;}  .page-id-4007 .list-img-icon-6::after {content: "02" !important;}        .page-id-4007 .list-img-icon-7::after {content: "03" !important;}              .page-id-4007 .list-img-icon-8::after {content: "04" !important;}
+.page-id-4007 .result-of-the-course .list-img-icon-4::before ,  .page-id-4007 .result-of-the-course .list-img-icon-8::before { content: none !important; }
+.page-id-4007 .result-of-the-course .list-group-item::before {content: '';height: 100%;width: 1px;position: absolute;background: #15acf2;top: 12px;left: 25px;}
+
+.module-icon-1::after {background: url(/wp-content/uploads/2019/02/module.png) !important;width: 101px;height: 101px;content: "";margin-bottom: 40px;position: absolute;left: -27px;}
+.module-icon-1::before, .module-icon-2::before {content: '';height: 100%;width: 1px;position: absolute;background: #15acf2;top: 12px;left: 25px;}
+.module-icon-1, .module-icon-2 {position: relative;background: none !important;border: none;padding-left: 120px;justify-content: left !important;display: grid;text-align: left;min-height: 65px;}
+.module-icon-2::after  {background: url(/wp-content/uploads/2019/02/module-2.png) !important; width: 101px; height: 101px;
+  content: ""; position: absolute; left: -27px;margin-bottom: 40px;}
+.module-icon-1, .module-icon-2 {height: 101px;}
+.module-icon-1 > div, .module-icon-2 > div {color: #15acf2;font-size: 30px;font-weight: 500;top: -10px;position: relative;}
+.module-icon-1 > p, .module-icon-2 > p {top: -30px;position: relative;font-size: 24px;color: #15acf2;}
+
+.page-id-4007 .result-of-the-course h2 {margin-bottom: 50px;}
+.page-id-4007 .result-of-the-course {background: none !important;}
+
+
+.page-id-4007 .result-of-the-course .list-group-item::before:last-child {content: none:  !important; }
+
+
+.course_program .course_program ul li::before {content: "•";font-family: FontAwesome;font-style: normal;font-weight: normal;text-decoration: inherit;color: #fff;font-size: 10px;padding-right: 0.5em;position: absolute;top: 4px;left: 0;}
+
+.course_program .card-header h5 {padding-left: 24px;}
+.course_program .card .btn-link {background: none;}
+.course_program .card-header {border: none;}
+
+
+.course_program .card-body{padding: 10px 0 10px 60px; border: none;}
+
+
+.course_program ul li::before {content: "•";}
+.page-id-4007 #heading10::before, .page-id-4007 #heading20::before {content: none;}
+
+
+.course_program-title h3  { color: #eaff00;text-align: left;font-weight: 600; position: relative; padding-left: 80px;}
+.course_program-title h3 span {font-weight: 300; font-size: 22px;display: block;line-height: 20px;}
+
+.course_program-title::before {content: "";width: 60px;height: 60px;position: absolute;left: -5px;bottom: -5px;}
+.page-id-4007 .course_program-title.smm-plus::before {background: url(/wp-content/uploads/2019/02/circle-prog-2.png)}
+.page-id-4007 .course_program-title.seo-plus::before {background: url(/wp-content/uploads/2019/02/circle-prog-1.png)}
+
+.course_program-title {position: relative;}
+.course_program .yellow-btn { text-align: center; margin: 0 auto; }
+
+.course_details .btn-blue { margin: 0 auto; }
+.course_details .list-group-title.tc {min-height: 84px; display: grid; align-items: center;}
+
+.page-id-4007 .course_details .btn-blue a { margin-top: 60px; }
+.page-id-4007 .course {padding: 60px 0;}
+.page-id-4007 .course h2 {padding-bottom: 50px;}
+.page-id-4007 .about-courses .empty-grid img {position: relative;}
+.prepod-carusel .ptr-1 {background: url(/wp-content/uploads/2019/02/Lines_pattern-1.svg);background-size: auto;position: absolute;height: 30%;width: 30%;bottom: 0;left: 0;z-index: 0;background-size: contain;background-repeat: no-repeat;}
+.prepod-carusel .ptr-2 {background: url(/wp-content/uploads/2019/02/Lines_pattern2-1.svg);height: 30%;width: 10%;background-repeat: no-repeat;top: 0;right: 0;position: absolute;}
+.prepod-carusel {position: relative;}
+
+.instruments_section .ptr-1 {
+background: url(/wp-content/uploads/2019/02/Lines_pattern-1.svg);
+background-position-x: 0%;background-position-y: 0%;background-repeat: repeat;background-size: auto;
+background-size: 100px;background-position-x: left;background-repeat: no-repeat;background-position-y: bottom;}
+
+.instruments_section .ptr-2 {background: url(/wp-content/uploads/2019/02/Lines_pattern2-1.svg);background-repeat: no-repeat;background-size: 100px;background-position-x: right;}
+
+section.slide .start_slide { font-weight: 600 !important; }
+
+
+/*.page-id-4007 .course_program { background-image: linear-gradient(to right, #08a2ff, #01c9fe) !important; }*/
+
+@media (min-width: 992px) {
+  .page-id-4007 .about-courses .grid-section .title { margin-top: 80px; }
+  .who-are-need-a-course h2 {margin-bottom: -40px;}
+  .page-id-4007 .course_details .list-group { width: 90%; margin: 0 auto; }
+  .page-id-4007 .course_details .row {width: 80%; margin: 0 auto;}
+}
+
+
+
+.page-id-4007 section.slide .pattern { background: url(/wp-content/uploads/2019/02/patter-banner.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
+/*.page-id-4007 .course_details {background: #383838}*/
+.course_details .pattern { background: url(/wp-content/uploads/2019/02/patter-dtls.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
+.loyality .pattern { background: url(/wp-content/uploads/2019/02/patter-loyality.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
+.course_program .pattern { background: url(/wp-content/uploads/2019/02/patter-programs.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
+
+.course_program .card .mb-0:hover {background-image: linear-gradient(to right, #15acf200, #09cbffb3) !important; border-radius: 3px;}
+.page-id-4007 span.name-course { display: inline-block; }
+
+ @media (max-width: 992px) {
+
+   .page-id-4007 span.name-course::after {bottom: -21px;left: calc(50% - 25px);}
+   .module-icon-1 > p, .module-icon-2 > p { line-height: 20px; padding-top: 10px; }
+
+ }
+
+
+
+ @media (max-width: 768px) {
+.page-id-4007 section.slide .container {grid-template-columns: 1fr;}
+.page-id-4007 section.slide {background-size: 116%;background-position-y: -150px;}
+.page-id-4007 section.slide .container > div { padding-top: 150px; text-align: center;}
+.page-id-4007 section.slide .btn-blue {text-align: center;}
+.page-id-4007 .slide .container p {margin: 0 auto;}
+.page-id-4007 .about-courses .grid-section {grid-template-columns: 1fr;}
+.page-id-4007 .about-courses .img {display: none;}
+.page-id-4007 section.slide .img { display: none; }
+.page-id-4007 .about-courses .empty-grid { display: none; }
+.imm-module .grid-item .word {font-size: 16px;}
+.imm-module .grid-item .circle {width: 120px;height: 120px;padding: 0;}
+.imm-module .grid-item .circle .t-1 {font-size: 20px;}
+.imm-module .grid-item .circle .t-2 {font-size: 14px;}
+.imm-module .grid-item .fork:nth-child(1) {padding-top: 20px;}
+.imm-module .grid-item .fork:nth-child(3) {padding-top: 20px;}
+.imm-module .course.container {padding: 0 15px 60px 15px;}
+.imm-module h2 {padding-bottom: 10px;}
+.imm-module .sub {font-size: 16px; width: 80%; margin: 0 auto;}
+.page-id-4007 .course_details .btn-blue a {margin-top: 20px;}
+.reg-offer > div {background: none;}
+.reg-offer .container > div {padding: 40px 0 50px 0;}
+ .who-are-need-a-course .grid-row {grid-template-columns: 1fr;}
+ .who-are-need-a-course .align-bottom {display: none;}
+.module-icon-1 > p, .module-icon-2 > p {line-height: 20px; top: -12px;}
+.page-id-4007 .result-of-the-course .container {width: 90%;}
+.who-are-need-a-course .list-group:last-child {padding-top: 40px;}
+.module-icon-1::after, .module-icon-2::after { margin-bottom: 0;}
+.module-icon-1::before, .module-icon-2::before {top: 47px;}
+.module-icon-1, .module-icon-2 {margin-bottom: 40px;}
+.page-id-4007 .result-of-the-course h2 { margin-bottom: 0px; }
+}
+
+.card.empty .btn.collapsed::after { content: ""; }
+.leave-lesson .recordDescr {max-width: 450px;}
+.leave-lesson .recordTitle {font-weight: 500;}
+
+.course_details .ct-2 {display: block;font-size: 20px; line-height: normal; font-weight: 300;}
+.course_details .ct-1 { font-weight: 500; }
+.loyalty_system .first img { max-width: 80%; }
+
+
+/*FOOTER*/
+@media (max-width: 768px) {#custom_html-2 {padding: 0 10px;}}
+
+.footer-img {background: none !important;}
+.footer-social-icon:hover {text-decoration: none;}
+
+#footer.site-footer {overflow: hidden !important;}
+
+.icon-youtube img{background: url(/wp-content/uploads/2019/02/youtube.svg);background-repeat: no-repeat;background-size: 100% 200%;}
+.icon-instagram img{background: url(/wp-content/uploads/2019/02/insta.svg);background-repeat: no-repeat;background-size: 100% 200%;}
+.icon-facebook img{background: url(/wp-content/uploads/2019/02/facebook.svg);background-repeat: no-repeat;background-size: 100% 200%;}
+.icon-telegram img{background: url(/wp-content/uploads/2019/02/telegramm.svg);background-repeat: no-repeat;background-size: 100% 200%;}
+
+
+.icon-youtube img:hover{background-position-y: 100%;}
+.icon-instagram img:hover{background-position-y: 100%;}
+.icon-facebook img:hover{background-position-y: 100%;}
+.icon-telegram img:hover{background-position-y: 100%;}
+
+.email-input {z-index: 4;}
+.footerForm {text-align: center;}
+
+footer input.wpcf7-form-control.wpcf7-submit:hover {border: 1px solid #eaff00;text-transform: none;box-shadow: 13px 13px 16.1px 1.9px rgba(234, 255, 0, 0.3) !important;background: #eaff00;}
+footer div.wpcf7 .ajax-loader {display: none;}
+
+.page-id-4007 section.slide .pattern {background: none !important;height: 100%;}
+
+
+/*Стили футера*/
+footer.site-footer { background: #2e3035; padding: 45px 0 45px; }
+footer.site-footer a { color: #fff; }
+footer .wpcf7-form p { margin: 0; position: relative }
+footer .wpcf7-form p .wpcf7-not-valid-tip {position: absolute;right: 0;top: 29px;display: inline-block !important;right: 30px;top: -4px;color:#fff;}
+input.wpcf7-form-control.footerInput { margin: 0;box-shadow: none;border: 1px solid #eaff00 !important;box-sizing: border-box;width: 100%;background: #27292f;height: 45px;color: #fff;
+padding: 0px 12px;border-radius: 20px;font-weight: 100;text-align: center;}
+
+footer input.wpcf7-form-control.wpcf7-submit.qbtn { border: 1px solid #eaff00;display: inline-block;background: #eaff00;border-radius: 0 0 30px 30px;text-transform: none;
+font-size: 16px;font-weight: 300;padding: 5px 30px;color: #4c4c4c;margin-top: 0px !important;position: absolute;transform: translateX(-50%);z-index: 2;}
+input.wpcf7-form-control.wpcf7-submit.qbtn img{ float:left; padding-left:25px; }
+.footer-menu-title, .footer-menu-title-post{ color:#fff; font-size: 18px; vertical-align: middle; font-weight: 600; }
+.footer-menu-title-post img{ width:24px; margin-top:-4px; vertical-align: middle; }
+.footer-menu__inner4 li{ list-style-type: none; line-height: 30px; }
+.footer-menu__inner4 a{  font-weight: 300; font-family: 'Montserrat'; }
+.footer-menu__inner4{ padding-left:0; margin-top: 10px; }
+.footer-post{ padding: 20px 30px;background-color: #27292f;border-radius: 35px;}
+
+@media (max-width: 768px) { .footer-post { margin: 20px 0; }}
+
+.footer-menu-post-text{ font-weight: 300; color:#d2dae1; padding:30px 0; }
+.text-light{ font-weight: 300; color:#d2dae1; }
+.footer-menu-second{font-weight: 300;  color:#d2dae1; }
+.footer-menu-third{ font-weight: 300;  color:#d2dae1; padding-top:20px;text-align: left }
+
+.footer-icon{ padding-right:10px; width:25px; }
+.list-contact{ padding:10px 0; }
+@media (min-width: 780px){ #custom_html-3 { padding-right:50px; } }
+.title3{ padding-bottom:10px; }
+
+
+footer span.wpcf7-not-valid-tip{ color: #f92d88; margin-left: 0; font-size: 12px; margin-top: 5px; font-weight: 300; }
+footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf215; font-weight: 300; text-align: left; }
+.footer-contacts{ font-size:16px; color: #fff; font-weight: 300;  }
+.footer-contacts:hover{ font-size:16px; color: #15acf2; font-weight: 300;  }
+.footer-img{ background-repeat: no-repeat; background-size: contain; background-image: url("/wp-content/uploads/2018/06/Footer-LEVEL-UP-2.png"); }
+
+.footer-social-icon{float:left; margin-right: 15px;padding-bottom: 20px; }
+.footer-social-icon img, .icon_right img, .icon_left img{transform: scale(1,1);  transition: transform 550ms;   width:30px; border-radius:5px;box-shadow: 0px 0px 6px 0px rgba(0, 54, 79, 0.35);  }
+.footer-social-icon img:hover, .icon_right img:hover, .icon_left img:hover{ transform: scale(1.2,1.2);  transition: transform 550ms;}
+.menu3{ margin-top:60px; }
+@media (max-width:780px){ .footer-img, .first-block-footer { padding-left:20px; }}
+/*Конец - Стили футера*/
+.footerForm p {padding:0;}
+
+@media (max-width: 768px) {
+.news-reg .row,.news-reg .name , .news-reg .col-lg-9 > div {text-align: center !important;}
+  .page-id-4007 .smm-list {padding-top: 40px;}
+}
+
+.page-id-4007  .text-course {font-weight: 500;}
+.page-id-4007  .instruments_section.course {padding-top:  0px !important;margin-top: 0px;}
+
+
+@media (min-width: 768px) {
+  .page-id-4007  .instruments_section.course {margin-top: -20px;}
+}
+
+.page-id-4007 .list-group.first-list .ct-1 {color: #eaff00}
+.page-id-4007 .list-group.first-list { transform: scale(1.08);background: #1d2027; }
+
+
+   .postid-4207 .stb {display: grid; grid-template-columns: 1fr 1fr;background: url(/wp-content/uploads/2019/02/Снимок-экрана-2019-02-27-в-15.12.01.png);
+    background-position-x: 0%;background-repeat: repeat;background-size: auto;background-repeat: no-repeat;background-position-x: center;color: #e4e4e4;padding: 40px;
+    background-size: cover;margin: 20px 0;font-weight: 300;}
+
+   .postid-4207 .stb h3 {grid-column: 1/3;text-align: left;}
+
+   .postid-4207 .stb2 {background: #f3f6f9;border-left: 6px solid #15909c;padding: 20px;margin: 20px;}
+
+.sitecore {display: grid;grid-template-columns: 50px 1fr;align-items: center;grid-column-gap: 20px;padding: 0 0 20px;}
+.sitecore p {display: none;}
+
+.student-portfolios-3d.home .img1-sitecore {background: url(https://uaitsmart.com/wp-content/uploads/2019/02/sitecore-img-1.jpg);}    .student-portfolios-3d.home .img2-sitecore {background: url(https://uaitsmart.com/wp-content/uploads/2019/02/sitecore-img-2.jpg);}        .student-portfolios-3d.home .img3-sitecore {background: url(https://uaitsmart.com/wp-content/uploads/2019/02/sitecore-img-3.jpg);}            .student-portfolios-3d.home .img4-sitecore {background: url(https://uaitsmart.com/wp-content/uploads/2019/02/sitecore-img-4.jpg);}                .student-portfolios-3d.home .img5-sitecore {background: url(https://uaitsmart.com/wp-content/uploads/2019/02/sitecore-img-5.jpg);}
+
+.sitecore-images .wrapper-grid {grid-template-columns: 1fr 1fr 1fr 1fr;}
+.sitecore-images .wrapper-grid div:nth-child(4) {grid-column: 4/5;grid-row: 1/2;}
+.student-portfolios-3d.home .item {background-position: center !important;background-size: cover !important;}
+
+.postid-4207 .student-portfolios-3d {padding: 40px 0px 0 !important;}
+.postid-4207 .student-portfolios-3d .container {padding: 0;}
+
+.study-levelup .study-levelup-slide .container > div {display: grid; grid-template-columns: 1fr 1fr; align-items: center; grid-column-gap: 20px; }
+.study-levelup .study-levelup-slide .container .text > div:first-child { font-size: 43px; color:#383838; line-height: normal;font-weight: 200;padding-bottom: 20px;}
+
+
+.prepod-carusel.study-levelup img {max-width: 100%}
+
+@media (min-width: 768px) {
+  .study-levelup .study-levelup-slide .container .text {padding-left: 20%;}
+}
+
+.study-levelup-slide {background: none;}
+.study-levelup#advantages {background: url(/wp-content/uploads/2019/02/intership_bg_1.svg) 1% 50% no-repeat, 
+  url(/wp-content/uploads/2019/02/intership_bg_parts_2.svg) 100% 50% no-repeat;background-size: 112px, 112px;}
+
+#outputText{position: absolute;top: 15%;left: 10%;font-size: 130px;font-weight: 900;line-height: 75px;opacity: 0.05;max-width: 300px;}
+
+@media (max-width: 768px) {
+  #outputText {font-size: 60px; line-height: 46px;top: 5%;left: 0;}
+  .study-levelup .study-levelup-slide .container #inputText {font-size: 30px;}
+  .study-levelup {background: none;}
+  .study-levelup .study-levelup-slide .container > div {grid-template-columns: 1fr;text-align: center;}.prepod-carusel.study-levelup img {max-height: 200px; margin: 0 auto;}
+}
+
+#benefit {padding: 40px 0 40px;}
+
+@media (min-width: 768px) {.page-id-449 #benefit .list , .page-id-428 #benefit .list, .page-id-444 #benefit .list, .page-id-519 #benefit .list{display: grid; grid-row-gap: 20px;}}
+
+.reg-offer .container > div{grid-column: 2;grid-row: 1;}
+.reg-offer .container > .img {grid-column: 1;}
+
+
+
+.page-id-422 .reg-offer .container > div,  .page-id-428 .reg-offer .container > div, .page-id-480 .reg-offer .container > div,
+.page-id-483 .reg-offer .container > div, .page-id-467 .reg-offer .container > div, .page-id-470 .reg-offer .container > div {grid-column: 1; grid-row: 1;}
+.page-id-422 .reg-offer .container > .img  ,  .page-id-428 .reg-offer .container > .img , .page-id-480 .reg-offer .container > .img,
+.page-id-483 .reg-offer .container > .img, .page-id-467 .reg-offer .container > .img, .page-id-470 .reg-offer .container > .img {grid-column: 2;}
+
+
+.cd-section.prepod-carusel {background: url(/wp-content/uploads/2019/02/Lines_pattern-1.svg) -10% 100% no-repeat, url(/wp-content/uploads/2019/02/Lines_pattern2-1.svg) 110% 0% no-repeat; background-size: 35% 30%;}
+
+
+.card-header:hover { background: none !important; }
+
+#course-program h3 { text-align: center; }
+.page-id-380 #heading6.card-header::before { content: none; }
+.page-id-380 #heading22.card-header::before { content: none; }
+#course-program .accordion .card:last-child .card-header::before { content: none; }
+
+
+/*Java*/
+.page-id-317 #course-result .course h2, .page-id-380 #course-result .course h2 { margin-bottom: 50px; }
+.page-id-317 .course_program-title.smm-plus::before, .page-id-380 .course_program-title.smm-plus::before {background: url(/wp-content/uploads/2019/02/circle-prog-2.png)}
+.page-id-317 .course_program-title.seo-plus::before, .page-id-380 .course_program-title.seo-plus::before {background: url(/wp-content/uploads/2019/02/circle-prog-1.png)}
+.page-id-317 .course_details .row, .page-id-380 .course_details .row { width: 80%; margin: 0 auto;}
+
+
+/*C3 и ООП*/
+.page-id-380 .imm-module .grid-item .circle .t-1 {font-size: 28px;}
+
+@media (max-width: 768px) {
+.page-id-317 .course_details .row, .page-id-380 .course_details .row { width: 100%;}
+    .imm-module.java .grid-item .circle .t-1 {font-size: 18px;line-height: 18px;}
+    .course_program-title h3 span {font-size: 17px;}
+    .module-icon-1 > div, .module-icon-2 > div {top: 0;}
+
+    .module-icon-1::after, .module-icon-2::after {width: 70px;height: 70px;left: -10px;background-size: cover !important;}
+    .module-icon-1, .module-icon-2 {height: 80px;padding-left: 80px;}
+    .module-icon-1, .module-icon-2 {margin-bottom: 16px; }
+
+    /*C3 и ООП*/
+  .page-id-380 .imm-module .grid-item .circle .t-1 {font-size: 18px;}
+}
+
+@media (max-width: 992px) {
+  .reg-offer { max-height: none; }
+  .reg-offer .container > div { top: 0; }
+  .reg-offer .container img { height: auto; }
+}
+
+@media (max-width: 768px) {
+  .ot1 {font-size: 34px; font-weight: 500; color: #eaff00}
+  .ot2 {font-size: 27px; font-weight: 400; color: #fff;}
+  .ot3 {font-size: 27px; font-weight: 500; color: #eaff00}
+  .ot4 {font-size: 27px; font-weight: 400; color: #fff; text-transform: uppercase;}
+  .ot5 {font-size: 27px; font-weight: 400; color: #fff;}
+  .ot6 {font-size: 27px; font-weight: 400; color: #fff;}
+  .ot7 {font-size: 38px; font-weight: 400; color: #fff;}
+  .ot8 {font-size: 27px; font-weight: 200; color: #fff;}
+  .reg-offer .container > div { grid-column: 1; }
+}
+
+
+.single .aligncenter {text-align: center}
+#registration .modal-body.sg-popup-content {padding: 0;}
+#registration .sg-popup-content div.wpcf7 .ajax-loader {top: 14px;}
+
+
+
+.new_prepod { display: grid; grid-template-columns: auto 1fr; align-items: center; grid-column-gap: 30px; }
+.new_prepod .photo {position: relative; background: url(https://levelup.ua/wp-content/uploads/2019/04/bg_prepod_photo-1.png) no-repeat; min-height: 227px; }
+.new_prepod .photo img { top: 9px; position: relative; left: 9px; max-width: 196px; }
+.new_prepod .prepod_descr { padding-bottom: 20px; }
+.new_prepod .prepod_descr { color: #959595; }
+
+
+.slick-slide img {margin: 0 auto; }
+
+
+#course_details { background: #2e3035 url(/wp-content/uploads/2019/02/patter-dtls.png); background-position: left; color: #fff; }
+#course_details.one-column .content { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 30px; text-align: center; }
+#course_details.one-column .content img { width: 90px; display: block; margin: 0 auto; }
+#course_details.one-column .content h5 { padding: 22px 0 10px 0; font-size: 20px; color: #999999; margin: 0; }
+#course_details.one-column .content p {  }
+#course_details.one-column .content br { display: none; }
+#course_details .btn-reg { margin-top: 30px; }
+
+
+@media (max-width: 992px) {
+  #course_details.one-column .content { grid-template-columns: 1fr 1fr; }
+}
+
+
+
+
+.event-speakers-grid { display: grid; grid-template-columns: 1fr 1fr; grid-row-gap: 30px; }
+#event-speakers .event-speakers-grid h4 { font-size: 18px; background: #4c4c4c; padding: 3px 7px; color: #fff; display: inline-block; }
+#event-speakers .event-speakers-grid p { font-size: 16px; background: #4c4c4c; position: relative; left: 30px; color: #fff; padding: 3px 7px; }
+#event-speakers .event-speakers-grid .name {  }
+#event-speakers .event-speakers-grid p.descr { position: absolute; transition: 0.3s all; opacity: 0; }
+#event-speakers .event-speakers-grid .speaker:hover p.descr { position: absolute; display: block !important; font-weight: 300; font-size: 14px; opacity: 1; }
+.event-speakers-grid > div { position: relative; }
+
+
+
+@media (max-width: 768px) {
+  .event-speakers-grid { grid-template-columns: 1fr; }
+
+
+  #course_details.one-column .content { grid-template-columns: 1fr; background: #27292f; text-align: left; border-radius: 10px; box-shadow: 1px 0 1px rgba(104, 104, 104, 0.4); padding: 20px 30px 30px 30px; }
+  #course_details.one-column .content > div { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 14px; align-items: center; }
+  #course_details.one-column .content h5 { padding: 0px 0 10px 0; }
+  #course_details.one-column .content img { width: 60px; }
+}
+
+.page-id-432 .post-thumbnail{ display: none; }
+
+

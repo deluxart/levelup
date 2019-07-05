@@ -1,0 +1,42 @@
+.page-id-4575 {
+	.all-courses {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+
+		.one-course {
+			display: grid;
+			grid-template-columns: 1fr 130px;
+			align-items: center;
+			margin: 7px 0;
+			padding-left: 10px;
+
+			&.open {
+				border-left: 5px solid #45bd45;
+			}
+
+			& > div:nth-child(3) {
+				text-align: right;
+			}
+
+			a {
+				font-size: 16px;
+				font-weight: 700;
+				text-decoration: none;
+				color: #000;
+			}
+
+			.desc {
+				font-size: 12px;
+
+				span {
+					display: block;
+				}
+			}
+
+			.opened {
+				display: none;
+			}
+		}
+	}
+}

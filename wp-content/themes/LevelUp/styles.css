@@ -1,0 +1,12 @@
+.page-id-4575 .all-courses { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px; }
+.page-id-4575 .all-courses h4 { font-size: 20px; }
+.page-id-4575 .all-courses > div > div:nth-child(odd) { background: #fbfbfb; }
+.page-id-4575 .all-courses .one-course { display: grid; grid-template-columns: 1fr 145px; align-items: center; margin: 7px 0; padding: 0 10px; }
+.page-id-4575 .all-courses .one-course.open { border-left: 5px solid #45bd45; }
+.page-id-4575 .all-courses .one-course > div:nth-child(3) { text-align: right; }
+.page-id-4575 .all-courses .one-course a { font-size: 16px; font-weight: 700; text-decoration: none; color: #000; }
+.page-id-4575 .all-courses .one-course .desc { font-size: 12px; }
+.page-id-4575 .all-courses .one-course .desc span { display: block; }
+.page-id-4575 .all-courses .one-course .opened { display: none; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,422 @@
+.it-english {
+	overflow: hidden; 
+
+	#dev-slider {
+		margin-top: 0;
+		background: linear-gradient(to right, #02c4fe, #07a7ff);
+
+		& > .container {
+			.content {
+				grid-column-gap: 0px;
+				grid-template-columns: 1fr 1fr;
+
+				& > .text {
+					text-align: left;
+					align-self: center;
+					bottom: auto;
+
+					h1 {
+						color: #eaff00;
+						padding-bottom: 35px;
+						font-size: 46px;
+					}
+
+					h5 {
+						font-size: 24px;
+					} 
+
+					& > p {
+						padding-bottom: 40px;
+					}
+
+					a.sg-show-popup {
+						margin-bottom: 19px;
+					}
+				}
+
+				& > div {
+					.dev-slide-img {
+						background: url(https://levelup.ua/wp-content/uploads/2019/04/head.png) no-repeat;
+						background-size: contain;
+						bottom: -20%;
+					}
+				}
+			}
+		}
+
+		& > .head {
+			background: none;
+
+			&:before {
+				display: none;
+			} 
+
+			&:after {
+				display: none; 
+			}
+		} 
+
+		&.edge--bottom::after {
+				background: #fff;
+				height: 10%;
+		}
+	}
+
+	#dev-about {
+		padding: 90px 0;
+
+		h2 {
+			padding-left: 0;
+			margin-bottom: 0;
+
+			span {
+				color: #15acf2;
+			}
+
+			&:before {
+				width: calc(100% - 47px);
+			}
+		}
+	}
+
+	.reg-offer { 
+		margin: 50px 0;
+
+		.container > div {
+			grid-column: 1;
+
+			&.img {
+				grid-column: 2;
+			}
+		}
+	}
+
+
+	#dev-scheme {
+		background: #fff;
+		color: #4c4c4c;
+		padding: 70px 0 0 0;
+
+		h2 {
+			color: #4c4c4c;
+			margin-bottom: 20px;
+
+			span {
+				color: #15acf2;
+			}
+		}
+
+		.invite {
+			.content {
+				margin-top: 0;
+
+				img {
+					max-width: 400px;
+				}
+
+				ul {
+					margin-bottom: 30px;
+					grid-row-gap: 50px;
+
+					li {
+
+						h4 {
+							font-size: 24px;
+						}
+						.check {
+							fill: #15acf2;
+						}
+					}
+				}
+			}
+		}
+	}
+
+.sec-testing {
+	background: linear-gradient(to right, #01c9fe, #08a2ff);
+	color: #fff;
+	position: relative;
+	box-shadow: 0px 41px 163px 0px rgba(0, 0, 0, 0.41);
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(https://levelup.ua/wp-content/uploads/2019/04/bg_offer2.png) no-repeat;
+		background-position: 100% -70px;
+		background-size: 725px;
+	}
+
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+
+	h3 {
+		color: #fff;
+		font-weight: 600;
+
+		span {
+			color: #eaff00;
+		}
+	}
+
+	p {
+		color: #fff;
+
+		span {
+			display: block;
+		}
+	}
+}
+
+
+#english-program {
+	background: #fff;
+	position: relative;
+	padding: 70px 0 0 0;
+
+	.container {
+		position: relative;
+		z-index: 2; 
+	}
+
+	h2 {
+		span {
+			color: #15acf2;
+		}
+	}
+
+	.sec-descr {
+		margin-top: 10px;
+		span {
+			display: block;
+		}
+	}
+
+	.en-program {
+		padding-top: 50px;
+
+		.en-tabs { 
+			display: flex; 
+ 
+			li {
+				flex-basis: auto; 
+ 				flex-grow: 1;
+ 				text-align: center;
+ 				cursor: pointer;
+ 				font-size: 18px;
+ 				font-weight: bold;
+ 				padding: 20px 0;
+
+ 				&.current {
+ 					background: #15acf2;
+ 					color: #fff;
+ 				}
+			}
+		}
+	}
+
+	.en-cont {
+		position: relative;
+		background: #15acf2;
+		padding: 35px 0;
+		color: #fff;
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: url(https://levelup.ua/wp-content/uploads/2019/04/bg_program_english.png) no-repeat;
+			background-size: cover;
+			height: 100%;
+			width: 100%;
+		}
+
+		.tab-content{
+			display: none;
+
+			&.current{
+				display: inherit;
+			}
+
+			.tab-grid-3 {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-column-gap: 60px;
+
+				ul {
+					li {
+						padding-bottom: 10px;
+
+						&:last-child {
+							padding: 0;
+						}
+					}
+				}
+			}
+
+			h4 {
+				font-size: 21px;
+				margin-bottom: 30px;
+			}
+		}
+
+			.tab-sec-title {
+			    overflow: hidden;
+			    text-align: center;
+			    font-size: 21px;
+			    margin-top: 30px;
+			    margin-bottom: 30px;
+
+			    &:before, &:after {
+					content: '';
+				    display: inline-block;
+				    vertical-align: middle;
+				    width: calc(100% - 35px);
+				    height: 2px;
+				    background-color: rgb(255, 255, 255);
+				  	opacity: 0.302;
+				    position: relative;
+			    }
+
+			    &:before {
+					margin-left: -100%;
+					left: -35px;
+			    }
+
+			    &:after {
+					margin-right: -100%;
+					right: -35px;
+			    }
+			}
+
+	}
+
+	.btn {
+		margin: 30px 0 0 0;
+		display: block;
+
+		a.sg-show-popup:hover {
+			color: #4c4c4c !important;
+		}
+	}
+} 
+
+
+.about-text { overflow: auto; position: relative; display: block; height: 300px;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;}
+
+#course-prepod {
+	&.course {
+		padding: 70px 0;
+	}
+}
+
+#english-club {
+	text-align: center;
+	background: #eaf2f6;
+	z-index: 0;
+	padding-top: 50px;
+
+	.container {
+		& > .tc {
+			.btn {
+				position: relative;
+				bottom: -44px;
+			}
+		}
+	}
+ 
+	h2 {
+		span {
+			color: #15acf2;
+		}
+	}
+
+	.sec-descr {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	.content {
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+		align-items: center;
+		padding: 50px 0 10px 0;
+		counter-reset: myCounter;
+		text-align: center;
+
+		& > div:nth-child(3) {
+			grid-column: 2/4;
+			grid-row: 1/3;
+			text-align: center;
+		}
+
+		& > div:nth-child(1) {grid-column: 1/2;grid-row: 1;}
+		& > div:nth-child(2) {grid-column: 1/2;}
+		& > div:nth-child(4) {grid-column: 4/5;grid-row: 1;}
+		& > div:nth-child(5) {grid-column: 4/5;grid-row: 2;}
+
+		p { 
+			position: relative; 
+			
+			span {
+				position: relative;
+				z-index: 2;
+			}
+
+			&:before {
+				counter-increment: myCounter;
+				content: counter(myCounter,decimal-leading-zero);
+				position: absolute;
+				width: 100%;
+				text-align: center;
+				top: 50%;
+				left: 0;
+				transform: translateY(-50%);
+				color: #e1e9ec;
+				font-size: 155px;
+				font-weight: bold;
+				z-index: 0;
+			}
+		}
+	}
+}
+
+.instruments_section {
+	background: none;
+	margin-top: 50px;
+}
+
+}
+
+@media (max-width: 992px) {
+	.it-english #dev-slider > .container .content {grid-template-columns: 1fr;}
+	.it-english #dev-slider > .container .content > .text h1 {font-size: 32px;}
+	.it-english #dev-slider > .container .content > .text {text-align: center;}
+	.it-english #dev-about {padding: 0;z-index: 5;position: relative;}
+	.it-english #dev-about h2 {margin-bottom: 20px;}
+	.it-english #english-program .en-cont .tab-content .tab-grid-3 {grid-template-columns: 1fr;grid-row-gap: 30px;}
+	.it-english .about-text {height: 132px}
+	.it-english #english-club .content {grid-template-columns: 1fr;padding-top: 20px;}
+	.it-english #english-club .content > div:nth-child(1) {grid-column: 1/2;grid-row: inherit;}
+	.it-english #english-club .content > div:nth-child(2) {grid-column: 1/2;grid-row: inherit;}
+	.it-english #english-club .content > div:nth-child(3) {grid-column: 1/2;grid-row: 5/6;}
+	.it-english #english-club .content > div:nth-child(4) {grid-column: 1/2;grid-row: inherit;}
+	.it-english #english-club .content > div:nth-child(5) {grid-column: 1/2;grid-row: inherit;}
+
+	.it-english #english-club .content p {text-align: left;margin: 20px 0;padding-left: 52px;}
+	.it-english #english-club .content p::before {width: auto;font-size: 35px;color: #c6d8de;}
+	.it-english #english-program {padding-top: 30px;}
+}
+
+@media (max-width: 768px) { 
+	.about-text {padding: 0;margin: 0;} 
+.it-english #dev-scheme {padding-top: 0;}
+	.it-english #english-program .en-program .en-tabs { display: block; }
+	.it-english #english-program .en-program .en-tabs li.current { border-radius: 50px;}
+}

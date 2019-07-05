@@ -1,0 +1,29 @@
+.hr-page #dev-slider { margin-top: 0; background: linear-gradient(to right, #02c4fe, #07a7ff); }
+.hr-page #dev-slider > .container .content { grid-column-gap: 0px; grid-template-columns: 1fr 1fr; }
+.hr-page #dev-slider > .container .content > .text { text-align: left; align-self: center; bottom: auto; }
+.hr-page #dev-slider > .container .content > .text h1 { color: #eaff00; padding-bottom: 35px; font-size: 46px; }
+.hr-page #dev-slider > .container .content > .text h5 { font-size: 24px; }
+.hr-page #dev-slider > .container .content > .text > p { padding-bottom: 40px; font-size: 21px; }
+.hr-page #dev-slider > .container .content > .text a.sg-show-popup { margin-bottom: 19px; }
+.hr-page #dev-slider > .container .content > div .dev-slide-img { background: url(https://levelup.ua/wp-content/uploads/2019/04/head.png) no-repeat; background-size: contain; bottom: -20%; }
+.hr-page #dev-slider > .head { background: none; }
+.hr-page #dev-slider > .head:before { display: none; }
+.hr-page #dev-slider > .head:after { display: none; }
+.hr-page #dev-slider.edge--bottom::after { background: #fff; height: 10%; }
+.hr-page #dev-about { padding: 90px 0; }
+.hr-page #dev-about h2 { padding-left: 0; margin-bottom: 30px; }
+.hr-page #dev-about h2 span { color: #15acf2; }
+.hr-page #dev-about h2:before { width: calc(100% - 47px); }
+.hr-page .reg-offer { margin: 50px 0; }
+.hr-page .reg-offer .container > div { grid-column: 1; }
+.hr-page .reg-offer .container > div.img { grid-column: 2; }
+.hr-page #dev-scheme { background: #fff; color: #4c4c4c; padding: 70px 0 0 0; }
+.hr-page #dev-scheme h2 { color: #4c4c4c; margin-bottom: 20px; }
+.hr-page #dev-scheme h2 span { color: #15acf2; }
+.hr-page #dev-scheme .invite .content { margin-top: 0; }
+.hr-page #dev-scheme .invite .content ul { margin-bottom: 30px; grid-row-gap: 50px; }
+.hr-page #dev-scheme .invite .content ul li { font-size: 18px; }
+.hr-page #dev-scheme .invite .content ul li h4 { font-size: 24px; }
+.hr-page #dev-scheme .invite .content ul li .check { fill: #15acf2; }
+
+/*# sourceMappingURL=hr-page.css.map */

@@ -1,0 +1,133 @@
+.hr-page {
+
+
+#dev-slider {
+		margin-top: 0;
+		background: linear-gradient(to right, #02c4fe, #07a7ff);
+
+		& > .container {
+			.content {
+				grid-column-gap: 0px;
+				grid-template-columns: 1fr 1fr;
+
+				& > .text {
+					text-align: left;
+					align-self: center;
+					bottom: auto;
+
+					h1 {
+						color: #eaff00;
+						padding-bottom: 35px;
+						font-size: 46px;
+					}
+
+					h5 {
+						font-size: 24px;
+					} 
+
+					& > p {
+						padding-bottom: 40px;
+						font-size: 21px;
+					}
+
+					a.sg-show-popup {
+						margin-bottom: 19px;
+					}
+				}
+
+				& > div {
+					.dev-slide-img {
+						background: url(https://levelup.ua/wp-content/uploads/2019/04/head.png) no-repeat;
+						background-size: contain;
+						bottom: -20%;
+					}
+				}
+			}
+		}
+
+		& > .head {
+			background: none;
+
+			&:before {
+				display: none;
+			} 
+
+			&:after {
+				display: none; 
+			}
+		} 
+
+		&.edge--bottom::after {
+				background: #fff;
+				height: 10%;
+		}
+	}
+
+	#dev-about {
+		padding: 90px 0;
+
+		h2 {
+			padding-left: 0;
+			margin-bottom: 0;
+
+			span {
+				color: #15acf2;
+			}
+
+			&:before {
+				width: calc(100% - 47px);
+			}
+		}
+	}
+
+
+	.reg-offer { 
+		margin: 50px 0;
+
+		.container > div {
+			grid-column: 1;
+
+			&.img {
+				grid-column: 2;
+			}
+		}
+	}
+
+	#dev-scheme {
+		background: #fff;
+		color: #4c4c4c;
+		padding: 70px 0 0 0;
+
+		h2 {
+			color: #4c4c4c;
+			margin-bottom: 20px;
+
+			span {
+				color: #15acf2;
+			}
+		}
+
+		.invite {
+			.content {
+				margin-top: 0;
+
+				ul {
+					margin-bottom: 30px;
+					grid-row-gap: 50px;
+
+					li {
+						font-size: 18px;
+
+						h4 {
+							font-size: 24px;
+						}
+						.check {
+							fill: #15acf2;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
