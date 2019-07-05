@@ -41,12 +41,6 @@ const clear = () => del(Wlax.pub).then((paths) => {
   console.log('Deleted files and folders:\n', paths.join('\n'));
 });
 
-gulp.task('minify-css', () => {
-  return gulp.src('styles/*.css')
-    .pipe(cleanCSS({ compatibility: 'ie8' }))
-    .pipe(gulp.dest('dist'));
-});
-
 const allf = () => src(Wlax.all, {base: './src'}).
 pipe(dest(Wlax.pub));
 
@@ -69,3 +63,10 @@ exports.all = allf;
 
 exports.build = series(clear, parallel(allf, css, js));
 exports.default = series(clear, parallel(allf, css, js));
+
+
+gulp.task('minify-css', () => {
+  return gulp.src('styles/*.css')
+    .pipe(cleanCSS({ compatibility: 'ie8' }))
+    .pipe(gulp.dest('dist'));
+});
