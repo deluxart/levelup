@@ -14,7 +14,8 @@
       right: 0;
       z-index: -1;
       -webkit-backface-visibility: hidden;
-    } 
+      backface-visibility: hidden;
+    }
 
     @if $pseudo == 'before' {
       #{$selector} {
@@ -93,4 +94,4 @@
 
 .edge--both--reverse {
   @include angle(both, true);
-} 
+}
