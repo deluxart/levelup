@@ -1,5 +1,5 @@
 /*
-Theme Name: Level Up (Git Hub - Home Work)
+Theme Name: Level Up (Git Hub - Home Work 3)
 Theme URI: https://levelup.ua/
 Author: Alexander Osadchyy
 Author URI: https://levelup.ua/
@@ -88,7 +88,7 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 .buttonLight.blue:hover {border-color: #0aa1e7 !important; background: #0aa1e7;color: #fff;}
 .buttonLight.blue:hover:after, .buttonLight.blue:after, p.btn-blue a.sg-show-popup:after { background-image:url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg"); }
 
-.Slider_courses_block a.sg-show-popup { color: #4с4с4с; background: #d1f700; }
+.Slider_courses_block a.sg-show-popup { color: #4c4c4c; background: #d1f700; }
 .Slider_courses_block a.sg-show-popup:after { background-image:url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg"); }
 
 .buttonLight.black:after, .welcome .sg-show-popup:after, .who-do-you-want-study .sg-show-popup:after, .why_do_you_want .sg-show-popup:after, .course_open .sg-show-popup:after, .news-block-reg .sg-show-popup:after, .course_reasons .sg-show-popup:after { background-image:url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg");}
@@ -104,7 +104,7 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 
 
 /*Секция "Детали курса"*/
-.course_details { background: #2e3035; repeat; color: #fff; }
+.course_details { background: #2e3035; color: #fff; }
 .course_details-block { text-align: center; }.course_details-block h5 { color: #999999; padding: 22px 0 10px 0; font-size: 20px; }.course_details-block p { color: #fff; }.course_details-block img { display: block; margin: 0 auto; }.course_details .buttonLight, .course_details .sg-show-popup { margin-top: 25px; }.instruments_section .buttonLight, .instruments_section .sg-show-popup { margin-top: 20px; }.instruments_section .slick-dots { display: none !important; } .instruments_section .slick-dotted.slick-slider { margin-bottom: 0 !important; }p.description { position: relative; }p.description:before { content: ''; position: absolute; width: 60px; height: 1px; background: rgba(51, 51, 51, 0.5); top: -15px; left: calc(50% - 30px); }
     .course_details-block .start { background: url(https://levelup.ua/wp-content/uploads/2018/05/Icon-Start.png) no-repeat; }    .course_details-block .data { background: url(https://levelup.ua/wp-content/uploads/2018/05/Icon-Data.png) no-repeat; }    .course_details-block .calendar { background: url(https://levelup.ua/wp-content/uploads/2018/05/Icon-Calendar.png) no-repeat; }    .course_details-block .cost { background: url(https://levelup.ua/wp-content/uploads/2018/05/Icon-Cost.png) no-repeat; }
 /*Конец - Секция "Детали курса"*/
@@ -120,7 +120,7 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 
 /*Секция "Детали курса"*/
 .course_open { background: #fff; }
-.course_open-block { text-align: center; color: #4c4c4c; }.course_open-block h5 { padding: 22px 0 10px 0;  font-size: 20px; }.course_open-block p { }.course_open-block img { display: block; margin: 0 auto; max-width: 134px; max-height: 134px; }.course_open .buttonLight, .course_open .sg-show-popup { margin-top: 40px; }.course_open.adobe .buttonLight, .course_open.adobe .sg-show-popup{ margin-top: 20px; }
+.course_open-block { text-align: center; color: #4c4c4c; }.course_open-block h5 { padding: 22px 0 10px 0;  font-size: 20px; }.course_open-block img { display: block; margin: 0 auto; max-width: 134px; max-height: 134px; }.course_open .buttonLight, .course_open .sg-show-popup { margin-top: 40px; }.course_open.adobe .buttonLight, .course_open.adobe .sg-show-popup{ margin-top: 20px; }
     .course_open-block .video-1 { background: url(https://levelup.ua/wp-content/uploads/2018/11/video-1.png) no-repeat; }    .course_open-block .video-2 { background: url(https://levelup.ua/wp-content/uploads/2018/11/video-2.png) no-repeat; }    .course_open-block .video-3 { background: url(https://levelup.ua/wp-content/uploads/2018/11/video-3.png) no-repeat; }    .course_open-block .video-4 { background: url(https://levelup.ua/wp-content/uploads/2018/11/video-4.png) no-repeat; }
     .course_open-block .adobe-1 { background: url(https://levelup.ua/wp-content/uploads/2018/12/icon-ps-1.png) no-repeat; }    .course_open-block .adobe-2 { background: url(https://levelup.ua/wp-content/uploads/2018/12/icon-ps-2.png) no-repeat; }    .course_open-block .adobe-3 { background: url(https://levelup.ua/wp-content/uploads/2018/12/icon-ps-3.png) no-repeat; }    .course_open-block .adobe-4 { background: url(https://levelup.ua/wp-content/uploads/2018/12/icon-ps-4.png) no-repeat; }
 
@@ -138,20 +138,19 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 
 /*Секция "Курс будет полезен если вы:"*/
 .course_benefit { color: #fff; }
-.course_benefit-block { text-align: center; color: #fff; }.course_benefit-block h5 { padding: 22px 0 10px 0; font-size: 20px; }.col-md-4 .course_benefit-block img { max-width: 200px; max-height: 200px; }.course_benefit-block p { }.course_benefit-block img { display: block; margin: 0 auto; }.course_benefit .buttonLight, .course_benefit .sg-show-popup { margin-top: 40px; }
+.course_benefit-block { text-align: center; color: #fff; }.course_benefit-block h5 { padding: 22px 0 10px 0; font-size: 20px; }.col-md-4 .course_benefit-block img { max-width: 200px; max-height: 200px; }.course_benefit-block img { display: block; margin: 0 auto; }.course_benefit .buttonLight, .course_benefit .sg-show-popup { margin-top: 40px; }
 
 /*Конец - Секция "Курс будет полезен если вы:"*/
 
 
 
 /*Секция "причины пройти курс"*/
-.course_reasons { }
-.course_reasons-block { text-align: center;  }.course_reasons-block h4 { padding: 22px 0 10px 0; font-size: 20px; }.course_reasons-block p { }.course_reasons-block img { display: block; margin: 0 auto; }.course_reasons .buttonLight, .course_reasons .sg-show-popup { margin-top: 40px; }
+.course_reasons-block { text-align: center;  }.course_reasons-block h4 { padding: 22px 0 10px 0; font-size: 20px; }.course_reasons-block img { display: block; margin: 0 auto; }.course_reasons .buttonLight, .course_reasons .sg-show-popup { margin-top: 40px; }
 /*Конец - Секция "причины пройти курс"*/
 
 /*Секция "Курс включает в себя"*/
 .course_includes { background: #eff3f6; }
-.course_includes-block { text-align: center;  }.course_includes-block h4 { padding: 22px 0 10px 0; font-size: 20px; }.course_includes-block p { }
+.course_includes-block { text-align: center;  }.course_includes-block h4 { padding: 22px 0 10px 0; font-size: 20px; }
 @media (min-width: 768px) {.course_includes-block_line2 { margin-top: 30px; }}.course_includes-block img { display: block; margin: 0 auto; }.course_includes .buttonLight, .course_includes .sg-show-popup{ margin-top: 40px; }
 /*Конец - Секция "Курс включает в себя"*/
 
@@ -202,8 +201,8 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 
 /* Прокрутка картинки при hover */
 .rotate-anim { background-position: center !important; background-repeat: no-repeat !important; }
-.rotate-anim img { -moz-transition: all 1s 0.1s ease-in; -o-transition: all 1s 0.1s ease-in; -webkit-transition: all 1s 0.1s ease-in; cursor: pointer; }
-.rotate-anim:hover img { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); }
+.rotate-anim img { -moz-transition: all 1s 0.1s ease-in; -o-transition: all 1s 0.1s ease-in; -webkit-transition: all 1s 0.1s ease-in; transition: all 1s 0.1s ease-in; cursor: pointer; }
+.rotate-anim:hover img { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg) }
 /* Конец - Прокрутка картинки при hover */
 
 
@@ -263,7 +262,7 @@ p.submit_cf { margin-bottom: 0;}
 
 /*Секция "Курс включает в себя"*/
 .course_frnt_end { background: #eff3f6; }
-.course_frnt_end-block { text-align: center;  }.course_frnt_end-block h4 { padding: 22px 0 10px 0; font-size: 20px; }.course_frnt_end-block p { }
+.course_frnt_end-block { text-align: center;  }.course_frnt_end-block h4 { padding: 22px 0 10px 0; font-size: 20px; }
 @media (min-width: 768px) {.course_frnt_end-block_line2 { margin-top: 30px; }}.course_frnt_end-block img { display: block; margin: 0 auto; }.course_frnt_end .sg-show-popup { margin-top: 40px; }
 /*Конец - Секция "Курс включает в себя"*/
 
@@ -293,7 +292,6 @@ p.submit_cf { margin-bottom: 0;}
 @media (max-width: 992px) {
 .loyalty_system .first { display: none; }
 .loyalty_system { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 2fr; align-items: center; text-align: center; width: 100%; }
-.loyalty_system div:nth-child(1) { }
 .loyalty_system.full-stack img { max-width: 90%; }
   .loyalty_system div:nth-child(4) { grid-column: 1/3; grid-row: 2/3; padding-top: 40px; padding-bottom: 0px; }
   .loyalty_system.full-stack div:nth-child(4) { grid-column: 1/2; grid-row: 2/3; padding-top: 40px; padding-bottom: 20px; }
@@ -550,7 +548,7 @@ textarea { padding: 10px; max-width: 100%; }
 #enroll_on_course input.wpcf7-form-control.wpcf7-submit { padding: 0 20px; background: #ff1569; border: 1px solid #ff1569;font-size: 18px; color: #121212; border-radius: 50px; text-transform: none; display: inline-block; line-height: 54px; box-shadow: none;border: 0px; }
 
 
-.slideBox { max-width: 415px !important; //float: right; position: relative; border-radius: 10px; max-width: 450px; width: 100%; background: #fff; }
+.slideBox { max-width: 415px !important; position: relative; border-radius: 10px; max-width: 450px; width: 100%; background: #fff; }
 
 @media (min-width: 768px) and (max-width: 992px) { .slideBox { min-width: 450px; } }
 @media (max-width:700px){#enroll_on_course input.wpcf7-form-control.wpcf7-submit{background: url(https://levelup.ua/wp-content/uploads/2018/11/checked.png);background-size: 54px;}}#enroll_on_course  input.wpcf7-form-control.wpcf7-submit:hover { background: #ff1569; border: 0; }#enroll_on_course  input.wpcf7-form-control.wpcf7-text:focus { border: 2px solid #ff1569; }#enroll_on_course input.wpcf7-form-control.wpcf7-submit {color: #fff;}
@@ -613,7 +611,7 @@ input.wpcf7-form-control.wpcf7-submit { margin-top: -2px; outline: none; }
 
 
 /* Модалка всех курсов */
-@media (max-width: 992px) {#all_courses { padding-right: 0 !important; }#all_courses ul.f_nav li { border-bottom: 1px solid #f1f1f1; padding: 5px 0; }#all_courses ul.f_nav li:first-child { padding-top: 0; }#all_courses ul.f_nav li:last-child { border: 0; padding-bottom: 0; }#all_courses ul.f_nav li a { color: #4c4c4c; position: relative; padding-left: 20px; font-size: 14px;  }#all_courses ul.f_nav li a:before { position: absolute;; display: block; float: left; left:0; content: "\f105"; font-family: FontAwesome; font-size: 14px; vertical-align: middle; width: 15px; text-align: center; color: #15acf2; }#all_courses .cat_menu_title { font-weight: 600;line-height: 30px;border-bottom: 1px solid #15acf2;margin: 20px 0 15px 0; position: relative; padding-left: 26px;  }
+@media (max-width: 992px) {#all_courses { padding-right: 0 !important; }#all_courses ul.f_nav li { border-bottom: 1px solid #f1f1f1; padding: 5px 0; }#all_courses ul.f_nav li:first-child { padding-top: 0; }#all_courses ul.f_nav li:last-child { border: 0; padding-bottom: 0; }#all_courses ul.f_nav li a { color: #4c4c4c; position: relative; padding-left: 20px; font-size: 14px;  }#all_courses ul.f_nav li a:before { position: absolute;; display: block; float: left; left:0; content: "\f105"; font-family: FontAwesome; font-size: 14px; width: 15px; text-align: center; color: #15acf2; }#all_courses .cat_menu_title { font-weight: 600;line-height: 30px;border-bottom: 1px solid #15acf2;margin: 20px 0 15px 0; position: relative; padding-left: 26px;  }
 #all_courses .cat_menu_title:before { position: absolute; display: block; float: left; left:0; content: "\f105"; font-family: FontAwesome; color: #15acf2; width: 15px; }    #all_courses .cat_menu_title.cat_1:before { content: "\f121"; }    #all_courses .cat_menu_title.cat_2:before { content: "\f1fc"; }    #all_courses .cat_menu_title.cat_3:before { content: "\f0a1"; }    #all_courses .cat_menu_title.cat_4:before { content: "\f1cd"; }    #all_courses .cat_menu_title.cat_5:before { content: "\f108"; }#all_courses .cat_menu_title:first-child { margin-top: 0; }
 }
 /* Модалка всех курсов */
@@ -703,7 +701,7 @@ body .sc-table-style-2 tr td:nth-child(2n), .sc-table td { background: none; }
 
 
 
-.it-conference {  }.it-conference .wrapper-grid > div { background-size: 165%;background-position: center center; }.it-conference .img1 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image1.jpg);}.it-conference .img2 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image2.jpg);}.it-conference .img3 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image3.jpg);}.it-conference .img4 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image4.jpg);}.it-conference .img5 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image5.jpg);}.it-conference .img6 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image6.jpg);}.it-conference .img7 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image7.jpg);}.it-conference .img8 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image8.jpg);}.it-conference .img9 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image9.jpg);}.it-conference .img10 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image10.jpg);}.it-conference .img11 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image11.jpg);}.it-conference .img12 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image12.jpg);}
+.it-conference .wrapper-grid > div { background-size: 165%;background-position: center center; }.it-conference .img1 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image1.jpg);}.it-conference .img2 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image2.jpg);}.it-conference .img3 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image3.jpg);}.it-conference .img4 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image4.jpg);}.it-conference .img5 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image5.jpg);}.it-conference .img6 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image6.jpg);}.it-conference .img7 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image7.jpg);}.it-conference .img8 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image8.jpg);}.it-conference .img9 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image9.jpg);}.it-conference .img10 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image10.jpg);}.it-conference .img11 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image11.jpg);}.it-conference .img12 {background: url(https://levelup.ua/wp-content/uploads/2018/11/image12.jpg);}
 
 
 
@@ -711,7 +709,6 @@ body .sc-table-style-2 tr td:nth-child(2n), .sc-table td { background: none; }
 /* Главная страница */
 
 /* Секция "Об учебном центре" */
-.about_section { }
 
 .about_section .counter { font-size: 48px; line-height: 1.3em; font-weight: 500; position: relative; }.about_section .counter:after { content: ''; position: absolute; bottom: 0; left: 0; width: 30px; height: 1px; background: #d9d9d9; }.about_section .counter span { font-size: 28px; }.about_section .about_text_img { position: absolute; z-index: -1; }.about_section .text { display: grid; padding: 0 30px; }.about_section .section_one { margin-bottom: 30px; }
 
@@ -1004,7 +1001,6 @@ background-position: center;border: none;background-size: 26px 26px;border-radiu
 .meetup-form span.wpcf7-list-item.last { display: grid !important; grid-template-columns: minmax(90px, 90px) 1fr; }
 
 /* Полноэкранный слайдер на главной */
-.home-news-slider { }
 .home-news-slider .slick-prev { left: 50px; z-index: 9999; }
 .home-news-slider .slick-next { right: 50px; }
 .home-news-slider .slick-slide { padding: 0 !important; }
@@ -1019,8 +1015,6 @@ background-position: center;border: none;background-size: 26px 26px;border-radiu
 .slide-one { background: url(https://levelup.ua/wp-content/uploads/2018/12/Lvlup_10K_1920x660.jpg) center no-repeat; }
 .slide-two { background: url(https://levelup.ua/wp-content/uploads/2018/12/Lvlup_10K_1920x660.jpg) center no-repeat; }
 .slide-three { background: url(https://levelup.ua/wp-content/uploads/2018/12/Lvlup_10K_1920x660.jpg) center no-repeat; }
-
-.video-slide {  }
 
 .who-are-need-a-course  ul { padding-left: 0 !important; }
 
@@ -1158,7 +1152,7 @@ padding: 12px 22px;top: 18px; width: 100%; }
 .single .aligncenter { display: block;margin-right: auto;margin-left: auto;}
 .single blockquote.aligncenter, .single .wp-caption.aligncenter, .single img.aligncenter {clear: both;margin-top: 0.4em;margin-bottom: 1.6em;}
 .single blockquote.alignleft, .single .wp-caption.alignleft, .single img.alignleft {margin: 0.4em 1.6em 1.6em 0;}
-.single .alignleft {display: inline;float: left;}
+.single .alignleft {display: block;float: left;}
 .single .entry-content ol { margin-left: 20px; }
 .single .entry-content img { max-width: 100%; }
 .single .text-bg-blue {text-align: left;box-shadow: 0 24px 50px 0 rgba(0,0,0,.1);padding: 20px 80px;color: #fff;background: #15acf2;overflow: hidden;border-radius: 10px;}
@@ -1348,7 +1342,6 @@ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255
 @media (max-width: 768px) {
 	.hr-page #dev-slider > .container .content > .text { text-align: center; }
 	#this_course .content { display: grid; grid-template-columns: 1fr; grid-gap: 30px; }
-	#course_details.desktop {  }
 	.hr-page .course_details-block { display: grid;grid-template-columns: 90px 1fr;align-items: center;text-align: left; grid-column-gap: 20px; }
 	.hr-page .course_details-block > div { background-size: 40px; }
 	.hr-page .course_details-block > div.rotate-anim { grid-row: 1/3; }
