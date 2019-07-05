@@ -1,5 +1,5 @@
 /*
-Theme Name: Level Up
+Theme Name: Level Up (Git Hub)
 Theme URI: https://levelup.ua/
 Author: Alexander Osadchyy and Alexander Sumarokow
 Author URI: https://levelup.ua/
@@ -221,8 +221,8 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 span.radio-ivent { display: grid; grid-template-columns: 1fr 1fr; margin-top: 10px;}
 
 
-/*Карточка курса для карусели*/.course_cards { background: #eaedef; }.course_card_block { background: #fff; max-width: 400px; margin: 0 auto; }    .course_card_block h4 { font-size: 21px; line-height: 30px; text-align: center; padding: 10px 20px !important; font-weight: 600; min-height: 80px; }    .course_card_block p { padding: 0 30px; }    .course_card_block .price { color: #15acf2; padding: 5px; font-size: 21px; }    .course_card_block .price span { display: block; font-size: 16px; color: #9c9c9c; padding: 10px 0 0 0; }    .course_card_block .buttonLight, .course_card_block .sg-show-popup { margin-bottom: 30px;  margin-top: 20px; }    .slick-prev, .slick-next { width: 26px; height: 25px; }    .slick-prev::before, .slick-next::before { font-family: 'slick'; font-size: 26px; line-height: 1; color: #bababa; }    
-.slick-prev::before { content: "\f104"; font-family: FontAwesome; }    
+/*Карточка курса для карусели*/.course_cards { background: #eaedef; }.course_card_block { background: #fff; max-width: 400px; margin: 0 auto; }    .course_card_block h4 { font-size: 21px; line-height: 30px; text-align: center; padding: 10px 20px !important; font-weight: 600; min-height: 80px; }    .course_card_block p { padding: 0 30px; }    .course_card_block .price { color: #15acf2; padding: 5px; font-size: 21px; }    .course_card_block .price span { display: block; font-size: 16px; color: #9c9c9c; padding: 10px 0 0 0; }    .course_card_block .buttonLight, .course_card_block .sg-show-popup { margin-bottom: 30px;  margin-top: 20px; }    .slick-prev, .slick-next { width: 26px; height: 25px; }    .slick-prev::before, .slick-next::before { font-family: 'slick'; font-size: 26px; line-height: 1; color: #bababa; }
+.slick-prev::before { content: "\f104"; font-family: FontAwesome; }
 .slick-next::before { content: "\f105"; font-family: FontAwesome; }    .slick-slide { outline: none !important; padding: 0 10px; }
 @media (max-width: 768px) {.slick-next { right: -15px; }.slick-prev { left: -15px; z-index: 9999; }.offer_attention p { font-size: 16px; }
 
@@ -645,7 +645,7 @@ input.wpcf7-form-control.wpcf7-submit { margin-top: -2px; outline: none; }
 .open-courses.blog h1 { background: url(https://levelup.ua/wp-content/uploads/2018/02/BG-Blog-Header.jpg) center center no-repeat; background-size: cover; }
 .open-courses.blog h1 span.description { display: block; text-align: center; margin-top: 15px; font-size: 18px; }
 
-.page-id-1459 .open-courses h1 { 
+.page-id-1459 .open-courses h1 {
   padding-bottom: 60px;
 }
 
@@ -776,7 +776,7 @@ letter-spacing: 0;color: #fff;font-size: 18px;font-weight: 300!important;border-
 .acideNews .news { height: 0; padding: 0; margin: 0; }
 .acideNews br { display: none; }
 .acideNews .footer-social-icon { padding: 0; line-height: 0; }
-.acideNews .ajax-loader { position: absolute; top: 12px; right: 15px; } 
+.acideNews .ajax-loader { position: absolute; top: 12px; right: 15px; }
 
 .acideNews span.wpcf7-not-valid-tip { background: #ff1569; font-size: 12px; color: #fff; padding: 2px 5px; }
 .acideNews .wpcf7-not-valid-tip { margin: 0; position: absolute; right: 0px; top: 0; display: inline-block !important; }
@@ -845,7 +845,7 @@ ul.pp-posts { margin-bottom: 20px; }
 .course_includes-block { display: grid; grid-template-columns: 1fr; text-align: center; }
 
 .video-cont .course_includes-block, .php_includes .course_includes-block{ border-bottom: 1px solid #ddd; display: grid; grid-template-columns: minmax(100px, 100px) 1fr; text-align: left; }
-.php_includes .course_includes-block.last{border: none !important;} 
+.php_includes .course_includes-block.last{border: none !important;}
 .course_includes-block div:first-child { grid-row: 1/2; }
 .course_includes-block h4 { grid-row: 2/3; padding-left: 0; padding-top: 15px; }
 .course_includes-block.last, .course_includes-block.last_includes { margin-bottom: 0; }
@@ -890,7 +890,7 @@ background-repeat: no-repeat; background-position: center; border-radius: 50px; 
 .dev-form .ajax-loader { position: absolute; top: 12px; right: 15px; }
 
 .dev-form div.wpcf7-mail-sent-ok { border: none; background: #398f14; color: #fff; margin: 0;
-    bottom: auto; top: 50%; border-radius: 3px; transform: translateY(-50%); padding: 11px; } 
+    bottom: auto; top: 50%; border-radius: 3px; transform: translateY(-50%); padding: 11px; }
 
 
 
@@ -1327,7 +1327,7 @@ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255
 .home-news-slider .slick-prev, .home-news-slider .slick-next { width: 42px;height: 42px;background: #0003;border-radius: 3px;line-height: 55px; transition: 0.4s all;}
 .home-news-slider .slick-prev::before, .home-news-slider .slick-next::before {color: #fff;font-size: 21px;width: 21px;height: 21px;display: inline-block;}
 .home-news-slider .slick-prev:hover , .home-news-slider .slick-next:hover {background: #0000004d;}
-.home-news-slider .slick-prev::before { content: "\f060"; font-family: FontAwesome; }    
+.home-news-slider .slick-prev::before { content: "\f060"; font-family: FontAwesome; }
 .home-news-slider .slick-next::before { content: "\f061"; font-family: FontAwesome; }
 .home-news-slider .slick-prev::before, .home-news-slider .slick-next::before {color: #fff;font-size: 21px; width: 21px; height: 21px; display: inline-block; }
 
