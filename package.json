@@ -1,0 +1,22 @@
+{
+  "name": "levelup",
+  "version": "1.0.0",
+  "description": "jobs 2019",
+  "main": "index.html",
+  "scripts": {
+    "bld": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zukerman",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "jquery": "^2.2.4"
+  }
