@@ -15,18 +15,17 @@ const {
 
 const Wlax = {
   all: [
-    './src/*.*',
-    './src/font/*.*',
-    './src/img/**/*.*',
-    '!./src/**/*.scss',
-    '!./src/**/*.js'
+    './wp-content/themes/LevelUp/*.*',
+    './wp-content/themes/LevelUp/fonts/*.*',
+    './wp-content/themes/LevelUp/img/**/*.*',
+    '!./wp-content/themes/LevelUp/**/*.scss',
+    '!./wp-content/themes/LevelUp/**/*.js'
   ],
   // scss: './src/**/*.scss',
-  scss: './src/styles/main.scss',
+  scss: './wp-content/themes/LevelUp/css/main.scss',
   // eslint-disable-next-line sort-keys
   aljs: [
-    './src/**/bootstrap/*.js',
-    './src/javascripts/*.js'
+    './wp-content/themes/LevelUp/js/*.js'
   ],
   pub: 'dist/',
   // eslint-disable-next-line sort-keys
