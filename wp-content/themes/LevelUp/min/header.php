@@ -33,19 +33,19 @@
 	<!--[if lt IE 9]>
 		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" crossorigin="anonymous"> -->
 
     <!--Сброс стилей-->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css?4">
+    <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css?4"> -->
     <!--Шрифты Google (Roboto, Montserrat)-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
 
     <!--Иконки FontAwesome-->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css"> -->
 
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/guttenberg.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.min.css?<?php echo date(get_option('date_format')); ?>">
+    <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/guttenberg.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.min.css?<?php echo date(get_option('date_format')); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/slide.min.css?3">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/navigation.css?3">
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/saas-style.css?3">
@@ -53,17 +53,18 @@
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/dev.css?<?php echo date(get_option('date_format')); ?>">
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/it-english.css?<?php echo date(get_option('date_format')); ?>">
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/hr-page.css?<?php echo date(get_option('date_format')); ?>">
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/event.css?<?php echo date(get_option('date_format')); ?>">
-      
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/event.css?<?php echo date(get_option('date_format')); ?>"> -->
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/min/css/all2.min.css?<?php echo date(get_option('date_format')); ?>">
+
     <?php wp_head(); ?>
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-editor.css?<?php echo date(get_option('date_format')); ?>">
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/pm.css?<?php echo date(get_option('date_format')); ?>">
+      <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-editor.css?<?php echo date(get_option('date_format')); ?>">
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/pm.css?<?php echo date(get_option('date_format')); ?>"> -->
 
 
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/greensock.js?ver=1.19.0"></script>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/styles.css">
+    <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/styles.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/jquery.mCustomScrollbar.css"> -->
         <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -457,7 +458,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
 
-  
+
 </nav>
 </header>
 <?php if (current_user_can('level_10')) { ?></div><?php } ?>
