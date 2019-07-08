@@ -636,7 +636,9 @@ span .five,.one,.two,.three,.four { display: block; position: absolute; width: 1
 
 .course_card_title {min-height: 80px;display: grid;align-items: center;}
 #courses_schedulle_tbl > tbody > tr > td.title > a {position: relative; font-size: 16px; font-weight: 600;white-space: nowrap;}
-@media (min-width: 992px ){.sc-table td:first-child span {padding-left: 80px;}}
+@media (min-width: 992px ){
+  /* .sc-table td:first-child span {padding-left: 80px;} */
+}
 /*Табы курсов*/
 
 /*Конец Табы курсов*/
