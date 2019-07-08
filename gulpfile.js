@@ -30,11 +30,11 @@ const Wlax = {
   aljs: [
     './wp-content/themes/LevelUp/js/*.js'
   ],
-  pub: './wp-content/themes/LevelUp/min/',
+  pub: './wp-content/themes/LevelUp/dist/',
   // eslint-disable-next-line sort-keys
-  css: './wp-content/themes/LevelUp/min',
+  css: './wp-content/themes/LevelUp/dist',
   allcss: './wp-content/themes/LevelUp/css/*.css',
-  js: './wp-content/themes/LevelUp/min'
+  js: './wp-content/themes/LevelUp/dist'
 }
 
 // const clear = () => src('./dist', {read: false}).pipe(gcln());

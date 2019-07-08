@@ -55,7 +55,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/it-english.css?<?php echo date(get_option('date_format')); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/hr-page.css?<?php echo date(get_option('date_format')); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/event.css?<?php echo date(get_option('date_format')); ?>"> -->
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/styles-all.min.css?<?php echo date(get_option('date_format')); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?<?php echo date(get_option('date_format')); ?>">
 
     <?php wp_head(); ?>
       <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-editor.css?<?php echo date(get_option('date_format')); ?>">
