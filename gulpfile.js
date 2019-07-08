@@ -42,7 +42,7 @@ const clear = () => del(Wlax.pub).then((paths) => {
   console.log('Deleted files and folders:\n', paths.join('\n'));
 });
 
-const allf = () => src(Wlax.all, { base: './wp-content/themes/LevelUp'}).
+const allf = () => src(Wlax.all, { base: './wp-content/themes/LevelUp/'}).
 pipe(dest(Wlax.pub));
 
 
