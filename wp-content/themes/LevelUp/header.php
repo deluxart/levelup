@@ -43,18 +43,17 @@
 
     <!--Иконки FontAwesome-->
     <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css"> -->
-
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/guttenberg.min.css"> -->
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.min.css?<?php echo date(get_option('date_format')); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/slide.min.css?3">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/navigation.css?3">
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/saas-style.css?3">
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/search-form.css?3">
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/dev.css?<?php echo date(get_option('date_format')); ?>">
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/it-english.css?<?php echo date(get_option('date_format')); ?>">
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/hr-page.css?<?php echo date(get_option('date_format')); ?>">
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/event.css?<?php echo date(get_option('date_format')); ?>"> -->
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/min/css/all2.min.css?<?php echo date(get_option('date_format')); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/saas-style.css?3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/search-form.css?3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/dev.css?<?php echo date(get_option('date_format')); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/it-english.css?<?php echo date(get_option('date_format')); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/hr-page.css?<?php echo date(get_option('date_format')); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/event.css?<?php echo date(get_option('date_format')); ?>"> -->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/min/css/all2.min.css?<?php echo date(get_option('date_format')); ?>">
 
     <?php wp_head(); ?>
       <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-editor.css?<?php echo date(get_option('date_format')); ?>">
@@ -390,10 +389,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 <div class="menu__item menu__item--2" data-direction="lr">
                     <div class="menu__item-inner">
-<!-- 						<div class="mask-map"></div> -->
 						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2645.8589966414834!2d35.039444!3d48.4592349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2dfeea55555%3A0xb4637f658c8cf549!2z0KPRh9C10LHQvdGL0LkgSVQt0YbQtdC90YLRgCBMZXZlbCBVcA!5e0!3m2!1sru!2sua!4v1544525641874" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-<!--                         <a href="https://www.google.com/maps/place/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9+IT-%D1%86%D0%B5%D0%BD%D1%82%D1%80+Level+Up/@48.4592349,35.039444,17.01z/data=!4m5!3m4!1s0x40dbe2dfeea55555:0xb4637f658c8cf549!8m2!3d48.458738!4d35.0404627" target="_blank"><div class="menu__item-map"></div></a> -->
-<!--                         <a href="#" class="menu__item-hoverlink">Наша локация</a> -->
                     </div>
                 </div>
                 <div class="menu__item menu__item--3" data-direction="bt">
