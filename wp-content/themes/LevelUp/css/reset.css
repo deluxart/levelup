@@ -41,7 +41,7 @@ input:-webkit-autofill {
 
 
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 .logo_desktop { display: none; }
 .logo_mobile { display: inline-block; }
 .navbar-brand { margin-right: 0; }
@@ -332,11 +332,11 @@ text-align: center; color: #15acf2; }
 body.postid-5691 #sidebar { display: none; }
 
   #adaptive-tables table { width: 100%; }
-  #adaptive-tables table, 
-  #adaptive-tables thead, 
-  #adaptive-tables tbody, 
-  #adaptive-tables th, 
-  #adaptive-tables td, 
+  #adaptive-tables table,
+  #adaptive-tables thead,
+  #adaptive-tables tbody,
+  #adaptive-tables th,
+  #adaptive-tables td,
   #adaptive-tables tr { padding: 8px; border: 0; }
   #adaptive-tables td.name a { font-size: 16px; font-weight: 600; color: #000; text-decoration: none; }
   #adaptive-tables td.name span { font-size: 14px; display: block; color: #6f809a; }
@@ -360,7 +360,7 @@ body.postid-5691 #sidebar { display: none; }
   #adaptive-tables td.price span {  font-size: 21px; font-weight: 600; }
   #adaptive-tables td.price2 span {  font-size: 21px; font-weight: 600; }
   #adaptive-tables td.price3 span { font-size: 21px; font-weight: 600; }
-  
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -368,11 +368,11 @@ body.postid-5691 #sidebar { display: none; }
   #adaptive-tables td .t-grid img { display: none; }
   #adaptive-tables .table-striped tbody tr:nth-of-type(odd) {  }
   #adaptive-tables td.price, #adaptive-tables td.price2{ border-bottom: 1px solid #dadada; }
-  #adaptive-tables table, 
-  #adaptive-tables thead, 
-  #adaptive-tables tbody, 
-  #adaptive-tables th, 
-  #adaptive-tables td, 
+  #adaptive-tables table,
+  #adaptive-tables thead,
+  #adaptive-tables tbody,
+  #adaptive-tables th,
+  #adaptive-tables td,
   #adaptive-tables tr { display: block; }
   #adaptive-tables thead tr {  position: absolute; top: -9999px; left: -9999px; }
   #adaptive-tables tr { border: 1px solid #ccc; }
@@ -421,3 +421,4 @@ body.postid-5691 #sidebar { display: none; }
 
 
 
+#offer-pm .container .content div .btn a.sg-show-popup { color: #4c4c4c; }
