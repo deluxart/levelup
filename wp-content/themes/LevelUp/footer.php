@@ -87,13 +87,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" crossorigin="anonymous"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
-<!--         <script type="text/javascript">  
-jQuery(document).ready(function(){
-jQuery.get('https://levelup.ua/', function (data) {  
-  jQuery('.slides-from-home').html( jQuery('.home-top-slider', data).html() ) 
-});
-}); 
-</script>  -->
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slick_slides.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
@@ -106,17 +99,13 @@ jQuery.get('https://levelup.ua/', function (data) {
     new WOW().init();
 </script>
 
-
 <div class="event_img-input" style="display:none">[text text-744 id:event_img]</div>
 <div class="link_liqpay-input" style="display:none">[text text-745 id:link_liqpay]</div>
 <div class="price-input" style="display:none">[text text-746 id:event_price]</div>
 <div class="date-input" style="display:none">[text text-747 id:event_date]</div>
 
-
-
-
 <!-- Мероприятия -->
-<script type="text/javascript"> 
+<script type="text/javascript">
 jQuery(document).ready(function () {
     var linkReg = window.location.href.indexOf("#open-reg") > -1;
     var linkGl = window.location.href.indexOf("#google") > -1;
@@ -139,9 +128,9 @@ jQuery(document).ready(function () {
         jQuery('#hash').val('Внешние ресурсы (open-reg)');
     } else if (linkMail == true) {
        jQuery("#open-reg .sg-show-popup").click();
-        jQuery('#hash').val('Почтовые рассылки (mail)'); 
+        jQuery('#hash').val('Почтовые рассылки (mail)');
     } else {
-        jQuery('#hash').val('С новости'); 
+        jQuery('#hash').val('С новости');
     }
 
     jQuery('#event_img').val(event_img);
@@ -149,7 +138,7 @@ jQuery(document).ready(function () {
     jQuery('#event_price').val(event_price);
     jQuery('#event_date').val(event_date);
     jQuery('#event_time').val(event_time);
-}); 
+});
 </script>
 
 

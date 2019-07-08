@@ -8,7 +8,9 @@
  * @subpackage LevelUp
  * @since LevelUp 1.0
  */
-?><!DOCTYPE html>
+?>
+<?php $options = get_option( 'levelup_theme_options' ); ?>
+<!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie ie7" lang="ru-RU" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
 <![endif]-->

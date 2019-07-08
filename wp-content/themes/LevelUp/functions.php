@@ -247,17 +247,6 @@ endif;
  * @since LevelUp 1.1
  */
 
-
-
-
-
-
-
-            //function LevelUp_javascript_detection() {
-            //	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
-            //}
-            //add_action( 'wp_head', 'LevelUp_javascript_detection', 0 );
-
 /**
  * Enqueue scripts and styles.
  *
@@ -463,12 +452,6 @@ if ( current_user_can( 'manager' ) ) {
     }
 }
 
-// Отключение обновлений
-// add_filter('pre_site_transient_update_core',create_function('$a', "return null;"));
-// wp_clear_scheduled_hook('wp_version_check');
-
-
-
 register_nav_menus(array(
 	'mibile_nav'    => 'Мобильная навигация',
 
@@ -593,61 +576,6 @@ add_filter('single_template', create_function(
 );
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function shortcode_button_script()
 {
     if(wp_script_is("quicktags"))
@@ -730,25 +658,6 @@ return $query;
 }
 add_filter('pre_get_posts', 'search_filter');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Для публикации новостей
 add_theme_support ('align-wide');
 add_theme_support( 'editor-color-palette', array(
@@ -827,9 +736,18 @@ wp_enqueue_style("style-admin",get_bloginfo('stylesheet_directory')."/css/font-a
 }
 add_action('admin_head', 'my_stylesheet1');
 
+// Options page for WP
+require get_template_directory() . '/inc/options_page.php';
 
-// function custom_mail($email) { return 'info@levelup.ua'; }
-// function custom_name($email){ return 'Level Up'; }
-// add_filter('wp_mail_from', 'custom_mail');
-// add_filter('wp_mail_from_name', 'custom_name');
-
+// add_action('admin_bar_menu', 'add_toolbar_items', 100);
+// function add_toolbar_items($admin_bar){
+//     $admin_bar->add_menu( array(
+//         'id'    => 'theme_options',
+//         'title' => 'Настройка',
+//         'href'  => '/wp-admin/admin.php?page=price_options',
+//         'meta'  => array(
+//             'title' => __('Настройка цен'),
+//         ),
+//     ));
+// }
+// End Options page for WP

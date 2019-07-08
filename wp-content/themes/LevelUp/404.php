@@ -7,18 +7,18 @@
  * @since Twenty Fifteen 1.0
  */
 
-get_header(); ?> 
+get_header(); ?>
 <div class="container">
 	<div class="row">
 		<main id="main" class="site-main" role="main" style="width: 100%;">
 <div id="pageNotFound" class="page-not-found-container container" >
 
 		<div class="pnf-left" style="width:50%; float:left; text-align:center;">
-			<img src="https://levelup.ua/wp-content/uploads/2018/10/404-man.png" style="width:50%;margin-bottom:-7px;">
+			<img src="./img/404-man.png" style="width:50%;margin-bottom:-7px;">
 		</div>
 
 		<div class="pnf-right">
-			<img src="https://levelup.ua/wp-content/uploads/2018/10/oy-min.png">
+			<img src="./img/oy-min.png">
 			   <div class="textpnf">
 			        <h2 style="color: #808080; font-weight: 500;"><?php _e( 'ЧТО-ТО ПОШЛО НЕ ТАК!', 'gdlr_translate' ); ?></h2>
 
