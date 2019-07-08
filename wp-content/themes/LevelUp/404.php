@@ -14,11 +14,11 @@ get_header(); ?>
 <div id="pageNotFound" class="page-not-found-container container" >
 
 		<div class="pnf-left" style="width:50%; float:left; text-align:center;">
-			<img src="./img/404-man.png" style="width:50%;margin-bottom:-7px;">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/404-man.png" style="width:50%;margin-bottom:-7px;">
 		</div>
 
 		<div class="pnf-right">
-			<img src="./img/oy-min.png">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/oy-min.png">
 			   <div class="textpnf">
 			        <h2 style="color: #808080; font-weight: 500;"><?php _e( 'ЧТО-ТО ПОШЛО НЕ ТАК!', 'gdlr_translate' ); ?></h2>
 

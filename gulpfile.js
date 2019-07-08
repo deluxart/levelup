@@ -32,9 +32,9 @@ const Wlax = {
   ],
   pub: './wp-content/themes/LevelUp/min/',
   // eslint-disable-next-line sort-keys
-  css: './wp-content/themes/LevelUp/min/css',
+  css: './wp-content/themes/LevelUp/css',
   allcss: './wp-content/themes/LevelUp/css/*.css',
-  js: './wp-content/themes/LevelUp/min/js'
+  js: './wp-content/themes/LevelUp/js'
 }
 
 // const clear = () => src('./dist', {read: false}).pipe(gcln());
@@ -58,14 +58,14 @@ const allcss = () => src(Wlax.allcss).
   pipe(concat('min')).
   pipe(cleanCSS({compatibility: 'ie8'})).
   pipe(plumber()).
-  pipe(rename('all2.min.css')).
+  pipe(rename('styles-all.min.css')).
   pipe(dest(Wlax.css));
 // Объединение стилей CSS
 
 
 const js = () => src(Wlax.aljs).
   pipe(concat('min')).
-  pipe(rename('scripts.min.js')).
+  pipe(rename('scripts-all.min.js')).
   pipe(dest(Wlax.js));
 exports.clean = clear;
 exports.styles = css;

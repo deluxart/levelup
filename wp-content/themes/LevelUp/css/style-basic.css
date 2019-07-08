@@ -455,7 +455,7 @@ span.wpcf7-not-valid-tip::before {content: ''; border: 11px solid transparent; b
 .icon-top{ display: inline-block; width: 24px; line-height: 42px; position: absolute; z-index: 9999; }
 .icon-top img { vertical-align: middle; }
 
-.sg-popup-content div.wpcf7 .ajax-loader { background-image: url('../img/loading_white.svg'); width: 182px; height: 46px; background-size: 36px 36px; position: absolute; left: calc(50% - 91px); top: 38px; background-color: #ff1569;
+.sg-popup-content div.wpcf7 .ajax-loader { background-image: url('./img/loading_white.svg'); width: 182px; height: 46px; background-size: 36px 36px; position: absolute; left: calc(50% - 91px); top: 38px; background-color: #ff1569;
 background-repeat: no-repeat; background-position: center; border-radius: 50px; margin: 0; }
 
 
@@ -847,9 +847,9 @@ ul.pp-posts { margin-bottom: 20px; }
 @media (min-width: 768px) and (max-width: 992px) { .course_benefit-block h5 { padding-top: 20px; padding-top: 16px;padding-bottom: 0; } }
 
 .consultation .form_input_cf .icon-top { height: 24px; background-size: 24px 24px; top: 30px;  }
-.consultation .form_input_cf .icon-top.name { background-image: url('../img/Icon-Users.svg'); background-position: 0 -24px; background-size: 24px; }
-.consultation .form_input_cf .icon-top.phone { background-image: url('../img/Icon-Call.svg'); background-position: 0 -24px; background-size: 24px; }
-.consultation .form_input_cf .icon-top.mail { background-image: url('../img/Icon-Mail.svg'); background-position: 0 -24px; background-size: 24px; }
+.consultation .form_input_cf .icon-top.name { background-image: url('./img/Icon-Users.svg'); background-position: 0 -24px; background-size: 24px; }
+.consultation .form_input_cf .icon-top.phone { background-image: url('./img/Icon-Call.svg'); background-position: 0 -24px; background-size: 24px; }
+.consultation .form_input_cf .icon-top.mail { background-image: url('./img/Icon-Mail.svg'); background-position: 0 -24px; background-size: 24px; }
 
 .consultation .form_input_cf.input-effect .icon-top.name { background-position: 0 -48px; background-size: 24px; }
 .consultation .form_input_cf.input-effect .icon-top.phone { background-position: 0 -48px; background-size: 24px; }
@@ -858,16 +858,16 @@ ul.pp-posts { margin-bottom: 20px; }
 
 
 .dev-form .consultation .form_input_cf .icon-top { height: 24px; background-size: 24px 24px; top: 30px; box-shadow: 0px 53px 46px 0px rgba(255, 255, 255, 0.35); }
-.dev-form .consultation .form_input_cf .icon-top.name { background-image: url('../img/Dev-Users.svg'); background-position: 0 -48px; background-size: 24px; }
-.dev-form .consultation .form_input_cf .icon-top.phone { background-image: url('../img/Dev-Call.svg'); background-position: 0 -48px; background-size: 24px; }
-.dev-form .consultation .form_input_cf .icon-top.mail { background-image: url('../img/Dev-Mail.svg'); background-position: 0 -48px; background-size: 24px; }
+.dev-form .consultation .form_input_cf .icon-top.name { background-image: url('./img/Dev-Users.svg'); background-position: 0 -48px; background-size: 24px; }
+.dev-form .consultation .form_input_cf .icon-top.phone { background-image: url('./img/Dev-Call.svg'); background-position: 0 -48px; background-size: 24px; }
+.dev-form .consultation .form_input_cf .icon-top.mail { background-image: url('./img/Dev-Mail.svg'); background-position: 0 -48px; background-size: 24px; }
 
 .dev-form .consultation .form_input_cf.input-effect .icon-top { box-shadow: 0px 53px 46px 0px rgba(234, 255, 0, 0.35);  }
 .dev-form .consultation .form_input_cf.input-effect .icon-top.name { background-position: 0 -24px; background-size: 24px; }
 .dev-form .consultation .form_input_cf.input-effect .icon-top.phone { background-position: 0 -24px; background-size: 24px; }
 .dev-form .consultation .form_input_cf.input-effect .icon-top.mail { background-position: 0 -24px; background-size: 24px; }
 .dev-form .consultation .form_input_cf::after {background: #ffffff4d;}
-.dev-form div.wpcf7 .ajax-loader { background-image: url('../img/loading_gray.svg'); width: 142px; height: 46px; background-size: 36px 36px; position: absolute; left: calc(50% - 71px); top: 22px; background-color: #eaff00;
+.dev-form div.wpcf7 .ajax-loader { background-image: url('./img/loading_gray.svg'); width: 142px; height: 46px; background-size: 36px 36px; position: absolute; left: calc(50% - 71px); top: 22px; background-color: #eaff00;
 background-repeat: no-repeat; background-position: center; border-radius: 50px; margin: 0; }
 .dev-form .ajax-loader { position: absolute; top: 12px; right: 15px; }
 
@@ -877,12 +877,12 @@ background-repeat: no-repeat; background-position: center; border-radius: 50px; 
 
 
 .sg-popup-content .form_input_cf .icon-top { height: 24px; background-size: 24px 24px; top: 30px; }
-.sg-popup-content .form_input_cf .icon-top.name { background-image: url('../img/Icon-Users.svg'); background-position: 0 -72px; background-size: 24px; }
-.sg-popup-content .form_input_cf .icon-top.phone { background-image: url('../img/Icon-Call.svg'); background-position: 0 -72px; background-size: 24px; }
-.sg-popup-content .form_input_cf .icon-top.mail { background-image: url('../img/Icon-Mail.svg'); background-position: 0 -72px; background-size: 24px;  }
-.sg-popup-content .form_input_cf .icon-top.company { background-image: url('../img/Icon-Company.svg'); background-position: 0px -60px; background-size: 20px;  }
-.sg-popup-content .form_input_cf .icon-top.d-sales { background-image: url('../img/discont_icon.svg'); background-position: 0 -72px; background-size: 24px; }
-.sg-popup-content .form_input_cf .icon-top.comments { background-image: url('../img/comment_icons.svg'); background-position: 0 -67px; background-size: 24px; background-repeat: no-repeat;}
+.sg-popup-content .form_input_cf .icon-top.name { background-image: url('./img/Icon-Users.svg'); background-position: 0 -72px; background-size: 24px; }
+.sg-popup-content .form_input_cf .icon-top.phone { background-image: url('./img/Icon-Call.svg'); background-position: 0 -72px; background-size: 24px; }
+.sg-popup-content .form_input_cf .icon-top.mail { background-image: url('./img/Icon-Mail.svg'); background-position: 0 -72px; background-size: 24px;  }
+.sg-popup-content .form_input_cf .icon-top.company { background-image: url('./img/Icon-Company.svg'); background-position: 0px -60px; background-size: 20px;  }
+.sg-popup-content .form_input_cf .icon-top.d-sales { background-image: url('./img/discont_icon.svg'); background-position: 0 -72px; background-size: 24px; }
+.sg-popup-content .form_input_cf .icon-top.comments { background-image: url('./img/comment_icons.svg'); background-position: 0 -67px; background-size: 24px; background-repeat: no-repeat;}
 
 .sg-popup-content .form_input_cf.input-effect .icon-top.name { background-position: 0 0; background-size: 24px; }
 .sg-popup-content .form_input_cf.input-effect .icon-top.phone { background-position: 0 0; background-size: 24px; }
@@ -914,7 +914,7 @@ background-repeat: no-repeat; background-position: center; border-radius: 50px; 
 
 /* Страница Контакты - форма */
 
- .form-position { position: relative; padding: 40px 0; }.contacts-form-page .form { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 30px; padding: 50px; }.contacts-form-page .form > div:first-child { grid-column: 1/3; position: relative;    background: url('../img/mail-send.svg') no-repeat; background-size: 50px auto; background-position: right -8px; }
+ .form-position { position: relative; padding: 40px 0; }.contacts-form-page .form { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 30px; padding: 50px; }.contacts-form-page .form > div:first-child { grid-column: 1/3; position: relative;    background: url('./img/mail-send.svg') no-repeat; background-size: 50px auto; background-position: right -8px; }
 .contacts-form-page .form > div:first-child h3, .contacts-info h3 { font-size: 20px; font-weight: 400; color: #15acf2; }.contacts-form-page .form > div:last-child { grid-column: 1/3; position: relative;  }.contacts-form-page .form > div:last-child > div.button { position: absolute;
 top: 96px;right: 35px;width: 80px;z-index: 1; }
 .contacts-form-page .form label  { color: #7b8187; font-size: 13px; font-weight: 300; }.contacts-form-page .form .wpcf7-form-control-wrap input { padding: 0; color: #344a5e; width: 100%; margin-bottom: 0px; height: auto; padding: 5px 0; }.contacts-form-page .form .wpcf7-form-control-wrap textarea { width: 100%; max-height: 100px; border: 0; padding: 5px 0;}.contacts-form-page .form input[type="submit"] {background: #15acf2;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;
@@ -945,10 +945,10 @@ background-position: center;border: none;background-size: 26px 26px;border-radiu
 .contacts-info ul li span { display: block; }
 .contacts-info ul li a { color: #fff; text-decoration: none; display: block; }
 
-.contacts-info ul li.address { background: url('../img/Icon-Location-White.svg') 0 10px no-repeat; background-size: 24px; }
-.contacts-info ul li.shedulle { background: url('../img/Icon-Clock-White.svg') 0 10px no-repeat; background-size: 24px; }
-.contacts-info ul li.phones { background: url('../img/Icon-Call-White.svg') 0 10px no-repeat; background-size: 24px; }
-.contacts-info ul li.mail { background: url('../img/Icon-Mail-White.svg') 0 10px no-repeat; background-size: 24px; }
+.contacts-info ul li.address { background: url('./img/Icon-Location-White.svg') 0 10px no-repeat; background-size: 24px; }
+.contacts-info ul li.shedulle { background: url('./img/Icon-Clock-White.svg') 0 10px no-repeat; background-size: 24px; }
+.contacts-info ul li.phones { background: url('./img/Icon-Call-White.svg') 0 10px no-repeat; background-size: 24px; }
+.contacts-info ul li.mail { background: url('./img/Icon-Mail-White.svg') 0 10px no-repeat; background-size: 24px; }
 
 
 @media (max-width: 992px) {
