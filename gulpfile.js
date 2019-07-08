@@ -28,10 +28,10 @@ const Wlax = {
   aljs: [
     './wp-content/themes/LevelUp/js/*.js'
   ],
-  pub: 'dist/',
+  pub: './wp-content/themes/LevelUp/min/',
   // eslint-disable-next-line sort-keys
-  css: './dist/css',
-  js: './dist/js'
+  css: './wp-content/themes/LevelUp/min/css',
+  js: './wp-content/themes/LevelUp/min/js'
 }
 
 // const clear = () => src('./dist', {read: false}).pipe(gcln());
@@ -45,7 +45,7 @@ const clear = () => del(Wlax.pub).then((paths) => {
 
 
 const css = () => src(Wlax.scss).
-  pipe(concat('dist')).
+  pipe(concat('min')).
   pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError)).
   pipe(rename('all.min.css')).
 
@@ -53,8 +53,8 @@ const css = () => src(Wlax.scss).
 
 
 const js = () => src(Wlax.aljs).
-  pipe(concat('dist')).
-  pipe(rename('nd.bild.js')).
+  pipe(concat('min')).
+  pipe(rename('scripts.min.js')).
   pipe(dest(Wlax.js));
 exports.clean = clear;
 exports.styles = css;
