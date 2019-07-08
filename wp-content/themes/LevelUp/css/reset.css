@@ -105,7 +105,7 @@ input[type="checkbox"] {vertical-align: bottom;}
 .ie7 input[type="checkbox"] {vertical-align: baseline;}
 .ie6 input {vertical-align: text-bottom;}
 
-select, input, textarea {//font: 99% Montserrat;outline: none !important;-webkit-appearance: none;-moz-appearance: none; appearance: none;}
+select, input, textarea {outline: none !important;-webkit-appearance: none;-moz-appearance: none; appearance: none;}
 button:focus { outline: none !important; }
 
 table {font-size: inherit; font: 100%;}
@@ -343,10 +343,6 @@ body.postid-5691 #sidebar { display: none; }
 
 #adaptive-tables .table-bordered td, #adaptive-tables .table-bordered th { border: 0; }
 
-  #adaptive-tables th.price_1 span {  }
-  #adaptive-tables th.price_2 span {  }
-  #adaptive-tables th.price_3 span {  }
-
   #adaptive-tables td .t-grid { display: grid; grid-template-columns: 60px 1fr; grid-column-gap: 14px; align-items: center; }
   #adaptive-tables td .t-grid img { grid-row: 1/3; border-radius: 50px; }
 
@@ -366,7 +362,6 @@ body.postid-5691 #sidebar { display: none; }
 @media only screen and (max-width: 992px) {
 	#adaptive-tables td .t-grid { display: grid; grid-template-columns: 1fr; grid-column-gap: 14px; align-items: center; }
   #adaptive-tables td .t-grid img { display: none; }
-  #adaptive-tables .table-striped tbody tr:nth-of-type(odd) {  }
   #adaptive-tables td.price, #adaptive-tables td.price2{ border-bottom: 1px solid #dadada; }
   #adaptive-tables table,
   #adaptive-tables thead,

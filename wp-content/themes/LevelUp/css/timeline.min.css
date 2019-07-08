@@ -738,14 +738,14 @@ grid-auto-flow: dense;}
 @media (min-width: 768px) {
 .timeline-body .name {color: #000000 !important;font-size: 18px;}
 .timeline-body .work {color: #15acf2 !important;font-size: 13px;}
-.timeline-body .theme {color: rgb(116, 119, 123); !important;font-size: 13px;}
+.timeline-body .theme {color: rgb(116, 119, 123);font-size: 13px;}
 }
 
 
 @media (max-width: 768px) {
 .timeline-body .name {color: #000000 !important;font-size: 14px;}
 .timeline-body .work {color: #15acf2 !important;font-size: 13px;}
-.timeline-body .theme {color: rgb(116, 119, 123); !important;font-size: 13px;}
+.timeline-body .theme {color: rgb(116, 119, 123);font-size: 13px;}
 }
 .timeline-event {background-color: rgb(252, 252, 252) !important;border-color: rgb(208, 208, 208) !important; border: 1px solid;}
 .timeline-event {padding: 10px}

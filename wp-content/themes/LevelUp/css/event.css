@@ -1,12 +1,7 @@
 .benefits__number { opacity: 0; }
 
-#big-slider { position: relative; 
-/*	background: url(https://levelup.ua/wp-content/uploads/2019/05/bg_slider.png) center no-repeat; 
-	background-size: cover; 
-	padding: 50px 0; */
-}
+#big-slider { position: relative; }
 #big-slider img { max-width: 100%; }
-#big-slider .content {  }
 #big-slider .content .container .grid-columns-2 { text-align: center; display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
 #big-slider .content .image { position: relative; }
 #big-slider .content .image .button { position: absolute; bottom: 0; width: auto; left: 50%; transform: translate(-50%, 50%); z-index: 999; background: #fff; padding: 20px; border-radius: 50px 50px 0 0; }
@@ -117,7 +112,7 @@
   #should .content { grid-template-columns: 1fr; grid-gap: 30px; }
   #should-two .content { grid-template-columns: 1fr; grid-gap: 30px; }
   #should .content > div > img { display: none; }
-  #event-speakers.course { padding-top: 40px; } 
+  #event-speakers.course { padding-top: 40px; }
   #event-why { padding-top: 80px; }
 #footer.site-footer .content { grid-template-columns: 1fr; grid-gap: 30px; }
 

@@ -1,15 +1,8 @@
 /*Search by Alexander O.*/
 .lux_search { text-align: center; line-height: 32px; width: 32px; height: 100%; top: 0; right: 0; transition: 0.5s all; overflow: hidden; }
 .lux_search .button { position: absolute; right: 0; z-index: 9; background: none; width: 32px; top: 0; height: 100%; }
-.lux_search .button span { display: inline-block; top: calc(50% - 15px); height: 32px; position: relative; /*background: #f0f6f8;*/ width: 32px; border-radius: 30px; cursor: pointer; transition: 0.1s all; /*			-webkit-animation-duration: 1s;
-			  animation-duration: 1s;
-			  -webkit-animation-fill-mode: both;
-			  animation-fill-mode: both;
-			  -webkit-animation-timing-function: ease-in-out;
-			  animation-timing-function: ease-in-out;
-			  animation-iteration-count: infinite;
-			  -webkit-animation-iteration-count: infinite;*/ }
-.lux_search .button span:hover { cursor: pointer; transform: scale(1.2); /*  				animation-name: bounce; 				-moz-animation-name: bounce;*/ }
+.lux_search .button span { display: inline-block; top: calc(50% - 15px); height: 32px; position: relative; width: 32px; border-radius: 30px; cursor: pointer; transition: 0.1s all; }
+.lux_search .button span:hover { cursor: pointer; transform: scale(1.2);}
 .lux_search .button span i { color: #15acf2; font-size: 20px; }
 
 @keyframes bounce { 0%, 100%, 20%, 50%, 80% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
@@ -70,5 +63,3 @@
   .search-post { display: grid; grid-template-columns: 1fr; }
   .search-post > div:nth-child(1) { position: relative; overflow: hidden; min-height: 170px; }
   .search-post > div:nth-child(1) img { position: relative; width: 100%; left: 0; transform: translateX(0%); top: 0; max-width: none; } }
-
-/*# sourceMappingURL=search-form.css.map */
