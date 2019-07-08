@@ -705,7 +705,7 @@ function php_in_widgets($widget_content) {
 	}
 	return $widget_content;
 }
- 
+
 add_filter('widget_text', 'php_in_widgets', 99);
 
 function wpdocs_custom_excerpt_length( $length ) {
@@ -750,7 +750,7 @@ add_filter('pre_get_posts', 'search_filter');
 
 
 // Для публикации новостей
-add_theme_support ('align-wide'); 
+add_theme_support ('align-wide');
 add_theme_support( 'editor-color-palette', array(
 	array(
 		'name'  => __( 'LevelUp blue', 'genesis-sample' ),
@@ -774,7 +774,7 @@ add_theme_support( 'editor-color-palette', array(
  * Enqueue Gutenberg block editor style
  */
 function LevelUp_gutenberg_editor_styles() {
-    wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/style-editor.css' ), false, '1.0', 'all' );
+    wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/css/style-editor.css' ), false, '1.0', 'all' );
 }
 
 add_action( 'enqueue_block_editor_assets', 'LevelUp_gutenberg_editor_styles' );
