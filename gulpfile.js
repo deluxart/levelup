@@ -42,8 +42,8 @@ const clear = () => del(Wlax.pub).then((paths) => {
   console.log('Deleted files and folders:\n', paths.join('\n'));
 });
 
-const allf = () => src(Wlax.all, { base: './wp-content/themes/LevelUp/'}).
-pipe(dest(Wlax.pub));
+// const allf = () => src(Wlax.all, { base: './wp-content/themes/LevelUp/'}).
+// pipe(dest(Wlax.pub));
 
 
 
@@ -71,11 +71,11 @@ exports.clean = clear;
 exports.styles = css;
 exports.mstyles = allcss;
 exports.scripts = js;
-exports.all = allf;
+// exports.all = allf;
 
-exports.build = series(clear, parallel(css, allcss, js, allf));
-exports.default = series(clear, parallel(css, allcss, js, allf));
+// exports.build = series(clear, parallel(css, allcss, js, allf));
+// exports.default = series(clear, parallel(css, allcss, js, allf));
 
-// exports.build = series(clear, parallel(css, allcss, js));
-// exports.default = series(clear, parallel(css, allcss, js));
+exports.build = series(clear, parallel(css, allcss, js));
+exports.default = series(clear, parallel(css, allcss, js));
 
