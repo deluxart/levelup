@@ -139,7 +139,7 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 @media (min-width: 768px) {.course_includes-block_line2 { margin-top: 30px; }}.course_includes-block img { display: block; margin: 0 auto; }.course_includes .buttonLight, .course_includes .sg-show-popup{ margin-top: 40px; }
 /*Конец - Секция "Курс включает в себя"*/
 
-.course_details a.sg-show-popup, .bg-blue a.sg-show-popup { color: #000 !important; }
+.course_details a.sg-show-popup, .bg-blue a.sg-show-popup, .course_benefit a.sg-show-popup { color: #000 !important; }
 /*Секция "Программа курса"*/
 .course_program { background: #15acf2; color: #fff; }.course_program .buttonLight, .course_program .sg-show-popup { margin-top: 40px; color: #000 !important; }
 .course_program .accordion { max-width: 70%; margin: 0 auto;  }

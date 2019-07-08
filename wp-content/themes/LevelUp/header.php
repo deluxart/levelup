@@ -55,7 +55,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/it-english.css?<?php echo date(get_option('date_format')); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/hr-page.css?<?php echo date(get_option('date_format')); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/event.css?<?php echo date(get_option('date_format')); ?>"> -->
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/styles-all.min.css?<?php echo date(get_option('date_format')); ?>?2">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/styles-all.min.css?<?php echo date(get_option('date_format')); ?>">
 
     <?php wp_head(); ?>
       <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style-editor.css?<?php echo date(get_option('date_format')); ?>">
@@ -67,11 +67,11 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/jquery.mCustomScrollbar.css"> -->
         <!-- Google Tag Manager -->
-<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MPKXSQS');</script> -->
+})(window,document,'script','dataLayer','GTM-MPKXSQS');</script>
 <!-- End Google Tag Manager -->
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMPZ66C"
