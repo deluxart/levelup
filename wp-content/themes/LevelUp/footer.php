@@ -83,21 +83,21 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
 
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?<?php echo date(get_option('date_format')); ?>"></script>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/imagesloaded.pkgd.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" crossorigin="anonymous"></script>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/popper.min.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.maskedinput.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/slick/slick.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slick_slides.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.mCustomScrollbar.concat.min.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.spincrement.min.js"></script>
-        <script scr="<?php echo get_template_directory_uri(); ?>/js/video.min.js"></script>
-        <script scr="<?php echo get_template_directory_uri(); ?>/js/videojs-background.js"></script>
+        <script type="text/javascript" scr="<?php echo get_template_directory_uri(); ?>/js/video.min.js"></script>
+        <script type="text/javascript" scr="<?php echo get_template_directory_uri(); ?>/js/videojs-background.js"></script>
 
-<script>
+<!-- <script>
     new WOW().init();
-</script>
+</script> -->
 
 <div class="event_img-input" style="display:none">[text text-744 id:event_img]</div>
 <div class="link_liqpay-input" style="display:none">[text text-745 id:link_liqpay]</div>
@@ -106,39 +106,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 
 <!-- Мероприятия -->
 <script type="text/javascript">
-jQuery(document).ready(function () {
-    var linkReg = window.location.href.indexOf("#open-reg") > -1;
-    var linkGl = window.location.href.indexOf("#google") > -1;
-    var linkFb = window.location.href.indexOf("#fb") > -1;
-    var linkMail = window.location.href.indexOf("#mail") > -1;
-    var event_img = jQuery('.has-post-thumbnail img').attr('src');
-    var event_price = jQuery('.event_price').text();
-    var event_date = jQuery('.event_date').text();
-    var event_time = jQuery('.event_time').text();
-    var link_liqpay = jQuery('.post-form-block > .liqpay').text();
-
-    if (linkFb == true) {
-        jQuery("#open-reg .sg-show-popup").click();
-        jQuery('#hash').val('Facebook (fb)');
-    } else if (linkGl == true) {
-        jQuery("#google .sg-show-popup").click();
-        jQuery('#hash').val('Google my business (google)');
-    } else if (linkReg == true) {
-        jQuery("#open-reg .sg-show-popup").click();
-        jQuery('#hash').val('Внешние ресурсы (open-reg)');
-    } else if (linkMail == true) {
-       jQuery("#open-reg .sg-show-popup").click();
-        jQuery('#hash').val('Почтовые рассылки (mail)');
-    } else {
-        jQuery('#hash').val('С новости');
-    }
-
-    jQuery('#event_img').val(event_img);
-    jQuery('#link_liqpay').val(link_liqpay);
-    jQuery('#event_price').val(event_price);
-    jQuery('#event_date').val(event_date);
-    jQuery('#event_time').val(event_time);
-});
 </script>
 
 

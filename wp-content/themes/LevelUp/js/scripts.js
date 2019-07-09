@@ -13,11 +13,11 @@
 
 jQuery(document).ready(function() {
   jQuery('.orig').focus(function() {
-      jQuery('.search-open').addClass("open-full");    
+      jQuery('.search-open').addClass("open-full");
       //return false;
     });
-    
-  
+
+
  jQuery('.orig').blur(function(){
     if( !jQuery(this).val() ) {
      jQuery('.search-open').removeClass("open-full");
@@ -485,7 +485,7 @@ jQuery(document).ready(function() {
     jQuery('#advantages #outputText > div').hide();
         setTimeout(function(){
             jQuery('#advantages #outputText > div').fadeIn().text(jQuery('.slick-active #inputText').text());
-        },100);  
+        },100);
     });
 });
 // Для секции "Учеба в Level Up — это:" - клонирование текста
@@ -532,7 +532,7 @@ jQuery(document).ready(function($) {
     if (tagSearch >=1) {
         jQuery('.entry-content').addClass('new-style');
     }
-    
+
 });
 
 
@@ -564,7 +564,7 @@ jQuery('.dev-studio').each(function() {
         num4Y = num4.offset().top+num4.height()/2;
 
 
-        
+
 
     var svgLine = $('#svg-line');
             svgLine.offset({top: 0, left:0})
@@ -572,7 +572,7 @@ jQuery('.dev-studio').each(function() {
     var line12 = svgLine.find('.line-1-2'),
         line23 = svgLine.find('.line-2-3'),
         line34 = svgLine.find('.line-3-4');
-      
+
     line12.attr({'x1': num1X, 'y1': num1Y, 'x2': num2X, 'y2': num2Y});
     line23.attr({'x1': num2X, 'y1': num2Y, 'x2': num3X, 'y2': num3Y});
     line34.attr({'x1': num3X, 'y1': num3Y, 'x2': num4X, 'y2': num4Y});
@@ -596,15 +596,15 @@ $(document).ready(function(){
 jQuery(function(){
  jQuery(window).scroll(function() {
   var topHead = jQuery(document).scrollTop();
-  if (topHead > 70) { 
-  jQuery('.page-id-4713 #header').removeClass('header-color'); 
-    jQuery('.home #header').removeClass('header-color'); 
-    jQuery('.page-template-page-event #header').removeClass('header-color'); 
+  if (topHead > 70) {
+  jQuery('.page-id-4713 #header').removeClass('header-color');
+    jQuery('.home #header').removeClass('header-color');
+    jQuery('.page-template-page-event #header').removeClass('header-color');
 
-  } else { 
-    jQuery('.page-id-4713 #header').addClass('header-color'); 
-    jQuery('.home #header').addClass('header-color'); 
-    jQuery('.page-template-page-event #header').addClass('header-color'); 
+  } else {
+    jQuery('.page-id-4713 #header').addClass('header-color');
+    jQuery('.home #header').addClass('header-color');
+    jQuery('.page-template-page-event #header').addClass('header-color');
 }
  });
 });
@@ -613,7 +613,7 @@ jQuery(function(){
 
 // Табы для IT-Английский
 jQuery(document).ready(function(){
-    
+
     jQuery('ul.en-tabs li').click(function(){
         var tab_id = jQuery(this).attr('data-tab');
 
@@ -630,12 +630,12 @@ jQuery(document).ready(function(){
 
 
 
-// Custom scrollbar        
+// Custom scrollbar
 
         // (function($){
 
         //         jQuery(document).ready(function() {
-        //                           $.mCustomScrollbar.defaults.scrollButtons.enable=true; 
+        //                           $.mCustomScrollbar.defaults.scrollButtons.enable=true;
         //         jQuery(".about-text").mCustomScrollbar({
         //             scrollButtons:{
         //                 enable:false,
@@ -650,18 +650,18 @@ jQuery(document).ready(function(){
 
         //             theme:"dark-3"
         //         });
-                
+
         //     });
         // })(jQuery);
 
         (function($){
             $(window).on("load",function(){
-                
+
                 $.mCustomScrollbar.defaults.scrollButtons.enable=true; //enable scrolling buttons by default
                 $.mCustomScrollbar.defaults.axis="yx"; //enable 2 axis scrollbars by default
-                
+
                 $(".about-text").mCustomScrollbar({theme:"dark-3"});
-                
+
                 $(".all-themes-switch a").click(function(e){
                     e.preventDefault();
                     var $this=$(this),
@@ -673,10 +673,10 @@ jQuery(document).ready(function(){
                             break;
                     }
                 });
-                
+
             });
         })(jQuery);
-// End Custom scrollbar  
+// End Custom scrollbar
 
 
 
@@ -684,7 +684,7 @@ jQuery(document).ready(function(){
 // Открыт - label_39 _chat_3K _right_1y _pad50_3K notranslate
 
 jQuery(document).keydown(function(e) {
-    
+
     var open_jivo = jQuery('.globalClass_ET .label_39').hasClass('_chat_3K');
     if (e.keyCode == 27 && open_jivo == true) {
              jQuery('.closeIcon_1U').click();
@@ -712,7 +712,7 @@ jQuery(document).ready(function () {
  if (jQuery("#counters").length) {
     var countbox = "#counters";
     jQuery(window).on("scroll load resize", function () {
-        if (!show) return false; 
+        if (!show) return false;
         var w_top = jQuery(window).scrollTop();
         var e_top = jQuery(countbox).offset().top;
         var w_height = jQuery(window).height();
@@ -733,3 +733,40 @@ jQuery(document).ready(function () {
 
 // Counters for event page
 
+
+
+
+new WOW().init();
+jQuery(document).ready(function () {
+    var linkReg = window.location.href.indexOf("#open-reg") > -1;
+    var linkGl = window.location.href.indexOf("#google") > -1;
+    var linkFb = window.location.href.indexOf("#fb") > -1;
+    var linkMail = window.location.href.indexOf("#mail") > -1;
+    var event_img = jQuery('.has-post-thumbnail img').attr('src');
+    var event_price = jQuery('.event_price').text();
+    var event_date = jQuery('.event_date').text();
+    var event_time = jQuery('.event_time').text();
+    var link_liqpay = jQuery('.post-form-block > .liqpay').text();
+
+    if (linkFb == true) {
+        jQuery("#open-reg .sg-show-popup").click();
+        jQuery('#hash').val('Facebook (fb)');
+    } else if (linkGl == true) {
+        jQuery("#google .sg-show-popup").click();
+        jQuery('#hash').val('Google my business (google)');
+    } else if (linkReg == true) {
+        jQuery("#open-reg .sg-show-popup").click();
+        jQuery('#hash').val('Внешние ресурсы (open-reg)');
+    } else if (linkMail == true) {
+       jQuery("#open-reg .sg-show-popup").click();
+        jQuery('#hash').val('Почтовые рассылки (mail)');
+    } else {
+        jQuery('#hash').val('С новости');
+    }
+
+    jQuery('#event_img').val(event_img);
+    jQuery('#link_liqpay').val(link_liqpay);
+    jQuery('#event_price').val(event_price);
+    jQuery('#event_date').val(event_date);
+    jQuery('#event_time').val(event_time);
+});
