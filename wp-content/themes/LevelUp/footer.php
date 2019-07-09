@@ -75,15 +75,5 @@
         <div class="price-input" style="display:none">[text text-746 id:event_price]</div>
         <div class="date-input" style="display:none">[text text-747 id:event_date]</div>
 
-        <script>
-            jQuery(function(){
-            jQuery('a[href^="#"]').on('click', function(event) {
-                event.preventDefault();
-                var sc = jQuery(this).attr("href"),
-                    dn = jQuery(sc).offset().top;
-                jQuery('html, body').animate({scrollTop: dn - 150}, 1000);
-            });
-            });
-        </script>
 </body>
 </html>
