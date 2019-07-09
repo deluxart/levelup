@@ -31,10 +31,6 @@
     "Собрать": "gulp build",
     "Тест": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "ssh://uaitsmar@uaitsmart.com:21098/home/uaitsmar/levelup.ua"
-  },
   "author": "",
   "license": "ISC"
 }

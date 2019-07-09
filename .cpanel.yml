@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - export REPOPATH=/home/uaitsmar/repo/levelup.ua/wp-content/themes/LevelUp/*
-    - export SITEPATH=/home/uaitsmar/levelup.ua/wp-content/themes/LevelUp/
-    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH

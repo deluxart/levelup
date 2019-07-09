@@ -7,7 +7,6 @@ const {
 } = require('gulp'),
   concat = require('gulp-concat'),
   del = require("del"),
-  // gcln = require('gulp-clean'),
   plumber = require('gulp-plumber'),
   rename = require('gulp-rename'),
   sass = require('gulp-sass'),
@@ -25,13 +24,10 @@ const Wlax = {
     '!./wp-content/themes/LevelUp/**/*.js'
   ],
   scss: './wp-content/themes/LevelUp/css/*.scss',
-  // scss: './wp-content/themes/LevelUp/css/main.scss',
-  // eslint-disable-next-line sort-keys
   aljs: [
     './wp-content/themes/LevelUp/js/*.js'
   ],
   pub: './wp-content/themes/LevelUp/dist/',
-  // eslint-disable-next-line sort-keys
   css: './wp-content/themes/LevelUp/dist',
   allcss: './wp-content/themes/LevelUp/css/*.css',
   js: './wp-content/themes/LevelUp/dist'
@@ -44,8 +40,6 @@ const clear = () => del(Wlax.pub).then((paths) => {
 
 // const allf = () => src(Wlax.all, { base: './wp-content/themes/LevelUp/'}).
 // pipe(dest(Wlax.pub));
-
-
 
 const css = () => src(Wlax.scss).
   pipe(concat('min')).
@@ -62,7 +56,6 @@ const allcss = () => src(Wlax.allcss).
   pipe(dest(Wlax.css));
 // Объединение стилей CSS
 
-
 const js = () => src(Wlax.aljs).
   pipe(concat('min')).
   pipe(rename('scripts-all.min.js')).
@@ -72,9 +65,6 @@ exports.styles = css;
 exports.mstyles = allcss;
 exports.scripts = js;
 // exports.all = allf;
-
-// exports.build = series(clear, parallel(css, allcss, js, allf));
-// exports.default = series(clear, parallel(css, allcss, js, allf));
 
 exports.build = series(clear, parallel(css, allcss, js));
 exports.default = series(clear, parallel(css, allcss, js));
