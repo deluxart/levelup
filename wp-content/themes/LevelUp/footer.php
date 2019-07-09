@@ -60,31 +60,9 @@
     </div>
     </div>
 </div>
-<?php wp_footer(); ?>
-<!-- BEGIN JIVOSITE CODE {literal} -->
-<script type='text/javascript'>
-(function(){ var widget_id = 'f4dz3607ZA';var d=document;var w=window;function l(){
-var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/geo-widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-<!-- {/literal} END JIVOSITE CODE -->
-<?php echo $options[jivosite_code];?>
-
-
-
-<script type="text/javascript"> jQuery(document).ready(function () {
-   if(window.location.href.indexOf("#open-reg") > -1) {
-    jQuery("#open-reg .sg-show-popup").click();
-  }
-}); </script>
-<!-- Start обратный звонок binotel -->
-<script type="text/javascript">
-  (function(d, w, s) {
- var widgetHash = 'xzxi6kby89na41spr3x7', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
- gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
- var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
-  })(document, window, 'script');
-</script>
-<!-- End обратный звонок binotel -->
-<?php echo $options[binotel_code];?>
+        <?php wp_footer(); ?>
+        <?php echo $options[jivosite_code];?>
+        <?php echo $options[binotel_code];?>
 
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?<?php echo date(get_option('date_format')); ?>"></script>
@@ -99,20 +77,10 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
         <script type="text/javascript" scr="<?php echo get_template_directory_uri(); ?>/js/video.min.js"></script>
         <script type="text/javascript" scr="<?php echo get_template_directory_uri(); ?>/js/videojs-background.js"></script>
 
-<!-- <script>
-    new WOW().init();
-</script> -->
+        <div class="event_img-input" style="display:none">[text text-744 id:event_img]</div>
+        <div class="link_liqpay-input" style="display:none">[text text-745 id:link_liqpay]</div>
+        <div class="price-input" style="display:none">[text text-746 id:event_price]</div>
+        <div class="date-input" style="display:none">[text text-747 id:event_date]</div>
 
-<div class="event_img-input" style="display:none">[text text-744 id:event_img]</div>
-<div class="link_liqpay-input" style="display:none">[text text-745 id:link_liqpay]</div>
-<div class="price-input" style="display:none">[text text-746 id:event_price]</div>
-<div class="date-input" style="display:none">[text text-747 id:event_date]</div>
-
-<!-- Мероприятия -->
-<script type="text/javascript">
-</script>
-
-
-<!--Конец Мероприятия -->
 </body>
 </html>
