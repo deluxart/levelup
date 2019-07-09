@@ -53,19 +53,9 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <label>Google Tag Manager</label>
         </th>
         <td>
-            <textarea name="levelup_theme_options[gtm_code]" id="levelup_theme_options[gtm_code]" class="large-text code" rows="4" placeholder="Вставьте код Google Tag Manager"><?php echo $options[gtm_code];?></textarea>
+            <textarea name="levelup_theme_options[gtm_code]" id="levelup_theme_options[gtm_code]" class="large-text code" rows="7" placeholder="Вставьте код Google Tag Manager"><?php echo $options[gtm_code];?></textarea>
         </td>
     </tr>
-
-    <tr class="form-field">
-        <th valign="top" scope="row">
-            <label>Google Tag Manager (noscript)</label>
-        </th>
-        <td>
-            <textarea name="levelup_theme_options[gtm_code_n]" id="levelup_theme_options[gtm_code_n]" class="large-text code" rows="4" placeholder="Вставьте код Google Tag Manager (noscript)"><?php echo $options[gtm_code_n];?></textarea>
-        </td>
-    </tr>
-
 
     <tr class="form-field">
         <th valign="top" scope="row">
@@ -90,7 +80,7 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <label>Код Binotel</label>
         </th>
         <td>
-            <textarea name="levelup_theme_options[binotel_code]" id="levelup_theme_options[binotel_code]" class="large-text code" rows="4" placeholder="Вставьте код Binotel"><?php echo $options[binotel_code];?></textarea>
+            <textarea name="levelup_theme_options[binotel_code]" id="levelup_theme_options[binotel_code]" class="large-text code" rows="8" placeholder="Вставьте код Binotel"><?php echo $options[binotel_code];?></textarea>
         </td>
     </tr>
 
