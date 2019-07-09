@@ -447,7 +447,7 @@ input.wpcf7-form-control.wpcf7-text { display: inline-block; }
 span.wpcf7-not-valid-tip { background: #ff1569; font-size: 12px; color:#fff; padding: 2px 5px; }
 span.wpcf7-not-valid-tip::before {content: ''; border: 11px solid transparent; border-right: 10px solid #ff1569; position: absolute; left: -21px; top: 0; }
 .sg-popup-content .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok { border: none; font-size: 15px; color: #fff; text-align: center; background: linear-gradient(to top, #09a1ff, #00ccff); margin: 0; width: 100%; box-sizing: border-box; left: 0px; bottom: 0; border-radius: 0 0 5px 5px;padding: 26px 0; bottom: -14px; }
-.sg-popup-content .wpcf7-not-valid-tip { margin: 0; }
+.sg-popup-content .wpcf7-not-valid-tip { margin: 0; color: #fff; font-size: 12px; }
 
 
 
@@ -926,7 +926,7 @@ background-position: center;border: none;background-size: 26px 26px;border-radiu
 .contacts-form-page .form > div:after{ width:100%; background: #eef0f3; height: 1px; position: absolute; content: ''; transition: 0.7s all; bottom: 0; left: 0; width: 100%; z-index: 0; }
 .contacts-form-page .form > div:before{ width:100%; background: #15acf2; height: 2px; position: absolute; content: ''; transition: 0.7s all; bottom: 0; left: 0; width: 0%; z-index: 0; }
 .contacts-form-page .wpcf7-not-valid-tip {position: absolute;right: 0;top: 29px;display: inline-block !important;}
-.contacts-form-page .wpcf7-not-valid-tip { margin: 0; }
+.contacts-form-page .wpcf7-not-valid-tip { margin: 0; color: #fff; font-size: 12px; }
 .contacts-form-page .wpcf7-form-control-wrap { position: initial; }
 /* .contacts-form-page .form > div.input-effect:after { width: 0%;  left: 0; } */
 .contacts-form-page .form > div.input-effect:before { background: #15acf2; left: 0; width: 100%; height: 2px; z-index: 2; }
