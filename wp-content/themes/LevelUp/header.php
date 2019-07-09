@@ -1,5 +1,4 @@
 <?php
-header("Access-Control-Allow-Origin: *");
 /**
  * The template for displaying the header
  *
@@ -12,37 +11,24 @@ header("Access-Control-Allow-Origin: *");
 ?>
 <?php $options = get_option( 'levelup_theme_options' ); ?>
 <!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7" lang="ru-RU" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8" lang="ru-RU" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8) ]><!-->
 <html lang="ru-RU" prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
-<!--<![endif]-->
 <head>
 	<meta name="google-site-verification" content="wlhz5ESa9pz3ZH9FbWKSDfOWbg3hCS_SXwIAhHXs5Q4" />
-	<link rel="stylesheet"  href="<?php echo get_template_directory_uri(); ?>/assets/video-js/video-js.min.css">
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta content="text/html;charset=<?php bloginfo( 'charset' ); ?>" http-equiv="Content-Type">
     <meta content="<?php bloginfo( 'charset' ); ?>" http-equiv="encoding">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0,  user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0,  user-scalable=no">
+
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/slick/slick-theme.css?3">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/slick/slick.css?3">
-
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/video-js/video-js.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/bootstrap/bootstrap.min.css?1">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/font-awesome.min.css?1">
 
-	<!--[if lt IE 9]>
-		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
-	<![endif]-->
-
-    <!--Шрифты Google (Roboto, Montserrat)-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?<?php echo date(get_option('date_format')); ?>">
@@ -51,21 +37,20 @@ header("Access-Control-Allow-Origin: *");
 
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/greensock.js?ver=1.19.0"></script>
 
-        <!-- Google Tag Manager -->
+<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MPKXSQS');</script>
 <!-- End Google Tag Manager -->
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMPZ66C"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 </head>
 
 <body <?php body_class(); ?>>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMPZ66C" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <svg class="hidden">
             <symbol id="icon-menu" viewBox="0 0 119 25">
                 <title>menu</title>
