@@ -543,7 +543,7 @@ textarea { padding: 10px; max-width: 100%; }
 @media (max-width: 768px) {.SliderMainbox { display: grid; grid-template-columns: repeat(4, 1fr); }
 }
 .images_column div { text-align: center; }.slideInfoBottom { display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 0 20px 5px 20px;}.slideInfoBottom div {min-height: 50px;font-weight: 500;color: #4c4c4c;font-size: 12px;text-align: left;border-left: 1px solid #d8d6d6;padding-left: 5px;}.slideInfoBottom div:first-child { padding-left: 0; border: 0; }.slideInfoBottom p { margin-bottom: 0;color: #9c9c9c;font-weight: 300;}
-.form_input_enroll_on_course span.wpcf7-not-valid-tip {position: absolute;left: 111px;top: 16px;font-size: 12px !important;margin:0;}
+.form_input_enroll_on_course span.wpcf7-not-valid-tip {position: absolute;left: 111px;top: 0px;font-size: 12px !important;margin:0;color: #fff; }
 
 .slideBox form.wpcf7-form { position: relative; }
 .slideBox .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {display: block;position: absolute; bottom: 15px;width: calc(100% - 36px);left: 19px;height: 56px;top: -1px;background: #eaff00;border-radius: 50px;border: 1px solid #eaff00;line-height: 50px;color: #4c4c4c;margin:0;}
