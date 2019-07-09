@@ -9,7 +9,7 @@
  * @since LevelUp 1.0
  */
 ?>
-
+<?php $options = get_option( 'levelup_theme_options' ); ?>
 	</div><!-- .site-content -->
 
 	<footer id="footer" class="site-footer">
@@ -66,6 +66,10 @@
 (function(){ var widget_id = 'f4dz3607ZA';var d=document;var w=window;function l(){
 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/geo-widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 <!-- {/literal} END JIVOSITE CODE -->
+<?php echo $options[jivosite_code];?>
+
+
+
 <script type="text/javascript"> jQuery(document).ready(function () {
    if(window.location.href.indexOf("#open-reg") > -1) {
     jQuery("#open-reg .sg-show-popup").click();
@@ -80,6 +84,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
   })(document, window, 'script');
 </script>
 <!-- End обратный звонок binotel -->
+<?php echo $options[binotel_code];?>
 
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?<?php echo date(get_option('date_format')); ?>"></script>
