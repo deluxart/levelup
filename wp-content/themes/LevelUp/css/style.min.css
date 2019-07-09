@@ -353,7 +353,7 @@ background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform:
 
 .navbar { padding: 0; }
 .navbar-dark .navbar-nav > li > .nav-link {padding: 15px 20px !important; position: relative;}
-.home.page-template-sub-page .navbar-dark .navbar-nav > li > .nav-link::before {border: 0;}
+.home.page-template-sub-page .navbar-dark .navbar-nav > li:last-child > .nav-link::before {border: none;}
 
 .last-list {padding-bottom:40px;}
 
