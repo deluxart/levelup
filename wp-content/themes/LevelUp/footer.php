@@ -17,28 +17,22 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4">
-
                     <?php
                     if ( function_exists('dynamic_sidebar') )
                         dynamic_sidebar('footer-1');
                     ?>
-
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-footer-2">
-
                     <?php
                     if ( function_exists('dynamic_sidebar') )
                         dynamic_sidebar('footer-2');
                     ?>
-
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
-
                     <?php
                     if ( function_exists('dynamic_sidebar') )
                         dynamic_sidebar('footer-3');
                     ?>
-
             </div>
         </div>
     </div>
@@ -54,7 +48,6 @@
     <div class="modalClose"></div>
     <div class="search-modal-inner">
         <p class="text-center">Введите слово, чтобы начать поиск</p>
-
     <div class="container search">
         <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
     </div>

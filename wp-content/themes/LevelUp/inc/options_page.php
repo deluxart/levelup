@@ -71,7 +71,7 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <label>Код JivoSite</label>
         </th>
         <td>
-            <textarea name="levelup_theme_options[jivosite_code]" id="levelup_theme_options[jivosite_code]" class="large-text code" rows="4" placeholder="Вставьте код JivoSite"><?php echo $options[jivosite_code];?></textarea>
+            <textarea name="levelup_theme_options[jivosite_code]" id="levelup_theme_options[jivosite_code]" class="large-text code" rows="7" placeholder="Вставьте код JivoSite"><?php echo $options[jivosite_code];?></textarea>
         </td>
     </tr>
 
