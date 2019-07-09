@@ -110,8 +110,7 @@
 #pm-contact .container .content .pm-form { position: relative; padding: 40px 0; }
 #pm-contact .container .content .pm-form div.wpcf7-mail-sent-ok { display: inline-block; margin: 0 auto; height: 49px; bottom: 9px; width: auto; background: #398f14; padding: 5px 40px; border: 1px solid #398f14; font-size: 18px; box-shadow: 0px 10px 20px 0px rgba(0, 67, 91, 0.25); color: #fff; border-radius: 50px; text-transform: none; font-weight: 300; line-height: 34px; left: 50%; white-space: nowrap; transform: translateX(-50%); }
 #pm-contact .container .content .pm-form .title_cf { font-size: 45px; font-weight: bold; color: #15acf2; line-height: 42px; }
-#pm-contact .container .content .pm-form .wpcf7-not-valid-tip { margin: 0; }
-#pm-contact .container .content .pm-form .wpcf7-not-valid-tip { position: absolute; right: -34px; top: 0; display: inline-block !important; }
+#pm-contact .container .content .pm-form .wpcf7-not-valid-tip { margin: 0; color: #fff; font-size: 12px; position: absolute; right: -34px; top: 0; display: inline-block !important; }
 #pm-contact .container .content .pm-form .wpcf7-form { position: relative; z-index: 10; }
 #pm-contact .container .content .pm-form .wpcf7-form p { margin: 0; }
 #pm-contact .container .content .pm-form:before { content: ''; position: absolute; background: #fff; width: 100%; box-shadow: 10.181px 18.367px 70px 0px rgba(0, 0, 0, 0.1); border-radius: 10px; height: 100%; left: 0; z-index: -2; top: 0; }

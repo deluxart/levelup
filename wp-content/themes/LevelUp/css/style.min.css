@@ -120,7 +120,6 @@ background-size: cover !important;}
 
 /*Конец Общие стили*/
 .basic_program_slide {background-image: url(/wp-content/uploads/2018/07/SLIDER-OP-2.jpg) !important;}
-.threed_slide {background-image: url(/wp-content/uploads/2018/04/SLIDER-3D.jpg) !important;}
 @media (max-width:768px){
 .Slider_courses_block{min-height:90vh !important;}}
 
