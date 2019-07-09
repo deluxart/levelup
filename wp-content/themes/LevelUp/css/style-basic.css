@@ -1333,3 +1333,6 @@ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255
 	.hr-page .img-shadow { display: none; }
 	.hr-page #dev-slider > .container .content > .text > p { padding-top: 0; }
 }
+
+
+.span.wpcf7-not-valid-tip { color: #fff; font-size: 12px; }
