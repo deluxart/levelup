@@ -1685,7 +1685,7 @@ position: relative;}
 .reg-offer > div {background: url(/wp-content/uploads/2019/02/patern-fluid.png);}
 
 .yellow-btn a:hover {box-shadow: 13px 13px 36.1px 1.9px rgba(234, 255, 0, 0.5) !important;}
-.yellow-btn a { background: #eaff00 !important; border: 2px solid #eaff00; color: #4c4c4c !important}
+.yellow-btn a { background: #eaff00 !important; border: 2px solid #eaff00; color: #4c4c4c !important; position: relative; z-index: 99; }
 .yellow-btn a:after { background-image: url("/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg") !important; }
 
 
