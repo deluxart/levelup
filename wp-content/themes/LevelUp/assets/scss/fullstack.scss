@@ -4,6 +4,13 @@
 
 
 .program-block {
+    & > div {
+        &:last-child {
+            &:after {
+                display: none;
+            }
+        }
+    }
     .spoiler {
         position: relative;
 
@@ -36,7 +43,7 @@
         .head {
             font-weight: 400;
             border-radius: 0;
-            padding: 18px 40px 18px 18px;
+            padding: 18px 40px 18px 42px;
             cursor: pointer;
             position: relative;
 
@@ -68,6 +75,11 @@
                     color: #f92d88;
                     top: 18px;
                 }
+            }
+
+            &:hover {
+                background-image: linear-gradient(to right,#15acf200,#09cbffb3) !important;
+                border-radius: 3px;
             }
         }
 
