@@ -4,6 +4,9 @@
 
 
 .program-block {
+    width: 100%;
+    max-width: 600px;
+
     & > div {
         &:last-child {
             &:after {
