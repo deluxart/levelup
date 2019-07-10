@@ -23,13 +23,14 @@ const Wlax = {
     '!./wp-content/themes/LevelUp/css/*.css',
     '!./wp-content/themes/LevelUp/**/*.js'
   ],
-  scss: './wp-content/themes/LevelUp/css/*.scss',
+  scss: './wp-content/themes/LevelUp/assets/scss/*.scss',
   aljs: [
     './wp-content/themes/LevelUp/js/*.js'
   ],
   pub: './wp-content/themes/LevelUp/dist/',
   css: './wp-content/themes/LevelUp/dist',
   allcss: './wp-content/themes/LevelUp/css/*.css',
+  newcss: './wp-content/themes/LevelUp/css/',
   js: './wp-content/themes/LevelUp/dist'
 }
 
@@ -42,10 +43,10 @@ const clear = () => del(Wlax.pub).then((paths) => {
 // pipe(dest(Wlax.pub));
 
 const css = () => src(Wlax.scss).
-  pipe(concat('min')).
+  // pipe(concat('min')).
   pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError)).
-  pipe(rename('all.min.css')).
-  pipe(dest(Wlax.css));
+  // pipe(rename('*.min.css')).
+  pipe(dest(Wlax.newcss));
 
 // Объединение стилей CSS
 const allcss = () => src(Wlax.allcss).

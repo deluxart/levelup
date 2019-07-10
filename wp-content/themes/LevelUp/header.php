@@ -35,6 +35,8 @@
 
     <?php wp_head(); ?>
 
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/fullstack.css">
+
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/greensock.js?ver=1.19.0"></script>
     <?php echo $options[gtm_code];?>
 
