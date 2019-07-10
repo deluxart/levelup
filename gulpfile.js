@@ -29,8 +29,8 @@ const Wlax = {
   ],
   pub: './wp-content/themes/LevelUp/dist/',
   css: './wp-content/themes/LevelUp/dist',
-  allcss: './wp-content/themes/LevelUp/css/*.css',
   newcss: './wp-content/themes/LevelUp/css/',
+  allcss: './wp-content/themes/LevelUp/css/*.css',
   js: './wp-content/themes/LevelUp/dist'
 }
 
