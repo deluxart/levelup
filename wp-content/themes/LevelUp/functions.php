@@ -257,18 +257,10 @@ function LevelUp_scripts() {
 	wp_enqueue_style( 'LevelUp-fonts', LevelUp_fonts_url(), array(), null );
 
 	// Add Genericons, used in the main stylesheet.
-	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.2' );
+	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/assets/genericons/genericons.css', array(), '3.2' );
 
 	// Load our main stylesheet.
 	wp_enqueue_style( 'LevelUp-style', get_stylesheet_uri() );
-
-	// Load the Internet Explorer specific stylesheet.
-	wp_enqueue_style( 'LevelUp-ie', get_template_directory_uri() . '/css/ie.css', array( 'LevelUp-style' ), '20141010' );
-	wp_style_add_data( 'LevelUp-ie', 'conditional', 'lt IE 9' );
-
-	// Load the Internet Explorer 7 specific stylesheet.
-	wp_enqueue_style( 'LevelUp-ie7', get_template_directory_uri() . '/css/ie7.css', array( 'LevelUp-style' ), '20141010' );
-	wp_style_add_data( 'LevelUp-ie7', 'conditional', 'lt IE 8' );
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
