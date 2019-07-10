@@ -11,6 +11,23 @@
     .cont {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+        .text {
+            h1 {
+                text-transform: uppercase;
+                color: #15acf2;
+                font-size: 50px;
+                font-weight: bold;
+
+                span {
+                    font-size: 21px;
+                    display: block;
+                    color: #4c4c4c;
+
+                }
+            }
+        }
     }
 }
 
