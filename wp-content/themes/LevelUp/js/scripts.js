@@ -770,3 +770,13 @@ jQuery(document).ready(function () {
     jQuery('#event_date').val(event_date);
     jQuery('#event_time').val(event_time);
 });
+
+
+// Uneversal spoiler
+jQuery('.spoiler > .cont').hide();
+jQuery('.spoiler > .head').on('click', function(e){
+  e.preventDefault();
+  jQuery('.spoiler > .cont').stop().slideUp('slow');
+  jQuery(this).parent('div.spoiler').children('.cont').stop().slideToggle('slow');
+  jQuery(this).toggleClass('active');
+});
