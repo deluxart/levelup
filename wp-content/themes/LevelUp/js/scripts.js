@@ -775,8 +775,8 @@ jQuery(document).ready(function () {
 // Uneversal spoiler
 jQuery('.spoiler > .cont').hide();
 jQuery('.spoiler > .head').on('click', function(e){
-  e.preventDefault();
   jQuery('.spoiler > .cont').stop().slideUp('slow');
   jQuery(this).parent('div.spoiler').children('.cont').stop().slideToggle('slow');
   jQuery(this).toggleClass('active');
+  e.preventDefault();
 });
