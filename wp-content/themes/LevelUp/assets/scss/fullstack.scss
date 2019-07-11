@@ -22,12 +22,21 @@
     #fs-program {
         background: #2d323b;
 
+        h2 {
+            color: #eaff00;
+        }
+
         .spoiler_block {
             width: 100%;
             max-width: 600px;
             position: relative;
             margin: 0 auto;
             color: #fff;
+
+            & > p {
+                font-size: 20px;
+                font-weight: 500;
+            }
 
             &:before {
                 position: absolute;
