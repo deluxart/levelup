@@ -33,20 +33,45 @@
                 position: absolute;
                 width: 1px;
                 background: #6e7278;
-                height: 100%;
+                height: calc(100% - 48px);
                 content: '';
-                top: 0;
+                top: 24px;
                 left: 10px;
             }
         }
         .spoiler {
             color: #fff;
 
+            &::before {
+                display: none;
+            }
+
             .head {
                 color: #ff457a;
+                padding: 0px 40px 0px 42px;
+
+                &:before {
+                    display: none;
+                }
+
+                &:after {
+                    content: "\f0da";
+                    font-family: FontAwesome;
+                    right: auto;
+                    left: 19px;
+                    position: absolute;
+                    color: #ffffff;
+                    top: 0px;
+                }
 
                 span {
                     color: #fff;
+                }
+
+                &.active {
+                    &:after {
+                        content: "\f0d7";
+                    }
                 }
             }
         }
