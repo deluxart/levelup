@@ -61,12 +61,16 @@
                 color: #ff457a;
                 padding: 0px 40px 0px 42px;
 
+                &:hover {
+                    background: none;
+                }
+
                 &:before {
                     display: none;
                 }
 
                 &:after {
-                    content: "\f0d7";
+                    content: "\f0da";
                     font-family: FontAwesome;
                     right: auto;
                     left: 24px;
@@ -81,8 +85,14 @@
 
                 &.active {
                     &:after {
-                        content: "\f0da";
+                        content: "\f0d7";
                     }
+                }
+            }
+
+            .cont {
+                ul {
+                    list-style: disc;
                 }
             }
         }
