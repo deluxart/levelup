@@ -776,7 +776,7 @@ jQuery(document).ready(function () {
 jQuery('.spoiler > .head').on('click', function(e){
   jQuery('.spoiler > .cont').stop().slideUp('slow');
   jQuery('.spoiler > .head').not(this).removeClass('active');
-  jQuery(this).parent('div.spoiler').children('.cont').stop().slideToggle('slow');
+  jQuery(this).parent('div.spoiler').children('.cont').stop().slideToggle('slow').toggleClass('active');
   jQuery(this).toggleClass('active');
   e.preventDefault();
 });

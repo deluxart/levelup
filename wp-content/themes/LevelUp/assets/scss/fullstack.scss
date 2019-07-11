@@ -39,63 +39,78 @@
                 left: 10px;
             }
         }
-        .spoiler {
-            color: #fff;
+        .program-block {
+            .spoiler {
+                color: #fff;
 
-            &::before {
-                display: none;
-            }
-
-            &::after {
-                content: '';
-                height: calc(100% - 26px);
-                width: 1px;
-                position: absolute;
-                background: #6e7278;
-                top: 23px;
-                left: 28px;
-                z-index: 9;
-            }
-
-            .head {
-                color: #ff457a;
-                padding: 0px 40px 0px 42px;
-
-                &:hover {
-                    background: none;
-                }
-
-                &:before {
+                &::before {
                     display: none;
                 }
 
-                &:after {
-                    content: "\f0da";
-                    font-family: FontAwesome;
-                    right: auto;
-                    left: 24px;
+                &::after {
+                    content: '';
+                    height: calc(100% - 26px);
+                    width: 1px;
                     position: absolute;
-                    color: #ffffff;
-                    top: 0px;
+                    background: #6e7278;
+                    top: 23px;
+                    left: 28px;
+                    z-index: 9;
                 }
 
-                span {
-                    color: #fff;
-                }
+                .head {
+                    color: #ff457a;
+                    padding: 0px 40px 0px 42px;
+                    display: inline-block;
 
-                &.active {
+                    &:hover {
+                        background: none;
+                    }
+
+                    &:before {
+                        display: none;
+                    }
+
                     &:after {
-                        content: "\f0d7";
+                        content: "\f0da";
+                        font-family: FontAwesome;
+                        right: auto;
+                        left: 24px;
+                        position: absolute;
+                        color: #ffffff;
+                        top: 0px;
+                    }
+
+                    p {
+                        display: inline-block;
+                        color: #ff457a;
+                    }
+
+                    span {
+                        color: #fff;
+                    }
+
+                    &.active {
+                        &:after {
+                            content: "\f0d7";
+                        }
+
+                        p {
+                            text-decoration: underline;
+                        }
+
                     }
                 }
-            }
 
-            .cont {
-                ul {
-                    list-style: disc;
+                .cont {
+                    ul {
+                        list-style: disc;
+                    }
+
                 }
             }
         }
+
     }
 }
 
