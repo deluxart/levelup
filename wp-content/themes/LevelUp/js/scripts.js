@@ -773,7 +773,6 @@ jQuery(document).ready(function () {
 
 
 // Uneversal spoiler
-jQuery('.spoiler > .cont').hide();
 jQuery('.spoiler > .head').on('click', function(e){
   jQuery('.spoiler > .cont').stop().slideUp('slow');
   jQuery('.spoiler > .head').removeClass('active');
