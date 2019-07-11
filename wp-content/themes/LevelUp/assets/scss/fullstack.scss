@@ -21,6 +21,35 @@
 
     #fs-program {
         background: #2d323b;
+
+        .spoiler_block {
+            width: 100%;
+            max-width: 600px;
+            position: relative;
+            margin: 0 auto;
+            color: #fff;
+
+            &:before {
+                position: absolute;
+                width: 1px;
+                background: #6e7278;
+                height: 100%;
+                content: '';
+                top: 0;
+                left: 10px;
+            }
+        }
+        .spoiler {
+            color: #fff;
+
+            .head {
+                color: #ff457a;
+
+                span {
+                    color: #fff;
+                }
+            }
+        }
     }
 }
 
