@@ -132,16 +132,12 @@ background-size: cover !important;}
 
   /* Slide emojie */
 
-  /* .images_column {padding: 0 11px;  font-size: 18px; color: #121212; border-radius: 50px; text-transform: none; display: inline-block; box-shadow: none !important;  border: 0px !important; } */
  #enroll_on_course  input.wpcf7-form-control.wpcf7-submit:hover { background: #ff1569; border: 0 !important; }
  #enroll_on_course  input.wpcf7-form-control.wpcf7-text:focus { border: 2px solid #ff1569 !important; }
 
   .form_input_enroll_on_course span.wpcf7-not-valid-tip{position: absolute;left: 111px;top: 16px;font-size: 12px !important;}
   .paidPlace {font-weight:600;}
   .pickImagesBOX {background: url(/wp-content/uploads/2018/11/angle_final.jpg) top center no-repeat;}
-  /* #enroll_on_course {padding-bottom:20px;} */
-
-
 
   .SliderMainbox {padding-bottom: 8px;}
   .p_Courses {display:block}
@@ -160,7 +156,6 @@ background-size: cover !important;}
   @media (max-width:768px) {.p_date_title {font-size: 16px !important;line-height: 20px !important;font-weight: 400;}.p_courses {font-size: 16px !important;line-height: 20px !important;font-weight: 400;}.name_courses {  font-size: 16px !important;line-height: 20px !important;font-weight: 400;}#clockdiv span.smalltext {font-size: 10px;}.slideTitle {padding: 10px 20px 0 20px;}.borderOne {padding:0;border:0;margin: 0;margin-top: 0px;background: none;}  .name_Courses {font-size: 22px;}  .newBannerSlide {line-height:22px !important;}  #clockdiv span:first-child {font-size: 17px !important;}    .slideInfoBottom  p{font-size: 12px !important;}
 
   }
-
 
 /*Слайдер карусель */
   .sale-slide {background: url(/wp-content/uploads/2018/11/bg-slider-final-editon.jpg)}
@@ -361,16 +356,7 @@ background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform:
 
 @media (min-width:768px){
 .loading-padding-bottom {padding-bottom:30px;}
-.navbar-dark .navbar-nav > li > .nav-link:before {
-  content: '';
-  position: absolute;
-  right: 0;
-  height: 20px;
-  width: 1px;
-  border-right: 1px dotted #41444d;
-  top: 50%;
-  transform: translateY(-50%);
-}
+.navbar-dark .navbar-nav > li > .nav-link:before { content: ''; position: absolute; right: 0; height: 20px; width: 1px; border-right: 1px dotted #41444d; top: 50%; transform: translateY(-50%); }
 }
 
 
@@ -411,7 +397,6 @@ background-repeat: no-repeat !important; background-size: cover !important;}
 
 
 .polesnie-ue4.course h3 {padding: 0 0 5px 0 !important; }
-
 .polesnie-ue4.course h3 {color: #eaff00 !important;}
 
 .ue-4-wdy {background-image: url(/wp-content/uploads/2018/06/BG-Why-Unreal.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: top;background-size: cover}
@@ -1012,7 +997,6 @@ max-width: 50%;}
 .home-desktop-slide-two .row {padding: 40px}
 .home-desktop-slide-two a {margin-top: 40px}
 @media (min-width: 768px) and (max-width: 1400px) {
-/*   .home-desktop-slide-two .container img {max-width: 250px;} */
    .home-desktop-slide-two .row { margin-left: 120px; }
 }
 /*Конец Новогодний подарок 10 000 */
@@ -1043,15 +1027,7 @@ max-width: 50%;}
 
 @media (min-width:900px){
 .zoom-fade, .price-new-top, .price-new-bottom {
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -ms-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-  -webkit-text-shadow: 0 30px 0px transparent;
-  -moz-text-shadow: 0 30px 0px transparent;
-  -ms-text-shadow: 0 30px 0px transparent;
-  -o-text-shadow: 0 30px 0px transparent;
   text-shadow: 0 30px 0px transparent;
   color: rgba(0, 0, 0, .009);
   overflow: visible;
@@ -1059,10 +1035,6 @@ max-width: 50%;}
 @media (max-width:1000px){.zoom-fade, .price-new-top, .price-new-bottom{    color:#e61876 !important;}
 }
 .portfolios:hover .price-new-top, .portfolios:hover .price-new-bottom,#courses_schedulle_tbl tr:hover .price-new-top, #courses_schedulle_tbl tr:hover .price-new-bottom {
-  -webkit-text-shadow: 0 0px 0px #e61876;
-  -moz-text-shadow: 0 0px 0px #e61876;
-  -ms-text-shadow: 0 0px 0px #e61876;
-  -o-text-shadow: 0 0px 0px #e61876;
   text-shadow: 0 0px 0px #e61876;
 }
 
@@ -1075,29 +1047,10 @@ display: inline-block !important;    font-size: 21px;color: #15acf2;padding-righ
 
 
 
-.zoom-fade,.course_card_block .price-new-top,.course_card_block .price-new-bottom {
-  -webkit-transition: 0.25s ease-in-out;
-  -moz-transition: 0.25s ease-in-out;
-  -ms-transition: 0.25s ease-in-out;
-  -o-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
-  -webkit-text-shadow: 0 30px 0px transparent;
-  -moz-text-shadow: 0 30px 0px transparent;
-  -ms-text-shadow: 0 30px 0px transparent;
-  -o-text-shadow: 0 30px 0px transparent;
-  text-shadow: 0 30px 0px transparent;
-  color: rgba(0, 0, 0, .009);
-  overflow: visible;
-}
+.zoom-fade,.course_card_block .price-new-top,.course_card_block .price-new-bottom { transition: 0.25s ease-in-out; text-shadow: 0 30px 0px transparent; color: rgba(0, 0, 0, .009); overflow: visible; }
 @media (max-width:1000px){.zoom-fade,.course_card_block .price-new-top,.course_card_block .price-new-bottom{    color:#e61876 !important;}
 }
-.course_card_block:hover .price-new-top, .course_card_block:hover .price-new-bottom {
-  -webkit-text-shadow: 0 0px 0px #e61876;
-  -moz-text-shadow: 0 0px 0px #e61876;
-  -ms-text-shadow: 0 0px 0px #e61876;
-  -o-text-shadow: 0 0px 0px #e61876;
-  text-shadow: 0 0px 0px #e61876;
-}
+.course_card_block:hover .price-new-top, .course_card_block:hover .price-new-bottom {text-shadow: 0 0px 0px #e61876; }
 
 /*Для блока акции on/off*/
 .course_card_block .buttonLight, .course_card_block .sg-show-popup {    margin-top: 5px !important;}
