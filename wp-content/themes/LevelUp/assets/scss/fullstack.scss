@@ -19,6 +19,15 @@
         box-shadow: 44.167px 25.5px 196px 0px rgba(0, 0, 0, 0.13);
     }
 
+    #fs_grid_section {
+        .container {
+            .cont {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    }
+
     #fs-program {
         background: #2d323b;
         position: relative;
