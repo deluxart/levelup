@@ -23,16 +23,8 @@
         background: #2d323b;
         position: relative;
 
-        &:before {
-                content: '';
-                position: absolute;
-                right: 0;
-                top: -100px;
-                background: url(https://levelup.ua/wp-content/uploads/2019/07/fs_notebook.png) no-repeat;
-                width: 719px;
-                height: 698px;
-                z-index: 99999;
-                background-size: contain;
+        &.course {
+            padding: 0;
         }
 
         h2 {
@@ -41,6 +33,23 @@
         }
 
         & > .container {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            position: relative;
+
+            &:before {
+                    content: '';
+                    position: absolute;
+                    right: 0;
+                    top: -100px;
+                    background: url(https://levelup.ua/wp-content/uploads/2019/07/fs_notebook.png) no-repeat;
+                    width: 719px;
+                    height: 698px;
+                    z-index: 99999;
+                    background-size: contain;
+            }
+
+
            & > .cont {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
