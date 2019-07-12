@@ -103,7 +103,7 @@
 .ui-ux-page #reg-offer-two.reg-offer h2 span.t6 { font-size: 25px; }
 .ui-ux-page #reg-offer-two.reg-offer p { font-size: 16px; }
 .ui-ux-page #reg-offer-two.reg-offer .container { grid-template-columns: 1fr 1fr; }
-.ui-ux-page #reg-offer-two.reg-offer .container > div { top: -43px; }
+.ui-ux-page #reg-offer-two.reg-offer .container > div { top: -44px; }
 .ui-ux-page #reg-offer-two.reg-offer .container > div.img img { max-width: 380px; display: block; margin: 0 auto; }
 .ui-ux-page #reg-offer-two.reg-offer .container .text { max-height: 290px; }
 .ui-ux-page #by_students { overflow: hidden; }
@@ -165,7 +165,7 @@
 .ui-ux-page.smm_page #course_after .cont > div.first h4 { bottom: -100px; left: 30px; }
 .ui-ux-page.smm_page #course_after .cont > div.last { left: -30px; bottom: -50px; }
 .ui-ux-page.smm_page #course_after .cont > div.last h4 { top: -100px; right: 30px; left: auto; text-align: right; }
-
+@media (max-width: 1200px) {  .ui-ux-page #reg-offer-two.reg-offer .container > div { top: -43px; } }
 @media (max-width: 992px) { .ui-ux-page #dev-slider > .container .content { grid-template-columns: 1fr; }
   .ui-ux-page #dev-slider > .container .content > div:nth-child(2) { display: none; }
   .ui-ux-page #course-program .program-grid { grid-template-columns: 1fr; }
