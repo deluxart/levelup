@@ -24,6 +24,12 @@
             .cont {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
+                grid-column-gap: 30px;
+
+                & > div {
+                    border: 1px solid #15acf2;
+                    padding: 40px;
+                }
             }
         }
     }
