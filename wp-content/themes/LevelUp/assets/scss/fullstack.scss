@@ -27,10 +27,12 @@
             padding-left: 40px;
         }
 
-        .cont {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            align-items: center;
+        & > .container {
+           & > .cont {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+            }
         }
 
         .spoiler_block {
