@@ -24,13 +24,20 @@
 
         h2 {
             color: #eaff00;
+            padding-left: 40px;
+        }
+
+        .cont {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
         }
 
         .spoiler_block {
             width: 100%;
             max-width: 600px;
             position: relative;
-            margin: 0 auto;
+            // margin: 0 auto;
             color: #fff;
             overflow: hidden;
             padding-left: 40px;
@@ -46,7 +53,7 @@
             }
 
             & > p {
-                font-size: 22px;
+                // font-size: 22px;
                 font-weight: 500;
             }
 
