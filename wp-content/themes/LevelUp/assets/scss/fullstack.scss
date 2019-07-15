@@ -38,6 +38,17 @@
                         text-align: center;
                         display: grid;
                         align-items: center;
+                        color: #4c4c4c;
+                    }
+
+                    img {
+                        max-width: 82px;
+                        margin: 0 auto;
+                        display: block;
+                    }
+
+                    &:nth-child(2) {
+                        padding: 0 15px;
                     }
 
                     &.column_1 {
