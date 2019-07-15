@@ -58,7 +58,7 @@
                         top: 8px;
                     }
 
-                    &::last-child {
+                    &:last-child {
                         padding-bottom: 0;
                     }
                 }
@@ -67,6 +67,8 @@
     }
 
     #fs_grid_section {
+        position: relative;
+
         .container {
             .cont {
                 display: grid;
@@ -74,8 +76,6 @@
                 grid-gap: 30px;
 
                 & > div {
-                    // border: 1px solid #15acf2;
-                    // padding: 40px;
                     box-shadow: 27.577px 27.577px 46px 0px rgba(66, 66, 66, 0.23);
                     color: #fff;
 
@@ -441,4 +441,9 @@
             padding: 10px 0 10px 60px;
         }
     }
+}
+
+
+@media (max-width: 992px) {
+
 }
