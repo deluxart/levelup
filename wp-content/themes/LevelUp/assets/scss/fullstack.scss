@@ -58,6 +58,8 @@
                         min-height: 215px;
                         text-align: center;
                         box-shadow: none;
+                        display: grid;
+                        align-items: center;
 
                         h2 {
                             color: #15acf2;
@@ -85,13 +87,14 @@
                         display: grid;
                         align-items: center;
                         position: relative;
+                        box-shadow: none;
 
                         &:before {
                             content: '';
                             position: absolute;
                             border: 20px solid transparent;
-                            border-top: 20px solid #2a2a2a;
-                            top: -20px;
+                            border-top: 20px solid #fff;
+                            top: 0px;
                             z-index: 999;
                             left: calc(50% - 20px);
                         }
