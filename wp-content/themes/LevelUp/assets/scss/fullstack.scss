@@ -82,13 +82,24 @@
                     &.column_6 { grid-column: 4/5; grid-row: 3/5; min-height: 415px; background: #424242; display: grid; grid-template-rows: auto 1fr 52px; }
                     &.column_7 {
                         grid-column: 1/4; grid-row: 4/5; min-height: 215px; background: url(https://levelup.ua/wp-content/uploads/2019/07/bg_foot_block.jpg) center no-repeat; background-size: cover; text-align: center;
+                        display: grid;
+                        align-items: center;
+                        position: relative;
+
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            border: 20px solid transparent;
+                            border-top: 20px solid #2a2a2a;
+                            top: -20px;
+                            z-index: 999;
+                            left: calc(50% - 20px);
+                        }
 
                         & > div {
-                            display: grid;
-                            align-items: center;
-
                             p {
                                 font-size: 21px;
+                                margin-bottom: 15px;
                             }
                         }
                     }
