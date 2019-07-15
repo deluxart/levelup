@@ -28,20 +28,23 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             align-items: center;
+            grid-column-gap: 20px;
 
             & > div {
                 &:nth-child(2) {
                     box-shadow: 16.5px 28.579px 202px 0px rgba(0, 0, 0, 0.3);
                     background: #f1f1f1;
                     border-radius: 30px;
+                    padding: 35px;
                 }
             }
 
             ul {
-                li {
+                & > li {
                     position: relative;
                     padding-left: 34px;
                     font-size: 21px;
+                    padding-bottom: 20px;
                     color: #4c4c4c;
 
                     &:before {
@@ -52,6 +55,11 @@
                         height: 15px;
                         background: #15acf2;
                         border-radius: 30px;
+                        top: 8px;
+                    }
+
+                    &::last-child {
+                        padding-bottom: 0;
                     }
                 }
             }

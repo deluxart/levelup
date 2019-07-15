@@ -90,7 +90,7 @@
 .ui-ux-page #course_after .cont > div { position: relative; }
 .ui-ux-page #course_after .cont > div.center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 50%; text-align: center; width: 70px; height: 70px; z-index: 99; line-height: 68px; }
 .ui-ux-page #course_after .cont > div h4 { position: absolute; bottom: 30px; left: 70px; font-size: 21px; color: #fff; text-shadow: 3.536px 3.536px 5px rgba(0, 0, 0, 0.4); line-height: normal; max-width: 65%; }
-.ui-ux-page #course_after .cont > div h4 span.yellow { color: #eaff00; }
+.ui-ux-page #course_after .cont > div h4 span.yellow { color: #eaff00; display: inline-block; }
 .ui-ux-page #course_after .cont > div.first { right: -75px; top: -30px; }
 .ui-ux-page #course_after .cont > div.last { left: -75px; bottom: -30px; }
 .ui-ux-page #reg-offer-two.reg-offer { max-height: 290px; }
@@ -160,7 +160,7 @@
 .ui-ux-page.smm_page #course_after .cont > div { position: relative; }
 .ui-ux-page.smm_page #course_after .cont > div.center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 50%; text-align: center; width: 70px; height: 70px; z-index: 99; line-height: 68px; }
 .ui-ux-page.smm_page #course_after .cont > div h4 { position: absolute; bottom: 30px; left: 70px; font-size: 21px; color: #4c4c4c; text-shadow: none; line-height: normal; max-width: 65%; }
-.ui-ux-page.smm_page #course_after .cont > div h4 span.yellow { color: #15acf2; }
+.ui-ux-page.smm_page #course_after .cont > div h4 span.yellow { color: #15acf2; display: inline-block; }
 .ui-ux-page.smm_page #course_after .cont > div.first { right: -30px; top: -50px; }
 .ui-ux-page.smm_page #course_after .cont > div.first h4 { bottom: -100px; left: 30px; }
 .ui-ux-page.smm_page #course_after .cont > div.last { left: -30px; bottom: -50px; }
