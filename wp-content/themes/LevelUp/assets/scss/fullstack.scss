@@ -1,6 +1,10 @@
 .fullstack-page {
     border: 0;
 
+    h2 {
+        color: #15acf2;
+    }
+
     #course_banner {
         background: url(https://levelup.ua/wp-content/uploads/2019/07/fullstack_banner.jpg) top no-repeat;
 
@@ -17,6 +21,41 @@
     .about-bg {
         background-color: #fff;
         box-shadow: 44.167px 25.5px 196px 0px rgba(0, 0, 0, 0.13);
+    }
+
+    #fs_fishki {
+        .cont {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+
+            & > div {
+                &:nth-child(2) {
+                    box-shadow: 16.5px 28.579px 202px 0px rgba(0, 0, 0, 0.3);
+                    background: #f1f1f1;
+                    border-radius: 30px;
+                }
+            }
+
+            ul {
+                li {
+                    position: relative;
+                    padding-left: 34px;
+                    font-size: 21px;
+                    color: #4c4c4c;
+
+                    &:before {
+                        position: absolute;
+                        left: 0;
+                        content: '';
+                        width: 15px;
+                        height: 15px;
+                        background: #15acf2;
+                        border-radius: 30px;
+                    }
+                }
+            }
+        }
     }
 
     #fs_grid_section {
