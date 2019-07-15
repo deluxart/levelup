@@ -32,6 +32,12 @@
                     box-shadow: 27.577px 27.577px 46px 0px rgba(66, 66, 66, 0.23);
                     color: #fff;
 
+                    & > div {
+                        &:nth-child(2) {
+                            padding: 0 15px;
+                        }
+                    }
+
                     .price {
                         background: #eeff00;
                         font-size: 21px;
@@ -45,10 +51,6 @@
                         max-width: 82px;
                         margin: 0 auto;
                         display: block;
-                    }
-
-                    &:nth-child(2) {
-                        padding: 0 15px;
                     }
 
                     &.column_1 {
