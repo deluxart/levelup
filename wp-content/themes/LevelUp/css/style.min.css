@@ -1029,11 +1029,13 @@ max-width: 50%;}
 .zoom-fade, .price-new-top, .price-new-bottom {
   transition: 0.25s ease-in-out;
   text-shadow: 0 30px 0px transparent;
-  display: none;
   color: rgba(0, 0, 0, .009);
   overflow: visible;
 }}
 @media (max-width:1000px){.zoom-fade, .price-new-top, .price-new-bottom{    color:#e61876 !important;}
+}
+#courses_schedulle_tbl tr .price-new-top {
+  display: none;
 }
 .portfolios:hover .price-new-top, .portfolios:hover .price-new-bottom,#courses_schedulle_tbl tr:hover .price-new-top, #courses_schedulle_tbl tr:hover .price-new-bottom {
   text-shadow: 0 0px 0px #e61876;
