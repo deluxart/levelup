@@ -798,3 +798,11 @@ jQuery('#courses_schedulle_tbl .price-new-bottom').each(function(i) {
         jQuery(this).closest('.table-price').children('p.price-new-top').addClass('d-none');
     }
 });
+
+
+jQuery('.course_card_block .price-new-bottom').each(function(i) {
+    if (jQuery(this).children('span.nprice').text().length <= 3) {
+        jQuery(this).addClass('d-none');
+        jQuery(this).closest('.price').children('p.price-new-top').addClass('d-none');
+    }
+});
