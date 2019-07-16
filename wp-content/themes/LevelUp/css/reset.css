@@ -22,8 +22,6 @@ input:-webkit-autofill {
 .logo_desktop { display: inline-block; }
 .logo_mobile { display: none; }
 
-
-
 .dev-logo { display: none; }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {color: inherit;background-color: inherit;border-color: inherit;}
@@ -379,7 +377,7 @@ body.postid-5691 #sidebar { display: none; }
 }
 
 /*Promotion block*/
-.promotion_block { position: relative; margin-bottom: 89px; }
+.promotion_block { position: relative; margin-bottom: 89px; display: none !important; }
 .promotion_block .before { width: 100%; max-width: 768px; position: absolute; top: -50px; left: 50%; transform: translateX(-50%); background: url(https://levelup.ua/wp-content/uploads/2019/06/bg_banner_2.jpg) center no-repeat; background-size: cover; box-shadow: -24.749px 24.749px 50px 0px rgba(14, 180, 255, 0.5); }
 .promotion_block .cont { display: grid; grid-template-columns: 60% 1fr;  padding: 21px; align-items: center; }
 .promotion_block .cont:before { position: absolute; top: 0; width: 91px; left: 50%; height: 179px; transform: translateX(-50%); content: ''; z-index: -1; background: url(https://levelup.ua/wp-content/uploads/2019/06/bg_two.png) center no-repeat; background-size: contain; }

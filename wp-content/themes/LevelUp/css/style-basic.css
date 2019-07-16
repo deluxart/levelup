@@ -1170,7 +1170,7 @@ padding: 12px 22px;top: 18px; width: 100%; }
 .strong-view .nav-links a.current, .strong-view .nav-links span.current { background: #15acf2 !important; border-radius: 7px; }
 .strong-view .nav-links a, .strong-view .nav-links span.current, .strong-view .nav-links a, .strong-view .nav-links span { display: inline-block !important; padding: .5rem .75rem !important; line-height: 1.25 !important; border-radius: 7px; }
 
-.price-new-top, .price-new-bottom { display: none !important; }
+/* .price-new-top, .price-new-bottom { display: none !important; } */
 
 
 .single .modal-content  .consultation .form_input_cf, .single .modal-content  .sg-popup-content .form_input_cf {border-bottom: 0; background: #f3f3f3b3; margin: 10px auto; border-radius: 10px; font-size: 16px !important; overflow: hidden; width: 90%; padding: 0 12px; }
