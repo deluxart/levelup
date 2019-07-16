@@ -787,6 +787,6 @@ jQuery('.price-new-bottom').each(function() {
     var newPrice = jQuery(this).children('span.price-table-portfolios-new').length;
     if (newPrice <= 1) {
         jQuery(this).addClass('d-none');
-        jQuery(this).closest('table-price').children('p.price-new-top').addClass('d-none');
+        jQuery(this).closest('.table-price').children('p.price-new-top').addClass('d-none');
     }
 });
