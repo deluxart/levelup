@@ -792,7 +792,7 @@ jQuery('.spoiler > .head').on('click', function(e){
 // });
 
 
-jQuery('.price-new-bottom').each(function(i) {
+jQuery('#courses_schedulle_tbl .price-new-bottom').each(function(i) {
     if (jQuery(this).children('span.price-table-portfolios-new').text().length <= 3) {
         jQuery(this).addClass('d-none');
         jQuery(this).closest('.table-price').children('p.price-new-top').addClass('d-none');

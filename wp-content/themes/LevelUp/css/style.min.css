@@ -1034,7 +1034,7 @@ max-width: 50%;}
 }}
 @media (max-width:1000px){.zoom-fade, .price-new-top, .price-new-bottom{    color:#e61876 !important;}
 }
-#courses_schedulle_tbl tr .price-new-top {
+#courses_schedulle_tbl tr .price-new-top, #courses_schedulle_tbl tr .price-new-top, #courses_schedulle_tbl tr .price-new-bottom {
   display: none;
 }
 .portfolios:hover .price-new-top, .portfolios:hover .price-new-bottom,#courses_schedulle_tbl tr:hover .price-new-top, #courses_schedulle_tbl tr:hover .price-new-bottom {
