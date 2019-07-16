@@ -5,6 +5,12 @@
         color: #15acf2;
     }
 
+    #about {
+        &.course {
+            padding-top: 0;
+        }
+    }
+
     #course_banner {
         background: url(https://levelup.ua/wp-content/uploads/2019/07/fullstack_banner.jpg) top no-repeat;
         padding-top: 43px;
@@ -73,7 +79,7 @@
         &:before {
             position: absolute;
             content: '';
-            top: 17%;
+            top: 17.4%;
             height: 66%;
             left: 0;
             width: 100%;
