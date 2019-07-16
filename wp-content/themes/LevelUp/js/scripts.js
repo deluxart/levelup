@@ -790,3 +790,11 @@ jQuery('.spoiler > .head').on('click', function(e){
 //         jQuery(this).closest('.table-price').children('p.price-new-top').addClass('d-none');
 //     }
 // });
+
+
+jQuery('.price-new-bottom').each(function(i) {
+    if (jQuery(this).children('span.price-table-portfolios-new').text().length <= 3) {
+        jQuery(this).addClass('d-none');
+        jQuery(this).closest('.table-price').children('p.price-new-top').addClass('d-none');
+    }
+});
