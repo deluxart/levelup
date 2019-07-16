@@ -491,8 +491,8 @@
     .fullstack-page #fs_grid_section .container .cont > div.column_3 { grid-row: 3; }
     .fullstack-page #fs_grid_section .container .cont > div.column_4 { grid-row: 4; }
     .fullstack-page #fs_grid_section .container .cont > div.column_5 { grid-row: 5; }
-    .fullstack-page #fs_grid_section .container .cont > div.column_6 { grid-row: 6; }
-    .fullstack-page #fs_grid_section .container .cont > div.column_6 { grid-row: 7; }
+    .fullstack-page #fs_grid_section .container .cont > div.column_6 { grid-row: 6; grid-column: 1/2; }
+    .fullstack-page #fs_grid_section .container .cont > div.column_7 { grid-row: 7; grid-column: 1/2; }
 
 
 }
