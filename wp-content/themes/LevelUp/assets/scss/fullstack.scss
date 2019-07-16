@@ -73,11 +73,12 @@
         &:before {
             position: absolute;
             content: '';
-            top: 10%;
-            height: 80%;
+            top: 17%;
+            height: 66%;
             left: 0;
             width: 100%;
             background: #ececec;
+            z-index: -1;
         }
 
         .container {
@@ -152,7 +153,7 @@
                             content: '';
                             position: absolute;
                             border: 20px solid transparent;
-                            border-top: 20px solid #eaeaea;
+                            border-top: 20px solid #d9d9d9;
                             top: 0px;
                             z-index: 999;
                             left: calc(50% - 20px);
