@@ -69,6 +69,16 @@
     #fs_grid_section {
         position: relative;
 
+        &:before {
+            position: absolute;
+            content: '';
+            top: 10%;
+            height: 80%;
+            left: 0;
+            width: 100%;
+            background: #ececec;
+        }
+
         .container {
             .cont {
                 display: grid;
