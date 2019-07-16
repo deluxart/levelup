@@ -13,7 +13,8 @@
         .cont {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-column-gap: 30px;
+            grid-gap: 30px;
+            align-items: center;
         }
     }
 
@@ -512,4 +513,6 @@
     #course_banner .cont .text .start { font-size: 21px; }
     .fullstack-page #course_banner { padding: 45px 0; }
     .fullstack-page #course_banner .cont .text { padding: 40px 0; }
+
+    .fullstack-page #about .cont { grid-template-columns: 1fr; }
 }
