@@ -783,7 +783,7 @@ jQuery('.spoiler > .head').on('click', function(e){
 
 
 // let newPrice = jQuery('span.price-table-portfolios-new').length;
-jQuery('.price-new-bottom').each(function() {
+jQuery('.price-new-bottom').ready(function() {
     var newPrice = jQuery(this).children('span.price-table-portfolios-new').length;
     if (newPrice <= 1) {
         jQuery(this).addClass('d-none');
