@@ -1091,7 +1091,7 @@ img.alignleft {margin: 3px;}
 
 .saleTop {text-transform: lowercase;}
 
-.saleRow {/*padding-bottom:30px;*/ display: none !important;}
+/* .saleRow {padding-bottom:30px; display: none !important;} */
 
 /* Новая цена на всех курсах  */
 .saleBottom {text-align: center;background: #eaff00;color: #4c4c4c;}
