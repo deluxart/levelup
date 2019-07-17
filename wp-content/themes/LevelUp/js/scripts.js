@@ -792,17 +792,30 @@ jQuery('.spoiler > .head').on('click', function(e){
 // });
 
 
+// For tables
 jQuery('#courses_schedulle_tbl .price-new-bottom').each(function(i) {
     if (jQuery(this).children('span.price-table-portfolios-new').text().length <= 3) {
         jQuery(this).addClass('d-none');
         jQuery(this).closest('.table-price').children('p.price-new-top').addClass('d-none');
     }
 });
+// For tables
 
-
+// for blocks
 jQuery('.course_card_block .price-new-bottom').each(function(i) {
     if (jQuery(this).children('span.nprice').text().length <= 3) {
         jQuery(this).addClass('d-none');
         jQuery(this).closest('.price').children('p.price-new-top').addClass('d-none');
     }
 });
+// for blocks
+
+
+// for pages
+jQuery('.saleRow .saleBottom').each(function(i) {
+    if (jQuery(this).children('span.price').text().length <= 3) {
+        jQuery(this).closest('.saleRow').addClass('d-none');
+        // jQuery(this).closest('.price').children('p.price-new-top').addClass('d-none');
+    }
+});
+// for pages
