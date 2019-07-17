@@ -68,7 +68,7 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 .buttonLight.black, .bg-blue .sg-show-popup{ color: #000; }
 .buttonLight.blue { color: #fff; background: #15acf2; border-color: #15acf2; }
 .buttonLight.blue:hover {border-color: #0aa1e7 !important; background: #0aa1e7;color: #fff;}
-.buttonLight.blue:hover:after, .buttonLight.blue:after, p.btn-blue a.sg-show-popup:after, .course_details a.sg-show-popup:after { background-image:url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg"); }
+.buttonLight.blue:hover:after, .buttonLight.blue:after, p.btn-blue a.sg-show-popup:after { background-image:url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg"); }
 
 .Slider_courses_block a.sg-show-popup { color: #4c4c4c; background: #d1f700; }
 .Slider_courses_block a.sg-show-popup:after { background-image:url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg"); }
