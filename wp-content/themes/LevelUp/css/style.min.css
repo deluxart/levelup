@@ -1120,7 +1120,9 @@ img.alignleft {margin: 3px;}
 }
 
 @media (min-width:998px){
-  .saleRow {padding-top: 20px; display: none !important}
+  .saleRow {padding-top: 20px;
+    /* display: none !important */
+  }
   }
 
 
