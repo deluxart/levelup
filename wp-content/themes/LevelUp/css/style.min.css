@@ -1,8 +1,8 @@
 .bg-kirpichik { background: #2e3035; transition: 0.7s all;}
 .bg-blue.course h2 span { color: #eaff00; }
 
-.module-icon-1::after {background: url(/wp-content/uploads/2019/02/module.png) !important ;}
-.module-icon-2::after {background: url(/wp-content/uploads/2019/02/module-2.png) !important;}
+.module-icon-1::after {background: url(https://levelup.ua/wp-content/uploads/2019/02/module.png) !important ;}
+.module-icon-2::after {background: url(https://levelup.ua/wp-content/uploads/2019/02/module-2.png) !important;}
 
 .result-of-the-course .list-group-item::before {content: '';height: 100%;width: 1px;position: absolute;background: #15acf2;top: 12px;left: 25px;}
 .result-of-the-course .list-group-item::after {width: 50px !important;height: 50px !important;}
@@ -36,60 +36,60 @@
 
 
 
-.list-img-icon-levelup1:after{background: url(/wp-content/uploads/2018/02/Icon-Podderzhka-prepoda-min.png);}
-.list-img-icon-levelup2:after{background: url(/wp-content/uploads/2018/02/Icon-Praktika-min.png);}
-.list-img-icon-levelup3:after{background: url(/wp-content/uploads/2018/02/Icon-Videozapisi-min.png);}
-.list-img-icon-levelup4:after{background: url(/wp-content/uploads/2018/02/Icon-Domashnie-zadaniya-min.png);}
-.list-img-icon-levelup5:after{background: url(/wp-content/uploads/2018/02/Icon-Kollektiv-min.png);}
-.list-img-icon-levelup6:after{background: url(/wp-content/uploads/2018/02/Icon-Inkubator-min.png);}
+.list-img-icon-levelup1:after{background: url(https://levelup.ua/wp-content/uploads/2018/02/Icon-Podderzhka-prepoda-min.png);}
+.list-img-icon-levelup2:after{background: url(https://levelup.ua/wp-content/uploads/2018/02/Icon-Praktika-min.png);}
+.list-img-icon-levelup3:after{background: url(https://levelup.ua/wp-content/uploads/2018/02/Icon-Videozapisi-min.png);}
+.list-img-icon-levelup4:after{background: url(https://levelup.ua/wp-content/uploads/2018/02/Icon-Domashnie-zadaniya-min.png);}
+.list-img-icon-levelup5:after{background: url(https://levelup.ua/wp-content/uploads/2018/02/Icon-Kollektiv-min.png);}
+.list-img-icon-levelup6:after{background: url(https://levelup.ua/wp-content/uploads/2018/02/Icon-Inkubator-min.png);}
 
 
 
-.list-img-icon-yellow-numbers1:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-1.png);}
-.list-img-icon-yellow-numbers2:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-2.png);}
-.list-img-icon-yellow-numbers3:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-3.png);}
-.list-img-icon-yellow-numbers4:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-4.png);}
-.list-img-icon-yellow-numbers5:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-5.png);}
-.list-img-icon-yellow-numbers6:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-6.png);}
-.list-img-icon-yellow-numbers7:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-7.png);}
-.list-img-icon-yellow-numbers8:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-8.png);}
-.list-img-icon-yellow-numbers9:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-9.png);}
-.list-img-icon-yellow-numbers10:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-10.png);}
-.list-img-icon-yellow-numbers11:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-11.png);}
-.list-img-icon-yellow-numbers12:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-12.png);}
-.list-img-icon-yellow-numbers13:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-13.png);}
-.list-img-icon-yellow-numbers14:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-14.png);}
-.list-img-icon-yellow-numbers15:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-15.png);}
-.list-img-icon-yellow-numbers16:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-16.png);}
-.list-img-icon-yellow-numbers17:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-17.png);}
-.list-img-icon-yellow-numbers18:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-18.png);}
-.list-img-icon-yellow-numbers19:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-19.png);}
-.list-img-icon-yellow-numbers20:after{background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-20.png);}
+.list-img-icon-yellow-numbers1:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-1.png);}
+.list-img-icon-yellow-numbers2:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-2.png);}
+.list-img-icon-yellow-numbers3:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-3.png);}
+.list-img-icon-yellow-numbers4:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-4.png);}
+.list-img-icon-yellow-numbers5:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-5.png);}
+.list-img-icon-yellow-numbers6:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-6.png);}
+.list-img-icon-yellow-numbers7:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-7.png);}
+.list-img-icon-yellow-numbers8:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-8.png);}
+.list-img-icon-yellow-numbers9:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-9.png);}
+.list-img-icon-yellow-numbers10:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-10.png);}
+.list-img-icon-yellow-numbers11:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-11.png);}
+.list-img-icon-yellow-numbers12:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-12.png);}
+.list-img-icon-yellow-numbers13:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-13.png);}
+.list-img-icon-yellow-numbers14:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-14.png);}
+.list-img-icon-yellow-numbers15:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-15.png);}
+.list-img-icon-yellow-numbers16:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-16.png);}
+.list-img-icon-yellow-numbers17:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-17.png);}
+.list-img-icon-yellow-numbers18:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-18.png);}
+.list-img-icon-yellow-numbers19:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-19.png);}
+.list-img-icon-yellow-numbers20:after{background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-20.png);}
 
 
-.list-img-icon-blue-1:after{background: url(/wp-content/uploads/2018/03/Icon-One.png);}
-.list-img-icon-blue-2:after{background: url(/wp-content/uploads/2018/03/Icon-Two.png);}
-.list-img-icon-blue-3:after{background: url(/wp-content/uploads/2018/03/Icon-Three.png);}
-.list-img-icon-blue-4:after{background: url(/wp-content/uploads/2018/03/Icon-Four.png);}
-.list-img-icon-blue-5:after{background: url(/wp-content/uploads/2018/03/Icon-Five.png);}
-.list-img-icon-blue-6:after{background: url(/wp-content/uploads/2018/03/Icon-Six.png);}
-.list-img-icon-blue-7:after{background: url(/wp-content/uploads/2018/03/Icon-Seven.png);}
-.list-img-icon-blue-8:after{background: url(/wp-content/uploads/2018/03/Icon-Eight.png);}
+.list-img-icon-blue-1:after{background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-One.png);}
+.list-img-icon-blue-2:after{background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Two.png);}
+.list-img-icon-blue-3:after{background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Three.png);}
+.list-img-icon-blue-4:after{background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Four.png);}
+.list-img-icon-blue-5:after{background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Five.png);}
+.list-img-icon-blue-6:after{background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Six.png);}
+.list-img-icon-blue-7:after{background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Seven.png);}
+.list-img-icon-blue-8:after{background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Eight.png);}
 
 
 .list-img-white-check {background-size: contain;}
-.list-img-white-check:after {content: "";width: 30px;height: 30px;position: absolute;background: url(/wp-content/uploads/2019/01/Cheklist_1.svg);left: 0;top: 0;}
+.list-img-white-check:after {content: "";width: 30px;height: 30px;position: absolute;background: url(https://levelup.ua/wp-content/uploads/2019/01/Cheklist_1.svg);left: 0;top: 0;}
 .list-img-white-check {background: none !important; border:none !important;padding-left: 50px;position: relative;padding-bottom: 10px;}
 
 
 .list-img-icon-blue {background-size: contain;}
-.list-img-icon-blue:after {content: "";width: 60px;height: 60px;position: absolute;background: url(/wp-content/uploads/2018/07/Icon-Checkbox-Blue.svg);left: 0;top: 0;}
+.list-img-icon-blue:after {content: "";width: 60px;height: 60px;position: absolute;background: url(https://levelup.ua/wp-content/uploads/2018/07/Icon-Checkbox-Blue.svg);left: 0;top: 0;}
 
 .list-img-icon-blue {background: none !important; border:none !important;padding-left: 70px;position: relative;}
 .skillup .list-img-icon-blue::after{ width: 52px; height: 52px; top: 4px; }
 
 .list-img-icon-yellow {background-size: contain;}
-.list-img-icon-yellow:after {content: "";width: 60px;height: 60px;position: absolute;background: url(/wp-content/uploads/2018/10/icon-yelow-numbers-ok.png);left: 0;top: 0;}
+.list-img-icon-yellow:after {content: "";width: 60px;height: 60px;position: absolute;background: url(https://levelup.ua/wp-content/uploads/2018/10/icon-yelow-numbers-ok.png);left: 0;top: 0;}
 .list-img-icon-yellow {background: none !important; border:none !important;padding-left: 70px;position: relative;}
 
 
@@ -97,7 +97,7 @@
 
 .programs-two-rows .list-group-item {border-bottom: 1px solid #fff3 !important;}
 .programs-two-rows .mb-1 {color: #fff}
-/*.bg-mountains {background: url(/wp-content/uploads/2018/04/BG-Java-Work-Hard.jpg);}*/
+/*.bg-mountains {background: url(https://levelup.ua/wp-content/uploads/2018/04/BG-Java-Work-Hard.jpg);}*/
 
 .pt30 {padding-top: 30px;}
 @media (max-width:768px) {
@@ -119,7 +119,7 @@ background-size: cover !important;}
 .Slider_courses_block .row {min-height: 83vh;}
 
 /*Конец Общие стили*/
-.basic_program_slide {background-image: url(/wp-content/uploads/2018/07/SLIDER-OP-2.jpg) !important;}
+.basic_program_slide {background-image: url(https://levelup.ua/wp-content/uploads/2018/07/SLIDER-OP-2.jpg) !important;}
 @media (max-width:768px){
 .Slider_courses_block{min-height:90vh !important;}}
 
@@ -137,7 +137,7 @@ background-size: cover !important;}
 
   .form_input_enroll_on_course span.wpcf7-not-valid-tip{position: absolute;left: 111px;top: 16px;font-size: 12px !important;}
   .paidPlace {font-weight:600;}
-  .pickImagesBOX {background: url(/wp-content/uploads/2018/11/angle_final.jpg) top center no-repeat;}
+  .pickImagesBOX {background: url(https://levelup.ua/wp-content/uploads/2018/11/angle_final.jpg) top center no-repeat;}
 
   .SliderMainbox {padding-bottom: 8px;}
   .p_Courses {display:block}
@@ -151,14 +151,14 @@ background-size: cover !important;}
   }
 .borderTwo {display: inherit;padding: 20px;background: #fff5;border-radius: 10px;margin: 0;height: auto;}.borderOne {display: inline-block;padding: 20px;background:#fff3;border-radius:10px;}.BlueROW {border-radius: 8px 8px 0 0;background: #15acf2;overflow: hidden;}.slideTitle {padding: 20px 20px 0 20px;}.p_Courses {font-weight: 400;font-size: 20px;color: #fff;margin-bottom: 0;}.name_Courses {font-weight: 400;font-size: 30px;color: #eaff00;margin-bottom: 0;line-height: 30px;display: block;padding-bottom: 8px;}.p_courses, .p_date_title {line-height: 20px;font-size: 12px !important;color: #fff;margin-bottom: 0;padding-top: 5px;}.slideInfoTopLeft {width: 50%;position: relative;display: block;float: left;text-align: center;}.slideInfoTopRight {width: 50%;position: relative;display: block;float: right;text-align: center;}.ShowShedulle {overflow: hidden;background: #c5ecfb}.name_courses {font-size: 24px !important;color: #eaff00;margin-bottom: 0;padding-bottom: 10px;}.shedulle_text {margin-bottom: 0;text-align:  center;color: #575656;padding: 10px 0;}/*.name_Courses {border-bottom: 1px solid #eaff00;}*/.totalTitle {margin-bottom: 0;color: #ec008c;font-size: 12px;text-align: center;line-height: 20px;padding-top: 30px;padding-bottom: 10px;}/* .images_column {column-count: 6;column-gap: 0;} */.pickImagesBOX {background: #fff}#clockdiv div {display: inline-block;}
 #clockdiv span.smalltext {font-size: 14px; color: #eaff00}
-.pickImagesBOX {background: url(/wp-content/uploads/2018/11/angle_final.jpg) top center no-repeat;}
+.pickImagesBOX {background: url(https://levelup.ua/wp-content/uploads/2018/11/angle_final.jpg) top center no-repeat;}
 
   @media (max-width:768px) {.p_date_title {font-size: 16px !important;line-height: 20px !important;font-weight: 400;}.p_courses {font-size: 16px !important;line-height: 20px !important;font-weight: 400;}.name_courses {  font-size: 16px !important;line-height: 20px !important;font-weight: 400;}#clockdiv span.smalltext {font-size: 10px;}.slideTitle {padding: 10px 20px 0 20px;}.borderOne {padding:0;border:0;margin: 0;margin-top: 0px;background: none;}  .name_Courses {font-size: 22px;}  .newBannerSlide {line-height:22px !important;}  #clockdiv span:first-child {font-size: 17px !important;}    .slideInfoBottom  p{font-size: 12px !important;}
 
   }
 
 /*Слайдер карусель */
-  .sale-slide {background: url(/wp-content/uploads/2018/11/bg-slider-final-editon.jpg)}
+  .sale-slide {background: url(https://levelup.ua/wp-content/uploads/2018/11/bg-slider-final-editon.jpg)}
 /* Конец Слайдер карусель */
 
 /*В результате курса вы:*/
@@ -197,19 +197,19 @@ background-size: cover !important;}
 
 
 /*Старт Список Преподаватель курса:*/
-.prepod-course .senin {background: url(/wp-content/uploads/2018/03/muzhik-min-1.png)}
-.prepod-course .pura {background-image: url(/wp-content/uploads/2018/03/pyure-min-1.png)}
-.prepod-course .pilugin {background-image: url(/wp-content/uploads/2018/05/pilyugin-min.png) !important;}
-.prepod-course .stepanenko {background-image: url(/wp-content/uploads/2018/03/stepanenko-min-2.png) !important;}
-.prepod-course .blajivskii {background-image: url(/wp-content/uploads/2019/03/blajivskii.png) !important;}
-.prepod-course .kalashnik {background-image: url(/wp-content/uploads/2018/03/prepod-kalashnik.png) !important;}
-.prepod-course .koskor {background-image: url(/wp-content/uploads/2018/03/koskor-min.png) !important;}
-.prepod-course .kostrova {background-image: url(/wp-content/uploads/2018/09/prepod.png) !important;}
-.prepod-course .stupachenko {background-image: url(/wp-content/uploads/2018/03/muzhik-2-min.png) !important;}
-.prepod-course .javtushenko {background-image: url(/wp-content/uploads/2018/03/kolya-min.png) !important;}
-.prepod-course .seredina {background-image: url(/wp-content/uploads/2018/03/lada-min.png) !important;}
-.prepod-course .klimber {background-image: url(/wp-content/uploads/2018/12/prepod_1_2.png) !important;}
-.prepod-course .kostykevich {background-image: url(/wp-content/uploads/2018/12/prepod_2_2.png) !important;}
+.prepod-course .senin {background: url(https://levelup.ua/wp-content/uploads/2018/03/muzhik-min-1.png)}
+.prepod-course .pura {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/pyure-min-1.png)}
+.prepod-course .pilugin {background-image: url(https://levelup.ua/wp-content/uploads/2018/05/pilyugin-min.png) !important;}
+.prepod-course .stepanenko {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/stepanenko-min-2.png) !important;}
+.prepod-course .blajivskii {background-image: url(https://levelup.ua/wp-content/uploads/2019/03/blajivskii.png) !important;}
+.prepod-course .kalashnik {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/prepod-kalashnik.png) !important;}
+.prepod-course .koskor {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/koskor-min.png) !important;}
+.prepod-course .kostrova {background-image: url(https://levelup.ua/wp-content/uploads/2018/09/prepod.png) !important;}
+.prepod-course .stupachenko {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/muzhik-2-min.png) !important;}
+.prepod-course .javtushenko {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/kolya-min.png) !important;}
+.prepod-course .seredina {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/lada-min.png) !important;}
+.prepod-course .klimber {background-image: url(https://levelup.ua/wp-content/uploads/2018/12/prepod_1_2.png) !important;}
+.prepod-course .kostykevich {background-image: url(https://levelup.ua/wp-content/uploads/2018/12/prepod_2_2.png) !important;}
 
 /*Конец Список Преподаватель курса:*/
 
@@ -247,7 +247,7 @@ background-size: cover !important;}
 
 /*Видео презентация курса*/
 .VideoButton img { box-shadow: none; border: 0; max-width: 100%; display: block; line-height: 100px; top: calc(50% - 32px); left: 3px;
-  position: relative; z-index: 999; background: url(/wp-content/uploads/2018/05/music-player-play.png);  background-position-x: 0%;  background-position-y: 0%;  background-repeat: repeat;  background-size: auto auto;
+  position: relative; z-index: 999; background: url(https://levelup.ua/wp-content/uploads/2018/05/music-player-play.png);  background-position-x: 0%;  background-position-y: 0%;  background-repeat: repeat;  background-size: auto auto;
   background-size: 30px 30px; background-repeat: no-repeat; background-position: center;}
 .VideoButton::before {content: ''; width: 140px; height: 140px; border-radius: 50%; border: 2px solid #fff; opacity: .1; position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); -webkit-animation: pulsingVideo 1s ease-in-out infinite alternate; animation: pulsingVideo 1s ease-in-out infinite alternate;}
@@ -263,7 +263,7 @@ img.ult-align-center {margin: 0 auto;}
   100% {-webkit-transform: translate(-50%, -50%) scale(0.8);transform: translate(-50%, -50%) scale(0.8);z-index: 1; }
 }
 
-.video-present { background-position-x: center; background-image: url(/wp-content/uploads/2018/06/BG-Homepage-Yankula-Anton-Black-1.jpg) !important;}
+.video-present { background-position-x: center; background-image: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Homepage-Yankula-Anton-Black-1.jpg) !important;}
 .VideoButton:hover {border: 2px solid #15acf2;border-top-color: rgb(21, 172, 242);border-right-color: rgb(21, 172, 242);border-bottom-color: rgb(21, 172, 242);border-left-color: rgb(21, 172, 242);
 background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform: scale(1.1); transform: scale(1.1); cursor: pointer;}
 
@@ -287,18 +287,18 @@ background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform:
 .grid div, .grid2 div {border-radius:10px; }
 
 
-.student-portfolios3d .img1 {background: url(/wp-content/uploads/2018/10/Untitled-1.jpg);}
-.student-portfolios3d .img2 {background: url(/wp-content/uploads/2018/10/Untitled-2.jpg);}
-.student-portfolios3d .img3 {background: url(/wp-content/uploads/2018/10/Untitled-3.jpg);}
-.student-portfolios3d .img4 {background: url(/wp-content/uploads/2018/10/Untitled-4.jpg);}
-.student-portfolios3d .img5 {background: url(/wp-content/uploads/2018/10/Untitled-5.jpg);}
-.student-portfolios3d .img6 {background: url(/wp-content/uploads/2018/10/Untitled-6.jpg);}
-.student-portfolios3d .img7 {background: url(/wp-content/uploads/2018/10/Untitled-7.jpg);}
-.student-portfolios3d .img8 {background: url(/wp-content/uploads/2018/10/Untitled-8.jpg);}
-.student-portfolios3d .img9 {background: url(/wp-content/uploads/2018/10/Untitled-9.jpg);}
-.student-portfolios3d .img10 {background: url(/wp-content/uploads/2018/10/Untitled-10.jpg);}
-.student-portfolios3d .img11 {background: url(/wp-content/uploads/2018/10/Untitled-11.jpg);}
-.student-portfolios3d .img12 {background: url(/wp-content/uploads/2018/10/Untitled-12.jpg);}
+.student-portfolios3d .img1 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-1.jpg);}
+.student-portfolios3d .img2 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-2.jpg);}
+.student-portfolios3d .img3 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-3.jpg);}
+.student-portfolios3d .img4 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-4.jpg);}
+.student-portfolios3d .img5 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-5.jpg);}
+.student-portfolios3d .img6 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-6.jpg);}
+.student-portfolios3d .img7 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-7.jpg);}
+.student-portfolios3d .img8 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-8.jpg);}
+.student-portfolios3d .img9 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-9.jpg);}
+.student-portfolios3d .img10 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-10.jpg);}
+.student-portfolios3d .img11 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-11.jpg);}
+.student-portfolios3d .img12 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-12.jpg);}
 
 .student-portfolios3d div {background-size: cover !important;}
 .wrapper-grid div { background: #15acf2; padding: 1em; border-radius: 10px; color: #fff; }
@@ -343,7 +343,7 @@ background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform:
 
 .menu-item-491 {width: 200px}
 
-.sub-menu { background: url(/wp-content/uploads/2018/05/BG-Kirpichik.jpg); }
+.sub-menu { background: url(https://levelup.ua/wp-content/uploads/2018/05/BG-Kirpichik.jpg); }
 .menu-item:hover .sub-menu, .sub-menu:hover .sub-menu {display: grid !important;position: absolute;left: 0;width: 100%;top: 106px;grid-template-columns: 1fr 1fr 1fr;padding: 20px; }
 
 .navbar { padding: 0; }
@@ -379,10 +379,10 @@ background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform:
 
 /*Unreal engine UE4*/
 
-.about-course-ue4 {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-Engine-Robot-New.jpg?id=34510); background-position: center !important;
+.about-course-ue4 {background-image: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Unreal-Engine-Robot-New.jpg?id=34510); background-position: center !important;
 background-repeat: no-repeat !important; background-size: cover !important;}
 
-.about-course-ue4-2 {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-Engine-Girl-1.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover;min-height: 450px; }
+.about-course-ue4-2 {background-image: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Unreal-Engine-Girl-1.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover;min-height: 450px; }
 @media (max-width: 768px) {
 .about-course-ue4 {background: #f7f7f7 !important;}
 }
@@ -393,19 +393,19 @@ background-repeat: no-repeat !important; background-size: cover !important;}
 .about-course-ue4-2 .container {align-self: center;}
 
 
-.polesnie-ue4 {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-For-Who.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+.polesnie-ue4 {background-image: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Unreal-For-Who.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
 
 
 .polesnie-ue4.course h3 {padding: 0 0 5px 0 !important; }
 .polesnie-ue4.course h3 {color: #eaff00 !important;}
 
-.ue-4-wdy {background-image: url(/wp-content/uploads/2018/06/BG-Why-Unreal.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: top;background-size: cover}
+.ue-4-wdy {background-image: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Why-Unreal.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: top;background-size: cover}
 @media (max-width: 768px) {
   .ue-4-wdy {background-position: right !important;}
 }
 
 
-.ue-4-rofc {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-Engine-Game.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+.ue-4-rofc {background-image: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Unreal-Engine-Game.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
 
 
 
@@ -416,35 +416,35 @@ background-repeat: no-repeat !important; background-size: cover !important;}
 .ue-4-rofc .mb-1 {color: #fff;}
 
 
-.co-ue-4 .video-1-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-Inventory.svg) no-repeat;}
-.co-ue-4 .video-2-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-Char.svg) no-repeat;}
-.co-ue-4 .video-3-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-Physics.svg) no-repeat;}
-.co-ue-4 .video-4-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-Interface.svg) no-repeat;}
-.co-ue-4 .video-5-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-C-plus.svg) no-repeat;}
-.co-ue-4 .video-6-ue-4 {background: url(/wp-content/uploads/2018/06/Icon-UE-Inventory.svg) no-repeat;}
+.co-ue-4 .video-1-ue-4 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-UE-Inventory.svg) no-repeat;}
+.co-ue-4 .video-2-ue-4 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-UE-Char.svg) no-repeat;}
+.co-ue-4 .video-3-ue-4 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-UE-Physics.svg) no-repeat;}
+.co-ue-4 .video-4-ue-4 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-UE-Interface.svg) no-repeat;}
+.co-ue-4 .video-5-ue-4 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-UE-C-plus.svg) no-repeat;}
+.co-ue-4 .video-6-ue-4 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-UE-Inventory.svg) no-repeat;}
 .co-ue-4 .rotate-anim {background-size: 114px 114px;}
 
-.co-unity .video-unity-1 {background: url(/wp-content/uploads/2018/08/Icon-Unity.svg) no-repeat;}
-.co-unity .video-unity-2 {background: url(/wp-content/uploads/2018/08/Icon-Unity-C.svg) no-repeat;}
-.co-unity .video-unity-3 {background: url(/wp-content/uploads/2018/08/Icon-Unity-OOP.svg) no-repeat;}
-.co-unity .video-unity-4 {background: url(/wp-content/uploads/2018/03/Icon-Circle-CorelDraw.png) no-repeat;}
-.co-unity .video-unity-5 {background: url(/wp-content/uploads/2018/06/Icon-UE-Char.svg) no-repeat;}
-.co-unity .video-unity-6 {background: url(/wp-content/uploads/2018/06/Icon-UE-Interface.svg) no-repeat;}
+.co-unity .video-unity-1 {background: url(https://levelup.ua/wp-content/uploads/2018/08/Icon-Unity.svg) no-repeat;}
+.co-unity .video-unity-2 {background: url(https://levelup.ua/wp-content/uploads/2018/08/Icon-Unity-C.svg) no-repeat;}
+.co-unity .video-unity-3 {background: url(https://levelup.ua/wp-content/uploads/2018/08/Icon-Unity-OOP.svg) no-repeat;}
+.co-unity .video-unity-4 {background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Circle-CorelDraw.png) no-repeat;}
+.co-unity .video-unity-5 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-UE-Char.svg) no-repeat;}
+.co-unity .video-unity-6 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-UE-Interface.svg) no-repeat;}
 .co-unity .rotate-anim {background-size: 114px 114px;}
 
 
-.co-ue-4 {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-City-White-1.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+.co-ue-4 {background-image: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Unreal-City-White-1.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
 
 
-.pc-ue-4 {background-image: url(/wp-content/uploads/2018/06/UE4-BG-Teacher.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+.pc-ue-4 {background-image: url(https://levelup.ua/wp-content/uploads/2018/06/UE4-BG-Teacher.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
 
 
 /* Конец Unreal engine UE4*/
 
 
-.about-course-unity {background-image: url(/wp-content/uploads/2018/08/BG-Unity-First-Screen.jpg); background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 450px}
+.about-course-unity {background-image: url(https://levelup.ua/wp-content/uploads/2018/08/BG-Unity-First-Screen.jpg); background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 450px}
 
-.about-course-unity-2 {background-image: url(/wp-content/uploads/2018/08/BG-Unity-2Screen-Girl.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover;min-height: 450px;
+.about-course-unity-2 {background-image: url(https://levelup.ua/wp-content/uploads/2018/08/BG-Unity-2Screen-Girl.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover;min-height: 450px;
 }
 @media (max-width: 768px) {
 .about-course-unity {background: #f7f7f7 !important;}
@@ -455,7 +455,7 @@ background-repeat: no-repeat !important; background-size: cover !important;}
 .about-course-unity-2 .container {align-self: center;}
 
 
-.polesnie-unity {background-image: url(/wp-content/uploads/2018/08/BG-Unity-Dark.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+.polesnie-unity {background-image: url(https://levelup.ua/wp-content/uploads/2018/08/BG-Unity-Dark.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
 
 
 .polesnie-unity.course h3 {padding: 0 0 5px 0 !important; }
@@ -464,7 +464,7 @@ background-repeat: no-repeat !important; background-size: cover !important;}
 
 
 
-.unity-rofc {background-image: url(/wp-content/uploads/2018/06/BG-Unreal-Engine-Game.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+.unity-rofc {background-image: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Unreal-Engine-Game.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
 
 
 
@@ -474,21 +474,21 @@ background-repeat: no-repeat !important; background-size: cover !important;}
 
 .unity-rofc .mb-1 {color: #fff;}
 
-.co-unity {background-image: url(/wp-content/uploads/2018/08/BG-Unity-Boomsday-White.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
+.co-unity {background-image: url(https://levelup.ua/wp-content/uploads/2018/08/BG-Unity-Boomsday-White.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
 
 
-.leave-lesson {background: url(/wp-content/uploads/2018/11/video_record_pc.png); background-position: 0%; background-size: auto auto; min-height: 300px; display: flex;
+.leave-lesson {background: url(https://levelup.ua/wp-content/uploads/2018/11/video_record_pc.png); background-position: 0%; background-size: auto auto; min-height: 300px; display: flex;
   align-items: center; justify-content: center; background-size: cover; background-position: center;}
 
 @media (max-width: 768px) {
-    .leave-lesson {background: url(/wp-content/uploads/2019/01/camera_768x720.png )!important;background-position-x: 0% !important;background-position-y: 0% !important;background-size: auto auto;min-height: 400px !important;background-position-y: bottom !important;align-items: start !important;background-size: cover !important;}
+    .leave-lesson {background: url(https://levelup.ua/wp-content/uploads/2019/01/camera_768x720.png )!important;background-position-x: 0% !important;background-position-y: 0% !important;background-size: auto auto;min-height: 400px !important;background-position-y: bottom !important;align-items: start !important;background-size: cover !important;}
 }
 
 /*  APPLE*/
 
-.apple-mac .mac-1 {background: url(/wp-content/uploads/2018/03/Icon-Circle-Diploma.png) no-repeat;}
-.apple-mac .mac-2 {background: url(/wp-content/uploads/2018/03/Icon-Circle-Practice.png) no-repeat;}
-.apple-mac .mac-3 {background: url(/wp-content/uploads/2018/03/Icon-Circle-Discount.png) no-repeat;}
+.apple-mac .mac-1 {background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Circle-Diploma.png) no-repeat;}
+.apple-mac .mac-2 {background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Circle-Practice.png) no-repeat;}
+.apple-mac .mac-3 {background: url(https://levelup.ua/wp-content/uploads/2018/03/Icon-Circle-Discount.png) no-repeat;}
 
 .apple-mac .course_open-block p {padding-top: 20px;}
 
@@ -747,7 +747,7 @@ span .five,.one,.two,.three,.four { display: block; position: absolute; width: 1
 .aboutus-block2 {top: -100px;position: absolute;width: 100%;}
 
 
-.bg-au1 {background-image: url(/wp-content/uploads/2018/09/AboutUs-BG-1.jpg?id=38437) !important;}
+.bg-au1 {background-image: url(https://levelup.ua/wp-content/uploads/2018/09/AboutUs-BG-1.jpg?id=38437) !important;}
 .aboutus-block.bg-au1  {position: relative;}
 .welcome_box {text-align: center;}
 .container.mission {padding-top: 140px;}
@@ -758,9 +758,9 @@ span .five,.one,.two,.three,.four { display: block; position: absolute; width: 1
 .p_our_skill_works:before, .p_prepod:before, .p_vipusknik:before, .p_infrastruct:before, .list-course:before { position: absolute; content: ''; top: 14px; width: 60px; height: 1px; background: #fff9; }
 .p_mission:before, .p_kurator:before { position: absolute; content: ''; top: 14px; width: 60px; height: 1px; background: #d4d4d4; }
 
-.bg-au2 {background-image: url(/wp-content/uploads/2018/09/AboutUs-BG-2.jpg?id=38438) !important;}
-.bg-au3 {background-image: url(/wp-content/uploads/2018/09/AboutUs-BG-3.jpg?id=38439) !important;}
-.bg-au4 {background-image: url(/wp-content/uploads/2018/09/AboutUs-BG-4.jpg?id=38440) !important;}
+.bg-au2 {background-image: url(https://levelup.ua/wp-content/uploads/2018/09/AboutUs-BG-2.jpg?id=38438) !important;}
+.bg-au3 {background-image: url(https://levelup.ua/wp-content/uploads/2018/09/AboutUs-BG-3.jpg?id=38439) !important;}
+.bg-au4 {background-image: url(https://levelup.ua/wp-content/uploads/2018/09/AboutUs-BG-4.jpg?id=38440) !important;}
 /*Конец Страница О нас*/
 
 .skillup .list-img-icon-blue {margin-bottom: 20px;}
@@ -793,7 +793,7 @@ span .five,.one,.two,.three,.four { display: block; position: absolute; width: 1
 @media (min-width: 768px) {
 .inkubator-opisanie h2{text-align: center;}
 
-.bg-blue-room {background-image: url(/wp-content/uploads/2018/03/BG-Otkryt-nabor.jpg) !important;}
+.bg-blue-room {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/BG-Otkryt-nabor.jpg) !important;}
 
 .inkubator-offer p {color: #fff; text-align: center; line-height: normal; font-weight: 300;}
 }
@@ -805,9 +805,9 @@ span .five,.one,.two,.three,.four { display: block; position: absolute; width: 1
 .inkubator-offer h3 {color: #eaff00}
 .inkubator-solid-text {text-align: center;}
 
-.inkubator-1 {background: url(/wp-content/uploads/2018/06/Inkubator-Icon-1.png) no-repeat;}
-.inkubator-2 {background: url(/wp-content/uploads/2018/06/Inkubator-Icon-2.png) no-repeat;}
-.inkubator-3 {background: url(/wp-content/uploads/2018/06/Inkubator-Icon-3.png) no-repeat;}
+.inkubator-1 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Inkubator-Icon-1.png) no-repeat;}
+.inkubator-2 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Inkubator-Icon-2.png) no-repeat;}
+.inkubator-3 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Inkubator-Icon-3.png) no-repeat;}
 
 .circle-inkubator-number img {
 max-width: 50%;}
@@ -853,22 +853,22 @@ max-width: 50%;}
 
 /*Контакты*/
 .managers {background-color: #f5f5f5;}
-.manager-photo.artem { line-height: 0; background: url(/wp-content/uploads/2018/12/artemiy-contacts.jpg) no-repeat;
+.manager-photo.artem { line-height: 0; background: url(https://levelup.ua/wp-content/uploads/2018/12/artemiy-contacts.jpg) no-repeat;
   background-size: 100% 200%; background-position: bottom center; }
-.manager-photo.artem:hover { background: url(/wp-content/uploads/2018/12/artemiy-contacts.jpg) no-repeat;
+.manager-photo.artem:hover { background: url(https://levelup.ua/wp-content/uploads/2018/12/artemiy-contacts.jpg) no-repeat;
   background-size: 100% 200%; background-position: top center; }
 
 .manager-photo.lesnyh { line-height: 0; background: url(https://levelup.ua/wp-content/uploads/2019/03/Anna_HR_full.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
 .manager-photo.lesnyh:hover { background: url(https://levelup.ua/wp-content/uploads/2019/03/Anna_HR_full.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
 
-.manager-photo.karpenko { line-height: 0; background: url(/wp-content/uploads/2018/12/karpenko-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
-.manager-photo.karpenko:hover { background: url(/wp-content/uploads/2018/12/karpenko-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
+.manager-photo.karpenko { line-height: 0; background: url(https://levelup.ua/wp-content/uploads/2018/12/karpenko-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
+.manager-photo.karpenko:hover { background: url(https://levelup.ua/wp-content/uploads/2018/12/karpenko-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
 
-.manager-photo.marina { line-height: 0; background: url(/wp-content/uploads/2019/07/photo5856027727746935124.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
-.manager-photo.marina:hover { background: url(/wp-content/uploads/2019/07/photo5856027727746935124.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
+.manager-photo.marina { line-height: 0; background: url(https://levelup.ua/wp-content/uploads/2019/07/photo5856027727746935124.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
+.manager-photo.marina:hover { background: url(https://levelup.ua/wp-content/uploads/2019/07/photo5856027727746935124.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
 
-.manager-photo.tatyna { line-height: 0; background: url(/wp-content/uploads/2018/12/tatyna-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
-.manager-photo.tatyna:hover { background: url(/wp-content/uploads/2018/12/tatyna-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
+.manager-photo.tatyna { line-height: 0; background: url(https://levelup.ua/wp-content/uploads/2018/12/tatyna-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: bottom center; }
+.manager-photo.tatyna:hover { background: url(https://levelup.ua/wp-content/uploads/2018/12/tatyna-contacts.jpg) no-repeat;background-size: 100% 200%; background-position: top center; }
 
 .profile .name {color: #000000;font-size: 24px;text-align: center;}
 .profile .position {text-align: center;font-size: 16px;color: #adadad; padding: 0 12px; }
@@ -879,7 +879,7 @@ max-width: 50%;}
 .img-social {display: inline-block;}
 .profile .social {text-align: center;display: inline-block;width: 100%;}
 .profile .position {padding-bottom: 10px;}
-.welcome {background: url(/wp-content/uploads/2018/05/Background-Light.jpg) }
+.welcome {background: url(https://levelup.ua/wp-content/uploads/2018/05/Background-Light.jpg) }
 
 @media (max-width: 768px) {
     .welcome .content {padding-bottom: 15px;display: grid;grid-template-columns: minmax(100px, 100px) 1fr;align-self: center;}
@@ -906,7 +906,7 @@ max-width: 50%;}
 .titleNew {padding-bottom: 30px;}
 
 .profile .description {min-height: 300px}
-.jobs {background-image: url(/wp-content/uploads/2018/02/BG-Blog-Header.jpg);}
+.jobs {background-image: url(https://levelup.ua/wp-content/uploads/2018/02/BG-Blog-Header.jpg);}
 
 /*.jobs h1 {font-size: 52px; color: #fff; text-align: center; font-weight: 300}*/
 .wantWork {color: #15acf2;font-size: 22px !important;line-height: 30px !important;}
@@ -919,7 +919,7 @@ max-width: 50%;}
 }
 
 /* 3d - Портфолио */
-.student-portfolios-3d { padding: 40px 15px !important }.student-portfolios-3d .wrapper-grid > div { background-size: 140%;background-position: center center; }.student-portfolios-3d .img1 {background: url(/wp-content/uploads/2018/10/Untitled-2.jpg);}.student-portfolios-3d .img2 {background: url(/wp-content/uploads/2018/10/Untitled-6.jpg);}.student-portfolios-3d .img3 {background: url(/wp-content/uploads/2018/10/Untitled-7.jpg);}.student-portfolios-3d .img4 {background: url(/wp-content/uploads/2018/10/Untitled-12.jpg);}.student-portfolios-3d .img5 {background: url(/wp-content/uploads/2018/10/Untitled-3.jpg);}.student-portfolios-3d .img6 {background: url(/wp-content/uploads/2018/10/Untitled-11.jpg);}.student-portfolios-3d .img7 {background: url(/wp-content/uploads/2018/10/Untitled-5.jpg);}.student-portfolios-3d .img8 {background: url(/wp-content/uploads/2018/10/Untitled-4.jpg);}.student-portfolios-3d .img9 {background: url(/wp-content/uploads/2018/10/Untitled-1.jpg);}.student-portfolios-3d .img10 {background: url(/wp-content/uploads/2018/10/Untitled-10.jpg);}.student-portfolios-3d .img11 {background: url(/wp-content/uploads/2018/10/Untitled-9.jpg);}.student-portfolios-3d .img12 {background: url(/wp-content/uploads/2018/10/Untitled-8.jpg);}
+.student-portfolios-3d { padding: 40px 15px !important }.student-portfolios-3d .wrapper-grid > div { background-size: 140%;background-position: center center; }.student-portfolios-3d .img1 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-2.jpg);}.student-portfolios-3d .img2 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-6.jpg);}.student-portfolios-3d .img3 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-7.jpg);}.student-portfolios-3d .img4 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-12.jpg);}.student-portfolios-3d .img5 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-3.jpg);}.student-portfolios-3d .img6 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-11.jpg);}.student-portfolios-3d .img7 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-5.jpg);}.student-portfolios-3d .img8 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-4.jpg);}.student-portfolios-3d .img9 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-1.jpg);}.student-portfolios-3d .img10 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-10.jpg);}.student-portfolios-3d .img11 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-9.jpg);}.student-portfolios-3d .img12 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-8.jpg);}
 @media (max-width: 768px) { }
 /* Конец - 3d - Портфолио */
 
@@ -967,7 +967,7 @@ max-width: 50%;}
 
 
 /*Слайдер Скидка для тех, кто умеет планировать*/
-.home-desktop-slide-one{    background-repeat: no-repeat;background-image: url(/wp-content/uploads/2019/01/Android_dev_1920x660.jpg);background-size: cover;background-position: center;display: flex !important;align-items: center;justify-content: center;position: relative;
+.home-desktop-slide-one{    background-repeat: no-repeat;background-image: url(https://levelup.ua/wp-content/uploads/2019/01/Android_dev_1920x660.jpg);background-size: cover;background-position: center;display: flex !important;align-items: center;justify-content: center;position: relative;
 }
 
 
@@ -980,7 +980,7 @@ max-width: 50%;}
 
 
 /*Мобилка*/
-.mobile-home-slide-one {background: url(/wp-content/uploads/2019/01/Android_dev_480x500.jpg);background-size: cover;background-position: center;}
+.mobile-home-slide-one {background: url(https://levelup.ua/wp-content/uploads/2019/01/Android_dev_480x500.jpg);background-size: cover;background-position: center;}
 
  .mobile-home-slide-one img { max-width: 350px !important; margin: 0 auto; padding: 30px; }
 
@@ -1258,7 +1258,7 @@ img.alignleft {margin: 3px;}
 }
 .odinochnyy-slider-prepodovatel .cd-section.prepod-course.course p{padding-bottom:5px;}
 /*It conferation*/
-.slider.it-conf {height: 80vh;background: url(/wp-content/uploads/2019/01/banner-bez-daty.jpg);background-size: auto auto;background-size: cover;background-position: center;}
+.slider.it-conf {height: 80vh;background: url(https://levelup.ua/wp-content/uploads/2019/01/banner-bez-daty.jpg);background-size: auto auto;background-size: cover;background-position: center;}
 
 .icons-inline-block {display: inline-block;}
 .icons-block {display: grid;grid-template-columns: minmax(40px, 40px) 1fr;text-align: left;margin: 0 auto;width: auto;}
@@ -1304,7 +1304,7 @@ img.alignleft {margin: 3px;}
 
 .partners h2 {text-align: center;color: #15acf2;}
 
-.whom-conf {background-image: url(/wp-content/uploads/2018/10/bf-conf-black.jpg?id=39114) !important;}
+.whom-conf {background-image: url(https://levelup.ua/wp-content/uploads/2018/10/bf-conf-black.jpg?id=39114) !important;}
 
 .whom-conf p {color: #fff}
 .icons-block {align-items: center;}
@@ -1326,13 +1326,13 @@ img.alignleft {margin: 3px;}
 
 .testing-skills .row { display: grid; grid-template-columns: 25% 42% 33%; align-items: center; }
   .testing-skills .row > h4:before { content: ""; font-family: FontAwesome; color: #fff;padding-right: 20px;
-background: url(/wp-content/uploads/2018/10/clock-1.svg); background-size: auto auto; width: 25px;
+background: url(https://levelup.ua/wp-content/uploads/2018/10/clock-1.svg); background-size: auto auto; width: 25px;
 height: 25px; position: absolute; overflow: visible; top: 0; left: 0; background-size: contain;top: 4px;}
  .testing-skills .row > h4 {position: relative;padding-left: 40px;}
  .testing-skills .row h4 {color: #fff}
   .testing-skills .row > div:nth-child(2) { display: grid; grid-template-columns: 112px 1fr; align-items: center }.testing-skills .row > div:nth-child(2) img {padding: 10px;}
   .testing-skills .row > div:nth-child(3) { position: relative; padding-left: 40px; }.testing-skills .row > div:nth-child(3):before { content: ""; font-family: FontAwesome; color: #fff;padding-right: 20px;
-background: url(/wp-content/uploads/2018/10/exam.svg); background-size: auto auto; width: 25px;
+background: url(https://levelup.ua/wp-content/uploads/2018/10/exam.svg); background-size: auto auto; width: 25px;
 height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; background-size: contain;top: 15px;}
 
 
@@ -1381,7 +1381,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 
 .rotate-photo {background-image: linear-gradient(to right, #09a1ff , #00ccff);}
 
-.why-do-you-arrive {background: url(/wp-content/uploads/2018/06/BG-Homepage-Yankula-Anton.jpg);}
+.why-do-you-arrive {background: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Homepage-Yankula-Anton.jpg);}
 .why-do-you-arrive {color: #fff;}
 .why-do-you-arrive .item {text-align: center;}
 
@@ -1399,7 +1399,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
     .testing-skills .row > div:nth-child(3)::before {left: 0 !important;}
 }
 
-.course.registration { background: url(/wp-content/uploads/2018/10/MAIN-Banner.jpg); }
+.course.registration { background: url(https://levelup.ua/wp-content/uploads/2018/10/MAIN-Banner.jpg); }
 .registration .item { display: grid;grid-template-columns: minmax(50px,50px) 1fr;align-self: center; grid-column-gap: 20px; }
 .registration .item img {grid-row: 1/3;}
 .registration .item {color: #fff;}
@@ -1413,7 +1413,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 .course.registration .container {text-align: center;}
 .registration .item {margin: 0 auto !important;width: 100%;padding-bottom: 10px;}
 .registration .row {display: inline-block; text-align: left;}
-.slider.it-conf {background: url(/wp-content/uploads/2018/10/banner-mob1.png);height: 450px;background-position: center !important;}
+.slider.it-conf {background: url(https://levelup.ua/wp-content/uploads/2018/10/banner-mob1.png);height: 450px;background-position: center !important;}
 .slider.it-conf .icons-block {display: none;}
 .whom-conf .icons-block {padding-bottom: 20px;}
 .whom-conf .icons-inline-block:last-child {padding-bottom: 0px !important}
@@ -1449,12 +1449,12 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 .company-rate {font-size: 20px; color: #121212;}
 
 
-.six-yaear-slide {background: url(/wp-content/uploads/2018/02/SLIDER-6-years-Level-Up.jpg); height: 70vh; background-size: cover; }
+.six-yaear-slide {background: url(https://levelup.ua/wp-content/uploads/2018/02/SLIDER-6-years-Level-Up.jpg); height: 70vh; background-size: cover; }
 .six-yaear-slide .row, .six-yaear-slide .container {height: 100%}
 .six-yaear-slide .row {display: grid;align-items: center;height: 100%;text-align: center; }
 .six-yaear-slide p {font-size: 25px;}
 .six-yaear-block-1 hr{margin: 20px auto;}
-.six-yaear-block-2 {background: url(/wp-content/uploads/2018/02/BG-Blue.jpg); background-size: cover; }
+.six-yaear-block-2 {background: url(https://levelup.ua/wp-content/uploads/2018/02/BG-Blue.jpg); background-size: cover; }
 .six-yaear-block-2 .content { display: grid;grid-template-columns: 1fr 1fr 1fr; text-align: center; grid-gap: 30px;color: #fff; font-weight: 300}
 .six-yaear-block-2.happy-row .content {grid-template-columns: 1fr 1fr 1fr 1fr;}
 
@@ -1478,7 +1478,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 .six-yaear-block-3 .six-descr {font-style:italic; color: #999999;}
 
 /*Блоок 4*/
-.six-yaear-block-4 {background: url(/wp-content/uploads/2018/02/BG-Why-this-course.jpg);background-size: cover;}
+.six-yaear-block-4 {background: url(https://levelup.ua/wp-content/uploads/2018/02/BG-Why-this-course.jpg);background-size: cover;}
 .six-yaear-block-4 .content {display: grid;grid-template-columns: 1fr 1fr 1fr;text-align: center;grid-gap: 30px;color: #4c4c4c; font-weight: 300}
 
 @media (max-width: 768px){
@@ -1502,7 +1502,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 /*Конец Блоок 5*/
 
 
-.seven-yaear-slide {background: url(/wp-content/uploads/2019/02/7_years_Level_UP_1920x660.jpg);height: 70vh;background-size: cover;}
+.seven-yaear-slide {background: url(https://levelup.ua/wp-content/uploads/2019/02/7_years_Level_UP_1920x660.jpg);height: 70vh;background-size: cover;}
 .seven-yaear-slide .container, .seven-yaear-slide .row {height: 100%;}
 
 
@@ -1513,7 +1513,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 
 @media (max-width: 768px){
   .seven-yaear-slide .container .img {text-align: center;}
-  .seven-yaear-slide {background: url(/wp-content/uploads/2019/02/7bg_Small.png);background-size: cover;}
+  .seven-yaear-slide {background: url(https://levelup.ua/wp-content/uploads/2019/02/7bg_Small.png);background-size: cover;}
   .seven-yaear-slide .empty {display: none;}
   .seven-yaear-slide .button {text-align: center;}
 }
@@ -1537,7 +1537,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 
 
 /*О КОМПАНИИ*/
-.about-seven {background: url(/wp-content/uploads/2019/02/bg-figure.png) !important;background-size: cover;background: no-repeat;background-position: center bottom !important;}
+.about-seven {background: url(https://levelup.ua/wp-content/uploads/2019/02/bg-figure.png) !important;background-size: cover;background: no-repeat;background-position: center bottom !important;}
 .about-seven p {padding-bottom: 10px;}
 .about-seven .content {background: #fff; padding: 20px; box-shadow: 10px 10px 33px 0px rgba(231,243,255,0.72);}
 
@@ -1566,21 +1566,21 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 .six-yaear-block-2.welcome-seven .items { color: #4c4c4c; }
 .six-yaear-block-2.welcome-seven .title-seven {font-weight: 500;}
 .timeline-block.seven {background: linear-gradient(to top, #40bbf5, #caecfc);background-size: contain;}
-.timeline-block.seven .container { background: url(/wp-content/uploads/2019/02/druchki-bg2.png) ;}
+.timeline-block.seven .container { background: url(https://levelup.ua/wp-content/uploads/2019/02/druchki-bg2.png) ;}
 .timeline-block.seven .timeline-heading { display: none; }
 
 /*НАШИ ПАРТНЕРЫ*/
-.our-parnters-seven { background: url(/wp-content/uploads/2019/02/druchki-bg3parnters.png); background-size: cover;background-repeat: no-repeat;}
+.our-parnters-seven { background: url(https://levelup.ua/wp-content/uploads/2019/02/druchki-bg3parnters.png); background-size: cover;background-repeat: no-repeat;}
 .our-parnters-seven .img { text-align: center; }
 
 
-.six-yaear-block-2.event-seven { background:url(/wp-content/uploads/2019/02/bg-bottom2-blue-rectage.png) !important; background-size: contain !important;}
+.six-yaear-block-2.event-seven { background:url(https://levelup.ua/wp-content/uploads/2019/02/bg-bottom2-blue-rectage.png) !important; background-size: contain !important;}
 .six-yaear-block-2.event-seven .items { color: #4c4c4c; }
 .button a {    background: #eaff00;border: 2px solid #eaff00;color: #4c4c4c;}
-   .button .sg-show-popup:after {    background-image: url(/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg);}
+   .button .sg-show-popup:after {    background-image: url(https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg);}
 .course.timeline-block.seven .theme {display: none;}
 
-.course.six-yaear-block-5.seven{background: url(/wp-content/uploads/2019/02/bg-registration.png);background-position-x: center;background-position-y: top;background-repeat: no-repeat;background-size:  cover}
+.course.six-yaear-block-5.seven{background: url(https://levelup.ua/wp-content/uploads/2019/02/bg-registration.png);background-position-x: center;background-position-y: top;background-repeat: no-repeat;background-size:  cover}
 
 
 .dtls-seven  {color: #eaff00 !important; font-weight: 500;}
@@ -1635,14 +1635,14 @@ position: relative;}
 
 .six-yaear-block-2.welcome-seven.happy-row .content {align-items: start;}
 .rotate-photo.desktop.seven, .conference.mobile.seven {display: none}
-.prepod-course .leshenko {background-image: url(/wp-content/uploads/2019/02/leshenko-246x246.png) !important;}
+.prepod-course .leshenko {background-image: url(https://levelup.ua/wp-content/uploads/2019/02/leshenko-246x246.png) !important;}
 
 .reg-offer {background-image: linear-gradient(to right, #08a2ff, #01c9fe);}
-.reg-offer > div {background: url(/wp-content/uploads/2019/02/patern-fluid.png);}
+.reg-offer > div {background: url(https://levelup.ua/wp-content/uploads/2019/02/patern-fluid.png);}
 
 .yellow-btn a:hover {box-shadow: 13px 13px 36.1px 1.9px rgba(234, 255, 0, 0.5) !important;}
 .yellow-btn a { background: #eaff00 !important; border: 2px solid #eaff00; color: #4c4c4c !important; position: relative; z-index: 99; }
-.yellow-btn a:after { background-image: url("/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg") !important; }
+.yellow-btn a:after { background-image: url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg") !important; }
 
 
 
@@ -1653,14 +1653,14 @@ position: relative;}
 /*--------page-id-4007--------*/
 
 /*Блок Покинули занятие?*/
-.leave-lesson { background: url(/wp-content/uploads/2019/02/bg_recording.svg) !important; min-height: 580px;background-position: center center !important;margin-top: -60px; background-repeat: no-repeat !important;}
+.leave-lesson { background: url(https://levelup.ua/wp-content/uploads/2019/02/bg_recording.svg) !important; min-height: 580px;background-position: center center !important;margin-top: -60px; background-repeat: no-repeat !important;}
 .recordTitle .white { color: #fff; }
 
 
 .leave-lesson .img { text-align: center; }
 .leave-lesson .img img { top: 80px; position: relative; max-width: 50%; }
 .leave-lesson .row-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
-.leave-lesson .pattern { background: url(/wp-content/uploads/2019/02/patter-loyality-videorecord.png);     background-repeat: no-repeat; background-size: 100% 100%;background-position: center center; width: 100%;height: 100%;}
+.leave-lesson .pattern { background: url(https://levelup.ua/wp-content/uploads/2019/02/patter-loyality-videorecord.png);     background-repeat: no-repeat; background-size: 100% 100%;background-position: center center; width: 100%;height: 100%;}
 
 
 
@@ -1671,12 +1671,12 @@ position: relative;}
 
 @media (max-width: 768px) {
 .recordTitle, .recordDescr { text-align: left; }
-.leave-lesson .container { background: url(/wp-content/uploads/2019/02/videocamera.png);background-repeat: no-repeat;background-size: contain;background-position: 103% 0 !important; margin: auto; }
+.leave-lesson .container { background: url(https://levelup.ua/wp-content/uploads/2019/02/videocamera.png);background-repeat: no-repeat;background-size: contain;background-position: 103% 0 !important; margin: auto; }
 .leave-lesson .row-grid { grid-template-columns: 1fr 100px; }
 .leave-lesson .img {display: none;}
 .leave-lesson {margin-top: -15px;}
 .leave-lesson .pattern {margin: auto;}
-.leave-lesson {   background: url(/wp-content/uploads/2019/02/bg_recording.svg) !important;   background-size: cover !important;  background-repeat: no-repeat !important;   background-position: center !important;}
+.leave-lesson {   background: url(https://levelup.ua/wp-content/uploads/2019/02/bg_recording.svg) !important;   background-size: cover !important;  background-repeat: no-repeat !important;   background-position: center !important;}
 }
 
 
@@ -1730,7 +1730,7 @@ position: relative;}
   .who-are-need-a-course .list > div { top: 45px; position: relative; }
 }
 
-.who-are-need-a-course .list .img {background: url(/wp-content/uploads/2019/02/chek_colors.svg);background-position-x: 0%;background-position-y: 0%;background-size: auto;width: 64px;height: 64px;background-size: 64px;background-position: 0 -64px;position: relative;}
+.who-are-need-a-course .list .img {background: url(https://levelup.ua/wp-content/uploads/2019/02/chek_colors.svg);background-position-x: 0%;background-position-y: 0%;background-size: auto;width: 64px;height: 64px;background-size: 64px;background-position: 0 -64px;position: relative;}
 /*Кому может быть полезен этот курс?*/
 
 /*Баннер*/
@@ -1740,10 +1740,10 @@ position: relative;}
 .page-id-4007 .course-way {padding-top: 25px;}
 .page-id-4007 .start_slide { text-align: left;color: #383838;text-shadow: none; }.page-id-4007 .btn-blue   { padding: 0 !important; }
 .page-id-4007 .btn-blue a:hover {     background: #15acf2;box-shadow: 26px 15px 59px 0px rgba(21, 172, 242, 0.7);border: 2px solid #15acf2 !important; }
-.page-id-4007 .btn-blue a  {line-height: 34px;transition: box-shadow 0.3s ease-in-out;letter-spacing: 0px;color: #fff !important;background: none;position: relative;font-size: 18px;font-weight: 300;border-radius: 50px;background: #15acf2;border: 2px solid #15acf2;padding: 8px 58px 8px 32px;display: inline-block;}  .page-id-4007 .btn-blue a:hover:after {background-image: url(/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg);}
+.page-id-4007 .btn-blue a  {line-height: 34px;transition: box-shadow 0.3s ease-in-out;letter-spacing: 0px;color: #fff !important;background: none;position: relative;font-size: 18px;font-weight: 300;border-radius: 50px;background: #15acf2;border: 2px solid #15acf2;padding: 8px 58px 8px 32px;display: inline-block;}  .page-id-4007 .btn-blue a:hover:after {background-image: url(https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg);}
 .page-id-4007 section.slide .container { display: grid; grid-template-columns: 1fr 1fr;     height: 100%;align-items: center;}
 .page-id-4007 section.slide .container img {top: 200px;position: relative;}
-.page-id-4007 section.slide  {    background: url(/wp-content/uploads/2019/02/icons_on_web.svg);background-size: 80%;background-repeat: no-repeat;background-position-x: right;background-position-y: -200px;    height: 80vh;}
+.page-id-4007 section.slide  {    background: url(https://levelup.ua/wp-content/uploads/2019/02/icons_on_web.svg);background-size: 80%;background-repeat: no-repeat;background-position-x: right;background-position-y: -200px;    height: 80vh;}
 .page-id-4007 .about-courses .grid-section {display: grid;grid-template-columns: 1fr 1fr;grid-row-gap: 40px;}
 .page-id-4007 .about-courses h3 { font-weight: 500 }.page-id-4007 .about-courses h3 span { color: #15acf2; }
 .page-id-4007  .about-courses {margin-top: -100px;}
@@ -1773,9 +1773,9 @@ position: relative;}
 .imm-module.java .grid-item .circle .t-1 { font-size: 28px;}
 
 .imm-module .grid-item .circle .t-2 {color: #fff;line-height: normal;font-size: 20px;}
-.imm-module {background: url(/wp-content/uploads/2019/02/bg-blue-shadow.jpg);background-repeat: no-repeat; background-position-y: bottom;background-size: contain; background-repeat: repeat-x;}
+.imm-module {background: url(https://levelup.ua/wp-content/uploads/2019/02/bg-blue-shadow.jpg);background-repeat: no-repeat; background-position-y: bottom;background-size: contain; background-repeat: repeat-x;}
 .imm-module .grid-item .circle {position: relative;}
-.imm-module .grid-item .circle:after { width: 100%; position: absolute; background: url(/wp-content/uploads/2019/02/bottom-shadow.png); content: ""; height: 50px;bottom: -50px; background-repeat: no-repeat;background-position: center center; background-size: 100%;}
+.imm-module .grid-item .circle:after { width: 100%; position: absolute; background: url(https://levelup.ua/wp-content/uploads/2019/02/bottom-shadow.png); content: ""; height: 50px;bottom: -50px; background-repeat: no-repeat;background-position: center center; background-size: 100%;}
 .reg-offer { margin-top: 0px; }
 
 
@@ -1819,10 +1819,10 @@ position: relative;}
 .page-id-4007 .result-of-the-course .list-img-icon-4::before ,  .page-id-4007 .result-of-the-course .list-img-icon-8::before { content: none !important; }
 .page-id-4007 .result-of-the-course .list-group-item::before {content: '';height: 100%;width: 1px;position: absolute;background: #15acf2;top: 12px;left: 25px;}
 
-.module-icon-1::after {background: url(/wp-content/uploads/2019/02/module.png) !important;width: 101px;height: 101px;content: "";margin-bottom: 40px;position: absolute;left: -27px;}
+.module-icon-1::after {background: url(https://levelup.ua/wp-content/uploads/2019/02/module.png) !important;width: 101px;height: 101px;content: "";margin-bottom: 40px;position: absolute;left: -27px;}
 .module-icon-1::before, .module-icon-2::before {content: '';height: 100%;width: 1px;position: absolute;background: #15acf2;top: 12px;left: 25px;}
 .module-icon-1, .module-icon-2 {position: relative;background: none !important;border: none;padding-left: 120px;justify-content: left !important;display: grid;text-align: left;min-height: 65px;}
-.module-icon-2::after  {background: url(/wp-content/uploads/2019/02/module-2.png) !important; width: 101px; height: 101px;
+.module-icon-2::after  {background: url(https://levelup.ua/wp-content/uploads/2019/02/module-2.png) !important; width: 101px; height: 101px;
   content: ""; position: absolute; left: -27px;margin-bottom: 40px;}
 .module-icon-1, .module-icon-2 {height: 101px;}
 .module-icon-1 > div, .module-icon-2 > div {color: #15acf2;font-size: 30px;font-weight: 500;top: -10px;position: relative;}
@@ -1853,8 +1853,8 @@ position: relative;}
 .course_program-title h3 span {font-weight: 300; font-size: 22px;display: block;line-height: 20px;}
 
 .course_program-title::before {content: "";width: 60px;height: 60px;position: absolute;left: -5px;bottom: -5px;}
-.page-id-4007 .course_program-title.smm-plus::before {background: url(/wp-content/uploads/2019/02/circle-prog-2.png)}
-.page-id-4007 .course_program-title.seo-plus::before {background: url(/wp-content/uploads/2019/02/circle-prog-1.png)}
+.page-id-4007 .course_program-title.smm-plus::before {background: url(https://levelup.ua/wp-content/uploads/2019/02/circle-prog-2.png)}
+.page-id-4007 .course_program-title.seo-plus::before {background: url(https://levelup.ua/wp-content/uploads/2019/02/circle-prog-1.png)}
 
 .course_program-title {position: relative;}
 .course_program .yellow-btn { text-align: center; margin: 0 auto; }
@@ -1866,16 +1866,16 @@ position: relative;}
 .page-id-4007 .course {padding: 60px 0;}
 .page-id-4007 .course h2 {padding-bottom: 50px;}
 .page-id-4007 .about-courses .empty-grid img {position: relative;}
-.prepod-carusel .ptr-1 {background: url(/wp-content/uploads/2019/02/Lines_pattern-1.svg);background-size: auto;position: absolute;height: 30%;width: 30%;bottom: 0;left: 0;z-index: 0;background-size: contain;background-repeat: no-repeat;}
-.prepod-carusel .ptr-2 {background: url(/wp-content/uploads/2019/02/Lines_pattern2-1.svg);height: 30%;width: 10%;background-repeat: no-repeat;top: 0;right: 0;position: absolute;}
+.prepod-carusel .ptr-1 {background: url(https://levelup.ua/wp-content/uploads/2019/02/Lines_pattern-1.svg);background-size: auto;position: absolute;height: 30%;width: 30%;bottom: 0;left: 0;z-index: 0;background-size: contain;background-repeat: no-repeat;}
+.prepod-carusel .ptr-2 {background: url(https://levelup.ua/wp-content/uploads/2019/02/Lines_pattern2-1.svg);height: 30%;width: 10%;background-repeat: no-repeat;top: 0;right: 0;position: absolute;}
 .prepod-carusel {position: relative;}
 
 .instruments_section .ptr-1 {
-background: url(/wp-content/uploads/2019/02/Lines_pattern-1.svg);
+background: url(https://levelup.ua/wp-content/uploads/2019/02/Lines_pattern-1.svg);
 background-position-x: 0%;background-position-y: 0%;background-repeat: repeat;background-size: auto;
 background-size: 100px;background-position-x: left;background-repeat: no-repeat;background-position-y: bottom;}
 
-.instruments_section .ptr-2 {background: url(/wp-content/uploads/2019/02/Lines_pattern2-1.svg);background-repeat: no-repeat;background-size: 100px;background-position-x: right;}
+.instruments_section .ptr-2 {background: url(https://levelup.ua/wp-content/uploads/2019/02/Lines_pattern2-1.svg);background-repeat: no-repeat;background-size: 100px;background-position-x: right;}
 
 section.slide .start_slide { font-weight: 600 !important; }
 
@@ -1891,11 +1891,11 @@ section.slide .start_slide { font-weight: 600 !important; }
 
 
 
-.page-id-4007 section.slide .pattern { background: url(/wp-content/uploads/2019/02/patter-banner.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
+.page-id-4007 section.slide .pattern { background: url(https://levelup.ua/wp-content/uploads/2019/02/patter-banner.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
 /*.page-id-4007 .course_details {background: #383838}*/
-.course_details .pattern { background: url(/wp-content/uploads/2019/02/patter-dtls.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
-.loyality .pattern { background: url(/wp-content/uploads/2019/02/patter-loyality.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
-.course_program .pattern { background: url(/wp-content/uploads/2019/02/patter-programs.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
+.course_details .pattern { background: url(https://levelup.ua/wp-content/uploads/2019/02/patter-dtls.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
+.loyality .pattern { background: url(https://levelup.ua/wp-content/uploads/2019/02/patter-loyality.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
+.course_program .pattern { background: url(https://levelup.ua/wp-content/uploads/2019/02/patter-programs.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
 
 .course_program .card .mb-0:hover {background-image: linear-gradient(to right, #15acf200, #09cbffb3) !important; border-radius: 3px;}
 .page-id-4007 span.name-course { display: inline-block; }
@@ -1959,10 +1959,10 @@ section.slide .start_slide { font-weight: 600 !important; }
 
 #footer.site-footer {overflow: hidden !important;}
 
-.icon-youtube img{background: url(/wp-content/uploads/2019/02/youtube.svg);background-repeat: no-repeat;background-size: 100% 200%;}
-.icon-instagram img{background: url(/wp-content/uploads/2019/02/insta.svg);background-repeat: no-repeat;background-size: 100% 200%;}
-.icon-facebook img{background: url(/wp-content/uploads/2019/02/facebook.svg);background-repeat: no-repeat;background-size: 100% 200%;}
-.icon-telegram img{background: url(/wp-content/uploads/2019/02/telegramm.svg);background-repeat: no-repeat;background-size: 100% 200%;}
+.icon-youtube img{background: url(https://levelup.ua/wp-content/uploads/2019/02/youtube.svg);background-repeat: no-repeat;background-size: 100% 200%;}
+.icon-instagram img{background: url(https://levelup.ua/wp-content/uploads/2019/02/insta.svg);background-repeat: no-repeat;background-size: 100% 200%;}
+.icon-facebook img{background: url(https://levelup.ua/wp-content/uploads/2019/02/facebook.svg);background-repeat: no-repeat;background-size: 100% 200%;}
+.icon-telegram img{background: url(https://levelup.ua/wp-content/uploads/2019/02/telegramm.svg);background-repeat: no-repeat;background-size: 100% 200%;}
 
 
 .icon-youtube img:hover{background-position-y: 100%;}
@@ -2041,7 +2041,7 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
 .page-id-4007 .list-group.first-list { transform: scale(1.08);background: #1d2027; }
 
 
-   .postid-4207 .stb {display: grid; grid-template-columns: 1fr 1fr;background: url(/wp-content/uploads/2019/02/Снимок-экрана-2019-02-27-в-15.12.01.png);
+   .postid-4207 .stb {display: grid; grid-template-columns: 1fr 1fr;background: url(https://levelup.ua/wp-content/uploads/2019/02/Снимок-экрана-2019-02-27-в-15.12.01.png);
     background-position-x: 0%;background-repeat: repeat;background-size: auto;background-repeat: no-repeat;background-position-x: center;color: #e4e4e4;padding: 40px;
     background-size: cover;margin: 20px 0;font-weight: 300;}
 
@@ -2072,8 +2072,8 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
 }
 
 .study-levelup-slide {background: none;}
-.study-levelup#advantages {background: url(/wp-content/uploads/2019/02/intership_bg_1.svg) 1% 50% no-repeat,
-  url(/wp-content/uploads/2019/02/intership_bg_parts_2.svg) 100% 50% no-repeat;background-size: 112px, 112px;}
+.study-levelup#advantages {background: url(https://levelup.ua/wp-content/uploads/2019/02/intership_bg_1.svg) 1% 50% no-repeat,
+  url(https://levelup.ua/wp-content/uploads/2019/02/intership_bg_parts_2.svg) 100% 50% no-repeat;background-size: 112px, 112px;}
 
 #outputText{position: absolute;top: 15%;left: 10%;font-size: 130px;font-weight: 900;line-height: 75px;opacity: 0.05;max-width: 300px;}
 
@@ -2099,7 +2099,7 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
 .page-id-483 .reg-offer .container > .img, .page-id-467 .reg-offer .container > .img, .page-id-470 .reg-offer .container > .img {grid-column: 2;}
 
 
-.cd-section.prepod-carusel {background: url(/wp-content/uploads/2019/02/Lines_pattern-1.svg) -10% 100% no-repeat, url(/wp-content/uploads/2019/02/Lines_pattern2-1.svg) 110% 0% no-repeat; background-size: 35% 30%;}
+.cd-section.prepod-carusel {background: url(https://levelup.ua/wp-content/uploads/2019/02/Lines_pattern-1.svg) -10% 100% no-repeat, url(https://levelup.ua/wp-content/uploads/2019/02/Lines_pattern2-1.svg) 110% 0% no-repeat; background-size: 35% 30%;}
 
 
 .card-header:hover { background: none !important; }
@@ -2112,8 +2112,8 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
 
 /*Java*/
 .page-id-317 #course-result .course h2, .page-id-380 #course-result .course h2 { margin-bottom: 50px; }
-.page-id-317 .course_program-title.smm-plus::before, .page-id-380 .course_program-title.smm-plus::before {background: url(/wp-content/uploads/2019/02/circle-prog-2.png)}
-.page-id-317 .course_program-title.seo-plus::before, .page-id-380 .course_program-title.seo-plus::before {background: url(/wp-content/uploads/2019/02/circle-prog-1.png)}
+.page-id-317 .course_program-title.smm-plus::before, .page-id-380 .course_program-title.smm-plus::before {background: url(https://levelup.ua/wp-content/uploads/2019/02/circle-prog-2.png)}
+.page-id-317 .course_program-title.seo-plus::before, .page-id-380 .course_program-title.seo-plus::before {background: url(https://levelup.ua/wp-content/uploads/2019/02/circle-prog-1.png)}
 .page-id-317 .course_details .row, .page-id-380 .course_details .row { width: 80%; margin: 0 auto;}
 
 
@@ -2169,7 +2169,7 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
 .slick-slide img {margin: 0 auto; }
 
 
-#course_details { background: #2e3035 url(/wp-content/uploads/2019/02/patter-dtls.png); background-position: left; color: #fff; }
+#course_details { background: #2e3035 url(https://levelup.ua/wp-content/uploads/2019/02/patter-dtls.png); background-position: left; color: #fff; }
 #course_details.one-column .content { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 30px; text-align: center; }
 #course_details.one-column .content img { width: 90px; display: block; margin: 0 auto; }
 #course_details.one-column .content h5 { padding: 22px 0 10px 0; font-size: 20px; color: #999999; margin: 0; }
