@@ -40,12 +40,12 @@
 
 </div><!-- .site -->
 
-<div itemscope itemtype="http://schema.org/Organization">
+<div style="display: none;" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Учебный IT-центр Level Up" />
     <link itemprop="url" href="https://levelup.ua" />
     <link itemprop="logo" href="https://levelup.ua/wp-content/uploads/2019/07/lvlup_logo_bez_fona.png" />
     <meta itemprop="description" content="Level UP - качественное и доступное IT-образование. Преподаватели-практики, актуальная программа обучения, регулярные мастер-классы. Практическое обучение и индивидуальный подход к студентам. Обучение на IT-курсах проходит на высоком уровне. Получите перспективную профессию и станьте на уровень выше! ☎ (096) 084-25-13" />
-    <link itemprop="image" src="https://levelup.ua/wp-content/uploads/2019/07/Snymok-krana-2019-07-23-v-10.42.51.png" />
+    <link itemprop="image" href="https://levelup.ua/wp-content/uploads/2019/07/Snymok-krana-2019-07-23-v-10.42.51.png" />
 <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
     <meta itemprop="addressLocality" content="Днепр, Украина" />
     <meta itemprop="postalCode" content="49101" />
