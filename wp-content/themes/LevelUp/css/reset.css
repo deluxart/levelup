@@ -19,6 +19,8 @@ input:-webkit-autofill {
   -webkit-animation-fill-mode: both;
 }
 
+.page-template-default .post-thumbnail { display: none; }
+
 .logo_desktop { display: inline-block; }
 .logo_mobile { display: none; }
 
