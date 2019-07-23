@@ -40,6 +40,37 @@
 
 </div><!-- .site -->
 
+<div itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Учебный IT-центр Level Up" />
+    <link itemprop="url" href="https://levelup.ua" />
+    <link itemprop="logo" href="https://levelup.ua/wp-content/themes/LevelUp/img/logo.svg" />
+    <meta itemprop="description" content="Level UP - качественное и доступное IT-образование. Преподаватели-практики, актуальная программа обучения, регулярные мастер-классы. Практическое обучение и индивидуальный подход к студентам. Обучение на IT-курсах проходит на высоком уровне. Получите перспективную профессию и станьте на уровень выше! ☎ (096) 084-25-13" />
+
+<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    <meta itemprop="addressLocality" content="Днепр, Украина" />
+    <meta itemprop="postalCode" content="49101" />
+    <meta itemprop="streetAddress" content="ул. Троицкая, 21Г." />
+</div>
+
+
+    <meta itemprop="telephone" content="+38 (099) 731 83 85" />
+    <meta itemprop="telephone" content="+38 (096) 084 25 13" />
+    <meta itemprop="email" content="info@levelup.ua" />
+
+
+<link itemprop="sameAs" href="https://www.instagram.com/levelup_ua/" />
+<link itemprop="sameAs" href="https://www.youtube.com/channel/UCDV6GGLn2dZHOiF9Bs3YGRQ" />
+<link itemprop="sameAs" href="https://www.facebook.com/levelupdpua/" />
+<link itemprop="sameAs" href="https://t.me/levelupit" />
+
+<form itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    <meta itemprop="target" content="https://levelup.ua/?s={search_term_string}"/>
+    <input itemprop="query-input" type="text" required name="search_term_string"/>
+</form>
+</div>
+
+
+
 
 <div class="search-open-bg"></div>
 <div id="search-modal" class="search-open">
