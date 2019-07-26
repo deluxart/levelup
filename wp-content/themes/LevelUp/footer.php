@@ -84,6 +84,44 @@
     </div>
     </div>
 </div>
+
+
+
+
+
+
+<!-- Модальное окно мероприятия -->
+<div class="event_modal">
+	<div class="cont">
+		<div><img src="/wp-content/uploads/2019/07/event_image.png" alt="Open Day in Level Up"></div>
+		<div class="content">
+			<h4>Реєструйтеся на <a href="https://levelup.ua/open-day-in-level-up">Open Day in Level Up</a> <span>і приходьте знайомитися:</span></h4>
+			<div class="date-block">
+				<div><strong>10 серпня 10:00</strong>вул. Троїцька, 21Г</div>
+				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
+			</div>
+			<div class="feed-form">
+				<?php echo do_shortcode('[contact-form-7 id="6071" title="Open Day - Level Up"]'); ?>
+			</div>
+		</div>
+	</div>
+
+	<div id="setCookie" class="close-icon">
+		<img src="https://levelup.ua/wp-content/uploads/2019/07/cancel-1.svg" alt="">
+	</div>
+</div>
+<div class="event_modal-bg"></div>
+<!-- Модальное окно мероприятия -->
+
+
+
+
+
+
+
+
+
+
         <?php wp_footer(); ?>
         <?php echo $options[jivosite_code];?>
         <?php echo $options[binotel_code];?>
@@ -97,6 +135,7 @@
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/slick/slick.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slick_slides.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.cookie.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.spincrement.min.js"></script>
         <script type="text/javascript" scr="<?php echo get_template_directory_uri(); ?>/js/video.min.js"></script>
         <script type="text/javascript" scr="<?php echo get_template_directory_uri(); ?>/js/videojs-background.js"></script>
