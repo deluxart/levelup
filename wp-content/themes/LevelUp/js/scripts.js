@@ -819,3 +819,39 @@ jQuery('.saleRow .saleBottom').each(function(i) {
     }
 });
 // for pages
+
+
+
+
+
+
+
+jQuery(document).ready(function(){
+    jQuery(".event_modal .close-icon, .event_modal-bg").click(function () {
+    jQuery.cookie("popup", "", { expires:0, path: '/' });
+
+            jQuery('.event_modal').removeClass("open");
+            setTimeout(function(){
+                 jQuery('.event_modal').hide();
+            }, 200);
+            jQuery('.event_modal-bg').removeClass("open");
+            jQuery('.event_modal-bg').css({display: 'none'});
+
+    });
+
+    if ( jQuery.cookie("popup") == null )
+    {
+    setTimeout(function(){
+
+            jQuery('.event_modal').show();
+            setTimeout(function(){
+                 jQuery('.event_modal').addClass("open");
+            }, 200);
+            jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
+
+    }, 20000)
+    }
+    else {
+      jQuery(".event_modal").hide();
+    }
+    });
