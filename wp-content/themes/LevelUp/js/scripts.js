@@ -849,7 +849,7 @@ jQuery(document).ready(function(){
             }, 200);
             jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
 
-    }, 20000)
+    }, 12000)
     }
     else {
       jQuery(".event_modal").hide();
