@@ -29,7 +29,7 @@ input:-webkit-autofill {
 	box-shadow: 1.854px 5.706px 76.95px 18.05px rgba(0, 0, 0, 0.32); border-radius: 10px; position: relative; padding: 0px 55px; max-width: 900px; margin: 0 auto;
 	z-index: 9999999; position: fixed; top: -50%; left: 50%; transform: translate(-50%,-50%); width: 100%; transition-duration: 500ms; display: none;
 }
-.event_modal.open { top: 50%; transition-duration: 500ms; }
+.event_modal.open { top: 50%; transition-duration: 500ms; overflow: hidden; }
 .event_modal .cont { display: grid; grid-template-columns: auto 1fr; align-items: center;  grid-column-gap: 40px; }
 .event_modal .cont > div > h4 { letter-spacing: normal; font-size: 18px; color: #fff; line-height: normal; margin-bottom: 15px; }
 .event_modal .cont > div > h4 span { display: inline-block; }
@@ -64,12 +64,14 @@ input:-webkit-autofill {
     right: 0; padding: 30px; top: 0; z-index: -1; -webkit-transition: opacity 300ms; transition: opacity 300ms; z-index: 99; display: none; }
 
 .event_modal span.wpcf7-not-valid-tip { margin: 0; top: 0; position: absolute; right: 15px; color: #fff; font-size: 12px; }
+.event_modal div.wpcf7-mail-sent-ok {display: block; background: #398f14f0; color: #fff; bottom: -52px; margin: 0; width: 100%; padding: 14px 15px; font-size: 11px; border: 0; }
 
 @media (max-width: 992px) {
 	.event_modal { width: calc(100% - 60px); }
 	.event_modal .cont { grid-template-columns: 1fr; }
   /* .event_modal .cont > div > img { max-width: 200px; margin-top: 30px; } */
 	.event_modal .cont > div > img { display: none; }
+  .event_modal div.wpcf7-mail-sent-ok { display: block; background: #398f14f0; color: #fff; bottom: -50px; margin: 0 -55px; width: calc(100% - -110px); padding: 14px 15px; font-size: 16px; border: 0; }
 
 }
 
@@ -80,6 +82,8 @@ input:-webkit-autofill {
   .event_modal .cont > div.content { padding: 30px 0; }
   .event_modal { padding: 0 35px; }
   .event_modal .cont > div > h4 { font-size: 16px; }
+  .event_modal div.wpcf7-mail-sent-ok { bottom: -30px; margin: 0 -35px; width: calc(100% - -70px); padding: 20px 15px; }
+
 }
 /*New desing modal for Open Day*/
 
