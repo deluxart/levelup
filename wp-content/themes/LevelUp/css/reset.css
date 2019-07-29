@@ -64,14 +64,14 @@ input:-webkit-autofill {
     right: 0; padding: 30px; top: 0; z-index: -1; -webkit-transition: opacity 300ms; transition: opacity 300ms; z-index: 99; display: none; }
 
 .event_modal span.wpcf7-not-valid-tip { margin: 0; top: 0; position: absolute; right: 15px; color: #fff; font-size: 12px; }
-.event_modal div.wpcf7-mail-sent-ok {display: block; background: #398f14f0; color: #fff; bottom: -52px; margin: 0; width: 100%; padding: 14px 15px; font-size: 11px; border: 0; }
+.event_modal div.wpcf7-mail-sent-ok {display: block; background: #5944e84f; color: #fff; bottom: -52px; margin: 0; width: 100%; padding: 14px 15px; font-size: 11px; border: 0; border-radius: 15px 15px 0 0; }
 
 @media (max-width: 992px) {
 	.event_modal { width: calc(100% - 60px); }
 	.event_modal .cont { grid-template-columns: 1fr; }
   /* .event_modal .cont > div > img { max-width: 200px; margin-top: 30px; } */
 	.event_modal .cont > div > img { display: none; }
-  .event_modal div.wpcf7-mail-sent-ok { display: block; background: #398f14f0; color: #fff; bottom: -50px; margin: 0 -55px; width: calc(100% - -110px); padding: 14px 15px; font-size: 16px; border: 0; }
+  .event_modal div.wpcf7-mail-sent-ok { display: block; background: #398f14f0; color: #fff; bottom: -50px; margin: 0 -55px; width: calc(100% - -110px); padding: 14px 15px; font-size: 16px; border: 0; border-radius: 0; }
 
 }
 
