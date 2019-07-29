@@ -83,6 +83,7 @@ input:-webkit-autofill {
   .event_modal { padding: 0 35px; }
   .event_modal .cont > div > h4 { font-size: 16px; }
   .event_modal div.wpcf7-mail-sent-ok { bottom: -30px; margin: 0 -35px; width: calc(100% - -70px); padding: 20px 15px; }
+  .event_modal .cont > div > div.date-block { display: block; }
 
 }
 /*New desing modal for Open Day*/
