@@ -498,7 +498,7 @@ background-size: cover !important;
 
 }
 @media (max-width:768px){
-	.text_course_2{font-size: 25px; line-height: 25px!important;display: block;}}
+	.text_course_2{font-size: 25px !important; line-height: 25px!important;display: block;}}
 
 .text_course_3{
 	text-align: left;
