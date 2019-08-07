@@ -230,3 +230,10 @@ p.theme:before {content: "\f0f6"; font-family: FontAwesome;padding-right: 8px;co
 .block-icon-lab i {font-size: 48px;}
 
 
+@media (max-width: 768px) {
+    h1 { font-size: 36px; font-family: 'Montserrat'; line-height: normal;; font-weight: 400; }
+    h2 { font-size: 30px; font-family: 'Montserrat'; line-height: 34px; font-weight: 500; }
+    h3 { font-size: 25px; font-weight: 400; font-family: 'Montserrat'; line-height: 30px; }
+    h4 { font-size: 22px; font-weight: 500; font-family: 'Montserrat'; line-height: 26px; }
+    h5 { font-size: 12px; font-weight: 400; font-family: 'Montserrat'; line-height: 18px; }
+  }

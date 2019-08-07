@@ -12,8 +12,7 @@ h6 { font-size: 14px; font-weight: 300; font-family: 'Montserrat'; line-height: 
 a { color: #15acf2; }
 .h100 { height: 100%; }
 
-@media (max-width: 768px) {h1 { font-size: 36px; font-family: 'Montserrat'; line-height: normal;; font-weight: 400; }h2 { font-size: 30px; font-family: 'Montserrat'; line-height: 34px; font-weight: 500; }h3 { font-size: 25px; font-weight: 400; font-family: 'Montserrat'; line-height: 30px; }h4 { font-size: 22px; font-weight: 500; font-family: 'Montserrat'; line-height: 26px; }h5 { font-size: 12px; font-weight: 400; font-family: 'Montserrat'; line-height: 18px; }
-}
+
 body.page-template-page-news-blog { background: #ececec; }
 body.page-template-page-news-blog .open-courses { padding: 0 !important; }
 
