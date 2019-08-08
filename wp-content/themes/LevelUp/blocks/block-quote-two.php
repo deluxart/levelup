@@ -2,7 +2,7 @@
 	<?php block_field( 'content' ); ?>
 </div>
 <?php
-if ( block_value( ' font-italic' ) ) {
+if ( block_value( 'font-italic' ) ) {
 	echo "<style>.block-quote-two { font-style: italic !important; }</style>";
 }
 ?>
