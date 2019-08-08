@@ -102,6 +102,21 @@ div[class^="wp-block-block-lab-"] .block-form { background: #fff; border: 5px so
 .block-quote-lab { padding-left: 1em; }
 .block-quote-lab hr { margin: 0.5em 0; border-top: 1px solid #f3f3f3; }
 
+.block-quote-two { position: relative; }
+.block-quote-two::before {
+    border-top: 1px solid #15acf2;
+    width: 30%;
+    content: '';
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.block-quote-two::after {
+    border-top: 1px solid #15acf2;
+    width: 30%;
+    content: '';
+    display: inline-block;
+}
 
 .single-post .entry-content > p, .editor-block-list__layout .editor-block-list__block { margin-bottom: 15px; }
 
