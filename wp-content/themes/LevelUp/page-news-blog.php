@@ -1,10 +1,15 @@
 <?php
 /*
-Template Name: Новости и блог
+Template Name: Страница всех новостей
 */
 
 get_header(); ?>
-		<main id="main" class="site-main" role="main" style="width: 100%;">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+<div class="posts_page">
+	<div class="container">
 
 		<?php
 		// Start the loop.
@@ -16,6 +21,28 @@ get_header(); ?>
 		// End the loop.
 		endwhile;
 		?>
+
+	<div class="content">
+
+		<div class="news">
+			<?php echo do_shortcode('[the_grid name="Last News"]'); ?>
+		</div>
+		<div class="sidebar">
+
+
+<?php
+	if ( function_exists('dynamic_sidebar') )
+		dynamic_sidebar('news-sidebar');
+?>
+		</div>
+
+
+	</div>
+</div>
+</div>
+
+
 		</main><!-- .site-main -->
+	</div>
 
 <?php get_footer(); ?>
