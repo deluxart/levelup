@@ -8,7 +8,6 @@
  */
 
 get_header(); ?>
-<div class="open-courses course"><div class="col tc"><h1>Новости и мероприятия</h1></div></div>
 
 <main id="main" class="site-main full_post" role="main">
 <div class="container">
