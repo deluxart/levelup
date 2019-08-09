@@ -8,11 +8,14 @@
  */
 
 get_header(); ?>
-<main id="main" class="site-main" role="main">
+
+<main id="main" class="site-main full_post" role="main">
 <div class="container">
 	<div id="content-page">
 
-	<div id="content-news" class="course content-area">
+
+
+	<div id="content-news" class="course content-area 222">
 
 		<?php
 		// Start the loop.
@@ -32,11 +35,11 @@ get_header(); ?>
 
 //			// Previous/next post navigation.
 //			the_post_navigation( array(
-//				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'LevelUp' ) . '</span> ' .
-//					'<span class="screen-reader-text">' . __( 'Next post:', 'LevelUp' ) . '</span> ' .
+//				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'Smart' ) . '</span> ' .
+//					'<span class="screen-reader-text">' . __( 'Next post:', 'Smart' ) . '</span> ' .
 //					'<span class="post-title">%title</span>',
-//				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'LevelUp' ) . '</span> ' .
-//					'<span class="screen-reader-text">' . __( 'Previous post:', 'LevelUp' ) . '</span> ' .
+//				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'Smart' ) . '</span> ' .
+//					'<span class="screen-reader-text">' . __( 'Previous post:', 'Smart' ) . '</span> ' .
 //					'<span class="post-title">%title</span>',
 //			) );
 
@@ -44,35 +47,74 @@ get_header(); ?>
 		endwhile;
 		?>
 
+
+
+
+
+
+
+
+
 		<!-- .site-main -->
 	</div><!-- .content-area -->
 
-    <nav id="sidebar" class="course">
-       <ul class="pp-posts">
-       <h2 class="widget-title">Новости и мероприятия</h2>
- <?php
- $pc = new WP_Query('cat=32&orderby=date&posts_per_page=3'); ?>
- <?php while ($pc->have_posts()) : $pc->the_post(); ?>
- <li class="clearfix sc-pp-posts">
- <div class="sc-pp-posts-image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array()); ?></a></div>
- <div class="sc-pp-posts-text">
-     <div class="sc-pp-posts-item"><a href="<?php the_permalink(); ?>"><?php the_title(); ?>.</a></div>
-     <div class="sc-pp-posts-date"><?php the_date(); ?></div>
- </div>
- </li>
- <?php endwhile; ?>
- </ul>
 
-
-<?php
-	if ( function_exists('dynamic_sidebar') )
-		dynamic_sidebar('news-sidebar');
-?>
-
-
-    </nav>
 
 </div>
 </div>
+
+
+
+
+		<?php $tags = wp_get_post_tags($post->ID);
+		if ($tags) {
+		$tag_ids = array();
+		foreach($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
+		$args=array(
+			'tag__in' => $tag_ids,
+			'orderby' => rand,
+			'caller_get_posts' => 1,
+			'post__not_in' => array($post->ID),
+			'showposts' => 3
+		);
+		$my_query = new wp_query($args);
+		if( $my_query->have_posts() ) {
+		echo '<div class="related_posts">';
+		echo '<div class="container">';
+		echo '<h2 class="widget-title">Похожие записи:</h3>';
+		echo '<ul>';
+		while ($my_query->have_posts()) {
+		$my_query->the_post();
+		?>
+		<li>
+			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
+				<div class="post-thumb"><?php the_post_thumbnail(); ?></div>
+				<div>
+					<?php the_title(); ?>
+					<span class="date_publ"><?php the_date(); ?></span>
+				</div>
+			</a>
+		</li>
+		<?php
+		}
+		echo '</ul>';
+		echo '</div>';
+		echo '</div>';
+		}
+		wp_reset_query();
+		}
+		?>
+
+
+<div class="news_sidebar">
+	<div class="container">
+		<?php
+			if ( function_exists('dynamic_sidebar') )
+				dynamic_sidebar('after-news-sidebar');
+		?>
+	</div>
+</div>
+
+
 </main>
 <?php get_footer(); ?>
