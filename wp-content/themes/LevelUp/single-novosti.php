@@ -110,7 +110,7 @@ get_header(); ?>
 	<div class="container">
 		<?php
 			if ( function_exists('dynamic_sidebar') )
-				dynamic_sidebar('after-blog-sidebar');
+				dynamic_sidebar('after-news-sidebar');
 		?>
 	</div>
 </div>

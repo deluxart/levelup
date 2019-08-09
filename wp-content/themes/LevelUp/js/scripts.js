@@ -855,3 +855,20 @@ jQuery(document).ready(function(){
       jQuery(".event_modal").hide();
     }
     });
+
+
+
+// Сокращение заголовков у новостей
+var desc_short = function () {
+    jQuery(".tg-item-title.tg-element-3 > a").text(function(i, text) {
+      if (text.length >= 50) {
+        text = text.substring(0, 50);
+        var lastIndex = text.lastIndexOf(" ");       // позиция последнего пробела
+        text = text.substring(0, lastIndex) + '...'; // обрезаем до последнего слова
+      }
+      jQuery(this).text(text);
+    });
+  };
+
+  desc_short();
+  // Сокращение заголовков у новостей

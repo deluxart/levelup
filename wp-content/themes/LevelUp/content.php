@@ -47,7 +47,7 @@
     }
 ?>
 
-	<span class="category"><?php
+	<span class="category" style="display: none;"><?php
 $categories = get_the_category();
 if($categories[0]){
 	echo '<a href="' . get_category_link($categories[0]->term_id ) . '" style="background: ' . $rl_category_color . '">'. $categories[0]->name . '</a>';
@@ -56,8 +56,6 @@ if($categories[0]){
 </div>
 
 	<div class="entry-content">
-
-<div id="share-bar"></div>
 
 		<?php
 			/* translators: %s: Name of current post */
@@ -76,8 +74,6 @@ if($categories[0]){
 			) );
 		?>
 	</div><!-- .entry-content -->
-	<!-- <div class="fb-btn"><?php echo do_shortcode('[fb_button]'); ?></div> -->
-<?php if (function_exists('dw_reactions')) { dw_reactions(); } ?>
 	<?php
 		// Author bio.
 		if ( is_single() && get_the_author_meta( 'description' ) ) :
