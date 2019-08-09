@@ -1,6 +1,9 @@
 
 h2.entry-title { letter-spacing: normal; }
 
+.posts_page { padding-bottom: 30px; }
+.posts_page #grid-1712 .tg-nav-color { color: #000; }
+.single .status-publish .post-image span { display: none; }
 .posts_page .news-slider-top { margin-bottom: 30px; }
 .posts_page .news-slider-top .container { padding: 0; }
 

@@ -23,8 +23,19 @@
 			endif;
 		?>
 	<ul class="tag">
- 		<li class="date"><span><i class="fa fa-calendar" aria-hidden="true"></i><?php the_date(); ?></span></li>
- 		<li class="cat"><span><i class="fa fa-tags" aria-hidden="true"></i><?php the_tags(); ?></span></li>
+         <li class="date"><span><i class="fa fa-calendar" aria-hidden="true"></i><?php the_date(); ?></span></li>
+
+
+
+
+
+         <li class="cat"><span><i class="fa fa-tags" aria-hidden="true"></i><?php the_tags(); ?></span></li>
+
+         <?php if ($condition) : ?>
+         <span class="cat"><span><i class="fa fa-tags" aria-hidden="true"></i><?php the_tags(); ?></span></span>
+            <?php else : ?>
+
+        <?php endif;  ?>
  	</ul>
 
 
