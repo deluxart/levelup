@@ -91,19 +91,3 @@ if($categories[0]){
 	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->
-
-
-
-<div class="block-comments" style="display: none;">
-	<h2>Комментарии Facebook:</h2>
-	<div class="content">
-		<?php echo do_shortcode('[gs-fb-comments]'); ?>
-	</div>
-</div>
-
-<div class="block-tags" style="display: none;">
-	<h2>Облако тегов:</h2>
-	<div class="content">
-		<?php wp_tag_cloud('largest=15&smallest=14&unit=px&number=10'); ?>
-	</div>
-</div>
