@@ -48,7 +48,7 @@
 ?>
 
 	<span class="category"><?php
-$categories = get_the_category(); 
+$categories = get_the_category();
 if($categories[0]){
 	echo '<a href="' . get_category_link($categories[0]->term_id ) . '" style="background: ' . $rl_category_color . '">'. $categories[0]->name . '</a>';
 }
@@ -58,20 +58,20 @@ if($categories[0]){
 	<div class="entry-content">
 
 <div id="share-bar"></div>
-		
+
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'Подробнее %s', 'Smart' ),
+				__( 'Подробнее %s', 'LevelUp' ),
 				the_title( '<span class="screen-reader-text">', '</span>', false )
 			) );
 
 			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'Smart' ) . '</span>',
+				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'LevelUp' ) . '</span>',
 				'after'       => '</div>',
 				'link_before' => '<span>',
 				'link_after'  => '</span>',
-				'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'Smart' ) . ' </span>%',
+				'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'LevelUp' ) . ' </span>%',
 				'separator'   => '<span class="screen-reader-text">, </span>',
 			) );
 		?>
@@ -86,8 +86,8 @@ if($categories[0]){
 	?>
 
 	<footer class="entry-footer">
-		<?php Smart_entry_meta(); ?>
-		<?php edit_post_link( __( 'Edit', 'Smart' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php LevelUp_entry_meta(); ?>
+		<?php edit_post_link( __( 'Edit', 'LevelUp' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->
