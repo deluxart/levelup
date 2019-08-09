@@ -29,7 +29,7 @@ h2.entry-title { letter-spacing: normal; }
 .single .content-area { overflow: visible; }
 .single .status-publish { background: none; box-shadow: none; border-radius: 0; margin-bottom: 0; overflow: visible; }
 .single .status-publish .post-image span { right: auto; left: 50%; transform: translateX(-50%); }
-.single .status-publish .post-image img { border-radius: 30px; margin: 0 auto 30px auto; }
+.single .status-publish .post-image img { border-radius: 0px; margin: 0 auto 30px auto; }
 .single .status-publish .entry-content { padding: 0; }
 
 /*Related posts*/
