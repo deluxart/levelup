@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Страница всех статей
+Template Name: Страница всех новостей
 */
 
 get_header(); ?>
@@ -28,14 +28,14 @@ get_header(); ?>
 	<div class="content">
 
 		<div class="news">
-			<?php echo do_shortcode('[the_grid name="Last Articles"]'); ?>
+			<?php echo do_shortcode('[the_grid name="Last News"]'); ?>
 		</div>
 		<div class="sidebar">
 
 
 <?php
 	if ( function_exists('dynamic_sidebar') )
-		dynamic_sidebar('blog-sidebar');
+		dynamic_sidebar('news-sidebar');
 ?>
 		</div>
 
