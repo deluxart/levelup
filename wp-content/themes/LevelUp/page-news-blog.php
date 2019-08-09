@@ -7,10 +7,8 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-        <div class="open-courses course"><div class="col tc"><h1>Новости и мероприятия</h1></div></div>
 
-<div class="posts_page">
-	<div class="container">
+
 
 		<?php
 		// Start the loop.
@@ -22,6 +20,10 @@ get_header(); ?>
 		// End the loop.
 		endwhile;
 		?>
+
+<div class="posts_page">
+	<div class="container">
+
 
 	<div class="content">
 
