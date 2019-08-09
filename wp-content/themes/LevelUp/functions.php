@@ -194,7 +194,32 @@ function LevelUp_widgets_init() {
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
+    ) );
+
+
+
+
+
+    register_sidebar( array(
+		'name' => "Сайдбар под новостью",
+		'id' => 'after-news-sidebar',
+		'description' => 'Для виджетов следом за новостью',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
+
+    register_sidebar( array(
+		'name' => "Сайдбар под статьей",
+		'id' => 'after-blog-sidebar',
+		'description' => 'Для виджетов следом за статьей',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
 }
 add_action( 'widgets_init', 'LevelUp_widgets_init' );
 
