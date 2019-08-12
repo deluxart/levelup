@@ -91,7 +91,7 @@
 
 
 <!-- Модальное окно мероприятия -->
-<div class="event_modal">
+<!-- <div class="event_modal">
 	<div class="cont">
 		<div><img src="/wp-content/uploads/2019/07/event_image.png" alt="Open Day in Level Up"></div>
 		<div class="content">
@@ -110,7 +110,7 @@
 		<img src="https://levelup.ua/wp-content/uploads/2019/07/cancel-1.svg" alt="">
 	</div>
 </div>
-<div class="event_modal-bg"></div>
+<div class="event_modal-bg"></div> -->
 <!-- Модальное окно мероприятия -->
 
 
@@ -127,7 +127,7 @@
         <?php echo $options[binotel_code];?>
 
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/wow.min.js"></script>
-		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?<?php echo date(get_option('date_format')); ?>"></script>
+		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?12<?php echo date(get_option('date_format')); ?>"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/imagesloaded.pkgd.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/popper.min.js" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js" crossorigin="anonymous"></script>

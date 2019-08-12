@@ -825,37 +825,37 @@ jQuery('.saleRow .saleBottom').each(function(i) {
 
 
 
+// Модалка для мероприятия
+// jQuery(document).ready(function(){
+//     jQuery(".event_modal .close-icon, .event_modal-bg").click(function () {
+//     jQuery.cookie("popup", "", { expires:0, path: '/' });
 
-jQuery(document).ready(function(){
-    jQuery(".event_modal .close-icon, .event_modal-bg").click(function () {
-    jQuery.cookie("popup", "", { expires:0, path: '/' });
+//             jQuery('.event_modal').removeClass("open");
+//             setTimeout(function(){
+//                  jQuery('.event_modal').hide();
+//             }, 200);
+//             jQuery('.event_modal-bg').removeClass("open");
+//             jQuery('.event_modal-bg').css({display: 'none'});
 
-            jQuery('.event_modal').removeClass("open");
-            setTimeout(function(){
-                 jQuery('.event_modal').hide();
-            }, 200);
-            jQuery('.event_modal-bg').removeClass("open");
-            jQuery('.event_modal-bg').css({display: 'none'});
+//     });
 
-    });
+//     if ( jQuery.cookie("popup") == null )
+//     {
+//     setTimeout(function(){
 
-    if ( jQuery.cookie("popup") == null )
-    {
-    setTimeout(function(){
+//             jQuery('.event_modal').show();
+//             setTimeout(function(){
+//                  jQuery('.event_modal').addClass("open");
+//             }, 200);
+//             jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
 
-            jQuery('.event_modal').show();
-            setTimeout(function(){
-                 jQuery('.event_modal').addClass("open");
-            }, 200);
-            jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
-
-    }, 12000)
-    }
-    else {
-      jQuery(".event_modal").hide();
-    }
-    });
-
+//     }, 12000)
+//     }
+//     else {
+//       jQuery(".event_modal").hide();
+//     }
+//     });
+// Модалка для мероприятия
 
 
 // Сокращение заголовков у новостей
