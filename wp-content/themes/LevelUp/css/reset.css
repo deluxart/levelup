@@ -19,7 +19,7 @@ input:-webkit-autofill {
   -webkit-animation-fill-mode: both;
 }
 
-
+.navigation.post-navigation { display: none !important; }
 
 
 /*New desing modal for Open Day*/
