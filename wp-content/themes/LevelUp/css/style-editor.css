@@ -106,7 +106,7 @@ div[class^="wp-block-block-lab-"] .block-form { background: #fff; border: 5px so
 .block-quote-lab { padding-left: 1em; }
 .block-quote-lab hr { margin: 0.5em 0; border-top: 1px solid #f3f3f3; }
 
-.block-quote-two { position: relative; text-align: center; padding: 25px; }
+.block-quote-two { position: relative; text-align: center; padding: 25px; margin-top: 26px; }
 .block-quote-two::before {
     border-top: 1px solid #15acf2;
     width: 30%;
