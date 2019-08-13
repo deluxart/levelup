@@ -13,7 +13,7 @@ h2.entry-title { letter-spacing: normal; }
 .full_post strong, .full_post .entry-header h1 { font-family: 'radomir-tinkov-gilroy-extrabold'; }
 .full_post .news_sidebar { /*background: url(https://uaitsmart.com/wp-content/uploads/2019/08/shadow_line.png) top repeat-x;*/ padding: 25px 0 35px 0; font-family: "radomir-tinkov-gilroy-light"; }
 
-.entry-header ul.tag { margin: 0; padding: 0; position: relative; top: -20px; font-weight: normal; left: 0; }
+.entry-header ul.tag { margin: 0; padding: 0; position: relative; top: -10px; font-weight: normal; left: 0; }
 .entry-header ul.tag li { display: inline-block; padding: 0; margin: 0; font-size: 12px; color: #9e9e9e; padding: 0 13px; font-style: italic; position: relative; }
 .entry-header ul.tag li:after { position: absolute; content: '/'; color: #dcdcdc; right: -5px; top: 1px; }
 .entry-header ul.tag li a { color: #9e9e9e; }
