@@ -94,7 +94,7 @@ div[class^="wp-block-block-lab-"] .block-form { background: #fff; border: 5px so
 .wp-block-separator {border-bottom: 1px solid #ccc; margin: 1em 0; border-top: 0; height: 1px; }
 
 /* Биография(мини) */
-.block-person { line-height: 1.75; display: grid; grid-template-columns: 220px 1fr; grid-column-gap: 45px; background: #fff; box-shadow: 44px 48px 61.56px 14.44px rgba(0, 0, 0, 0.06); padding: 40px; }
+.block-person { line-height: 1.75; display: grid; grid-template-columns: 220px 1fr; grid-column-gap: 35px; background: #fff; box-shadow: 44px 48px 61.56px 14.44px rgba(0, 0, 0, 0.06); padding: 40px; }
 .block-person .photo { border-radius: 50%; display: block; }
 .block-person h4 { font-size: 21px; margin: 0; padding: 0 !important; }
 .block-person p.position { font-size: 14px; color: #959595; margin-bottom: 12px; }
