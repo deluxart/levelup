@@ -755,7 +755,7 @@ add_action('admin_head', 'my_stylesheet1');
 
 
 
-// Options page for WP
+// Options page for WP PM 20
 require get_template_directory() . '/inc/options_page.php';
 
 // add_action('admin_bar_menu', 'add_toolbar_items', 100);
