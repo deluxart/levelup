@@ -755,7 +755,6 @@ add_action('admin_head', 'my_stylesheet1');
 
 // Options page for WP
 require get_template_directory() . '/inc/options_page.php';
-require get_template_directory() . '/inc/options_modal.php';
 
 // add_action('admin_bar_menu', 'add_toolbar_items', 100);
 // function add_toolbar_items($admin_bar){
