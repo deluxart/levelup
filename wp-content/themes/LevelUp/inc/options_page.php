@@ -3,11 +3,11 @@ add_action( 'admin_init', 'theme_options_init' );
 add_action( 'admin_menu', 'theme_options_add_page' );
 
 function theme_options_init(){
-    register_setting( 'levelup_options', 'levelup_theme_options');
+register_setting( 'levelup_options', 'levelup_theme_options');
 }
 
 function theme_options_add_page() {
-    add_menu_page( __( 'Основные настройки', 'WP-Unique' ), __( 'Основные настройки', 'WP-Unique' ), 'edit_theme_options', 'lvl_options', 'theme_options_do_page', 'dashicons-editor-kitchensink', 4 );
+add_menu_page( __( 'Основные настройки', 'WP-Unique' ), __( 'Основные настройки', 'WP-Unique' ), 'edit_theme_options', 'lvl_options', 'theme_options_do_page', 'dashicons-editor-kitchensink', 4 );
 }
 function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUEST['settings-updated'] ) ) $_REQUEST['settings-updated'] = false;
     // here we adding our custom meta box
