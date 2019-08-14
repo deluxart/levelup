@@ -3,11 +3,11 @@ add_action( 'admin_init', 'theme_options_init' );
 add_action( 'admin_menu', 'theme_options_add_page' );
 
 function theme_options_init(){
-register_setting( 'levelup_options', 'levelup_theme_options');
+register_setting( 'modal_options', 'modal_theme_options');
 }
 
 function theme_options_add_page() {
-add_menu_page( __( 'Модалка', 'WP-Unique' ), __( 'Модалка', 'WP-Unique' ), 'edit_theme_options', 'lvl_options', 'theme_options_do_page', 'dashicons-analytics', 4 );
+add_menu_page( __( 'Модалка', 'WP-Unique' ), __( 'Модалка', 'WP-Unique' ), 'edit_theme_options', 'emodal_options', 'theme_options_do_page', 'dashicons-analytics', 4 );
 }
 function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUEST['settings-updated'] ) ) $_REQUEST['settings-updated'] = false;
     // here we adding our custom meta box
@@ -34,8 +34,8 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 </div>
  <div class="wrap">
 <form method="post" action="options.php" id="form">
-<?php settings_fields( 'levelup_options' ); ?>
-<?php $options = get_option( 'levelup_theme_options' ); ?>
+<?php settings_fields( 'modal_options' ); ?>
+<?php $options = get_option( 'modal_theme_options' ); ?>
 
 
         <div class="metabox-holder" id="poststuff">
@@ -53,7 +53,7 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <label>Код Binotel</label>
         </th>
         <td>
-            <textarea name="levelup_theme_options[binotel_code]" id="levelup_theme_options[binotel_code]" class="large-text code" rows="8" placeholder="Вставьте код Binotel"><?php echo $options[binotel_code];?></textarea>
+            <textarea name="lmodal_theme_options[binotel_code]" id="modal_theme_options[binotel_code]" class="large-text code" rows="8" placeholder="Вставьте код Binotel"><?php echo $options[binotel_code];?></textarea>
         </td>
     </tr>
 
