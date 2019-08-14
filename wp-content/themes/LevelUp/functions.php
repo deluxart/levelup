@@ -749,12 +749,13 @@ function replace_core_jquery_version() {
 add_action( 'wp_enqueue_scripts', 'replace_core_jquery_version' );
 
 function my_stylesheet1(){
-wp_enqueue_style("style-admin",get_bloginfo('stylesheet_directory')."/css/font-awesome.min.css");
+wp_enqueue_style("style-admin",get_bloginfo('stylesheet_directory')."/assets/font-awesome.min.css");
 }
 add_action('admin_head', 'my_stylesheet1');
 
 // Options page for WP
 require get_template_directory() . '/inc/options_page.php';
+require get_template_directory() . '/inc/options_modal.php';
 
 // add_action('admin_bar_menu', 'add_toolbar_items', 100);
 // function add_toolbar_items($admin_bar){

@@ -7,14 +7,14 @@ register_setting( 'levelup_options', 'levelup_theme_options');
 }
 
 function theme_options_add_page() {
-add_menu_page( __( 'Основные настройки', 'WP-Unique' ), __( 'Основные настройки', 'WP-Unique' ), 'edit_theme_options', 'lvl_options', 'theme_options_do_page', 'dashicons-editor-kitchensink', 4 );
+add_menu_page( __( 'Модалка', 'WP-Unique' ), __( 'Модалка', 'WP-Unique' ), 'edit_theme_options', 'lvl_options', 'theme_options_do_page', 'dashicons-analytics', 4 );
 }
 function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUEST['settings-updated'] ) ) $_REQUEST['settings-updated'] = false;
     // here we adding our custom meta box
 ?>
 
 <div class="wrap">
-<?php screen_icon(); echo "<h2>". __( 'Основные настройки сайта', 'WP-Unique' ) . "</h2>"; ?>
+<?php screen_icon(); echo "<h2>". __( 'Всплывающая модалка мероприятия', 'WP-Unique' ) . "</h2>"; ?>
 
     <?php if (!empty($notice)): ?>
     <div id="notice" class="error"><p><?php echo $notice ?></p></div>
@@ -47,33 +47,6 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 <div class="inside">
 <table cellspacing="2" cellpadding="5" style="width: 100%;" class="form-table">
     <tbody>
-
-    <tr class="form-field">
-        <th valign="top" scope="row">
-            <label>Google Tag Manager</label>
-        </th>
-        <td>
-            <textarea name="levelup_theme_options[gtm_code]" id="levelup_theme_options[gtm_code]" class="large-text code" rows="7" placeholder="Вставьте код Google Tag Manager"><?php echo $options[gtm_code];?></textarea>
-        </td>
-    </tr>
-
-    <tr class="form-field">
-        <th valign="top" scope="row">
-            <label>Google Tag Manager (noscript)</label>
-        </th>
-        <td>
-            <textarea name="levelup_theme_options[gtm_code_n]" id="levelup_theme_options[gtm_code_n]" class="large-text code" rows="4" placeholder="Вставьте код Google Tag Manager (noscript)"><?php echo $options[gtm_code_n];?></textarea>
-        </td>
-    </tr>
-
-    <tr class="form-field">
-        <th valign="top" scope="row">
-            <label>Код JivoSite</label>
-        </th>
-        <td>
-            <textarea name="levelup_theme_options[jivosite_code]" id="levelup_theme_options[jivosite_code]" class="large-text code" rows="7" placeholder="Вставьте код JivoSite"><?php echo $options[jivosite_code];?></textarea>
-        </td>
-    </tr>
 
     <tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
         <th valign="top" scope="row">
