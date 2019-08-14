@@ -91,9 +91,26 @@
 
 
 <!-- Модальное окно мероприятия -->
-<div class="<?php echo $options[ativate_event_modal];?>">
-    <?php echo $options[event_modal_code];?>
+<!-- <div class="event_modal">
+	<div class="cont">
+		<div><img src="/wp-content/uploads/2019/07/event_image.png" alt="Open Day in Level Up"></div>
+		<div class="content">
+			<h4>Реєструйтеся на <a href="https://levelup.ua/open-day-in-level-up">Open Day in Level Up</a> <span>і приходьте знайомитися:</span></h4>
+			<div class="date-block">
+				<div><strong>10 серпня 10:00</strong>вул. Троїцька, 21Г</div>
+				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
+			</div>
+			<div class="feed-form">
+				<?php echo do_shortcode('[contact-form-7 id="6071" title="Open Day - Level Up"]'); ?>
+			</div>
+		</div>
+	</div>
+
+	<div id="setCookie" class="close-icon">
+		<img src="https://levelup.ua/wp-content/uploads/2019/07/cancel-1.svg" alt="">
+	</div>
 </div>
+<div class="event_modal-bg"></div> -->
 <!-- Модальное окно мероприятия -->
 
 
