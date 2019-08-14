@@ -7,6 +7,7 @@ h2.entry-title { letter-spacing: normal; }
 }
 
 span.tg-item-term.language { display: none !important; }
+.tg-cats-holder > span:last-child:not(.category) { display: none !important;}
 
 .posts_page { padding-bottom: 30px; }
 .posts_page #grid-1712 .tg-nav-color { color: #000; }
