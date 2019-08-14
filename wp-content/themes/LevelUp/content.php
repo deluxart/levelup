@@ -24,7 +24,12 @@
 		?>
 	<ul class="tag">
          <li class="date"><span><i class="fa fa-calendar" aria-hidden="true"></i><?php the_date(); ?></span></li>
-         <li class="cat"><span><i class="fa fa-tags" aria-hidden="true"></i><?php the_tags(); ?></span></li>
+
+         <?php $posttags = get_the_tags(); ?>
+<?php if( $posttags ){ ?>
+
+ 		<li class="cat"><span><i class="fa fa-tags" aria-hidden="true"></i><?php the_tags(); ?></span></li>
+<?php } ?>
  	</ul>
 
 
