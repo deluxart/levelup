@@ -81,7 +81,7 @@ get_header(); ?>
 		if( $my_query->have_posts() ) {
 		echo '<div class="related_posts">';
 		echo '<div class="container">';
-		echo '<h2 class="widget-title">Схожі записи:</h3>';
+		echo '<h2 class="widget-title">Похожие записи:</h3>';
 		echo '<ul>';
 		while ($my_query->have_posts()) {
 		$my_query->the_post();
