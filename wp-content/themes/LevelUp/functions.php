@@ -377,8 +377,8 @@ add_filter( 'get_search_form', 'LevelUp_search_form_modify' );
  * @return array The filtered arguments for tag cloud widget.
  */
 function LevelUp_widget_tag_cloud_args( $args ) {
-	$args['largest']  = 22;
-	$args['smallest'] = 8;
+	$args['largest']  = 9;
+	$args['smallest'] = 9;
 	$args['unit']     = 'pt';
 	$args['format']   = 'list';
 
