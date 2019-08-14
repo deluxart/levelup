@@ -753,6 +753,8 @@ wp_enqueue_style("style-admin",get_bloginfo('stylesheet_directory')."/assets/fon
 }
 add_action('admin_head', 'my_stylesheet1');
 
+
+
 // Options page for WP
 require get_template_directory() . '/inc/options_page.php';
 
