@@ -2,6 +2,9 @@
 h2.entry-title { letter-spacing: normal; }
 
 .tg-grid-area-bottom1 { margin-top: 20px; }
+.entry-header ul.tag {
+  font-family: "radomir-tinkov-gilroy-light";
+}
 
 .posts_page { padding-bottom: 30px; }
 .posts_page #grid-1712 .tg-nav-color { color: #000; }
