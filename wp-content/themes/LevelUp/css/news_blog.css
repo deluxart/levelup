@@ -9,7 +9,7 @@ h2.entry-title { letter-spacing: normal; }
 span.tg-item-term.language { display: none !important; }
 .tg-cats-holder > span:last-child:not(.category) { display: none !important; }
 .tg-cats-holder > span.category { position: relative; }
-.tg-cats-holder > span.category:not(:first-child):before { position: relative; content: ' ,'}
+.tg-cats-holder > span.category:not(:first-child):before { position: relative; content: ','; padding-right: 5px; }
 
 .posts_page { padding-bottom: 30px; }
 .posts_page #grid-1712 .tg-nav-color { color: #000; }
