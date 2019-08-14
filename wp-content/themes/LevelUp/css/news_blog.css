@@ -48,7 +48,7 @@ span.tg-item-term.language { display: none !important; }
 
 /*Related posts*/
 .related_posts { padding: 25px 0; }
-.related_posts ul { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 0px; }
+.related_posts ul { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 10px; }
 .related_posts ul li a { color: #000; font-weight: bold; font-size: 14px; display: grid; grid-template-columns: 80px 1fr; grid-column-gap: 20px; align-items: center; }
 .related_posts ul li a:hover { text-decoration: none; }
 .related_posts ul li .post-thumb { width: 80px; height: 80px; border-radius: 50%; position: relative; overflow: hidden; }
