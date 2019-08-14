@@ -7,7 +7,7 @@ register_setting( 'modal_options', 'modal_theme_options');
 }
 
 function theme_options_add_page() {
-add_menu_page( __( 'Модалка', 'WP-Unique' ), __( 'Модалка', 'WP-Unique' ), 'edit_theme_options', 'emodal_options', 'theme_options_do_page', 'dashicons-analytics', 4 );
+add_menu_page( __( 'Модалка', 'WP-Unique' ), __( 'Модалка', 'WP-Unique' ), 'edit_theme_options', 'modal_options', 'theme_options_do_page', 'dashicons-analytics', 4 );
 }
 function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUEST['settings-updated'] ) ) $_REQUEST['settings-updated'] = false;
     // here we adding our custom meta box
