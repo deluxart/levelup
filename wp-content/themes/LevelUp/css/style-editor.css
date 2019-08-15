@@ -8,6 +8,21 @@
 .column2 { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; }
 .column3 { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; }
 
+
+
+/* Партнеры мероприятия */
+.news-partners { margin-bottom: 20px; display: grid; grid-gap: 20px; }
+.news-partners > .one-partner { display: grid; grid-template-columns: 120px 1fr; grid-column-gap: 20px; align-items: center; }
+.news-partners > .one-partner .p_logo { }
+.news-partners > .one-partner .p_logo img { border-radius: 10px; }
+.news-partners > .one-partner .p_info { }
+
+.news-partners > .one-partner:nth-child(2) { grid-template-columns: 1fr 120px; }
+.news-partners > .one-partner:nth-child(2) .p_logo { grid-column: 2; grid-row: 1; }
+.news-partners > .one-partner:nth-child(2) .p_info { grid-column: 1; grid-row: 1; }
+
+
+
 @media (max-width: 768px) {
     .column2 {grid-template-columns: 1fr;}
     .column3 {grid-template-columns: 1fr;}

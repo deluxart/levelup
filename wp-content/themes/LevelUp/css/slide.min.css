@@ -61,12 +61,12 @@ padding: 10px 0 20px 0;}
 
 
 /* ОСНОВЫ ПРОГРАММИРОВАНИЯ */
-.basic_program_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2018/07/SLIDER-OP-2.jpg) !important;}
+.basic_program_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2018/07/SLIDER-OP-2.jpg);}
 
 @media (max-width:768px){
     .text_course_2.basic_prog {font-size:22px !important;}
     .Slider_courses_block.basic_program_slide {min-height: 0!important;}
-    .basic_program_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2019/08/osnovy_mobile_banner.jpg) !important;}
+    .basic_program_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2019/08/osnovy_mobile_banner.jpg);}
 }
 
 /* ИНКУБАТОР */
