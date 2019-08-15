@@ -13,6 +13,9 @@
     .column3 {grid-template-columns: 1fr;}
 }
 
+
+.editor-styles-wrapper strong, .editor-post-title__input { font-family: 'radomir-tinkov-gilroy-extrabold'; }
+.editor-post-title__input { color: #15acf2; }
 .editor-block-list__block dd, .editor-block-list__block li { margin: 0; }
 
 
