@@ -103,7 +103,7 @@
 .ui-ux-page #reg-offer-two.reg-offer h2 span.t6 { font-size: 25px; }
 .ui-ux-page #reg-offer-two.reg-offer p { font-size: 16px; }
 .ui-ux-page #reg-offer-two.reg-offer .container { grid-template-columns: 1fr 1fr; }
-.ui-ux-page #reg-offer-two.reg-offer .container > div { top: -44px; }
+.ui-ux-page #reg-offer-two.reg-offer .container > div { top: -94px; }
 .ui-ux-page #reg-offer-two.reg-offer .container > div.img img { max-width: 380px; display: block; margin: 0 auto; }
 .ui-ux-page #reg-offer-two.reg-offer .container .text { max-height: 290px; }
 .ui-ux-page #by_students { overflow: hidden; }
@@ -182,7 +182,7 @@
   .ui-ux-page .reg-offer .container { grid-template-columns: 1fr; }
   .ui-ux-page .reg-offer.two-block .container > div { top: 0; }
   .ui-ux-page .reg-offer.two-block { max-height: none; }
-  .ui-ux-page #reg-offer-two.reg-offer .container .text { padding: 30px 0; }
+  .ui-ux-page #reg-offer-two.reg-offer .container .text { padding: 30px 0 0 0; }
   .ui-ux-page .reg-offer.two-block .container > div.img { display: none; }
   .ui-ux-page .reg-offer .container > div { grid-column: 1/2; }
   .ui-ux-page #what_will .cont > div { grid-row-gap: 20px; }
