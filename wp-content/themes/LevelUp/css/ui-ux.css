@@ -165,8 +165,10 @@
 .ui-ux-page.smm_page #course_after .cont > div.first h4 { bottom: -100px; left: 30px; }
 .ui-ux-page.smm_page #course_after .cont > div.last { left: -30px; bottom: -50px; }
 .ui-ux-page.smm_page #course_after .cont > div.last h4 { top: -100px; right: 30px; left: auto; text-align: right; }
-@media (max-width: 1200px) {  .ui-ux-page #reg-offer-two.reg-offer .container > div { top: -43px; } }
+@media (max-width: 1200px) {  .ui-ux-page #reg-offer-two.reg-offer .container > div { top: -94px; } }
 @media (max-width: 992px) { .ui-ux-page #dev-slider > .container .content { grid-template-columns: 1fr; }
+.ui-ux-page #reg-offer-two.reg-offer .container > div.img img { max-width: 250px;  }
+
   .ui-ux-page #dev-slider > .container .content > div:nth-child(2) { display: none; }
   .ui-ux-page #course-program .program-grid { grid-template-columns: 1fr; }
   .ui-ux-page #course-program .program-grid > div.girl { display: none; }
