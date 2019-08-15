@@ -13,10 +13,13 @@
     .column3 {grid-template-columns: 1fr;}
 }
 
-.w-90 { width: 100%; max-width: 90%; margin-left: auto; margin-right: auto; }
-.w-80 { width: 100%; max-width: 80%; margin-left: auto; margin-right: auto; }
-.w-70 { width: 100%; max-width: 70%; margin-left: auto; margin-right: auto; }
-.w-60 { width: 100%; max-width: 60%; margin-left: auto; margin-right: auto; }
+.single .w-90, .single .w-80, .single .w-70, .single .w-60 { margin-left: auto !important; margin-right: auto !important; }
+.editor-styles-wrapper .w-90, .editor-styles-wrapper .w-80, .editor-styles-wrapper .w-70, .editor-styles-wrapper .w-60 { margin-left: auto !important; margin-right: auto !important; }
+
+.w-90 { width: 100%; max-width: 90%; margin-left: auto !important; margin-right: auto !important; }
+.w-80 { width: 100%; max-width: 80%; margin-left: auto !important; margin-right: auto !important; }
+.w-70 { width: 100%; max-width: 70%; margin-left: auto !important; margin-right: auto !important; }
+.w-60 { width: 100%; max-width: 60%; margin-left: auto !important; margin-right: auto !important; }
 
 @media (max-width: 768px) {
     .w-90, .w-80, .w-70, .w-60 { max-width: 100%; }
