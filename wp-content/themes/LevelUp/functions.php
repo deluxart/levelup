@@ -701,8 +701,8 @@ add_theme_support( 'editor-color-palette', array(
  */
 function LevelUp_gutenberg_editor_styles() {
     wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/css/style-editor.css' ), false, '1.0', 'all' );
-    wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/css/news_blog.css' ), false, '1.0', 'all' );
-    wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/css/radomir-font.css' ), false, '1.0', 'all' );
+    wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/css/news_blog.css' ), false, '3.0', 'all' );
+    wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/css/radomir-font.css' ), false, '2.0', 'all' );
 }
 
 add_action( 'enqueue_block_editor_assets', 'LevelUp_gutenberg_editor_styles' );
