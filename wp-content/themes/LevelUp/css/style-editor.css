@@ -17,9 +17,18 @@
 .news-partners > .one-partner .p_logo img { border-radius: 10px; }
 .news-partners > .one-partner .p_info { }
 
-.news-partners > .one-partner:nth-child(2) { grid-template-columns: 1fr 120px; }
+.news-partners > .one-partner:nth-child(2) { grid-template-columns: 1fr 120px; text-align: right;  background: #fff; box-shadow: 0 1px 152px rgba(0, 0, 0, 0.05); }
 .news-partners > .one-partner:nth-child(2) .p_logo { grid-column: 2; grid-row: 1; }
 .news-partners > .one-partner:nth-child(2) .p_info { grid-column: 1; grid-row: 1; }
+
+/* Партнеры мероприятия-two */
+.news-partners-two { margin-bottom: 20px; display: grid; grid-gap: 20px; text-align: center; grid-template-columns: repeat(3, 1fr); }
+.news-partners-two > .one-partner { display: grid; grid-gap: 20px; grid-template-rows: 120px 1fr; text-align: center; padding: 20px; }
+.news-partners-two > .one-partner .p_logo { }
+.news-partners-two > .one-partner .p_logo img {     display: block; height: 120px; margin: 0 auto; border-radius: 10px; }
+.news-partners-two > .one-partner .p_info { }
+
+.news-partners-two > .one-partner:nth-child(2) { background: #fff; box-shadow: 0 1px 152px rgba(0, 0, 0, 0.05); }
 
 
 
