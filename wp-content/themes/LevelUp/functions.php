@@ -748,15 +748,9 @@ function replace_core_jquery_version() {
 add_action( 'wp_enqueue_scripts', 'replace_core_jquery_version' );
 
 function my_stylesheet1(){
-    wp_enqueue_style("style-admin",get_bloginfo('stylesheet_directory')."/assets/font-awesome2.min.css");
-}
-add_action('admin_head', 'my_stylesheet1');
-
-function my_stylesheet2(){
+    wp_enqueue_style("style-admin",get_bloginfo('stylesheet_directory')."/assets/font-awesome.min.css");
     wp_enqueue_style("style-admin",get_bloginfo('stylesheet_directory')."/css/radomir-font.css");
 }
-add_action('admin_head', 'my_stylesheet2');
-
 
 
 // Options page for WP PM 20
