@@ -67,6 +67,8 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 .buttonLight.black, .bg-blue .sg-show-popup{ color: #000; }
 .buttonLight.blue { color: #fff; background: #15acf2; border-color: #15acf2; }
 .buttonLight.blue:hover {border-color: #0aa1e7 !important; background: #0aa1e7;color: #fff;}
+.btn-blue a.sg-show-popup { border-color: #0aa1e7 !important; background: #0aa1e7;color: #fff; }
+.btn-blue a.sg-show-popup:hover { border-color: #2cb9fb !important; background: #2cb9fb;color: #fff; }
 .buttonLight.blue:hover:after, .buttonLight.blue:after, .btn-blue a.sg-show-popup:after { background-image:url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg"); }
 
 .Slider_courses_block a.sg-show-popup { color: #4c4c4c; background: #d1f700; }
@@ -1303,7 +1305,7 @@ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255
 
 /* Секция "Тродоустройство после обучения - 99%" */
 .fullstack-discont .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
-.fullstack-discont .content h3 { color: #15acf2; }
-.fullstack-discont .content h4 { color: #15acf2; }
+.fullstack-discont .content h3 { color: #15acf2; font-size: 30px; font-weight: bold; margin-bottom: 20px; }
+.fullstack-discont .content h4 { color: #15acf2; font-size: 22px; font-weight: bold; margin: 20px 0;  }
 .fullstack-discont .content > div:nth-child(2) { text-align: center; }
 /* Конец - Секция "Тродоустройство после обучения - 99%" */
