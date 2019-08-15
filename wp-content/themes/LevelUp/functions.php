@@ -701,11 +701,10 @@ add_theme_support( 'editor-color-palette', array(
  */
 function LevelUp_gutenberg_editor_styles() {
     wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/css/style-editor.css' ), false, '1.0', 'all' );
-    wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/css/news_blog.css' ), false, '3.0', 'all' );
-    wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/css/radomir-font.css' ), false, '2.0', 'all' );
 }
 
 add_action( 'enqueue_block_editor_assets', 'LevelUp_gutenberg_editor_styles' );
+
 
 function column_block_cgb_editor_assets(){
     // Scripts.
@@ -750,6 +749,8 @@ add_action( 'wp_enqueue_scripts', 'replace_core_jquery_version' );
 
 function my_stylesheet1(){
 wp_enqueue_style("style-admin",get_bloginfo('stylesheet_directory')."/assets/font-awesome.min.css");
+wp_enqueue_style("style-admin",get_bloginfo('stylesheet_directory')."/css/news_blog.css");
+wp_enqueue_style("style-admin",get_bloginfo('stylesheet_directory')."/css/radomir-font.css");
 }
 add_action('admin_head', 'my_stylesheet1');
 
