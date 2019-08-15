@@ -707,7 +707,10 @@ function LevelUp_gutenberg_editor_styles() {
 
 add_action( 'enqueue_block_editor_assets', 'LevelUp_gutenberg_editor_styles' );
 
-
+add_action( 'wp_enqueue_scripts', 'my_stylesheet' );
+function my_stylesheet(){
+wp_enqueue_style("style-1",get_bloginfo('stylesheet_directory')."/css/radomir-font.css");
+}
 
 function column_block_cgb_editor_assets(){
     // Scripts.
