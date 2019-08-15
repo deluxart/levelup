@@ -13,6 +13,8 @@
     .column3 {grid-template-columns: 1fr;}
 }
 
+.editor-styles-wrapper p, .editor-styles-wrapper .mce-content-body, .editor-styles-wrapper p { line-height: 1.5; }
+
 
 .editor-styles-wrapper strong, .editor-post-title__input { font-family: 'radomir-tinkov-gilroy-extrabold'; }
 .editor-post-title__input { color: #15acf2; }
