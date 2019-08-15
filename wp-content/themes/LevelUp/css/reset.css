@@ -26,6 +26,11 @@ input:-webkit-autofill {
 #reg-offer-two.reg-offer .container>div { top: -113px; }
 #reg-offer-two.reg-offer .container>.img img { top: -9px; }
 
+@media (max-width: 992px) {
+  #reg-offer-two.reg-offer .container>div.img { left: 0; width: 100%; text-align: center; }
+  #reg-offer-two.reg-offer .container>.img img { margin: 0 auto; display: block; max-width: 200px; }
+}
+
 /*New desing modal for Open Day*/
 .event_modal {
 	background: url(https://levelup.ua/wp-content/uploads/2019/07/bg_event_modal.png) center no-repeat;
