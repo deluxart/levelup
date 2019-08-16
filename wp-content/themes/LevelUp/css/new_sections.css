@@ -32,11 +32,13 @@
 
 /* Обложки для слайдеров */
 #course_slider.оsnovy_programmirovanija { background-image: url(https://levelup.ua/wp-content/uploads/2018/07/SLIDER-OP-2.jpg); }
+#course_slider.one_s_course { background-image: url(https://levelup.ua/wp-content/uploads/2018/05/SLIDER-1S.jpg); }
 #course_slider.java { background-image: url(https://levelup.ua/wp-content/uploads/2018/07/SLIDER-Java.jpg); }
 #course_slider.cnet { background-image: url(https://levelup.ua/wp-content/uploads/2018/04/SLIDER-C.jpg); }
 
 @media (max-width: 768px) {
     #course_slider.оsnovy_programmirovanija { background-image: url(https://levelup.ua/wp-content/uploads/2019/08/osnovy_mobile_banner.jpg); }
+    #course_slider.one_s_course { background-image: url(https://levelup.ua/wp-content/uploads/2019/08/1c_mobile_banner.jpg); }
     #course_slider.java { background-image: url(https://levelup.ua/wp-content/uploads/2019/08/java_mobile_banner.jpg); }
     #course_slider.cnet { background-image: url(https://levelup.ua/wp-content/uploads/2019/08/cnet_mobile_banner.jpg); }
         #course_slider.cnet .content > div:first-child { display: block; }
