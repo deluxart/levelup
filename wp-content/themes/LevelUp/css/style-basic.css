@@ -46,7 +46,7 @@ iframe { max-width: 100%; }
   .for_adm .fixed-top { top: 46px; }
   .desktop {display:none !important}
   .reverse { display: flex; flex-direction: column-reverse;}
-  .reverse > div#benefit { padding-top: 0; }
+  .reverse.fix_padding > div#benefit { padding-top: 0; }
   .prepod-carusel img { max-width: 115px; margin-bottom: 10px; }
 .partnersTitle, .partnersDescr { text-align: left; }}
 
