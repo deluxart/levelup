@@ -119,7 +119,7 @@ background-size: cover !important;}
 .Slider_courses_block .row {min-height: 83vh;}
 
 /*Конец Общие стили*/
-.basic_program_slide {background-image: url(https://levelup.ua/wp-content/uploads/2018/07/SLIDER-OP-2.jpg) !important;}
+/* .basic_program_slide {background-image: url(https://levelup.ua/wp-content/uploads/2018/07/SLIDER-OP-2.jpg) !important;} */
 @media (max-width:768px){
 .Slider_courses_block{min-height:90vh !important;}}
 
