@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 768px) {
-    #course_slider { margin-bottom: 47px; }
+    #course_slider { margin-bottom: 27px; }
     #course_slider .content .text > span { font-size: 26px; }
     #course_slider .content .text > h1 { font-size: 30px;  }
     #course_slider .content { grid-template-columns: 1fr; align-items: start; text-align: right; padding-top: 10%; min-height: 70vh; }

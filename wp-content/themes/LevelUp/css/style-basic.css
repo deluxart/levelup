@@ -44,7 +44,10 @@ iframe { max-width: 100%; }
 
 @media (max-width:768px) {
   .for_adm .fixed-top { top: 46px; }
-  .desktop {display:none !important}.reverse { display: flex; flex-direction: column-reverse;}.prepod-carusel img { max-width: 115px; margin-bottom: 10px; }
+  .desktop {display:none !important}
+  .reverse { display: flex; flex-direction: column-reverse;}
+  .reverse > div#benefit { padding-top: 0; }
+  .prepod-carusel img { max-width: 115px; margin-bottom: 10px; }
 .partnersTitle, .partnersDescr { text-align: left; }}
 
 #advantages { overflow: hidden; }
