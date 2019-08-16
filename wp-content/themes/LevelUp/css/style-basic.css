@@ -41,7 +41,10 @@ h1.entry-title, .entry-header { display: none; }
 iframe { max-width: 100%; }
 .for_adm .fixed-top { top: 32px; }
 
-@media (max-width:768px) {.desktop {display:none !important}.reverse { display: flex; flex-direction: column-reverse;}.prepod-carusel img { max-width: 115px; margin-bottom: 10px; }
+
+@media (max-width:768px) {
+  .for_adm .fixed-top { top: 46px; }
+  .desktop {display:none !important}.reverse { display: flex; flex-direction: column-reverse;}.prepod-carusel img { max-width: 115px; margin-bottom: 10px; }
 .partnersTitle, .partnersDescr { text-align: left; }}
 
 #advantages { overflow: hidden; }
