@@ -4,14 +4,24 @@
 #course_slider .content .text { text-shadow: 1px 1px 3px rgba(63,110,176,.5); color: #fff; }
 #course_slider .content .text > span { border-width: 0; display: block; font-weight: 200; font-size: 45px; text-transform: uppercase; }
 #course_slider .content .text > h1 { color: #eaff00; letter-spacing: 1px; font-weight: 700; font-size: 40px; text-transform: uppercase; }
-#course_slider .content .text > p.description { line-height: 30px; font-weight: 300; font-size: 22px; }
-#course_slider .content .text > p.date-start { line-height: 30px; font-size: 28px; }
-/* #course_slider .content .text > p.reg-btn { } */
+#course_slider .content .text > p.description { line-height: 30px; font-weight: 300; font-size: 22px; margin-top: 10px; }
+#course_slider .content .text > p.description:before { display: none; }
+#course_slider .content .text > p.date-start { line-height: 30px; font-size: 28px; padding: 40px 0 60px 0; }
+#course_slider .content .text > p.reg-btn { text-shadow: none; }
+
+
+
+@media (max-width: 1140px) and (min-width: 992px) {
+    #course_slider .content .text > span { font-size: 34px; }
+    #course_slider .content .text > h1 { font-size: 34px; }
+}
 
 /* Обложки для слайдеров */
 #course_slider.оsnovy_programmirovanija { background-image: url(https://levelup.ua/wp-content/uploads/2018/07/SLIDER-OP-2.jpg); }
 
 @media (max-width: 768px) {
+    #course_slider .content { grid-template-columns: 1fr; }
+    #course_slider .content > div:first-child { display: none; }
     #course_slider.оsnovy_programmirovanija { background-image: url(https://levelup.ua/wp-content/uploads/2019/08/osnovy_mobile_banner.jpg); }
 }
 /* Конец - Обложки для слайдеров */
