@@ -2123,6 +2123,7 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
 .page-id-380 .imm-module .grid-item .circle .t-1 {font-size: 28px;}
 
 @media (max-width: 768px) {
+  .page-id-317 #course-result .course h2, .page-id-380 #course-result .course h2 { margin-bottom: 0px; }
 .page-id-317 .course_details .row, .page-id-380 .course_details .row { width: 100%;}
     .imm-module.java .grid-item .circle .t-1 {font-size: 18px;line-height: 18px;}
     .course_program-title h3 span {font-size: 17px;}
