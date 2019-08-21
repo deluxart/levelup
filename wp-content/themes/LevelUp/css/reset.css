@@ -7,17 +7,10 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 	background: transparent;
 }
 
-@-webkit-keyframes autofill {
-  to {
-    color: inherit;
-    background: transparent;
-  }
-}
+.test-class { border: 0;}
 
-input:-webkit-autofill {
-  -webkit-animation-name: autofill;
-  -webkit-animation-fill-mode: both;
-}
+@-webkit-keyframes autofill { to { color: inherit; background: transparent; } }
+input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fill-mode: both; }
 
 .navigation.post-navigation { display: none !important; }
 
@@ -32,9 +25,7 @@ input:-webkit-autofill {
 }
 
 /*New desing modal for Open Day*/
-.event_modal {
-	background: url(https://levelup.ua/wp-content/uploads/2019/07/bg_event_modal.png) center no-repeat;
-	background-size: cover;
+.event_modal { background: url(https://levelup.ua/wp-content/uploads/2019/07/bg_event_modal.png) center no-repeat; background-size: cover;
 	box-shadow: 1.854px 5.706px 76.95px 18.05px rgba(0, 0, 0, 0.32); border-radius: 10px; position: relative; padding: 0px 55px; max-width: 900px; margin: 0 auto;
 	z-index: 9999999; position: fixed; top: -50%; left: 50%; transform: translate(-50%,-50%); width: 100%; transition-duration: 500ms; display: none;
 }
@@ -173,10 +164,10 @@ hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 
 input, select {vertical-align: middle;}
 
 pre {
-    white-space: pre; /* CSS2 */
-    white-space: pre-wrap; /* CSS 2.1 */
-    white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
-    word-wrap: break-word; /* IE */
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    word-wrap: break-word;
 }
 
 input[type="radio"] {vertical-align: text-bottom;}
