@@ -93,6 +93,8 @@ span.tg-item-term.language { display: none !important; }
 .posts_page .content { font-weight: normal; font-family: 'radomir-tinkov-gilroy-extrabold'; }
 .posts_page .content .news .tg-item { border-radius: 0px; overflow: hidden; box-shadow: none; }
 .posts_page .content .news .tg-maren-new .tg-element-3 { padding-top: 0; padding-bottom: 0px; line-height: normal; }
+.srpw-meta { font-family: radomir-tinkov-gilroy-light; }
+.tg-txt .tg-nav-font { font-weight: normal; }
 .posts_page .content .news .tg-item-content-holder { background: none !important; font-family: "radomir-tinkov-gilroy-light"; }
 .posts_page .content .news .tg-maren-new .tg-item-content-holder[data-position="bottom"] { padding: 15px 0 0 0; min-height: 95px; }
 .posts_page .content .news .tg-item-title.tg-element-3 a { font-size: 18px; color: #010101 !important; font-weight: normal; line-height: 1.2; text-transform: none; font-family: 'radomir-tinkov-gilroy-extrabold';  }
