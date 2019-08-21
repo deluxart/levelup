@@ -1,29 +1,3 @@
-
-
-<style>
-    /* .SliderMainbox {
-       column-count: 6;
-        column-gap: 0px;
-        display: block;
-       background: #333 !important;
-        width: 100%;
-        height: auto;
-    } */
-    .SliderTarget {
-        opacity: 1;
-        transition: opacity 0.5s ease 0s;
-    }
-    .SliderTarget.checked {
-        opacity: 0.3;
-        transition: opacity 0.2s ease 0s;
-    }
-    .SliderTarget.force-checked {
-        opacity: 0.3;
-    }
-    .SliderTarget > div {
-        text-align: center;
-    }
-</style>
 <script>
 
     function hasClass(el, className)
@@ -101,7 +75,6 @@
         $saledClass = ( $i < $alreadySaled ) ? "force-checked" : "";
     ?>
         <div class="SliderTarget <?=$saledClass;?>" onclick="checkAvatar(this);">
-         <!--    <div><img src="/wp-content/uploads/2018/07/Icon-Orientation-Circles.svg" alt=""></div> -->
             <div><img src="https://levelup.ua/wp-content/uploads/2018/emojie/emojie-<?=$i;?>.jpg" alt=""></div>
         </div>
     <? } ?>

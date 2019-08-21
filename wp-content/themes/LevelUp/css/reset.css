@@ -7,7 +7,13 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 	background: transparent;
 }
 
-.test-class { border: 0;}
+/* For emojie block */
+.SliderTarget { opacity: 1; transition: opacity 0.5s ease 0s; }
+.SliderTarget.checked { opacity: 0.3; transition: opacity 0.2s ease 0s; }
+.SliderTarget.force-checked { opacity: 0.3; }
+.SliderTarget > div { text-align: center; }
+/* For emojie block */
+
 
 @-webkit-keyframes autofill { to { color: inherit; background: transparent; } }
 input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fill-mode: both; }

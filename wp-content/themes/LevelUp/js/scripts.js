@@ -586,8 +586,8 @@ jQuery('.dev-studio').each(function() {
 
 
 // Tooltip bootstrap
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();
+jQuery(document).ready(function(){
+    jQuery('[data-toggle="tooltip"]').tooltip();
 });
 // End Tooltip boostrap
 
@@ -627,33 +627,7 @@ jQuery(document).ready(function(){
 });
 // Табы для IT-Английский
 
-
-
-
 // Custom scrollbar
-
-        // (function($){
-
-        //         jQuery(document).ready(function() {
-        //                           $.mCustomScrollbar.defaults.scrollButtons.enable=true;
-        //         jQuery(".about-text").mCustomScrollbar({
-        //             scrollButtons:{
-        //                 enable:false,
-        //                 scrollType:"stepless",
-        //                 scrollAmount:"auto"
-        //             },
-        //             keyboard:{
-        //                 enable:true,
-        //                 scrollType:"stepless",
-        //                 scrollAmount:"auto"
-        //             },
-
-        //             theme:"dark-3"
-        //         });
-
-        //     });
-        // })(jQuery);
-
         (function($){
             $(window).on("load",function(){
 
@@ -679,10 +653,6 @@ jQuery(document).ready(function(){
 // End Custom scrollbar
 
 
-
-// Закрыт - label_39 _right_1y _pad50_3K _init_Tk notranslate
-// Открыт - label_39 _chat_3K _right_1y _pad50_3K notranslate
-
 jQuery(document).keydown(function(e) {
 
     var open_jivo = jQuery('.globalClass_ET .label_39').hasClass('_chat_3K');
@@ -691,22 +661,13 @@ jQuery(document).keydown(function(e) {
     }
 });
 
-
-
-
 jQuery( function(){
     jQuery('.mail_copy').click( function(){
         jQuery(this).select()
     })
 })
 
-
-
 // Counters for event page
-
-
-
-
 jQuery(document).ready(function () {
     var show = true;
  if (jQuery("#counters").length) {
@@ -730,10 +691,7 @@ jQuery(document).ready(function () {
     });
 };
 });
-
 // Counters for event page
-
-
 
 
 new WOW().init();
@@ -780,17 +738,6 @@ jQuery('.spoiler > .head').on('click', function(e){
   jQuery(this).toggleClass('active');
   e.preventDefault();
 });
-
-
-// let newPrice = jQuery('span.price-table-portfolios-new').length;
-// jQuery('.price-new-bottom').each(function() {
-//     var newPrice = jQuery(this).children('span.price-table-portfolios-new').length;
-//     if (newPrice <= 3) {
-//         jQuery(this).addClass('d-none');
-//         jQuery(this).closest('.table-price').children('p.price-new-top').addClass('d-none');
-//     }
-// });
-
 
 // For tables
 jQuery('#courses_schedulle_tbl .price-new-bottom').each(function(i) {
