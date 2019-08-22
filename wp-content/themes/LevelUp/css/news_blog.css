@@ -93,7 +93,7 @@ span.tg-item-term.language { display: none !important; }
 .posts_page .content {font-family: 'Gilroy'; font-weight: 600; }
 .posts_page .content .news .tg-item { border-radius: 0px; overflow: hidden; box-shadow: none; }
 .posts_page .content .news .tg-maren-new .tg-element-3 { padding-top: 0; padding-bottom: 0px; line-height: normal; }
-.srpw-meta { font-family: radomir-tinkov-gilroy-light; }
+.srpw-meta, .wp-tag-cloud li a { font-family: 'Gilroy'; font-weight: 400; }
 .tg-txt .tg-nav-font { font-weight: normal; }
 .posts_page .content .news .tg-item-content-holder { background: none !important; font-family: 'Gilroy'; }
 .posts_page .content .news .tg-maren-new .tg-item-content-holder[data-position="bottom"] { padding: 15px 0 0 0; min-height: 95px; }
