@@ -217,6 +217,9 @@ ul.num li:last-child { padding-bottom: 0; }
     font-family: 'Gilroy' !important;
     padding: 0 35px;
     margin-bottom: 40px;
+    font-weight: 600;
+    color: #15acf2;
+    text-align: center;
 }
 
 .postid-4407 #post-4407 p {
