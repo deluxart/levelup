@@ -35,7 +35,7 @@ span.tg-item-term.language { display: none !important; }
 .full_post h2 { letter-spacing: normal; font-size: 14px !important; text-transform: uppercase; letter-spacing: 2.4px; padding-bottom: 18px; color: #15acf2; }
 .full_post .news_sidebar { padding: 25px 0 35px 0; }
 .full_post .entry-header { text-align: center; }
-.full_post .entry-header h1 { color: #15acf2; font-weight: bold; }
+.full_post .entry-header h1 { color: #15acf2; font-weight: 600; }
 .full_post .container { max-width: 940px; }
 .full_post #content-page { max-width: 100%; position: relative; }
 .full_post .content-area { padding-left: 0; padding-bottom: 0 !important; }
