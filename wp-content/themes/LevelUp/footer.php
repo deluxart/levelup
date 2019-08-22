@@ -70,8 +70,6 @@
 </div>
 
 
-
-
 <div class="search-open-bg"></div>
 <div id="search-modal" class="search-open">
     <div class="btnClose"></div>
@@ -84,11 +82,6 @@
     </div>
     </div>
 </div>
-
-
-
-
-
 
 <!-- Модальное окно мероприятия -->
 <!-- <div class="event_modal">
@@ -112,15 +105,6 @@
 </div>
 <div class="event_modal-bg"></div> -->
 <!-- Модальное окно мероприятия -->
-
-
-
-
-
-
-
-
-
 
         <?php wp_footer(); ?>
         <?php echo $options[jivosite_code];?>

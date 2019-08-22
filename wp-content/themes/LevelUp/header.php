@@ -55,7 +55,7 @@
             </symbol>
         </svg>
 <div>
-<?php if (current_user_can('level_10')) { ?><div class="for_adm"><?php } ?>
+<!-- <?php if (current_user_can('level_10')) { ?><div class="for_adm"><?php } ?> -->
 
 <header id="header" class="fixed-top header-color">
 
@@ -422,6 +422,6 @@
 
 </nav>
 </header>
-<?php if (current_user_can('level_10')) { ?></div><?php } ?>
+<!-- <?php if (current_user_can('level_10')) { ?></div><?php } ?> -->
 
 	<div>
