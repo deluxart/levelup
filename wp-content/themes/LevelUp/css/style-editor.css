@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-.editor-styles-wrapper, .editor-post-title__block .editor-post-title__input { font-family: 'Gilroy' !important; line-height: normal; }
+.editor-styles-wrapper, .editor-post-title__block .editor-post-title__input { font-family: 'Gilroy' !important; font-weight: 300; font-style: normal; line-height: normal; }
 #content-news { width: 100%; }
 .editor-block-list__block > .editor-block-list__insertion-point { position: relative; top: 0; }
 .tc {text-align: center;}
