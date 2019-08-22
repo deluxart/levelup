@@ -17,7 +17,8 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 body.admin-bar #header { top: 32px; }
 
 @media (max-width: 782px) {
-body.admin-bar #header { top: 46px; }
+  body.admin-bar #header { top: 46px; }
+  #wpadminbar { position: fixed !important; }
 }
 
 
