@@ -1,60 +1,32 @@
 /* СЛАЙДЫ */
-.Slider_courses_block{
-
-min-height:83vh;
-
-
-
-}
-
-.Slider_courses_block .row {align-items: center;}
-
+.Slider_courses_block { min-height:83vh; }
+.Slider_courses_block .row { align-items: center; }
 
 @media (max-width:768px){
-  /* .course_slide {padding-top: 50px !important;} */
-  .Slider_courses_block .empty {display: none;}
-  .Slider_courses_block .row {align-items: normal !important;}
-  .course_slide {text-align: center !important; padding-top: 50px}
-.Slider_courses_block{min-height:90vh !important;}
-.start_slide {text-align: center !important;}
-.classic-slide-btn {text-align: center !important;}
-.start_slide {font-size: 18px !important;
-line-height: 22px !important;
-padding: 10px 0 20px 0;}
-
-
-/* .Slider_courses_block	{height:450px !important;} */
-
-
+    .Slider_courses_block .empty {display: none;}
+    .Slider_courses_block .row {align-items: normal !important;}
+    .course_slide {text-align: center !important; padding-top: 50px}
+    .Slider_courses_block{min-height:90vh !important;}
+    .start_slide {text-align: center !important;}
+    .classic-slide-btn {text-align: center !important;}
+    .start_slide {font-size: 18px !important;line-height: 22px !important; padding: 10px 0 20px 0;}
+    .Slider_courses_block.desktop {display:none !important;}
+    .text_course_3 {display: none;}
+    .java_slide{min-height: 0!important; background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, rgb(9, 161, 255) 0%, rgb(0, 204, 255) 100%) repeat scroll 0% 0%;}
 }
 
 /* @media (min-width:768px){ */
 
-@media (max-width:768px){
-.Slider_courses_block.desktop{
-	display:none !important;
-	}}
 
 @media (min-width:769px){
-.Slider_courses_block.mobile{
-	display:none !important;
-	}}
-
-@media (max-width:768px){
-.text_course_3 {display: none;}
-    }
+    .Slider_courses_block.mobile{ display:none !important; }
+}
 
 /* JAVA */
 @media (min-width:768px){
-.Slider_courses_block.java_slide{
-   background-image: url(https://levelup.ua/wp-content/uploads/2018/07/SLIDER-Java.jpg) !important;
+    .Slider_courses_block.java_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2018/07/SLIDER-Java.jpg) !important;}
+}
 
-
-}}
-
-@media (max-width:768px){
-    .java_slide{min-height: 0!important;
-   background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, rgb(9, 161, 255) 0%, rgb(0, 204, 255) 100%) repeat scroll 0% 0%;}}
 @media (min-width:1100px){
 .text_course_1.java { font-size:40px!important;	}
 }
