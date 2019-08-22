@@ -14,6 +14,12 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 .SliderTarget > div { text-align: center; }
 /* For emojie block */
 
+body.admin-bar #header { top: 32px; }
+
+@media (max-width: 782px) {
+body.admin-bar #header { top: 46px; }
+}
+
 
 @-webkit-keyframes autofill { to { color: inherit; background: transparent; } }
 input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fill-mode: both; }
