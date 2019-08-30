@@ -81,9 +81,7 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
 	z-index: 9999999; position: fixed; top: -50%; left: 50%; transform: translate(-50%,-50%); width: 100%; transition-duration: 500ms; display: none;
 }
 
-@media (min-width: 992px) {
-  .event_modal:before { content: ''; position: absolute; top: -50px; left: -50px; width: 511px; height: 542px; background: url(https://levelup.ua/wp-content/uploads/2019/08/cofe_pattern.png) no-repeat; }
-}
+.event_modal::before { content: ''; position: absolute; top: -50px; left: -50px; width: 511px; height: 542px; background: url(https://levelup.ua/wp-content/uploads/2019/08/cofe_pattern.png) no-repeat; }
 .event_modal.open { top: 50%; transition-duration: 500ms;
   /* overflow: hidden;  */
 }
