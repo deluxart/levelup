@@ -87,9 +87,10 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
 }
 .event_modal .cont { display: grid; grid-template-columns: auto 1fr; align-items: center;  grid-column-gap: 40px; }
 .event_modal .cont > div > h4 { letter-spacing: normal; font-size: 18px; color: #fff; line-height: normal; margin-bottom: 15px; }
+.event_modal .cont > div > h4 strong { background: #f5f34f; color: #000; font-weight: normal; white-space: nowrap; }
 .event_modal .cont > div > h4 span { display: inline-block; }
 .event_modal .cont > div.content { padding: 50px 0; }
-.event_modal .cont > div > img { width: 100%; max-width: 400px; display: block; margin: 0 auto; padding: 40px 0; }
+.event_modal .cont > div > img { width: 100%; max-width: 380px; display: block; margin: 0 auto; padding: 40px 0; }
 .event_modal .cont > div > h4 a { color: #f5f34f; text-decoration: underline; }
 .event_modal .cont > div > div.date-block { display: inline-block;padding: 20px 0; border-radius: 10px; box-shadow: 1.854px 5.706px 32.4px 7.6px rgba(0, 0, 0, 0.28);
 	background: #fff; position: relative; margin-bottom: 25px; }
