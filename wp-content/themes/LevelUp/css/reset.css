@@ -86,7 +86,7 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
   /* overflow: hidden;  */
 }
 .event_modal .cont { display: grid; grid-template-columns: auto 1fr; align-items: center;  grid-column-gap: 40px; }
-.event_modal .cont > div > h4 { letter-spacing: normal; font-size: 18px; color: #fff; line-height: normal; margin-bottom: 15px; }
+.event_modal .cont > div > h4 { letter-spacing: normal; font-size: 18px; color: #fff; line-height: normal; margin-bottom: 15px; font-weight: 300; }
 .event_modal .cont > div > h4 strong { color: #f5f34f; white-space: nowrap; }
 .event_modal .cont > div > h4 span { display: inline-block; }
 .event_modal .cont > div.content { padding: 50px 0; }
