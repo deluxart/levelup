@@ -126,7 +126,7 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
 .event_modal div.wpcf7-mail-sent-ok {display: block; background: #5944e84f; color: #fff; bottom: -52px; margin: 0; width: 100%; padding: 14px 15px; font-size: 11px; border: 0; border-radius: 15px 15px 0 0; }
 
 @media (max-width: 992px) {
-  .event_modal::before { display: none; }
+  .event_modal::before { display: none;  }
 	.event_modal { width: calc(100% - 60px); }
 	.event_modal .cont { grid-template-columns: 1fr; }
   /* .event_modal .cont > div > img { max-width: 200px; margin-top: 30px; } */
