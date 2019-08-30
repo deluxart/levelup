@@ -7,6 +7,9 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 	background: transparent;
 }
 
+.home-news-slider .slick-dots { display: none !important; }
+
+
 /* For emojie block */
 .SliderTarget { opacity: 1; transition: opacity 0.5s ease 0s; }
 .SliderTarget.checked { opacity: 0.3; transition: opacity 0.2s ease 0s; }
@@ -50,6 +53,8 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
     width: 40px;
     height: 40px;
 }
+
+.reg-btn a.sg-show-popup { box-shadow: none !important; }
 
 .reg-btn::after {
     content: '';
