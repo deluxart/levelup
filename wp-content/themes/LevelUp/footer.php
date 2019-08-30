@@ -88,7 +88,7 @@
 	<div class="cont">
 		<div><img src="https://levelup.ua/wp-content/uploads/2019/08/modal_coffe.png" alt=""></div>
 		<div class="content">
-			<h4>Реєструйтеся на <strogn>персональну зустріч</strong> <span>і приходь знайомитися!</span></h4>
+			<h4>Реєструйтеся на <strong>персональну зустріч</strong> <span>і приходь знайомитися!</span></h4>
 			<div class="date-block" style="display: none;">
 				<div><strong>10 серпня 10:00</strong>вул. Троїцька, 21Г</div>
 				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>

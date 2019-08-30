@@ -32,6 +32,39 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
 #reg-offer-two.reg-offer .container>div { top: -113px; }
 #reg-offer-two.reg-offer .container>.img img { top: -9px; }
 
+
+
+/*.not-btn a.sg-show-popup:hover { border: 0; background: none; box-shadow: none; }*/
+
+.not-btn { position: relative; }
+.not-btn p.reg-btn { position: absolute; bottom: 0; left: 50%; transform: translate(-50%,0%); background: #fff; padding: 20px 20px 0 20px; border-radius: 50px 50px 0 0; }
+.not-btn p.reg-btn { text-shadow: none; white-space: nowrap; }
+
+.reg-btn::before {
+    content: '';
+    position: absolute;
+    left: -39px;
+    bottom: -1px;
+    background: url(https://levelup.ua/wp-content/uploads/2019/08/left.svg);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+
+.reg-btn::after {
+    content: '';
+    position: absolute;
+    right: -39px;
+    bottom: -1px;
+    background: url(https://levelup.ua/wp-content/uploads/2019/08/right.svg);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
 @media (max-width: 992px) {
   #reg-offer-two.reg-offer .container>div.img { left: 0; width: 100%; text-align: center; max-width: 100%; }
   #reg-offer-two.reg-offer .container>.img img { margin: 0 auto; display: block; max-width: 200px; }
@@ -42,7 +75,13 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
 	box-shadow: 1.854px 5.706px 76.95px 18.05px rgba(0, 0, 0, 0.32); border-radius: 10px; position: relative; padding: 0px 55px; max-width: 900px; margin: 0 auto;
 	z-index: 9999999; position: fixed; top: -50%; left: 50%; transform: translate(-50%,-50%); width: 100%; transition-duration: 500ms; display: none;
 }
-.event_modal.open { top: 50%; transition-duration: 500ms; overflow: hidden; }
+
+@medix (min-width: 992px) {
+  .event_modal:before { content: ''; position: absolute; top: -50px; left: -50px; width: 511px; height: 542px; background: url(https://levelup.ua/wp-content/uploads/2019/08/cofe_pattern.png) no-repeat; }
+}
+.event_modal.open { top: 50%; transition-duration: 500ms;
+  /* overflow: hidden;  */
+}
 .event_modal .cont { display: grid; grid-template-columns: auto 1fr; align-items: center;  grid-column-gap: 40px; }
 .event_modal .cont > div > h4 { letter-spacing: normal; font-size: 18px; color: #fff; line-height: normal; margin-bottom: 15px; }
 .event_modal .cont > div > h4 span { display: inline-block; }
