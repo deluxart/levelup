@@ -774,7 +774,7 @@ jQuery('.saleRow .saleBottom').each(function(i) {
 
 // Модалка для мероприятия
 jQuery(document).ready(function(){
-    jQuery(".event_modal .close-icon, .event_modal-bg").click(function () {
+    jQuery(".event_modal .close-icon").click(function () {
     jQuery.cookie("popup", "", { expires:0, path: '/' });
 
             jQuery('.event_modal').removeClass("open");
