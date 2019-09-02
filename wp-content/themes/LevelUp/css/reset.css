@@ -130,6 +130,7 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
 }
 
 @media (max-width: 768px) {
+  .event_modal .cont > div > h4 {font-size: 22px; }
 	.event_modal .cont > div > div.date-block { grid-template-columns: 1fr; grid-row-gap: 20px; }
   .event_modal .cont > div > img { display: none; }
   .event_modal .cont > div > div.feed-form .form > div.last { grid-template-columns: 1fr; grid-gap: 15px; }
