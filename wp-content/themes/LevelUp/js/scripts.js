@@ -840,4 +840,4 @@ jQuery('#courses_schedulle_tbl tr').each(function() {
     } else if (course_line_id == 0){
         jQuery(this).removeClass('d-none');
     }
-}
+});
