@@ -819,3 +819,25 @@ var desc_short = function () {
 
   desc_short();
   // Сокращение заголовков у новостей
+
+
+
+
+
+
+//   jQuery(document).ready(function(){
+//     let course_line_id = jQuery('#courses_schedulle_tbl tr').attr('data-id')
+
+
+// });
+
+
+jQuery('#courses_schedulle_tbl tr').each(function() {
+    let course_line_id = jQuery(this).attr('data-id');
+
+    if (course_line_id == 1) {
+        jQuery(this).addClass('d-none');
+    } else if (course_line_id == 0){
+        jQuery(this).removeClass('d-none');
+    }
+}
