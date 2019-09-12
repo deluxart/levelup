@@ -371,10 +371,10 @@
                                                 <?php
                                                     $menuParameters = array(
                                                     //     Индивидуальные курсы
-                                                        'menu'            => '29',
+                                                        'menu'            => '2638',
                                                         'container'       => false,
                                                         'echo'            => false,
-                                                        'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
+                                                        'items_wrap'      => '<ul>%3$s</ul>',
                                                         'depth'           => 0,
                                                         'echo'            => true,
                                                         'before'          => '',
