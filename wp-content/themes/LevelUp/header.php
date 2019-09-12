@@ -374,7 +374,7 @@
                                                         'menu'            => '2638',
                                                         'container'       => false,
                                                         'echo'            => false,
-                                                        'items_wrap'      => '<ul>%3$s</ul>',
+                                                        'items_wrap'      => '<ul class="basic_links">%3$s</ul>',
                                                         'depth'           => 0,
                                                         'echo'            => true,
                                                         'before'          => '',

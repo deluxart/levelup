@@ -95,6 +95,15 @@ body.full-nav .menu { line-height:normal !important; font-weight: 100;  }
 .full-nav .menu .full_contacts a:not(:hover) {transition: background 0.4s; }
 .full_contacts li.read-link a::after {content: '\27F6';font-size: 14px;top: -2px;position: relative;left: 5px;}
 
+
+
+
+.full-nav .menu__item-link ul.basic_links > li > a { position: relative; padding-left: 18px; }
+.full-nav .menu__item-link ul.basic_links > li > a:before { font-family: FontAwesome; content: "\f105"; position: absolute; left: 0; color: var(--color-item-alt); top: 50%; transform: translateY(-50%); }
+.full-nav .menu__item-link ul.basic_links > li > a:hover { background: none; color: #15acf2 !important; border: 0; }
+
+
+
 .full-nav .menu__item-link ul { list-style:none; margin-left: 0; padding-left: 0; font-size: 13px;line-height: 31px; color: var(--color-quote); }
 .sidemenu ul { list-style: none;padding-left: 0;text-align: left; }
 ul.f_nav { padding: 0; list-style: none; }
