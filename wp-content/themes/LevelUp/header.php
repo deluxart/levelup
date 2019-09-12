@@ -384,19 +384,8 @@
                                                         'walker'          => '',
                                                         'walker_nav_menu_start_el'          => '',
                                                     );
-                                                    echo strip_tags(wp_nav_menu( $menuParameters ), '<a><i class="fa fa-angle-right" aria-hidden="true"></i> ' );
+                                                    echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
                                                 ?>
-                        <ul>
-							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>otkryt-nabor/"><i class="fa fa-angle-right" aria-hidden="true"></i> Открыт набор</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>dev-studio"><i class="fa fa-angle-right" aria-hidden="true"></i> Стажировка в DEV Studio</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>career-service"><i class="fa fa-angle-right" aria-hidden="true"></i> Career Service</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>aboutus/"><i class="fa fa-angle-right" aria-hidden="true"></i> О нас</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>reviews/"><i class="fa fa-angle-right" aria-hidden="true"></i> Отзывы</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>novosti/"><i class="fa fa-angle-right" aria-hidden="true"></i> Новости и мероприятия</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>blog/"><i class="fa fa-angle-right" aria-hidden="true"></i> IT-блог</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>vakansii/"><i class="fa fa-angle-right" aria-hidden="true"></i> Вакансии</a></li>
-
-                        </ul>
                         </div>
 
 
