@@ -1,7 +1,7 @@
 /**
  * jquery-social-share-bar
  * Copyright: Jesse Nieminen, Viima Solutions Oy
- * 
+ *
  * License: MIT
  * --------------------
  * Modified from https://github.com/ewebdev/jquery-share
@@ -101,8 +101,8 @@
 
     itemTemplate: function (props) {
       var iconClasses = {
-        'facebook': 'fab fa-facebook-f',
-        'telegram': 'fab fa-telegram-plane',
+        'facebook': 'fa fa-facebook-f',
+        'telegram': 'fa fa-paper-plane',
         'viber': 'fab fa-viber',
         'whatsapp': 'fab fa-whatsapp',
         'pinterest': 'fab fa-pinterest-p',
