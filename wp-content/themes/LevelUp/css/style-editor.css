@@ -6,7 +6,8 @@
 .fb {font-weight: bold;}
 .cb {color: #15acf2;}
 .column2 { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; }
-.column3 { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; }
+.column3 { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 20px; }
+.column5 { display: grid; grid-template-columns: repeat(5, 1fr); grid-column-gap: 20px; }
 
 
 
@@ -30,6 +31,7 @@
 @media (max-width: 768px) {
     .column2 {grid-template-columns: 1fr;}
     .column3 {grid-template-columns: 1fr;}
+    .column5 {grid-template-columns: 1fr;}
 }
 
 .single .w-90, .single .w-80, .single .w-70, .single .w-60 { margin-left: auto !important; margin-right: auto !important; }
