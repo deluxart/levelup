@@ -16,7 +16,7 @@ span.tg-item-term.language { display: none !important; }
 .single .status-publish .post-image span { display: none; }
 .posts_page .news-slider-top { margin-bottom: 30px; }
 .posts_page .news-slider-top .container { padding: 0; }
-.single .status-publish .entry-content { padding: 0; font-family: 'Gilroy'; font-weight: 300; font-style: normal; font-size: 17px; }
+.single .status-publish .entry-content { padding: 0; font-family: 'Gilroy'; font-weight: 300; font-style: normal; font-size: 19px; }
 .single .status-publish .entry-header, .posts_page .head h1 { font-family: 'Gilroy'; font-weight: 600; }
 .full_post strong, .full_post .entry-header h1 { font-family: 'Gilroy'; font-weight: 600; }
 .full_post .news_sidebar { /*background: url(https://uaitsmart.com/wp-content/uploads/2019/08/shadow_line.png) top repeat-x;*/ padding: 25px 0 35px 0; font-family: 'Gilroy'; font-weight: 300; font-style: normal; }
