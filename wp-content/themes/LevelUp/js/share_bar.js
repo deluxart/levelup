@@ -103,8 +103,8 @@
       var iconClasses = {
         'facebook': 'fa fa-facebook-f',
         'telegram': 'fa fa-paper-plane',
-        'viber': 'fab fa-viber',
-        'whatsapp': 'fab fa-whatsapp',
+        'viber': 'fa fa-viber',
+        'whatsapp': 'fa fa-whatsapp',
         'pinterest': 'fab fa-pinterest-p',
         'tumblr': 'fab fa-tumblr',
         'stumbleupon': 'fab fa-stumbleupon',

@@ -16,6 +16,19 @@ body.tag #share-bar { display: none !important; }
     left: -40px;
 }
 
+.fa.fa-viber::before {
+  content: '';
+  width: 16px;
+  position: absolute;
+  height: 16px;
+  background: url(https://levelup.ua/wp-content/uploads/2019/09/viber.svg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 2;
+  background-size: contain;
+}
+
 .sharing-providers {
   list-style-type: none;
 }
