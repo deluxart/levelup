@@ -13,7 +13,7 @@ body.tag #share-bar { display: none !important; }
     position: absolute;
     transform: rotate(-90deg);
     bottom: -66px;
-    left: -34px;
+    left: -40px;
 }
 
 .fa.fa-viber::before {
