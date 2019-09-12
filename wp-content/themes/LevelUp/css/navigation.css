@@ -96,10 +96,10 @@ body.full-nav .menu { line-height:normal !important; font-weight: 100;  }
 .full_contacts li.read-link a::after {content: '\27F6';font-size: 14px;top: -2px;position: relative;left: 5px;}
 
 
-.full-nav .menu__item-link ul.basic_links > li > a:hover { color: var(--color-item-alt); }
+.full-nav .menu__item-link ul.basic_links > li > a:hover { color: var(--color-link-hover); }
 .full-nav .menu__item-link ul.basic_links > li > a:before { font-family: FontAwesome; content: "\f105"; position: absolute; left: 0; color: var(--color-item-alt); top: 50%; transform: translateY(-50%); }
 .full-nav .menu__item-link ul.basic_links > li > a { position: relative; padding: 0 .5rem; transition: color 0.3s; }
-.full-nav .menu__item-link ul.basic_links > li > a:hover:before { color: var(--color-item-alt);}
+.full-nav .menu__item-link ul.basic_links > li > a:hover:before { color: var(--color-link-hover);}
 
 .full-nav .menu__item-link ul.basic_links > li > a:hover::after {
     opacity: 1;
