@@ -367,7 +367,25 @@
 
 
 
-						                        <div class="menu__item-link">
+						                    <div class="menu__item-link">
+                                                <?php
+                                                    $menuParameters = array(
+                                                    //     Индивидуальные курсы
+                                                        'menu'            => '29',
+                                                        'container'       => false,
+                                                        'echo'            => false,
+                                                        'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
+                                                        'depth'           => 0,
+                                                        'echo'            => true,
+                                                        'before'          => '',
+                                                        'after'           => '',
+                                                        'link_before'     => '',
+                                                        'link_after'      => '',
+                                                        'walker'          => '',
+                                                        'walker_nav_menu_start_el'          => '',
+                                                    );
+                                                    echo strip_tags(wp_nav_menu( $menuParameters ), '<a><i class="fa fa-angle-right" aria-hidden="true"></i> ' );
+                                                ?>
                         <ul>
 							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>otkryt-nabor/"><i class="fa fa-angle-right" aria-hidden="true"></i> Открыт набор</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>dev-studio"><i class="fa fa-angle-right" aria-hidden="true"></i> Стажировка в DEV Studio</a></li>
