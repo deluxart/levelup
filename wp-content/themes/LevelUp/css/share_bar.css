@@ -1,0 +1,138 @@
+#share-bar {
+  display: block;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -60px;
+}
+
+body.tag #share-bar { display: none !important; }
+
+#share-bar::after {
+    content: 'Поделиться:';
+    position: absolute;
+    transform: rotate(-90deg);
+    bottom: -66px;
+    left: -40px;
+}
+
+.sharing-providers {
+  list-style-type: none;
+}
+.sharing-providers {
+  padding: 0;
+  margin: 0;
+}
+.sharing-providers > li {
+  display: block;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  background: #15acf2;
+  /*transition: 0.5s all;*/
+}
+.sharing-providers.circle > li {
+  border-radius: 50%;
+  margin: 0 0 8px;
+  box-shadow: 1.854px 5.706px 24.3px 5.7px rgba(0, 0, 0, 0.1);
+}
+#share-bar.left {
+ left: 0;
+}
+#share-bar.left .sharing-providers > li {
+ margin-left: 0;
+}
+#share-bar.right {
+ right: 0;
+}
+#share-bar.right .sharing-providers > li {
+ margin-right: 0;
+}
+
+.sharing-providers > li > a {
+  text-decoration: none !important;
+  font-family: 'FontAwesome';
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  display: block;
+}
+.sharing-providers.circle > li > a {
+  border-radius: 50%;
+}
+.sharing-providers > li > a {
+  color: white;
+  font-size: 14px;
+}
+.sharing-providers > li > a,
+.sharing-providers > li > a:hover {
+  text-decoration: none;
+}
+
+#share-bar.animate .sharing-providers > li:hover {
+  transform: scale(1.03);
+}
+
+#share-bar.right.animate .sharing-providers > li:hover {
+  transform: translateX(-5px);
+}
+
+.sharing-providers > li.facebook {
+  background: #3b5998;
+}
+
+.sharing-providers > li.telegram {
+  background: #0088cc;
+}
+
+.sharing-providers > li.viber {
+  background: #59267c;
+}
+
+.sharing-providers > li.whatsapp {
+  background: #075e54;
+}
+
+.sharing-providers > li.googleplus {
+  background: #d14836;
+}
+
+.sharing-providers > li.twitter:hover {
+  background: #1da1f2;
+}
+
+.sharing-providers > li.linkedin:hover {
+  background: #0077B5;
+}
+
+.sharing-providers > li.tumblr:hover {
+  background: #2c4762;
+}
+
+.sharing-providers > li.digg:hover {
+  background: #333333;
+}
+
+.sharing-providers > li.reddit:hover {
+  background: #5f99cf;
+}
+
+.sharing-providers > li.pinterest:hover {
+  background: #cb2027;
+}
+
+.sharing-providers > li.stumbleupon:hover {
+  background: #EB4924;
+}
+
+.sharing-providers > li.email {
+  background: #E3A129;
+}
+
+@media (max-width: 768px) {
+  #share-bar {
+    display: none !important;
+}
+}

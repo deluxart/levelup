@@ -61,7 +61,7 @@ if($categories[0]){
 </div>
 
 	<div class="entry-content">
-
+    <div id="share-bar"></div>
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(

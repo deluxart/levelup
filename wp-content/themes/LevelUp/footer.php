@@ -123,7 +123,10 @@
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.spincrement.min.js"></script>
         <script type="text/javascript" scr="<?php echo get_template_directory_uri(); ?>/js/video.min.js"></script>
         <script type="text/javascript" scr="<?php echo get_template_directory_uri(); ?>/js/videojs-background.js"></script>
-
+		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/share_bar.js"></script>
+        <script>
+            jQuery('#share-bar').share();
+        </script>
         <div class="event_img-input" style="display:none">[text text-744 id:event_img]</div>
         <div class="link_liqpay-input" style="display:none">[text text-745 id:link_liqpay]</div>
         <div class="price-input" style="display:none">[text text-746 id:event_price]</div>
