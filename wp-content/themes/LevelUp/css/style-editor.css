@@ -8,6 +8,7 @@
 .column2 { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; }
 .column3 { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 20px; }
 .column5 { display: grid; grid-template-columns: repeat(5, 1fr); grid-column-gap: 20px; }
+.column5 img { box-shadow: 5px 15px 34px #0003; }
 
 
 
