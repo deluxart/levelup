@@ -1959,7 +1959,7 @@ section.slide .start_slide { font-weight: 600 !important; }
 .footer-img {background: none !important;}
 .footer-social-icon:hover {text-decoration: none;}
 
-#footer.site-footer {overflow: hidden !important;}
+#footer.site-footer {overflow: hidden !important;position: relative;}
 
 .icon-youtube img{background: url(https://levelup.ua/wp-content/uploads/2019/02/youtube.svg);background-repeat: no-repeat;background-size: 100% 200%;}
 .icon-instagram img{background: url(https://levelup.ua/wp-content/uploads/2019/02/insta.svg);background-repeat: no-repeat;background-size: 100% 200%;}
