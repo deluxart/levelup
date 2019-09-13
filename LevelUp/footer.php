@@ -109,18 +109,6 @@
         <?php wp_footer(); ?>
         <?php echo $options[jivosite_code];?>
         <?php echo $options[binotel_code];?>
-<!--
-		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scripts.js?12<?php echo date(get_option('date_format')); ?>"></script>
-		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/imagesloaded.pkgd.min.js"></script>
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/popper.min.js" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.maskedinput.js"></script>
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slick_slides.js"></script>
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.cookie.js"></script>
-		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.spincrement.min.js"></script>
-        <script type="text/javascript" scr="<?php echo get_template_directory_uri(); ?>/js/video.min.js"></script>
-        <script type="text/javascript" scr="<?php echo get_template_directory_uri(); ?>/js/videojs-background.js"></script>
-		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/share_bar.js"></script> -->
         <script>
             jQuery('#share-bar').share();
         </script>
