@@ -29,8 +29,6 @@
 
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?321<?php echo date(get_option('date_format')); ?>3">
-
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/greensock.js?ver=1.19.0"></script>
     <?php echo $options[gtm_code];?>
 
 </head>
