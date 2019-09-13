@@ -282,7 +282,20 @@ function LevelUp_scripts() {
 	wp_enqueue_style( 'LevelUp-fonts', LevelUp_fonts_url(), array(), null );
 
 	// Add Genericons, used in the main stylesheet.
-	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/assets/genericons/genericons.css', array(), '3.2' );
+    wp_enqueue_style( 'genericons', get_template_directory_uri() . '/assets/genericons/genericons.css', array(), '3.2' );
+
+
+    // Add Slick theme, used in the main stylesheet.
+    wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/assets/slick/slick-theme.css', array(), '3.2' );
+
+	// Add Slick, used in the main stylesheet.
+	wp_enqueue_style( 'slick', get_template_directory_uri() . '/assets/slick/slick.css', array(), '3.2' );
+
+    // Add Bootstrap, used in the main stylesheet.
+    wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/bootstrap/bootstrap.min.css', array(), '3.2' );
+
+    // Add Font Awesome, used in the main stylesheet.
+	wp_enqueue_style( 'fotnawesome', get_template_directory_uri() . '/assets/font-awesome.min.css', array(), '3.2' );
 
 	// Load our main stylesheet.
 	wp_enqueue_style( 'LevelUp-style', get_stylesheet_uri() );

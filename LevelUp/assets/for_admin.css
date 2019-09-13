@@ -1,3 +1,9 @@
 @import 'https://levelup.ua/wp-content/themes/LevelUp/assets/font-awesome.min.css';
 @import 'https://levelup.ua/wp-content/themes/LevelUp/css/gilroy-font.css';
 @import 'https://levelup.ua/wp-content/themes/LevelUp/css/news_blog.css';
+
+
+img[src*='.svg'] {
+    width: 100%;
+    height: auto;
+}
