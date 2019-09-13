@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
 });
  });
 // Конец - Поиск
-
+// }).delay(1000);
 jQuery('.sg-show-popup').click(function() {
 setTimeout(function(){
 		jQuery('.sgpb-popup-close-button-6').appendTo( jQuery('div#sgpb-popup-dialog-main-div') );
@@ -157,24 +157,6 @@ jQuery(".snj_sandwitch_btn_hide").click(function(){
 // Конец - меню для мобильных устройств
 
 
-// Скрипт для полноэкранного меню - начало
-		jQuery( "body" ).addClass( "fullscreen-nav" );
-
-		jQuery(".action--menu").click(function(){
-		    jQuery("body").addClass("full-nav");
-		    jQuery( "body" ).toggleClass( "fullscreen-nav" );
-		});
-
-		jQuery(".action--close").click(function(){
-		    setTimeout(function() {
-		        jQuery( "body" ).toggleClass( "fullscreen-nav" );
-		        jQuery("body").removeClass("full-nav");
-		       }, 800);
-		});
-
-// Скрипт для полноэкранного меню - Конец
-
-
 
 // Маска для инпута номера телефона
 jQuery(window).load(function() {
@@ -187,7 +169,7 @@ jQuery(window).load(function() {
 // Конец - Маска для инпута номера телефона
 
 
-setInterval(function(){jQuery('.saleRow').toggleClass('animate');}, 3000);
+setInterval(function(){jQuery('.saleRow').toggleClass('animate')}, 3000);
 
 jQuery(".SliderTarget").click(function(){
 	var fc = jQuery(this).hasClass('checked');
@@ -420,7 +402,7 @@ jQuery('.dev-studio').each(function() {
 
 
     var svgLine = $('#svg-line');
-            svgLine.offset({top: 0, left:0});
+            svgLine.offset({top: 0, left:0})
 
     var line12 = svgLine.find('.line-1-2'),
         line23 = svgLine.find('.line-2-3'),
@@ -475,7 +457,7 @@ jQuery(document).ready(function(){
 
         jQuery(this).addClass('current');
         jQuery("#"+tab_id).addClass('current');
-    });
+    })
 
 });
 // Табы для IT-Английский
@@ -516,9 +498,9 @@ jQuery(document).keydown(function(e) {
 
 jQuery( function(){
     jQuery('.mail_copy').click( function(){
-        jQuery(this).select();
-    });
-});
+        jQuery(this).select()
+    })
+})
 
 // Counters for event page
 jQuery(document).ready(function () {
@@ -649,7 +631,7 @@ jQuery(document).ready(function(){
             }, 200);
             jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
 
-    }, 12000);
+    }, 12000)
     }
     else {
       jQuery(".event_modal").hide();
@@ -672,6 +654,10 @@ var desc_short = function () {
 
   desc_short();
   // Сокращение заголовков у новостей
+
+
+
+
 
 jQuery('#courses_schedulle_tbl tr').each(function() {
     var course_line_id = jQuery(this).attr('data-id');
