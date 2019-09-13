@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
 });
  });
 // Конец - Поиск
-// }).delay(1000);
+
 jQuery('.sg-show-popup').click(function() {
 setTimeout(function(){
 		jQuery('.sgpb-popup-close-button-6').appendTo( jQuery('div#sgpb-popup-dialog-main-div') );
@@ -171,6 +171,7 @@ jQuery(".snj_sandwitch_btn_hide").click(function(){
 		        jQuery("body").removeClass("full-nav");
 		       }, 800);
 		});
+
 // Скрипт для полноэкранного меню - Конец
 
 
@@ -186,7 +187,7 @@ jQuery(window).load(function() {
 // Конец - Маска для инпута номера телефона
 
 
-setInterval(function(){jQuery('.saleRow').toggleClass('animate')}, 3000);
+setInterval(function(){jQuery('.saleRow').toggleClass('animate');}, 3000);
 
 jQuery(".SliderTarget").click(function(){
 	var fc = jQuery(this).hasClass('checked');

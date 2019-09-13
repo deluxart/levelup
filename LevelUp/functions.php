@@ -304,8 +304,8 @@ function LevelUp_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
     }
-    wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/assets/js/fs_menu.js', array( 'jquery' ), '20150330', true );
     wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/dist/scripts-all.min.js', array( 'jquery' ), '20150330', true );
+    wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/assets/js/fs_menu.js', array( 'jquery' ), '20150330', true );
     wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/assets/bootstrap/bootstrap.min.js','','1',true);
     wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/assets/slick/slick.min.js','','1',true);
     wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/assets/js/wow.min.js','','1',true);
