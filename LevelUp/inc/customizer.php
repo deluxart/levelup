@@ -324,7 +324,7 @@ add_action( 'wp_enqueue_scripts', 'LevelUp_color_scheme_css' );
  * @since Twenty Fifteen 1.0
  */
 function LevelUp_customize_control_js() {
-	wp_enqueue_script( 'color-scheme-control', get_template_directory_uri() . '/js/color-scheme-control.js', array( 'customize-controls', 'iris', 'underscore', 'wp-util' ), '20141216', true );
+	wp_enqueue_script( 'color-scheme-control', get_template_directory_uri() . '/assets/js/color-scheme-control.js', array( 'customize-controls', 'iris', 'underscore', 'wp-util' ), '20141216', true );
 	wp_localize_script( 'color-scheme-control', 'colorScheme', LevelUp_get_color_schemes() );
 }
 add_action( 'customize_controls_enqueue_scripts', 'LevelUp_customize_control_js' );
@@ -335,7 +335,7 @@ add_action( 'customize_controls_enqueue_scripts', 'LevelUp_customize_control_js'
  * @since Twenty Fifteen 1.0
  */
 function LevelUp_customize_preview_js() {
-	wp_enqueue_script( 'LevelUp-customize-preview', get_template_directory_uri() . '/js/customize-preview.js', array( 'customize-preview' ), '20141216', true );
+	wp_enqueue_script( 'LevelUp-customize-preview', get_template_directory_uri() . '/assets/js/customize-preview.js', array( 'customize-preview' ), '20141216', true );
 }
 add_action( 'customize_preview_init', 'LevelUp_customize_preview_js' );
 

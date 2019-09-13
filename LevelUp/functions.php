@@ -303,8 +303,14 @@ function LevelUp_scripts() {
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
-	}
-	wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20150330', true );
+    }
+    wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/assets/js/fs_menu.js', array( 'jquery' ), '20150330', true );
+    wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/dist/scripts-all.min.js', array( 'jquery' ), '20150330', true );
+    wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/assets/bootstrap/bootstrap.min.js','','1',true);
+    wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/assets/slick/slick.min.js','','1',true);
+    wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/assets/js/wow.min.js','','1',true);
+
+
 }
 add_action( 'wp_enqueue_scripts', 'LevelUp_scripts' );
 
@@ -830,16 +836,3 @@ add_action('admin_head', 'my_stylesheet1');
 
 // Options page for WP PM 20
 require get_template_directory() . '/inc/options_page.php';
-
-// add_action('admin_bar_menu', 'add_toolbar_items', 100);
-// function add_toolbar_items($admin_bar){
-//     $admin_bar->add_menu( array(
-//         'id'    => 'theme_options',
-//         'title' => 'Настройка',
-//         'href'  => '/wp-admin/admin.php?page=price_options',
-//         'meta'  => array(
-//             'title' => __('Настройка цен'),
-//         ),
-//     ));
-// }
-// End Options page for WP
