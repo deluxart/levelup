@@ -14,6 +14,7 @@ jQuery(".action--close").click(function(){
        }, 800);
 });
 
+'use strict';
 
 {
 class Menu {
