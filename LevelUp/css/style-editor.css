@@ -32,7 +32,7 @@
 @media (max-width: 768px) {
     .column2 {grid-template-columns: 1fr;}
     .column3 {grid-template-columns: 1fr;}
-    .column5 {grid-template-columns: 1fr;}
+    .column5 {grid-template-columns: 1fr 1fr;}
 }
 
 .single .w-90, .single .w-80, .single .w-70, .single .w-60 { margin-left: auto !important; margin-right: auto !important; }
