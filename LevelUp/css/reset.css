@@ -8,7 +8,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 }
 
 .home-news-slider .slick-dots { display: none !important; }
-
+.page-id-440 { font-family: 'Gilroy' !important; }
 
 /* For emojie block */
 .SliderTarget { opacity: 1; transition: opacity 0.5s ease 0s; }
