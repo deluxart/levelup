@@ -433,11 +433,13 @@ jQuery(function(){
   var topHead = jQuery(document).scrollTop();
   if (topHead > 70) {
   jQuery('.page-id-4713 #header').removeClass('header-color');
+  jQuery('.page-id-6586 #header').removeClass('header-color');
     jQuery('.home #header').removeClass('header-color');
     jQuery('.page-template-page-event #header').removeClass('header-color');
 
   } else {
     jQuery('.page-id-4713 #header').addClass('header-color');
+    jQuery('.page-id-6586 #header').addClass('header-color');
     jQuery('.home #header').addClass('header-color');
     jQuery('.page-template-page-event #header').addClass('header-color');
 }
