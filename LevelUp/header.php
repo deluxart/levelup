@@ -29,6 +29,8 @@
 
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?3212<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/conference.css?1<?php echo date(get_option('date_format')); ?>3">
+
     <?php echo $options[gtm_code];?>
 
 </head>

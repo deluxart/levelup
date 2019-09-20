@@ -26,7 +26,7 @@ body.admin-bar #header { top: 32px; }
 
 
 @-webkit-keyframes autofill { to { color: inherit; background: transparent; } }
-input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fill-mode: both; }
+input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fill-mode: both; animation-name: autofill; }
 
 .navigation.post-navigation { display: none !important; }
 
