@@ -316,6 +316,34 @@ function LevelUp_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'LevelUp_scripts' );
 
+
+function contact_styles() {
+    if ( is_page( 6586 ) ) {
+        //подключаем стили
+        wp_enqueue_style ( 'timeline', get_template_directory_uri()
+            . '/assets/timeline/css/style.css', array(), '1.0' );
+        //отключаем стили
+        wp_dequeue_style ( 'template' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'contact_styles' );
+
+function contact_scripts() {
+    if ( is_page( 6586 ) ) {
+        //подключаем стили
+        wp_enqueue_script( 'timeline', get_template_directory_uri() . '/assets/timeline/js/main.js', array( 'jquery' ), '20150330', true );
+        //отключаем стили
+        wp_dequeue_style ( 'template' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'contact_scripts' );
+
+
+
+
+
+
+
 /**
  * Add preconnect for Google Fonts.
  *
