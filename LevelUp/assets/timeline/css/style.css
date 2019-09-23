@@ -43,6 +43,10 @@
             -ms-flex-order:1;
             order:1;
             margin-left:calc(5% - 9px);
+            background: #ffffff;
+            border: 3px solid #eaff00;
+            top: 23px;
+            position: relative;
             will-change:transform}
 
             .cd-timeline__block:nth-child(even) .cd-timeline__img{margin-right:calc(5% - 9px)}
