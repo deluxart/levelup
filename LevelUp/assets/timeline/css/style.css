@@ -48,8 +48,6 @@
             .cd-timeline__block:nth-child(even) .cd-timeline__img{margin-right:calc(5% - 9px)}
         }
 
-        .cd-timeline__img--picture{background-color:hsl(111, 51%, 60%);background-color:var(--cd-color-4)}.cd-timeline__img--movie{background-color:hsl(356, 53%, 49%);background-color:var(--cd-color-5)}.cd-timeline__img--location{background-color:hsl(47, 85%, 61%);background-color:var(--cd-color-6)}
-
         .cd-timeline__content{
             -ms-flex-positive:1;
             flex-grow:1;
