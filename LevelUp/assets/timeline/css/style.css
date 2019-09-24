@@ -36,7 +36,7 @@
 
 @media (min-width: 64rem) {
 
-    .timeline__container: :before {
+    .timeline__container::before {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -58,7 +58,7 @@
 
 @media (min-width: 64rem) {
 
-    .timeline__block: nth-child(even) {
+    .timeline__block:nth-child(even) {
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
 }
@@ -105,7 +105,7 @@
             will-change: transform;
 }
 
-            .timeline__block: nth-child(even) .timeline__dot {
+            .timeline__block:nth-child(even) .timeline__dot {
     margin-right: calc(5% - 9px);
 }
     }
@@ -136,7 +136,7 @@
     }
 
 
-.timeline__content: :before {
+.timeline__content::before {
     content: '';
     position: absolute;
     top: 16px;
