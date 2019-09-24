@@ -670,3 +670,11 @@ jQuery('#courses_schedulle_tbl tr').each(function() {
         jQuery(this).removeClass('d-none');
     }
 });
+
+
+
+jQuery('.conf_tabs > div').click(function(event) {
+    event.preventDefault();
+    jQuery('.conf_tabs > div').removeClass('active');
+    jQuery(this).addClass('active');
+});
