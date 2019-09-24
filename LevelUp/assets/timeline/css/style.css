@@ -80,7 +80,7 @@
 }
 
 
-    @media (min-width:  64rem) {
+    @media (min-width: 64rem) {
 
         .timeline__dot {
 
@@ -165,7 +165,7 @@
 .timeline__content::before {
     top: 24px;
 }
-.timeline__block:nth-child(odd) .timeline__content::before {
+.timeline__block::nth-child(odd) .timeline__content::before {
     right: auto;
     left:  calc(100% - -7px);
     width: 0;
