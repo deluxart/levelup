@@ -77,7 +77,7 @@
             will-change: transform;
         }
 
-        .timeline__block::nth-child(even) .timeline__dot {
+        .timeline__block:nth-child(even) .timeline__dot {
             margin-right: calc(5% - 9px);
         }
     }
