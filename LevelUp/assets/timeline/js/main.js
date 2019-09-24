@@ -2,9 +2,9 @@
   // Vertical Timeline - by CodyHouse.co
 	function VerticalTimeline( element ) {
 		this.element = element;
-		this.blocks = this.element.getElementsByClassName("cd-timeline__block");
-		this.images = this.element.getElementsByClassName("cd-timeline__img");
-		this.contents = this.element.getElementsByClassName("cd-timeline__content");
+		this.blocks = this.element.getElementsByClassName("timeline__block");
+		this.images = this.element.getElementsByClassName("timeline__dot");
+		this.contents = this.element.getElementsByClassName("timeline__content");
 		this.offset = 0.8;
 		this.hideBlocks();
 	};
@@ -18,8 +18,8 @@
 		for( var i = 0; i < this.blocks.length; i++) {
 			(function(i){
 				if( self.blocks[i].getBoundingClientRect().top > window.innerHeight*self.offset ) {
-					self.images[i].classList.add("cd-timeline__img--hidden"); 
-					self.contents[i].classList.add("cd-timeline__content--hidden"); 
+					self.images[i].classList.add("timeline__dot--hidden");
+					self.contents[i].classList.add("timeline__content--hidden");
 				}
 			})(i);
 		}
@@ -32,18 +32,18 @@
 		var self = this;
 		for( var i = 0; i < this.blocks.length; i++) {
 			(function(i){
-				if( self.contents[i].classList.contains("cd-timeline__content--hidden") && self.blocks[i].getBoundingClientRect().top <= window.innerHeight*self.offset ) {
+				if( self.contents[i].classList.contains("timeline__content--hidden") && self.blocks[i].getBoundingClientRect().top <= window.innerHeight*self.offset ) {
 					// add bounce-in animation
-					self.images[i].classList.add("cd-timeline__img--bounce-in");
-					self.contents[i].classList.add("cd-timeline__content--bounce-in");
-					self.images[i].classList.remove("cd-timeline__img--hidden");
-					self.contents[i].classList.remove("cd-timeline__content--hidden");
+					self.images[i].classList.add("timeline__dot--bounce-in");
+					self.contents[i].classList.add("timeline__content--bounce-in");
+					self.images[i].classList.remove("timeline__dot--hidden");
+					self.contents[i].classList.remove("timeline__content--hidden");
 				}
 			})(i);
 		}
 	};
 
-	var verticalTimelines = document.getElementsByClassName("js-cd-timeline"),
+	var verticalTimelines = document.getElementsByClassName("js-timeline"),
 		verticalTimelinesArray = [],
 		scrolling = false;
 	if( verticalTimelines.length > 0 ) {
