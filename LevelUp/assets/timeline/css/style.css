@@ -1,14 +1,11 @@
 .timeline {
     overflow: hidden;
     padding: 2em 0;
-    padding: var(--space-lg) 0;
     color: hsl(207,  10%,  55%);
-    color: var(--color-3);
     background-color: hsl(205,  38%,  93.45%);
-    background-color: hsl(var(--color-2-h),  var(--color-2-s),  calc(var(--color-2-l)*1.05));
 }
 .timeline::before {
-    display: none;
+    display: none !important;
 }
 .timeline h2 {
     font-weight: 700
@@ -16,7 +13,6 @@
 .timeline__container  {
     position: relative;
     padding: 1.25em 0;
-    padding: var(--space-md) 0
 }
 .timeline__container::before {
     content: '';
@@ -44,7 +40,6 @@
     position: relative;
     z-index: 1;
     margin-bottom: 2em;
-    margin-bottom: var(--space-lg);
 }
 .timeline__block:last-child {
     margin-bottom: 0;
@@ -84,27 +79,16 @@
 
 
         .timeline__content {
-
             -ms-flex-positive: 1;
-
             flex-grow: 1;
-
             position: relative;
-
             margin-left: 1.25em;
-
             margin-left: 5px;
-
             border-radius: 0.25em;
-
             background:  #4c4c4c;
-
             padding:  30px;
-
             border-right:  7px solid #eaff00;
-
             border-left:  none;
-
     }
 
 
@@ -122,7 +106,6 @@
 
 .timeline__content h2 {
     color: hsl(206,  21%,  24%);
-    color: var(--color-1);
 }
 @media (min-width: 64rem) {
     .timeline__content {
@@ -148,7 +131,6 @@
 }
 .timeline__date {
     color: hsla(207,  10%,  55%,  0.7);
-    color: hsla(var(--color-3-h),  var(--color-3-s),  var(--color-3-l),  0.7);
 }
 @media (min-width: 64rem) {
     .timeline__date {
