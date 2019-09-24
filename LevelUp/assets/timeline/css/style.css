@@ -7,9 +7,6 @@
 .timeline::before {
     display: none !important;
 }
-.timeline h2 {
-    font-weight: 700
-}
 .timeline__container  {
     position: relative;
     padding: 1.25em 0;
