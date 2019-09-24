@@ -673,8 +673,18 @@ jQuery('#courses_schedulle_tbl tr').each(function() {
 
 
 
-jQuery('.conf_tabs > div').click(function(event) {
+jQuery('.conf_tabs > div.first_tab').click(function(event) {
     event.preventDefault();
     jQuery('.conf_tabs > div').removeClass('active');
     jQuery(this).addClass('active');
+    jQuery('.timeline__container.two_tab_content').hide().removeClass('active');
+    jQuery('.timeline__container.first_tab_content').show().addClass('active');
+});
+
+jQuery('.conf_tabs > div.two_tab').click(function(event) {
+    event.preventDefault();
+    jQuery('.conf_tabs > div').removeClass('active');
+    jQuery(this).addClass('active');
+    jQuery('.timeline__container.first_tab_content').hide().removeClass('active');
+    jQuery('.timeline__container.two_tab_content').show().addClass('active');
 });
