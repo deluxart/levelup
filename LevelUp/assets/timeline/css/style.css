@@ -9,7 +9,7 @@
 }
 .timeline__container  {
     position: relative;
-    padding: 1.25em 0;
+    padding: 46px 0 1.25em 0;
 }
 .timeline__container::before {
     content: '';
