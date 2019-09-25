@@ -1,0 +1,52 @@
+.it-conference span.wpcf7-not-valid-tip { position: absolute; right: 0; top: 0; margin: 0; }
+.it-conference .wpcf7-form-control-wrap input { width: 100%; }
+.it-conference #conf_about .content .block .image { position: relative; }
+
+.it-conference #conf_about .content .block.block_one .image:before { position: absolute; width: 592px; height: 537px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_1.png); }
+.it-conference #conf_about .content .block.block_two .image:before { position: absolute; width: 62px; height: 284px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_2.png); left: 150px;
+    z-index: 1; }
+    .it-conference #conf_about .content .block.block_two { margin: 60px 0; }
+.it-conference #conf_about .content .block.block_three .image:before { position: absolute; width: 444px; height: 280px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_3.png); left: 50%; top: 0; transform: translate(-56% , -41%);  }
+
+
+@media (max-width: 1440px) {
+	.page-id-6586 .container {
+    	max-width: 1200px;
+	}
+
+	.it-conference h3 { font-size: 21px; }
+	.it-conference #conf_about .block.block_one .text { padding: 25px; }
+	.it-conference #conf_about .block-four-columns > div { font-size: 18px; }
+	.it-conference #conf_about .block-four-columns { margin-bottom: 38px; }
+	.it-conference #conf_about .block-four-columns { margin-top: 20px; }
+
+
+.it-conference #conf_program .content .cont_block_spiker { grid-template-columns: 1fr; }
+.it-conference #conf_program .content .cont_block_spiker .photo { margin-top: -60px; }
+.it-conference #conf_program .content .cont_block_spiker .photo img { width: 64px; border: 5px solid #eaff00; border-radius: 50%; }
+
+.it-conference #conf_program .content .two_tab_content .cont_block_spiker .photo img { border-color: #00baff;  }
+
+
+	.it-conference #worth_coming .content > div.block .text p { font-size: 17px; }
+	.it-conference #worth_coming .content > div.block .text h4 { font-size: 24px; margin-bottom: 20px; }
+	.it-conference #conf_feedback .content > .text ul.feed_list > li p { font-size: 19px; line-height: normal; }
+
+
+
+}
+
+
+@media (max-width: 768px) {
+	.it-conference #conf_counters .content .num { font-size: 60px; letter-spacing: -10px; }
+	.it-conference #conf_about .block { grid-template-columns: 1fr; }
+
+	.it-conference #conf_about .content { width: 100%; max-width: 720px; margin: 0 auto; display: block; }
+	.it-conference #conf_why .content { grid-template-columns: 1fr; }
+	.it-conference #conf_feedback .content { grid-template-columns: 1fr; }
+
+	.it-conference #conf_why h2 { margin-bottom: 0; }
+
+
+	.it-conference #conf_partners .content { grid-template-columns: 1fr 1fr; }
+}
