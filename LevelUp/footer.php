@@ -34,12 +34,6 @@
                         dynamic_sidebar('footer-3');
                     ?>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                    <?php
-                    if ( function_exists('dynamic_sidebar') )
-                        dynamic_sidebar('footer-4');
-                    ?>
-            </div>
         </div>
     </div>
 	</footer><!-- .site-footer -->
