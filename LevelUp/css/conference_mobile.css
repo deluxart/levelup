@@ -2,6 +2,10 @@
 .it-conference .wpcf7-form-control-wrap input { width: 100%; }
 .it-conference #conf_about .content .block .image { position: relative; }
 
+.it-conference .btn-blue a.sg-show-popup { background-image: -moz-linear-gradient(180deg, #8a00ff 1%, #0072ff 100%); background-image: -webkit-linear-gradient(180deg, #8a00ff 1%, #0072ff 100%); background-image: -ms-linear-gradient(180deg, #8a00ff 1%, #0072ff 100%); box-shadow: 0px 25px 33.95px 1.05px rgba(54, 27, 90, 0.57); border: 0 !important; }
+.it-conference #conf_partners .block_btn { position: relative; background: none; left: auto; bottom: auto; padding: 0; text-align: center;}
+
+
 .it-conference #conf_about .content .block.block_one .image:before { position: absolute; width: 347px; height: 312px; content: '';
     background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_1.png);
     top: -50px;
