@@ -96,4 +96,14 @@
     .it-conference #conf_about .block-four-columns > div:nth-child(even) { top: 0;}
     .it-conference #conf_about .block-four-columns > div:nth-child(even):before { display: none; }
     .it-conference #conf_about .block-four-columns > div:last-child:after { display: none; }
+
+    .it-conference #conf_counters .content { grid-template-columns: 1fr 1fr; }
+    .it-conference #conf_about { padding-top: 30px; }
+    .it-conference #conf_about .block { grid-row-gap: 40px; }
+    .it-conference #conf_about .block.block_two .image > div:before { background-size: contain; }
+
+    .it-conference #conf_about .content .block.block_three .image:before { transform: translate(-56% , -28%); width: 301px; height: 188px; }
+
+    .it-conference #for_whom .content { grid-template-columns: 1fr; }
+    .it-conference #for_whom { padding-bottom: 30px; }
 }
