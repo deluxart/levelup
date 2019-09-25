@@ -6,7 +6,7 @@
 
 .page-id-6586 #main { padding-top: 0 !important; }
 
-/* @media (min-width: 1200px) { .page-id-6586 .container { max-width: 1440px; } } */
+@media (min-width: 1200px) { .page-id-6586 .container { max-width: 1200px; } }
 .it-conference img { display: block; }
 .it-conference h3 { font-size: 28px; font-weight: 600; line-height: normal; margin-bottom: 20px; }
 .it-conference #conf_banner { position: relative; }
