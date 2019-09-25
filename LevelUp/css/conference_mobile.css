@@ -64,6 +64,36 @@
 	.it-conference #conf_why h2 { margin-bottom: 0; }
 
 
-    .it-conference #conf_partners .content { grid-template-columns: 1fr 1fr; }
+    .it-conference #conf_partners .content { grid-template-columns: 1fr 1fr; grid-gap: 30px; }
     .it-conference #conf_banner .bg_image { background: url(https://levelup.ua/wp-content/uploads/2019/09/NEW_IT_768x800.jpg)}
+
+    .it-conference #conf_banner .container { top: auto; bottom: 0;  transform: none; left: auto; }
+    .it-conference #conf_banner .content { grid-template-columns: 1fr;}
+    .it-conference #conf_banner .content h1 { display: none; }
+    .it-conference #conf_banner .content > div .event-date { display: none; }
+
+    .it-conference #conf_program .content .conf_tabs > div.first_tab { padding: 15px 20px; }
+    .it-conference #conf_program .content .conf_tabs h3 { font-size: 16px; }
+    .timeline__content { border-right: 0; border-left: 7px solid #eaff00; }
+    .it-conference #conf_program .content .timeline__container::after { left: 14px; }
+
+    .it-conference #worth_coming .content { grid-template-columns: 1fr; }
+    .it-conference #conf_feedback { padding-bottom: 50px; }
+
+    .it-conference #conf_feedback .content > .text { padding: 25px 30px; }
+    .it-conference #conf_feedback .content > .text ul.feed_list > li { grid-template-columns: 64px 1fr; grid-column-gap: 20px; }
+
+    .it-conference #conf_program h2, .it-conference #for_whom h2, .it-conference #conf_partners h2, .it-conference #conf_why h2 { font-size: 32px; }
+
+    .it-conference #conf_why { padding-top: 80px; }
+    .it-conference #conf_why .content ul.arrow_list {  margin-top: 50px; }
+
+    .it-conference #conf_about .block-four-columns { grid-template-columns: 1fr; }
+    .it-conference #conf_about .block-four-columns > div .white_block { display: none; }
+    .it-conference #conf_about .block-four-columns > div:after { left: 0; }
+    .it-conference #conf_about .block-four-columns > div .dot { left: -4px;}
+    .it-conference #conf_about { padding-bottom: 60px; }
+    .it-conference #conf_about .block-four-columns > div:nth-child(even) { top: 0;}
+    .it-conference #conf_about .block-four-columns > div:nth-child(even):before { display: none; }
+    .it-conference #conf_about .block-four-columns > div:last-child:after { display: none; }
 }
