@@ -31,9 +31,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?1323<?php echo date(get_option('date_format')); ?>3">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/conference.css?1<?php echo date(get_option('date_format')); ?>3">
 
-    <?php if (current_user_can('level_10')) { ?>
       <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/conference_mobile.css?1<?php echo date(get_option('date_format')); ?>3124">
-    <?php } ?>
 
     <?php echo $options[gtm_code];?>
 
