@@ -54,7 +54,7 @@
 
 
 @media (max-width: 768px) {
-	.it-conference #conf_counters .content .num { font-size: 60px; letter-spacing: -10px; }
+	.it-conference #conf_counters .content .num { font-size: 60px; letter-spacing: -10px; line-height: 90px; }
 	.it-conference #conf_about .block { grid-template-columns: 1fr; }
 
 	.it-conference #conf_about .content { width: 100%; max-width: 720px; margin: 0 auto; display: block; }
@@ -65,9 +65,9 @@
 
 
     .it-conference #conf_partners .content { grid-template-columns: 1fr 1fr; grid-gap: 30px; }
-    .it-conference #conf_banner .bg_image { background: url(https://levelup.ua/wp-content/uploads/2019/09/NEW_IT_768x800.jpg)}
+    .it-conference #conf_banner .bg_image { background: url(https://levelup.ua/wp-content/uploads/2019/09/NEW_IT_768x800.jpg); background-size: contain; padding: 0; }
 
-    .it-conference #conf_banner .container { top: auto; bottom: 0;  transform: none; left: auto; }
+    .it-conference #conf_banner .container { top: auto; bottom: 30px;  transform: none; left: auto; }
     .it-conference #conf_banner .content { grid-template-columns: 1fr;}
     .it-conference #conf_banner .content h1 { display: none; }
     .it-conference #conf_banner .content > div .event-date { display: none; }
