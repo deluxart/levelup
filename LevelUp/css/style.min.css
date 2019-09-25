@@ -202,6 +202,7 @@ background-size: cover !important;}
 .prepod-course .pilugin {background-image: url(https://levelup.ua/wp-content/uploads/2018/05/pilyugin-min.png) !important;}
 .prepod-course .stepanenko {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/stepanenko-min-2.png) !important;}
 .prepod-course .blajivskii {background-image: url(https://levelup.ua/wp-content/uploads/2019/03/blajivskii.png) !important; border-radius: 50% !important;}
+.prepod-course .blajivskii img { border-radius: 50% !important;}
 .prepod-course .vetryakov {background-image: url(https://levelup.ua/wp-content/uploads/2019/09/vetryakov.jpg) !important;}
 .prepod-course .kalashnik {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/prepod-kalashnik.png) !important;}
 .prepod-course .koskor {background-image: url(https://levelup.ua/wp-content/uploads/2018/03/koskor-min.png) !important;}
