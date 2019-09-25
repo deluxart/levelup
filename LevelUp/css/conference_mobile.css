@@ -1,6 +1,11 @@
 .it-conference span.wpcf7-not-valid-tip { position: absolute; right: 0; top: 0; margin: 0; }
 .it-conference .wpcf7-form-control-wrap input { width: 100%; }
 .it-conference #conf_about .content .block .image { position: relative; }
+	.it-conference #worth_coming .content > div.block .text h4 { font-size: 24px; margin-bottom: 20px; }
+	.it-conference #conf_feedback .content > .text ul.feed_list > li p { font-size: 19px; line-height: normal; }
+
+
+
 
 .it-conference .btn-blue a.sg-show-popup { background-image: -moz-linear-gradient(180deg, #8a00ff 1%, #0072ff 100%); background-image: -webkit-linear-gradient(180deg, #8a00ff 1%, #0072ff 100%); background-image: -ms-linear-gradient(180deg, #8a00ff 1%, #0072ff 100%); box-shadow: 0px 25px 33.95px 1.05px rgba(54, 27, 90, 0.57); border: 0 !important; }
 .it-conference #conf_partners .block_btn { position: relative; background: none; left: auto; bottom: auto; padding: 0; text-align: center; transform: none;}
@@ -43,9 +48,6 @@
 
 
 	.it-conference #worth_coming .content > div.block .text p { font-size: 17px; }
-	.it-conference #worth_coming .content > div.block .text h4 { font-size: 24px; margin-bottom: 20px; }
-	.it-conference #conf_feedback .content > .text ul.feed_list > li p { font-size: 19px; line-height: normal; }
-
 
 
 }
