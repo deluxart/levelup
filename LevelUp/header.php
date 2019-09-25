@@ -28,11 +28,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
 
     <?php wp_head(); ?>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?3212<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?32112323<?php echo date(get_option('date_format')); ?>3">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/conference.css?1<?php echo date(get_option('date_format')); ?>3">
 
     <?php if (current_user_can('level_10')) { ?>
-      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/conference_mobile.css?1<?php echo date(get_option('date_format')); ?>3">
+      <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/conference_mobile.css?1<?php echo date(get_option('date_format')); ?>3124">
     <?php } ?>
 
     <?php echo $options[gtm_code];?>
