@@ -64,5 +64,6 @@
 	.it-conference #conf_why h2 { margin-bottom: 0; }
 
 
-	.it-conference #conf_partners .content { grid-template-columns: 1fr 1fr; }
+    .it-conference #conf_partners .content { grid-template-columns: 1fr 1fr; }
+    .it-conference #conf_banner .bg_image { background: url(https://levelup.ua/wp-content/uploads/2019/09/NEW_IT_768x800.jpg)}
 }
