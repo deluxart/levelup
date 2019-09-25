@@ -78,7 +78,7 @@
     .it-conference #conf_program .content .timeline__container::after { left: 14px; }
 
     .it-conference #worth_coming .content { grid-template-columns: 1fr; }
-    .it-conference #conf_feedback { padding-bottom: 50px; }
+    .it-conference #conf_feedback { padding: 20px 0; }
 
     .it-conference #conf_feedback .content > .text { padding: 25px 30px; }
     .it-conference #conf_feedback .content > .text ul.feed_list > li { grid-template-columns: 64px 1fr; grid-column-gap: 20px; }
@@ -106,4 +106,8 @@
 
     .it-conference #for_whom .content { grid-template-columns: 1fr; }
     .it-conference #for_whom { padding-bottom: 30px; }
+
+    .it-conference #conf_about .content .block.block_two { margin-bottom: 30px; }
+    .it-conference #conf_why .content .image > div:before { left: 133px; }
+    .it-conference #conf_why .content .image { padding-left: 78px; }
 }
