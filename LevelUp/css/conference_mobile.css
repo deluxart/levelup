@@ -58,7 +58,8 @@
 	.it-conference #conf_about .block { grid-template-columns: 1fr; }
 
 	.it-conference #conf_about .content { width: 100%; max-width: 720px; margin: 0 auto; display: block; }
-	.it-conference #conf_why .content { grid-template-columns: 1fr; }
+    .it-conference #conf_why .content { grid-template-columns: 1fr; }
+    .it-conference #conf_why { overflow: hidden;}
 	.it-conference #conf_feedback .content { grid-template-columns: 1fr; }
 
 	.it-conference #conf_why h2 { margin-bottom: 0; }
@@ -108,6 +109,6 @@
     .it-conference #for_whom { padding-bottom: 30px; }
 
     .it-conference #conf_about .content .block.block_two { margin-bottom: 30px; }
-    .it-conference #conf_why .content .image > div:before { left: 133px; }
+    .it-conference #conf_why .content .image > div:before { left: -133px; }
     .it-conference #conf_why .content .image { padding-left: 78px; }
 }
