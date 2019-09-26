@@ -694,13 +694,13 @@ jQuery('.conf_tabs > div.two_tab').click(function(event) {
 
 
 
-// Javascript to enable link to tab
-var url = document.location.toString();
-if (url.match('#')) {
-    jQuery('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
-}
+// // Javascript to enable link to tab
+// var url = document.location.toString();
+// if (url.match('#')) {
+//     jQuery('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
+// }
 
-// Change hash for page-reload
-jQuery('.nav-tabs a').on('shown.bs.tab', function (e) {
-    window.location.hash = e.target.hash;
-})
+// // Change hash for page-reload
+// jQuery('.nav-tabs a').on('shown.bs.tab', function (e) {
+//     window.location.hash = e.target.hash;
+// })
