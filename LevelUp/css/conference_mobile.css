@@ -63,7 +63,7 @@
 
 
     .it-conference #conf_partners .content { grid-template-columns: 1fr 1fr; grid-gap: 30px; }
-    .it-conference #conf_banner .bg_image { background: url(https://levelup.ua/wp-content/uploads/2019/09/NEW_IT_768x800.jpg); background-size: contain; padding: 0; }
+    .it-conference #conf_banner .bg_image { background: url(https://levelup.ua/wp-content/uploads/2019/09/NEW_IT_768x1000.jpg); background-size: contain; padding: 0; }
 
     .it-conference #conf_banner .container { top: auto; bottom: 30px;  transform: none; left: auto; }
     .it-conference #conf_banner .content { grid-template-columns: 1fr;}
