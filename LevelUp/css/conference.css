@@ -107,11 +107,9 @@
 .it-conference #conf_program .content .two_tab_content .timeline__block:nth-child(2n+1) .timeline__content::before { border-left-color: #00baff; border-right-color: transparent; }
 .it-conference #conf_program .content .two_tab_content.timeline__container::after { background: #00baff !important; }
 .it-conference #conf_program .content .block_time { text-align: center; }
-<<<<<<< HEAD
+
 .it-conference #conf_program .content .block_time > div { background: #6937dd; color: #fff; line-height: normal; display: inline-block; border-radius: 4px; text-align: center; padding: 5px 30px; position: relative; z-index: 3; }
-=======
-.it-conference #conf_program .content .block_time > div { background: #6937dd; color: #fff; display: inline-block; border-radius: 4px; text-align: center; padding: 20px 30px; position: relative; z-index: 3; }
->>>>>>> a88e57eac0cf386247dbdf0ae5646d900b7f9c8c
+
 .it-conference #conf_program .content .block_time > div h4 { font-size: 18px; color: #fff; }
 .it-conference #conf_program .content .timeline__block:nth-child(2n) .cont_block_spiker { display: grid; grid-template-columns: 1fr auto; text-align: left; }
 .it-conference #conf_program .content .timeline__block:nth-child(2n) .cont_block_spiker > div.photo { grid-column: 2/3; grid-row: 1; }
