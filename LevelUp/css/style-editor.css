@@ -221,6 +221,7 @@ ul.num li:last-child { padding-bottom: 0; }
 .block-speaker-lab .speaker-grid .photo:before { height: 100%; width: 100%; content: ''; position: absolute; background: url(https://levelup.ua/wp-content/uploads/2019/03/white_lines.svg) center no-repeat; top: 0; left: 0; }
 .block-speaker-lab .speaker-grid > div:nth-child(2) { padding: 10px; }
 .block-speaker-lab p, .block-speakers-lab p { display: none; }
+.block-speakers-lab .content p { display: block; }
 .block-speaker-lab .descr { font-size: 14px; margin-top: 14px; font-weight: 200; }
 
 .block-speakers-lab .speakers-grid { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; color: #fff;}

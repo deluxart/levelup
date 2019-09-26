@@ -1,8 +1,13 @@
 .it-conference span.wpcf7-not-valid-tip { position: absolute; right: 0; top: 0; margin: 0; }
 .it-conference .wpcf7-form-control-wrap input { width: 100%; }
 .it-conference #conf_about .content .block .image { position: relative; }
+<<<<<<< HEAD
 .it-conference #worth_coming .content > div.block .text h4 { font-size: 24px; margin-bottom: 20px; }
 .it-conference #conf_feedback .content > .text ul.feed_list > li p { font-size: 19px; line-height: normal; }
+=======
+	.it-conference #worth_coming .content > div.block .text h4 { font-size: 24px; margin-bottom: 20px; }
+	.it-conference #conf_feedback .content > .text ul.feed_list > li p { font-size: 19px; line-height: normal; }
+>>>>>>> a88e57eac0cf386247dbdf0ae5646d900b7f9c8c
 
 
 .it-conference .wpcf7-form { overflow: hidden; }
@@ -11,6 +16,7 @@
 .it-conference #conf_partners .block_btn { position: relative; background: none; left: auto; bottom: auto; padding: 0; text-align: center; transform: none;}
 .it-conference #conf_partners .content { grid-template-columns: repeat(4, 1fr);}
 
+<<<<<<< HEAD
 .it-conference #conf_about .content .block.block_one .image:before { position: absolute; width: 347px; height: 312px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_1.png);
     top: -50px; left: 50%; transform: translateX(-40%); background-size: contain; background-repeat: no-repeat; }
 .it-conference #conf_about .content .block.block_two .image:before { position: absolute; width: 62px; height: 284px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_2.png); left: 150px; z-index: 1; }
@@ -22,6 +28,28 @@
 .it-conference #conf_program .content .cont_block_spiker .photo img { width: 90px;  border-radius: 50%; box-shadow: 21.213px 21.213px 48.5px 1.5px rgba(0, 0, 0, 0.4); }
 
 /* .it-conference #conf_program .content .two_tab_content .cont_block_spiker .photo img { border-color: #00baff;  } */
+=======
+.it-conference #conf_about .content .block.block_one .image:before { position: absolute; width: 347px; height: 312px; content: '';
+    background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_1.png);
+    top: -50px;
+    left: 50%;
+    transform: translateX(-40%);
+        background-size: contain;
+    background-repeat: no-repeat;
+}
+.it-conference #conf_about .content .block.block_two .image:before { position: absolute; width: 62px; height: 284px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_2.png); left: 150px;
+    z-index: 1; }
+    .it-conference #conf_about .content .block.block_two { margin: 60px 0; }
+.it-conference #conf_about .content .block.block_three .image:before { position: absolute; width: 444px; height: 280px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_3.png); left: 50%; top: 0; transform: translate(-56% , -41%);  }
+
+
+
+.it-conference #conf_program .content .cont_block_spiker { grid-template-columns: 1fr; }
+.it-conference #conf_program .content .cont_block_spiker .photo { margin-top: -60px; }
+.it-conference #conf_program .content .cont_block_spiker .photo img { width: 64px; border: 5px solid #eaff00; border-radius: 50%; }
+
+.it-conference #conf_program .content .two_tab_content .cont_block_spiker .photo img { border-color: #00baff;  }
+>>>>>>> a88e57eac0cf386247dbdf0ae5646d900b7f9c8c
 
 
 @media (max-width: 1440px) {
@@ -36,8 +64,11 @@
 	.it-conference #conf_about .block-four-columns { margin-top: 20px; }
 
 
+<<<<<<< HEAD
     .it-conference #conf_why .content .image { padding-left: 95px; padding-top: 21px; }
     .it-conference #conf_why .content .image > div::before { width: 488px; top: -48px; }
+=======
+>>>>>>> a88e57eac0cf386247dbdf0ae5646d900b7f9c8c
 
 
 	.it-conference #worth_coming .content > div.block .text p { font-size: 17px; }
@@ -84,8 +115,13 @@
 
     .it-conference #conf_about .block-four-columns { grid-template-columns: 1fr; }
     .it-conference #conf_about .block-four-columns > div .white_block { display: none; }
+<<<<<<< HEAD
     .it-conference #conf_about .block-four-columns > div:after { left: 0; top: 50%; }
     .it-conference #conf_about .block-four-columns > div .dot { left: -4px; bottom: auto; }
+=======
+    .it-conference #conf_about .block-four-columns > div:after { left: 0; }
+    .it-conference #conf_about .block-four-columns > div .dot { left: -4px;}
+>>>>>>> a88e57eac0cf386247dbdf0ae5646d900b7f9c8c
     .it-conference #conf_about { padding-bottom: 60px; }
     .it-conference #conf_about .block-four-columns > div:nth-child(even) { top: 0;}
     .it-conference #conf_about .block-four-columns > div:nth-child(even):before { display: none; }
@@ -96,7 +132,11 @@
     .it-conference #conf_about .block { grid-row-gap: 40px; }
     .it-conference #conf_about .block.block_two .image > div:before { background-size: contain; }
 
+<<<<<<< HEAD
     .it-conference #conf_about .content .block.block_three .image:before { transform: translate(-56% , -28%); width: 301px; height: 188px; background-size: contain; }
+=======
+    .it-conference #conf_about .content .block.block_three .image:before { transform: translate(-56% , -28%); width: 301px; height: 188px; }
+>>>>>>> a88e57eac0cf386247dbdf0ae5646d900b7f9c8c
 
     .it-conference #for_whom .content { grid-template-columns: 1fr; }
     .it-conference #for_whom { padding-bottom: 30px; }
@@ -105,10 +145,13 @@
     .it-conference #conf_why .content .image > div:before { left: -133px; }
     .it-conference #conf_why .content .image { padding-left: 78px; }
     .it-conference #conf_about h2 { margin-bottom: 30px; }
+<<<<<<< HEAD
 
     .it-conference #conf_about .content .block.block_one .image::before { width: 300px; background-size: contain; }
 
 
     .it-conference #conf_program .content .two_tab_content .timeline__content::before { border-right-color: #00baff;
         border-left-color: transparent; }
+=======
+>>>>>>> a88e57eac0cf386247dbdf0ae5646d900b7f9c8c
 }
