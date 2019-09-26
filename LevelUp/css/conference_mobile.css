@@ -1,28 +1,25 @@
 .it-conference span.wpcf7-not-valid-tip { position: absolute; right: 0; top: 0; margin: 0; }
 .it-conference .wpcf7-form-control-wrap input { width: 100%; }
 .it-conference #conf_about .content .block .image { position: relative; }
-
-	.it-conference #worth_coming .content > div.block .text h4 { font-size: 24px; margin-bottom: 20px; }
-	.it-conference #conf_feedback .content > .text ul.feed_list > li p { font-size: 19px; line-height: normal; }
-
-    .it-conference #conf_program .content .block_time > div { padding: 5px 30px; line-height: normal; }
-
+.it-conference #worth_coming .content > div.block .text h4 { font-size: 24px; margin-bottom: 20px; }
+.it-conference #conf_feedback .content > .text ul.feed_list > li p { font-size: 19px; line-height: normal; }
+.it-conference #conf_program .content .block_time > div { padding: 5px 30px; line-height: normal; }
 .it-conference .wpcf7-form { overflow: hidden; }
-
 .it-conference .btn-blue a.sg-show-popup { white-space: nowrap; background-image: -moz-linear-gradient(180deg, #8a00ff 1%, #0072ff 100%); background-image: -webkit-linear-gradient(180deg, #8a00ff 1%, #0072ff 100%); background-image: -ms-linear-gradient(180deg, #8a00ff 1%, #0072ff 100%); box-shadow: 0px 25px 33.95px 1.05px rgba(54, 27, 90, 0.57); border: 0 !important; }
 .it-conference #conf_partners .block_btn { position: relative; background: none; left: auto; bottom: auto; padding: 0; text-align: center; transform: none;}
 .it-conference #conf_partners .content { grid-template-columns: repeat(4, 1fr);}
-
 
 .it-conference #conf_about .content .block.block_one .image:before { position: absolute; width: 347px; height: 312px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_1.png);
     top: -50px; left: 50%; transform: translateX(-40%); background-size: contain; background-repeat: no-repeat; }
 .it-conference #conf_about .content .block.block_two .image:before { position: absolute; width: 62px; height: 284px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_2.png); left: 150px; z-index: 1; }
 .it-conference #conf_about .content .block.block_two { margin: 60px 0; }
 .it-conference #conf_about .content .block.block_three .image:before { position: absolute; width: 444px; height: 280px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_3.png); left: 50%; top: 0; transform: translate(-56% , -41%);  }
-
 .it-conference .conf_diskont { background: #ff1569; color: #fff; display: inline-block; padding: 4px 10px; font-size: 15px; margin-top: 5px; }
-
 .it-conference #conf_program .content .cont_block_spiker .photo img { width: 90px;  border-radius: 50%; box-shadow: 21.213px 21.213px 48.5px 1.5px rgba(0, 0, 0, 0.4); }
+
+.it-conference #conf_partners .content > div.last .sg-show-popup {  line-height: normal;background: none; position: relative; box-shadow: none; border-radius: none; border: none; padding: 0; }
+.it-conference #conf_partners .content > div.last .sg-show-popup:after { display: none; }
+.it-conference #conf_partners .content > div.last .sg-show-popup:before { position: absolute; width: 90%; height: 90%; left: 5%; top: 5%; content: ''; border-radius: 50%; box-shadow: 26.163px 26.163px 74.48px 1.52px rgba(255, 255, 255, 0.2); }
 
 /* .it-conference #conf_program .content .two_tab_content .cont_block_spiker .photo img { border-color: #00baff;  } */
 
