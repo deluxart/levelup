@@ -62,3 +62,9 @@
     .fullstack-discont .content > div:nth-child(2) { padding-bottom: 40px; }
 }
 /* Конец - Секция "Тродоустройство после обучения - 99%" */
+
+
+
+/* Новый футер - 26.09.2019 */
+#level_footer .content { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 30px; }
+/* Новый футер - 26.09.2019 */
