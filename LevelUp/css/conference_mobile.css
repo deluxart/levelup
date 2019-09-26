@@ -18,7 +18,10 @@
 .it-conference #conf_program .content .cont_block_spiker .photo img { width: 90px;  border-radius: 50%; box-shadow: 21.213px 21.213px 48.5px 1.5px rgba(0, 0, 0, 0.4); }
 
 .it-conference #conf_partners .content > div.last .sg-show-popup {  line-height: normal;background: none; position: relative; box-shadow: none; border-radius: none; border: none; padding: 0; }
-.it-conference #conf_partners .content > div.last .sg-show-popup:after { display: none; }
+.it-conference #conf_partners .content > div.last .sg-show-popup:hover { border: none;  }
+.it-conference #conf_partners .content > div.last .sg-show-popup:after { display: none; position: absolute; background: url(https://levelup.ua/wp-content/uploads/2019/09/add_partner.png);
+    background-size: contain; top: 0; left: 0; width: 100%; height: 100%; transform: none; }
+    .it-conference #conf_partners .content > div.last .sg-show-popup:hover:after {display: block; }
 .it-conference #conf_partners .content > div.last .sg-show-popup:before { position: absolute; width: 90%; height: 90%; left: 5%; top: 5%; content: ''; border-radius: 50%; box-shadow: 26.163px 26.163px 74.48px 1.52px rgba(255, 255, 255, 0.2); }
 
 /* .it-conference #conf_program .content .two_tab_content .cont_block_spiker .photo img { border-color: #00baff;  } */
