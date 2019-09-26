@@ -118,7 +118,6 @@
     .it-conference #conf_about .content .block.block_one .image::before { width: 300px; background-size: contain; }
 
 
-    .it-conference #conf_program .content .two_tab_content .timeline__content::before { border-right-color: #00baff;
-        border-left-color: transparent; }
-
+        .it-conference #conf_program .content .two_tab_content .timeline__block:nth-child(2n+1) .timeline__content::before { border-right-color: #00baff;
+            border-left-color: transparent; }
 }
