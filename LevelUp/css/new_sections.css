@@ -85,4 +85,13 @@
 #level_footer .content .block > .a-link.phone a { color: #eaff00; }
 #level_footer .content .block > .a-link.phone:first-child { margin-top: 10px; }
 #level_footer .content .block .a-link.phone i { color: #fff; }
+
+
+@media (max-width: 992px) {
+    #level_footer .content { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+    #level_footer .content { grid-template-columns: 1fr; }
+}
 /* Новый футер - 26.09.2019 */
