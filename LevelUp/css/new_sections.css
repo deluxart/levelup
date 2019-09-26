@@ -84,7 +84,7 @@
 #level_footer .content .block a { color: #fff; }
 #level_footer .content .block .a-link.phone a { color: #eaff00; }
 #level_footer .content .block .a-link.phone:first-child { margin-top: 10px; }
-#level_footer .content .block .a-link.phone i { color: #fff; }
+#level_footer .content .block .a-link.phone i { color: #07a5ff; }
 
 
 @media (max-width: 992px) {
