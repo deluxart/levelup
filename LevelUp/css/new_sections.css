@@ -66,7 +66,7 @@
 
 
 /* Новый футер - 26.09.2019 */
-#level_footer { background: #2e3035; padding: 70px 0; color: #fff; }
+#level_footer { background: #2e3035; padding: 70px 0; color: #fff; overflow: hidden; }
 #level_footer .content { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 30px; font-family: Gilroy; font-weight: 200; }
 #level_footer .content .block h2.widget-title { font-size: 21px; font-weight: 600; color: #fff; margin-bottom: 30px; }
 #level_footer .content .block { position: relative; padding-right: 30px; }
@@ -80,11 +80,12 @@
 #level_footer .content .block ul.soc_links li a { display: grid; align-items: center; height: 30px; width: 30px; }
 #level_footer .content .block ul.soc_links li a:hover { text-decoration: none; }
 #level_footer .content .block .a-link { display: grid; grid-template-columns: auto 1fr; align-items: center; grid-column-gap: 7px; }
-#level_footer .text-copyright { text-align: right;  color: #fff; }
-#level_footer .text-copyright span.blue { color: #fff; }
+#level_footer .text-copyright { text-align: right;  color: #fff; position: relative; }
+#level_footer .text-copyright::before { content: ''; position: absolute; width: 100%; height: 1px; top: 50%; right: calc(-100% - 13px); background: #fff; }
+#level_footer .text-copyright span.blue { color: #07a5ff; }
 #level_footer .content .block a { color: #fff; }
 #level_footer .content .block .a-link.phone a { color: #eaff00; }
-#level_footer .content .block .custom-html-widget .a-link.phone:first-child { margin-top: 10px; }
+#level_footer .content .block .a-link.mail { margin-bottom: 20px; }
 #level_footer .content .block .a-link.location i { color: #eaff00; }
 #level_footer .content .block ul.footer-links li { line-height: 32px; }
 
