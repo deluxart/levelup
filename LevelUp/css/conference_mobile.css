@@ -65,7 +65,7 @@
     .it-conference #conf_partners .content { grid-template-columns: 1fr 1fr; grid-gap: 30px; }
     .it-conference #conf_banner .bg_image { background: url(https://levelup.ua/wp-content/uploads/2019/09/NEW_IT_768x1000.jpg);  background-size: contain; padding: 0; }
 
-    .it-conference #conf_banner .container { top: auto; bottom: 30px;  transform: none; left: auto; }
+    .it-conference #conf_banner .container { top: auto; bottom: 0px;  transform: none; left: auto; }
     .it-conference #conf_banner .content { grid-template-columns: 1fr;}
     .it-conference #conf_banner .content h1 { display: none; }
     .it-conference #conf_banner .content > div .event-date { display: none; }
@@ -116,8 +116,37 @@
 
 
     .it-conference #conf_about .content .block.block_one .image::before { width: 300px; background-size: contain; }
+    .it-conference #conf_program .content .two_tab_content .timeline__block:nth-child(2n+1) .timeline__content::before { border-right-color: #00baff; border-left-color: transparent; }
+
+    .it-conference #conf_banner .content .btn_head { position: absolute; bottom: 0; left: 50%; transform: translate(-50%,0); background: #fff;  padding: 20px 20px 0 20px; border-radius: 50px 50px 0 0; }
 
 
-        .it-conference #conf_program .content .two_tab_content .timeline__block:nth-child(2n+1) .timeline__content::before { border-right-color: #00baff;
-            border-left-color: transparent; }
+    .it-conference #conf_banner .content .btn_head:before {
+        content: '';
+        position: absolute;
+        left: -39px;
+        bottom: -1px;
+        background: url(https://levelup.ua/wp-content/uploads/2019/08/left.svg);
+            background-size: auto;
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+    }
+
+    .it-conference #conf_banner .content .btn_head::after {
+        content: '';
+        position: absolute;
+        right: -39px;
+        bottom: -1px;
+        background: url(https://levelup.ua/wp-content/uploads/2019/08/right.svg);
+            background-size: auto;
+        background-size: contain;
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+
+
 }
