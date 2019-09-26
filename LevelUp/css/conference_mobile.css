@@ -5,7 +5,7 @@
 	.it-conference #worth_coming .content > div.block .text h4 { font-size: 24px; margin-bottom: 20px; }
 	.it-conference #conf_feedback .content > .text ul.feed_list > li p { font-size: 19px; line-height: normal; }
 
-
+    .it-conference #conf_program .content .block_time > div { padding: 5px 30px; line-height: normal; }
 
 .it-conference .wpcf7-form { overflow: hidden; }
 
