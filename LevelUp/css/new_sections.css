@@ -67,7 +67,7 @@
 
 /* Новый футер - 26.09.2019 */
 #level_footer { background: #2e3035; padding: 70px 0; color: #fff; overflow: hidden; }
-#level_footer .content { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 30px; font-family: Gilroy; font-weight: 200; }
+#level_footer .content { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 30px; font-weight: 200; }
 #level_footer .content .block h2.widget-title { font-size: 21px; font-weight: 600; color: #fff; margin-bottom: 30px; }
 #level_footer .content .block { position: relative; padding-right: 30px; }
 #level_footer .content .block:before { position: absolute; content: ''; width: 1px; right: 0; height: 70%; top: calc(30% - 30px); background: #ffffff17; }
