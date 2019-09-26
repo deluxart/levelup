@@ -12,31 +12,45 @@
 <?php $options = get_option( 'levelup_theme_options' ); ?>
 	</div><!-- .site-content -->
 
-	<footer id="footer" class="site-footer">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                    <?php
-                    if ( function_exists('dynamic_sidebar') )
-                        dynamic_sidebar('footer-1');
-                    ?>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-footer-2">
-                    <?php
-                    if ( function_exists('dynamic_sidebar') )
-                        dynamic_sidebar('footer-2');
-                    ?>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                    <?php
-                    if ( function_exists('dynamic_sidebar') )
-                        dynamic_sidebar('footer-3');
-                    ?>
-            </div>
+
+
+
+<footer id="level_footer">
+	<div class="container">
+		<div class="content">
+			<div class="block">
+                <?php
+                        if ( function_exists('dynamic_sidebar') )
+                            dynamic_sidebar('footer-1');
+                ?>
+			</div>
+			<div class="block">
+                <?php
+                        if ( function_exists('dynamic_sidebar') )
+                            dynamic_sidebar('footer-2');
+                ?>
+			</div>
+			<div class="block">
+                <?php
+                        if ( function_exists('dynamic_sidebar') )
+                            dynamic_sidebar('footer-3');
+                ?>
+			</div>
+			<div class="block">
+                <?php
+                        if ( function_exists('dynamic_sidebar') )
+                            dynamic_sidebar('footer-4');
+                ?>
+			</div>
         </div>
-    </div>
-	</footer><!-- .site-footer -->
+        <div class="text-copyright">
+            <strong><span class="blue">LEVELUP</span>™ 2019</strong> Учебный IT-центр
+        </div>
+	</div>
+</footer>
+
+
 
 </div><!-- .site -->
 
