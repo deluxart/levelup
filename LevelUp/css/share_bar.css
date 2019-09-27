@@ -1,7 +1,7 @@
 #share-bar {
   display: block;
   position: fixed;
-  top: 50%;
+  top: 33%;
   transform: translateY(-50%);
   margin-left: -60px;
 }
