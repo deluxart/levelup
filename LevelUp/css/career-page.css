@@ -4,6 +4,7 @@
 .career-page #slider .content h1 { text-transform: uppercase; color: #009eff; background: linear-gradient(to top, #098fff, #04a8ff, #00beff); background-clip: border-box; -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1.2; font-weight: bold; }
 .career-page #slider .content h1 span { display: block; }
 .career-page #slider .content .btn-blue { margin-top: 20px; }
+.tg-maren-new .tg-item-content-holder[data-position="bottom"] { padding: 22px 0 !important; }
 .career-page #slider .content p { font-size: 24px; text-shadow: -5.657px 5.657px 8px rgba(2, 72, 151, 0.55); color: #fff; line-height: 1.2; margin: 15px 0 25px 0; }
 .career-page #slider .content .btn-blue a.sg-show-popup { background: #098fff; border-color: #098fff !important; }
 .career-page #slider .content .img { align-self: end; position: relative; }

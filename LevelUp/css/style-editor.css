@@ -64,7 +64,7 @@
 .meet-reg h3 { grid-column: 1/4; margin-bottom: 20px; margin-top: 20px; padding: 0; font-size: 24px; color: #15acf2; }
 .meet-info img {margin: 0 auto;margin-bottom: 10px;}
 .meet-info b { margin-bottom: 4px; display: inline-block; text-transform: uppercase; font-family: 'Gilroy'; font-weight: 600; }
-.meet-info {display: grid;text-align: center;}
+.meet-info {display: grid;text-align: center; grid-template-rows: auto auto 1fr; }
 .rct {padding: 20px 0 !important; }
 .meet-info p { margin: 0; line-height: normal; padding: 0; }
 
