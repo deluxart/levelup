@@ -87,6 +87,7 @@
 #level_footer .content .block .a-link.phone a { color: #eaff00; }
 #level_footer .content .block .a-link.mail { margin-bottom: 20px; }
 #level_footer .content .block .a-link.location i { color: #eaff00; }
+#level_footer .content .block i { color: #eaff00; }
 #level_footer .content .block ul.footer-links li { line-height: 32px; }
 #level_footer .content .block .subscribe { padding: 18px 0 0 0; }
 
@@ -96,6 +97,7 @@
     #level_footer .content .block::before { position: absolute; content: ''; width: 100%; right: 0; height: 1px; top: auto; background: #ffffff17; bottom: -15px; }
     #level_footer #custom_html-3 { padding-bottom: 0; }
     #level_footer .content > .block:nth-child(3):before { display: none; }
+    #level_footer .content { margin-bottom: 20px; }
 }
 
 @media (max-width: 768px) {
