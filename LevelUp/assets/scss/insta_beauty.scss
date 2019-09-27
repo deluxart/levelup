@@ -1,0 +1,113 @@
+.insta_beauty {
+
+img {
+	display: block;
+}
+
+
+#beauty_banner {
+	.sg-show-popup {
+		background: #ffd800;
+		border-color: #ffd800;
+
+		&:hover {
+			border-color: #ffd800 !important;
+		}
+	}
+}
+
+#about_beauty {
+	padding: 70px 0;
+	.content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 70px;
+
+		& > div {
+			& > ul {
+				margin-bottom: 30px;
+				display: grid;
+				grid-row-gap: 15px;
+				li {
+					display: grid;
+					grid-template-columns: 17px 1fr;
+					grid-column-gap: 20px;
+					font-size: 19px;
+				}
+			}
+		}
+
+		h2 {
+			margin-bottom: 20px;
+		}
+
+		h4 {
+			margin-bottom: 20px;
+		}
+
+		.block_purpure {
+			border-radius: 36px;
+			background-color: #8d54fd;
+			color: #fff;
+			font-size: 21px;
+			padding: 40px;
+			text-align: center;
+			position: relative;
+		}
+	}
+}
+
+#speakers_beauty {
+	.content {
+/*		display: grid;
+		grid-template-columns: auto 1fr;*/
+		.block_speaker {
+			display: grid;
+			align-items: center;
+			grid-column-gap: 50px;
+
+			img {
+				box-shadow: 21.213px 21.213px 124px 0px rgba(10, 31, 83, 0.19);
+			}
+			
+			&.one_left {
+				grid-template-columns: 272px 1fr;
+			}
+
+			&.one_right {
+				grid-template-columns: 1fr 272px;
+
+				& > div {
+					text-align: right;
+				}
+
+				.text {
+					display: inline-block;
+					text-align: left;
+				}
+			}
+
+			.text {
+				background: #fef0ff;
+				padding: 40px 70px;
+				max-width: 550px;
+
+				h3 {
+					font-size: 28px;
+					color: #8d54fd;
+				}
+			}
+		}
+
+	}
+}
+
+
+#shedule_beauty {
+	.author_beauty {
+		
+	}
+}
+
+
+}
