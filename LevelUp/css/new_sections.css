@@ -108,7 +108,7 @@
     #level_footer .content .block:not(:first-child) aside h2.widget-title.active:before { content: "\f106"; color: #eaff00; }
     #level_footer .content .block h2.widget-title.active { color: #eaff00; }
     #level_footer .content .block { padding-right: 0; }
-    #level_footer .content .block h2.widget-title span { position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; }
+    #level_footer .content .block:not(:first-child)  h2.widget-title span { position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; }
     #level_footer #custom_html-2 { padding: 0; }
     #level_footer aside .textwidget { padding-top: 15px; }
 
