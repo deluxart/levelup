@@ -173,7 +173,7 @@ function LevelUp_widgets_init() {
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'after_title'   => '<span></span></h2>',
 	) );
 
     register_sidebar( array(
@@ -183,7 +183,7 @@ function LevelUp_widgets_init() {
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'after_title'   => '<span></span><</h2>',
 	) );
 
     register_sidebar( array(
@@ -193,7 +193,7 @@ function LevelUp_widgets_init() {
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'after_title'   => '<span></span><</h2>',
     ) );
 
     register_sidebar( array(
@@ -203,7 +203,7 @@ function LevelUp_widgets_init() {
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'after_title'   => '<span></span><</h2>',
     ) );
 
 
