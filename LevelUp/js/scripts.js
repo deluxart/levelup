@@ -722,6 +722,7 @@ if(jQuery(window).width() < 768) {
 jQuery(window).resize(function() {
     if(jQuery(window).width() > 768) {
        jQuery('#level_footer aside .textwidget').show();
+       jQuery('#level_footer aside h2.widget-title').removeClass('active');
     }
     if(jQuery(window).width() < 768) {
         jQuery('#level_footer aside:not(:first) .textwidget').hide();
