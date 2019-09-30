@@ -121,7 +121,7 @@
     #level_footer .content .block ul.soc_links li { margin-right: 0; }
     #level_footer .content .block ul.soc_links { display: grid; grid-template-columns: repeat(4, 1fr); grid-column-gap: 17px; }
 
-    #level_footer .content .block h2.widget-title { display: inline-block; }
+    #level_footer .content .block:not(:first-child) h2.widget-title { display: inline-block; }
     #level_footer .content .block:not(:first-child) { text-align: center; }
 }
 /* Новый футер - 26.09.2019 */
