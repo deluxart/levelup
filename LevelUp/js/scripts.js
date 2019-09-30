@@ -715,10 +715,17 @@ jQuery('h2.widget-title span').click(function(e) {
     e.preventDefault();
 });
 
+if(jQuery(window).width() < 768) {
+    jQuery('#level_footer aside:not(:first) .textwidget').hide();
+ }
+
 jQuery(window).resize(function() {
     if(jQuery(window).width() > 768) {
        jQuery('#level_footer aside .textwidget').show();
     }
+    if(jQuery(window).width() < 768) {
+        jQuery('#level_footer aside:not(:first) .textwidget').hide();
+     }
 });
 
 
