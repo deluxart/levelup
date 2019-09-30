@@ -104,8 +104,8 @@
     #level_footer .content { grid-template-columns: 1fr; }
     #level_footer .content > .block:nth-child(3):before { display: block; }
     #level_footer .content .block h2.widget-title { margin-bottom: 0; }
-    #level_footer .content .block aside:not(:first) h2.widget-title:before { position: absolute; content: "\f107"; font-family: FontAwesome; right: 0; font-weight: normal; transition: 0.3s all; }
-    #level_footer .content .block h2.widget-title.active:before { content: "\f106"; color: #eaff00; }
+    #level_footer .content .block aside:not(:first-child) h2.widget-title:before { position: absolute; content: "\f107"; font-family: FontAwesome; right: 0; font-weight: normal; transition: 0.3s all; }
+    #level_footer .content .block aside:not(:first-child) h2.widget-title.active:before { content: "\f106"; color: #eaff00; }
     #level_footer .content .block h2.widget-title.active { color: #eaff00; }
     #level_footer .content .block { padding-right: 0; }
     #level_footer .content .block h2.widget-title span { position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; }
