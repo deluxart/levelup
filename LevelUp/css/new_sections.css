@@ -112,5 +112,13 @@
     #level_footer #custom_html-2 { padding: 0; }
     #level_footer aside .textwidget { padding-top: 15px; }
 
+    #level_footer .content .block ul.soc_links > li:last-child { margin: 0; }
+    #level_footer .content .block:first-child aside { text-align: center; }
+    #level_footer .content .block:first-child .textwidget { display: inline-block; }
+    #level_footer .content .block .subscribe a { text-align: left; }
+
+    #level_footer .content .block:first-child .a-link { grid-template-columns: auto auto 1fr; }
+    #level_footer .content .block ul.soc_links li { margin-right: 0; }
+    #level_footer .content .block ul.soc_links { display: grid; grid-template-columns: repeat(4, 1fr); grid-column-gap: 17px; }
 }
 /* Новый футер - 26.09.2019 */
