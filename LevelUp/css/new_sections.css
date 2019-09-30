@@ -118,7 +118,7 @@
     #level_footer .content .block .subscribe a { text-align: center; }
     #level_footer .content .block .a-link i { display: none; }
 
-    #level_footer .content .block:first-child .a-link { grid-template-columns: auto auto 1fr; }
+    #level_footer .content .block:first-child .a-link { grid-template-columns: 1fr; }
     #level_footer .content .block ul.soc_links li { margin-right: 0; }
     #level_footer .content .block ul.soc_links { display: grid; grid-template-columns: repeat(4, 1fr); grid-column-gap: 17px; }
 
