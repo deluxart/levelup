@@ -104,7 +104,7 @@
     #level_footer .content { grid-template-columns: 1fr; }
     #level_footer .content > .block:nth-child(3):before { display: block; }
     #level_footer .content .block h2.widget-title { margin-bottom: 0; }
-    #level_footer .content .block:not(:first-child) aside h2.widget-title:before { position: absolute; content: "\f107"; font-family: FontAwesome; right: 0; font-weight: normal; transition: 0.3s all; }
+    #level_footer .content .block:not(:first-child) aside h2.widget-title:before { position: absolute; content: "\f107"; font-family: FontAwesome; right: 0; top: 2px; font-weight: normal; transition: 0.3s all; }
     #level_footer .content .block:not(:first-child) aside h2.widget-title.active:before { content: "\f106"; color: #eaff00; }
     #level_footer .content .block h2.widget-title.active { color: #eaff00; }
     #level_footer .content .block { padding-right: 0; }
@@ -123,7 +123,7 @@
     #level_footer .content .block ul.soc_links { display: grid; grid-template-columns: repeat(4, 1fr); grid-column-gap: 17px; }
 
 
-    #level_footer .content .block:not(:first-child) h2.widget-title { display: inline-block; }
-    #level_footer .content .block { text-align: center; }
+    #level_footer .content .block:not(:first-child) h2.widget-title { display: inline-block; padding: 0 18px; }
+    #level_footer .content .block, #level_footer .text-copyright { text-align: center; }
 }
 /* Новый футер - 26.09.2019 */
