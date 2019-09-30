@@ -715,11 +715,9 @@ jQuery('h2.widget-title span').click(function(e) {
     e.preventDefault();
 });
 
-
-
 jQuery(window).resize(function() {
     if(jQuery(window).width() > 768) {
-       jQuery('#level_footer aside').show();
+       jQuery('#level_footer aside .textwidget').show();
     }
 });
 
