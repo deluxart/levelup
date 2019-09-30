@@ -704,3 +704,19 @@ jQuery('.conf_tabs > div.two_tab').click(function(event) {
 // jQuery('.nav-tabs a').on('shown.bs.tab', function (e) {
 //     window.location.hash = e.target.hash;
 // })
+
+
+
+
+// For footer widgeth
+jQuery('h2.widget-title span').click(function(e) {
+	jQuery(this).closest('h2').toggleClass('active');
+    jQuery(this).closest('aside').children('.textwidget').stop().slideToggle('slow').toggleClass('active');
+    e.preventDefault();
+});
+
+
+
+
+
+
