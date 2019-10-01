@@ -1295,6 +1295,12 @@ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255
 .page-template-page-event .header-color .bg-kirpichik {background: #2e303580; box-shadow: none !important; }
 .page-template-page-event .header-color .navbar-dark .navbar-nav > li > .nav-link::before {border-right: 1px dotted #fff3;}
 .page-template-page-event .header-color .lux_search .button span i {color: #fff;}
+
+.post-template-single-empty #main { padding-top: 0px !important; }
+.post-template-single-empty .header-color {background: none !important;}
+.post-template-single-empty .header-color .bg-kirpichik {background: #2e303580; box-shadow: none !important; }
+.post-template-single-empty .header-color .navbar-dark .navbar-nav > li > .nav-link::before {border-right: 1px dotted #fff3;}
+.post-template-single-empty .header-color .lux_search .button span i {color: #fff;}
 }
 
 
