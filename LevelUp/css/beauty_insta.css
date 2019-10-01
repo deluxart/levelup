@@ -1,0 +1,122 @@
+.insta_beauty #about_beauty .content .block_purpure .sg-show-popup { white-space: nowrap; }
+
+.not-btn p.reg-btn a.sg-show-popup.orange { background: #ffd800; border-color: #ffd800 !important; }
+.not-btn p.reg-btn a.sg-show-popup.orange:hover { border-color: #ffd800 !important; }
+
+.insta_beauty img { display: block; }
+.insta_beauty span.wpcf7-not-valid-tip { position: absolute; right: 0; top: 0; margin: 0; }
+.insta_beauty h2 { font-weight: bold; }
+.insta_beauty #beauty_banner .sg-show-popup { background: #ffd800; border-color: #ffd800; }
+.insta_beauty #beauty_banner .sg-show-popup:hover { border-color: #ffd800 !important; }
+.insta_beauty #beauty_banner > br { display: none; }
+.insta_beauty #about_beauty { padding: 70px 0; }
+.insta_beauty #about_beauty .content { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 70px; }
+.insta_beauty #about_beauty .content > div > ul { margin-bottom: 30px; display: grid; grid-row-gap: 15px; }
+.insta_beauty #about_beauty .content > div > ul li { display: grid; grid-template-columns: 17px 1fr; grid-column-gap: 20px; font-size: 19px; }
+.insta_beauty #about_beauty .content > div > ul li img { position: relative; top: 5px; }
+.insta_beauty #about_beauty .content h2 { margin-bottom: 20px; }
+.insta_beauty #about_beauty .content h4 { margin-bottom: 20px; }
+.insta_beauty #about_beauty .content .block_purpure { border-radius: 36px; background-color: #8d54fd; color: #fff; font-size: 21px; padding: 40px 40px 50px 40px; text-align: center; position: relative; margin-bottom: 60px; }
+.insta_beauty #about_beauty .content .block_purpure .sg-show-popup { position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 50%); background: #ff53d5; border-color: #ff53d5; color: #fff; padding: 8px 32px; }
+.insta_beauty #about_beauty .content .block_purpure .sg-show-popup:hover { border-color: #ff53d5 !important; }
+.insta_beauty #about_beauty .content .block_purpure .sg-show-popup:after { display: none; }
+.insta_beauty #speakers_beauty h2 { color: #8d54fd; margin-bottom: 10px; }
+.insta_beauty #speakers_beauty p.tc.descr { margin-bottom: 45px; }
+.insta_beauty #speakers_beauty p.tc.descr span { display: block; }
+.insta_beauty #speakers_beauty .content { /*		display: grid;
+		grid-template-columns: auto 1fr;*/ }
+.insta_beauty #speakers_beauty .content .block_speaker { display: grid; align-items: center; grid-column-gap: 50px; }
+.insta_beauty #speakers_beauty .content .block_speaker img { box-shadow: 21.213px 21.213px 73px 0px rgba(10, 31, 83, 0.13); }
+.insta_beauty #speakers_beauty .content .block_speaker.one_left { grid-template-columns: 272px 1fr; }
+.insta_beauty #speakers_beauty .content .block_speaker.one_left .image { position: relative; }
+.insta_beauty #speakers_beauty .content .block_speaker.one_left .image:before { position: absolute; content: ''; width: 65px; height: 42px; background: url(https://levelup.ua/wp-content/uploads/2019/09/like_left_mini.png) no-repeat; background-size: contain; left: -24px; bottom: 100px; transform: translateX(-100%); }
+.insta_beauty #speakers_beauty .content .block_speaker.one_left .text:before { position: absolute; content: ''; width: 88px; height: 77px; background: url(https://levelup.ua/wp-content/uploads/2019/09/like_right.png) no-repeat; background-size: contain; right: -40px; top: -64px; /*transform: translateX(-100%);*/ }
+.insta_beauty #speakers_beauty .content .block_speaker.one_right { grid-template-columns: 1fr 272px; }
+.insta_beauty #speakers_beauty .content .block_speaker.one_right > div { text-align: right; }
+.insta_beauty #speakers_beauty .content .block_speaker.one_right .text { display: inline-block; text-align: left; }
+.insta_beauty #speakers_beauty .content .block_speaker.one_right .text:before { position: absolute; content: ''; width: 90px; height: 83px; background: url(https://levelup.ua/wp-content/uploads/2019/09/like_left.png) no-repeat; background-size: contain; left: -56px; bottom: -24px; }
+.insta_beauty #speakers_beauty .content .block_speaker.one_right .text:after { position: absolute; content: ''; width: 43px; height: 37px; background: url(https://levelup.ua/wp-content/uploads/2019/09/like.png) no-repeat; background-size: contain; right: 69px; top: -11px; transform: translateY(-100%); }
+.insta_beauty #speakers_beauty .content .block_speaker .text { background: #fef0ff; padding: 40px 70px; max-width: 550px; position: relative; }
+.insta_beauty #speakers_beauty .content .block_speaker .text h3 { font-size: 28px; color: #8d54fd; font-weight: bold; position: absolute; top: -23px; }
+.insta_beauty #shedule_beauty { position: relative; padding-bottom: 70px; }
+.insta_beauty #shedule_beauty h2 { color: #8d54fd; margin-bottom: 50px; }
+.insta_beauty #shedule_beauty .line_timing { position: relative; }
+.insta_beauty #shedule_beauty .line_timing:before { position: absolute; top: 0; left: 50%; height: 100%; width: 1px; content: ''; background: #d7021a; }
+.insta_beauty #shedule_beauty .line_timing > div { position: relative; z-index: 2; }
+.insta_beauty #shedule_beauty .author_beauty { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 35px; align-items: center; box-shadow: 6.213px 2.213px 35px 0px rgba(10, 31, 83, 0.07); padding: 15px; max-width: 450px; border-radius: 100px; background: #fff; margin: 0 auto 50px auto; position: relative; z-index: 1; font-size: 16px; }
+.insta_beauty #shedule_beauty .author_beauty img { box-shadow: 11.314px 11.314px 49px 0px rgba(0, 10, 36, 0.15); border-radius: 50%; }
+.insta_beauty #shedule_beauty .author_beauty h4 { padding: 0 !important; font-size: 21px; }
+.insta_beauty #shedule_beauty .author_beauty:not(:first-child) { margin-top: 50px; }
+.insta_beauty #shedule_beauty .content { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 50px; }
+.insta_beauty #shedule_beauty .content .block_session.block_left { text-align: right; }
+.insta_beauty #shedule_beauty .content .block_session.block_left .text { text-align: left; border-right: 7px solid #a000fc; }
+.insta_beauty #shedule_beauty .content .block_session.block_right .text { border-left: 7px solid #00aeff; }
+.insta_beauty #shedule_beauty .content .block_session ul.timing { margin-bottom: 30px; }
+.insta_beauty #shedule_beauty .content .block_session ul.timing li { display: inline-block; }
+.insta_beauty #shedule_beauty .content .block_session ul.timing li.time { padding: 0 30px; color: #a000fc; font-size: 14px; }
+.insta_beauty #shedule_beauty .content .block_session ul.timing li.time.blue { color: #00aeff; }
+.insta_beauty #shedule_beauty .content .block_session ul.timing li.time.orange { color: #ff9000; }
+.insta_beauty #shedule_beauty .content .block_session ul.timing li.time.pink { color: #f442ff; }
+.insta_beauty #shedule_beauty .content .block_session ul.timing li.num_session { color: #fff; background: #a000fc; padding: 5px 15px; border-radius: 4px; font-weight: 500; }
+.insta_beauty #shedule_beauty .content .block_session ul.timing li.num_session.blue { background: #00aeff; }
+.insta_beauty #shedule_beauty .content .block_session ul.timing li.num_session.orange { background: #ff9000; }
+.insta_beauty #shedule_beauty .content .block_session ul.timing li.num_session.pink { background: #f442ff; }
+.insta_beauty #shedule_beauty .content .block_session .text { box-shadow: 6.213px 2.213px 35px 0px rgba(10, 31, 83, 0.07); background: #fff; border-radius: 5px; padding: 26px 30px; }
+.insta_beauty #shedule_beauty .content.last { margin-bottom: 70px; }
+.insta_beauty #shedule_beauty .content.last .block_session.block_left .text { border-right: 7px solid #ff9000; }
+.insta_beauty #shedule_beauty .content.last .block_session.block_right .text { border-left: 7px solid #f442ff; }
+.insta_beauty #shedule_beauty .block_pink { background: #ff65c0; color: #fff; padding: 30px 30px 40px 30px; display: grid; grid-template-columns: 35% 1fr; box-shadow: -20px 34.641px 150px 0px rgba(150, 0, 134, 0.32); max-width: 840px; margin: 0 auto; border-radius: 5px; }
+.insta_beauty #shedule_beauty .block_pink h2 { margin-bottom: 15px; color: #fff; }
+.insta_beauty #shedule_beauty .block_pink > div.image { position: relative; }
+.insta_beauty #shedule_beauty .block_pink > div.image:before { position: absolute; content: ''; right: 0; width: 315px; height: 302px; background: url(https://levelup.ua/wp-content/uploads/2019/09/iphone.png) no-repeat; background-size: contain; top: 50%; left: 41%; transform: translate(-50%, -50%); }
+.insta_beauty #shedule_beauty .block_pink > div ul { padding-left: 20%; }
+.insta_beauty #details_beauty { padding: 50px 0; }
+.insta_beauty #details_beauty h2 { color: #8d54fd; margin-bottom: 50px; font-weight: bold; }
+.insta_beauty #details_beauty .content { display: grid; grid-template-columns: repeat(3, 1fr); }
+.insta_beauty #details_beauty .content > div { display: inline-block; margin: 0 auto; }
+.insta_beauty #details_beauty .content > div > div { display: grid; grid-template-columns: 45px 1fr; grid-column-gap: 40px; align-items: center; }
+.insta_beauty #details_beauty .content > div > div h4 { font-size: 22px; font-weight: bold; color: #7801fd; }
+.insta_beauty #details_beauty .content > div > div p { font-size: 22px; color: #787878; }
+.insta_beauty #details_beauty .content > div > div p span { display: block; }
+.insta_beauty #form_beauty { padding-bottom: 70px; }
+.insta_beauty #form_beauty .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; box-shadow: 16px 16px 174px 0px rgba(10, 31, 83, 0.27); background: #fff; border-radius: 7px; position: relative; }
+.insta_beauty #form_beauty .content:before { position: absolute; content: ''; width: 73px; height: 74px; background: url(https://levelup.ua/wp-content/uploads/2019/09/insta_logo.png) no-repeat; background-size: contain; right: -14px; top: 30px; }
+.insta_beauty #form_beauty .content .image { background-image: -moz-linear-gradient(-150deg, #ff6c00 0%, #7800ff 52%, magenta 100%); background-image: -webkit-linear-gradient(-150deg, #ff6c00 0%, #7800ff 52%, magenta 100%); background-image: -ms-linear-gradient(-150deg, #ff6c00 0%, #7800ff 52%, magenta 100%); position: relative; border-radius: 7px 0 0 7px; }
+.insta_beauty #form_beauty .content .image:before { position: absolute; content: ''; width: 125px; height: 90px; background: url(https://levelup.ua/wp-content/uploads/2019/09/like_form.png) no-repeat; background-size: contain; right: 140px; top: -12px; }
+.insta_beauty #form_beauty .content .image img { align-self: end; margin-top: 50px; position: relative; left: 50%; transform: translate(-50%, 0); }
+
+@media (max-width: 992px) { .insta_beauty #about_beauty .content { grid-template-columns: 1fr; grid-row-gap: 40px; }
+  .insta_beauty #about_beauty .content .image { grid-row: 1; }
+  .insta_beauty #about_beauty .content .image img { display: block; margin: 0 auto; }
+  .insta_beauty #about_beauty { padding-bottom: 30px; }
+  .insta_beauty #speakers_beauty .content .block_speaker.one_left { margin-bottom: 60px; }
+  #speakers_beauty { padding-bottom: 50px; }
+  .insta_beauty #details_beauty .content { grid-template-columns: 1fr; grid-row-gap: 30px; }
+  .insta_beauty #details_beauty .content > div > div { align-items: center; }
+  .insta_beauty #details_beauty .content > div { display: inline-block; margin: 0 auto; min-width: 308px; }
+  .insta_beauty #details_beauty .content > div > div p { font-size: 18px; }
+  .insta_beauty #shedule_beauty .content { grid-template-columns: 1fr; grid-row-gap: 40px; }
+  .insta_beauty #shedule_beauty .author_beauty:not(:first-child) { margin-top: 40px; }
+  .insta_beauty #shedule_beauty .author_beauty { margin-bottom: 40px; }
+  .insta_beauty #shedule_beauty { padding-bottom: 40px; }
+  .insta_beauty #form_beauty .content { grid-template-columns: 1fr; }
+  .insta_beauty #form_beauty .content .image { grid-row: 2; border-radius: 0 0 7px 7px; }
+  .insta_beauty #form_beauty .content .form { padding: 30px 0; } }
+@media (max-width: 768px) { .insta_beauty #speakers_beauty .content .block_speaker.one_left { grid-template-columns: 1fr; grid-row-gap: 50px; }
+  .insta_beauty #speakers_beauty .content .block_speaker.one_right { grid-template-columns: 1fr; grid-row-gap: 50px; }
+  .insta_beauty #speakers_beauty .content .block_speaker img { margin: 0 auto; }
+  .insta_beauty #speakers_beauty .content .block_speaker.one_right > div { grid-row: 2; grid-column: 1/2; }
+  .insta_beauty #speakers_beauty .content .block_speaker.one_right > div.image { grid-row: 1; grid-column: 1/2; }
+  .insta_beauty #speakers_beauty .content .block_speaker.one_left { margin-bottom: 20px; }
+  #speakers_beauty { padding-bottom: 10px; }
+  .insta_beauty #shedule_beauty .block_pink > div ul { padding-left: 0; }
+  .insta_beauty #shedule_beauty .block_pink > div.image::before { position: absolute; content: ''; right: 0; width: 133px; height: 130px; background: url(https://levelup.ua/wp-content/uploads/2019/09/iphone.png) no-repeat; background-size: contain; top: 50%; left: 11%; transform: translate(-50%, -50%); }
+  .insta_beauty #shedule_beauty .content.last { margin-bottom: 20px; }
+  .insta_beauty #speakers_beauty .content .block_speaker .text h3 { top: -15px; }
+  .insta_beauty #shedule_beauty { padding-bottom: 0; }
+  /*.insta_beauty #about_beauty .content > div > ul li img { position: relative; top: 5px; }*/
+  #speakers_beauty { overflow: hidden; }
+  .insta_beauty #shedule_beauty .content .block_session ul.timing { display: grid; }
+  .insta_beauty #shedule_beauty .content .block_session ul.timing li.time { grid-row: 2; padding: 14px 0 0 0; }
+  .insta_beauty #shedule_beauty .content .block_session ul.timing li.num_session { display: inline-block; max-width: 95px; text-align: center; }
+  .insta_beauty #shedule_beauty .content .block_session.block_left { text-align: left; } }
