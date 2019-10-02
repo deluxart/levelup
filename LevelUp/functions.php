@@ -888,7 +888,7 @@ function my_shortcode_function() {
 	global $wp_query;
 	$wp_query = new WP_Query(array(
 		'category' => '32',
-		'post_type' => 'page',
+		'post_type' => 'post',
 		'posts_per_page' => '1',
 		'paged' => get_query_var('paged') ?: 1
 	));
