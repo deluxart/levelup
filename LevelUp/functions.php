@@ -889,8 +889,8 @@ function my_shortcode_function() {
 	$wp_query = new WP_Query(array(
 		'category' => '32',
 		'post_type' => 'post',
-		'posts_per_page' => '1',
-		'paged' => get_query_var('paged') ?: 1
+		'posts_per_page' => '4',
+		// 'paged' => get_query_var('paged') ?: 1
 	));
 ob_start();
 	if ( have_posts() ) :
@@ -903,7 +903,7 @@ ob_start();
 	        get_template_part( 'template-parts/content', 'none' );
 	    endif;
 
-	posts_nav_link(); // пагинация - echo тут не надо
+	// posts_nav_link();
 	wp_reset_query(); // сброс $wp_query
 	$out = ob_get_clean();
 	return $out;
