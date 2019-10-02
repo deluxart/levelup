@@ -87,7 +87,7 @@ get_header(); ?>
 		$my_query->the_post();
 		?>
 		<li>
-			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?> <?php the_field( 'date' ); ?> о <?php the_field( 'time' ); ?>">
+			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
 				<div class="post-thumb"><?php the_post_thumbnail(); ?></div>
 				<div>
 					<?php the_title(); ?>
