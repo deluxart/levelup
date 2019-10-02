@@ -887,7 +887,7 @@ add_shortcode('events-mini', 'my_shortcode_function');
 function my_shortcode_function() {
 	global $wp_query;
 	$wp_query = new WP_Query(array(
-		'category' => '32',
+		// 'category' => '32',
 		'post_type' => 'post',
 		'posts_per_page' => '4',
 		// 'paged' => get_query_var('paged') ?: 1
