@@ -884,28 +884,31 @@ require get_template_directory() . '/inc/options_page.php';
 
 add_shortcode('events-mini', 'my_shortcode_function');
 
-
 function my_shortcode_function() {
-	global $wp_query;
-	$wp_query = new WP_Query(array(
-		'category' => '32',
-		'post_type' => 'post',
-		'posts_per_page' => '4',
-		// 'paged' => get_query_var('paged') ?: 1
-	));
-ob_start();
-	if ( have_posts() ) :
-	        while ( have_posts() ) : the_post();
+    $args = array(
+        'posts_per_page' => 10,
+        'numberposts' => 6,
+        'category' => 32,
+        'post_status' => 'publish',
+        'post_type' => 'page',
+    );
+    $my_query = new WP_Query( $args );
+    if ( $my_query->have_posts() ) :
+        // Start the loop.
+        while ( $my_query->have_posts() ) : $my_query->the_post();
 
-	            get_template_part( 'template-parts/content', get_post_format() );
+            /*
+             * Include the Post-Format-specific template for the content.
+             * If you want to override this in a child theme, then include a file
+             * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+             */
+            get_template_part( 'template-parts/content', get_post_format() );
 
-	        endwhile;
-	    else :
-	        get_template_part( 'template-parts/content', 'none' );
-	    endif;
+            // End the loop.
+        endwhile;
+    // If no content, include the "No posts found" template.
+    else :
+        get_template_part( 'template-parts/content', 'none' );
 
-	posts_nav_link();
-	wp_reset_query(); // сброс $wp_query
-	$out = ob_get_clean();
-	return $out;
-}
+    endif;
+    }
