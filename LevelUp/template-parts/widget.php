@@ -15,25 +15,20 @@
 <div class="post-image widget">
 	<?php the_post_thumbnail('thumbnail'); ?>
 </div>
-
-	<header class="entry-header">
+<div class="text_widget">
 		<?php
 			if ( is_single() ) :
-				the_title( '<h1>', '</h1>' );
+				the_title( '<h4>', '</h4>' );
 			else :
-				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+				the_title( sprintf( '<h4 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h4>' );
 			endif;
 		?>
-	<ul class="tag">
-         <li class="date"><span><i class="fa fa-calendar" aria-hidden="true"></i><?php the_date(); ?></span></li>
-
-
- 	</ul>
-
-
-
-	</header><!-- .entry-header -->
-
-
+<?php if ( get_field( 'date' ) ) { ?>
+	<?php the_field( 'date' ); ?>
+<?php } ?>
+<?php if ( get_field( 'time' ) ) { ?>
+	о <?php the_field( 'time' ); ?>
+<?php } ?>
+</div>
 
 </article><!-- #post-## -->

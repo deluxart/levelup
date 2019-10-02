@@ -13,12 +13,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
-<?php if ( get_field( 'date' ) ) { ?>
-	<?php the_field( 'date' ); ?>
-<?php } ?>
-<?php if ( get_field( 'time' ) ) { ?>
-	о <?php the_field( 'time' ); ?>
-<?php } ?>
+
 
 	<header class="entry-header">
 		<?php
