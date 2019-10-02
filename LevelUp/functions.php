@@ -893,6 +893,7 @@ function my_shortcode_news() {
 		// 'paged' => get_query_var('paged') ?: 1
 	));
 ob_start();
+echo '<div class="events_block">';
 	if ( have_posts() ) :
 	        while ( have_posts() ) : the_post();
 
@@ -902,7 +903,7 @@ ob_start();
 	    else :
 	        get_template_part( 'template-parts/content', 'none' );
 	    endif;
-
+echo '</div>';
 	// posts_nav_link();
 	wp_reset_query(); // сброс $wp_query
 	$out = ob_get_clean();
