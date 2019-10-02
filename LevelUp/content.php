@@ -12,7 +12,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-
+<?php the_field( 'date' ); ?> о <?php the_field( 'time' ); ?>
 
 	<header class="entry-header">
 		<?php
