@@ -20,7 +20,9 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 /* For widget */
 .events_block article { display: grid; grid-template-columns: 54px 1fr; grid-column-gap: 10px; }
 .events_block article .post-image img { border-radius: 50%; display: block; }
-.events_block article .text_widget h4 a { font-size: 14px; color: #000000; text-decoration: none; font-family: Gilroy; font-weight: 600;}
+.events_block article .text_widget a { font-size: 14px; color: #000000; text-decoration: none; font-family: Gilroy; font-weight: 600; }
+.events_block article .text_widget .date-event { color: #fff; font-size: 10px; background: #ff0000; padding: 4px 7px; border-radius: 30px; }
+.events_block article .text_widget .date-event i { color: #fff; }
 
 
 body.admin-bar #header { top: 32px; }
@@ -32,7 +34,7 @@ body.admin-bar #header { top: 32px; }
 
 
 @-webkit-keyframes autofill { to { color: inherit; background: transparent; } }
-input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fill-mode: both; animation-name: autofill; }
+input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fill-mode: both; animation-fill-mode: both; animation-name: autofill; }
 
 .navigation.post-navigation { display: none !important; }
 
