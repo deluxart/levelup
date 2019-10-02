@@ -882,7 +882,7 @@ require get_template_directory() . '/inc/options_page.php';
 
 
 
-add_shortcode('portfolio-mini', 'my_shortcode_function');
+add_shortcode('events-mini', 'my_shortcode_function');
 
 
 function my_shortcode_function() {
@@ -890,7 +890,7 @@ function my_shortcode_function() {
 	$wp_query = new WP_Query(array(
 		'category_id' => '141',
 		'post_type' => 'post',
-		'posts_per_page' => '1',
+		'posts_per_page' => '4',
 		'paged' => get_query_var('paged') ?: 1
 	));
 ob_start();
