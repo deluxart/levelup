@@ -876,3 +876,36 @@ add_action('admin_head', 'my_stylesheet1');
 
 // Options page for WP PM 20
 require get_template_directory() . '/inc/options_page.php';
+
+
+
+
+
+
+add_shortcode('portfolio-mini', 'my_shortcode_function');
+
+
+function my_shortcode_function() {
+	global $wp_query;
+	$wp_query = new WP_Query(array(
+		'category_id' => '141',
+		'post_type' => 'post',
+		'posts_per_page' => '1',
+		'paged' => get_query_var('paged') ?: 1
+	));
+ob_start();
+	if ( have_posts() ) :
+	        while ( have_posts() ) : the_post();
+
+	            get_template_part( 'template-parts/content', get_post_format() );
+
+	        endwhile;
+	    else :
+	        get_template_part( 'template-parts/content', 'none' );
+	    endif;
+
+	// posts_nav_link();
+	wp_reset_query(); // сброс $wp_query
+	$out = ob_get_clean();
+	return $out;
+}
