@@ -904,7 +904,7 @@ ob_start();
 	        get_template_part( 'template-parts/content', 'none' );
 	    endif;
 
-	// posts_nav_link();
+	posts_nav_link();
 	wp_reset_query(); // сброс $wp_query
 	$out = ob_get_clean();
 	return $out;
