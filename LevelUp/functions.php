@@ -891,7 +891,7 @@ function my_shortcode_function() {
 		'category' => '141',
 		'post_type' => 'post',
 		'posts_per_page' => '4',
-		'paged' => get_query_var('paged') ?: 1
+		// 'paged' => get_query_var('paged') ?: 1
 	));
 ob_start();
 	if ( have_posts() ) :
