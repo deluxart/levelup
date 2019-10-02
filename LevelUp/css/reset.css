@@ -17,6 +17,12 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 .SliderTarget > div { text-align: center; }
 /* For emojie block */
 
+/* For widget */
+.events_block article { display: grid; grid-template-columns: 54px 1fr; grid-column-gap: 10px; }
+.events_block article .post-image img { border-radius: 50%; display: block; }
+.events_block article .text_widget h4 a { font-size: 14px; color: #000000; text-decoration: none; font-family: Gilroy; font-weight: 600;}
+
+
 body.admin-bar #header { top: 32px; }
 
 @media (max-width: 782px) {
