@@ -18,11 +18,13 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 /* For emojie block */
 
 /* For widget */
-.events_block { display: grid; grid-row-gap: 20px; }
-.events_block article { display: grid; grid-template-columns: 54px 1fr; grid-column-gap: 10px; }
+.events_block { display: grid; grid-row-gap: 40px; }
+.events_block article { display: grid; grid-template-columns: 54px 1fr; grid-column-gap: 10px; position: relative; }
+.events_block > article::before { position: absolute; content: ''; width: 100%; height: 1px; background: #f3f3f3; left: 0; bottom: -20px; }
+.events_block > article:last-child::before {display: none}
 .events_block article .post-image img { border-radius: 50%; display: block; }
 .events_block article .text_widget a { font-size: 14px; color: #000000; text-decoration: none; font-family: Gilroy; font-weight: 600; display: block; }
-.events_block article .text_widget .date-event { color: #fff; font-size: 10px; background: #ff0000; padding: 4px 7px; border-radius: 30px; display: inline-block; }
+.events_block article .text_widget .date-event { color: #fff; font-size: 10px; background: #ff0000; padding: 2px 7px; border-radius: 30px; display: inline-block; }
 .events_block article .text_widget .date-event i { color: #fff; }
 
 

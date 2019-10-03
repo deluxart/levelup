@@ -889,7 +889,7 @@ function my_shortcode_news() {
 	$wp_query = new WP_Query(array(
 		'category' => '32',
 		'post_type' => 'post',
-		'posts_per_page' => '4',
+		'posts_per_page' => '3',
 		// 'paged' => get_query_var('paged') ?: 1
 	));
 ob_start();
