@@ -103,7 +103,7 @@
     <div class="btnClose"></div>
     <div class="close-modal"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></div>
     <div class="modalClose"></div>
-    <div class="search-modal-inner">
+    <div class="subscribe-modal-inner">
         тут форма и виджеты
     </div>
 </div>
