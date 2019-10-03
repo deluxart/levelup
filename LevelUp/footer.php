@@ -104,7 +104,19 @@
     <div class="close-modal"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></div>
     <div class="modalClose"></div>
     <div class="subscribe-modal-inner">
-        тут форма и виджеты
+    <div class="subscribe-content">
+            <div class="widget first"><?php echo do_shortcode('[recent_posts num="5" cat="2874"]'); ?></div>
+            <div class="form">
+            	<h2>Будь вкурсе!</h2>
+            	<p>Актуальные новости и мероприятия в
+еженедельной рассылке от Level Up</p>
+
+				<div class="form-cont">
+					[contact-form-7 id="294" title="Футер (Форма подписки)"]
+				</div>
+            </div>
+            <div class="widget last"><?php echo do_shortcode('[recent_posts num="5" cat="2205"]'); ?></div>
+        </div>
     </div>
 </div>
 
