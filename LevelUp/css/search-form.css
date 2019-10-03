@@ -50,7 +50,7 @@
 .subscribe-form { display: grid; grid-row-gap: 20px; padding: 35px; }
 .subscribe-content input.wpcf7-form-control.wpcf7-submit { width: 100%; line-height: 38px; padding: 0 40px; margin: 0; font-family: Gilroy; font-weight: 600; color: #fff; border: 0; background: #0071f1; font-size: 16px; }
 .subscribe-content input.wpcf7-form-control.wpcf7-submit:hover { color: #fff; border: 0; background: #0071f1; box-shadow: 0 10px 20px 0 rgba(0,67,91,.25); }
-.subscribe-content .widget { position: relative; padding-bottom: 40px; }
+.subscribe-content div.top > .widget { position: relative; padding-bottom: 40px; }
 .subscribe-content .widget .read_btn a { color: #000; font-weight: 600; }
 .subscribe-content .widget .read_btn { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); }
 
