@@ -31,6 +31,7 @@
 .subscribe-content .form_input_cf { border-bottom: 0; padding: 0; width: 100%; }
 .subscribe-content .form_input_cf .wpcf7-form-control-wrap input { background: #fff; border-radius: 30px; height: 38px; }
 .subscribe-content .form h2 { font-size: 36px; color: #0071f1; font-weight: 900; }
+.subscribe-content .form { display: grid; grid-template-rows: auto 1fr auto; }
 .subscribe-form > p { display: none; }
 .subscribe-form { display: grid; grid-row-gap: 20px; padding: 35px; }
 
