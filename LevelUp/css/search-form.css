@@ -27,6 +27,7 @@
 .subscribe-open.open { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); z-index: 999999; }
 .subscribe-open .text-center { color: #f1f1f1; font-size: 24px; line-height: 30px; margin: 1em 0; }
 .subscribe-open .searchform { margin: auto; max-width: 1000px; width: 80%; }
+.subscribe-open .search-modal-inner { left: 0; padding: 10px; position: absolute; right: 0; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
 
 
 
