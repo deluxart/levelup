@@ -181,6 +181,8 @@ function LevelUp_fonts_url() {
 }
 endif;
 
+require get_template_directory() . '/inc/options_page.php';
+
 /**
  * Load JS and styles.
  */
@@ -642,14 +644,11 @@ function my_stylesheet1(){
 }
 add_action('admin_head', 'my_stylesheet1');
 
-require get_template_directory() . '/inc/options_page.php';
-
-add_shortcode('events-mini', 'my_shortcode_news');
-
-function my_shortcode_news() {
+// Add shortcode for news
+function my_shortcode_events() {
 	global $wp_query;
 	$wp_query = new WP_Query(array(
-		'category' => '32',
+		'category' => '2874',
 		'post_type' => 'post',
 		'posts_per_page' => '3',
 	));
@@ -669,3 +668,32 @@ echo '</div>';
 	$out = ob_get_clean();
 	return $out;
 }
+add_shortcode('events-mini', 'my_shortcode_events');
+// End - Add shortcode for news
+
+// Add shortcode for news
+function my_shortcode_news() {
+	global $wp_query;
+	$wp_query = new WP_Query(array(
+		'category' => '32',
+		'post_type' => 'post',
+		'posts_per_page' => '3',
+	));
+ob_start();
+echo '<div class="events_block last-mini">';
+	if ( have_posts() ) :
+	        while ( have_posts() ) : the_post();
+
+	            get_template_part( 'template-parts/widget', get_post_format() );
+
+	        endwhile;
+	    else :
+	        get_template_part( 'template-parts/content', 'none' );
+	    endif;
+echo '</div>';
+	wp_reset_query(); // сброс $wp_query
+	$out = ob_get_clean();
+	return $out;
+}
+add_shortcode('last-mini', 'my_shortcode_news');
+// End - Add shortcode for news
