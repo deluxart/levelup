@@ -33,6 +33,13 @@
 .subscribe-content .form_input_cf { border-bottom: 0; padding: 0; width: 100%; }
 .subscribe-content .form_input_cf .wpcf7-form-control-wrap input { background: #fff; border-radius: 30px; height: 38px; width: 100%; }
 .subscribe-content .form h2 { font-size: 36px; color: #0071f1; font-weight: 900; }
+.subscribe-content .form > p { margin: 10px 0 20px; }
+.subscribe-content .form .form-btn { position: relative; }
+.subscribe-content div.wpcf7 .ajax-loader { position: absolute; left: 50%; margin: 0; top: 50%; transform: translate(-50%, -50%); background-color: #0071f1; width: 90%; background-repeat: no-repeat; background-position: center; background-image: url(../img/loading_white.svg); background-size: 36px 36px; height: 24px; }
+.subscribe-content div.wpcf7-mail-sent-ok { margin: 0; border: 0; font-size: 14px; }
+.subscribe-content .widget h4 { text-align: center; font-weight: 600; color: #000; font-size: 18px; margin-bottom: 20px; border-bottom: 1px solid #f3f3f3; padding-bottom: 10px; }
+.subscribe-content span.wpcf7-not-valid-tip { position: absolute; margin: 0; top: 0; right: 10px; border-radius: 0 5px 5px 0; }
+
 .subscribe-content .form { display: grid; grid-template-rows: auto 1fr auto; text-align: center; }
 .subscribe-content .form .form-cont { background: #e7e7e7; position: relative; margin-bottom: -35px; border-radius: 20px 20px 0 0; }
 .subscribe-content .form .form-cont::before { content: ''; position: absolute; left: -39px;
@@ -40,7 +47,6 @@
 .subscribe-content .form .form-cont::after { content: ''; position: absolute; right: -39px;
   bottom: -1px; background: url(https://levelup.ua/wp-content/uploads/2019/10/right.svg); background-size: contain; width: 40px; height: 40px; }
 .subscribe-form > p { display: none; }
-.subscribe-content div.wpcf7 .ajax-loader { position: absolute; }
 .subscribe-form { display: grid; grid-row-gap: 20px; padding: 35px; }
 .subscribe-content input.wpcf7-form-control.wpcf7-submit { width: 100%; line-height: 38px; padding: 0 40px; margin: 0; font-family: Gilroy; font-weight: 600; color: #fff; border: 0; background: #0071f1; font-size: 16px; }
 .subscribe-content input.wpcf7-form-control.wpcf7-submit:hover { color: #fff; border: 0; background: #0071f1; box-shadow: 0 10px 20px 0 rgba(0,67,91,.25); }

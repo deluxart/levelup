@@ -106,7 +106,9 @@
     <div class="subscribe-modal-inner">
             <div class="subscribe-content">
                 <div class="top">
-                    <div class="widget first"><?php echo do_shortcode('[recent_posts num="3" cat="2874"]'); ?></div>
+                    <div class="widget first">
+                        <h4>Ближайшие ивенты:</h4>
+                        <?php echo do_shortcode('[recent_posts num="3" cat="2874"]'); ?></div>
                     <div class="form">
                         <h2>Будь вкурсе!</h2>
                         <p>Актуальные новости и мероприятия в
@@ -116,7 +118,10 @@
                         <?php echo do_shortcode('[contact-form-7 id="294" title="Футер (Форма подписки)"]'); ?>
                         </div>
                     </div>
-                    <div class="widget last"><?php echo do_shortcode('[recent_posts num="3" cat="2205"]'); ?></div>
+                    <div class="widget last">
+                        <h4>Последние новости:</h4>
+                        <?php echo do_shortcode('[recent_posts num="3" cat="2205"]'); ?>
+                    </div>
                 </div>
                 <div class="bottom">* Вы так-же в любой момент с легкостью сможете отписаться от нашей рассылки</div>
             </div>
