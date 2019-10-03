@@ -97,6 +97,17 @@
     </div>
 </div>
 
+
+<div class="subscribe-open-bg"></div>
+<div id="subscribe-modal" class="subscribe-open">
+    <div class="btnClose"></div>
+    <div class="close-modal"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></div>
+    <div class="modalClose"></div>
+    <div class="search-modal-inner">
+        тут форма и виджеты
+    </div>
+</div>
+
 <!-- Модальное окно мероприятия -->
 <div class="event_modal">
 	<div class="cont">

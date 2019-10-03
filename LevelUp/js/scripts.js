@@ -732,4 +732,13 @@ jQuery(window).resize(function() {
      }
 });
 
-
+// For subscrube form (be Alexander Osadhcyy)
+jQuery('.lux_subscribe > .button').click(function () {
+    jQuery('.subscribe-open').toggleClass("open");
+    jQuery('.subscribe-open-bg').toggleClass("open").css({display: 'block'});
+});
+jQuery('.lux_subscribe .icon--close').click(function () {
+    jQuery('.subscribe-open').toggleClass("open");
+    jQuery('.subscribe-open-bg').toggleClass("open");
+    jQuery('.subscribe-open-bg').css({display: 'none'});
+});
