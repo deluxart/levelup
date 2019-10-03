@@ -648,7 +648,7 @@ add_action('admin_head', 'my_stylesheet1');
 function my_shortcode_events() {
 	global $wp_query;
 	$wp_query = new WP_Query(array(
-		'category' => '2874',
+		'category' => 2874,
 		'post_type' => 'post',
 		'posts_per_page' => '3',
 	));
@@ -675,7 +675,7 @@ add_shortcode('events-mini', 'my_shortcode_events');
 function my_shortcode_news() {
 	global $wp_query;
 	$wp_query = new WP_Query(array(
-		'category' => '32',
+		'category' => 32,
 		'post_type' => 'post',
 		'posts_per_page' => '3',
 	));
