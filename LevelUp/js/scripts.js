@@ -733,7 +733,7 @@ jQuery(window).resize(function() {
 });
 
 // For subscrube form (be Alexander Osadhcyy)
-jQuery('level_footer aside .subscribe > a').click(function () {
+jQuery('#level_footer aside .subscribe > a').click(function () {
     jQuery('.subscribe-open').toggleClass("open");
     jQuery('.subscribe-open-bg').toggleClass("open").css({display: 'block'});
 });

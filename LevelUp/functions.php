@@ -205,7 +205,7 @@ function LevelUp_scripts() {
     wp_enqueue_script( 'LevelUp-popper', get_template_directory_uri() . '/assets/js/popper.min.js','','1',true);
     wp_enqueue_script( 'LevelUp-bootstrap', get_template_directory_uri() . '/assets/bootstrap/bootstrap.min.js','','1',true);
     wp_enqueue_script( 'LevelUp-fs-menu', get_template_directory_uri() . '/assets/js/fs_menu.js', array( 'jquery' ), '20150330', true );
-    wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/dist/scripts-all.min.js', array( 'jquery' ), '444', true );
+    wp_enqueue_script( 'LevelUp-script', get_template_directory_uri() . '/dist/scripts-all.min.js', array( 'jquery' ), '434', true );
 
 
 }
