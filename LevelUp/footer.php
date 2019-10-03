@@ -108,7 +108,9 @@
                 <div class="top">
                     <div class="widget first">
                         <h4>Ближайшие ивенты:</h4>
-                        <?php echo do_shortcode('[recent_posts num="3" cat="2874"]'); ?></div>
+                        <?php echo do_shortcode('[recent_posts num="3" cat="2874"]'); ?>
+                        <div class="read_btn"><a href="https://levelup.ua/novosti">Смотреть все <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+                    </div>
                     <div class="form">
                         <h2>Будь вкурсе!</h2>
                         <p>Актуальные новости и мероприятия в
@@ -121,6 +123,7 @@
                     <div class="widget last">
                         <h4>Последние новости:</h4>
                         <?php echo do_shortcode('[recent_posts num="3" cat="2205"]'); ?>
+                        <div class="read_btn"><a href="https://levelup.ua/novosti">Смотреть все <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
                     </div>
                 </div>
                 <div class="bottom">* Вы так-же в любой момент с легкостью сможете отписаться от нашей рассылки</div>
