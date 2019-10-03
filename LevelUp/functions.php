@@ -1,6 +1,6 @@
 <?php
 /**
- * Twenty Fifteen functions and definitions
+ * LevelUp functions and definitions
  *
  * Set up the theme and provides some helper functions, which are used in the
  * theme as custom template tags. Others are attached to action and filter
@@ -21,84 +21,32 @@
  * {@link https://codex.wordpress.org/Plugin_API}
  *
  * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
+ * @subpackage LevelUp
+ * @since Level Up theme
  */
 
-/**
- * Set the content width based on the theme's design and stylesheet.
- *
- * @since Twenty Fifteen 1.0
- */
 if ( ! isset( $content_width ) ) {
 	$content_width = 660;
 }
 
-/**
- * Twenty Fifteen only works in WordPress 4.1 or later.
- */
 if ( version_compare( $GLOBALS['wp_version'], '4.1-alpha', '<' ) ) {
 	require get_template_directory() . '/inc/back-compat.php';
 }
 
 if ( ! function_exists( 'LevelUp_setup' ) ) :
-/**
- * Sets up theme defaults and registers support for various WordPress features.
- *
- * Note that this function is hooked into the after_setup_theme hook, which
- * runs before the init hook. The init hook is too late for some features, such
- * as indicating support for post thumbnails.
- *
- * @since Twenty Fifteen 1.0
- */
 function LevelUp_setup() {
-
-	/*
-	 * Make theme available for translation.
-	 * Translations can be filed at WordPress.org. See: https://translate.wordpress.org/projects/wp-themes/LevelUp
-	 * If you're building a theme based on LevelUp, use a find and replace
-	 * to change 'LevelUp' to the name of your theme in all the template files
-	 */
 	load_theme_textdomain( 'LevelUp' );
 
-	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
-
-	/*
-	 * Let WordPress manage the document title.
-	 * By adding theme support, we declare that this theme does not use a
-	 * hard-coded <title> tag in the document head, and expect WordPress to
-	 * provide it for us.
-	 */
 	add_theme_support( 'title-tag' );
 
-	/*
-	 * Enable support for Post Thumbnails on posts and pages.
-	 *
-	 * See: https://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
-	 */
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 825, 510, true );
 
-	// This theme uses wp_nav_menu() in two locations.
-	register_nav_menus( array(
-		// 'primary' => __( 'Primary Menu',      'LevelUp' ),
-		// 'social'  => __( 'Social Links Menu', 'LevelUp' ),
-	) );
-
-	/*
-	 * Switch default core markup for search form, comment form, and comments
-	 * to output valid HTML5.
-	 */
 	add_theme_support( 'html5', array(
 		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
 	) );
 
-	/*
-	 * Enable support for Post Formats.
-	 *
-	 * See: https://codex.wordpress.org/Post_Formats
-	 */
 	add_theme_support( 'post-formats', array(
 		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
 	) );
@@ -107,43 +55,19 @@ function LevelUp_setup() {
 	$color_scheme  = LevelUp_get_color_scheme();
 	$default_color = trim( $color_scheme[0], '#' );
 
-	// Setup the WordPress core custom background feature.
-
-	/**
-	 * Filter Twenty Fifteen custom-header support arguments.
-	 *
-	 * @since Twenty Fifteen 1.0
-	 *
-	 * @param array $args {
-	 *     An array of custom-header support arguments.
-	 *
-	 *     @type string $default-color     		Default color of the header.
-	 *     @type string $default-attachment     Default attachment of the header.
-	 * }
-	 */
 	add_theme_support( 'custom-background', apply_filters( 'LevelUp_custom_background_args', array(
 		'default-color'      => $default_color,
 		'default-attachment' => 'fixed',
 	) ) );
 
-	/*
-	 * This theme styles the visual editor to resemble the theme style,
-	 * specifically font, colors, icons, and column width.
-	 */
 	add_editor_style( array( 'assets/genericons/genericons.css', LevelUp_fonts_url() ) );
-
-	// Indicate widget sidebars can use selective refresh in the Customizer.
 	add_theme_support( 'customize-selective-refresh-widgets' );
 }
 endif; // LevelUp_setup
 add_action( 'after_setup_theme', 'LevelUp_setup' );
 
 /**
- * Register widget area.
- *
- * @since Twenty Fifteen 1.0
- *
- * @link https://codex.wordpress.org/Function_Reference/register_sidebar
+ * Registered sidebars for LevelUp.
  */
 function LevelUp_widgets_init() {
     register_sidebar( array(
@@ -206,10 +130,6 @@ function LevelUp_widgets_init() {
 		'after_title'   => '<span></span></h2>',
     ) );
 
-
-
-
-
     register_sidebar( array(
 		'name' => "Сайдбар под новостью",
 		'id' => 'after-news-sidebar',
@@ -234,23 +154,10 @@ function LevelUp_widgets_init() {
 add_action( 'widgets_init', 'LevelUp_widgets_init' );
 
 if ( ! function_exists( 'LevelUp_fonts_url' ) ) :
-/**
- * Register Google fonts for Twenty Fifteen.
- *
- * @since Twenty Fifteen 1.0
- *
- * @return string Google fonts URL for the theme.
- */
 function LevelUp_fonts_url() {
 	$fonts_url = '';
 	$fonts     = array();
 	$subsets   = 'latin,latin-ext';
-
-
-	/*
-	 * Translators: To add an additional character subset specific to your language,
-	 * translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
-	 */
 	$subset = _x( 'no-subset', 'Add new subset (greek, cyrillic, devanagari, vietnamese)', 'LevelUp' );
 
 	if ( 'cyrillic' == $subset ) {
@@ -275,41 +182,17 @@ function LevelUp_fonts_url() {
 endif;
 
 /**
- * JavaScript Detection.
- *
- * Adds a `js` class to the root `<html>` element when JavaScript is detected.
- *
- * @since LevelUp 1.1
+ * Load JS and styles.
  */
 
-/**
- * Enqueue scripts and styles.
- *
- * @since Twenty Fifteen 1.0
- */
 function LevelUp_scripts() {
-	// Add custom fonts, used in the main stylesheet.
 	wp_enqueue_style( 'LevelUp-fonts', LevelUp_fonts_url(), array(), null );
-
-	// Add Genericons, used in the main stylesheet.
     wp_enqueue_style( 'genericons', get_template_directory_uri() . '/assets/genericons/genericons.css', array(), '3.2' );
-
-
-    // Add Slick theme, used in the main stylesheet.
     wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/assets/slick/slick-theme.css', array(), '3.2' );
-
-	// Add Slick, used in the main stylesheet.
 	wp_enqueue_style( 'slick', get_template_directory_uri() . '/assets/slick/slick.css', array(), '3.2' );
-
-    // Add Bootstrap, used in the main stylesheet.
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/bootstrap/bootstrap.min.css', array(), '3.2' );
-
-    // Add Font Awesome, used in the main stylesheet.
 	wp_enqueue_style( 'fotnawesome', get_template_directory_uri() . '/assets/font-awesome.min.css', array(), '3.2' );
-
-	// Load our main stylesheet.
 	wp_enqueue_style( 'LevelUp-style', get_stylesheet_uri() );
-
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -340,29 +223,12 @@ add_action( 'wp_enqueue_scripts', 'contact_styles' );
 
 function contact_scripts() {
     if ( is_page( 6586 ) ) {
-        //подключаем стили
         wp_enqueue_script( 'timeline', get_template_directory_uri() . '/assets/timeline/js/main.js', array( 'jquery' ), '20150330', true );
-        //отключаем стили
         wp_dequeue_style ( 'template' );
     }
 }
 add_action( 'wp_enqueue_scripts', 'contact_scripts' );
 
-
-
-
-
-
-
-/**
- * Add preconnect for Google Fonts.
- *
- * @since Twenty Fifteen 1.7
- *
- * @param array   $urls          URLs to print for resource hints.
- * @param string  $relation_type The relation type the URLs are printed.
- * @return array URLs to print for resource hints.
- */
 function LevelUp_resource_hints( $urls, $relation_type ) {
 	if ( wp_style_is( 'LevelUp-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
 		if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '>=' ) ) {
@@ -379,13 +245,6 @@ function LevelUp_resource_hints( $urls, $relation_type ) {
 }
 add_filter( 'wp_resource_hints', 'LevelUp_resource_hints', 10, 2 );
 
-/**
- * Add featured image as background image to post navigation elements.
- *
- * @since Twenty Fifteen 1.0
- *
- * @see wp_add_inline_style()
- */
 function LevelUp_post_nav_background() {
 	if ( ! is_single() ) {
 		return;
@@ -408,33 +267,15 @@ function LevelUp_nav_description( $item_output, $item, $depth, $args ) {
 	if ( 'primary' == $args->theme_location && $item->description ) {
 		$item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-description">' . $item->description . '</div>' . $args->link_after . '</a>', $item_output );
 	}
-
 	return $item_output;
 }
 add_filter( 'walker_nav_menu_start_el', 'LevelUp_nav_description', 10, 4 );
 
-/**
- * Add a `screen-reader-text` class to the search form's submit button.
- *
- * @since Twenty Fifteen 1.0
- *
- * @param string $html Search form HTML.
- * @return string Modified search form HTML.
- */
 function LevelUp_search_form_modify( $html ) {
 	return str_replace( 'class="search-submit"', 'class="search-submit screen-reader-text"', $html );
 }
 add_filter( 'get_search_form', 'LevelUp_search_form_modify' );
 
-/**
- * Modifies tag cloud widget arguments to display all tags in the same font size
- * and use list format for better accessibility.
- *
- * @since Twenty Fifteen 1.9
- *
- * @param array $args Arguments for tag cloud widget.
- * @return array The filtered arguments for tag cloud widget.
- */
 function LevelUp_widget_tag_cloud_args( $args ) {
 	$args['largest']  = 9;
 	$args['smallest'] = 9;
@@ -445,15 +286,9 @@ function LevelUp_widget_tag_cloud_args( $args ) {
 }
 add_filter( 'widget_tag_cloud_args', 'LevelUp_widget_tag_cloud_args' );
 
-// snj: hallo
-// get courses for lvlUp page by id
-//global $wpdb2;
-//$wpdb2 = new wpdb( 'levelu04_bd', 'pannsxf7', 'levelu04_bd', 'localhost' );
 function _SmrkvLib_GetCourse ($atts = array(), $content = null, $tag)
 {
 	global $wpdb;
-	//var_dump($atts);
-	//var_dump($wpdb);
 	$result =
 		$wpdb->get_results('SELECT * FROM smrkv_courses WHERE url like "'.$atts['cource'].'%"');
 	$dat_res = get_object_vars($result[0]);
@@ -463,9 +298,7 @@ function _SmrkvLib_GetCourse ($atts = array(), $content = null, $tag)
 }
 add_shortcode( 'SmrkCourse', '_SmrkvLib_GetCourse' );
 
-//BEGIN amberpanther.com code
 function include_file($atts) {
-     //if filepath was specified
      extract(
           shortcode_atts(
                array(
@@ -477,30 +310,16 @@ function include_file($atts) {
 
      if(strpos($filepath,"?")) {
           $query_string_pos = strpos($filepath,"?");
-          //create global variable for query string so we can access it in our included files if we need it
-          //also parse it out from the clean file name which we will store in a new variable for including
           global $query_string;
           $query_string = substr($filepath,$query_string_pos + 1);
           $clean_file_path = substr($filepath,0,$query_string_pos);
-          //if there isn't a query string
      } else {
           $clean_file_path = $filepath;
      }
-     //END modified portion of code
-
-     //var_dump( __DIR__ .$clean_file_path);die;
-
-     //check if the filepath was specified and if the file exists
      if ($filepath != 'NULL' && file_exists(TEMPLATEPATH.$clean_file_path)){
-          //turn on output buffering to capture script output
           ob_start();
-          //include the specified file
           include(TEMPLATEPATH.$clean_file_path);
-          //assign the file output to $content variable and clean buffer
           $content = ob_get_clean();
-          //return the $content
-          //return is important for the output to appear at the correct position
-          //in the content
           return $content;
      }
 }
@@ -522,7 +341,7 @@ if ( current_user_can( 'manager' ) ) {
          remove_menu_page( 'wpcf7' );
          remove_menu_page( 'tools.php' );
          remove_menu_page( 'Media' );
-         remove_menu_page( 'edit.php' );                   // Записи
+         remove_menu_page( 'edit.php' );
          remove_menu_page( 'profile.php' );
          remove_menu_page( 'upload.php' );
     }
@@ -530,8 +349,6 @@ if ( current_user_can( 'manager' ) ) {
 
 register_nav_menus(array(
 	'mibile_nav'    => 'Мобильная навигация',
-
-// Для полноэкранного меню
 	'full_nav_1'    => 'Основное меню (Шапка)',
 	'full_nav_0'    => 'Меню #1 (Базовое)',
 	'full_nav_2'    => 'Меню #2 (Все курсы)',
@@ -540,7 +357,6 @@ register_nav_menus(array(
 	'full_nav_5'    => 'Меню #5 (Маркетинг и IT-менеджмент)',
 	'full_nav_6'    => 'Меню #6 (Поддержка и аналитика)',
 	'full_nav_7'    => 'Меню #7 (Индивидуальные курсы)',
-// Для полноэкранного меню
 ));
 
 function add_additional_class_on_li($classes, $item, $args) {
@@ -579,27 +395,8 @@ function LevelUp_autop($content) {
     if($post->post_type != 'post') return $content; // if not a post, leave $content untouched
     return wpautop($content);
 }
-
-
-/**
- * Implement the Custom Header feature.
- *
- * @since Twenty Fifteen 1.0
- */
 require get_template_directory() . '/inc/custom-header.php';
-
-/**
- * Custom template tags for this theme.
- *
- * @since Twenty Fifteen 1.0
- */
 require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Customizer additions.
- *
- * @since Twenty Fifteen 1.0
- */
 require get_template_directory() . '/inc/customizer.php';
 
 
@@ -659,8 +456,6 @@ function shortcode_button_script()
     {
         ?>
             <script type="text/javascript">
-
-                //this function is used to retrieve the selected text from the text editor
                 function getSel()
                 {
                     var txtarea = document.getElementById("content");
@@ -694,12 +489,6 @@ function my_myme_types($mime_types){
     return $mime_types;
 }
 add_filter('upload_mimes', 'my_myme_types', 1, 1);
-
-
-
-
-
-
 
 /**
  * Add svg MIME type support
@@ -751,17 +540,7 @@ function fadupla_get_attachment_url_media_library() {
 
 add_action( 'wp_ajax_svg_get_attachment_url', 'fadupla_get_attachment_url_media_library' );
 
-
-
-
-
-
-
-
 // END Загрузка SVG
-
-
-
 function php_in_widgets($widget_content) {
 	if (strpos($widget_content, '<' . '?') !== false) {
 		ob_start();
@@ -795,8 +574,6 @@ $query->set('cat', '1, 32');
 return $query;
 }
 add_filter('pre_get_posts', 'search_filter');
-
-// Для публикации новостей
 add_theme_support ('align-wide');
 add_theme_support( 'editor-color-palette', array(
 	array(
@@ -815,11 +592,6 @@ add_theme_support( 'editor-color-palette', array(
 		'color' => '#333',
        ),
 ) );
-
-
-/**
- * Enqueue Gutenberg block editor style
- */
 function LevelUp_gutenberg_editor_styles() {
     wp_enqueue_style( 'LevelUp-block-editor-styles', get_theme_file_uri( '/css/style-editor.css' ), false, '1.0', 'all' );
 }
@@ -843,7 +615,6 @@ function column_block_cgb_editor_assets(){
     );
 } // End function column_block_cgb_editor_assets().
 
-// Hook: Editor assets.
 add_action('enqueue_block_editor_assets', 'column_block_cgb_editor_assets');
 
 
@@ -860,10 +631,8 @@ function my_mario_block_category( $categories, $post ) {
 }
 add_filter( 'block_categories', 'my_mario_block_category', 10, 2);
 
-
 function replace_core_jquery_version() {
     wp_deregister_script( 'jquery' );
-    // Change the URL if you want to load a local copy of jQuery from your own server.
     wp_register_script( 'jquery', "https://code.jquery.com/jquery-2.2.4.js", array(), '2.2.4' );
 }
 add_action( 'wp_enqueue_scripts', 'replace_core_jquery_version' );
@@ -873,14 +642,7 @@ function my_stylesheet1(){
 }
 add_action('admin_head', 'my_stylesheet1');
 
-
-// Options page for WP PM 20
 require get_template_directory() . '/inc/options_page.php';
-
-
-
-
-
 
 add_shortcode('events-mini', 'my_shortcode_news');
 
@@ -890,7 +652,6 @@ function my_shortcode_news() {
 		'category' => '32',
 		'post_type' => 'post',
 		'posts_per_page' => '3',
-		// 'paged' => get_query_var('paged') ?: 1
 	));
 ob_start();
 echo '<div class="events_block">';
@@ -904,7 +665,6 @@ echo '<div class="events_block">';
 	        get_template_part( 'template-parts/content', 'none' );
 	    endif;
 echo '</div>';
-	// posts_nav_link();
 	wp_reset_query(); // сброс $wp_query
 	$out = ob_get_clean();
 	return $out;
