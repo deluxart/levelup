@@ -97,7 +97,10 @@ h3 { font-size: 36px; font-weight: 400; font-family: 'Montserrat'; line-height: 
 .post-company-block p {margin: 0 !important; padding: 0;}
 .post-company-block .classic-btn {text-align: center;}
 
-
+@media (max-width: 992px) {
+    .post-company-block .content { grid-template-columns: 1fr; text-align: center; grid-gap: 20px; }
+    .post-company-block .content i { transform: rotate(90deg); }
+}
 
 
 /*Форма регистрации*/
