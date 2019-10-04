@@ -1,8 +1,10 @@
 <div class="post-company-block <?php block_field( 'block-color' ); ?>" style="margin-bottom: <?php block_field( 'margin-bottom' ); ?>px">
+    <h4 class="tc"><?php block_field( 'title' ); ?></h4>
 	<div class="content">
         <div class="text">
             <?php block_field( 'text-content' ); ?>
         </div>
+        <div><i class="fa fa-play" aria-hidden="true"></i></div>
         <div class="classic-btn btn-blue">
 			<a href="#" data-toggle="modal" class="sg-show-popup" data-target="#<?php block_field( 'id-modal' ); ?>"><?php block_field( 'text-btn' ); ?></a>
 		</div>

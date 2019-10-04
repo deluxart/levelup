@@ -89,7 +89,10 @@ h3 { font-size: 36px; font-weight: 400; font-family: 'Montserrat'; line-height: 
 
 .post-company-block { text-align: center; background: #fff; box-shadow: 0 1px 10px rgba(0,0,0,.16); border-radius: 5px; transition: box-shadow .5s ease-out; padding: 30px 20px;}
 .post-company-block.blue {background: #15acf2;color: #fff;}
-.post-company-block .content {padding: 0 20px; display: grid; grid-template-columns: 1fr auto; grid-gap: 40px; }
+.post-company-block .content {padding: 0 20px; display: grid; grid-template-columns: 1fr auto; grid-gap: 40px; align-items: center; }
+.post-company-block .content > p { display: none; }
+.post-company-block .content i { font-size: 18px; color: #15acf2; }
+.post-company-block h4 { color: #15acf2; margin-bottom: 20px; font-size: 22px; font-family: 'Gilroy'; font-weight: 600; }
 .post-company-block p {margin: 0 !important; padding: 0;}
 .post-company-block .classic-btn {text-align: center;}
 
