@@ -231,52 +231,52 @@ function contact_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'contact_scripts' );
 
-function LevelUp_resource_hints( $urls, $relation_type ) {
-	if ( wp_style_is( 'LevelUp-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
-		if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '>=' ) ) {
-			$urls[] = array(
-				'href' => 'https://fonts.gstatic.com',
-				'crossorigin',
-			);
-		} else {
-			$urls[] = 'https://fonts.gstatic.com';
-		}
-	}
+// function LevelUp_resource_hints( $urls, $relation_type ) {
+// 	if ( wp_style_is( 'LevelUp-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
+// 		if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '>=' ) ) {
+// 			$urls[] = array(
+// 				'href' => 'https://fonts.gstatic.com',
+// 				'crossorigin',
+// 			);
+// 		} else {
+// 			$urls[] = 'https://fonts.gstatic.com';
+// 		}
+// 	}
 
-	return $urls;
-}
-add_filter( 'wp_resource_hints', 'LevelUp_resource_hints', 10, 2 );
+// 	return $urls;
+// }
+// add_filter( 'wp_resource_hints', 'LevelUp_resource_hints', 10, 2 );
 
-function LevelUp_post_nav_background() {
-	if ( ! is_single() ) {
-		return;
-	}
+// function LevelUp_post_nav_background() {
+// 	if ( ! is_single() ) {
+// 		return;
+// 	}
 
-	$previous = ( is_attachment() ) ? get_post( get_post()->post_parent ) : get_adjacent_post( false, '', true );
-	$next     = get_adjacent_post( false, '', false );
-	$css      = '';
+// 	$previous = ( is_attachment() ) ? get_post( get_post()->post_parent ) : get_adjacent_post( false, '', true );
+// 	$next     = get_adjacent_post( false, '', false );
+// 	$css      = '';
 
-	if ( is_attachment() && 'attachment' == $previous->post_type ) {
-		return;
-	}
+// 	if ( is_attachment() && 'attachment' == $previous->post_type ) {
+// 		return;
+// 	}
 
-	wp_add_inline_style( 'LevelUp-style', $css );
-}
-add_action( 'wp_enqueue_scripts', 'LevelUp_post_nav_background' );
+// 	wp_add_inline_style( 'LevelUp-style', $css );
+// }
+// add_action( 'wp_enqueue_scripts', 'LevelUp_post_nav_background' );
 
 
-function LevelUp_nav_description( $item_output, $item, $depth, $args ) {
-	if ( 'primary' == $args->theme_location && $item->description ) {
-		$item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-description">' . $item->description . '</div>' . $args->link_after . '</a>', $item_output );
-	}
-	return $item_output;
-}
-add_filter( 'walker_nav_menu_start_el', 'LevelUp_nav_description', 10, 4 );
+// function LevelUp_nav_description( $item_output, $item, $depth, $args ) {
+// 	if ( 'primary' == $args->theme_location && $item->description ) {
+// 		$item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-description">' . $item->description . '</div>' . $args->link_after . '</a>', $item_output );
+// 	}
+// 	return $item_output;
+// }
+// add_filter( 'walker_nav_menu_start_el', 'LevelUp_nav_description', 10, 4 );
 
-function LevelUp_search_form_modify( $html ) {
-	return str_replace( 'class="search-submit"', 'class="search-submit screen-reader-text"', $html );
-}
-add_filter( 'get_search_form', 'LevelUp_search_form_modify' );
+// function LevelUp_search_form_modify( $html ) {
+// 	return str_replace( 'class="search-submit"', 'class="search-submit screen-reader-text"', $html );
+// }
+// add_filter( 'get_search_form', 'LevelUp_search_form_modify' );
 
 function LevelUp_widget_tag_cloud_args( $args ) {
 	$args['largest']  = 9;
@@ -300,33 +300,33 @@ function _SmrkvLib_GetCourse ($atts = array(), $content = null, $tag)
 }
 add_shortcode( 'SmrkCourse', '_SmrkvLib_GetCourse' );
 
-function include_file($atts) {
-     extract(
-          shortcode_atts(
-               array(
-                    'filepath' => 'NULL',
-                    'key1' => 'NULL'
-               ), $atts
-          )
-     );
+// function include_file($atts) {
+//      extract(
+//           shortcode_atts(
+//                array(
+//                     'filepath' => 'NULL',
+//                     'key1' => 'NULL'
+//                ), $atts
+//           )
+//      );
 
-     if(strpos($filepath,"?")) {
-          $query_string_pos = strpos($filepath,"?");
-          global $query_string;
-          $query_string = substr($filepath,$query_string_pos + 1);
-          $clean_file_path = substr($filepath,0,$query_string_pos);
-     } else {
-          $clean_file_path = $filepath;
-     }
-     if ($filepath != 'NULL' && file_exists(TEMPLATEPATH.$clean_file_path)){
-          ob_start();
-          include(TEMPLATEPATH.$clean_file_path);
-          $content = ob_get_clean();
-          return $content;
-     }
-}
+//      if(strpos($filepath,"?")) {
+//           $query_string_pos = strpos($filepath,"?");
+//           global $query_string;
+//           $query_string = substr($filepath,$query_string_pos + 1);
+//           $clean_file_path = substr($filepath,0,$query_string_pos);
+//      } else {
+//           $clean_file_path = $filepath;
+//      }
+//      if ($filepath != 'NULL' && file_exists(TEMPLATEPATH.$clean_file_path)){
+//           ob_start();
+//           include(TEMPLATEPATH.$clean_file_path);
+//           $content = ob_get_clean();
+//           return $content;
+//      }
+// }
 //register the Shortcode handler
-add_shortcode('include', 'include_file');
+// add_shortcode('include', 'include_file');
 
 
 add_action( 'admin_init', 'my_remove_menu_pages' );
@@ -397,7 +397,7 @@ function LevelUp_autop($content) {
     if($post->post_type != 'post') return $content; // if not a post, leave $content untouched
     return wpautop($content);
 }
-require get_template_directory() . '/inc/custom-header.php';
+// require get_template_directory() . '/inc/custom-header.php';
 require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/customizer.php';
 
@@ -601,37 +601,35 @@ function LevelUp_gutenberg_editor_styles() {
 add_action( 'enqueue_block_editor_assets', 'LevelUp_gutenberg_editor_styles' );
 
 
-function column_block_cgb_editor_assets(){
-    // Scripts.
-    wp_enqueue_script(
-        'column_block-cgb-block-js', // Handle.
-        plugins_url('/dist/blocks.build.js', dirname(__FILE__)),
-        array('wp-blocks', 'wp-i18n', 'wp-element')
-    );
+// function column_block_cgb_editor_assets(){
+//     wp_enqueue_script(
+//         'column_block-cgb-block-js',
+//         plugins_url('/dist/blocks.build.js', dirname(__FILE__)),
+//         array('wp-blocks', 'wp-i18n', 'wp-element')
+//     );
 
-    // Styles.
-    wp_enqueue_style(
-        'column_block-cgb-block-editor-css', // Handle.
-        plugins_url('dist/blocks.editor.build.css', dirname(__FILE__)),
-        array('wp-edit-blocks')
-    );
-} // End function column_block_cgb_editor_assets().
+//     wp_enqueue_style(
+//         'column_block-cgb-block-editor-css',
+//         plugins_url('dist/blocks.editor.build.css', dirname(__FILE__)),
+//         array('wp-edit-blocks')
+//     );
+// }
 
-add_action('enqueue_block_editor_assets', 'column_block_cgb_editor_assets');
+// add_action('enqueue_block_editor_assets', 'column_block_cgb_editor_assets');
 
 
-function my_mario_block_category( $categories, $post ) {
-	return array_merge(
-		$categories,
-		array(
-			array(
-				'slug' => 'mario-blocks',
-				'title' => __( 'Mario Blocks', 'mario-blocks' ),
-			),
-		)
-	);
-}
-add_filter( 'block_categories', 'my_mario_block_category', 10, 2);
+// function my_mario_block_category( $categories, $post ) {
+// 	return array_merge(
+// 		$categories,
+// 		array(
+// 			array(
+// 				'slug' => 'mario-blocks',
+// 				'title' => __( 'Mario Blocks', 'mario-blocks' ),
+// 			),
+// 		)
+// 	);
+// }
+// add_filter( 'block_categories', 'my_mario_block_category', 10, 2);
 
 function replace_core_jquery_version() {
     wp_deregister_script( 'jquery' );
