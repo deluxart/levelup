@@ -23,7 +23,6 @@
         reddit: {url: 'https://reddit.com/submit?url=|u|'},
         pinterest: {url: 'https://pinterest.com/pin/create/button/?url=|u|&media=&description=|d|'},
         stumbleupon: {url: 'https://www.stumbleupon.com/submit?url=|u|&title=|t|'},
-        // email: {url: 'mailto:?subject=|t|&body=You might want to check this out: |u|'}
       }
     };
 

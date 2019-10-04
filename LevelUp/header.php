@@ -29,10 +29,8 @@
 
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?1123<?php echo date(get_option('date_format')); ?>3">
-    <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/insta_beauty.css?1<?php echo date(get_option('date_format')); ?>3"> -->
 
     <?php echo $options[gtm_code];?>
-
 </head>
 
 <body <?php body_class(); ?>>
@@ -70,10 +68,6 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-
-
-
-
 <div id="snj_sandwitch"><div class="snj_sandwitch_btn_hide"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
 
 	</div><div class="snj_sandwitch-menu text-center">
@@ -105,7 +99,6 @@
                                 //     Основы программирования
                                     'menu'            => '25',
                                     'container'       => false,
-                                    'echo'            => false,
                                     'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
                                     'depth'           => 0,
                                     'echo'            => true,
@@ -125,7 +118,6 @@
                                 //     Дизайн и верстка
                                     'menu'            => '26',
                                     'container'       => false,
-                                    'echo'            => false,
                                     'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
                                     'depth'           => 0,
                                     'echo'            => true,
@@ -145,7 +137,6 @@
                                 //     Маркетинг и IT-менеджмент
                                     'menu'            => '27',
                                     'container'       => false,
-                                    'echo'            => false,
                                     'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
                                     'depth'           => 0,
                                     'echo'            => true,
@@ -164,7 +155,6 @@
                                 //     Поддержка и аналитика
                                     'menu'            => '28',
                                     'container'       => false,
-                                    'echo'            => false,
                                     'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
                                     'depth'           => 0,
                                     'echo'            => true,
@@ -183,7 +173,6 @@
                                 //     Индивидуальные курсы
                                     'menu'            => '29',
                                     'container'       => false,
-                                    'echo'            => false,
                                     'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
                                     'depth'           => 0,
                                     'echo'            => true,
@@ -211,7 +200,6 @@
             wp_nav_menu( array(
                 'menu'            => '2',
                 'container'       => false,
-                'echo'            => false,
                 'items_wrap'      => '<ul class="navbar-nav ml-auto">%3$s</ul>',
                 'depth'           => 0,
                 'echo'            => true,
@@ -241,7 +229,6 @@
                                 //     Основы программирования
                                     'menu'            => '25',
                                     'container'       => false,
-                                    'echo'            => false,
                                     'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
                                     'depth'           => 0,
                                     'echo'            => true,
@@ -262,7 +249,6 @@
                                 //     Дизайн и верстка
                                     'menu'            => '26',
                                     'container'       => false,
-                                    'echo'            => false,
                                     'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
                                     'depth'           => 0,
                                     'echo'            => true,
@@ -283,7 +269,6 @@
                                 //     Маркетинг и IT-менеджмент
                                     'menu'            => '27',
                                     'container'       => false,
-                                    'echo'            => false,
                                     'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
                                     'depth'           => 0,
                                     'echo'            => true,
@@ -304,7 +289,6 @@
                                 //     Поддержка и аналитика
                                     'menu'            => '28',
                                     'container'       => false,
-                                    'echo'            => false,
                                     'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
                                     'depth'           => 0,
                                     'echo'            => true,
@@ -326,7 +310,6 @@
                                 //     Индивидуальные курсы
                                     'menu'            => '29',
                                     'container'       => false,
-                                    'echo'            => false,
                                     'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
                                     'depth'           => 0,
                                     'echo'            => true,
@@ -354,29 +337,25 @@
                     <div class="menu__item-inner">
                         <p class="label label--topleft label--line">Основное меню</p>
 
-
-
-						                    <div class="menu__item-link">
-                                                <?php
-                                                    $menuParameters = array(
-                                                    //     Индивидуальные курсы
-                                                        'menu'            => '2638',
-                                                        'container'       => false,
-                                                        'echo'            => false,
-                                                        'items_wrap'      => '<ul class="basic_links">%3$s</ul>',
-                                                        'depth'           => 0,
-                                                        'echo'            => true,
-                                                        'before'          => '',
-                                                        'after'           => '',
-                                                        'link_before'     => '',
-                                                        'link_after'      => '',
-                                                        'walker'          => '',
-                                                        'walker_nav_menu_start_el'          => '',
-                                                    );
-                                                    echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
-                                                ?>
+						<div class="menu__item-link">
+                            <?php
+                                $menuParameters = array(
+                                //     Индивидуальные курсы
+                                'menu'            => '2638',
+                                'container'       => false,
+                                'items_wrap'      => '<ul class="basic_links">%3$s</ul>',
+                                'depth'           => 0,
+                                'echo'            => true,
+                                'before'          => '',
+                                'after'           => '',
+                                'link_before'     => '',
+                                'link_after'      => '',
+                                'walker'          => '',
+                                'walker_nav_menu_start_el'          => '',
+                                );
+                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
+                            ?>
                         </div>
-
 
                     </div>
                 </div>
@@ -384,18 +363,17 @@
                     <div class="menu__item-inner">
                         <p class="label label--topleft label--line">Мы в сети</p>
 
-<div class="menu__item-link" style="transform: matrix(1, 0, 0, 1, 0, 0);">
-                        <div class="sidemenu">
-                            <ul>
-                            <li><a href="https://www.instagram.com/levelup_ua/" class="sidemenu__item"><span class="sidemenu__item-inner"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</span></a></li>
-                            <li><a href="https://t.me/levelupit" class="sidemenu__item"><span class="sidemenu__item-inner"><i class="fa fa-telegram" aria-hidden="true"></i> telegram</span></a></li>
-                            <li><a href="https://www.facebook.com/levelupdpua/" class="sidemenu__item"><span class="sidemenu__item-inner"><i class="fa fa-facebook" aria-hidden="true"></i> facebook</span></a></li>
-                            </ul>
-
-                        </div> </div>
+                        <div class="menu__item-link" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+                            <div class="sidemenu">
+                                <ul>
+                                <li><a href="https://www.instagram.com/levelup_ua/" class="sidemenu__item"><span class="sidemenu__item-inner"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</span></a></li>
+                                <li><a href="https://t.me/levelupit" class="sidemenu__item"><span class="sidemenu__item-inner"><i class="fa fa-telegram" aria-hidden="true"></i> telegram</span></a></li>
+                                <li><a href="https://www.facebook.com/levelupdpua/" class="sidemenu__item"><span class="sidemenu__item-inner"><i class="fa fa-facebook" aria-hidden="true"></i> facebook</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
 
                 <div class="menu__item menu__item--5" data-direction="tb">
                     <div class="menu__item-inner">
@@ -412,15 +390,10 @@
                 <button class="action action--close"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></button>
             </nav>
 
-        <!-- Поиск 15.02.2019 by Alexander O. -->
             <div class="lux_search">
                 <div class="button"><span><i class="fa fa-search" aria-hidden="true"></i></span></div>
             </div>
-        <!-- Поиск 15.02.2019 by Alexander O. -->
   </div>
-
-
-
 </nav>
 </header>
 <!-- <?php if (current_user_can('level_10')) { ?></div><?php } ?> -->

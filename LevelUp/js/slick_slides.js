@@ -1,5 +1,4 @@
 
-
 // Слик слайдеры
         jQuery('.responsive').slick({
           dots: true,
@@ -33,9 +32,6 @@
             }
           ]
         });
-
-
-
 
 jQuery('.team-photo').slick({
           dots: true,
@@ -104,7 +100,7 @@ jQuery('.event-speakers').slick({
             }
           ]
         });
-        
+
 
       jQuery('.odinochnyy-slider-prepodovatel').slick({
           dots: true,

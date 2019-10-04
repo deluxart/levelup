@@ -12,10 +12,6 @@
 <?php $options = get_option( 'levelup_theme_options' ); ?>
 	</div><!-- .site-content -->
 
-
-
-
-
 <footer id="level_footer">
 	<div class="container">
 		<div class="content">
@@ -66,10 +62,9 @@
     <meta itemprop="streetAddress" content="ул. Троицкая, 21Г." />
 </div>
 
-
-    <meta itemprop="telephone" content="+38 (099) 731 83 85" />
-    <meta itemprop="telephone" content="+38 (096) 084 25 13" />
-    <meta itemprop="email" content="info@levelup.ua" />
+<meta itemprop="telephone" content="+38 (099) 731 83 85" />
+<meta itemprop="telephone" content="+38 (096) 084 25 13" />
+<meta itemprop="email" content="info@levelup.ua" />
 
 
 <link itemprop="sameAs" href="https://www.instagram.com/levelup_ua/" />
@@ -113,9 +108,7 @@
                     </div>
                     <div class="form">
                         <h2>Будь вкурсе!</h2>
-                        <p>Актуальные новости и мероприятия в
-        еженедельной рассылке от Level Up</p>
-
+                        <p>Актуальные новости и мероприятия в еженедельной рассылке от Level Up</p>
                         <div class="form-cont">
                         <?php echo do_shortcode('[contact-form-7 id="294" title="Футер (Форма подписки)"]'); ?>
                         </div>
@@ -157,9 +150,7 @@
         <?php wp_footer(); ?>
         <?php echo $options[jivosite_code];?>
         <?php echo $options[binotel_code];?>
-        <script>
-            jQuery('#share-bar').share();
-        </script>
+        <script> jQuery('#share-bar').share();</script>
         <div class="event_img-input" style="display:none">[text text-744 id:event_img]</div>
         <div class="link_liqpay-input" style="display:none">[text text-745 id:link_liqpay]</div>
         <div class="price-input" style="display:none">[text text-746 id:event_price]</div>

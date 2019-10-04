@@ -43,12 +43,12 @@ function LevelUp_setup() {
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 825, 510, true );
 
-	add_theme_support( 'html5', array(
-		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
-	) );
+	// add_theme_support( 'html5', array(
+	// 	'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
+	// ) );
 
 	add_theme_support( 'post-formats', array(
-		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
+		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status'
 	) );
 
 
@@ -153,35 +153,35 @@ function LevelUp_widgets_init() {
 }
 add_action( 'widgets_init', 'LevelUp_widgets_init' );
 
-if ( ! function_exists( 'LevelUp_fonts_url' ) ) :
-function LevelUp_fonts_url() {
-	$fonts_url = '';
-	$fonts     = array();
-	$subsets   = 'latin,latin-ext';
-	$subset = _x( 'no-subset', 'Add new subset (greek, cyrillic, devanagari, vietnamese)', 'LevelUp' );
+// if ( ! function_exists( 'LevelUp_fonts_url' ) ) :
+// function LevelUp_fonts_url() {
+// 	$fonts_url = '';
+// 	$fonts     = array();
+// 	$subsets   = 'latin,latin-ext';
+// 	$subset = _x( 'no-subset', 'Add new subset (greek, cyrillic, devanagari, vietnamese)', 'LevelUp' );
 
-	if ( 'cyrillic' == $subset ) {
-		$subsets .= ',cyrillic,cyrillic-ext';
-	} elseif ( 'greek' == $subset ) {
-		$subsets .= ',greek,greek-ext';
-	} elseif ( 'devanagari' == $subset ) {
-		$subsets .= ',devanagari';
-	} elseif ( 'vietnamese' == $subset ) {
-		$subsets .= ',vietnamese';
-	}
+// 	if ( 'cyrillic' == $subset ) {
+// 		$subsets .= ',cyrillic,cyrillic-ext';
+// 	} elseif ( 'greek' == $subset ) {
+// 		$subsets .= ',greek,greek-ext';
+// 	} elseif ( 'devanagari' == $subset ) {
+// 		$subsets .= ',devanagari';
+// 	} elseif ( 'vietnamese' == $subset ) {
+// 		$subsets .= ',vietnamese';
+// 	}
 
-	if ( $fonts ) {
-		$fonts_url = add_query_arg( array(
-			'family' => urlencode( implode( '|', $fonts ) ),
-			'subset' => urlencode( $subsets ),
-		), 'https://fonts.googleapis.com/css' );
-	}
+// 	if ( $fonts ) {
+// 		$fonts_url = add_query_arg( array(
+// 			'family' => urlencode( implode( '|', $fonts ) ),
+// 			'subset' => urlencode( $subsets ),
+// 		), 'https://fonts.googleapis.com/css' );
+// 	}
 
-	return $fonts_url;
-}
-endif;
+// 	return $fonts_url;
+// }
+// endif;
 
-require get_template_directory() . '/inc/options_page.php';
+// require get_template_directory() . '/inc/options_page.php';
 
 /**
  * Load JS and styles.
@@ -231,47 +231,47 @@ function contact_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'contact_scripts' );
 
-function LevelUp_resource_hints( $urls, $relation_type ) {
-	if ( wp_style_is( 'LevelUp-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
-		if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '>=' ) ) {
-			$urls[] = array(
-				'href' => 'https://fonts.gstatic.com',
-				'crossorigin',
-			);
-		} else {
-			$urls[] = 'https://fonts.gstatic.com';
-		}
-	}
+// function LevelUp_resource_hints( $urls, $relation_type ) {
+// 	if ( wp_style_is( 'LevelUp-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
+// 		if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '>=' ) ) {
+// 			$urls[] = array(
+// 				'href' => 'https://fonts.gstatic.com',
+// 				'crossorigin',
+// 			);
+// 		} else {
+// 			$urls[] = 'https://fonts.gstatic.com';
+// 		}
+// 	}
 
-	return $urls;
-}
-add_filter( 'wp_resource_hints', 'LevelUp_resource_hints', 10, 2 );
+// 	return $urls;
+// }
+// add_filter( 'wp_resource_hints', 'LevelUp_resource_hints', 10, 2 );
 
-function LevelUp_post_nav_background() {
-	if ( ! is_single() ) {
-		return;
-	}
+// function LevelUp_post_nav_background() {
+// 	if ( ! is_single() ) {
+// 		return;
+// 	}
 
-	$previous = ( is_attachment() ) ? get_post( get_post()->post_parent ) : get_adjacent_post( false, '', true );
-	$next     = get_adjacent_post( false, '', false );
-	$css      = '';
+// 	$previous = ( is_attachment() ) ? get_post( get_post()->post_parent ) : get_adjacent_post( false, '', true );
+// 	$next     = get_adjacent_post( false, '', false );
+// 	$css      = '';
 
-	if ( is_attachment() && 'attachment' == $previous->post_type ) {
-		return;
-	}
+// 	if ( is_attachment() && 'attachment' == $previous->post_type ) {
+// 		return;
+// 	}
 
-	wp_add_inline_style( 'LevelUp-style', $css );
-}
-add_action( 'wp_enqueue_scripts', 'LevelUp_post_nav_background' );
+// 	wp_add_inline_style( 'LevelUp-style', $css );
+// }
+// add_action( 'wp_enqueue_scripts', 'LevelUp_post_nav_background' );
 
 
-function LevelUp_nav_description( $item_output, $item, $depth, $args ) {
-	if ( 'primary' == $args->theme_location && $item->description ) {
-		$item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-description">' . $item->description . '</div>' . $args->link_after . '</a>', $item_output );
-	}
-	return $item_output;
-}
-add_filter( 'walker_nav_menu_start_el', 'LevelUp_nav_description', 10, 4 );
+// function LevelUp_nav_description( $item_output, $item, $depth, $args ) {
+// 	if ( 'primary' == $args->theme_location && $item->description ) {
+// 		$item_output = str_replace( $args->link_after . '</a>', '<div class="menu-item-description">' . $item->description . '</div>' . $args->link_after . '</a>', $item_output );
+// 	}
+// 	return $item_output;
+// }
+// add_filter( 'walker_nav_menu_start_el', 'LevelUp_nav_description', 10, 4 );
 
 function LevelUp_search_form_modify( $html ) {
 	return str_replace( 'class="search-submit"', 'class="search-submit screen-reader-text"', $html );
@@ -292,41 +292,38 @@ function _SmrkvLib_GetCourse ($atts = array(), $content = null, $tag)
 {
 	global $wpdb;
 	$result =
-		$wpdb->get_results('SELECT * FROM smrkv_courses WHERE url like "'.$atts['cource'].'%"');
+	$wpdb->get_results('SELECT * FROM smrkv_courses WHERE url like "'.$atts['cource'].'%"');
 	$dat_res = get_object_vars($result[0]);
-
-
 	return $dat_res[$atts['field']];
 }
 add_shortcode( 'SmrkCourse', '_SmrkvLib_GetCourse' );
 
-function include_file($atts) {
-     extract(
-          shortcode_atts(
-               array(
-                    'filepath' => 'NULL',
-                    'key1' => 'NULL'
-               ), $atts
-          )
-     );
+// function include_file($atts) {
+//      extract(
+//           shortcode_atts(
+//                array(
+//                     'filepath' => 'NULL',
+//                     'key1' => 'NULL'
+//                ), $atts
+//           )
+//      );
 
-     if(strpos($filepath,"?")) {
-          $query_string_pos = strpos($filepath,"?");
-          global $query_string;
-          $query_string = substr($filepath,$query_string_pos + 1);
-          $clean_file_path = substr($filepath,0,$query_string_pos);
-     } else {
-          $clean_file_path = $filepath;
-     }
-     if ($filepath != 'NULL' && file_exists(TEMPLATEPATH.$clean_file_path)){
-          ob_start();
-          include(TEMPLATEPATH.$clean_file_path);
-          $content = ob_get_clean();
-          return $content;
-     }
-}
-//register the Shortcode handler
-add_shortcode('include', 'include_file');
+//      if(strpos($filepath,"?")) {
+//           $query_string_pos = strpos($filepath,"?");
+//           global $query_string;
+//           $query_string = substr($filepath,$query_string_pos + 1);
+//           $clean_file_path = substr($filepath,0,$query_string_pos);
+//      } else {
+//           $clean_file_path = $filepath;
+//      }
+//      if ($filepath != 'NULL' && file_exists(TEMPLATEPATH.$clean_file_path)){
+//           ob_start();
+//           include(TEMPLATEPATH.$clean_file_path);
+//           $content = ob_get_clean();
+//           return $content;
+//      }
+// }
+// add_shortcode('include', 'include_file');
 
 
 add_action( 'admin_init', 'my_remove_menu_pages' );
@@ -348,7 +345,6 @@ if ( current_user_can( 'manager' ) ) {
          remove_menu_page( 'upload.php' );
     }
 }
-
 register_nav_menus(array(
 	'mibile_nav'    => 'Мобильная навигация',
 	'full_nav_1'    => 'Основное меню (Шапка)',
@@ -397,9 +393,9 @@ function LevelUp_autop($content) {
     if($post->post_type != 'post') return $content; // if not a post, leave $content untouched
     return wpautop($content);
 }
-require get_template_directory() . '/inc/custom-header.php';
+// require get_template_directory() . '/inc/custom-header.php';
 require get_template_directory() . '/inc/template-tags.php';
-require get_template_directory() . '/inc/customizer.php';
+// require get_template_directory() . '/inc/customizer.php';
 
 
 function admin_favicon() {
@@ -421,21 +417,6 @@ function my_admin_bar_menu( $wp_admin_bar ) {
 	) );
 };
 
-if( !function_exists('_add_my_quicktags') ){
-
-function _add_my_quicktags()
-{ ?>
-
-<?php }
-add_action('admin_print_footer_scripts', '_add_my_quicktags');
-}
-
-add_action( 'admin_print_footer_scripts', 'test_callback' );
-    function test_callback() {
-    if ( wp_script_is('quicktags') ) :
-    ?>
-    <?php endif;
-}
 
 add_filter( 'category_link', function($a){
 	return str_replace( 'category/', '', $a );
@@ -492,26 +473,14 @@ function my_myme_types($mime_types){
 }
 add_filter('upload_mimes', 'my_myme_types', 1, 1);
 
-/**
- * Add svg MIME type support
- *
- * @param $mimes
- *
- * @author fadupla
- * @return mixed
- */
+
+
 function fadupla_mime_types( $mimes ) {
 	$mimes['svg'] = 'image/svg+xml';
-
 	return $mimes;
 }
-
 add_filter( 'upload_mimes', 'fadupla_mime_types' );
 
-/**
- * Enqueue SVG javascript and stylesheet in admin
- * @author fadupla
- */
 
 function fadupla_svg_enqueue_scripts( $hook ) {
 	wp_enqueue_style( 'fadupla-svg-style', get_theme_file_uri( '/assets/svg.css' ) );
@@ -519,54 +488,45 @@ function fadupla_svg_enqueue_scripts( $hook ) {
 	wp_localize_script( 'fadupla-svg-script', 'script_vars',
 		array( 'AJAXurl' => admin_url( 'admin-ajax.php' ) ) );
 }
-
 add_action( 'admin_enqueue_scripts', 'fadupla_svg_enqueue_scripts' );
 
 
-/**
- * Ajax get_attachment_url_media_library
- * @author fadupla
- */
 function fadupla_get_attachment_url_media_library() {
-
 	$url          = '';
 	$attachmentID = isset( $_REQUEST['attachmentID'] ) ? $_REQUEST['attachmentID'] : '';
 	if ( $attachmentID ) {
 		$url = wp_get_attachment_url( $attachmentID );
 	}
-
 	echo $url;
-
 	die();
 }
-
 add_action( 'wp_ajax_svg_get_attachment_url', 'fadupla_get_attachment_url_media_library' );
 
 // END Загрузка SVG
-function php_in_widgets($widget_content) {
-	if (strpos($widget_content, '<' . '?') !== false) {
-		ob_start();
-		eval('?' . '>' . $widget_content);
-		$widget_content = ob_get_contents();
-		ob_end_clean();
-	}
-	return $widget_content;
-}
+// function php_in_widgets($widget_content) {
+// 	if (strpos($widget_content, '<' . '?') !== false) {
+// 		ob_start();
+// 		eval('?' . '>' . $widget_content);
+// 		$widget_content = ob_get_contents();
+// 		ob_end_clean();
+// 	}
+// 	return $widget_content;
+// }
 
-add_filter('widget_text', 'php_in_widgets', 99);
+// add_filter('widget_text', 'php_in_widgets', 99);
 
-function wpdocs_custom_excerpt_length( $length ) {
-    return 20;
-}
-add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+// function wpdocs_custom_excerpt_length( $length ) {
+//     return 20;
+// }
+// add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
 
 // Replaces the excerpt "Read More" text by a link
-function new_excerpt_more($more) {
-       global $post;
-	return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Подробнее...</a>';
-}
-add_filter('excerpt_more', 'new_excerpt_more');
+// function new_excerpt_more($more) {
+//        global $post;
+// 	return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Подробнее...</a>';
+// }
+// add_filter('excerpt_more', 'new_excerpt_more');
 
 
 
@@ -601,37 +561,37 @@ function LevelUp_gutenberg_editor_styles() {
 add_action( 'enqueue_block_editor_assets', 'LevelUp_gutenberg_editor_styles' );
 
 
-function column_block_cgb_editor_assets(){
-    // Scripts.
-    wp_enqueue_script(
-        'column_block-cgb-block-js', // Handle.
-        plugins_url('/dist/blocks.build.js', dirname(__FILE__)),
-        array('wp-blocks', 'wp-i18n', 'wp-element')
-    );
+// function column_block_cgb_editor_assets(){
+//     // Scripts.
+//     wp_enqueue_script(
+//         'column_block-cgb-block-js', // Handle.
+//         plugins_url('/dist/blocks.build.js', dirname(__FILE__)),
+//         array('wp-blocks', 'wp-i18n', 'wp-element')
+//     );
 
-    // Styles.
-    wp_enqueue_style(
-        'column_block-cgb-block-editor-css', // Handle.
-        plugins_url('dist/blocks.editor.build.css', dirname(__FILE__)),
-        array('wp-edit-blocks')
-    );
-} // End function column_block_cgb_editor_assets().
+//     // Styles.
+//     wp_enqueue_style(
+//         'column_block-cgb-block-editor-css', // Handle.
+//         plugins_url('dist/blocks.editor.build.css', dirname(__FILE__)),
+//         array('wp-edit-blocks')
+//     );
+// } // End function column_block_cgb_editor_assets().
 
-add_action('enqueue_block_editor_assets', 'column_block_cgb_editor_assets');
+// add_action('enqueue_block_editor_assets', 'column_block_cgb_editor_assets');
 
 
-function my_mario_block_category( $categories, $post ) {
-	return array_merge(
-		$categories,
-		array(
-			array(
-				'slug' => 'mario-blocks',
-				'title' => __( 'Mario Blocks', 'mario-blocks' ),
-			),
-		)
-	);
-}
-add_filter( 'block_categories', 'my_mario_block_category', 10, 2);
+// function my_mario_block_category( $categories, $post ) {
+// 	return array_merge(
+// 		$categories,
+// 		array(
+// 			array(
+// 				'slug' => 'mario-blocks',
+// 				'title' => __( 'Mario Blocks', 'mario-blocks' ),
+// 			),
+// 		)
+// 	);
+// }
+// add_filter( 'block_categories', 'my_mario_block_category', 10, 2);
 
 function replace_core_jquery_version() {
     wp_deregister_script( 'jquery' );
@@ -646,7 +606,6 @@ add_action('admin_head', 'my_stylesheet1');
 
 
 // recent posts shortcode
-// // @ https://digwp.com/2018/08/shortcode-display-recent-posts/
 function shapeSpace_recent_posts_shortcode($atts, $content = null) {
 
 	global $post;

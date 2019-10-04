@@ -25,7 +25,6 @@ jQuery(document).ready(function() {
 });
  });
 // Конец - Поиск
-// }).delay(1000);
 jQuery('.sg-show-popup').click(function() {
 setTimeout(function(){
 		jQuery('.sgpb-popup-close-button-6').appendTo( jQuery('div#sgpb-popup-dialog-main-div') );
@@ -39,21 +38,6 @@ jQuery('.wpcf7-form-control').focus(function() {
           blur(function() {
      	jQuery(this).closest('div').removeClass('input-effect');
 });
-
-
-// Открытие меню при наведении
-// jQuery('.action--menu').hover(function () {
-// 	window.initHandler = setTimeout( handler, 300 );
-// 	function handler() {
-// 				jQuery('.action--menu').click();
-// 				jQuery( "body" ).removeClass( "fullscreen-nav" );
-// 	}
-// }, function () {
-// 	clearTimeout( window.initHandler );
-// });
-// Конец - Открытие меню при наведении
-
-
 
 jQuery('.tg-item-excerpt').each(function() {
   var e = jQuery(this);
@@ -165,7 +149,6 @@ jQuery(window).load(function() {
       jQuery('#tel-event').mask('+38 (099) 999-99-99');
     });
 });
-
 // Конец - Маска для инпута номера телефона
 
 
@@ -371,8 +354,6 @@ jQuery(document).ready(function($) {
 });
 
 
-
-
 jQuery('.dev-studio').each(function() {
     function Line(){
 
@@ -397,9 +378,6 @@ jQuery('.dev-studio').each(function() {
         num4 = item4.find('.strock-center'),
         num4X = num4.offset().left+num4.width()/2,
         num4Y = num4.offset().top+num4.height()/2;
-
-
-
 
     var svgLine = $('#svg-line');
             svgLine.offset({top: 0, left:0})
@@ -609,9 +587,6 @@ jQuery('.saleRow .saleBottom').each(function(i) {
 
 
 
-
-
-
 // Модалка для мероприятия
 jQuery(document).ready(function(){
     jQuery(".event_modal .close-icon").click(function () {
@@ -661,9 +636,6 @@ var desc_short = function () {
   // Сокращение заголовков у новостей
 
 
-
-
-
 jQuery('#courses_schedulle_tbl tr').each(function() {
     var course_line_id = jQuery(this).attr('data-id');
 
@@ -673,7 +645,6 @@ jQuery('#courses_schedulle_tbl tr').each(function() {
         jQuery(this).removeClass('d-none');
     }
 });
-
 
 
 jQuery('.conf_tabs > div.first_tab').click(function(event) {
@@ -691,25 +662,6 @@ jQuery('.conf_tabs > div.two_tab').click(function(event) {
     jQuery('.timeline__container.first_tab_content').hide().removeClass('active');
     jQuery('.timeline__container.two_tab_content').show().addClass('active');
 });
-
-
-
-
-
-
-// // Javascript to enable link to tab
-// var url = document.location.toString();
-// if (url.match('#')) {
-//     jQuery('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
-// }
-
-// // Change hash for page-reload
-// jQuery('.nav-tabs a').on('shown.bs.tab', function (e) {
-//     window.location.hash = e.target.hash;
-// })
-
-
-
 
 // For footer widgeth
 jQuery('#level_footer aside:not(:first) h2.widget-title span').click(function(e) {
@@ -732,7 +684,7 @@ jQuery(window).resize(function() {
      }
 });
 
-// For subscrube form (be Alexander Osadhcyy)
+// For subscrube form (by Alexander Osadhcyy)
 jQuery('#level_footer aside .subscribe > span').click(function () {
     jQuery('.subscribe-open').toggleClass("open");
     jQuery('.subscribe-open-bg').toggleClass("open").css({display: 'block'});
