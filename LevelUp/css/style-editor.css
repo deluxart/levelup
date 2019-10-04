@@ -93,7 +93,7 @@ h3 { font-size: 36px; font-weight: 400; font-family: 'Montserrat'; line-height: 
 .post-company-block .content strong { color: #15acf2; }
 .post-company-block .content > p { display: none; }
 .post-company-block .content i { font-size: 18px; color: #15acf2; }
-.post-company-block h4 { color: #15acf2; margin-bottom: 20px; font-size: 22px; font-family: 'Gilroy'; font-weight: 600; margin-top: 0; }
+.post-company-block h4 { color: #15acf2; margin-bottom: 20px; font-size: 22px; font-family: 'Gilroy'; font-weight: 600; margin-top: 0; padding: 0 !important; }
 .post-company-block p {margin: 0 !important; padding: 0;}
 .post-company-block .classic-btn {text-align: center;}
 
