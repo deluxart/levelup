@@ -110,7 +110,7 @@
         'reddit': 'fab fa-reddit-alien',
         'digg': 'fab fa-digg',
         // 'email': 'fas fa-envelope',
-      }
+      };
 
       // Special handling for email and Google+
       var providerName = props.provider === 'email' ? 'email' : props.provider.charAt(0).toUpperCase() + props.provider.slice(1);

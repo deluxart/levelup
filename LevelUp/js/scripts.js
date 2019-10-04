@@ -97,7 +97,7 @@ jQuery(function(){
 		        });
 			});
 			_resizeSndwch();
-		};
+		}
 
 		function _hideMenu() {
 			trigger_show.toggleClass('snj_sandwitch_shown');
@@ -107,7 +107,7 @@ jQuery(function(){
 		            _showMenu();
 		        });
 			});
-		};
+		}
 
 		function _resizeSndwch() {
 				sndwch.find('.snj_sandwitch-menu')
@@ -115,7 +115,7 @@ jQuery(function(){
 					'margin-top',
 					((sndwch.height() - sndwch.find('.snj_sandwitch-menu').height())/2) + "px"
 				);
-		};
+		}
 		jQuery(window).resize(_resizeSndwch);
 });
 
@@ -152,7 +152,7 @@ jQuery(window).load(function() {
 // Конец - Маска для инпута номера телефона
 
 
-setInterval(function(){jQuery('.saleRow').toggleClass('animate')}, 3000);
+setInterval(function(){jQuery('.saleRow').toggleClass('animate');}, 3000);
 
 jQuery(".SliderTarget").click(function(){
 	var fc = jQuery(this).hasClass('checked');
@@ -380,7 +380,7 @@ jQuery('.dev-studio').each(function() {
         num4Y = num4.offset().top+num4.height()/2;
 
     var svgLine = $('#svg-line');
-            svgLine.offset({top: 0, left:0})
+            svgLine.offset({top: 0, left:0});
 
     var line12 = svgLine.find('.line-1-2'),
         line23 = svgLine.find('.line-2-3'),
@@ -440,7 +440,7 @@ jQuery(document).ready(function(){
 
         jQuery(this).addClass('current');
         jQuery("#"+tab_id).addClass('current');
-    })
+    });
 
 });
 // Табы для IT-Английский
@@ -481,9 +481,9 @@ jQuery(document).keydown(function(e) {
 
 jQuery( function(){
     jQuery('.mail_copy').click( function(){
-        jQuery(this).select()
-    })
-})
+        jQuery(this).select();
+    });
+});
 
 // Counters for event page
 jQuery(document).ready(function () {
@@ -611,7 +611,7 @@ jQuery(document).ready(function(){
             }, 200);
             jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
 
-    }, 12000)
+    }, 12000);
     }
     else {
       jQuery(".event_modal").hide();
