@@ -19,16 +19,16 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 
 /* For widget */
 .events_block { display: grid; grid-row-gap: 30px; }
-.events_block article { display: grid; grid-template-columns: 54px 1fr; grid-column-gap: 10px; position: relative; align-items: center; }
-.events_block > article::before { position: absolute; content: ''; width: 100%; height: 1px; background: #f3f3f3; left: 0; bottom: -15px; }
-.events_block > article:last-child::before {display: none}
-.events_block article .post-image img { border-radius: 50%; display: block; }
-.events_block article .text_widget a { font-size: 14px; color: #000000; text-decoration: none; font-family: Gilroy; font-weight: 600; display: block; }
-.events_block article .text_widget .date-event { color: #fff; font-size: 10px; background: #ff0000; padding: 2px 7px; border-radius: 30px; display: inline-block; }
-.events_block article .text_widget .date-event i { color: #fff; }
+.events_block > div { display: grid; grid-template-columns: 54px 1fr; grid-column-gap: 10px; position: relative; align-items: center; }
+.events_block > div::before { position: absolute; content: ''; width: 100%; height: 1px; background: #f3f3f3; left: 0; bottom: -15px; }
+.events_block > div:last-child::before {display: none}
+.events_block > div .post-image img { border-radius: 50%; display: block; }
+.events_block > div .text_widget a { font-size: 14px; color: #000000; text-decoration: none; font-family: Gilroy; font-weight: 600; display: block; }
+.events_block > div .text_widget .date-event { color: #fff; font-size: 10px; background: #ff0000; padding: 2px 7px; border-radius: 30px; display: inline-block; }
+.events_block > div .text_widget .date-event i { color: #fff; }
 
-.events_block article .text_widget .date-news { color: #8f8f8f; font-size: 10px; display: inline-block; padding: 2px 0; }
-.events_block article .text_widget .date-news i { color: #8f8f8f; }
+.events_block > div .text_widget .date-news { color: #8f8f8f; font-size: 10px; display: inline-block; padding: 2px 0; }
+.events_block > div .text_widget .date-news i { color: #8f8f8f; }
 
 
 body.admin-bar #header { top: 32px; }
