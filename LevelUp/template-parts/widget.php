@@ -10,13 +10,13 @@
  */
 ?>
 
-<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 <div class="post-image widget">
 	<?php the_post_thumbnail('thumbnail'); ?>
 </div>
-<div class="text_widget">
-		<h4><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></h4>
+<article class="text_widget">
+		<h4><div href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></h4>
 <?php if ( get_field( 'time' ) ) { ?>
 	<div class="date-event"><i class="fa fa-clock-o" aria-hidden="true"></i> <?php the_field( 'date' ); ?> о <?php the_field( 'time' ); ?></div>
 <?php } else { ?>
@@ -24,4 +24,4 @@
 <?php } ?>
 </div>
 
-</div><!-- #post-## -->
+</article><!-- #post-## -->
