@@ -46,12 +46,8 @@
             </symbol>
         </svg>
 <div>
-<!-- <?php if (current_user_can('level_10')) { ?><div class="for_adm"><?php } ?> -->
 
 <header id="header" class="fixed-top header-color">
-
-
-
  <nav class="navbar navbar-expand-lg navbar-dark bg-kirpichik static-top">
   <div class="container">
     <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -396,6 +392,5 @@
   </div>
 </nav>
 </header>
-<!-- <?php if (current_user_can('level_10')) { ?></div><?php } ?> -->
 
 	<div>

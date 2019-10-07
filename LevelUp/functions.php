@@ -294,8 +294,6 @@ function _SmrkvLib_GetCourse ($atts = array(), $content = null, $tag)
 	$result =
 		$wpdb->get_results('SELECT * FROM smrkv_courses WHERE url like "'.$atts['cource'].'%"');
 	$dat_res = get_object_vars($result[0]);
-
-
 	return $dat_res[$atts['field']];
 }
 add_shortcode( 'SmrkCourse', '_SmrkvLib_GetCourse' );
@@ -348,7 +346,6 @@ if ( current_user_can( 'manager' ) ) {
          remove_menu_page( 'upload.php' );
     }
 }
-
 register_nav_menus(array(
 	'mibile_nav'    => 'Мобильная навигация',
 	'full_nav_1'    => 'Основное меню (Шапка)',
