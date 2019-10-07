@@ -692,66 +692,48 @@ add_shortcode('recent_posts', 'shapeSpace_recent_posts_shortcode');
 
 
 // Тут сначала сам пробую
-add_shortcode( 'teacher', 'item_teacher' );
 
-function item_teacher($post_id) {
 
-extract( shortcode_atts( array(
-    'post_id' => '0',
-    ), $atts ) );
-
-	$args = array(
-		'post_id'        => $id,
-	);
-
-$out = "";
-$comments = get_comments("post_id=$post_id&status=approve");
-if ($comments) {
-    $ndx = mt_rand(0,sizeof($comments)) - 1;
-    $comment = $comments[$ndx];
-    $out = "<div class='randomComment'><div class='randomAuthor'>".$comment->comment_author."</div><div class='randomText'>".$comment->comment_content."</div></div>";
+/**
+ * Register all shortcodes
+ *
+ * @return null
+ */
+function register_shortcodes() {
+    add_shortcode( 'teacher', 'shortcode_mostra_teachers' );
 }
-return $out;
+add_action( 'init', 'register_shortcodes' );
+
+/**
+ * Produtos Shortcode Callback
+ *
+ * @param Array $atts
+ *
+ * @return string
+ */
+function shortcode_mostra_teachers( $atts ) {
+    global $wp_query,
+        $post;
+
+    $atts = shortcode_atts( array(
+        'post_id' => ''
+    ), $atts );
+
+    $loop = new WP_Query( array(
+        'posts_per_page'    => 1,
+        'post_type'         => 'teachers',
+        // 'orderby'           => 'menu_order title',
+        // 'order'             => 'ASC',
+    ) );
+
+    if( ! $loop->have_posts() ) {
+        return false;
+    }
+
+    while( $loop->have_posts() ) {
+        $loop->the_post();
+        echo the_title();
+    }
+
+    wp_reset_postdata();
 }
-
-
-
-
-
-
-
-
-
-
-
-function item_teacher($atts, $content = null) {
-
-	global $post;
-
-	extract(shortcode_atts(array(
-        'post_type' => 'teachers',
-        'post_id' => '0',
-	), $atts));
-
-	$args = array(
-		'post_id'        => $id,
-	);
-
-	$var = '';
-
-	$posts = get_posts($args);
-	ob_start();
-	foreach($posts as $post) {
-
-		setup_postdata($post);
-		get_template_part( 'template-parts/teacher', get_post_format() );
-
-	}
-
-	wp_reset_postdata();
-	$var = ob_get_contents();
-	ob_end_clean();
-	return '<div class="events_block last-mini">'. $var .'</div>';
-
-}
-add_shortcode('teacher', 'item_teacher');
