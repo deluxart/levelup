@@ -35,7 +35,7 @@ function health_products() {
 
 function prefix_teammembers_metaboxes( ) {
     global $wp_meta_boxes;
-    add_meta_box('postfunctiondiv', __('Function'), 'prefix_teammembers_metaboxes_html', 'prefix_teammembers', 'teachers', 'high');
+    add_meta_box('postfunctiondiv', __('Function'), 'prefix_teammembers_metaboxes_html', 'prefix_teammembers', teachers, 'normal', 'high');
     // add_meta_box( 'hcf-1', __( 'Сайдбар для данной записи', 'hcf' ), 'wporg_custom_box_html', $screen, 'side' );
  }
  add_action( 'add_meta_boxes_prefix-teammembers', 'prefix_teammembers_metaboxes' );
