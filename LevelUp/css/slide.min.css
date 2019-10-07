@@ -76,62 +76,35 @@
 
 /* 1С */
 @media (min-width:768px){
-.one_c_slide{
-   background-image: url(https://levelup.ua/wp-content/uploads/2018/05/SLIDER-1S.jpg) !important;
-}}
-@media (max-width:768px){
-
-    .one_c_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/05/Mobile-1S.jpg)!important;}}
-
-
-
-
-
-/* КОНЕЦ 1С */
-
+.one_c_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2018/05/SLIDER-1S.jpg) !important;}}
+@media (max-width:768px){.one_c_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/05/Mobile-1S.jpg)!important;}}
 
 /* PYTHON */
 @media (min-width:768px){
-.python_slide{
-   background-image: url(https://levelup.ua/wp-content/uploads/2018/03/SLIDER-Python.jpg) !important;
-}}
-@media (max-width:768px){
-    .python_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/03/Mobile-Python.jpg)!important;}}
-@media (min-width:768px){
-	.text_course_2.python{font-size: 46px;}}
-
-@media (max-width:768px){
-	.text_course_2.python{font-size: 29px!important;}}
+.python_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2018/03/SLIDER-Python.jpg) !important;}}
+@media (max-width:768px){.python_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/03/Mobile-Python.jpg)!important;}}
+@media (min-width:768px){.text_course_2.python{font-size: 46px;}}
+@media (max-width:768px){.text_course_2.python{font-size: 29px!important;}}
 /* КОНЕЦ PYTHON */
 
 
 /* FULL STACK */
 @media (min-width:768px){
-.fs_slide{
-   background-image: url(https://levelup.ua/wp-content/uploads/2018/03/SLIDER-Full-Stack.jpg) !important;
-}}
-@media (max-width:768px){
-    .fs_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/03/Mobile-Full-Stack.jpg)!important;}}
+.fs_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2018/03/SLIDER-Full-Stack.jpg) !important;}}
+@media (max-width:768px){.fs_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/03/Mobile-Full-Stack.jpg)!important;}}
 
-/* КОНЕЦ FULL STACK */
 
 /* IOS */
 @media (min-width:768px){
-.ios_slide{
-   background-image: url(https://levelup.ua/wp-content/uploads/2018/04/SLIDER-iOs.jpg) !important;
-}}
-@media (max-width:768px){
-    .ios_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/04/Mobile-iOs.jpg)!important;}}
+.ios_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2018/04/SLIDER-iOs.jpg) !important;}}
+@media (max-width:768px){.ios_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/04/Mobile-iOs.jpg)!important;}}
 
 /* КОНЕЦ IOS */
 
 /* ANDROID */
 @media (min-width:768px){
-.android_slide{
-   background-image: url(https://levelup.ua/wp-content/uploads/2018/04/SLIDER-Android-1.jpg) !important;
-}}
-@media (max-width:768px){
-    .android_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/04/Mobile-Android.jpg)!important;}}
+.android_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2018/04/SLIDER-Android-1.jpg) !important;}}
+@media (max-width:768px){ .android_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/04/Mobile-Android.jpg)!important;}}
 
 
 
@@ -139,31 +112,19 @@
 
 /* ANDROID */
 @media (min-width:768px){
-.android_slide{
-   background-image: url(https://levelup.ua/wp-content/uploads/2018/04/SLIDER-Android-1.jpg) !important;
-}
-	.text_course_2.android{font-size: 30px;}
-}
-@media (max-width:768px){
-    .android_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/04/Mobile-Android.jpg)!important;}}
+.android_slide{ background-image: url(https://levelup.ua/wp-content/uploads/2018/04/SLIDER-Android-1.jpg) !important;}
+.text_course_2.android{font-size: 30px;}}
+@media (max-width:768px){.android_slide{background-image: url(https://levelup.ua/wp-content/uploads/2018/04/Mobile-Android.jpg)!important;}}
 
-
-
-/* КОНЕЦ ANDROID */
 
 /* visual-programming-slide */
 @media (min-width:768px){
-.visual-programming-slide{
-   background-image: url(http://new.uaitsmart.com/wp-content/uploads/2018/08/Slider.jpg) !important;
-}}
-@media (max-width:768px){
-    .visual-programming-slide{background-image: url(http://new.uaitsmart.com/wp-content/uploads/2018/08/Mobile-11-13years-Salat.jpg)!important;}}
+.visual-programming-slide{background-image: url(http://new.uaitsmart.com/wp-content/uploads/2018/08/Slider.jpg) !important;}}
+@media (max-width:768px){.visual-programming-slide{background-image: url(http://new.uaitsmart.com/wp-content/uploads/2018/08/Mobile-11-13years-Salat.jpg)!important;}}
 /*КОНЕЦ visual-programming-slide*/
 
 
 /* SQL */
-
-
 @media (min-width:768px){
 .sql_slide{
 background-image: url(https://levelup.ua/wp-content/uploads/2018/04/SLIDER-SQL-2.jpg)!important;
@@ -543,64 +504,22 @@ justify-content: center;
   width: 768px;
 }
 
-.php-title-4 {
-  font-weight: 300;
-  transition: none 0s ease 0s;
-  line-height: 50px;
-  border-width: 0px;
-  margin: 0px;
-  padding: 0px;
-  letter-spacing: 0px;
-  font-size: 40px;
-  color: #fff;
-  margin-bottom: 50px;
-}
-
-.php-4 span {
-  font-weight: 400;
-}
+.php-title-4 { font-weight: 300; transition: none 0s ease 0s; line-height: 50px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 40px; color: #fff; margin-bottom: 50px; }
+.php-4 span { font-weight: 400; }
 /*КОНЕЦ PHP video*/
 
 /*VIDEOCONTENT*/
-.videocontent-title-1 {
-  font-size: 45px;
-  line-height: 60px;
-  font-weight: 100;
-  color: rgb(255, 255, 255);
-  font-family: Montserrat;
-}
-
-.videocontent-title-2 {
-  font-size: 50px;
-  line-height: normal;
-  font-weight: 200;
-  color: #fff;
-  font-family: Montserrat;
-  display: block;
-}
-.videocontent-title-3 {
-  font-size: 51px;
-  line-height: normal;
-  font-weight: 600;
-  color: #eaff00;
-  font-family: Montserrat;
-}
+.videocontent-title-1 { font-size: 45px; line-height: 60px; font-weight: 100; color: rgb(255, 255, 255); font-family: Montserrat; }
+.videocontent-title-2 { font-size: 50px; line-height: normal; font-weight: 200; color: #fff; font-family: Montserrat; display: block; }
+.videocontent-title-3 { font-size: 51px; line-height: normal; font-weight: 600; color: #eaff00; font-family: Montserrat; }
 .videocontent {background-image: url(https://levelup.ua/wp-content/uploads/2018/12/lights.jpg)!important;}
 /*КОНЕЦ VIDEOCONTENT*/
-
 
 /*Web-ui-ux*/
 .ui-ux-video-block {position: relative;}
 .ui-ux-video-text {position: absolute;z-index: 1;width: 100%;}
 .ui-ux-video-block .row {display: flex;text-align: center;}
-
-.ui-ux-title-1 {
-  font-family: Montserrat;
-  font-weight: 100;
-  font-size: 46px;
-  line-height: 60px;
-  color: #fff;
-}
+.ui-ux-title-1 { font-family: Montserrat; font-weight: 100; font-size: 46px; line-height: 60px; color: #fff; }
 
 .ui-ux-title-2 {
   font-family: Montserrat;

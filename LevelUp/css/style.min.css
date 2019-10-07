@@ -2045,12 +2045,8 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
 .page-id-4007 .list-group.first-list { transform: scale(1.08);background: #1d2027; }
 
 
-   .postid-4207 .stb {display: grid; grid-template-columns: 1fr 1fr;background: url(https://levelup.ua/wp-content/uploads/2019/02/Снимок-экрана-2019-02-27-в-15.12.01.png);
-    background-position-x: 0%;background-repeat: repeat;background-size: auto;background-repeat: no-repeat;background-position-x: center;color: #e4e4e4;padding: 40px;
-    background-size: cover;margin: 20px 0;font-weight: 300;}
-
+   .postid-4207 .stb {display: grid; grid-template-columns: 1fr 1fr;background: url(https://levelup.ua/wp-content/uploads/2019/02/Снимок-экрана-2019-02-27-в-15.12.01.png); background-position-x: 0%;background-repeat: repeat;background-size: auto;background-repeat: no-repeat;background-position-x: center;color: #e4e4e4;padding: 40px; background-size: cover;margin: 20px 0;font-weight: 300;}
    .postid-4207 .stb h3 {grid-column: 1/3;text-align: left;}
-
    .postid-4207 .stb2 {background: #f3f6f9;border-left: 6px solid #15909c;padding: 20px;margin: 20px;}
 
 .sitecore {display: grid;grid-template-columns: 50px 1fr;align-items: center;grid-column-gap: 20px;padding: 0 0 20px;}
@@ -2076,8 +2072,7 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
 }
 
 .study-levelup-slide {background: none;}
-.study-levelup#advantages {background: url(https://levelup.ua/wp-content/uploads/2019/02/intership_bg_1.svg) 1% 50% no-repeat,
-  url(https://levelup.ua/wp-content/uploads/2019/02/intership_bg_parts_2.svg) 100% 50% no-repeat;background-size: 112px, 112px;}
+.study-levelup#advantages {background: url(https://levelup.ua/wp-content/uploads/2019/02/intership_bg_1.svg) 1% 50% no-repeat, url(https://levelup.ua/wp-content/uploads/2019/02/intership_bg_parts_2.svg) 100% 50% no-repeat;background-size: 112px, 112px;}
 
 #outputText{position: absolute;top: 15%;left: 10%;font-size: 130px;font-weight: 900;line-height: 75px;opacity: 0.05;max-width: 300px;}
 

@@ -42,10 +42,8 @@
 
 .subscribe-content .form { display: grid; grid-template-rows: auto 1fr auto; text-align: center; align-items: center; }
 .subscribe-content .form .form-cont { background: #e7e7e7; position: relative; margin-bottom: -35px; border-radius: 20px 20px 0 0; }
-.subscribe-content .form .form-cont::before { content: ''; position: absolute; left: -39px;
-  bottom: -1px; background: url(https://levelup.ua/wp-content/uploads/2019/10/left.svg); background-size: contain; width: 40px; height: 40px; }
-.subscribe-content .form .form-cont::after { content: ''; position: absolute; right: -39px;
-  bottom: -1px; background: url(https://levelup.ua/wp-content/uploads/2019/10/right.svg); background-size: contain; width: 40px; height: 40px; }
+.subscribe-content .form .form-cont::before { content: ''; position: absolute; left: -39px; bottom: -1px; background: url(https://levelup.ua/wp-content/uploads/2019/10/left.svg); background-size: contain; width: 40px; height: 40px; }
+.subscribe-content .form .form-cont::after { content: ''; position: absolute; right: -39px; bottom: -1px; background: url(https://levelup.ua/wp-content/uploads/2019/10/right.svg); background-size: contain; width: 40px; height: 40px; }
 .subscribe-form > p { display: none; }
 .subscribe-form { display: grid; grid-row-gap: 20px; padding: 35px; }
 .subscribe-content input.wpcf7-form-control.wpcf7-submit { width: 100%; line-height: 38px; padding: 0 40px; margin: 0; font-family: Gilroy; font-weight: 600; color: #fff; border: 0; background: #0071f1; font-size: 16px; }

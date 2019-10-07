@@ -23,8 +23,6 @@
 .insta_beauty #speakers_beauty h2 { color: #8d54fd; margin-bottom: 10px; }
 .insta_beauty #speakers_beauty p.tc.descr { margin-bottom: 45px; }
 .insta_beauty #speakers_beauty p.tc.descr span { display: block; }
-.insta_beauty #speakers_beauty .content { /*		display: grid;
-		grid-template-columns: auto 1fr;*/ }
 .insta_beauty #speakers_beauty .content .block_speaker { display: grid; align-items: center; grid-column-gap: 50px; }
 .insta_beauty #speakers_beauty .content .block_speaker img { box-shadow: 21.213px 21.213px 73px 0px rgba(10, 31, 83, 0.13); }
 .insta_beauty #speakers_beauty .content .block_speaker.one_left { grid-template-columns: 272px 1fr; }
