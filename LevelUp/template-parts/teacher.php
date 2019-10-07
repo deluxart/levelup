@@ -16,7 +16,14 @@
 	<?php the_post_thumbnail('thumbnail'); ?>
 </div>
 <div class="text_widget">
-<h5><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h5>
+<h5><?php the_title(); ?></h5>
+<p>
+<?php
+$job_position = esc_attr( get_post_meta( get_the_ID(), '_wporg_meta_key', true ) );
+
+?>
+Должность: <?php echo $job_position(); ?>
+</p>
 </div>
 
 </article><!-- #post-## -->

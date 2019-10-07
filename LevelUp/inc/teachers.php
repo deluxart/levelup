@@ -35,7 +35,7 @@ add_action("admin_init", "admin_init");
     add_action('save_post', 'save_job_position');
 
     function admin_init(){
-        add_meta_box("vidInfo-meta", "Дополнительно", "meta_options", "teachers", "side", "high");
+        add_meta_box("job_position", "Дополнительно", "meta_options", "teachers", "side", "high");
     }
 
     function meta_options(){
@@ -43,7 +43,7 @@ add_action("admin_init", "admin_init");
         $custom = get_post_custom($post->ID);
         $job_position = $custom["job_position"][0];
 ?>
-    <label>Должность:</label><input name="job_position" type="text" style="width: 100%; БЧЬ ∑   h" value="<?php echo $job_position; ?>" />
+    <label>Должность:</label><input name="job_position" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" />
 <?php
     }
 
@@ -55,13 +55,14 @@ add_action("admin_init", "admin_init");
 
 
 
-
-
-    add_shortcode( 'teacher',  'call_shortcode_portfolio' );
-    function call_shortcode_portfolio( $atts, $content = '' ) {
+    add_shortcode( 'teacher',  'call_shortcode_teacher' );
+    function call_shortcode_teacher( $atts, $content = '' ) {
         global $wp_query;
         $atts = shortcode_atts( array( 'id' => null ), $atts );
-        $wp_query = new WP_Query( array( 'post_type' => 'teachers',  'p' => intval( $atts['id'] ) ) );
+        $wp_query = new WP_Query( array(
+            'post_type' => 'teachers',
+            'p' => intval( $atts['id'] )
+        ) );
 
     ob_start();
     echo '<div class="teacher">';
