@@ -485,11 +485,11 @@ add_action("admin_print_footer_scripts", "shortcode_button_script");
 
 
 // Загрузка SVG
-// function my_myme_types($mime_types){
-//     $mime_types['svg'] = 'image/svg+xml';
-//     return $mime_types;
-// }
-// add_filter('upload_mimes', 'my_myme_types', 1, 1);
+function my_myme_types($mime_types){
+    $mime_types['svg'] = 'image/svg+xml';
+    return $mime_types;
+}
+add_filter('upload_mimes', 'my_myme_types', 1, 1);
 
 /**
  * Add svg MIME type support

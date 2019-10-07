@@ -22,7 +22,7 @@ function health_products() {
         //'rewrite' => array('slug' => 'health/%health%'),
 		'show_ui' => true, // показывать интерфейс в админке
 		'has_archive' => true,
-		'menu_icon' => 'dashicons-businessperson', // иконка корзины
+		'menu_icon' => 'dashicons-businessman', // иконка корзины
 		'menu_position' => 20, // порядок в меню
 		'supports' => array( 'title', 'editor', 'comments', 'author', 'thumbnail',)
 	);
