@@ -35,7 +35,7 @@ add_action("admin_init", "admin_init");
     add_action('save_post', 'save_youtube_id');
 
     function admin_init(){
-        add_meta_box("vidInfo-meta", "Video Options", "meta_options", "teachers", "advanced", "high");
+        add_meta_box("vidInfo-meta", "Video Options", "meta_options", "teachers", "side", "high");
     }
 
     function meta_options(){
@@ -43,7 +43,7 @@ add_action("admin_init", "admin_init");
         $custom = get_post_custom($post->ID);
         $youtube_id = $custom["youtube_id"][0];
 ?>
-    <label>YouTube ID:</label><input name="youtube_id" value="<?php echo $youtube_id; ?>" />
+    <label>Должность:</label><input name="youtube_id" type="text" value="<?php echo $youtube_id; ?>" />
 <?php
     }
 
@@ -51,18 +51,6 @@ add_action("admin_init", "admin_init");
 		global $post;
 		update_post_meta($post->ID, "youtube_id", $_POST["youtube_id"]);
 	}
-
-
-
-
-    add_action('edit_form_after_title',  array( $this, 'move_metabox_after_title' ) );
-
-    function move_metabox_after_title () {
-        global $post, $wp_meta_boxes;
-
-        do_meta_boxes( get_current_screen(), 'advanced', $post );
-        unset( $wp_meta_boxes[get_post_type( $post )]['advanced'] );
-    }
 
 
 ?>
