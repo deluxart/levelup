@@ -30,4 +30,36 @@ function health_products() {
 }
 
 
+
+
+
+function prefix_teammembers_metaboxes( ) {
+    global $wp_meta_boxes;
+    add_meta_box('postfunctiondiv', __('Function'), 'prefix_teammembers_metaboxes_html', 'prefix_teammembers', 'teachers', 'high');
+    // add_meta_box( 'hcf-1', __( 'Сайдбар для данной записи', 'hcf' ), 'wporg_custom_box_html', $screen, 'side' );
+ }
+ add_action( 'add_meta_boxes_prefix-teammembers', 'prefix_teammembers_metaboxes' );
+
+
+
+ function prefix_teammembers_metaboxes_html()
+ {
+     global $post;
+     $custom = get_post_custom($post->ID);
+     $function = isset($custom["function"][0])?$custom["function"][0]:'';
+ ?>
+     <label>Дожность:</label><input name="function" value="<?php echo $function; ?>">
+ <?php
+ }
+
+
+ function prefix_teammembers_save_post()
+ {
+     if(empty($_POST)) return; //why is prefix_teammembers_save_post triggered by add new?
+     global $post;
+     update_post_meta($post->ID, "function", $_POST["function"]);
+ }
+
+ add_action( 'save_post_prefix-teammembers', 'prefix_teammembers_save_post' );
+
 ?>
