@@ -12,7 +12,7 @@
 <div id="teacher-<?php the_ID(); ?>">
     <div class="teacher-lvl">
         <div class="photo">
-            <?php the_post_thumbnail('thumbnail'); ?>
+            <?php the_post_thumbnail('full'); ?>
         </div>
         <div class="text">
             <h4><?php the_title(); ?></h4>
