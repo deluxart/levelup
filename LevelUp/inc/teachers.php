@@ -31,35 +31,31 @@ function health_products() {
 
 
 
+add_action("admin_init", "admin_init");
+    add_action('save_post', 'save_youtube_id');
+
+    function admin_init(){
+        add_meta_box("vidInfo-meta", "Video Options", "meta_options", "teachers", "side", "high");
+    }
+
+    function meta_options(){
+        global $post;
+        $custom = get_post_custom($post->ID);
+        $youtube_id = $custom["youtube_id"][0];
+?>
+    <label>YouTube ID:</label><input name="youtube_id" value="<?php echo $youtube_id; ?>" />
+<?php
+    }
+
+	function save_youtube_id(){
+		global $post;
+		update_post_meta($post->ID, "youtube_id", $_POST["youtube_id"]);
+	}
 
 
-function prefix_teammembers_metaboxes( ) {
-    global $wp_meta_boxes;
-    add_meta_box('postfunctiondiv', __('Function'), 'prefix_teammembers_metaboxes_html', 'prefix_teammembers', teachers, 'normal', 'high');
-    // add_meta_box( 'hcf-1', __( 'Сайдбар для данной записи', 'hcf' ), 'wporg_custom_box_html', $screen, 'side' );
- }
- add_action( 'add_meta_boxes_prefix-teammembers', 'prefix_teammembers_metaboxes' );
 
 
 
- function prefix_teammembers_metaboxes_html()
- {
-     global $post;
-     $custom = get_post_custom($post->ID);
-     $function = isset($custom["function"][0])?$custom["function"][0]:'';
- ?>
-     <label>Дожность:</label><input name="function" value="<?php echo $function; ?>">
- <?php
- }
 
-
- function prefix_teammembers_save_post()
- {
-     if(empty($_POST)) return; //why is prefix_teammembers_save_post triggered by add new?
-     global $post;
-     update_post_meta($post->ID, "function", $_POST["function"]);
- }
-
- add_action( 'save_post_prefix-teammembers', 'prefix_teammembers_save_post' );
 
 ?>
