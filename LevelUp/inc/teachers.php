@@ -43,7 +43,7 @@ add_action("admin_init", "admin_init");
         $custom = get_post_custom($post->ID);
         $job_position = $custom["job_position"][0];
 ?>
-    <label>Должность:</label><input name="job_position" type="text" value="<?php echo $job_position; ?>" />
+    <label>Должность:</label><input name="job_position" type="text" style="width: 100%; БЧЬ ∑   h" value="<?php echo $job_position; ?>" />
 <?php
     }
 

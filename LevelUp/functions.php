@@ -523,7 +523,7 @@ add_action( 'admin_enqueue_scripts', 'fadupla_svg_enqueue_scripts' );
 
 
 /**
- * Ajax get_attachment_url_media_library
+ * Ajax get_attachment_url_media_library @#  
  * @author fadupla
  */
 function fadupla_get_attachment_url_media_library() {
@@ -686,3 +686,72 @@ function shapeSpace_recent_posts_shortcode($atts, $content = null) {
 
 }
 add_shortcode('recent_posts', 'shapeSpace_recent_posts_shortcode');
+
+
+
+
+
+// Тут сначала сам пробую
+add_shortcode( 'teacher', 'item_teacher' );
+
+function item_teacher($post_id) {
+
+extract( shortcode_atts( array(
+    'post_id' => '0',
+    ), $atts ) );
+
+	$args = array(
+		'post_id'        => $id,
+	);
+
+$out = "";
+$comments = get_comments("post_id=$post_id&status=approve");
+if ($comments) {
+    $ndx = mt_rand(0,sizeof($comments)) - 1;
+    $comment = $comments[$ndx];
+    $out = "<div class='randomComment'><div class='randomAuthor'>".$comment->comment_author."</div><div class='randomText'>".$comment->comment_content."</div></div>";
+}
+return $out;
+}
+
+
+
+
+
+
+
+
+
+
+
+function item_teacher($atts, $content = null) {
+
+	global $post;
+
+	extract(shortcode_atts(array(
+        'post_type' => 'teachers',
+        'post_id' => '0',
+	), $atts));
+
+	$args = array(
+		'post_id'        => $id,
+	);
+
+	$var = '';
+
+	$posts = get_posts($args);
+	ob_start();
+	foreach($posts as $post) {
+
+		setup_postdata($post);
+		get_template_part( 'template-parts/teacher', get_post_format() );
+
+	}
+
+	wp_reset_postdata();
+	$var = ob_get_contents();
+	ob_end_clean();
+	return '<div class="events_block last-mini">'. $var .'</div>';
+
+}
+add_shortcode('teacher', 'item_teacher');
