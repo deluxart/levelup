@@ -90,12 +90,6 @@ jQuery(".c100").each(function() {
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick.min.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slick_slides.js"></script>
 <!-- Мероприятия -->
-<script type="text/javascript"> 
-
-
-
-
-</script>
 <!--Конец Мероприятия -->
 </body>
 </html>
