@@ -155,6 +155,6 @@
         <div class="link_liqpay-input" style="display:none">[text text-745 id:link_liqpay]</div>
         <div class="price-input" style="display:none">[text text-746 id:event_price]</div>
         <div class="date-input" style="display:none">[text text-747 id:event_date]</div>
-<div class="tc" style="background: #25262b;color: #fff;font-size: 11px; padding: 7px 0;">Запросы: <?php echo get_num_queries(); ?></div>
+<div class="tc" style="background: #25262b;color: #595959;font-size: 11px; padding: 7px 0;">Запросы: <?php echo get_num_queries(); ?></div>
 </body>
 </html>
