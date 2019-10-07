@@ -32,24 +32,24 @@ function health_products() {
 
 
 add_action("admin_init", "admin_init");
-    add_action('save_post', 'save_youtube_id');
+    add_action('save_post', 'save_job_position');
 
     function admin_init(){
-        add_meta_box("vidInfo-meta", "Video Options", "meta_options", "teachers", "side", "high");
+        add_meta_box("vidInfo-meta", "Дополнительно", "meta_options", "teachers", "side", "high");
     }
 
     function meta_options(){
         global $post;
         $custom = get_post_custom($post->ID);
-        $youtube_id = $custom["youtube_id"][0];
+        $job_position = $custom["job_position"][0];
 ?>
-    <label>Должность:</label><input name="youtube_id" type="text" value="<?php echo $youtube_id; ?>" />
+    <label>Должность:</label><input name="job_position" type="text" value="<?php echo $job_position; ?>" />
 <?php
     }
 
-	function save_youtube_id(){
+	function save_job_position(){
 		global $post;
-		update_post_meta($post->ID, "youtube_id", $_POST["youtube_id"]);
+		update_post_meta($post->ID, "job_position", $_POST["job_position"]);
 	}
 
 
