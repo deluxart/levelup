@@ -53,4 +53,35 @@ add_action("admin_init", "admin_init");
 	}
 
 
+
+
+
+
+    add_shortcode( 'teacher',  'call_shortcode_portfolio' );
+    function call_shortcode_portfolio( $atts, $content = '' ) {
+        global $wp_query;
+        $atts = shortcode_atts( array( 'id' => null ), $atts );
+        $wp_query = new WP_Query( array( 'post_type' => 'teachers',  'p' => intval( $atts['id'] ) ) );
+
+    ob_start();
+    echo '<div class="teacher">';
+        if ( have_posts() ) :
+                while ( have_posts() ) : the_post();
+
+                    get_template_part( 'template-parts/teacher', get_post_format() );
+
+                endwhile;
+            else :
+                get_template_part( 'template-parts/content', 'none' );
+            endif;
+    echo '</div>';
+
+        wp_reset_query(); // сброс $wp_query
+        $out = ob_get_clean();
+        return $out;
+    }
+
+
+
+
 ?>
