@@ -9,21 +9,18 @@
  * @since Twenty Fifteen 1.0
  */
 ?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-<div class="widget">
-	<?php the_post_thumbnail('thumbnail'); ?>
+<div id="teacher-<?php the_ID(); ?>">
+    <div class="teacher-lvl">
+        <div class="photo">
+            <?php the_post_thumbnail('thumbnail'); ?>
+        </div>
+        <div class="text">
+            <h4><?php the_title(); ?></h4>
+            <?php if ( $job_position = get_post_meta( $post->ID, 'job_position', true ) ) : ?>
+                <p class="job_position"><?php echo $job_position ?></p>
+            <?php endif; ?>
+            <p><?php the_content(); ?></p>
+        </div>
+    </div>
 </div>
-<div class="text_widget">
-<h5><?php the_title(); ?></h5>
-<p>
-<?php
-$job_position = esc_attr( get_post_meta( get_the_ID(), 'job_position', true ) );
-
-?>
-Должность: <?php echo $job_position(); ?>
-</p>
 </div>
-
-</article><!-- #post-## -->

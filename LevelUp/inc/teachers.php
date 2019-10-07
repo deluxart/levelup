@@ -42,8 +42,10 @@ add_action("admin_init", "admin_init");
         global $post;
         $custom = get_post_custom($post->ID);
         $job_position = $custom["job_position"][0];
+        $custom_id = $post->ID;
 ?>
     <label>Должность:</label><input name="job_position" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" />
+    <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $custom_id; ?>"]' readonly/>
 <?php
     }
 
@@ -54,8 +56,7 @@ add_action("admin_init", "admin_init");
 
 
 
-
-    add_shortcode( 'teacher',  'call_shortcode_teacher' );
+add_shortcode( 'teacher',  'call_shortcode_teacher' );
     function call_shortcode_teacher( $atts, $content = '' ) {
         global $wp_query;
         $atts = shortcode_atts( array( 'id' => null ), $atts );

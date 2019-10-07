@@ -1,5 +1,12 @@
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
-	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	vertical-align: baseline;	background: transparent; }
+  margin: 0;	padding: 0;	border: 0;	font-size: 100%;	vertical-align: baseline;	background: transparent; }
+
+
+  .teacher-lvl { display: grid; grid-template-columns: 250px 1fr; align-items: center; grid-gap: 30px; }
+  .teacher-lvl .text h4 { font-size: 26px; font-weight: 500; font-family: Montserrat; line-height: 32px; padding: 0; margin: 0; }
+  .teacher-lvl .text p.job_position { color: #959595; padding-bottom: 20px; }
+
+
 
 .home-news-slider .slick-dots { display: none !important; }
 .page-id-440 { font-family: 'Gilroy' !important; }
