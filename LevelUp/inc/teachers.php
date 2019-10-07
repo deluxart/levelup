@@ -35,7 +35,7 @@ add_action("admin_init", "admin_init");
     add_action('save_post', 'save_youtube_id');
 
     function admin_init(){
-        add_meta_box("vidInfo-meta", "Video Options", "meta_options", "teachers", "side", "high");
+        add_meta_box("vidInfo-meta", "Video Options", "meta_options", "teachers", "normal", "high");
     }
 
     function meta_options(){
