@@ -19,7 +19,7 @@
 <h5><?php the_title(); ?></h5>
 <p>
 <?php
-$job_position = esc_attr( get_post_meta( get_the_ID(), '_wporg_meta_key', true ) );
+$job_position = esc_attr( get_post_meta( get_the_ID(), 'job_position', true ) );
 
 ?>
 Должность: <?php echo $job_position(); ?>
