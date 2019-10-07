@@ -183,6 +183,8 @@ endif;
 
 require get_template_directory() . '/inc/options_page.php';
 
+require get_template_directory() . '/inc/teachers.php';
+
 /**
  * Load JS and styles.
  */
