@@ -55,7 +55,14 @@ add_action("admin_init", "admin_init");
 
 
 
+    add_action('edit_form_after_title',  array( $this, 'move_metabox_after_title' ) );
 
+    function move_metabox_after_title () {
+        global $post, $wp_meta_boxes;
+
+        do_meta_boxes( get_current_screen(), 'advanced', $post );
+        unset( $wp_meta_boxes[get_post_type( $post )]['advanced'] );
+    }
 
 
 ?>
