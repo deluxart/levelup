@@ -24,7 +24,7 @@ function health_products() {
 		'has_archive' => true,
 		'menu_icon' => 'dashicons-businessman', // иконка корзины
 		'menu_position' => 20, // порядок в меню
-		'supports' => array( 'title', 'editor', 'comments', 'author', 'thumbnail',)
+		'supports' => array( 'title', 'editor', 'comments', 'author', 'thumbnail', 'revisions')
 	);
 	register_post_type('teachers', $args);
 }
