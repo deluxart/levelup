@@ -7,6 +7,13 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   .teacher-lvl .text p.job_position { color: #959595; padding-bottom: 20px; }
 
 
+.add-timer .eTimer { position: absolute !important; bottom: 20px !important; left: 20px !important; border-radius: 5px !important; background: #00000082 !important; box-shadow: none; }
+.add-timer .eTimer a { color: #eaff00; text-decoration: none; }
+
+
+@media (max-width: 768px) {
+  .add-timer .eTimer { display: none !important; }
+}
 
 .home-news-slider .slick-dots { display: none !important; }
 .page-id-440 { font-family: 'Gilroy' !important; }
