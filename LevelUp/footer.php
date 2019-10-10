@@ -129,7 +129,7 @@
 	<div class="cont">
 		<div><img src="https://levelup.ua/wp-content/uploads/2019/10/modal_cosmovavt.png" alt=""></div>
 		<div class="content">
-			<h4>Реєструйтеся на конференцію <strong><a href="https://levelup.ua/it-conference-2019">Ваша КАР’ЄРА в IT</a></strong> <span>і приходь знайомитися!</span></h4>
+			<h4>Реєструйтеся на конференцію <strong><a href="https://levelup.ua/it-conference-2019">Ваша КАР’ЄРА в IT</a></strong> і приходь знайомитися!</h4>
 			<div class="date-block">
 				<div><strong>2 листопада 10:00</strong>вул. Троїцька, 21Г</div>
 				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
@@ -157,22 +157,15 @@
         <div class="date-input" style="display:none">[text text-747 id:event_date]</div>
         <div class="tc" style="background: #25262b;color: #595959;font-size: 11px; padding: 7px 0;">Запросы: <?php echo get_num_queries(); ?></div>
 
-
-
-
-        <script src="https://e-timer.ru/js/etimer.js"></script>
+<script src="https://e-timer.ru/js/etimer.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function() {
 		jQuery(".eTimer").eTimer({
-			etType: 0, etDate: "02.11.2019.10.0", etTitleText: "До початку:", etTitleSize: 16, etShowSign: 3, etSep: ":", etFontFamily: "Trebuchet MS", etTextColor: "#a3a3a3", etPaddingTB: 15, etPaddingLR: 15, etBackground: "#333333", etBorderSize: 0, etBorderRadius: 2, etBorderColor: "white", etShadow: " 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 24, etNumberColor: "black", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "#eaff00", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
+			etType: 0, etDate: "02.11.2019.10.0", etTitleText: "<a href='https://levelup.ua/it-conference-2019'>До початку:</a>", etTitleSize: 16, etShowSign: 3, etSep: ":", etFontFamily: "Trebuchet MS", etTextColor: "#a3a3a3", etPaddingTB: 15, etPaddingLR: 15, etBackground: "#333333", etBorderSize: 0, etBorderRadius: 2, etBorderColor: "white", etShadow: " 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 24, etNumberColor: "black", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "#eaff00", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
 		});
 	});
 </script>
 <div class="eTimer"></div>
-
-
-
-
 
 </body>
 </html>
