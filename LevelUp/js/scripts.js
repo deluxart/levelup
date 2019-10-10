@@ -589,19 +589,19 @@ jQuery('.saleRow .saleBottom').each(function(i) {
 
 // Модалка для мероприятия
 jQuery(document).ready(function(){
-    jQuery(".event_modal .close-icon").click(function () {
-    jQuery.cookie("popup", "", { expires:0, path: '/' });
+    jQuery(".event_modal .close-icon-new").click(function () {
+    jQuery.cookie("popup-event", "", { expires:1, path: '/' });
 
             jQuery('.event_modal').removeClass("open");
             setTimeout(function(){
                  jQuery('.event_modal').hide();
-            }, 200);
+            }, 100);
             jQuery('.event_modal-bg').removeClass("open");
             jQuery('.event_modal-bg').css({display: 'none'});
 
     });
 
-    if ( jQuery.cookie("popup") == null )
+    if ( jQuery.cookie("popup-event") == null )
     {
     setTimeout(function(){
 
@@ -611,7 +611,7 @@ jQuery(document).ready(function(){
             }, 200);
             jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
 
-    }, 12000);
+    }, 12000)
     }
     else {
       jQuery(".event_modal").hide();
