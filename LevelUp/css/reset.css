@@ -7,7 +7,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   .teacher-lvl .text p.job_position { color: #959595; padding-bottom: 20px; }
 
 
-.add-timer .eTimer { position: absolute !important; bottom: 20px !important; left: 20px !important; border-radius: 5px !important; background: #00000082 !important; box-shadow: none !important; }
+.add-timer .eTimer { position: absolute !important; bottom: 40px !important; right: 40px !important; border-radius: 5px !important; background: #00000082 !important; box-shadow: none !important; }
 .add-timer .eTimer a { color: #eaff00; text-decoration: none; }
 .add-timer .eTimer .etUnit .etSign { font-size: 11px !important; color: #fff; }
 .eTimer .etUnit .etNumber { box-shadow: none !important;  }
@@ -93,21 +93,21 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
 .event_modal .cont > div.content { padding: 50px 50px 50px 0; }
 .event_modal .cont > div > img { width: 100%; max-width: 380px; display: block; margin: 0 auto; padding: 40px 0; }
 .event_modal .cont > div > h4 a { color: #f5f34f; text-decoration: underline; }
-.event_modal .cont > div > div.date-block { display: inline-block;padding: 20px 0; border-radius: 10px; box-shadow: 1.854px 5.706px 32.4px 7.6px rgba(0, 0, 0, 0.28); background: #fff; position: relative; margin-bottom: 25px; }
+.event_modal .cont > div > div.date-block { display: block;text-align: center;padding: 20px 0; border-radius: 10px; box-shadow: 1.854px 5.706px 32.4px 7.6px rgba(0, 0, 0, 0.28); background: #fff; position: relative; margin-bottom: 25px; }
 .event_modal .cont > div > div.date-block > div { font-size: 15px; color: #868686; padding: 0 15px 0 28px; white-space: nowrap; }
 .event_modal .cont > div > div.date-block strong { display: block; font-size: 18px; color: #000; }
 .event_modal .close-icon { width: 17px; height: 17px; position: absolute; top: 20px; right: 20px; cursor: pointer; opacity: 0.7; }
 .event_modal .close-icon:hover { opacity: 1; }
 
 .event_modal .cont > div > div > div.date-icon { border: 5px solid #fff; background: #15acf2; border-radius: 50%; width: 39px; height: 39px; position: absolute;
-	left: 0; top: 50%; transform: translate(-50%, -50%); text-align: center; padding: 0; }
+	left: 50%; top: 0; transform: translate(-50%, -50%); text-align: center; padding: 0; }
 
 .event_modal .cont > div > div > div.date-icon img { width: 19px; position: relative; top: 5px; }
 
 .event_modal .cont > div > div.feed-form .form > p { display: none !important; }
 .event_modal .cont > div > div.feed-form .form { display: grid; grid-row-gap: 15px; }
-.event_modal .cont > div > div.feed-form .form input { width: 100%; background: #fff; border-radius: 30px; height: 42px; color: #000; font-size: 16px; }
-.event_modal .cont > div > div.feed-form .form input::placeholder { color: #000; }
+.event_modal .cont > div > div.feed-form .form input { width: 100%; background: #ffffff2b; border-radius: 30px; height: 42px; color: #fff; font-size: 16px; }
+.event_modal .cont > div > div.feed-form .form input::placeholder { color: #fff; }
 .event_modal .cont > div > div.feed-form .form input[type="submit"] { background: #f5f34f; color: #000; border: none;  font-weight: bold; }
 .event_modal .cont > div > div.feed-form .form > div.last { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 15px; position: relative; }
 .event_modal .cont > div > div.feed-form .form > div.last > p { display: none; }
