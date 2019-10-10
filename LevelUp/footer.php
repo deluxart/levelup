@@ -165,7 +165,6 @@
 		});
 	});
 </script>
-<div class="eTimer"></div>
 
 </body>
 </html>
