@@ -608,36 +608,6 @@ function LevelUp_gutenberg_editor_styles() {
 add_action( 'enqueue_block_editor_assets', 'LevelUp_gutenberg_editor_styles' );
 
 
-// function column_block_cgb_editor_assets(){
-//     wp_enqueue_script(
-//         'column_block-cgb-block-js',
-//         plugins_url('/dist/blocks.build.js', dirname(__FILE__)),
-//         array('wp-blocks', 'wp-i18n', 'wp-element')
-//     );
-
-//     wp_enqueue_style(
-//         'column_block-cgb-block-editor-css',
-//         plugins_url('dist/blocks.editor.build.css', dirname(__FILE__)),
-//         array('wp-edit-blocks')
-//     );
-// }
-
-// add_action('enqueue_block_editor_assets', 'column_block_cgb_editor_assets');
-
-
-// function my_mario_block_category( $categories, $post ) {
-// 	return array_merge(
-// 		$categories,
-// 		array(
-// 			array(
-// 				'slug' => 'mario-blocks',
-// 				'title' => __( 'Mario Blocks', 'mario-blocks' ),
-// 			),
-// 		)
-// 	);
-// }
-// add_filter( 'block_categories', 'my_mario_block_category', 10, 2);
-
 function replace_core_jquery_version() {
     wp_deregister_script( 'jquery' );
     wp_register_script( 'jquery', "https://code.jquery.com/jquery-2.2.4.js", array(), '2.2.4' );
@@ -688,11 +658,6 @@ function shapeSpace_recent_posts_shortcode($atts, $content = null) {
 
 }
 add_shortcode('recent_posts', 'shapeSpace_recent_posts_shortcode');
-
-
-
-
-
 
 
 
