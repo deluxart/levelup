@@ -130,7 +130,6 @@ function my_manage_teachers_columns( $column, $post_id ) {
 }
 
 
-
 add_filter('gettext','custom_enter_title');
 
 function custom_enter_title( $input ) {
