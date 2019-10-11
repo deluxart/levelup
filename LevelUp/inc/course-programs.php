@@ -26,7 +26,7 @@ function courses_programs() {
 		'menu_position' => 10, // порядок в меню
 		'supports' => array( 'title', 'editor', 'comments', 'author', 'thumbnail', 'revisions')
 	);
-	register_post_type('teachers', $args);
+	register_post_type('course-programs', $args);
 }
 
 
