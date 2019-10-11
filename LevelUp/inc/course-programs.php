@@ -45,7 +45,7 @@ add_action("admin_init", "admin_init_program");
         $custom_id = $post->ID;
 ?>
     <!-- <label>Должность:</label><input name="job_position" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" /> -->
-    <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $custom_id; ?>"]' readonly/>
+    <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[program id="<?php echo $custom_id; ?>"]' readonly/>
 <?php
     }
 
@@ -56,17 +56,17 @@ add_action("admin_init", "admin_init_program");
 
 
 
-add_shortcode( 'teacher',  'call_shortcode_program' );
+add_shortcode( 'program',  'call_shortcode_program' );
     function call_shortcode_program( $atts, $content = '' ) {
         global $wp_query;
         $atts = shortcode_atts( array( 'id' => null ), $atts );
         $wp_query = new WP_Query( array(
-            'post_type' => 'teachers',
+            'post_type' => 'course-programs',
             'p' => intval( $atts['id'] )
         ) );
 
     ob_start();
-    echo '<div class="teacher">';
+    echo '<div class="program">';
         if ( have_posts() ) :
                 while ( have_posts() ) : the_post();
 
