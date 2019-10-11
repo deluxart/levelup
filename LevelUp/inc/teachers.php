@@ -85,10 +85,9 @@ add_shortcode( 'teacher',  'call_shortcode_teacher' );
 
 
 
+add_filter( 'manage_edit-teachers_columns', 'my_edit_teachers_columns' ) ;
 
-add_filter( 'manage_edit-teachers_columns', 'my_edit_movie_columns' ) ;
-
-function my_edit_movie_columns( $columns ) {
+function my_edit_teachers_columns( $columns ) {
 
     $columns = array(
         'cb' => '&lt;input type="checkbox" />',
@@ -102,9 +101,6 @@ function my_edit_movie_columns( $columns ) {
 }
 
 
-
-
-
 add_action( 'manage_teachers_posts_custom_column', 'my_manage_teachers_columns', 10, 2 );
 
 function my_manage_teachers_columns( $column, $post_id ) {
@@ -112,49 +108,29 @@ function my_manage_teachers_columns( $column, $post_id ) {
 
     switch( $column ) {
 
-        /* If displaying the 'duration' column. */
         case 'shortcode' :
-
-            /* Get the post meta. */
-            // $duration = get_post_meta( $post_id, 'job_position', true );
             $shortcode = $post->ID;
-
-            /* If no duration is found, output a default message. */
             if ( empty( $shortcode ) )
                 echo __( 'Unknown' );
-
-            /* If there is a duration, append 'minutes' to the text string. */
             else
                 printf( __( '[teacher id="%s"]' ), $shortcode );
 
-            break;
+        break;
 
-
-
-        /* If displaying the 'duration' column. */
         case 'riv_post_thumbs' :
-
-            /* Get the post meta. */
             $photo = the_post_thumbnail( 'featured-thumbnail' );
-
-            /* If no duration is found, output a default message. */
             if ( empty( $photo ) );
-
-            /* If there is a duration, append 'minutes' to the text string. */
             else
                 printf( $photo );
+        break;
 
-            break;
-
-
-
-
-
-        /* Just break out of the switch statement for everything else. */
         default :
             break;
     }
 }
+
+
+
 
 
 
