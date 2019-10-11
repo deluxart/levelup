@@ -32,7 +32,7 @@ function courses_programs() {
 
 
 add_action("admin_init", "admin_init_program");
-    add_action('save_post', 'save_job_position');
+    add_action('save_post', 'save_course_program');
 
     function admin_init_program(){
         add_meta_box("course_program", "Дополнительно", "meta_options_program", "course-programs", "side", "high");
@@ -49,10 +49,10 @@ add_action("admin_init", "admin_init_program");
 <?php
     }
 
-	// function save_job_position(){
-	// 	global $post;
-	// 	update_post_meta($post->ID, "job_position", $_POST["job_position"]);
-	// }
+	function save_course_program(){
+		global $post;
+		update_post_meta($post->ID, "job_position", $_POST["job_position"]);
+	}
 
 
 
