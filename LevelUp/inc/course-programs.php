@@ -1,7 +1,7 @@
 <?php
-add_action( 'init', 'health_products' ); // Использовать функцию только внутри хука init
+add_action( 'init', 'courses_programs' ); // Использовать функцию только внутри хука init
 
-function health_products() {
+function courses_programs() {
 	$labels = array(
 		'name' => 'Программы',
 		'singular_name' => 'Программа', // админ панель Добавить->Функцию
@@ -31,14 +31,14 @@ function health_products() {
 
 
 
-add_action("admin_init", "admin_init");
+add_action("admin_init", "admin_init_program");
     add_action('save_post', 'save_job_position');
 
-    function admin_init(){
-        add_meta_box("job_position", "Дополнительно", "meta_options", "teachers", "side", "high");
+    function admin_init_program(){
+        add_meta_box("job_position", "Дополнительно", "meta_options_program", "teachers", "side", "high");
     }
 
-    function meta_options(){
+    function meta_options_program(){
         global $post;
         $custom = get_post_custom($post->ID);
         // $job_position = $custom["job_position"][0];
@@ -56,8 +56,8 @@ add_action("admin_init", "admin_init");
 
 
 
-add_shortcode( 'teacher',  'call_shortcode_teacher' );
-    function call_shortcode_teacher( $atts, $content = '' ) {
+add_shortcode( 'teacher',  'call_shortcode_program' );
+    function call_shortcode_program( $atts, $content = '' ) {
         global $wp_query;
         $atts = shortcode_atts( array( 'id' => null ), $atts );
         $wp_query = new WP_Query( array(
