@@ -90,9 +90,9 @@ add_shortcode( 'teacher',  'call_shortcode_teacher' );
 
 
 
-    dd_action( 'manage_teachers_posts_custom_column', 'my_manage_teachers_columns', 10, 2 );
+    dd_action( 'manage_teacher_posts_custom_column', 'my_manage_teacher_columns', 10, 2 );
 
-    function my_manage_teachers_columns( $column, $post_id ) {
+    function my_manage_teacher_columns( $column, $post_id ) {
         global $post;
 
         switch( $column ) {
