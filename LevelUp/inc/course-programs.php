@@ -35,7 +35,7 @@ add_action("admin_init", "admin_init_program");
     add_action('save_post', 'save_job_position');
 
     function admin_init_program(){
-        add_meta_box("course_program", "Дополнительно", "meta_options_program", "teachers", "side", "high");
+        add_meta_box("course_program", "Дополнительно", "meta_options_program", "course-programs", "side", "high");
     }
 
     function meta_options_program(){
