@@ -184,6 +184,7 @@ endif;
 require get_template_directory() . '/inc/options_page.php';
 
 require get_template_directory() . '/inc/teachers.php';
+require get_template_directory() . '/inc/course-programs.php';
 
 /**
  * Load JS and styles.
