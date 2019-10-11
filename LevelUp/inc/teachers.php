@@ -23,7 +23,7 @@ function lvl_teachers() {
         'show_ui' => true,
         'has_archive' => true,
         'menu_icon' => 'dashicons-businessman',
-        'menu_position' => 15,
+        'menu_position' => 11,
         'supports' => array( 'title', 'editor', 'comments', 'author', 'thumbnail', 'revisions')
     );
     register_post_type('teachers', $args);

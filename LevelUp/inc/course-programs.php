@@ -1,34 +1,31 @@
 <?php
-add_action( 'init', 'courses_programs' ); // Использовать функцию только внутри хука init
+add_action( 'init', 'courses_programs' );
 
 function courses_programs() {
 	$labels = array(
 		'name' => 'Программы',
-		'singular_name' => 'Программа', // админ панель Добавить->Функцию
+		'singular_name' => 'Программа',
 		'add_new' => 'Добавить программу',
-		'add_new_item' => 'Добавить новую программу', // заголовок тега <title>
+		'add_new_item' => 'Добавить новую программу',
 		'edit_item' => 'Редактировать программу',
 		'new_item' => 'Новая программа',
 		'all_items' => 'Все программы',
-		// 'view_item' => 'Просмотр продукта на сайте',
 		'search_items' => 'Искать программу',
 		'not_found' =>  'Программа не найдена.',
 		'not_found_in_trash' => 'В корзине нет программ.',
-		'menu_name' => 'Программы' // ссылка в меню в админке
+		'menu_name' => 'Программы'
 	);
 	$args = array(
 		'labels' => $labels,
 		'public' => false,
-        //'rewrite' => array('slug' => 'health/%health%'),
-		'show_ui' => true, // показывать интерфейс в админке
+		'show_ui' => true,
 		'has_archive' => true,
-		'menu_icon' => 'dashicons-list-view', // иконка корзины
-		'menu_position' => 10, // порядок в меню
+		'menu_icon' => 'dashicons-list-view',
+		'menu_position' => 10,
 		'supports' => array( 'title', 'editor', 'comments', 'author', 'thumbnail', 'revisions')
 	);
 	register_post_type('course-programs', $args);
 }
-
 
 
 add_action("admin_init", "admin_init_program");
