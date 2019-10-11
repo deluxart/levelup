@@ -35,7 +35,7 @@ add_action("admin_init", "admin_init_program");
     add_action('save_post', 'save_job_position');
 
     function admin_init_program(){
-        add_meta_box("job_position", "Дополнительно", "meta_options_program", "teachers", "side", "high");
+        add_meta_box("course_program", "Дополнительно", "meta_options_program", "teachers", "side", "high");
     }
 
     function meta_options_program(){
@@ -45,7 +45,7 @@ add_action("admin_init", "admin_init_program");
         $custom_id = $post->ID;
 ?>
     <!-- <label>Должность:</label><input name="job_position" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" /> -->
-    <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[program id="<?php echo $custom_id; ?>"]' readonly/>
+    <label>Айдишник:</label><input name='program_id' type='text' style='width: 100%;' value='[program id="<?php echo $custom_id; ?>"]' readonly/>
 <?php
     }
 
