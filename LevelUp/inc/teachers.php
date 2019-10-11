@@ -1,29 +1,29 @@
 <?php
-add_action( 'init', 'health_products' ); // Использовать функцию только внутри хука init
+add_action( 'init', 'lvl_teachers' );
 
-function health_products() {
+function lvl_teachers() {
     $labels = array(
         'name' => 'Преподаватели',
-        'singular_name' => 'Препод', // админ панель Добавить->Функцию
+        'singular_name' => 'Препод',
         'add_new' => 'Добавить препода',
-        'add_new_item' => 'Добавить нового преподавателя', // заголовок тега <title>
+        'add_new_item' => 'Новый преподаватель',
         'edit_item' => 'Редактировать преподавателя',
         'new_item' => 'Новый преподаватель',
         'all_items' => 'Все преподаватели',
-        // 'view_item' => 'Просмотр продукта на сайте',
         'search_items' => 'Искать преподавателя',
         'not_found' =>  'Преводавателей не найдено.',
         'not_found_in_trash' => 'В корзине нет преподавателей.',
-        'menu_name' => 'Преподаватели' // ссылка в меню в админке
+        'menu_name' => 'Преподаватели',
+        'featured_image' => 'Фото преподавателя',
+        'remove_featured_image' => 'Удалить фото преподавателя',
     );
     $args = array(
         'labels' => $labels,
         'public' => false,
-        //'rewrite' => array('slug' => 'health/%health%'),
-        'show_ui' => true, // показывать интерфейс в админке
+        'show_ui' => true,
         'has_archive' => true,
-        'menu_icon' => 'dashicons-businessman', // иконка корзины
-        'menu_position' => 20, // порядок в меню
+        'menu_icon' => 'dashicons-businessman',
+        'menu_position' => 15,
         'supports' => array( 'title', 'editor', 'comments', 'author', 'thumbnail', 'revisions')
     );
     register_post_type('teachers', $args);
@@ -54,8 +54,6 @@ add_action("admin_init", "admin_init");
         update_post_meta($post->ID, "job_position", $_POST["job_position"]);
     }
 
-
-
 add_shortcode( 'teacher',  'call_shortcode_teacher' );
     function call_shortcode_teacher( $atts, $content = '' ) {
         global $wp_query;
@@ -78,11 +76,10 @@ add_shortcode( 'teacher',  'call_shortcode_teacher' );
             endif;
     echo '</div>';
 
-        wp_reset_query(); // сброс $wp_query
+        wp_reset_query();
         $out = ob_get_clean();
         return $out;
     }
-
 
 
 add_filter( 'manage_edit-teachers_columns', 'my_edit_teachers_columns' ) ;
