@@ -134,7 +134,7 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
   /* .event_modal .cont > div > img { max-width: 200px; margin-top: 30px; } */
 	.event_modal .cont > div > img { display: none; }
   .event_modal div.wpcf7-mail-sent-ok { display: block; background: #398f14f0; color: #fff; bottom: -50px; margin: 0 -55px; width: calc(100% - -110px); padding: 14px 15px; font-size: 16px; border: 0; border-radius: 0; }
-
+  .event_modal .cont>div.content { padding: 50px; }
 }
 
 @media (max-width: 768px) {
@@ -142,7 +142,6 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
   .event_modal .cont > div > h4 { font-size: 21px !important; margin-bottom: 30px; }
 	.event_modal .cont > div > div.date-block { grid-template-columns: 1fr; grid-row-gap: 20px; }
   .event_modal .cont > div > img { display: none; }
-  .event_modal .cont>div.content { padding: 50px; }
 
   .event_modal .cont > div > div.feed-form .form > div.last { grid-template-columns: 1fr; grid-gap: 15px; }
   .event_modal .cont > div.content { padding: 30px 0; }
