@@ -54,38 +54,32 @@ add_action("admin_init", "admin_init");
         update_post_meta($post->ID, "job_position", $_POST["job_position"]);
     }
 
-add_shortcode( 'teacher',  'call_shortcode_teacher' );
-    function call_shortcode_teacher( $atts, $content = '' ) {
-        global $wp_query;
+
+    add_shortcode( 'teacher',  'call_shortcode_teacher' );
+    function call_shortcode_teacher( $atts ) {
+        ob_start();
         $atts = shortcode_atts( array( 'id' => null ), $atts );
-        $wp_query = new WP_Query( array(
+        $teacher_query = new WP_Query( array(
             'post_type' => 'teachers',
             'p' => intval( $atts['id'] )
-        ) );
+        ));
 
-    ob_start();
-    echo '<div class="teacher">';
-        if ( have_posts() ) :
-                while ( have_posts() ) : the_post();
+        echo '<div class="teacher">';
+        if ( $teacher_query->have_posts() ) :
+            while ( $teacher_query->have_posts() ) : $teacher_query->the_post();
+                get_template_part( 'template-parts/teacher', get_post_format() );
+            endwhile;
+        else :
+            get_template_part( 'template-parts/content', 'none' );
+        endif;
+        echo '</div>';
 
-                    get_template_part( 'template-parts/teacher', get_post_format() );
-
-                endwhile;
-            else :
-                get_template_part( 'template-parts/content', 'none' );
-            endif;
-    echo '</div>';
-
-        wp_reset_query();
-        $out = ob_get_clean();
-        return $out;
+        wp_reset_postdata();
+        return ob_get_clean();
     }
 
-
 add_filter( 'manage_edit-teachers_columns', 'my_edit_teachers_columns' ) ;
-
 function my_edit_teachers_columns( $columns ) {
-
     $columns = array(
         'cb' => '&lt;input type="checkbox" />',
         'riv_post_thumbs' => __('Фото'),
@@ -93,25 +87,21 @@ function my_edit_teachers_columns( $columns ) {
         'shortcode' => __( 'Шорткод' ),
         'date' => __( 'Date' )
     );
-
     return $columns;
 }
 
 
 add_action( 'manage_teachers_posts_custom_column', 'my_manage_teachers_columns', 10, 2 );
-
 function my_manage_teachers_columns( $column, $post_id ) {
     global $post;
 
     switch( $column ) {
-
         case 'shortcode' :
             $shortcode = $post->ID;
             if ( empty( $shortcode ) )
                 echo __( 'Unknown' );
             else
                 printf( __( '[teacher id="%s"]' ), $shortcode );
-
         break;
 
         case 'riv_post_thumbs' :
