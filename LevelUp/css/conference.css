@@ -79,7 +79,12 @@
 .it-conference #for_whom { /*background: #232426;*/ padding: 40px 0 65px 0; color: #fff; background-image: linear-gradient(to bottom, #232426, #222529); }
 .it-conference #for_whom h2 { font-size: 38px; font-weight: 900; margin-bottom: 40px; }
 .it-conference #for_whom .content { display: grid; grid-template-columns: repeat(3, 1fr); max-width: 1100px; width: 100%; margin: 0 auto; }
-.it-conference #for_whom .content > div { text-align: center; }
+.it-conference #for_whom .content > div { text-align: center; padding-top: 50px; }
+
+
+.it-conference #for_whom .content .square h4 { position: absolute; top: -50px; font-size: 18px; line-height: normal; }
+
+
 .it-conference #for_whom .content .square { position: relative; display: inline-block; }
 .it-conference #for_whom .content .square.bg_one:before { position: absolute; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/sq_img_1.png); width: 293px; height: 329px; top: 50px; left: -123px; }
 .it-conference #for_whom .content .square.bg_two:before { position: absolute; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/sq_img_2.png); width: 154px; height: 154px; top: 100px; left: 50%; transform: translateX(-50%); }
