@@ -150,10 +150,16 @@
 @media (max-width: 1200px) { .it-conference #conf_banner .bg_image { padding: 160px 0; } }
 @media (max-width: 768px) {
   .it-conference #conf_program .content .cont_block_spiker, .it-conference #conf_program .content .timeline__block:nth-child(2n) .cont_block_spiker .timeline__date { text-align: left; }
-
   .it-conference #conf_program .content .cont_block_spiker .timeline__date { margin-top: 10px !important; display: block; }
   .it-conference #conf_program .content .timeline__block:nth-child(2n) .cont_block_spiker > div.photo { grid-column: 1/2; grid-row: 1; }
   .it-conference #conf_program .content .timeline__block:nth-child(2n) .cont_block_spiker { grid-template-columns: auto 1fr; }
+  .it-conference #conf_program .timeline__content { width: 100%; margin-right: 3.25em; }
+}
 
-
+@media (max-width: 450px) {
+  .it-conference #conf_program  .timeline__content { padding: 20px; }
+  .it-conference #conf_program .content .cont_block_spiker .photo img { width: 60px; }
+  .it-conference #conf_program .content h4 { font-size: 18px; }
+  .it-conference #conf_program .content strong { font-size: 14px; line-height: normal; }
+  .it-conference #conf_program .content p { font-size: 14px; margin-top: 10px; }
 }
