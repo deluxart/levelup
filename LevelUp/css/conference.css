@@ -153,6 +153,7 @@
 
   .it-conference #conf_program .content .cont_block_spiker .timeline__date { margin-top: 10px !important; display: block; }
   .it-conference #conf_program .content .timeline__block:nth-child(2n) .cont_block_spiker > div.photo { grid-column: 1/2; grid-row: 1; }
+  .it-conference #conf_program .content .timeline__block:nth-child(2n) .cont_block_spiker { grid-template-columns: auto 1fr; }
 
 
 }
