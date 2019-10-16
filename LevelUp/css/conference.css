@@ -104,6 +104,12 @@
 .it-conference #conf_program .content .two_tab_content:before { background: #00baff !important; }
 .it-conference #conf_program .content .two_tab_content .timeline__content, .it-conference #conf_program .content .two_tab_content .timeline__dot { border-color: #00baff !important; }
 .it-conference #conf_program .content .two_tab_content .timeline__content::before { border-right-color: #00baff; border-left-color: transparent; }
+
+
+.it-conference #conf_program .content .two_tab_content .timeline__block:nth-child(2n) .timeline__content { border-left: 7px solid #00baff; border-right: none; }
+
+
+
 .it-conference #conf_program .content .two_tab_content .timeline__block:nth-child(2n+1) .timeline__content::before { border-left-color: #00baff; border-right-color: transparent; }
 .it-conference #conf_program .content .two_tab_content.timeline__container::after { background: #00baff !important; }
 .it-conference #conf_program .content .block_time { text-align: center; }
