@@ -109,7 +109,6 @@
 .it-conference #conf_program .content .two_tab_content .timeline__block:nth-child(2n) .timeline__content { border-left: 7px solid #00baff; border-right: none; }
 
 
-
 .it-conference #conf_program .content .two_tab_content .timeline__block:nth-child(2n+1) .timeline__content::before { border-left-color: #00baff; border-right-color: transparent; }
 .it-conference #conf_program .content .two_tab_content.timeline__container::after { background: #00baff !important; }
 .it-conference #conf_program .content .block_time { text-align: center; }
@@ -149,3 +148,11 @@
 @media (max-width: 1500px) { .it-conference #conf_banner .bg_image { padding: 100px 0; } }
 @media (max-width: 1400px) { .it-conference #conf_banner .bg_image { padding: 130px 0; } }
 @media (max-width: 1200px) { .it-conference #conf_banner .bg_image { padding: 160px 0; } }
+@media (max-width: 768px) {
+  .it-conference #conf_program .content .cont_block_spiker, .it-conference #conf_program .content .timeline__block:nth-child(2n) .cont_block_spiker .timeline__date { text-align: left; }
+
+  .it-conference #conf_program .content .cont_block_spiker .timeline__date { margin-top: 10px !important; display: block; }
+  .it-conference #conf_program .content .timeline__block:nth-child(2n) .cont_block_spiker > div.photo { grid-column: 1/2; grid-row: 1; }
+
+
+}
