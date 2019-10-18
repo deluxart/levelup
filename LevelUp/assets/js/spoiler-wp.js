@@ -13,11 +13,14 @@
 						body: [{
 							type: 'textbox',
 							name: 'title',
-							label: 'Введите заголовок'
+                            label: 'Введите заголовок',
+                            minWidth: 350
                         },{
 							type: 'textbox',
 							name: 'content',
-							label: 'Текст'
+                            label: 'Текст',
+                            minWidth: 350,
+                            minHeight: 150
 						}],
 						onsubmit: function( e ) {
 							editor.insertContent( '[spoiler title="' + e.data.title + '"]' + e.data.content + '[/spoiler]' );

@@ -332,6 +332,60 @@ add_shortcode( 'SmrkCourse', '_SmrkvLib_GetCourse' );
 // add_shortcode('include', 'include_file');
 
 
+
+// Спойлер для WP by Alexander Osadchyy
+function simple_spoiler_shortcode($atts, $content) {
+	if ( ! isset($atts['title']) ) {
+		$sp_name = __( 'Спойлер', 'simple-spoiler' );
+	} else {
+		$sp_name = $atts['title'];
+	}
+	return '<div class="spoiler">
+				<div class="head">'.$sp_name.'</div>
+				<div class="cont">'.$content.'</div>
+			</div>';
+}
+add_shortcode( 'spoiler', 'simple_spoiler_shortcode' );
+add_filter( 'comment_text', 'do_shortcode' );
+
+function my_tinymce_button() {
+	if ( current_user_can( 'edit_posts' ) && current_user_can( 'edit_pages' ) ) {
+		add_filter( 'mce_buttons', 'my_register_tinymce_button' );
+		add_filter( 'mce_external_plugins', 'my_tinymce_button_script' );
+	}
+}
+add_action( 'admin_init', 'my_tinymce_button' );
+
+function my_register_tinymce_button( $buttons ) {
+	array_push( $buttons, 'my_button' );
+	return $buttons;
+}
+
+function my_tinymce_button_script( $plugin_array ) {
+	$plugin_array['my_button_script'] = get_stylesheet_directory_uri() . '/assets/js/spoiler-wp.js';  // Change this to reflect the path/filename to your js file
+	return $plugin_array;
+}
+
+add_action( 'admin_print_footer_scripts', 'html_button_spoiler' );
+function html_button_spoiler() {
+	if ( wp_script_is('quicktags') ){
+?>
+	<script type="text/javascript">
+        QTags.addButton( 'my_prompt', 'Спойлер', btn_spoiler);
+        function btn_spoiler() {
+        var spoiler_title = prompt( 'Введите название спойлера:', '' );
+        var spoiler_content = prompt( 'Введите контент спойлера:', '' );
+        if ( spoiler_title && spoiler_content ) {
+            QTags.insertContent('[spoiler title="' + spoiler_title + '"]' + spoiler_content + '[/spoiler]');
+      }
+    }
+	</script>
+<?php
+	}
+}
+// Спойлер для WP by Alexander Osadchyy
+
+
 add_action( 'admin_init', 'my_remove_menu_pages' );
 function my_remove_menu_pages() {
 
@@ -661,70 +715,3 @@ function shapeSpace_recent_posts_shortcode($atts, $content = null) {
 add_shortcode('recent_posts', 'shapeSpace_recent_posts_shortcode');
 
 
-
-function simple_spoiler_shortcode($atts, $content) {
-	if ( ! isset($atts['title']) ) {
-		$sp_name = __( 'Spoiler', 'simple-spoiler' );
-	} else {
-		$sp_name = $atts['title'];
-	}
-	return '<div class="spoiler">
-				<div class="head">'.$sp_name.'</div>
-				<div class="cont">'.$content.'</div>
-			</div>';
-}
-add_shortcode( 'spoiler', 'simple_spoiler_shortcode' );
-add_filter( 'comment_text', 'do_shortcode' );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function my_tinymce_button() {
-	if ( current_user_can( 'edit_posts' ) && current_user_can( 'edit_pages' ) ) {
-		add_filter( 'mce_buttons', 'my_register_tinymce_button' );
-		add_filter( 'mce_external_plugins', 'my_tinymce_button_script' );
-	}
-}
-add_action( 'admin_init', 'my_tinymce_button' );
-
-function my_register_tinymce_button( $buttons ) {
-	array_push( $buttons, 'my_button' );
-	return $buttons;
-}
-
-function my_tinymce_button_script( $plugin_array ) {
-	$plugin_array['my_button_script'] = get_stylesheet_directory_uri() . '/assets/js/buybutton.js';  // Change this to reflect the path/filename to your js file
-	return $plugin_array;
-}
-
-
-
-
-add_action( 'admin_print_footer_scripts', 'html_button_spoiler' );
-function html_button_spoiler() {
-	if ( wp_script_is('quicktags') ){
-?>
-	<script type="text/javascript">
-        QTags.addButton( 'my_prompt', 'Спойлер', btn_spoiler);
-        function btn_spoiler() {
-        var spoiler_title = prompt( 'Введите название спойлера:', '' );
-        var spoiler_content = prompt( 'Введите контент спойлера:', '' );
-        if ( spoiler_title && spoiler_content ) {
-            QTags.insertContent('[spoiler title="' + spoiler_title + '"]' + spoiler_content + '[/spoiler]');
-      }
-    }
-	</script>
-<?php
-	}
-}
