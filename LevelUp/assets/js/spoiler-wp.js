@@ -20,6 +20,7 @@
 							name: 'content',
                             label: 'Текст',
                             minWidth: 350,
+                            multiline: true,
                             minHeight: 150
 						}],
 						onsubmit: function( e ) {
