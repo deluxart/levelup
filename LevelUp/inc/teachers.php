@@ -154,9 +154,6 @@ function my_manage_teachers_columns( $column, $post_id ) {
         break;
 
 
-
-
-
         default :
             break;
     }
