@@ -146,7 +146,7 @@ function my_manage_teachers_columns( $column, $post_id ) {
         case 'article_category' :
 
         /* Get the genres for the post. */
-        $terms = get_the_terms( $column, $taxonomy, $post_id, 'article_category' );
+        $terms = get_the_terms( $post_id, 'article_category' );
 
         /* If terms were found. */
         if ( !empty( $terms ) ) {
