@@ -675,3 +675,56 @@ function simple_spoiler_shortcode($atts, $content) {
 }
 add_shortcode( 'spoiler', 'simple_spoiler_shortcode' );
 add_filter( 'comment_text', 'do_shortcode' );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// [quote] shortcode
+function shortcode_Spoiler($params = array(), $content) {
+
+    // default parameters
+    extract(shortcode_atts(array(
+      'type' => ''
+    ), $params));
+
+    // create quote
+    return
+      '[spoiler' .
+      ($type ? " class=\"$type\"" : '') .
+      ']' .
+      do_shortcode($content) .
+      '[/spoiler]';
+  }
+  add_shortcode('spoiler', 'shortcode_Spoiler');
+
+
+  // [cta] shortcode
+  function shortcode_CallToAction($params = array(), $content) {
+
+    // default parameters
+    extract(shortcode_atts(array(
+      'href' => '/contact-us/',
+      'type' => ''
+    ), $params));
+
+    // create link in button style
+    return
+      '<a class="cta button' .
+      ($type ? " $type" : '') .
+      '">' .
+      do_shortcode($content) .
+      '</a>';
+  }
+  add_shortcode('cta', 'shortcode_CallToAction');
