@@ -690,41 +690,38 @@ add_filter( 'comment_text', 'do_shortcode' );
 
 
 
+function my_tinymce_button() {
+	if ( current_user_can( 'edit_posts' ) && current_user_can( 'edit_pages' ) ) {
+		add_filter( 'mce_buttons', 'my_register_tinymce_button' );
+		add_filter( 'mce_external_plugins', 'my_tinymce_button_script' );
+	}
+}
+add_action( 'admin_init', 'my_tinymce_button' );
 
-// [quote] shortcode
-function shortcode_Spoiler($params = array(), $content) {
+// Add TinyMCE buttons onto the button array
+function my_register_tinymce_button( $buttons ) {
+	array_push( $buttons, 'my_button' );
+	return $buttons;
+}
 
-    // default parameters
-    extract(shortcode_atts(array(
-      'type' => ''
-    ), $params));
+// Add TinyMCE button script to the plugins array
+function my_tinymce_button_script( $plugin_array ) {
+	$plugin_array['my_button_script'] = get_stylesheet_directory_uri() . '/assets/js/buybutton.js';  // Change this to reflect the path/filename to your js file
+	return $plugin_array;
+}
 
-    // create quote
-    return
-      '[spoiler' .
-      ($type ? " class=\"$type\"" : '') .
-      ']' .
-      do_shortcode($content) .
-      '[/spoiler]';
-  }
-  add_shortcode('spoiler', 'shortcode_Spoiler');
-
-
-  // [cta] shortcode
-  function shortcode_CallToAction($params = array(), $content) {
-
-    // default parameters
-    extract(shortcode_atts(array(
-      'href' => '/contact-us/',
-      'type' => ''
-    ), $params));
-
-    // create link in button style
-    return
-      '<a class="cta button' .
-      ($type ? " $type" : '') .
-      '">' .
-      do_shortcode($content) .
-      '</a>';
-  }
-  add_shortcode('cta', 'shortcode_CallToAction');
+// Style the button with a dashicon icon instead of an image
+function my_tinymce_button_dashicon() {
+	?>
+	<style type="text/css">
+	.mce-i-my_button:before {
+		content: '\f174';
+		display: inline-block;
+		-webkit-font-smoothing: antialiased;
+		font: normal 16px/1 'dashicons';
+		vertical-align: top;
+	}
+	</style>
+	<?php
+}
+add_action( 'admin_head', 'my_tinymce_button_dashicon' );
