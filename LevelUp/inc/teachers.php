@@ -112,7 +112,7 @@ function my_edit_teachers_columns( $columns ) {
         'riv_post_thumbs' => __('Фото'),
         'title' => __( 'Имя преподавателя' ),
         'shortcode' => __( 'Шорткод' ),
-        'category' => __( 'Курс' ),
+        'categories' => __( 'Курс' ),
         'date' => __( 'Date' )
     );
     return $columns;
