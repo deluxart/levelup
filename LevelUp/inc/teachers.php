@@ -10,7 +10,7 @@ function lvl_teachers() {
 			// 'name'              => 'Разделы вопросов',
 			// 'singular_name'     => 'Раздел вопроса',
 			// 'search_items'      => 'Искать Раздел вопроса',
-			'all_items'         => 'Все категории',
+			'all_items'         => 'Курс',
 			// 'parent_item'       => 'Родит. раздел вопроса',
 			// 'parent_item_colon' => 'Родит. раздел вопроса:',
 			// 'edit_item'         => 'Ред. Раздел вопроса',
@@ -19,7 +19,7 @@ function lvl_teachers() {
 			// 'new_item_name'     => 'Новый категория',
 			'menu_name'         => 'Категории (Курсы)',
 		),
-		'description'           => 'Рубрики для преподавателей', // описание таксономии
+		'description'           => 'Категории для преподавателей', // описание таксономии
 		'public'                => true,
 		'show_in_nav_menus'     => false, // равен аргументу public
 		'show_ui'               => true, // равен аргументу public
