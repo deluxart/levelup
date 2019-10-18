@@ -450,9 +450,11 @@ remove_filter( 'the_excerpt', 'wpautop' );
 add_filter( 'the_content', 'LevelUp_autop' );
 function LevelUp_autop($content) {
     $post = get_post();
-    if($post->post_type != 'post' or $post->post_type == 'teachers') return $content; // if not a post, leave $content untouched
+    if($post->post_type != 'post' && $post->post_type != 'teachers') return $content; // if not a post, leave $content untouched
     return wpautop($content);
 }
+
+
 // require get_template_directory() . '/inc/custom-header.php';
 require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/customizer.php';
