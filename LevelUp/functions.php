@@ -33,38 +33,38 @@ if ( version_compare( $GLOBALS['wp_version'], '4.1-alpha', '<' ) ) {
 	require get_template_directory() . '/inc/back-compat.php';
 }
 
-// if ( ! function_exists( 'LevelUp_setup' ) ) :
-// function LevelUp_setup() {
-// 	load_theme_textdomain( 'LevelUp' );
+if ( ! function_exists( 'LevelUp_setup' ) ) :
+function LevelUp_setup() {
+	load_theme_textdomain( 'LevelUp' );
 
-// 	add_theme_support( 'automatic-feed-links' );
-// 	add_theme_support( 'title-tag' );
+	add_theme_support( 'automatic-feed-links' );
+	add_theme_support( 'title-tag' );
 
-// 	add_theme_support( 'post-thumbnails' );
-// 	set_post_thumbnail_size( 825, 510, true );
+	add_theme_support( 'post-thumbnails' );
+	set_post_thumbnail_size( 825, 510, true );
 
-// 	add_theme_support( 'html5', array(
-// 		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
-// 	) );
+	add_theme_support( 'html5', array(
+		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
+	) );
 
-// 	add_theme_support( 'post-formats', array(
-// 		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
-// 	) );
+	add_theme_support( 'post-formats', array(
+		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
+	) );
 
 
-// 	$color_scheme  = LevelUp_get_color_scheme();
-// 	$default_color = trim( $color_scheme[0], '#' );
+	$color_scheme  = LevelUp_get_color_scheme();
+	$default_color = trim( $color_scheme[0], '#' );
 
-// 	add_theme_support( 'custom-background', apply_filters( 'LevelUp_custom_background_args', array(
-// 		'default-color'      => $default_color,
-// 		'default-attachment' => 'fixed',
-// 	) ) );
+	add_theme_support( 'custom-background', apply_filters( 'LevelUp_custom_background_args', array(
+		'default-color'      => $default_color,
+		'default-attachment' => 'fixed',
+	) ) );
 
-// 	add_editor_style( array( 'assets/genericons/genericons.css', LevelUp_fonts_url() ) );
-// 	add_theme_support( 'customize-selective-refresh-widgets' );
-// }
-// endif;
-// add_action( 'after_setup_theme', 'LevelUp_setup' );
+	add_editor_style( array( 'assets/genericons/genericons.css', LevelUp_fonts_url() ) );
+	add_theme_support( 'customize-selective-refresh-widgets' );
+}
+endif;
+add_action( 'after_setup_theme', 'LevelUp_setup' );
 
 /**
  * Registered sidebars for LevelUp.
