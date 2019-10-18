@@ -156,7 +156,7 @@ function my_manage_teachers_columns( $column, $post_id ) {
             /* Loop through each term, linking to the 'edit posts' page for the specific term. */
             foreach ( $terms as $term ) {
                 $out[] = sprintf( '<a href="%s">%s</a>',
-                    esc_url( add_query_arg( array( 'post_type' => $post->post_type, 'article_category' => $term->slug ), 'edit.php' ) ),
+                    esc_url( add_query_arg( array( 'teachers' => $post->post_type, 'article_category' => $term->slug ), 'edit.php' ) ),
                     esc_html( sanitize_term_field( 'name', $term->name, $term->term_id, 'article_category', 'display' ) )
                 );
             }
