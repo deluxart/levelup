@@ -7,16 +7,16 @@ function lvl_teachers() {
     register_taxonomy('teacherscat', array('teachers'), array(
         'label'                 => 'Категории', // определяется параметром $labels->name
         'labels'                => array(
-            'name'              => 'Разделы вопросов',
-            'singular_name'     => 'Раздел вопроса',
-            'search_items'      => 'Искать Раздел вопроса',
+            'name'              => 'Курс преподавателя',
+            // 'singular_name'     => 'Раздел вопроса',
+            // 'search_items'      => 'Искать Раздел вопроса',
             'all_items'         => 'Курс',
-            'parent_item'       => 'Родит. раздел вопроса',
-            'parent_item_colon' => 'Родит. раздел вопроса:',
-            'edit_item'         => 'Ред. Раздел вопроса',
-            'update_item'       => 'Обновить Раздел вопроса',
-            'add_new_item'      => 'Добавить Раздел вопроса',
-            'new_item_name'     => 'Новый категория',
+            // 'parent_item'       => 'Родит. раздел вопроса',
+            // 'parent_item_colon' => 'Родит. раздел вопроса:',
+            // 'edit_item'         => 'Ред. Раздел вопроса',
+            // 'update_item'       => 'Обновить Раздел вопроса',
+            // 'add_new_item'      => 'Добавить Раздел вопроса',
+            // 'new_item_name'     => 'Новый категория',
             'menu_name'         => 'Категории (Курсы)',
         ),
         'description'           => 'Категории для преподавателей', // описание таксономии
