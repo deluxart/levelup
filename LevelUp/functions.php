@@ -516,7 +516,7 @@ add_filter( 'upload_mimes', 'fadupla_mime_types' );
  */
 
 function fadupla_svg_enqueue_scripts( $hook ) {
-	wp_enqueue_style( 'fadupla-svg-style', get_theme_file_uri( '/assets/svg.css' ) );
+	// wp_enqueue_style( 'fadupla-svg-style', get_theme_file_uri( '/assets/svg.css' ) );
 	wp_enqueue_script( 'fadupla-svg-script', get_theme_file_uri( '/js/svg.js' ), 'jquery' );
 	wp_localize_script( 'fadupla-svg-script', 'script_vars',
 		array( 'AJAXurl' => admin_url( 'admin-ajax.php' ) ) );
@@ -709,19 +709,3 @@ function my_tinymce_button_script( $plugin_array ) {
 	$plugin_array['my_button_script'] = get_stylesheet_directory_uri() . '/assets/js/buybutton.js';  // Change this to reflect the path/filename to your js file
 	return $plugin_array;
 }
-
-// Style the button with a dashicon icon instead of an image
-function my_tinymce_button_dashicon() {
-	?>
-	<style type="text/css">
-	.mce-i-my_button:before {
-		content: '\f174';
-		display: inline-block;
-		-webkit-font-smoothing: antialiased;
-		font: normal 16px/1 'dashicons';
-		vertical-align: top;
-	}
-	</style>
-	<?php
-}
-add_action( 'admin_head', 'my_tinymce_button_dashicon' );

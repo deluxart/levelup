@@ -7,3 +7,11 @@ img[src*='.svg'] {
     width: 100%;
     height: auto;
 }
+
+.mce-i-my_button:before {
+    content: '\f502';
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 20px/1 dashicons;
+    vertical-align: top;
+}

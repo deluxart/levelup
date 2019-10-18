@@ -4,27 +4,23 @@
 		init: function( editor, url ) {
 			// Add button that inserts shortcode into the current position of the editor
 			editor.addButton( 'my_button', {
-				title: 'Buy Now Button',
+				title: 'Вставить спойлер',
 				icon: false,
 				onclick: function() {
 					// Open a TinyMCE modal
 					editor.windowManager.open({
-						title: 'Buy Now Button',
+						title: 'Вставить спойлер',
 						body: [{
 							type: 'textbox',
-							name: 'label',
-							label: 'Label'
-						},{
+							name: 'title',
+							label: 'Введите заголовок'
+                        },{
 							type: 'textbox',
-							name: 'link',
-							label: 'Link URL'
-						},{
-							type: 'textbox',
-							name: 'price',
-							label: 'Price'
+							name: 'content',
+							label: 'Текст'
 						}],
 						onsubmit: function( e ) {
-							editor.insertContent( '[buybutton link="' + e.data.link + '" label="' + e.data.label + '" price="' + e.data.price + '"]' );
+							editor.insertContent( '[spoiler title="' + e.data.title + '"]' + e.data.content + '[/spoiler]' );
 						}
 					});
 				}
