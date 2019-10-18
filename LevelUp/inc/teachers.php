@@ -161,4 +161,20 @@ function my_manage_teachers_columns( $column, $post_id ) {
     }
 }
 
+
+
+add_filter( 'pll_get_post_types', 'add_cpt_to_pll', 10, 2 );
+
+function add_cpt_to_pll( $post_types, $is_settings ) {
+    if ( $is_settings ) {
+        unset( $post_types['teachers'] );
+    } else {
+        $post_types['teachers'] = 'teachers';
+    }
+    return $post_types;
+}
+
+
+
+
 ?>
