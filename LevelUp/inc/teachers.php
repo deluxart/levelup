@@ -112,7 +112,7 @@ function my_edit_teachers_columns( $columns ) {
         'riv_post_thumbs' => __('Фото'),
         'title' => __( 'Имя преподавателя' ),
         'shortcode' => __( 'Шорткод' ),
-        'teacherscat' => __( 'Курс' ),
+        'article_category' => __( 'Курс' ),
         'date' => __( 'Date' )
     );
     return $columns;
@@ -146,7 +146,7 @@ function my_manage_teachers_columns( $column, $post_id ) {
         case 'article_category' :
 
         /* Get the genres for the post. */
-        $terms = get_the_category( $post_id, 'article_category' );
+        $terms = get_the_terms( $column, $post_id, 'article_category' );
 
         /* If terms were found. */
         if ( !empty( $terms ) ) {
