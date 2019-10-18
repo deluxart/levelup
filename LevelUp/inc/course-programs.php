@@ -67,7 +67,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
         if ( have_posts() ) :
                 while ( have_posts() ) : the_post();
 
-                    get_template_part( 'template-parts/teacher', get_post_format() );
+                    get_template_part( 'template-parts/program', get_post_format() );
 
                 endwhile;
             else :
