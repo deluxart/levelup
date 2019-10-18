@@ -4,30 +4,30 @@ add_action( 'init', 'lvl_teachers' );
 function lvl_teachers() {
 
     // Раздел вопроса - faqcat
-	register_taxonomy('teacherscat', array('teachers'), array(
-		'label'                 => 'Категории', // определяется параметром $labels->name
-		'labels'                => array(
-			// 'name'              => 'Разделы вопросов',
-			// 'singular_name'     => 'Раздел вопроса',
-			// 'search_items'      => 'Искать Раздел вопроса',
-			'all_items'         => 'Курс',
-			// 'parent_item'       => 'Родит. раздел вопроса',
-			// 'parent_item_colon' => 'Родит. раздел вопроса:',
-			// 'edit_item'         => 'Ред. Раздел вопроса',
-			// 'update_item'       => 'Обновить Раздел вопроса',
-			// 'add_new_item'      => 'Добавить Раздел вопроса',
-			// 'new_item_name'     => 'Новый категория',
-			'menu_name'         => 'Категории (Курсы)',
-		),
-		'description'           => 'Категории для преподавателей', // описание таксономии
-		'public'                => true,
-		'show_in_nav_menus'     => false, // равен аргументу public
-		'show_ui'               => true, // равен аргументу public
-		'show_tagcloud'         => false, // равен аргументу show_ui
-		'hierarchical'          => true,
-		'rewrite'               => array('slug'=>'teachers', 'hierarchical'=>false, 'with_front'=>false, 'feed'=>false ),
-		'show_admin_column'     => true, // Позволить или нет авто-создание колонки таксономии в таблице ассоциированного типа записи. (с версии 3.5)
-	) );
+    register_taxonomy('teacherscat', array('teachers'), array(
+        'label'                 => 'Категории', // определяется параметром $labels->name
+        'labels'                => array(
+            // 'name'              => 'Разделы вопросов',
+            // 'singular_name'     => 'Раздел вопроса',
+            // 'search_items'      => 'Искать Раздел вопроса',
+            'all_items'         => 'Курс',
+            // 'parent_item'       => 'Родит. раздел вопроса',
+            // 'parent_item_colon' => 'Родит. раздел вопроса:',
+            // 'edit_item'         => 'Ред. Раздел вопроса',
+            // 'update_item'       => 'Обновить Раздел вопроса',
+            // 'add_new_item'      => 'Добавить Раздел вопроса',
+            // 'new_item_name'     => 'Новый категория',
+            'menu_name'         => 'Категории (Курсы)',
+        ),
+        'description'           => 'Категории для преподавателей', // описание таксономии
+        'public'                => true,
+        'show_in_nav_menus'     => false, // равен аргументу public
+        'show_ui'               => true, // равен аргументу public
+        'show_tagcloud'         => false, // равен аргументу show_ui
+        'hierarchical'          => true,
+        'rewrite'               => array('slug'=>'teachers', 'hierarchical'=>false, 'with_front'=>false, 'feed'=>false ),
+        'show_admin_column'     => true, // Позволить или нет авто-создание колонки таксономии в таблице ассоциированного типа записи. (с версии 3.5)
+    ) );
 
     $labels = array(
         'name' => 'Преподаватели',
@@ -112,7 +112,7 @@ function my_edit_teachers_columns( $columns ) {
         'riv_post_thumbs' => __('Фото'),
         'title' => __( 'Имя преподавателя' ),
         'shortcode' => __( 'Шорткод' ),
-        'article_category' => __( 'Курс' ),
+        'cat_teatcher' => __( 'Курс' ),
         'date' => __( 'Date' )
     );
     return $columns;
@@ -140,36 +140,17 @@ function my_manage_teachers_columns( $column, $post_id ) {
         break;
 
 
+        case 'cat_teatcher' :
+            $taxonomy = 'teacherscat';
+            $post_type = get_post_type($post_id);
+            $terms = get_the_terms($post_id, $taxonomy);
 
-
-
-        case 'article_category' :
-
-        /* Get the genres for the post. */
-        $terms = get_the_terms( $post_id, 'article_category' );
-
-        /* If terms were found. */
-        if ( !empty( $terms ) ) {
-
-            $out = array();
-
-            /* Loop through each term, linking to the 'edit posts' page for the specific term. */
-            foreach ( $terms as $term ) {
-                $out[] = sprintf( '<a href="%s">%s</a>',
-                    esc_url( add_query_arg( array( 'teachers' => $post->post_type, 'article_category' => $term->slug ), 'edit.php' ) ),
-                    esc_html( sanitize_term_field( 'name', $term->name, $term->term_id, 'article_category', 'display' ) )
-                );
+            if (!empty($terms) ) {
+                foreach ( $terms as $term )
+                $post_terms[] ="<a href='edit.php?post_type={$post_type}&{$taxonomy}={$term->slug}'> " .esc_html(sanitize_term_field('name', $term->name, $term->term_id, $taxonomy, 'edit')) . "</a>";
+                echo join('', $post_terms );
             }
-
-            /* Join the terms, separating them with a comma. */
-            echo join( ', ', $out );
-        }
-
-        /* If no terms were found, output a default message. */
-        else {
-            _e( 'No Articles' );
-        }
-
+             else echo '<i>Без категории</i>';
         break;
 
 
