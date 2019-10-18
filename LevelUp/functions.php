@@ -717,7 +717,7 @@ function html_button_spoiler() {
 ?>
 	<script type="text/javascript">
         QTags.addButton( 'my_prompt', 'Спойлер', div_spoiler);
-        function div_class() {
+        function div_spoiler() {
         var spoiler_title = prompt( 'Введите название спойлера:', '' );
         var spoiler_content = prompt( 'Введите контент спойлера:', '' );
         if ( spoiler_title && spoiler_content ) {
