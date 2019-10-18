@@ -70,9 +70,11 @@ add_action("admin_init", "admin_init");
         $custom = get_post_custom($post->ID);
         $job_position = $custom["job_position"][0];
         $custom_id = $post->ID;
+        $post_slug = $post->post_name;
 ?>
     <label>Должность:</label><input name="job_position" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" />
     <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $custom_id; ?>"]' readonly/>
+    <label>SLUG:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $post_slug; ?>"]' readonly/>
 <?php
     }
 
