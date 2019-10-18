@@ -698,14 +698,33 @@ function my_tinymce_button() {
 }
 add_action( 'admin_init', 'my_tinymce_button' );
 
-// Add TinyMCE buttons onto the button array
 function my_register_tinymce_button( $buttons ) {
 	array_push( $buttons, 'my_button' );
 	return $buttons;
 }
 
-// Add TinyMCE button script to the plugins array
 function my_tinymce_button_script( $plugin_array ) {
 	$plugin_array['my_button_script'] = get_stylesheet_directory_uri() . '/assets/js/buybutton.js';  // Change this to reflect the path/filename to your js file
 	return $plugin_array;
+}
+
+
+
+
+add_action( 'admin_print_footer_scripts', 'html_button_spoiler' );
+function html_button_spoiler() {
+	if ( wp_script_is('quicktags') ){
+?>
+	<script type="text/javascript">
+        QTags.addButton( 'my_prompt', 'Спойлер', div_spoiler);
+        function div_class() {
+        var spoiler_title = prompt( 'Введите название спойлера:', '' );
+        var spoiler_content = prompt( 'Введите контент спойлера:', '' );
+        if ( spoiler_title && spoiler_content ) {
+            QTags.insertContent('[spoiler title="' + spoiler_title + '"]' + spoiler_content + '[/spoiler]');
+      }
+    }
+	</script>
+<?php
+	}
 }
