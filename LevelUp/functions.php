@@ -298,7 +298,8 @@ function _SmrkvLib_GetCourse ($atts = array(), $content = null, $tag)
 	$result =
 		$wpdb->get_results('SELECT * FROM smrkv_courses WHERE url like "'.$atts['cource'].'%"');
 	$dat_res = get_object_vars($result[0]);
-	return $dat_res[$atts['field']];
+    // return $dat_res[$atts['field']];
+    return do_shortcode($dat_res[$atts['field']]);
 }
 add_shortcode( 'SmrkCourse', '_SmrkvLib_GetCourse' );
 

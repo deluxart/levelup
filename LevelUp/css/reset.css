@@ -8,7 +8,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 
   .teacher-lvl { display: grid; grid-template-columns: 250px 1fr; align-items: center; grid-gap: 30px; }
   .teacher-lvl .photo { background: url(https://levelup.ua/wp-content/uploads/2019/10/prepod_frame.png); background-size: cover; background-position: center center; background-repeat: no-repeat; height: 250px;}
-  .teacher-lvl .photo img { display: block; width: calc(100% - 60px); position: relative; left: 30px; height: calc(100% - 60px); top: 30px; border-radius: 50%; }
+  .teacher-lvl .photo img { display: block; width: calc(100% - 60px); position: relative;  height: calc(100% - 60px); top: 30px; border-radius: 50%; }
   .teacher-lvl .text h4 { font-size: 26px; font-weight: 500; font-family: Montserrat; line-height: 32px; padding: 0; margin: 0; }
   .teacher-lvl .text p.job_position { color: #959595; padding-bottom: 20px; }
 
