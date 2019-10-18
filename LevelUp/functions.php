@@ -444,15 +444,15 @@ function override_mce_options($initArray) {
 add_filter('tiny_mce_before_init', 'override_mce_options');
 /** чтоб РЕДАКТОР не удалял теги span без атрибутов */
 
-remove_filter( 'the_content', 'wpautop' );
-remove_filter( 'the_excerpt', 'wpautop' );
+// remove_filter( 'the_content', 'wpautop' );
+// remove_filter( 'the_excerpt', 'wpautop' );
 
-add_filter( 'the_content', 'LevelUp_autop' );
-function LevelUp_autop($content) {
-    $post = get_post();
-    if($post->post_type != 'post' && $post->post_type != 'teachers') return $content; // if not a post, leave $content untouched
-    return wpautop($content);
-}
+// add_filter( 'the_content', 'LevelUp_autop' );
+// function LevelUp_autop($content) {
+//     $post = get_post();
+//     if($post->post_type != 'post' && $post->post_type != 'teachers') return $content; // if not a post, leave $content untouched
+//     return wpautop($content);
+// }
 
 
 // require get_template_directory() . '/inc/custom-header.php';
