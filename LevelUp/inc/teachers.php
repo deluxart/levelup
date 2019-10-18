@@ -5,27 +5,27 @@ function lvl_teachers() {
 
     // Раздел вопроса - faqcat
 	register_taxonomy('teacherscat', array('teachers'), array(
-		'label'                 => 'Раздел вопроса', // определяется параметром $labels->name
+		'label'                 => 'Категории', // определяется параметром $labels->name
 		'labels'                => array(
-			'name'              => 'Разделы вопросов',
-			'singular_name'     => 'Раздел вопроса',
-			'search_items'      => 'Искать Раздел вопроса',
-			'all_items'         => 'Все Разделы вопросов',
-			'parent_item'       => 'Родит. раздел вопроса',
-			'parent_item_colon' => 'Родит. раздел вопроса:',
-			'edit_item'         => 'Ред. Раздел вопроса',
-			'update_item'       => 'Обновить Раздел вопроса',
-			'add_new_item'      => 'Добавить Раздел вопроса',
-			'new_item_name'     => 'Новый Раздел вопроса',
-			'menu_name'         => 'Раздел вопроса',
+			// 'name'              => 'Разделы вопросов',
+			// 'singular_name'     => 'Раздел вопроса',
+			// 'search_items'      => 'Искать Раздел вопроса',
+			// 'all_items'         => 'Все категории',
+			// 'parent_item'       => 'Родит. раздел вопроса',
+			// 'parent_item_colon' => 'Родит. раздел вопроса:',
+			// 'edit_item'         => 'Ред. Раздел вопроса',
+			// 'update_item'       => 'Обновить Раздел вопроса',
+			// 'add_new_item'      => 'Добавить Раздел вопроса',
+			// 'new_item_name'     => 'Новый категория',
+			'menu_name'         => 'Категории (Курсы)',
 		),
-		'description'           => 'Рубрики для раздела вопросов', // описание таксономии
+		'description'           => 'Рубрики для преподавателей', // описание таксономии
 		'public'                => true,
 		'show_in_nav_menus'     => false, // равен аргументу public
 		'show_ui'               => true, // равен аргументу public
 		'show_tagcloud'         => false, // равен аргументу show_ui
 		'hierarchical'          => true,
-		'rewrite'               => array('slug'=>'faq', 'hierarchical'=>false, 'with_front'=>false, 'feed'=>false ),
+		'rewrite'               => array('slug'=>'teachers', 'hierarchical'=>false, 'with_front'=>false, 'feed'=>false ),
 		'show_admin_column'     => true, // Позволить или нет авто-создание колонки таксономии в таблице ассоциированного типа записи. (с версии 3.5)
 	) );
 
