@@ -74,7 +74,7 @@ add_action("admin_init", "admin_init");
 ?>
     <label>Должность:</label><input name="job_position" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" />
     <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $custom_id; ?>"]' readonly/>
-    <label>SLUG:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $post_slug; ?>"]' readonly/>
+    <label>SLUG:</label><input name='teacher_id' type='text' style='width: 100%;' value='[prepod id="<?php echo $post_slug; ?>"]' readonly/>
 <?php
     }
 
@@ -106,6 +106,40 @@ add_action("admin_init", "admin_init");
         wp_reset_postdata();
         return ob_get_clean();
     }
+
+
+
+
+
+    add_shortcode( 'prepod',  'call_shortcode_prepod' );
+    function call_shortcode_prepod( $atts ) {
+        ob_start();
+        $atts = shortcode_atts( array( 'post_name' => null ), $atts );
+        $teacher_query = new WP_Query( array(
+            'post_type' => 'teachers',
+            'p' => intval( $atts['post_name'] )
+        ));
+
+        echo '<div class="teacher">';
+        if ( $teacher_query->have_posts() ) :
+            while ( $teacher_query->have_posts() ) : $teacher_query->the_post();
+                get_template_part( 'template-parts/teacher', get_post_format() );
+            endwhile;
+        else :
+            get_template_part( 'template-parts/content', 'none' );
+        endif;
+        echo '</div>';
+
+        wp_reset_postdata();
+        return ob_get_clean();
+    }
+
+
+
+
+
+
+
 
 add_filter( 'manage_edit-teachers_columns', 'my_edit_teachers_columns' ) ;
 function my_edit_teachers_columns( $columns ) {
