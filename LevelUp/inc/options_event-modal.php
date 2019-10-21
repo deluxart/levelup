@@ -69,13 +69,16 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 <tr style="border-bottom: 1px solid #f1f1f1;">
     <th scope="row">Включить модальное окно мероприятия</th>
         <td>
-            <fieldset>
-            <legend class="screen-reader-text"><span>Активировать модальное окно</span></legend>
-                <label for="blog_public">
-                <input name="event_modal_options[ativate_event_modal]" type="checkbox" id="event_modal_options[ativate_event_modal]" value="1" <?php checked( "1" == $options_modal['ativate_event_modal'] ); ?>>
-                Включить всплывающее модальное окно мероприятия</label>
-                <p class="description">Будет ли всплывать модальное окно у посетителей сайта</p>
-            </fieldset>
+            <div class="g_one_auto">
+                <fieldset>
+                <legend class="screen-reader-text"><span>Активировать модальное окно</span></legend>
+                    <label for="blog_public">
+                    <input name="event_modal_options[ativate_event_modal]" type="checkbox" id="event_modal_options[ativate_event_modal]" value="1" <?php checked( "1" == $options_modal['ativate_event_modal'] ); ?>>
+                    Включить всплывающее модальное окно мероприятия</label>
+                    <p class="description">Будет ли всплывать модальное окно у посетителей сайта</p>
+                </fieldset>
+                <input type="button" name="preview-btn" id="preview-btn" class="button-secondary flat" value="Предпросмотр">
+            </div>
         </td>
 </tr>
 
@@ -215,6 +218,7 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 <style>
+    .wp-core-ui .button-secondary.flat { background: #45526E; color: #fff; border-radius: 2px; }
     .editor_for_event .wp-editor-area { border: 0 !important; }
     .editor_for_event #qt_event_modal_title_my_prompt, .editor_for_event #qt_event_modal_title_video_shortcode { display: none; }
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
