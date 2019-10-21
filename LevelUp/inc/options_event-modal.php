@@ -106,6 +106,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
     $settings = array(
         'wpautop'       => 0,
         'media_buttons' => 0,
+        'textarea_name' => 'event_modal_title',
         'textarea_rows' => 4,
         'editor_css'    => '',
         'editor_class'  => '',
