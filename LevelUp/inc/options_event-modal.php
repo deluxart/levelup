@@ -121,7 +121,7 @@ $settings =   array(
         'dfw'           => 0,
         'tinymce'       => 0,
         'quicktags' => array(
-            'buttons' => 'strong,link'
+            'buttons' => 'strong,em,link,close'
         )
 );
 wp_editor( $content , $editor_id, $settings  );
