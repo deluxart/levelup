@@ -151,7 +151,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 
 
 <style>
-    .editor_for_event textarea { border: 0; }
+    .editor_for_event .wp-editor-area { border: 0 !important; }
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
 </style>
 <script type="text/javascript">
