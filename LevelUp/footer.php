@@ -128,7 +128,7 @@
 </div>
 
 <!-- Модальное окно мероприятия -->
-<div class="event_modal <?php echo $options[ativate_event_modal];?>">
+<div class="event_modal <?php echo $options_modal[ativate_event_modal];?>">
 	<div class="cont">
 		<div><img src="https://levelup.ua/wp-content/uploads/2019/10/modal_cosmovavt.png" alt=""></div>
 		<div class="content">
