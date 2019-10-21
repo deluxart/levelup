@@ -294,7 +294,7 @@ wp_editor( $content , $editor_id, $settings  );
 .event_modal .close-icon:hover { opacity: 1; }
 
 .event_modal .cont > div > div > div.date-icon { border: 5px solid #fff; background: #15acf2; border-radius: 50%; width: 39px; height: 39px; position: absolute;
-	left: 50%; top: 0; transform: translate(-50%, -50%); text-align: center; padding: 0; }
+	left: 50%; top: 0; transform: translate(-50%, -50%); text-align: center; padding: 0; box-sizing: border-box; }
 
 .event_modal .cont > div > div > div.date-icon img { width: 19px; position: relative; top: 5px; }
 
