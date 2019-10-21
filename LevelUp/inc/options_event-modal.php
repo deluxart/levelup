@@ -20,12 +20,12 @@ function load_wp_media_files() {
 add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
 
 
-add_shortcode('event_form', 'shortcode_event_form' );
-function shortcode_event_form($atts){
-    $options_modal = get_option( 'event_modal_options' );
-        $output = '<div>' . $options_modal['contact_form'] . '</div>';
-    return $output;
-}
+// add_shortcode('event_form', 'shortcode_event_form' );
+// function shortcode_event_form($atts){
+//     $options_modal = get_option( 'event_modal_options' );
+//         $output = '<div>' . $options_modal['contact_form'] . '</div>';
+//     return $output;
+// }
 
 
 

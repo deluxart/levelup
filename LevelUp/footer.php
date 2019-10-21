@@ -186,6 +186,9 @@
 		});
 	});
 </script>
-<p class="d-none"><?php echo do_shortcode('[event_form]'); ?></p>
+<p class="d-none">
+
+<?php echo do_shortcode( wp_unslash($options_modal['contact_form']) ); ?>
+</p>
 </body>
 </html>
