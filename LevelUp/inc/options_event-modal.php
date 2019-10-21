@@ -110,7 +110,7 @@ jQuery(document).ready(function($){
             console.log(uploaded_image);
             var image_url = uploaded_image.toJSON().url;
             // Let's assign the url value to the input field
-            $('#event_modal_options[ativate_event_modal]').val(image_url);
+            $('#image_url').val(image_url);
         });
     });
 });
@@ -119,7 +119,7 @@ jQuery(document).ready(function($){
 
 window.send_to_editor = function(html) {
  imgurl = jQuery('img',html).attr('src');
- jQuery('#event_modal_options[ativate_event_modal]').val(imgurl);
+ jQuery('#image_url').val(imgurl);
  tb_remove();
 
  jQuery('#wpss_upload_image_thumb').html("<img height='65' src='"+imgurl+"'/>");
