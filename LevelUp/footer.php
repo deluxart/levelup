@@ -12,6 +12,7 @@
 <?php
     $options = get_option( 'levelup_theme_options' );
     $options_modal = get_option( 'event_modal_options' );
+    $options_modal_title = get_option( 'event_modal_title' );
 ?>
 	</div><!-- .site-content -->
 
@@ -177,7 +178,7 @@
         <div class="price-input" style="display:none">[text text-746 id:event_price]</div>
         <div class="date-input" style="display:none">[text text-747 id:event_date]</div>
         <div class="tc" style="background: #25262b;color: #595959;font-size: 11px; padding: 7px 0;">Запросы: <?php echo get_num_queries(); ?></div>
-
+<p style="display: none;"><?php $options_modal_title; ?></p>
 <script src="https://e-timer.ru/js/etimer.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function() {
