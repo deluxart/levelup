@@ -110,7 +110,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
           <input id="background_url" name="event_modal_options[background_url]" type="text" style="width: 100%" value="<?php echo $options_modal[background_url];?>" class="code" required="">
           <input type="button" name="upload-bg-btn" id="upload-bg-btn" class="button-secondary" value="Выбрать картинку">
         </div>
-        <div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[background_thumb_url]">
+        <div id="wpss_upload_bg_image_thumb" class="wpss-file"><div id="event_modal_options[background_thumb_url]">
             <?php if(isset($options_modal[background_url]) && $options_modal[background_url] !='') { ?>
             <img src="<?php echo $options_modal[background_url];?>"  width="120"/><?php } else { echo $defaultImage; } ?>
             </div>
@@ -271,7 +271,7 @@ wp_editor( $content , $editor_id, $settings  );
                 // console.log(uploaded_image);
                 var image_bg_url = uploaded_bg_image.toJSON().url;
                 jQuery('#background_url').val(image_bg_url);
-                jQuery('#wpss_upload__bgimage_thumb').html("<img height='120' src='"+image_bg_url+"'/>");
+                jQuery('#wpss_upload_bg_image_thumb').html("<img height='120' src='"+image_bg_url+"'/>");
             });
         });
     });
