@@ -179,7 +179,7 @@
         <div class="tc" style="background: #25262b;color: #595959;font-size: 11px; padding: 7px 0;">Запросы: <?php echo get_num_queries(); ?></div>
 
 
-<p style="display: none;"><?php $options_modal['event_modal_title']; ?></p>
+<p style="display: none;"><?php echo $options_modal['event_modal_title']; ?></p>
 <script src="https://e-timer.ru/js/etimer.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function() {
