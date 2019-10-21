@@ -300,7 +300,7 @@ wp_editor( $content , $editor_id, $settings  );
 
 .event_modal .cont > div > div.feed-form .form > p { display: none !important; }
 .event_modal .cont > div > div.feed-form .form { display: grid; grid-row-gap: 15px; }
-.event_modal .cont > div > div.feed-form .form input { width: 100%; background: #ffffff2b; border-radius: 30px; height: 42px; color: #fff; font-size: 16px; }
+.event_modal .cont > div > div.feed-form .form input { width: 100%; background: #ffffff2b; border-radius: 30px; height: 42px; color: #fff; font-size: 16px; border: 0; }
 .event_modal .cont > div > div.feed-form .form input::placeholder { color: #fff; }
 .event_modal .cont > div > div.feed-form .form input[type="submit"] { background: #f5f34f; color: #000; border: none;  font-weight: bold; }
 .event_modal .cont > div > div.feed-form .form > div.last { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 15px; position: relative; }
