@@ -76,13 +76,6 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 </tr>
 
 
-<div>
-    <label for="image_url">Image</label>
-    <input type="text" name="image_url" id="image_url" class="regular-text">
-    <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Upload Image">
-
-</div>
-
 
 <tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
      <th valign="top" scope="row">
