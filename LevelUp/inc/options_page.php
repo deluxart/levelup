@@ -47,39 +47,6 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 
 <div class="postbox">
 <div class="inside">
-
-
-<h2 class="title">Настройка всплывающей модалки:</h2>
-
-
-
-<table cellspacing="2" cellpadding="5" style="width: 100%;" class="form-table">
-<tr>
-    <th scope="row">Включить модальное окно мероприятия</th>
-        <td>
-            <fieldset>
-            <legend class="screen-reader-text"><span>Активировать модальное окно</span></legend>
-                <label for="blog_public"><input name="levelup_theme_options[ativate_event_modal]" type="checkbox" id="levelup_theme_options[ativate_event_modal]" value="0">
-                Включить всплывающее модальное окно мероприятия</label>
-                <p class="description">Будет ли всплывать модальное окно у посетителей сайта</p>
-            </fieldset>
-        </td>
-</tr>
-
-<tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
-        <th valign="top" scope="row">
-            <label>Контентная часть:</label>
-        </th>
-        <td>
-            <textarea name="levelup_theme_options[event_modal_code]" id="levelup_theme_options[event_modal_code]" style="width: 100%;" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options[event_modal_code];?></textarea>
-        </td>
-    </tr>
-</table>
-
-
-
-
-
 <table cellspacing="2" cellpadding="5" style="width: 100%;" class="form-table">
     <tbody>
 
