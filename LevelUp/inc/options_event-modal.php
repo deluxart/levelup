@@ -85,9 +85,10 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
      <td>
 
 
-<div id="wpss_upload_image_thumb" class="wpss-file">
+<div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[image_thumb_url]">
     <?php if(isset($record->security_image) && $record->security_image !='') { ?>
        <img src="<?php echo $record->security_image;?>"  width="65"/><?php } else { echo $defaultImage; } ?>
+       </div>
 </div>
 
 
