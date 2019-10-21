@@ -96,7 +96,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </th>
         <td>
 <?php
-    wp_editor( $options_modal, 'even_modal_title', $settings = array('textarea_rows'=> '3') );
+    wp_editor( $options_modal[even_modal_title], 'even_modal_title', $settings = array('textarea_rows'=> '3') );
 ?>
             <!-- <textarea name="event_modal_options[event_modal_code]" id="event_modal_options[event_modal_code]" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options_modal[event_modal_code];?></textarea> -->
         </td>
