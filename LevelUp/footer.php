@@ -134,7 +134,7 @@
 <!-- Модальное окно мероприятия -->
 <div class="event_modal <?php echo $options_modal[ativate_event_modal];?>">
 	<div class="cont">
-		<div><img src="https://levelup.ua/wp-content/uploads/2019/10/modal_cosmovavt.png" alt=""></div>
+		<div><img src="<?php echo $options_modal[image_url];?>" alt=""></div>
 		<div class="content">
 			<h4>Реєструйтеся на конференцію <strong><a href="https://levelup.ua/it-conference-2019">Ваша КАР’ЄРА в IT</a></strong> та приходь знайомитися!</h4>
 			<div class="date-block">

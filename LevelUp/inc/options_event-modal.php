@@ -19,13 +19,6 @@ function load_wp_media_files() {
 }
 add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
 
-function my_address_function(){
-
-    if(isset($_POST['special_content'])){
-      update_option('special_content', $_POST['special_content']);
-    }
-}
-
 
 function event_options_do_page() { global $select_options; if ( ! isset( $_REQUEST['settings-updated'] ) ) $_REQUEST['settings-updated'] = false;
     // here we adding our custom meta box
@@ -77,12 +70,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </td>
 </tr>
 
-<?php
-          $content = get_option('special_content');
-          wp_editor( $content, 'special_content', $settings = array('textarea_rows'=> '10') );
 
-          submit_button('Save', 'primary');
-       ?>
 
 <tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
      <th valign="top" scope="row">
@@ -101,6 +89,22 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
       </td>
 </tr>
 
+
+<tr class="form-field">
+        <th valign="top" scope="row">
+            <label>Заголовок модалки:</label>
+        </th>
+        <td>
+<?php
+    wp_editor( $options_modal, 'even_modal_title', $settings = array('textarea_rows'=> '3') );
+?>
+            <!-- <textarea name="event_modal_options[event_modal_code]" id="event_modal_options[event_modal_code]" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options_modal[event_modal_code];?></textarea> -->
+        </td>
+</tr>
+
+
+
+
 <tr class="form-field">
         <th valign="top" scope="row">
             <label>Контентная часть:</label>
@@ -108,7 +112,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         <td>
             <textarea name="event_modal_options[event_modal_code]" id="event_modal_options[event_modal_code]" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options_modal[event_modal_code];?></textarea>
         </td>
-    </tr>
+</tr>
 </table>
 
 
