@@ -100,13 +100,15 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </th>
         <td>
 <?php
-    $modal_title = get_option('event_modal_title');
-    // $modal_title = stripslashes( $modal_title );
-    wp_editor( $modal_title, 'event_modal_title',
-    $settings = array(
-        'wpautop'       => 0,
-        'media_buttons' => 0,
-        'textarea_name' => 'event_modal_title',
+$content =  $options_modal['event_modal_title'];
+$editor_id = 'event_modal_title';
+
+$settings =   array(
+        'wpautop' => false,
+        'media_buttons' => false,
+        'textarea_name' => 'event_modal_options[event_modal_title]', //You can use brackets here !
+        'textarea_rows' => get_option('default_post_edit_rows', 10),
+        'tabindex' => '323',
         'textarea_rows' => 4,
         'editor_css'    => '',
         'editor_class'  => '',
@@ -116,7 +118,8 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         'quicktags' => array(
             'buttons' => 'strong,link'
         )
-    ) );
+);
+wp_editor( $content , $editor_id, $settings  );
 ?>
             <!-- <textarea name="event_modal_options[event_modal_code]" id="event_modal_options[event_modal_code]" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options_modal[event_modal_code];?></textarea> -->
         </td>
