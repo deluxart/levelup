@@ -127,9 +127,6 @@
     </div>
 </div>
 
-
-
-
 <?php if ( $options_modal[ativate_event_modal] == 1) { ?>
 <!-- Модальное окно мероприятия -->
 <div class="event_modal <?php echo $options_modal['modal_delay']; ?>">
@@ -186,18 +183,6 @@ jQuery(document).ready(function(){
 </script>
 <!-- Модальное окно мероприятия -->
 <?php } ?>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         <?php wp_footer(); ?>
