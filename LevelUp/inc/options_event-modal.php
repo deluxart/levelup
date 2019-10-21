@@ -112,7 +112,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </div>
         <div id="wpss_upload_bg_image_thumb" class="wpss-file"><div id="event_modal_options[background_thumb_url]">
             <?php if(isset($options_modal[background_url]) && $options_modal[background_url] !='') { ?>
-            <img src="<?php echo $options_modal[background_url];?>"  width="120"/><?php } else { echo $defaultImage; } ?>
+            <img src="<?php echo $options_modal[background_url];?>"  width="220"/><?php } else { echo $defaultImage; } ?>
             </div>
         </div>
       </td>
@@ -257,7 +257,8 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 <style>
-    .wp-core-ui .button-secondary.flat { background: #45526E; color: #fff; border-radius: 2px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12); border: 0; }
+    .wp-core-ui .button-secondary.flat { background: #45526E; color: #fff; border-radius: 2px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important; border: 0; }
+    .wp-core-ui .button-secondary.flat:focus { border: none; }
     .editor_for_event .wp-editor-area { border: 0 !important; }
     .editor_for_event #qt_event_modal_title_my_prompt, .editor_for_event #qt_event_modal_title_video_shortcode { display: none; }
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
@@ -356,7 +357,7 @@ wp_editor( $content , $editor_id, $settings  );
                 // console.log(uploaded_image);
                 var image_bg_url = uploaded_bg_image.toJSON().url;
                 jQuery('#background_url').val(image_bg_url);
-                jQuery('#wpss_upload_bg_image_thumb').html("<img height='120' src='"+image_bg_url+"'/>");
+                jQuery('#wpss_upload_bg_image_thumb').html("<img height='220' src='"+image_bg_url+"'/>");
             });
         });
     });
