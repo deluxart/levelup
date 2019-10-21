@@ -136,7 +136,7 @@
 	<div class="cont">
 		<div><img src="<?php echo $options_modal[image_url];?>" alt=""></div>
 		<div class="content">
-			<h4>Реєструйтеся на конференцію <strong><a href="https://levelup.ua/it-conference-2019">Ваша КАР’ЄРА в IT</a></strong> та приходь знайомитися!</h4>
+			<h4><?php echo $options_modal['event_modal_title']; ?></h4>
 			<div class="date-block">
 				<div><strong>2 листопада 10:00</strong>вул. Троїцька, 21Г, IT-центр Level Up</div>
 				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
@@ -178,8 +178,6 @@
         <div class="date-input" style="display:none">[text text-747 id:event_date]</div>
         <div class="tc" style="background: #25262b;color: #595959;font-size: 11px; padding: 7px 0;">Запросы: <?php echo get_num_queries(); ?></div>
 
-
-<p style="display: none;"><?php echo $options_modal['event_modal_title']; ?></p>
 <script src="https://e-timer.ru/js/etimer.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function() {
