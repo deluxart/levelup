@@ -149,7 +149,10 @@
 	</div>
 </div>
 <div class="event_modal-bg"></div>
-
+<style>
+    .event_modal .cont>div>div.feed-form .form input[type=submit] { background: <?php echo $options_modal[button_color]; ?> !important; }
+    .event_modal .cont>div.content a { color: <?php echo $options_modal[link_color]; ?> !important; }
+</style>
 <script>
 jQuery(document).ready(function(){
     jQuery(".event_modal .close-icon").click(function () {

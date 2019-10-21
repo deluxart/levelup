@@ -294,13 +294,8 @@ wp_editor( $content , $editor_id, $settings  );
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
     .g_one_one { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px; }
 
-
-
-
-
-
-
-
+    .event_modal .cont>div>div.feed-form .form input[type=submit] { background: <?php echo $options_modal[button_color]; ?> !important; }
+    .event_modal .cont>div.content a { color: <?php echo $options_modal[link_color]; ?> !important; }
 
 
 /*New desing modal for Open Day*/
@@ -346,16 +341,6 @@ wp_editor( $content , $editor_id, $settings  );
 
 .event_modal span.wpcf7-not-valid-tip { margin: 0; top: 0; position: absolute; right: 15px; color: #fff; font-size: 12px; border-radius: 0 10px 10px 0; padding-right: 8px; }
 .event_modal div.wpcf7-mail-sent-ok {display: block; background: #5944e84f; color: #fff; bottom: -52px; margin: 0; width: 100%; padding: 14px 15px; font-size: 11px; border: 0; border-radius: 15px 15px 0 0; }
-
-
-
-
-
-
-
-
-
-
 </style>
 <script type="text/javascript">
 
