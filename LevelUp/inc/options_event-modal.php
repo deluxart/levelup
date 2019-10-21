@@ -90,7 +90,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 </tr>
 
 
-<tr class="form-field">
+<tr class="form-field editor_for_event">
         <th valign="top" scope="row">
             <label>Заголовок модалки:</label>
         </th>
