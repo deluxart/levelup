@@ -82,7 +82,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         <label>Ссылка на картинку</label>
       </th>
      <td>
-          <input id="image_url" name="image_url" type="text" style="width: 95%" value="" size="50" class="code" placeholder="Введите стоимость" required="">
+          <input id="image_url" name="image_url" type="text" style="width: 95%" value="" size="50" class="code" required="">
           <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Upload Image">
           <script type="text/javascript">
 jQuery(document).ready(function($){
