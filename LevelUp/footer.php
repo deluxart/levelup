@@ -186,6 +186,6 @@
 		});
 	});
 </script>
-
+<p class="d-none"><?php echo do_shortcode('[event_form]'); ?></p>
 </body>
 </html>

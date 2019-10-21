@@ -20,6 +20,15 @@ function load_wp_media_files() {
 add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
 
 
+add_shortcode('event_form', 'shortcode_event_form' );
+function shortcode_event_form($atts){
+    $options_modal = get_option( 'event_modal_options' );
+        $output = '<div>' . $options_modal['contact_form'] . '</div>';
+    return $output;
+}
+
+
+
 function event_options_do_page() { global $select_options; if ( ! isset( $_REQUEST['settings-updated'] ) ) $_REQUEST['settings-updated'] = false;
     // here we adding our custom meta box
 ?>
@@ -90,7 +99,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 </tr>
 
 
-<tr class="form-field editor_for_event">
+<tr class="form-field editor_for_event" style="border-bottom: 1px solid #f1f1f1;">
         <th valign="top" scope="row">
             <label>Заголовок модалки:</label>
         </th>
@@ -117,9 +126,38 @@ $settings =   array(
 );
 wp_editor( $content , $editor_id, $settings  );
 ?>
-            <!-- <textarea name="event_modal_options[event_modal_code]" id="event_modal_options[event_modal_code]" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options_modal[event_modal_code];?></textarea> -->
         </td>
 </tr>
+
+
+
+
+
+
+
+
+
+
+<tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
+     <th valign="top" scope="row">
+        <label>Контактная форма</label>
+      </th>
+     <td>
+          <input id="event_modal_options[contact_form]" name="event_modal_options[contact_form]" type="text" style="width: 100%" value="<?php echo $options_modal[contact_form];?>" size="50" class="code" required="">
+            <p class="description">Вставьте шорткод контактной формы.<br/>Управление формами - <a href="admin.php?page=wpcf7">здесь</a></p>
+      </td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -164,7 +202,7 @@ wp_editor( $content , $editor_id, $settings  );
         $('#upload-btn').click(function(e) {
             e.preventDefault();
             var image = wp.media({
-                title: 'Upload Image',
+                title: 'Выбрать картинку',
                 multiple: false
             }).open()
             .on('select', function(e){
