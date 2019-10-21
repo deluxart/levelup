@@ -104,12 +104,13 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
     wp_editor( $modal_title, 'event_modal_title',
     $settings = array(
         'wpautop'       => 0,
+        'media_buttons' => 0,
         'textarea_rows' => 4,
         'editor_css'    => '',
         'editor_class'  => '',
         'teeny'         => 1,
         'dfw'           => 0,
-        'tinymce'       => 1,
+        'tinymce'       => 0,
         'quicktags' => array(
             'buttons' => 'strong,link'
         )
