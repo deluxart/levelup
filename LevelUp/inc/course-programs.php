@@ -80,4 +80,17 @@ add_shortcode( 'program',  'call_shortcode_program' );
         return $out;
     }
 
+
+
+
+    add_filter( 'pll_get_post_types', 'add_cpt_to_pll', 10, 2 );
+    function add_cpt_to_pll( $post_types, $is_settings ) {
+        if ( $is_settings ) {
+            // unset( $post_types['teachers'] );
+        } else {
+            $post_types['course-programs'] = 'course-programs';
+        }
+        return $post_types;
+    }
+
 ?>
