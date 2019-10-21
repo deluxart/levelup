@@ -68,7 +68,8 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         <td>
             <fieldset>
             <legend class="screen-reader-text"><span>Активировать модальное окно</span></legend>
-                <label for="blog_public"><input name="levelup_theme_options[ativate_event_modal]" type="checkbox" id="levelup_theme_options[ativate_event_modal]" value="0">
+                <label for="blog_public">
+                <input name="levelup_theme_options[ativate_event_modal]" type="checkbox" id="levelup_theme_options[ativate_event_modal]" value="1" <?php checked( "1" == $options['ativate_event_modal'] ); ?>>
                 Включить всплывающее модальное окно мероприятия</label>
                 <p class="description">Будет ли всплывать модальное окно у посетителей сайта</p>
             </fieldset>
