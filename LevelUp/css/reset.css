@@ -116,7 +116,7 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
 .event_modal .cont > div > h4 a { color: #f5f34f; text-decoration: underline; }
 .event_modal .cont > div > div.date-block { display: block;text-align: center;padding: 20px 0; border-radius: 10px; box-shadow: 1.854px 5.706px 32.4px 7.6px rgba(0, 0, 0, 0.28); background: #fff; position: relative; margin-bottom: 25px; margin-top: 40px; }
 .event_modal .cont > div > div.date-block > div { font-size: 15px; color: #868686; padding: 0 15px 0 28px;  }
-.event_modal .cont > div > div.date-block strong { display: block; font-size: 18px; color: #000; }
+.event_modal .cont > div > div.date-block strong { display: block; font-size: 18px; color: #000; line-height: normal; }
 .event_modal .close-icon { width: 17px; height: 17px; position: absolute; top: 20px; right: 20px; cursor: pointer; opacity: 0.7; }
 .event_modal .close-icon:hover { opacity: 1; }
 

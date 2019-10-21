@@ -19,6 +19,16 @@ function load_wp_media_files() {
 }
 add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
 
+function add_admin_iris_scripts( $hook ){
+	// подключаем IRIS
+	wp_enqueue_script( 'wp-color-picker' );
+	wp_enqueue_style( 'wp-color-picker' );
+
+	// подключаем свой файл скрипта
+	wp_enqueue_script('plugin-script', plugins_url('js/plugin-script.js', __FILE__), array('wp-color-picker'), false, 1 );
+}
+add_action( 'admin_enqueue_scripts', 'add_admin_iris_scripts' );
+
 
 // add_shortcode('event_form', 'shortcode_event_form' );
 // function shortcode_event_form($atts){
@@ -115,6 +125,19 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <img src="<?php echo $options_modal[background_url];?>"  width="220"/><?php } else { echo $defaultImage; } ?>
             </div>
         </div>
+      </td>
+</tr>
+
+<tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
+     <th valign="top" scope="row">
+        <label>Цвет кнопки и ссылок</label>
+      </th>
+     <td>
+
+            <input name="color1" type="text" value="" />
+            <input name="color2" type="text" value="#f19" />
+
+            <p class="description">Задайте количество <strong>секунд</strong> задержки до появления модального окна</p>
       </td>
 </tr>
 
@@ -257,7 +280,7 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 <style>
-    .wp-core-ui .button-secondary.flat { background: #45526E; transition: .2s ease-out; color: #fff; border-radius: 2px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important; border: 0; }
+    .wp-core-ui .button-secondary.flat { outline: none; background: #45526E; transition: .2s ease-out; color: #fff; border-radius: 2px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important; border: 0; }
     .wp-core-ui .button-secondary.flat:hover { background-color: #4f5e7e!important; box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15); border: 0; }
     .wp-core-ui .button-secondary.flat:focus { border: none; }
     .editor_for_event .wp-editor-area { border: 0 !important; }
@@ -291,7 +314,7 @@ wp_editor( $content , $editor_id, $settings  );
 .event_modal .cont > div > h4 a { color: #f5f34f; text-decoration: underline; }
 .event_modal .cont > div > div.date-block { display: block;text-align: center;padding: 20px 0; border-radius: 10px; box-shadow: 1.854px 5.706px 32.4px 7.6px rgba(0, 0, 0, 0.28); background: #fff; position: relative; margin-bottom: 25px;  margin-top: 40px; }
 .event_modal .cont > div > div.date-block > div { font-size: 15px; color: #868686; padding: 0 15px 0 28px;  }
-.event_modal .cont > div > div.date-block strong { display: block; font-size: 18px; color: #000; }
+.event_modal .cont > div > div.date-block strong { display: block; font-size: 18px; color: #000; line-height: normal; }
 .event_modal .close-icon { width: 17px; height: 17px; position: absolute; top: 20px; right: 20px; cursor: pointer; opacity: 0.7; }
 .event_modal .close-icon:hover { opacity: 1; }
 
@@ -302,7 +325,7 @@ wp_editor( $content , $editor_id, $settings  );
 
 .event_modal .cont > div > div.feed-form .form > p { display: none !important; }
 .event_modal .cont > div > div.feed-form .form { display: grid; grid-row-gap: 15px; }
-.event_modal .cont > div > div.feed-form .form input { width: 100%; background: #ffffff2b; border-radius: 30px; height: 42px; color: #fff; font-size: 16px; border: 0; padding: 0 20px; }
+.event_modal .cont > div > div.feed-form .form input { width: 100%; background: #ffffff2b; border-radius: 30px; height: 42px; color: #fff; font-size: 16px; border: 0; padding: 0 20px; outline: none; box-shadow: none; }
 .event_modal .cont > div > div.feed-form .form input::placeholder { color: #fff; }
 .event_modal .cont > div > div.feed-form .form input[type="submit"] { background: #f5f34f; color: #000; border: none;  font-weight: bold; }
 .event_modal .cont > div > div.feed-form .form > div.last { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 15px; position: relative; }
@@ -329,6 +352,11 @@ wp_editor( $content , $editor_id, $settings  );
 
 </style>
 <script type="text/javascript">
+
+jQuery(document).ready(function($){
+	jQuery('input[name*="color"]').wpColorPicker();
+});
+
     jQuery(document).ready(function($){
         $('#upload-btn').click(function(e) {
             e.preventDefault();
