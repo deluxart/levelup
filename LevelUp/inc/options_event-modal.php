@@ -132,7 +132,15 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 
-
+<tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
+     <th valign="top" scope="row">
+        <label>Задержка</label>
+      </th>
+     <td>
+            <input type="number" id="event_modal_options[modal_delay]" name="event_modal_options[modal_delay]" class="large-text code" min="1" max="100" value="<?php echo $options_modal[modal_delay];?>">
+            <p class="description">Задайте количество <strong>секунд</strong> задержки до появления модального окна</p>
+      </td>
+</tr>
 
 
 

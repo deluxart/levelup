@@ -132,7 +132,7 @@
 
 <?php if ( $options_modal[ativate_event_modal] == 1) { ?>
 <!-- Модальное окно мероприятия -->
-<div class="event_modal <?php echo $options_modal[ativate_event_modal];?>">
+<div class="event_modal <?php echo $options_modal['modal_delay']; ?>">
 	<div class="cont">
 		<div><img src="<?php echo $options_modal[image_url];?>" alt=""></div>
 		<div class="content">
@@ -142,7 +142,7 @@
 				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
 			</div>
 			<div class="feed-form">
-				<?php echo do_shortcode('[contact-form-7 id="6071" title="Open Day - Level Up"]'); ?>
+				<?php echo do_shortcode( wp_unslash($options_modal['contact_form']) ); ?>
 			</div>
 		</div>
 	</div>
@@ -152,6 +152,38 @@
 	</div>
 </div>
 <div class="event_modal-bg"></div>
+
+<script>
+jQuery(document).ready(function(){
+    jQuery(".event_modal .close-icon").click(function () {
+    jQuery.cookie("popup-event", "", { expires:1, path: '/' });
+
+            jQuery('.event_modal').removeClass("open");
+            setTimeout(function(){
+                 jQuery('.event_modal').hide();
+            }, 100);
+            jQuery('.event_modal-bg').removeClass("open");
+            jQuery('.event_modal-bg').css({display: 'none'});
+
+    });
+
+    if ( jQuery.cookie("popup-event") == null )
+    {
+    setTimeout(function(){
+
+            jQuery('.event_modal').show();
+            setTimeout(function(){
+                 jQuery('.event_modal').addClass("open");
+            }, 200);
+            jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
+
+    }, 12000)
+    }
+    else {
+      jQuery(".event_modal").hide();
+    }
+});
+</script>
 <!-- Модальное окно мероприятия -->
 <?php } ?>
 
@@ -188,7 +220,7 @@
 </script>
 <p class="d-none">
 
-<?php echo do_shortcode( wp_unslash($options_modal['contact_form']) ); ?>
+
 </p>
 </body>
 </html>

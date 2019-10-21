@@ -585,41 +585,6 @@ jQuery('.saleRow .saleBottom').each(function(i) {
 });
 // for pages
 
-
-
-// Модалка для мероприятия
-jQuery(document).ready(function(){
-    jQuery(".event_modal .close-icon").click(function () {
-    jQuery.cookie("popup-event", "", { expires:1, path: '/' });
-
-            jQuery('.event_modal').removeClass("open");
-            setTimeout(function(){
-                 jQuery('.event_modal').hide();
-            }, 100);
-            jQuery('.event_modal-bg').removeClass("open");
-            jQuery('.event_modal-bg').css({display: 'none'});
-
-    });
-
-    if ( jQuery.cookie("popup-event") == null )
-    {
-    setTimeout(function(){
-
-            jQuery('.event_modal').show();
-            setTimeout(function(){
-                 jQuery('.event_modal').addClass("open");
-            }, 200);
-            jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
-
-    }, 12000)
-    }
-    else {
-      jQuery(".event_modal").hide();
-    }
-    });
-// Модалка для мероприятия
-
-
 // Сокращение заголовков у новостей
 var desc_short = function () {
     jQuery(".tg-item-title.tg-element-3 > a").text(function(i, text) {
