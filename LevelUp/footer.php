@@ -129,7 +129,7 @@
 
 <?php if ( $options_modal[ativate_event_modal] == 1) { ?>
 <!-- Модальное окно мероприятия -->
-<div class="event_modal <?php echo $options_modal['modal_delay']; ?>">
+<div class="event_modal <?php echo $options_modal['modal_delay']; ?>" style="background: url(<?php echo $options_modal[background_url];?>) center no-repeat; background-size: cover;">
 	<div class="cont">
 		<div><img src="<?php echo $options_modal[image_url];?>" alt=""></div>
 		<div class="content">

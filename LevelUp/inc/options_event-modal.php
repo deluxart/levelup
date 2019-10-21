@@ -101,6 +101,23 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
       </td>
 </tr>
 
+<tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
+     <th valign="top" scope="row">
+        <label>Фоновая картинка</label>
+      </th>
+     <td>
+        <div class="g_one_auto">
+          <input id="background_url" name="event_modal_options[background_url]" type="text" style="width: 100%" value="<?php echo $options_modal[background_url];?>" class="code" required="">
+          <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Выбрать картинку">
+        </div>
+        <div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[background_thumb_url]">
+            <?php if(isset($options_modal[background_url]) && $options_modal[background_url] !='') { ?>
+            <img src="<?php echo $options_modal[background_url];?>"  width="120"/><?php } else { echo $defaultImage; } ?>
+            </div>
+        </div>
+      </td>
+</tr>
+
 
 <tr class="form-field editor_for_event" style="border-bottom: 1px solid #f1f1f1;">
         <th valign="top" scope="row">
