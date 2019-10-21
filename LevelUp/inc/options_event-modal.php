@@ -3,7 +3,7 @@
     add_action( 'admin_menu', 'event_options_add_page' );
 
 function event_options_init(){
-    register_setting( 'levelup_options', 'event_modal_options');
+    register_setting( 'event_options', 'event_modal_options');
 }
 
 function event_options_add_page() {
@@ -45,7 +45,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 </div>
  <div class="wrap">
 <form method="post" action="options.php" id="form">
-<?php settings_fields( 'levelup_options' ); ?>
+<?php settings_fields( 'event_options' ); ?>
 <?php $options_modal = get_option( 'event_modal_options' ); ?>
 
 
