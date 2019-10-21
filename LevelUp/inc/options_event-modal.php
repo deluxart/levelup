@@ -135,11 +135,15 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
      <td>
 
         <div class="g_one_one colors">
-            <div><input id="event_modal_options[button_color]" name="event_modal_options[button_color]" type="text" style="width: 100%" value="<?php echo $options_modal[button_color];?>" class="code" placeholder="Дата и время мероприятия" required=""></div>
-            <div><input id="event_modal_options[link_color]" name="event_modal_options[link_color]" type="text" style="width: 100%" value="<?php echo $options_modal[link_color];?>" class="code" placeholder="Локация мероприятия" required=""></div>
+            <div>
+                <input id="event_modal_options[button_color]" name="event_modal_options[button_color]" type="text" style="width: 100%" value="<?php echo $options_modal[button_color];?>" class="code" placeholder="Дата и время мероприятия" required="">
+                <p class="description">Цвет кнопки в модалке</p>
+            </div>
+            <div>
+                <input id="event_modal_options[link_color]" name="event_modal_options[link_color]" type="text" style="width: 100%" value="<?php echo $options_modal[link_color];?>" class="code" placeholder="Локация мероприятия" required="">
+                <p class="description">Цвет ссылок в модалке</p>
+            </div>
         </div>
-
-            <p class="description">Задайте количество <strong>секунд</strong> задержки до появления модального окна</p>
       </td>
 </tr>
 
