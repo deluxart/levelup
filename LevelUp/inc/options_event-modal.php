@@ -6,6 +6,10 @@ function event_options_init(){
     register_setting( 'event_options', 'event_modal_options');
 }
 
+if(isset($_POST['event_modal_title'])){
+    update_option('event_modal_title', $_POST['event_modal_title']);
+}
+
 function event_options_add_page() {
     add_menu_page( __( 'Event Modal', 'WP-Unique' ), __( 'Event Modal', 'WP-Unique' ), 'edit_theme_options', 'event_modal_options', 'event_options_do_page', 'dashicons-align-center', 4 );
 }
