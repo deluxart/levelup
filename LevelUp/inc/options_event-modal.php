@@ -100,13 +100,13 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </th>
         <td>
 <?php
+    $modal_title = get_option('event_modal_title');
     $modal_title = stripslashes( $modal_title );
     wp_editor( $modal_title, 'event_modal_title',
     $settings = array(
         'wpautop'       => 0,
         'media_buttons' => 0,
         'textarea_rows' => 4,
-        'textarea_name' => 'event_modal_title',
         'editor_css'    => '',
         'editor_class'  => '',
         'teeny'         => 0,
