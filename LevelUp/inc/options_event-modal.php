@@ -9,6 +9,17 @@ function event_options_init(){
 function event_options_add_page() {
     add_menu_page( __( 'Event Modal', 'WP-Unique' ), __( 'Event Modal', 'WP-Unique' ), 'edit_theme_options', 'event_modal_options', 'event_options_do_page', 'dashicons-align-center', 4 );
 }
+
+// jQuery
+wp_enqueue_script('jquery');
+wp_enqueue_media();
+
+function load_wp_media_files() {
+    wp_enqueue_media();
+}
+add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
+
+
 function event_options_do_page() { global $select_options; if ( ! isset( $_REQUEST['settings-updated'] ) ) $_REQUEST['settings-updated'] = false;
     // here we adding our custom meta box
 ?>
@@ -52,7 +63,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 
 
 <table cellspacing="2" cellpadding="5" style="width: 100%;" class="form-table">
-<tr>
+<tr style="border-bottom: 1px solid #f1f1f1;">
     <th scope="row">Включить модальное окно мероприятия</th>
         <td>
             <fieldset>
@@ -64,7 +75,48 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </td>
 </tr>
 
+
+<div>
+    <label for="image_url">Image</label>
+    <input type="text" name="image_url" id="image_url" class="regular-text">
+    <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Upload Image">
+
+</div>
+
+
 <tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
+     <th valign="top" scope="row">
+        <label>Ссылка на картинку</label>
+      </th>
+     <td>
+          <input id="image_url" name="image_url" type="text" style="width: 95%" value="" size="50" class="code" placeholder="Введите стоимость" required="">
+          <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Upload Image">
+          <script type="text/javascript">
+jQuery(document).ready(function($){
+    $('#upload-btn').click(function(e) {
+        e.preventDefault();
+        var image = wp.media({
+            title: 'Upload Image',
+            // mutiple: true if you want to upload multiple files at once
+            multiple: false
+        }).open()
+        .on('select', function(e){
+            // This will return the selected image from the Media Uploader, the result is an object
+            var uploaded_image = image.state().get('selection').first();
+            // We convert uploaded_image to a JSON object to make accessing it easier
+            // Output to the console uploaded_image
+            console.log(uploaded_image);
+            var image_url = uploaded_image.toJSON().url;
+            // Let's assign the url value to the input field
+            $('#image_url').val(image_url);
+        });
+    });
+});
+</script>
+      </td>
+</tr>
+
+<tr class="form-field">
         <th valign="top" scope="row">
             <label>Контентная часть:</label>
         </th>
