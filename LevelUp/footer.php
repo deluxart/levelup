@@ -127,6 +127,10 @@
     </div>
 </div>
 
+
+
+
+<?php if ( $options_modal[ativate_event_modal] == 1) { ?>
 <!-- Модальное окно мероприятия -->
 <div class="event_modal <?php echo $options_modal[ativate_event_modal];?>">
 	<div class="cont">
@@ -149,6 +153,20 @@
 </div>
 <div class="event_modal-bg"></div>
 <!-- Модальное окно мероприятия -->
+<?php } ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <?php wp_footer(); ?>
         <?php echo $options[jivosite_code];?>
