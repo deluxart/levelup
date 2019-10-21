@@ -90,6 +90,7 @@ span.tg-item-term.language { display: none !important; }
 .posts_page .head h1 { letter-spacing: normal; color: #15acf2; }
 .posts_page .head > p { color: #6c6c6c; text-transform: uppercase; font-size: 14px; font-weight: 300; }
 .posts_page .content { display: grid; grid-template-columns: 68% 32%; }
+.posts_page.no-sidebar .content { display: grid; grid-template-columns: 1fr; }
 .posts_page .content {font-family: 'Gilroy'; font-weight: 600; }
 .posts_page .content .news .tg-item { border-radius: 0px; overflow: hidden; box-shadow: none; }
 .posts_page .content .news .tg-maren-new .tg-element-3 { padding-top: 0; padding-bottom: 0px; line-height: normal; }
