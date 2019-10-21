@@ -96,7 +96,20 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </th>
         <td>
 <?php
-    wp_editor( $options_modal[event_modal_title], 'event_modal_options[event_modal_title]', $settings = array('textarea_rows'=> '3') );
+    wp_editor( $options_modal[event_modal_title], 'event_modal_options[event_modal_title]',
+    $settings = array(
+        'wpautop'       => 0,
+        'media_buttons' => 0,
+        'textarea_rows' => 4,
+        'tabindex'      => null,
+        'editor_css'    => '',
+        'editor_class'  => '',
+        'teeny'         => 0,
+        'dfw'           => 0,
+        'tinymce'       => 1,
+        'quicktags'     => 1,
+        'drag_drop_upload' => false
+    ) );
 ?>
             <!-- <textarea name="event_modal_options[event_modal_code]" id="event_modal_options[event_modal_code]" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options_modal[event_modal_code];?></textarea> -->
         </td>
