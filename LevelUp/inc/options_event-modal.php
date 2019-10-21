@@ -83,7 +83,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </div>
         <div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[image_thumb_url]">
             <?php if(isset($options_modal[image_url]) && $options_modal[image_url] !='') { ?>
-            <img src="<?php echo $options_modal[image_url];?>"  width="65"/><?php } else { echo $defaultImage; } ?>
+            <img src="<?php echo $options_modal[image_url];?>"  width="120"/><?php } else { echo $defaultImage; } ?>
             </div>
         </div>
       </td>
@@ -172,7 +172,7 @@ wp_editor( $content , $editor_id, $settings  );
                 // console.log(uploaded_image);
                 var image_url = uploaded_image.toJSON().url;
                 jQuery('#image_url').val(image_url);
-                jQuery('#wpss_upload_image_thumb').html("<img height='65' src='"+image_url+"'/>");
+                jQuery('#wpss_upload_image_thumb').html("<img height='120' src='"+image_url+"'/>");
             });
         });
     });
