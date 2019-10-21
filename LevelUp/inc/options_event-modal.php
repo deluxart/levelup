@@ -96,7 +96,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </th>
         <td>
 <?php
-    wp_editor( $options_modal, 'event_modal_options',
+    wp_editor( $options_modal, 'event_modal_title',
     $settings = array(
         'wpautop'       => 0,
         'textarea_rows' => 4,
