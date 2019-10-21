@@ -218,7 +218,7 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 <style>
-    .wp-core-ui .button-secondary.flat { background: #45526E; color: #fff; border-radius: 2px; }
+    .wp-core-ui .button-secondary.flat { background: #45526E; color: #fff; border-radius: 2px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12); border: 0; }
     .editor_for_event .wp-editor-area { border: 0 !important; }
     .editor_for_event #qt_event_modal_title_my_prompt, .editor_for_event #qt_event_modal_title_video_shortcode { display: none; }
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
