@@ -87,7 +87,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
       </th>
      <td>
         <div class="g_one_auto">
-          <input id="image_url" name="event_modal_options[image_url]" type="text" style="width: 100%" value="<?php echo $options_modal[image_url];?>" size="50" class="code" required="">
+          <input id="image_url" name="event_modal_options[image_url]" type="text" style="width: 100%" value="<?php echo $options_modal[image_url];?>" class="code" required="">
           <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Выбрать картинку">
         </div>
         <div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[image_thumb_url]">
