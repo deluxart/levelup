@@ -163,7 +163,7 @@ add_action( 'add_meta_boxes', 'hcf_register_meta_boxes' );
 
 function wporg_custom_box_html($post)
 {
-    $value = get_post_meta($post->ID, '_wporg_meta_key', true);
+    $value = get_post_meta($post->ID, '_lvl_meta_sidebar', true);
     echo '<div class="format-setting type-sidebar-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
         echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
         echo '<div class="format-setting-inner">';
@@ -172,6 +172,7 @@ function wporg_custom_box_html($post)
         echo '<option value="">-- ' . __( 'Выберите сайдбар', 'dart' ) . ' --</option>';
         echo '<option value="news-sidebar" id="news-sidebar"' . selected($value, 'news-sidebar') . '>' . __( 'Сайдбар для новостей', 'dart' ) . '</option>';
         echo '<option value="blog-sidebar" id="blog-sidebar"' . selected($value, 'blog-sidebar') . '>' . __( 'Сайдбар для блога', 'dart' ) . '</option>';
+        echo '<option value="no-sidebar" id="no-sidebar"' . selected($value, 'no-sidebar') . '>' . __( 'Без сайдбара', 'dart' ) . '</option>';
 
         echo '</select>';
         echo '</div>';
@@ -186,7 +187,7 @@ function wporg_save_postdata($post_id)
     if (array_key_exists('custom_sidebar', $_POST)) {
         update_post_meta(
             $post_id,
-            '_wporg_meta_key',
+            '_lvl_meta_sidebar',
             $_POST['custom_sidebar']
         );
     }
@@ -758,4 +759,5 @@ function shapeSpace_recent_posts_shortcode($atts, $content = null) {
 }
 add_shortcode('recent_posts', 'shapeSpace_recent_posts_shortcode');
 
+add_filter('acf/format_value/type=textarea', 'do_shortcode');
 
