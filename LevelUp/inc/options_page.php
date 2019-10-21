@@ -25,14 +25,14 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
     <div id="message" class="updated"><p><?php echo $message ?></p></div>
     <?php endif;?>
 
-<!--
+
 
 <?php if ( false !== $_REQUEST['settings-updated'] ) : ?>
 <div id="message" class="updated">
 <p><strong><?php _e( 'Настройки сохранены', 'WP-Unique' ); ?></strong></p>
 </div>
 <?php endif; ?>
--->
+
 </div>
  <div class="wrap">
 <form method="post" action="options.php" id="form">
