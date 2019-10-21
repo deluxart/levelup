@@ -151,7 +151,7 @@ wp_editor( $content , $editor_id, $settings  );
         <label>Контактная форма</label>
       </th>
      <td>
-            <textarea name="event_modal_options[contact_form]" id="event_modal_options[contact_form]" class="large-text code" rows="4" placeholder="Здесь код контактной формы"><?php echo $options_modal[contact_form];?></textarea>
+            <textarea name="event_modal_options[contact_form]" id="event_modal_options[contact_form]" class="large-text code" rows="2" placeholder="Здесь код контактной формы"><?php echo $options_modal[contact_form];?></textarea>
             <p class="description">Вставьте шорткод контактной формы.<br/>Управление формами - <a href="admin.php?page=wpcf7">здесь</a></p>
       </td>
 </tr>
@@ -170,14 +170,14 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 
-<tr class="form-field">
+<!-- <tr class="form-field">
         <th valign="top" scope="row">
             <label>Контентная часть:</label>
         </th>
         <td>
             <textarea name="event_modal_options[event_modal_code]" id="event_modal_options[event_modal_code]" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options_modal[event_modal_code];?></textarea>
         </td>
-</tr>
+</tr> -->
 </table>
 
 
