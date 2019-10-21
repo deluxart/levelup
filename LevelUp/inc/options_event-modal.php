@@ -29,16 +29,6 @@ function add_admin_iris_scripts( $hook ){
 }
 add_action( 'admin_enqueue_scripts', 'add_admin_iris_scripts' );
 
-
-// add_shortcode('event_form', 'shortcode_event_form' );
-// function shortcode_event_form($atts){
-//     $options_modal = get_option( 'event_modal_options' );
-//         $output = '<div>' . $options_modal['contact_form'] . '</div>';
-//     return $output;
-// }
-
-
-
 function event_options_do_page() { global $select_options; if ( ! isset( $_REQUEST['settings-updated'] ) ) $_REQUEST['settings-updated'] = false;
     // here we adding our custom meta box
 ?>
@@ -179,8 +169,6 @@ wp_editor( $content , $editor_id, $settings  );
 </tr>
 
 
-
-
 <tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
     <th valign="top" scope="row">
           <label>Дата / Время / Локация</label>
@@ -193,8 +181,6 @@ wp_editor( $content , $editor_id, $settings  );
     </td>
 </tr>
 
-
-
 <tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
      <th valign="top" scope="row">
         <label>Задержка</label>
@@ -205,11 +191,7 @@ wp_editor( $content , $editor_id, $settings  );
       </td>
 </tr>
 
-
-
-
-
-<tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
+<tr class="form-field">
      <th valign="top" scope="row">
         <label>Контактная форма</label>
       </th>
@@ -220,27 +202,6 @@ wp_editor( $content , $editor_id, $settings  );
 </tr>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <tr class="form-field">
-        <th valign="top" scope="row">
-            <label>Контентная часть:</label>
-        </th>
-        <td>
-            <textarea name="event_modal_options[event_modal_code]" id="event_modal_options[event_modal_code]" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options_modal[event_modal_code];?></textarea>
-        </td>
-</tr> -->
 </table>
 
 
@@ -257,10 +218,6 @@ wp_editor( $content , $editor_id, $settings  );
         </div>
 </form>
  </div>
-
-
-
-
 
 
 <div class="event_modal <?php echo $options_modal['modal_delay']; ?>" style="background: url(<?php echo $options_modal[background_url];?>) center no-repeat; background-size: cover;">
@@ -297,14 +254,11 @@ wp_editor( $content , $editor_id, $settings  );
     .event_modal .cont>div>div.feed-form .form input[type=submit] { background: <?php echo $options_modal[button_color]; ?> !important; }
     .event_modal .cont>div.content a { color: <?php echo $options_modal[link_color]; ?> !important; }
 
-
 /*New desing modal for Open Day*/
 .event_modal { background: url(https://levelup.ua/wp-content/uploads/2019/10/bg_career_modal.jpg) center no-repeat; background-size: cover;
 	box-shadow: 1.854px 5.706px 76.95px 18.05px rgba(0, 0, 0, 0.32); border-radius: 10px; position: relative; padding: 0px 0px; max-width: 900px; margin: 0 auto;
 	z-index: 9999999; position: fixed; top: -50%; left: 50%; transform: translate(-50%,-50%); width: 100%; transition-duration: 500ms; font-family: Montserrat; display: none;
 }
-
-/* .event_modal::before { content: ''; position: absolute; top: -50px; left: -50px; width: 511px; height: 542px; background: url(https://levelup.ua/wp-content/uploads/2019/08/cofe_pattern.png) no-repeat; } */
 .event_modal.open { top: 50%; transition-duration: 500ms; }
 .event_modal .cont { display: grid; grid-template-columns: auto 1fr; align-items: center;  grid-column-gap: 40px; }
 .event_modal .cont > div > h4 { letter-spacing: normal; font-size: 18px; color: #fff; line-height: normal; margin: 0 0 15px 0; font-weight: 300; }
