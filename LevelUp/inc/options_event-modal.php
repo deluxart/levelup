@@ -108,7 +108,6 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         'dfw'           => 0,
         'tinymce'       => 1,
         'quicktags' => array(
-            'id' => $editor_id,
             'buttons' => 'strong,link'
         ),
         'drag_drop_upload' => false
