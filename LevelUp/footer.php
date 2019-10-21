@@ -9,7 +9,10 @@
  * @since LevelUp 1.0
  */
 ?>
-<?php $options = get_option( 'levelup_theme_options' ); ?>
+<?php
+    $options = get_option( 'levelup_theme_options' );
+    $options_modal = get_option( 'event_modal_options' );
+?>
 	</div><!-- .site-content -->
 
 <footer id="level_footer">

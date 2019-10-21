@@ -3,7 +3,7 @@
     add_action( 'admin_menu', 'event_options_add_page' );
 
 function event_options_init(){
-    register_setting( 'levelup_options', 'levelup_theme_options');
+    register_setting( 'levelup_options', 'event_modal_options');
 }
 
 function event_options_add_page() {
@@ -46,7 +46,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
  <div class="wrap">
 <form method="post" action="options.php" id="form">
 <?php settings_fields( 'levelup_options' ); ?>
-<?php $options = get_option( 'levelup_theme_options' ); ?>
+<?php $options_modal = get_option( 'event_modal_options' ); ?>
 
 
         <div class="metabox-holder" id="poststuff">
@@ -69,7 +69,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <fieldset>
             <legend class="screen-reader-text"><span>Активировать модальное окно</span></legend>
                 <label for="blog_public">
-                <input name="levelup_theme_options[ativate_event_modal]" type="checkbox" id="levelup_theme_options[ativate_event_modal]" value="1" <?php checked( "1" == $options['ativate_event_modal'] ); ?>>
+                <input name="event_modal_options[ativate_event_modal]" type="checkbox" id="event_modal_options[ativate_event_modal]" value="1" <?php checked( "1" == $options_modal['ativate_event_modal'] ); ?>>
                 Включить всплывающее модальное окно мероприятия</label>
                 <p class="description">Будет ли всплывать модальное окно у посетителей сайта</p>
             </fieldset>
@@ -91,7 +91,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 </div>
 
 
-          <input id="image_url" name="levelup_theme_options[image_url]" type="text" style="width: 95%" value="<?php echo $options[image_url];?>" size="50" class="code" required="">
+          <input id="image_url" name="event_modal_options[image_url]" type="text" style="width: 95%" value="<?php echo $options_modal[image_url];?>" size="50" class="code" required="">
           <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Выбрать картинку">
           <script type="text/javascript">
 jQuery(document).ready(function($){
@@ -135,7 +135,7 @@ window.send_to_editor = function(html) {
             <label>Контентная часть:</label>
         </th>
         <td>
-            <textarea name="levelup_theme_options[event_modal_code]" id="levelup_theme_options[event_modal_code]" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options[event_modal_code];?></textarea>
+            <textarea name="event_modal_options[event_modal_code]" id="event_modal_options[event_modal_code]" class="large-text code" rows="8" placeholder="Здесь код модалки"><?php echo $options_modal[event_modal_code];?></textarea>
         </td>
     </tr>
 </table>
