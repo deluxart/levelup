@@ -110,7 +110,7 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </td>
     </tr>
 
-    <tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
+    <tr class="form-field" style="border-bottom: 0px solid #f1f1f1;">
         <th valign="top" scope="row">
             <label>Код Binotel</label>
         </th>
