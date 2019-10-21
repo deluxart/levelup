@@ -77,38 +77,17 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         <label>Ссылка на картинку</label>
       </th>
      <td>
-
-<div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[image_thumb_url]">
-    <?php if(isset($options_modal[image_url]) && $options_modal[image_url] !='') { ?>
-       <img src="<?php echo $options_modal[image_url];?>"  width="65"/><?php } else { echo $defaultImage; } ?>
-       </div>
-</div>
         <div class="g_one_auto">
           <input id="image_url" name="event_modal_options[image_url]" type="text" style="width: 100%" value="<?php echo $options_modal[image_url];?>" size="50" class="code" required="">
           <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Выбрать картинку">
         </div>
+        <div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[image_thumb_url]">
+            <?php if(isset($options_modal[image_url]) && $options_modal[image_url] !='') { ?>
+            <img src="<?php echo $options_modal[image_url];?>"  width="65"/><?php } else { echo $defaultImage; } ?>
+            </div>
+        </div>
       </td>
 </tr>
-<script type="text/javascript">
-    jQuery(document).ready(function($){
-        $('#upload-btn').click(function(e) {
-            e.preventDefault();
-            var image = wp.media({
-                title: 'Upload Image',
-                multiple: false
-            }).open()
-            .on('select', function(e){
-                var uploaded_image = image.state().get('selection').first();
-                // console.log(uploaded_image);
-                var image_url = uploaded_image.toJSON().url;
-                jQuery('#image_url').val(image_url);
-                jQuery('#wpss_upload_image_thumb').html("<img height='65' src='"+image_url+"'/>");
-            });
-        });
-    });
-</script>
-
-
 
 <tr class="form-field">
         <th valign="top" scope="row">
@@ -143,7 +122,24 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 <style>
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
 </style>
-
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+        $('#upload-btn').click(function(e) {
+            e.preventDefault();
+            var image = wp.media({
+                title: 'Upload Image',
+                multiple: false
+            }).open()
+            .on('select', function(e){
+                var uploaded_image = image.state().get('selection').first();
+                // console.log(uploaded_image);
+                var image_url = uploaded_image.toJSON().url;
+                jQuery('#image_url').val(image_url);
+                jQuery('#wpss_upload_image_thumb').html("<img height='65' src='"+image_url+"'/>");
+            });
+        });
+    });
+</script>
 
 
 
