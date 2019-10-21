@@ -154,6 +154,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 
 <style>
     .editor_for_event .wp-editor-area { border: 0 !important; }
+    .editor_for_event #qt_event_modal_title_my_prompt, .editor_for_event #qt_event_modal_title_video_shortcode { display: none; }
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
 </style>
 <script type="text/javascript">
