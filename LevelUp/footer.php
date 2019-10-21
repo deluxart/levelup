@@ -12,6 +12,7 @@
 <?php
     $options = get_option( 'levelup_theme_options' );
     $options_modal = get_option( 'event_modal_options' );
+    $modal_title = get_option('event_modal_title');
 ?>
 	</div><!-- .site-content -->
 
@@ -136,7 +137,7 @@
 	<div class="cont">
 		<div><img src="<?php echo $options_modal[image_url];?>" alt=""></div>
 		<div class="content">
-			<h4>Реєструйтеся на конференцію <strong><a href="https://levelup.ua/it-conference-2019">Ваша КАР’ЄРА в IT</a></strong> та приходь знайомитися!</h4>
+			<h4><?php $modal_title; ?>Реєструйтеся на конференцію <strong><a href="https://levelup.ua/it-conference-2019">Ваша КАР’ЄРА в IT</a></strong> та приходь знайомитися!</h4>
 			<div class="date-block">
 				<div><strong>2 листопада 10:00</strong>вул. Троїцька, 21Г, IT-центр Level Up</div>
 				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
