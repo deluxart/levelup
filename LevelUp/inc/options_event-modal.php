@@ -82,8 +82,8 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         <label>Ссылка на картинку</label>
       </th>
      <td>
-          <input id="image_url" name="image_url" type="text" style="width: 95%" value="" size="50" class="code" required="">
-          <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Upload Image">
+          <input id="image_url" name="image_url" type="text" style="width: 95%" value="levelup_theme_options[image_url]" size="50" class="code" required="">
+          <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Выбрать картинку">
           <script type="text/javascript">
 jQuery(document).ready(function($){
     $('#upload-btn').click(function(e) {
