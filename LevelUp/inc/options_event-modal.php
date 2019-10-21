@@ -83,6 +83,14 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         <label>Ссылка на картинку</label>
       </th>
      <td>
+
+
+<div id="wpss_upload_image_thumb" class="wpss-file">
+    <?php if(isset($record->security_image) && $record->security_image !='') { ?>
+       <img src="<?php echo $record->security_image;?>"  width="65"/><?php } else { echo $defaultImage; } ?>
+</div>
+
+
           <input id="image_url" name="levelup_theme_options[image_url]" type="text" style="width: 95%" value="<?php echo $options[image_url];?>" size="50" class="code" required="">
           <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Выбрать картинку">
           <script type="text/javascript">
@@ -106,6 +114,18 @@ jQuery(document).ready(function($){
         });
     });
 });
+
+
+
+window.send_to_editor = function(html) {
+ imgurl = jQuery('img',html).attr('src');
+ jQuery('#wpss_upload_image').val(imgurl);
+ tb_remove();
+
+ jQuery('#wpss_upload_image_thumb').html("<img height='65' src='"+imgurl+"'/>");
+}
+
+
 </script>
       </td>
 </tr>
