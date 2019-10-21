@@ -132,6 +132,20 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 
+<tr class="form-field">
+    <th valign="top" scope="row">
+          <label>Дата / Время / Локация</label>
+    </th>
+    <td>
+        <div class="g_one_auto">
+            <div><input id="event_modal_options[event_date]" name="event_modal_options[event_date]" type="text" style="width: 100%" value="<?php echo $options_modal[event_date];?>" class="code" placeholder="Введите стоимость" required=""></div>
+            <div><input id="event_modal_options[event_location]" name="event_modal_options[event_location]" type="text" style="width: 100%" value="<?php echo $options_modal[event_location];?>" class="code" placeholder="Введите стоимость" required=""></div>
+        </div>
+    </td>
+</tr>
+
+
+
 <tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
      <th valign="top" scope="row">
         <label>Задержка</label>
@@ -152,7 +166,7 @@ wp_editor( $content , $editor_id, $settings  );
       </th>
      <td>
             <textarea name="event_modal_options[contact_form]" id="event_modal_options[contact_form]" class="large-text code" rows="2" placeholder="Здесь код контактной формы"><?php echo $options_modal[contact_form];?></textarea>
-            <p class="description">Вставьте шорткод контактной формы.<br/>Управление формами - <a href="admin.php?page=wpcf7">здесь</a></p>
+            <p class="description">Вставьте шорткод контактной формы.<br/>Управление формами - <a href="admin.php?page=wpcf7" target="_blank">здесь</a></p>
       </td>
 </tr>
 
@@ -204,6 +218,7 @@ wp_editor( $content , $editor_id, $settings  );
     .editor_for_event .wp-editor-area { border: 0 !important; }
     .editor_for_event #qt_event_modal_title_my_prompt, .editor_for_event #qt_event_modal_title_video_shortcode { display: none; }
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
+    .g_one_one { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px; }
 </style>
 <script type="text/javascript">
     jQuery(document).ready(function($){
