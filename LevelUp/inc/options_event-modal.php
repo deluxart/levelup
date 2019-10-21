@@ -132,7 +132,7 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 
-<tr class="form-field">
+<tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
     <th valign="top" scope="row">
           <label>Дата / Время / Локация</label>
     </th>
@@ -151,7 +151,7 @@ wp_editor( $content , $editor_id, $settings  );
         <label>Задержка</label>
       </th>
      <td>
-            <input type="number" id="event_modal_options[modal_delay]" name="event_modal_options[modal_delay]" class="large-text code" min="1" max="100" value="<?php echo $options_modal[modal_delay];?>">
+            <input type="number" id="event_modal_options[modal_delay]" name="event_modal_options[modal_delay]" class="large-text code" style="width: 100%;" min="1" max="100" value="<?php echo $options_modal[modal_delay];?>">
             <p class="description">Задайте количество <strong>секунд</strong> задержки до появления модального окна</p>
       </td>
 </tr>
@@ -165,7 +165,7 @@ wp_editor( $content , $editor_id, $settings  );
         <label>Контактная форма</label>
       </th>
      <td>
-            <textarea name="event_modal_options[contact_form]" id="event_modal_options[contact_form]" class="large-text code" rows="2" placeholder="Здесь код контактной формы"><?php echo $options_modal[contact_form];?></textarea>
+            <textarea name="event_modal_options[contact_form]" id="event_modal_options[contact_form]" class="large-text code" style="width: 100%;" rows="1" placeholder="Здесь код контактной формы"><?php echo $options_modal[contact_form];?></textarea>
             <p class="description">Вставьте шорткод контактной формы.<br/>Управление формами - <a href="admin.php?page=wpcf7" target="_blank">здесь</a></p>
       </td>
 </tr>

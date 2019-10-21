@@ -135,7 +135,7 @@
 		<div class="content">
 			<h4><?php echo $options_modal['event_modal_title']; ?></h4>
 			<div class="date-block">
-				<div><strong>2 листопада 10:00</strong>вул. Троїцька, 21Г, IT-центр Level Up</div>
+				<div><strong><?php echo $options_modal[event_date]; ?></strong><?php echo $options_modal[event_location]; ?></div>
 				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
 			</div>
 			<div class="feed-form">
