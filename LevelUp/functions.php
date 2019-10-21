@@ -153,6 +153,48 @@ function LevelUp_widgets_init() {
 }
 add_action( 'widgets_init', 'LevelUp_widgets_init' );
 
+
+
+
+function hcf_register_meta_boxes() {
+    add_meta_box( 'hcf-1', __( 'Сайдбар для данной записи', 'hcf' ), 'wporg_custom_box_html', 'page', 'side' );
+}
+add_action( 'add_meta_boxes', 'hcf_register_meta_boxes' );
+
+function wporg_custom_box_html($post)
+{
+    $value = get_post_meta($post->ID, '_wporg_meta_key', true);
+    echo '<div class="format-setting type-sidebar-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
+        echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+        echo '<div class="format-setting-inner">';
+        echo '<label for="custom_sidebar">Выберите Сайдбар</label><select name="custom_sidebar" id="custom_sidebar" class="components-select-control__input">';
+
+        echo '<option value="">-- ' . __( 'Выберите сайдбар', 'dart' ) . ' --</option>';
+        echo '<option value="news-sidebar" id="news-sidebar"' . selected($value, 'news-sidebar') . '>' . __( 'Сайдбар для новостей', 'dart' ) . '</option>';
+        echo '<option value="blog-sidebar" id="blog-sidebar"' . selected($value, 'blog-sidebar') . '>' . __( 'Сайдбар для блога', 'dart' ) . '</option>';
+
+        echo '</select>';
+        echo '</div>';
+        echo '</div>';
+
+    ?>
+    <?php
+}
+
+function wporg_save_postdata($post_id)
+{
+    if (array_key_exists('custom_sidebar', $_POST)) {
+        update_post_meta(
+            $post_id,
+            '_wporg_meta_key',
+            $_POST['custom_sidebar']
+        );
+    }
+}
+add_action('save_post', 'wporg_save_postdata');
+
+
+
 if ( ! function_exists( 'LevelUp_fonts_url' ) ) :
 function LevelUp_fonts_url() {
 	$fonts_url = '';
