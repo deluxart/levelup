@@ -143,7 +143,7 @@ wp_editor( $content , $editor_id, $settings  );
         <label>Контактная форма</label>
       </th>
      <td>
-          <input id="event_modal_options[contact_form]" name="event_modal_options[contact_form]" type="text" style="width: 100%" value="<?php echo $options_modal[contact_form];?>" class="code" required="">
+            <textarea name="event_modal_options[contact_form]" id="event_modal_options[contact_form]" class="large-text code" rows="4" placeholder="Здесь код контактной формы"><?php echo $options_modal[contact_form];?></textarea>
             <p class="description">Вставьте шорткод контактной формы.<br/>Управление формами - <a href="admin.php?page=wpcf7">здесь</a></p>
       </td>
 </tr>
