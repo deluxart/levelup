@@ -101,7 +101,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         <td>
 <?php
     // $modal_title = get_option('event_modal_title');
-    $formid = htmlentities('event_modal_options[px_wp_editor]');
+    $formid = event_modal_options[event_modal_code];
     wp_editor( $formid, 'event_modal_title',
     $settings = array(
         'wpautop'       => 0,
