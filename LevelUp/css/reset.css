@@ -2,6 +2,13 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   margin: 0;	padding: 0;	border: 0;	font-size: 100%;	vertical-align: baseline;	background: transparent; }
 
 
+.widget_categories ul > li {  border-bottom: 1px solid #ededed; position: relative; padding-left: 17px; }
+.widget_categories ul > li:before { content: "\f105";font-family: FontAwesome; left: 0px; transition: 0.3s all; position: absolute; font-size: 17px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; }
+.widget_categories ul > li:last-child { border: none; }
+.widget_categories ul > li a { padding: 10px 0; display: block; color: #000; transition: 0.1s all; }
+.widget_categories ul > li:hover a { transform: scale(1.05) translateX(10px); color: #15acf2; font-weight: 600; }
+.widget_categories ul > li:hover:before { color: #15acf2; }
+
 /* For Spoiler */
 .spoiler > .cont { position: relative; }
 .program-block .spoiler .head.active{color:#eaff00}
