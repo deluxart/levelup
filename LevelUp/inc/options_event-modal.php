@@ -234,12 +234,97 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 
+<div class="event_modal <?php echo $options_modal['modal_delay']; ?>" style="background: url(<?php echo $options_modal[background_url];?>) center no-repeat; background-size: cover;">
+	<div class="cont">
+		<div><img src="<?php echo $options_modal[image_url];?>" alt=""></div>
+		<div class="content">
+			<h4><?php echo $options_modal['event_modal_title']; ?></h4>
+			<div class="date-block">
+				<div><strong><?php echo $options_modal[event_date]; ?></strong><?php echo $options_modal[event_location]; ?></div>
+				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
+			</div>
+			<div class="feed-form">
+				<?php echo do_shortcode( wp_unslash($options_modal['contact_form']) ); ?>
+			</div>
+		</div>
+	</div>
+
+	<div id="setCookie" class="close-icon">
+		<img src="https://levelup.ua/wp-content/uploads/2019/07/cancel-1.svg" alt="">
+	</div>
+</div>
+<div class="event_modal-bg"></div>
+
+
 <style>
     .wp-core-ui .button-secondary.flat { background: #45526E; color: #fff; border-radius: 2px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12); border: 0; }
     .editor_for_event .wp-editor-area { border: 0 !important; }
     .editor_for_event #qt_event_modal_title_my_prompt, .editor_for_event #qt_event_modal_title_video_shortcode { display: none; }
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
     .g_one_one { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px; }
+
+
+
+
+
+
+
+
+
+
+/*New desing modal for Open Day*/
+.event_modal { background: url(https://levelup.ua/wp-content/uploads/2019/10/bg_career_modal.jpg) center no-repeat; background-size: cover;
+	box-shadow: 1.854px 5.706px 76.95px 18.05px rgba(0, 0, 0, 0.32); border-radius: 10px; position: relative; padding: 0px 0px; max-width: 900px; margin: 0 auto;
+	z-index: 9999999; position: fixed; top: -50%; left: 50%; transform: translate(-50%,-50%); width: 100%; transition-duration: 500ms; display: none;
+}
+
+/* .event_modal::before { content: ''; position: absolute; top: -50px; left: -50px; width: 511px; height: 542px; background: url(https://levelup.ua/wp-content/uploads/2019/08/cofe_pattern.png) no-repeat; } */
+.event_modal.open { top: 50%; transition-duration: 500ms; }
+.event_modal .cont { display: grid; grid-template-columns: auto 1fr; align-items: center;  grid-column-gap: 40px; }
+.event_modal .cont > div > h4 { letter-spacing: normal; font-size: 18px; color: #fff; line-height: normal; margin-bottom: 15px; font-weight: 300; }
+.event_modal .cont > div > h4 strong { color: #f5f34f; white-space: nowrap; }
+.event_modal .cont > div > h4 span { display: inline-block; }
+.event_modal .cont > div.content { padding: 50px 50px 50px 0; }
+.event_modal .cont > div > img { width: 100%; max-width: 380px; display: block; margin: 0 auto; padding: 40px 0; }
+.event_modal .cont > div > h4 a { color: #f5f34f; text-decoration: underline; }
+.event_modal .cont > div > div.date-block { display: block;text-align: center;padding: 20px 0; border-radius: 10px; box-shadow: 1.854px 5.706px 32.4px 7.6px rgba(0, 0, 0, 0.28); background: #fff; position: relative; margin-bottom: 25px; }
+.event_modal .cont > div > div.date-block > div { font-size: 15px; color: #868686; padding: 0 15px 0 28px;  }
+.event_modal .cont > div > div.date-block strong { display: block; font-size: 18px; color: #000; }
+.event_modal .close-icon { width: 17px; height: 17px; position: absolute; top: 20px; right: 20px; cursor: pointer; opacity: 0.7; }
+.event_modal .close-icon:hover { opacity: 1; }
+
+.event_modal .cont > div > div > div.date-icon { border: 5px solid #fff; background: #15acf2; border-radius: 50%; width: 39px; height: 39px; position: absolute;
+	left: 50%; top: 0; transform: translate(-50%, -50%); text-align: center; padding: 0; }
+
+.event_modal .cont > div > div > div.date-icon img { width: 19px; position: relative; top: 5px; }
+
+.event_modal .cont > div > div.feed-form .form > p { display: none !important; }
+.event_modal .cont > div > div.feed-form .form { display: grid; grid-row-gap: 15px; }
+.event_modal .cont > div > div.feed-form .form input { width: 100%; background: #ffffff2b; border-radius: 30px; height: 42px; color: #fff; font-size: 16px; }
+.event_modal .cont > div > div.feed-form .form input::placeholder { color: #fff; }
+.event_modal .cont > div > div.feed-form .form input[type="submit"] { background: #f5f34f; color: #000; border: none;  font-weight: bold; }
+.event_modal .cont > div > div.feed-form .form > div.last { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 15px; position: relative; }
+.event_modal .cont > div > div.feed-form .form > div.last > p { display: none; }
+.event_modal .cont > div > div.feed-form .form > div { position: relative; }
+.event_modal .cont > div > div.feed-form .form > div > div { position: relative; }
+.event_modal .cont > div > div.feed-form .form .ajax-loader { position: absolute; left: 50%; margin: 0; top: 50%; transform: translate(-50%, -50%); background-color: #f5f34f; width: 90%; background-repeat: no-repeat; background-position: center; background-image: url(../img/loading_gray.svg); background-size: 36px 36px; }
+
+.event_modal-bg.open { opacity: 1; z-index: 999999; }
+.event_modal-bg { background: #00000070; bottom: 0; left: 0; opacity: 0; position: fixed;
+    right: 0; padding: 30px; top: 0; z-index: -1; -webkit-transition: opacity 300ms; transition: opacity 300ms; z-index: 99; display: none; }
+
+.event_modal span.wpcf7-not-valid-tip { margin: 0; top: 0; position: absolute; right: 15px; color: #fff; font-size: 12px; border-radius: 0 10px 10px 0; padding-right: 8px; }
+.event_modal div.wpcf7-mail-sent-ok {display: block; background: #5944e84f; color: #fff; bottom: -52px; margin: 0; width: 100%; padding: 14px 15px; font-size: 11px; border: 0; border-radius: 15px 15px 0 0; }
+
+
+
+
+
+
+
+
+
+
 </style>
 <script type="text/javascript">
     jQuery(document).ready(function($){
@@ -275,6 +360,25 @@ wp_editor( $content , $editor_id, $settings  );
             });
         });
     });
+
+// For Previev modal
+jQuery('#preview-btn').click(function () {
+    jQuery('.event_modal').show();
+    setTimeout(function(){
+        jQuery('.event_modal').addClass("open");
+    }, 200);
+    jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
+});
+
+jQuery(".event_modal .close-icon").click(function () {
+    jQuery('.event_modal').removeClass("open");
+        setTimeout(function(){
+            jQuery('.event_modal').hide();
+        }, 100);
+    jQuery('.event_modal-bg').removeClass("open");
+    jQuery('.event_modal-bg').css({display: 'none'});
+});
+
 </script>
 
 
