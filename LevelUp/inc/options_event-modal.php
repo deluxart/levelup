@@ -108,7 +108,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
      <td>
         <div class="g_one_auto">
           <input id="background_url" name="event_modal_options[background_url]" type="text" style="width: 100%" value="<?php echo $options_modal[background_url];?>" class="code" required="">
-          <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Выбрать картинку">
+          <input type="button" name="upload-bg-btn" id="upload-bg-btn" class="button-secondary" value="Выбрать картинку">
         </div>
         <div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[background_thumb_url]">
             <?php if(isset($options_modal[background_url]) && $options_modal[background_url] !='') { ?>
@@ -255,6 +255,23 @@ wp_editor( $content , $editor_id, $settings  );
                 var image_url = uploaded_image.toJSON().url;
                 jQuery('#image_url').val(image_url);
                 jQuery('#wpss_upload_image_thumb').html("<img height='120' src='"+image_url+"'/>");
+            });
+        });
+    });
+
+    jQuery(document).ready(function($){
+        $('#upload-bg-btn').click(function(e) {
+            e.preventDefault();
+            var image_bg = wp.media({
+                title: 'Выбрать фоновую картинку',
+                multiple: false
+            }).open()
+            .on('select', function(e){
+                var uploaded_bg_image = image_bg.state().get('selection').first();
+                // console.log(uploaded_image);
+                var image_bg_url = uploaded_bg_image.toJSON().url;
+                jQuery('#background_url').val(image_bg_url);
+                jQuery('#wpss_upload__bgimage_thumb').html("<img height='120' src='"+image_bg_url+"'/>");
             });
         });
     });
