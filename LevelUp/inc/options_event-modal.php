@@ -108,7 +108,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         'textarea_rows' => 4,
         'editor_css'    => '',
         'editor_class'  => '',
-        'teeny'         => 1,
+        'teeny'         => 0,
         'dfw'           => 0,
         'tinymce'       => 0,
         'quicktags' => array(
