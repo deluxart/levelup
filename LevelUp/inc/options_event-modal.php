@@ -107,7 +107,10 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         'teeny'         => 0,
         'dfw'           => 0,
         'tinymce'       => 1,
-        'quicktags'     => 1,
+        'quicktags' => array(
+            'id' => $editor_id,
+            'buttons' => 'strong,link'
+        ),
         'drag_drop_upload' => false
     ) );
 ?>
@@ -149,6 +152,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 
 
 <style>
+    .editor_for_event textarea { border: 0; }
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
 </style>
 <script type="text/javascript">
