@@ -275,19 +275,19 @@ wp_editor( $content , $editor_id, $settings  );
 /*New desing modal for Open Day*/
 .event_modal { background: url(https://levelup.ua/wp-content/uploads/2019/10/bg_career_modal.jpg) center no-repeat; background-size: cover;
 	box-shadow: 1.854px 5.706px 76.95px 18.05px rgba(0, 0, 0, 0.32); border-radius: 10px; position: relative; padding: 0px 0px; max-width: 900px; margin: 0 auto;
-	z-index: 9999999; position: fixed; top: -50%; left: 50%; transform: translate(-50%,-50%); width: 100%; transition-duration: 500ms; display: none;
+	z-index: 9999999; position: fixed; top: -50%; left: 50%; transform: translate(-50%,-50%); width: 100%; transition-duration: 500ms; font-family: Montserrat; display: none;
 }
 
 /* .event_modal::before { content: ''; position: absolute; top: -50px; left: -50px; width: 511px; height: 542px; background: url(https://levelup.ua/wp-content/uploads/2019/08/cofe_pattern.png) no-repeat; } */
 .event_modal.open { top: 50%; transition-duration: 500ms; }
 .event_modal .cont { display: grid; grid-template-columns: auto 1fr; align-items: center;  grid-column-gap: 40px; }
-.event_modal .cont > div > h4 { letter-spacing: normal; font-size: 18px; color: #fff; line-height: normal; margin-bottom: 15px; font-weight: 300; }
+.event_modal .cont > div > h4 { letter-spacing: normal; font-size: 18px; color: #fff; line-height: normal; margin: 0 0 15px 0; font-weight: 300; }
 .event_modal .cont > div > h4 strong { color: #f5f34f; white-space: nowrap; }
 .event_modal .cont > div > h4 span { display: inline-block; }
 .event_modal .cont > div.content { padding: 50px 50px 50px 0; }
 .event_modal .cont > div > img { width: 100%; max-width: 380px; display: block; margin: 0 auto; padding: 40px 0; }
 .event_modal .cont > div > h4 a { color: #f5f34f; text-decoration: underline; }
-.event_modal .cont > div > div.date-block { display: block;text-align: center;padding: 20px 0; border-radius: 10px; box-shadow: 1.854px 5.706px 32.4px 7.6px rgba(0, 0, 0, 0.28); background: #fff; position: relative; margin-bottom: 25px; }
+.event_modal .cont > div > div.date-block { display: block;text-align: center;padding: 20px 0; border-radius: 10px; box-shadow: 1.854px 5.706px 32.4px 7.6px rgba(0, 0, 0, 0.28); background: #fff; position: relative; margin-bottom: 25px;  margin-top: 40px; }
 .event_modal .cont > div > div.date-block > div { font-size: 15px; color: #868686; padding: 0 15px 0 28px;  }
 .event_modal .cont > div > div.date-block strong { display: block; font-size: 18px; color: #000; }
 .event_modal .close-icon { width: 17px; height: 17px; position: absolute; top: 20px; right: 20px; cursor: pointer; opacity: 0.7; }
@@ -300,7 +300,7 @@ wp_editor( $content , $editor_id, $settings  );
 
 .event_modal .cont > div > div.feed-form .form > p { display: none !important; }
 .event_modal .cont > div > div.feed-form .form { display: grid; grid-row-gap: 15px; }
-.event_modal .cont > div > div.feed-form .form input { width: 100%; background: #ffffff2b; border-radius: 30px; height: 42px; color: #fff; font-size: 16px; border: 0; }
+.event_modal .cont > div > div.feed-form .form input { width: 100%; background: #ffffff2b; border-radius: 30px; height: 42px; color: #fff; font-size: 16px; border: 0; padding: 0 20px; }
 .event_modal .cont > div > div.feed-form .form input::placeholder { color: #fff; }
 .event_modal .cont > div > div.feed-form .form input[type="submit"] { background: #f5f34f; color: #000; border: none;  font-weight: bold; }
 .event_modal .cont > div > div.feed-form .form > div.last { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 15px; position: relative; }
