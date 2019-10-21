@@ -155,6 +155,7 @@
 
 <script>
 jQuery(document).ready(function(){
+    var event_modal_delay = <?php echo $options_modal['modal_delay']; ?> * 1000;
     jQuery(".event_modal .close-icon").click(function () {
     jQuery.cookie("popup-event", "", { expires:1, path: '/' });
 
@@ -177,7 +178,7 @@ jQuery(document).ready(function(){
             }, 200);
             jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
 
-    }, 12000)
+    }, event_modal_delay)
     }
     else {
       jQuery(".event_modal").hide();
