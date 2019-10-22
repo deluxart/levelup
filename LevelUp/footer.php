@@ -129,13 +129,13 @@
 
 <?php if ( $options_modal[ativate_event_modal] == 1) { ?>
 <!-- Модальное окно мероприятия -->
-<div class="event_modal <?php echo $options_modal['modal_delay']; ?>" style="background: url(<?php echo $options_modal[background_url];?>) center no-repeat; background-size: cover;">
+<div class="event_modal <?php echo $options_modal['modal_delay']; ?>" style="background: url(<?php echo $options_modal['background_url'];?>) center no-repeat; background-size: cover;">
 	<div class="cont">
-		<div><img src="<?php echo $options_modal[image_url];?>" alt=""></div>
+		<div><img src="<?php echo $options_modal['image_url'];?>" alt=""></div>
 		<div class="content">
 			<h4><?php echo $options_modal['event_modal_title']; ?></h4>
 			<div class="date-block">
-				<div><strong><?php echo $options_modal[event_date]; ?></strong><?php echo $options_modal[event_location]; ?></div>
+				<div><strong><?php echo $options_modal['event_date']; ?></strong><?php echo $options_modal['event_location']; ?></div>
 				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
 			</div>
 			<div class="feed-form">
@@ -151,7 +151,7 @@
 <div class="event_modal-bg"></div>
 <style>
     .event_modal .cont>div>div.feed-form .form input[type=submit] { background: <?php echo $options_modal[button_color]; ?> !important; }
-    .event_modal .cont>div.content a { color: <?php echo $options_modal[link_color]; ?> !important; }
+    .event_modal .cont>div.content a { color: <?php echo $options_modal['link_color']; ?> !important; }
 </style>
 <script>
 jQuery(document).ready(function(){
