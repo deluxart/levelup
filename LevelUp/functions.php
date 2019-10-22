@@ -224,12 +224,6 @@ function LevelUp_fonts_url() {
 }
 endif;
 
-require get_template_directory() . '/inc/options_page.php';
-require get_template_directory() . '/inc/options_event-modal.php';
-
-require get_template_directory() . '/inc/teachers.php';
-require get_template_directory() . '/inc/course-programs.php';
-
 /**
  * Load JS and styles.
  */
@@ -258,6 +252,13 @@ function LevelUp_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'LevelUp_scripts' );
+
+
+require get_template_directory() . '/inc/options_page.php';
+require get_template_directory() . '/inc/options_event-modal.php';
+
+require get_template_directory() . '/inc/teachers.php';
+require get_template_directory() . '/inc/course-programs.php';
 
 
 function contact_styles() {
