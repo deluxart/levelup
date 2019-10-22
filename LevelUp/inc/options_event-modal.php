@@ -91,12 +91,12 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
       </th>
      <td>
         <div class="g_one_auto">
-          <input id="image_url" name="event_modal_options[image_url]" type="text" style="width: 100%" value="<?php echo $options_modal[image_url];?>" class="code" required="">
+          <input id="image_url" name="event_modal_options['image_url']" type="text" style="width: 100%" value="<?php echo $options_modal['image_url'];?>" class="code" required="">
           <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Выбрать фон">
         </div>
         <div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[image_thumb_url]">
-            <?php if(isset($options_modal[image_url]) && $options_modal[image_url] !='') { ?>
-            <img src="<?php echo $options_modal[image_url];?>"  width="120"/><?php } else { echo $defaultImage; } ?>
+            <?php if(isset($options_modal['image_url']) && $options_modal['image_url'] !='') { ?>
+            <img src="<?php echo $options_modal['image_url'];?>"  width="120"/><?php } else { echo $defaultImage; } ?>
             </div>
         </div>
       </td>
@@ -108,12 +108,12 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
       </th>
      <td>
         <div class="g_one_auto">
-          <input id="background_url" name="event_modal_options[background_url]" type="text" style="width: 100%" value="<?php echo $options_modal[background_url];?>" class="code" required="">
+          <input id="background_url" name="event_modal_options[background_url]" type="text" style="width: 100%" value="<?php echo $options_modal['background_url'];?>" class="code" required="">
           <input type="button" name="upload-bg-btn" id="upload-bg-btn" class="button-secondary" value="Выбрать картинку">
         </div>
         <div id="wpss_upload_bg_image_thumb" class="wpss-file"><div id="event_modal_options[background_thumb_url]">
-            <?php if(isset($options_modal[background_url]) && $options_modal[background_url] !='') { ?>
-            <img src="<?php echo $options_modal[background_url];?>"  width="220"/><?php } else { echo $defaultImage; } ?>
+            <?php if(isset($options_modal['background_url']) && $options_modal['background_url'] !='') { ?>
+            <img src="<?php echo $options_modal['background_url'];?>"  width="220"/><?php } else { echo $defaultImage; } ?>
             </div>
         </div>
       </td>
@@ -127,15 +127,15 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 
         <div class="g_one_one colors">
             <div>
-                <input id="event_modal_options[button_color]" name="event_modal_options[button_color]" type="text" value="<?php echo $options_modal[button_color];?>" class="code" required="">
+                <input id="event_modal_options[button_color]" name="event_modal_options[button_color]" type="text" value="<?php echo $options_modal['button_color'];?>" class="code" required="">
                 <p class="description">Цвет кнопки в модалке</p>
             </div>
             <div>
-                <input id="event_modal_options[link_color]" name="event_modal_options[link_color]" type="text" value="<?php echo $options_modal[link_color];?>" class="code" required="">
+                <input id="event_modal_options[link_color]" name="event_modal_options[link_color]" type="text" value="<?php echo $options_modal['link_color'];?>" class="code" required="">
                 <p class="description">Цвет ссылок в модалке</p>
             </div>
             <div style="padding-top: 15px;">
-                <input id="event_modal_options[button_text_color]" name="event_modal_options[button_text_color]" type="text" value="<?php echo $options_modal[button_text_color];?>" class="code" required="">
+                <input id="event_modal_options[button_text_color]" name="event_modal_options[button_text_color]" type="text" value="<?php echo $options_modal['button_text_color'];?>" class="code" required="">
                 <p class="description">Цвет текста на кнопке в модалке</p>
             </div>
         </div>
@@ -191,7 +191,7 @@ wp_editor( $content , $editor_id, $settings  );
         <label>Задержка</label>
       </th>
      <td>
-            <input type="number" id="event_modal_options[modal_delay]" name="event_modal_options[modal_delay]" class="large-text code" style="width: 100%;" min="1" max="100" value="<?php echo $options_modal[modal_delay];?>">
+            <input type="number" id="event_modal_options[modal_delay]" name="event_modal_options[modal_delay]" class="large-text code" style="width: 100%;" min="1" max="100" value="<?php echo $options_modal['modal_delay'];?>">
             <p class="description">Задайте количество <strong>секунд</strong> задержки до появления модального окна</p>
       </td>
 </tr>
@@ -201,7 +201,7 @@ wp_editor( $content , $editor_id, $settings  );
         <label>Контактная форма</label>
       </th>
      <td>
-            <textarea name="event_modal_options[contact_form]" id="event_modal_options[contact_form]" class="large-text code" style="width: 100%;" rows="1" placeholder="Здесь код контактной формы"><?php echo $options_modal[contact_form];?></textarea>
+            <textarea name="event_modal_options[contact_form]" id="event_modal_options[contact_form]" class="large-text code" style="width: 100%;" rows="1" placeholder="Здесь код контактной формы"><?php echo $options_modal['contact_form'];?></textarea>
             <p class="description">Вставьте шорткод контактной формы.<br/>Управление формами - <a href="admin.php?page=wpcf7" target="_blank">здесь</a></p>
       </td>
 </tr>
@@ -225,13 +225,13 @@ wp_editor( $content , $editor_id, $settings  );
  </div>
 
 
-<div class="event_modal <?php echo $options_modal['modal_delay']; ?>" style="background: url(<?php echo $options_modal[background_url];?>) center no-repeat; background-size: cover;">
+<div class="event_modal <?php echo $options_modal['modal_delay']; ?>" style="background: url(<?php echo $options_modal['background_url'];?>) center no-repeat; background-size: cover;">
 	<div class="cont">
-		<div><img src="<?php echo $options_modal[image_url];?>" alt=""></div>
+		<div><img src="<?php echo $options_modal['image_url'];?>" alt=""></div>
 		<div class="content">
 			<h4><?php echo $options_modal['event_modal_title']; ?></h4>
 			<div class="date-block">
-				<div><strong><?php echo $options_modal[event_date]; ?></strong><?php echo $options_modal[event_location]; ?></div>
+				<div><strong><?php echo $options_modal['event_date']; ?></strong><?php echo $options_modal['event_location']; ?></div>
 				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
 			</div>
 			<div class="feed-form">
@@ -257,8 +257,8 @@ wp_editor( $content , $editor_id, $settings  );
     .g_one_auto { display: grid; grid-template-columns: 1fr auto; grid-column-gap: 10px; }
     .g_one_one { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px; }
 
-    .event_modal .cont>div>div.feed-form .form input[type=submit] { background: <?php echo $options_modal[button_color]; ?> !important; }
-    .event_modal .cont>div.content a { color: <?php echo $options_modal[link_color]; ?> !important; }
+    .event_modal .cont>div>div.feed-form .form input[type=submit] { background: <?php echo $options_modal['button_color']; ?> !important; }
+    .event_modal .cont>div.content a { color: <?php echo $options_modal['link_color']; ?> !important; }
 
 /*New desing modal for Open Day*/
 .event_modal { background: url(https://levelup.ua/wp-content/uploads/2019/10/bg_career_modal.jpg) center no-repeat; background-size: cover;
