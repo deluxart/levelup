@@ -14,7 +14,7 @@ function event_options_add_page() {
 // wp_enqueue_script('jquery');
 
 
-// wp_enqueue_media();
+wp_enqueue_media();
 
 function load_wp_media_files() {
     wp_enqueue_media();
