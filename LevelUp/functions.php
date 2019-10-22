@@ -253,14 +253,6 @@ function LevelUp_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'LevelUp_scripts' );
 
-
-require get_template_directory() . '/inc/options_page.php';
-require get_template_directory() . '/inc/options_event-modal.php';
-
-require get_template_directory() . '/inc/teachers.php';
-require get_template_directory() . '/inc/course-programs.php';
-
-
 function contact_styles() {
     if ( is_page( 6586 ) ) {
         //подключаем стили
@@ -279,6 +271,15 @@ function contact_scripts() {
     }
 }
 add_action( 'wp_enqueue_scripts', 'contact_scripts' );
+
+
+require get_template_directory() . '/inc/options_page.php';
+require get_template_directory() . '/inc/options_event-modal.php';
+
+require get_template_directory() . '/inc/teachers.php';
+require get_template_directory() . '/inc/course-programs.php';
+
+
 
 // function LevelUp_resource_hints( $urls, $relation_type ) {
 // 	if ( wp_style_is( 'LevelUp-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
