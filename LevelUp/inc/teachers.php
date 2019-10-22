@@ -49,9 +49,11 @@ function lvl_teachers() {
         'public' => false,
         'show_ui' => true,
         'has_archive' => true,
+        'capability_type' => 'post',
         'menu_icon' => 'dashicons-businessman',
         'menu_position' => 11,
-        'supports' => array( 'title', 'editor', 'thumbnail', 'comments', 'revisions')
+        'query_var' => true,
+        'supports' => array('title','editor','thumbnail','comments','revisions')
     );
     register_post_type('teachers', $args);
 }
