@@ -11,7 +11,7 @@ function event_options_add_page() {
 }
 
 // jQuery
-wp_enqueue_script('jquery');
+// wp_enqueue_script('jquery');
 wp_enqueue_media();
 
 function load_wp_media_files() {
@@ -20,7 +20,8 @@ function load_wp_media_files() {
 add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
 
 function add_admin_iris_scripts( $hook ){
-	// подключаем IRIS
+    // подключаем IRIS
+
 	wp_enqueue_script( 'wp-color-picker' );
 	wp_enqueue_style( 'wp-color-picker' );
 
