@@ -133,7 +133,7 @@ function my_manage_teachers_columns( $column, $post_id ) {
             if ( empty( $shortcode ) )
                 echo __( 'Unknown' );
             else
-                printf( __( '<input type="text" onfocus="this.select();" style="width: auto" readonly="" value="[teacher id=%s]" class="large-text code">' ), $shortcode );
+                printf( __( '<input type="text" onfocus="this.select();" style="width: auto;max-width: 142px;" readonly="" value="[teacher id=%s]" class="large-text code">' ), $shortcode );
                 // printf( __( '[teacher id="%s"]' ), $shortcode );
         break;
 
