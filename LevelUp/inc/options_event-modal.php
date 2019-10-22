@@ -351,7 +351,7 @@ jQuery('#preview-btn').click(function () {
     jQuery('.event_modal-bg').fadeIn().addClass("open").css({display: 'block'});
 });
 
-jQuery(".event_modal .close-icon").click(function () {
+jQuery(".event_modal .close-icon, .event_modal-bg.open").click(function () {
     jQuery('.event_modal').removeClass("open");
         setTimeout(function(){
             jQuery('.event_modal').hide();
