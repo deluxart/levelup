@@ -11,15 +11,15 @@ function event_options_add_page() {
 }
 
 // jQuery
-wp_enqueue_script('jquery');
+// wp_enqueue_script('jquery');
 
 
-wp_enqueue_media();
+// wp_enqueue_media();
 
-function load_wp_media_files() {
-    wp_enqueue_media();
-}
-add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
+// function load_wp_media_files() {
+//     wp_enqueue_media();
+// }
+// add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
 
 // function add_admin_iris_scripts( $hook ){
 //     wp_enqueue_script( 'wp-color-picker' );
@@ -91,7 +91,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
       </th>
      <td>
         <div class="g_one_auto">
-          <input id="image_url" name="event_modal_options['image_url']" type="text" style="width: 100%" value="<?php echo $options_modal['image_url'];?>" class="code" required="">
+          <input id="image_url" name="event_modal_options[image_url]" type="text" style="width: 100%" value="<?php echo $options_modal['image_url'];?>" class="code" required="">
           <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Выбрать фон">
         </div>
         <div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[image_thumb_url]">
