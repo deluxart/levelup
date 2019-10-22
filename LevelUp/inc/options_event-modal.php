@@ -243,6 +243,7 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 <style>
+    .post-body-content img { display: block; }
     .wp-core-ui .button-secondary.flat { outline: none; background: #45526E; transition: .2s ease-out; color: #fff; border-radius: 2px; box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important; border: 0; }
     .wp-core-ui .button-secondary.flat:hover { background-color: #4f5e7e!important; box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15); border: 0; }
     .wp-core-ui .button-secondary.flat:focus { border: none; }
