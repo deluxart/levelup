@@ -910,7 +910,7 @@ background-repeat: no-repeat; background-position: center; border-radius: 50px; 
 @media (max-width: 992px) {
 .all-courses > .container { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; }
 .nav-tabs { display: block; border: 0; }
-.tabs_courses .nav-tabs .nav-link { border: 1px solid #dee2e6; border-radius: 0; }
+.tabs_courses .nav-tabs .nav-item a { border: 1px solid #dee2e6; border-radius: 0; }
 }
 
 @media (max-width: 768px) {
@@ -1172,15 +1172,15 @@ padding: 12px 22px;top: 18px; width: 100%; }
 }
 
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link { background-color: #15acf2; border: 0; border-radius: 30px;  font-size: 14px;}
-.nav-pills .nav-link:hover { color: #fff !important; background-color: #0696da; border-radius: 30px; border: 0; font-size: 14px; }
+.nav-pills .nav-item a.active, .nav-pills .show > .nav-item a { background-color: #15acf2; border: 0; border-radius: 30px;  font-size: 14px;}
+.nav-pills .nav-item a:hover { color: #fff !important; background-color: #0696da; border-radius: 30px; border: 0; font-size: 14px; }
 .nav-pills .nav-item { font-size: 14px; }
 
 
 /* Перевключатели страниц в Отзывах */
 
-.strong-view .nav-links a.current, .strong-view .nav-links span.current { background: #15acf2 !important; border-radius: 7px; }
-.strong-view .nav-links a, .strong-view .nav-links span.current, .strong-view .nav-links a, .strong-view .nav-links span { display: inline-block !important; padding: .5rem .75rem !important; line-height: 1.25 !important; border-radius: 7px; }
+.strong-view .nav-item as a.current, .strong-view .nav-item as span.current { background: #15acf2 !important; border-radius: 7px; }
+.strong-view .nav-item as a, .strong-view .nav-item as span.current, .strong-view .nav-item as a, .strong-view .nav-item as span { display: inline-block !important; padding: .5rem .75rem !important; line-height: 1.25 !important; border-radius: 7px; }
 
 /* .price-new-top, .price-new-bottom { display: none !important; } */
 
@@ -1287,19 +1287,19 @@ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255
 .home #main { padding-top: 0px !important; }
 .home .header-color {background: none !important;}
 .home .header-color .bg-kirpichik {background: #2e303580; box-shadow: none !important; }
-.home .header-color .navbar-dark .navbar-nav > li > .nav-link::before {border-right: 1px dotted #fff3;}
+.home .header-color .navbar-dark .navbar-nav > li > .nav-item a::before {border-right: 1px dotted #fff3;}
 .home .header-color .lux_search .button span i {color: #fff;}
 
 .page-template-page-event #main { padding-top: 0px !important; }
 .page-template-page-event .header-color {background: none !important;}
 .page-template-page-event .header-color .bg-kirpichik {background: #2e303580; box-shadow: none !important; }
-.page-template-page-event .header-color .navbar-dark .navbar-nav > li > .nav-link::before {border-right: 1px dotted #fff3;}
+.page-template-page-event .header-color .navbar-dark .navbar-nav > li > .nav-item a::before {border-right: 1px dotted #fff3;}
 .page-template-page-event .header-color .lux_search .button span i {color: #fff;}
 
 .post-template-single-empty #main { padding-top: 0px !important; }
 .post-template-single-empty .header-color {background: none !important;}
 .post-template-single-empty .header-color .bg-kirpichik {background: #2e303580; box-shadow: none !important; }
-.post-template-single-empty .header-color .navbar-dark .navbar-nav > li > .nav-link::before {border-right: 1px dotted #fff3;}
+.post-template-single-empty .header-color .navbar-dark .navbar-nav > li > .nav-item a::before {border-right: 1px dotted #fff3;}
 .post-template-single-empty .header-color .lux_search .button span i {color: #fff;}
 }
 
