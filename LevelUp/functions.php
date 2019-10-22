@@ -280,6 +280,13 @@ require get_template_directory() . '/inc/teachers.php';
 require get_template_directory() . '/inc/course-programs.php';
 
 
+// hide update notifications
+function remove_core_updates(){
+    global $wp_version;return(object) array('last_checked'=> time(),'version_checked'=> $wp_version,);
+}
+add_filter('pre_site_transient_update_core','remove_core_updates');
+add_filter('pre_site_transient_update_themes','remove_core_updates');
+
 
 // function LevelUp_resource_hints( $urls, $relation_type ) {
 // 	if ( wp_style_is( 'LevelUp-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
