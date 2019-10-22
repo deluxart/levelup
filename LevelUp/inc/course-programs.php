@@ -83,6 +83,45 @@ add_shortcode( 'program',  'call_shortcode_program' );
 
 
 
+
+
+    add_filter( 'manage_edit-course-programs_columns', 'my_edit_programs_columns' ) ;
+    function my_edit_programs_columns( $columns ) {
+        $columns = array(
+            'cb' => '&lt;input type="checkbox" />',
+            'title' => __( 'Название курса (Программы)' ),
+            'shortcode' => __( 'Шорткод' ),
+            // 'cat_teatcher' => __( 'Курс' ),
+            'date' => __( 'Date' )
+        );
+        return $columns;
+    }
+
+
+    add_action( 'manage_course-programs_posts_custom_column', 'my_manage_programs_columns', 10, 2 );
+    function my_manage_programs_columns( $column, $post_id ) {
+        global $post;
+
+        switch( $column ) {
+            case 'shortcode' :
+                $shortcode = $post->ID;
+                if ( empty( $shortcode ) )
+                    echo __( 'Unknown' );
+                else
+                    printf( __( '[program id="%s"]' ), $shortcode );
+            break;
+
+            default :
+                break;
+        }
+    }
+
+
+
+
+
+
+
     add_filter( 'pll_get_post_types', 'add_cpt_to_pll_programs', 10, 2 );
     function add_cpt_to_pll_programs( $post_types, $is_settings ) {
         if ( $is_settings ) {
