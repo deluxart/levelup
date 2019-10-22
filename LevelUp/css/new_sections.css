@@ -1,5 +1,5 @@
 /* Секция "Cлайд Classic" - NEW */
-#course_slider { position: relative; background-position: center; background-repeat: no-repeat; background-size: cover; }
+#course_slider { position: relative; background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden; }
 #course_slider .content { display: grid; grid-template-columns: 1fr 1fr; min-height: 83vh; align-items: center; }
 #course_slider .content .text { text-shadow: 1px 1px 3px rgba(63,110,176,.5); color: #fff; }
 #course_slider .content .text > span { border-width: 0; display: block; font-weight: 200; font-size: 45px; text-transform: uppercase; }
