@@ -25,7 +25,7 @@ function add_admin_iris_scripts( $hook ){
 	wp_enqueue_style( 'wp-color-picker' );
 
 	// подключаем свой файл скрипта
-	wp_enqueue_script('plugin-script', plugins_url('js/plugin-script.js', __FILE__), array('wp-color-picker'), false, 1 );
+	// wp_enqueue_script('plugin-script', plugins_url('js/plugin-script.js', __FILE__), array('wp-color-picker'), false, 1 );
 }
 add_action( 'admin_enqueue_scripts', 'add_admin_iris_scripts' );
 
