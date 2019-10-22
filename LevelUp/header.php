@@ -30,11 +30,11 @@
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?2125<?php echo date(get_option('date_format')); ?>3">
 
-    <?php echo $options[gtm_code];?>
+    <?php echo $options['gtm_code'];?>
 </head>
 
 <body <?php body_class(); ?>>
-<?php echo $options[gtm_code_n];?>
+<?php echo $options['gtm_code_n'];?>
 <svg class="hidden">
             <symbol id="icon-menu" viewBox="0 0 119 25">
                 <title>menu</title>
