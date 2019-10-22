@@ -110,7 +110,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
                 else
                     // printf( __( '[program id="%s"]' ), $shortcode );
                     // <input type="text" onfocus="this.select();" readonly="" value="[sg_popup id=6796]" class="large-text code">
-                    printf( __( '<input type="text" onfocus="this.select();" readonly="" value="[program id=%s]" class="large-text code">' ), $shortcode );
+                    printf( __( '<input type="text" onfocus="this.select();" style="width: auto" readonly="" value="[program id=%s]" class="large-text code">' ), $shortcode );
             break;
 
             default :
