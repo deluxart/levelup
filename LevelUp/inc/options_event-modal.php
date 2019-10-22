@@ -96,7 +96,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </div>
         <div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[image_thumb_url]">
             <?php if(isset($options_modal['image_url']) && $options_modal['image_url'] !='') { ?>
-            <img src="<?php echo $options_modal['image_url'];?>"  width="150"/><?php } else { echo $defaultImage; } ?>
+            <img src="<?php echo $options_modal['image_url'];?>" width="150"/><?php } else { echo $defaultImage; } ?>
             </div>
         </div>
       </td>
@@ -113,7 +113,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
         </div>
         <div id="wpss_upload_bg_image_thumb" class="wpss-file"><div id="event_modal_options[background_thumb_url]">
             <?php if(isset($options_modal['background_url']) && $options_modal['background_url'] !='') { ?>
-            <img src="<?php echo $options_modal['background_url'];?>"  width="350"/><?php } else { echo $defaultbg; } ?>
+            <img src="<?php echo $options_modal['background_url'];?>" width="350"/><?php } else { echo $defaultbg; } ?>
             </div>
         </div>
       </td>
@@ -320,7 +320,7 @@ jQuery(document).ready(function($){
                 // console.log(uploaded_image);
                 var image_url = uploaded_image.toJSON().url;
                 jQuery('#image_url').val(image_url);
-                jQuery('#wpss_upload_image_thumb').html("<img height='150' src='"+image_url+"'/>");
+                jQuery('#wpss_upload_image_thumb').html("<img width='150' src='"+image_url+"'/>");
             });
         });
     });
@@ -337,7 +337,7 @@ jQuery(document).ready(function($){
                 // console.log(uploaded_image);
                 var image_bg_url = uploaded_bg_image.toJSON().url;
                 jQuery('#background_url').val(image_bg_url);
-                jQuery('#wpss_upload_bg_image_thumb').html("<img height=350' src='"+image_bg_url+"'/>");
+                jQuery('#wpss_upload_bg_image_thumb').html("<img width='350' src='"+image_bg_url+"'/>");
             });
         });
     });
