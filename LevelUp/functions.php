@@ -471,6 +471,11 @@ function add_additional_class_on_li($classes, $item, $args) {
 }
 add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
 
+
+
+
+
+
 // function add_menu_link_class( $atts, $item, $args ) {
 //   if($args->link_class) {
 //     $atts['class'] = $args->link_class;
@@ -478,6 +483,9 @@ add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
 //   return $atts;
 // }
 // add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
+
+
+
 
 
 /** чтоб РЕДАКТОР не удалял теги span без атрибутов */
