@@ -55,7 +55,7 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <label>Google Tag Manager</label>
         </th>
         <td>
-            <textarea name="levelup_theme_options[gtm_code]" id="levelup_theme_options[gtm_code]" style="width: 100%;" class="large-text code" rows="7" placeholder="Вставьте код Google Tag Manager"><?php echo $options[gtm_code];?></textarea>
+            <textarea name="levelup_theme_options[gtm_code]" id="levelup_theme_options[gtm_code]" style="width: 100%;" class="large-text code" rows="7" placeholder="Вставьте код Google Tag Manager"><?php echo $options['gtm_code'];?></textarea>
         </td>
     </tr>
 
@@ -64,7 +64,7 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <label>Google Tag Manager (noscript)</label>
         </th>
         <td>
-            <textarea name="levelup_theme_options[gtm_code_n]" id="levelup_theme_options[gtm_code_n]" style="width: 100%;" class="large-text code" rows="4" placeholder="Вставьте код Google Tag Manager (noscript)"><?php echo $options[gtm_code_n];?></textarea>
+            <textarea name="levelup_theme_options[gtm_code_n]" id="levelup_theme_options[gtm_code_n]" style="width: 100%;" class="large-text code" rows="4" placeholder="Вставьте код Google Tag Manager (noscript)"><?php echo $options['gtm_code_n'];?></textarea>
         </td>
     </tr>
 
@@ -73,7 +73,7 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <label>Код JivoSite</label>
         </th>
         <td>
-            <textarea name="levelup_theme_options[jivosite_code]" id="levelup_theme_options[jivosite_code]" style="width: 100%;" class="large-text code" rows="7" placeholder="Вставьте код JivoSite"><?php echo $options[jivosite_code];?></textarea>
+            <textarea name="levelup_theme_options[jivosite_code]" id="levelup_theme_options[jivosite_code]" style="width: 100%;" class="large-text code" rows="7" placeholder="Вставьте код JivoSite"><?php echo $options['jivosite_code'];?></textarea>
         </td>
     </tr>
 
@@ -82,7 +82,7 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <label>Код Binotel</label>
         </th>
         <td>
-            <textarea name="levelup_theme_options[binotel_code]" id="levelup_theme_options[binotel_code]" style="width: 100%;" class="large-text code" rows="8" placeholder="Вставьте код Binotel"><?php echo $options[binotel_code];?></textarea>
+            <textarea name="levelup_theme_options[binotel_code]" id="levelup_theme_options[binotel_code]" style="width: 100%;" class="large-text code" rows="8" placeholder="Вставьте код Binotel"><?php echo $options['binotel_code'];?></textarea>
         </td>
     </tr>
 
@@ -94,7 +94,7 @@ function theme_options_do_page() { global $select_options; if ( ! isset( $_REQUE
             <label>Стоимость от <strong>58</strong> до <strong>60</strong> размера</label>
         </th>
         <td>
-           <input id="levelup_theme_options[price_4]" name="levelup_theme_options[price_4]" type="text" style="width: 95%" value="<?php echo $options[price_4];?>" size="50" class="code" placeholder="Введите стоимость" required="">
+           <input id="levelup_theme_options[price_4]" name="levelup_theme_options[price_4]" type="text" style="width: 95%" value="<?php echo $options['price_4'];?>" size="50" class="code" placeholder="Введите стоимость" required="">
         </td>
     </tr> -->
 
