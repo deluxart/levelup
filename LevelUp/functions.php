@@ -281,13 +281,12 @@ require get_template_directory() . '/inc/course-programs.php';
 
 
 // hide update notifications
-function hide_update_notice_to_all_but_admin_users()
-{
-    if (!current_user_can('update_core')) {
-        remove_action( 'admin_notices', 'update_nag', 3 );
-    }
+function hide_core_update_notifications_from_users() {
+	if ( ! current_user_can( 'update_core' ) ) {
+		remove_action( 'admin_notices', 'update_nag', 3 );
+	}
 }
-add_action( 'admin_head', 'hide_update_notice_to_all_but_admin_users', 1 );
+add_action( 'admin_head', 'hide_core_update_notifications_from_users', 1 );
 
 // function LevelUp_resource_hints( $urls, $relation_type ) {
 // 	if ( wp_style_is( 'LevelUp-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
