@@ -180,8 +180,8 @@ wp_editor( $content , $editor_id, $settings  );
     </th>
     <td>
         <div class="g_one_one">
-            <div><input id="event_modal_options[event_date]" name="event_modal_options[event_date]" type="text" style="width: 100%" value="<?php echo $options_modal[event_date];?>" class="code" placeholder="Дата и время мероприятия" required=""></div>
-            <div><input id="event_modal_options[event_location]" name="event_modal_options[event_location]" type="text" style="width: 100%" value="<?php echo $options_modal[event_location];?>" class="code" placeholder="Локация мероприятия" required=""></div>
+            <div><input id="event_modal_options[event_date]" name="event_modal_options[event_date]" type="text" style="width: 100%" value="<?php echo $options_modal['event_date'];?>" class="code" placeholder="Дата и время мероприятия" required=""></div>
+            <div><input id="event_modal_options[event_location]" name="event_modal_options[event_location]" type="text" style="width: 100%" value="<?php echo $options_modal['event_location'];?>" class="code" placeholder="Локация мероприятия" required=""></div>
         </div>
     </td>
 </tr>

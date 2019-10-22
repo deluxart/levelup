@@ -164,8 +164,8 @@ add_action( 'add_meta_boxes', 'hcf_register_meta_boxes' );
 function wporg_custom_box_html($post)
 {
     $value = get_post_meta($post->ID, '_lvl_meta_sidebar', true);
-    echo '<div class="format-setting type-sidebar-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
-        echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
+    // echo '<div class="format-setting type-sidebar-select ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
+    //     echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
         echo '<div class="format-setting-inner">';
         echo '<label for="custom_sidebar">Выберите Сайдбар</label><select name="custom_sidebar" id="custom_sidebar" class="components-select-control__input">';
 
@@ -176,7 +176,7 @@ function wporg_custom_box_html($post)
 
         echo '</select>';
         echo '</div>';
-        echo '</div>';
+        // echo '</div>';
 
     ?>
     <?php
