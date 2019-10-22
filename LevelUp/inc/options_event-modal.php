@@ -126,12 +126,16 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
 
         <div class="g_one_one colors">
             <div>
-                <input id="event_modal_options[button_color]" name="event_modal_options[button_color]" type="text" style="width: 100%" value="<?php echo $options_modal[button_color];?>" class="code" placeholder="Дата и время мероприятия" required="">
+                <input id="event_modal_options[button_color]" name="event_modal_options[button_color]" type="text" value="<?php echo $options_modal[button_color];?>" class="code" required="">
                 <p class="description">Цвет кнопки в модалке</p>
             </div>
             <div>
-                <input id="event_modal_options[link_color]" name="event_modal_options[link_color]" type="text" style="width: 100%" value="<?php echo $options_modal[link_color];?>" class="code" placeholder="Локация мероприятия" required="">
+                <input id="event_modal_options[link_color]" name="event_modal_options[link_color]" type="text" value="<?php echo $options_modal[link_color];?>" class="code" required="">
                 <p class="description">Цвет ссылок в модалке</p>
+            </div>
+            <div>
+                <input id="event_modal_options[button_text_color]" name="event_modal_options[button_text_color]" type="text" value="<?php echo $options_modal[button_text_color];?>" class="code" required="">
+                <p class="description">Цвет текста на кнопке в модалке</p>
             </div>
         </div>
       </td>
