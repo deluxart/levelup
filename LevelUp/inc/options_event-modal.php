@@ -12,23 +12,23 @@ function event_options_add_page() {
 
 // jQuery
 // wp_enqueue_script('jquery');
-wp_enqueue_media();
 
-function load_wp_media_files() {
-    wp_enqueue_media();
-}
-add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
 
-function add_admin_iris_scripts( $hook ){
-    // подключаем IRIS
+// wp_enqueue_media();
 
-	wp_enqueue_script( 'wp-color-picker' );
-	wp_enqueue_style( 'wp-color-picker' );
+// function load_wp_media_files() {
+//     wp_enqueue_media();
+// }
+// add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
 
-	// подключаем свой файл скрипта
-	// wp_enqueue_script('plugin-script', plugins_url('js/plugin-script.js', __FILE__), array('wp-color-picker'), false, 1 );
-}
-add_action( 'admin_enqueue_scripts', 'add_admin_iris_scripts' );
+// function add_admin_iris_scripts( $hook ){
+//     wp_enqueue_script( 'wp-color-picker' );
+//     wp_enqueue_style( 'wp-color-picker' );
+// }
+// add_action( 'admin_enqueue_scripts', 'add_admin_iris_scripts' );
+
+
+
 
 function event_options_do_page() { global $select_options; if ( ! isset( $_REQUEST['settings-updated'] ) ) $_REQUEST['settings-updated'] = false;
     // here we adding our custom meta box
@@ -226,23 +226,23 @@ wp_editor( $content , $editor_id, $settings  );
 
 
 <div class="event_modal <?php echo $options_modal['modal_delay']; ?>" style="background: url(<?php echo $options_modal['background_url'];?>) center no-repeat; background-size: cover;">
-	<div class="cont">
-		<div><img src="<?php echo $options_modal['image_url'];?>" alt=""></div>
-		<div class="content">
-			<h4><?php echo $options_modal['event_modal_title']; ?></h4>
-			<div class="date-block">
-				<div><strong><?php echo $options_modal['event_date']; ?></strong><?php echo $options_modal['event_location']; ?></div>
-				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
-			</div>
-			<div class="feed-form">
-				<?php echo do_shortcode( wp_unslash($options_modal['contact_form']) ); ?>
-			</div>
-		</div>
-	</div>
+    <div class="cont">
+        <div><img src="<?php echo $options_modal['image_url'];?>" alt=""></div>
+        <div class="content">
+            <h4><?php echo $options_modal['event_modal_title']; ?></h4>
+            <div class="date-block">
+                <div><strong><?php echo $options_modal['event_date']; ?></strong><?php echo $options_modal['event_location']; ?></div>
+                <div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
+            </div>
+            <div class="feed-form">
+                <?php echo do_shortcode( wp_unslash($options_modal['contact_form']) ); ?>
+            </div>
+        </div>
+    </div>
 
-	<div id="setCookie" class="close-icon">
-		<img src="https://levelup.ua/wp-content/uploads/2019/07/cancel-1.svg" alt="">
-	</div>
+    <div id="setCookie" class="close-icon">
+        <img src="https://levelup.ua/wp-content/uploads/2019/07/cancel-1.svg" alt="">
+    </div>
 </div>
 <div class="event_modal-bg"></div>
 
@@ -262,8 +262,8 @@ wp_editor( $content , $editor_id, $settings  );
 
 /*New desing modal for Open Day*/
 .event_modal { background: url(https://levelup.ua/wp-content/uploads/2019/10/bg_career_modal.jpg) center no-repeat; background-size: cover;
-	box-shadow: 1.854px 5.706px 76.95px 18.05px rgba(0, 0, 0, 0.32); border-radius: 10px; position: relative; padding: 0px 0px; max-width: 900px; margin: 0 auto;
-	z-index: 9999999; position: fixed; top: -50%; left: 50%; transform: translate(-50%,-50%); width: 100%; transition-duration: 500ms; font-family: Montserrat; display: none;
+    box-shadow: 1.854px 5.706px 76.95px 18.05px rgba(0, 0, 0, 0.32); border-radius: 10px; position: relative; padding: 0px 0px; max-width: 900px; margin: 0 auto;
+    z-index: 9999999; position: fixed; top: -50%; left: 50%; transform: translate(-50%,-50%); width: 100%; transition-duration: 500ms; font-family: Montserrat; display: none;
 }
 .event_modal.open { top: 50%; transition-duration: 500ms; }
 .event_modal .cont { display: grid; grid-template-columns: auto 1fr; align-items: center;  grid-column-gap: 40px; }
@@ -280,7 +280,7 @@ wp_editor( $content , $editor_id, $settings  );
 .event_modal .close-icon:hover { opacity: 1; }
 
 .event_modal .cont > div > div > div.date-icon { border: 5px solid #fff; background: #15acf2; border-radius: 50%; width: 39px; height: 39px; position: absolute;
-	left: 50%; top: 0; transform: translate(-50%, -50%); text-align: center; padding: 0; box-sizing: border-box; }
+    left: 50%; top: 0; transform: translate(-50%, -50%); text-align: center; padding: 0; box-sizing: border-box; }
 
 .event_modal .cont > div > div > div.date-icon img { width: 19px; position: relative; top: 5px; }
 
@@ -305,7 +305,7 @@ wp_editor( $content , $editor_id, $settings  );
 <script type="text/javascript">
 
 jQuery(document).ready(function($){
-	jQuery('.g_one_one.colors input').wpColorPicker();
+    jQuery('.g_one_one.colors input').wpColorPicker();
 });
 
     jQuery(document).ready(function($){
