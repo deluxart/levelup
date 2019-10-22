@@ -16,10 +16,10 @@ function event_options_add_page() {
 
 // wp_enqueue_media();
 
-// function load_wp_media_files() {
-//     wp_enqueue_media();
-// }
-// add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
+function load_wp_media_files() {
+    wp_enqueue_media();
+}
+add_action( 'admin_enqueue_scripts', 'load_wp_media_files' );
 
 // function add_admin_iris_scripts( $hook ){
 //     wp_enqueue_script( 'wp-color-picker' );
