@@ -563,9 +563,7 @@ jQuery('.program-block').ready(function () {
     var s_head = jQuery('.program-block').children('.spoiler').children('.head').hasClass('active');
     var s_cont = jQuery('.program-block').children('.spoiler').children('.cont').hasClass('active');
 
-    if (s_head == true && s_cont == true) {
-
-    } else {
+    if (s_head == false && s_cont == false) {
         jQuery('.program-block').children('.spoiler').children('.head').first().click();
     }
 });
