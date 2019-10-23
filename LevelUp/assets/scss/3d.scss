@@ -4,6 +4,10 @@
 
 
     #course_slider {
+
+        &.course3d {
+            background-size: 1920px;
+        }
         .content {
             .text {
                 line-height: normal;
@@ -19,10 +23,14 @@
 
                 & > ul {
                     &.desc_list {
+                        display: grid;
+                        grid-row-gap: 17px;
+
                         li {
                             display: grid;
                             grid-template-columns: 20px 1fr;
                             grid-column-gap: 14px;
+                            color: #444444;
 
                             img {
                                 width: 20px;
