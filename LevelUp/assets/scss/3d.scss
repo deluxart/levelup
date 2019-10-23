@@ -7,6 +7,31 @@
         .content {
             .text {
                 line-height: normal;
+
+                & > span {
+                    font-size: 18px;
+                }
+
+                & > h1 {
+                    font-size: 48px;
+                    color: #fff;
+                }
+
+                & > ul {
+                    &.desc_list {
+                        li {
+                            display: grid;
+                            grid-template-columns: 20px 1fr;
+                            grid-column-gap: 14px;
+
+                            img {
+                                width: 20px;
+                                height: 20px;
+                                display: block;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

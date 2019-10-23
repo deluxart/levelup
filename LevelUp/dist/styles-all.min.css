@@ -1,4 +1,4 @@
-@charset "UTF-8";.course-page-3d #course_slider .content .text{line-height:normal}/*!
+@charset "UTF-8";.course-page-3d #course_slider .content .text{line-height:normal}.course-page-3d #course_slider .content .text>span{font-size:18px}.course-page-3d #course_slider .content .text>h1{font-size:48px;color:#fff}.course-page-3d #course_slider .content .text>ul.desc_list li{display:grid;grid-template-columns:20px 1fr;grid-column-gap:14px}.course-page-3d #course_slider .content .text>ul.desc_list li img{width:20px;height:20px;display:block}/*!
  * animate.css -http://daneden.me/animate
  * Version - 3.7.0
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
