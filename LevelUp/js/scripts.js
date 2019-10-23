@@ -558,6 +558,19 @@ jQuery('.spoiler > .head').on('click', function(e){
   e.preventDefault();
 });
 
+
+jQuery('.program-block').ready(function () {
+    var s_head = jQuery('.program-block').children('.spoiler').children('.head').hasClass('active');
+    var s_cont = jQuery('.program-block').children('.spoiler').children('.cont').hasClass('active');
+
+    if (s_head == true && s_cont == true) {
+
+    } else {
+        jQuery('.program-block').children('.spoiler').children('.head').first().click();
+    }
+});
+
+
 // For tables
 jQuery('#courses_schedulle_tbl .price-new-bottom').each(function(i) {
     if (jQuery(this).children('span.price-table-portfolios-new').text().length <= 3) {
@@ -611,6 +624,8 @@ jQuery('#courses_schedulle_tbl tr').each(function() {
         jQuery(this).removeClass('d-none');
     }
 });
+
+
 
 
 jQuery('.conf_tabs > div.first_tab').click(function(event) {

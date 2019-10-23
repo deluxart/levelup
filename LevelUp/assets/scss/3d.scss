@@ -1,17 +1,28 @@
 .course-page-3d {
+    background: url(https://levelup.ua/wp-content/uploads/2019/10/bg_header-1.jpg) top center;
+    background-size: 1920px;
+    background-position: top center;
+    background-repeat: no-repeat;
 
-
+    h2 {
+        color: #003cff;
+        font-weight: 900;
+        padding: 0;
+        margin-bottom: 40px;
+    }
 
 
     #course_slider {
 
         &.course3d {
-            background-size: 1920px;
-            background-position: top center;
-            background-repeat: no-repeat;
+            background: none;
         }
         .content {
+            min-height: 54vh;
+            padding-top: 165px;
+
             .text {
+                text-shadow: none;
                 line-height: normal;
 
                 & > span {
@@ -21,6 +32,29 @@
                 & > h1 {
                     font-size: 48px;
                     color: #fff;
+                    margin-bottom: 30px;
+                }
+
+                & > p {
+                    &.date-start {
+                        font-size: 18px;
+                        color: #003cff;
+                    }
+
+                    &.reg-btn {
+                        &.btn-blue {
+                            a.sg-show-popup {
+                                background: #003cff;
+                                border: none;
+                                transition: 0.3s all;
+
+                                &:hover {
+                                    background: #0033d8;
+                                    border: none !important;
+                                }
+                            }
+                        }
+                    }
                 }
 
                 & > ul {
@@ -49,7 +83,208 @@
 
 
 
+#details3d {
+    padding: 30px 50px;
 
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+
+        & > div {
+            & > div {
+                display: grid;
+                grid-template-columns: 90px 1fr;
+                align-items: center;
+
+                img {
+                    display: block;
+                    width: 90px;
+                    height: 90px;
+                }
+
+                h4 {
+                    font-size: 20px;
+                    font-weight: 900;
+                    color: #003cff;
+                }
+
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+#about3d {
+    padding: 40px 0;
+    .content {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-gap: 40px;
+
+        .text {
+            h5 {
+                font-size: 20px;
+                color: #003cff;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+        }
+
+        .image {
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+#program3d {
+    .content {
+        .program-block {
+            background: #003cff;
+            border-radius: 10px;
+            overflow: hidden;
+
+            .spoiler {
+                .head {
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding: 20px 26px;
+
+                    &:after {
+                        display: none;
+                    }
+
+                    &:hover {
+                        background-image: none !important;
+                        background: #ffffff1c;
+                    }
+
+                    &.active {
+                        background: #0032d3;
+                    }
+                }
+
+                &:before {
+                    display: none;
+                }
+
+                &:after {
+                    display: none;
+                }
+
+                .cont {
+                    padding: 10px;
+                    ul {
+                        & > li {
+                            position: relative;
+                            padding: 5px 0 5px 30px;
+                            color: #fff;
+
+                            &:before {
+                                content: '';
+                                width: 5px;
+                                height: 5px;
+                                position: absolute;
+                                background: #ffffff;
+                                text-align: center;
+                                top: 13px;
+                                left: 12px;
+                                z-index: 9;
+                                border-radius: 30px;
+                            }
+
+                            &:after {
+                                content: '';
+                                height: calc(100% - 15px);
+                                width: 1px;
+                                position: absolute;
+                                background: #5c7ada;
+                                top: 23px;
+                                left: 14px;
+                                z-index: 9;
+                            }
+
+                            &:last-child {
+                                &:after {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    &.active {
+                        background: #0032d3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+#prepod3d {
+    .slick-slide {
+        padding: 75px;
+    }
+    .teacher-lvl {
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 17.5px 7.311px 52px 0px rgba(0, 60, 255, 0.13);
+        grid-template-columns: 300px 1fr;
+        overflow: hidden;
+        grid-column-gap: 0;
+
+        .text {
+            padding: 40px 60px;
+
+            h4 {
+                font-size: 30px;
+                color: #003cff;
+                font-weight: 900;
+            }
+        }
+
+        .photo {
+            background: none;
+            height: auto;
+
+            img {
+                border-radius: 0;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .slick-next {
+        right: 0;
+    }
+
+    .slick-prev {
+        left: 0;
+    }
+
+    .slick-next::before, .slick-prev::before {
+        font-size: 46px;
+    }
+
+    .slick-next, .slick-prev {
+        height: 47px;
+    }
+}
 
 
 
