@@ -1,6 +1,8 @@
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
   margin: 0;	padding: 0;	border: 0;	font-size: 100%;	vertical-align: baseline;	background: transparent; }
 
+.wpcf7-form { overflow: hidden; }
+
 
 .widget_categories ul > li {  border-bottom: 1px solid #ededed; position: relative; padding-left: 17px; }
 .widget_categories ul > li:before { content: "\f105";font-family: FontAwesome; left: 0px; transition: 0.3s all; position: absolute; font-size: 17px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; }
