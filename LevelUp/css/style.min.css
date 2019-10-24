@@ -1444,8 +1444,8 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 
 .course_program ul li:before {content: "\f105";font-family: FontAwesome;font-style: normal;font-weight: normal;text-decoration: inherit;color: #fff6;font-size: 18px;padding-right: 0.5em;position: absolute;top: -2px;left: 0;}
 .course_program ul li {position: relative; padding-left: 15px; padding-bottom: 10px;}
-.course_program ul li > ul { margin-top: 12px; }
-.course_program ul li > ul li:before { content: "°"; }
+.course_program ul li > ul { margin-top: 12px; font-size: 14px !important; }
+.course_program ul li > ul li:before { content: "°"; top: 0px; color: #ffffffad; }
 .course_program ul li:last-child {padding-bottom:0;}
 
 .company-title {color: #15acf2;font-size: 22px;display: grid; grid-template-columns: minmax(80px,80px) 1fr;padding-top: 20px;align-items: center; grid-column-gap: 10px;}
