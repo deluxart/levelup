@@ -550,23 +550,13 @@ jQuery(document).ready(function () {
 
 // Uneversal spoiler
 jQuery('.spoiler > .head').on('click', function(e){
-    // jQuery('.spoiler > .cont').stop().slideUp(300);
-    // jQuery('.spoiler > .head').not(this).removeClass('active');
-    jQuery(this).parent('div.spoiler').children('.cont').stop().slideToggle(300).toggleClass('active');
-    jQuery(this).toggleClass('active');
-    e.preventDefault();
-  });
-
-
-// jQuery('.spoiler > .head').on('click', function(e){
-//   jQuery('.spoiler > .cont').stop().slideUp('slow');
-//   jQuery('.spoiler > .head').not(this).removeClass('active');
-//   jQuery('.spoiler > .cont').not(this).removeClass('active');
-//   jQuery(this).parent('div.spoiler').children('.cont').stop().slideToggle('slow').toggleClass('active');
-//   jQuery(this).toggleClass('active');
-//   e.preventDefault();
-// });
-
+  jQuery('.spoiler > .cont').stop().slideUp('slow');
+  jQuery('.spoiler > .head').not(this).removeClass('active');
+  jQuery('.spoiler > .cont').not(this).removeClass('active');
+  jQuery(this).parent('div.spoiler').children('.cont').stop().slideToggle('slow').toggleClass('active');
+  jQuery(this).toggleClass('active');
+  e.preventDefault();
+});
 
 jQuery('.program-block').ready(function () {
     var s_head = jQuery('.program-block').children('.spoiler').children('.head').hasClass('active');
@@ -576,7 +566,6 @@ jQuery('.program-block').ready(function () {
         jQuery('.program-block').children('.spoiler').children('.head').first().click();
     }
 });
-
 
 // For tables
 jQuery('#courses_schedulle_tbl .price-new-bottom').each(function(i) {
