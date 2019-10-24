@@ -38,17 +38,17 @@ add_action("admin_init", "admin_init_program");
     function meta_options_program(){
         global $post;
         $custom = get_post_custom($post->ID);
-        // $job_position = $custom["job_position"][0];
+        // $program_meta= $custom["program_meta"][0];
         $custom_id = $post->ID;
 ?>
-    <!-- <label>Должность:</label><input name="job_position" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" /> -->
+    <!-- <label>Должность:</label><input name="program_meta" type="text" style="width: 100%;" value="<?php echo $program_meta; ?>" /> -->
     <label>Айдишник:</label><input name='program_id' type='text' style='width: 100%;' value='[program id="<?php echo $custom_id; ?>"]' readonly/>
 <?php
     }
 
 	function save_course_program(){
 		global $post;
-		update_post_meta($post->ID, "job_position", $_POST["job_position"]);
+		update_post_meta($post->ID, "program_meta", $_POST["program_meta"]);
 	}
 
 
