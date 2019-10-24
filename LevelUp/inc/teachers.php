@@ -60,14 +60,14 @@ function lvl_teachers() {
 
 
 
-add_action("admin_init", "admin_init");
+add_action("admin_init", "admin_init_teacher");
     add_action('save_post', 'save_job_position');
 
-    function admin_init(){
-        add_meta_box("job_position", "Дополнительно", "meta_options", "teachers", "side", "high");
+    function admin_init_teacher(){
+        add_meta_box("job_position", "Дополнительно", "meta_options_teacher", "teachers", "side", "high");
     }
 
-    function meta_options(){
+    function meta_options_teacher(){
         global $post;
         $custom = get_post_custom($post->ID);
         $job_position = $custom["job_position"][0];
