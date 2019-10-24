@@ -9,6 +9,8 @@
 .it-conference #conf_partners .block_btn { position: relative; background: none; left: auto; bottom: auto; padding: 0; text-align: center; transform: none;}
 .it-conference #conf_partners .content { grid-template-columns: repeat(4, 1fr);}
 
+.it-conference .wpcf7-form div.wpcf7-mail-sent-ok { margin: 0; background: none; border: 0; bottom: -3px; font-size: 14px; }
+.it-conference div.wpcf7 .ajax-loader { position: absolute; }
 .it-conference #conf_about .content .block.block_one .image:before { position: absolute; width: 347px; height: 312px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_1.png);
     top: -50px; left: 50%; transform: translateX(-40%); background-size: contain; background-repeat: no-repeat; }
 .it-conference #conf_about .content .block.block_two .image:before { position: absolute; width: 62px; height: 284px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_2.png); left: 150px; z-index: 1; }
