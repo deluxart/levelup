@@ -794,6 +794,7 @@
         background-color: #003cff;
         display: grid;
         grid-template-columns: auto 1fr;
+        align-items: center;
 
         .left-side {
             background: #fff;
@@ -820,6 +821,72 @@
                         font-size: 20px;
                         font-weight: 900;
                         color: #003cff;
+                    }
+                }
+            }
+        }
+
+        .right-side {
+            .form-cont {
+                h2 {
+                    color: #fff;
+                }
+
+                .wpcf7 {
+                    max-width: 370px;
+                    margin: 0 auto;
+
+                    .ajax-loader {
+                        position: absolute;
+                    }
+
+                    .wpcf7-form {
+                        display: grid;
+                        grid-row-gap: 30px;
+
+                        & > p {
+                            margin: 0;
+                            position: absolute;
+                        }
+                    }
+                }
+
+                p {
+                    &.submit_cf {
+                        padding: 0;
+                        margin: 0;
+                        text-align: center;
+                        position: relative !important;
+
+                        input.wpcf7-form-control.wpcf7-submit {
+                            margin: 0;
+                        }
+                    }
+                }
+
+                .form_input_cf {
+                    border: 0;
+                    border-radius: 0px;
+                    background: none;
+                    padding: 0;
+                    width: 100%;
+                    position: relative;
+
+                    & > i {
+                        position: absolute;
+                        z-index: 1;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 20px;
+                        width: 16px;
+                    }
+
+                    .wpcf7-form-control-wrap input {
+                        background: #fff;
+                        width: 100%;
+                        height: auto;
+                        padding: 11px 20px 11px 55px;
+                        border-radius: 30px;
                     }
                 }
             }
