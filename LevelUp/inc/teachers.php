@@ -60,30 +60,81 @@ function lvl_teachers() {
 
 
 
-add_action("admin_init", "admin_init_teacher");
-    add_action('save_post', 'save_job_position');
+// add_action("admin_init", "admin_init_teacher");
+// add_action('save_post', 'save_job_position');
+add_action('add_meta_boxes', 'admin_init_teacher');
+function admin_init_teacher(){
+    $screens = array( 'teachers' );
+    add_meta_box("job_position_teacher", "Дополнительно", "meta_options_teacher", "teachers", "side", "high");
+}
 
-    function admin_init_teacher(){
-        add_meta_box("job_position", "Дополнительно", "meta_options_teacher", "teachers", "side", "high");
-    }
+// function meta_options_teacher(){
+//         global $post;
+//         $custom_teacher = get_post_custom($post->ID);
+//         $job_position = $custom_teacher["job_position"][0];
+//         $custom_id_teacher = $post->ID;
+//         ?>
+//             <label>Должность:</label><input name="job_position" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" />
+//             <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $custom_id_teacher; ?>"]' readonly/>
+//         <?php
+// }
 
-    function meta_options_teacher(){
-        global $post;
-        $custom = get_post_custom($post->ID);
-        $job_position = $custom["job_position"][0];
-        $custom_id = $post->ID;
-        // $post_slug = $post->post_name;
+
+
+// HTML код блока
+function meta_options_teacher( $post, $meta ){
+	$screens = $meta['args'];
+
+	// Используем nonce для верификации
+	wp_nonce_field( plugin_basename(__FILE__), 'teacher_noncename' );
+
+	// значение поля
+	$job_position = get_post_meta( $post->ID, 'job_position', 1 );
 ?>
-    <label>Должность:</label><input name="job_position" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" />
-    <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $custom_id; ?>"]' readonly/>
-    <!-- <label>SLUG:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $post_slug; ?>"]' readonly/> -->
+    <label for="job_position">Должность:</label><input name="job_position_field" id="job_position_field" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" />
+    <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $custom_id_teacher; ?>"]' readonly/>
 <?php
+}
+
+
+    // function save_job_position($post_id){
+    //     global $post;
+    //     $my_data = sanitize_text_field( $_POST['job_position'] );
+    //     update_post_meta( $post_id, 'job_position', $my_data );
+    // }
+
+
+
+    add_action( 'save_post', 'job_position_save' );
+    function job_position_save( $post_id ) {
+        if ( ! isset( $_POST['job_position_field'] ) )
+            return;
+
+        if ( ! wp_verify_nonce( $_POST['teacher_noncename'], plugin_basename(__FILE__) ) )
+            return;
+
+        if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
+            return;
+
+        if( ! current_user_can( 'edit_post', $post_id ) )
+            return;
+
+        $my_data = sanitize_text_field( $_POST['job_position_field'] );
+
+        update_post_meta( $post_id, 'job_position', $my_data );
     }
 
-    function save_job_position(){
-        global $post;
-        update_post_meta($post->ID, "job_position", $_POST["job_position"]);
-    }
+
+
+
+
+
+
+
+
+
+
+
 
 
     add_shortcode( 'teacher',  'call_shortcode_teacher' );
