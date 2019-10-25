@@ -76,7 +76,8 @@ function meta_options_teacher( $post, $meta ){
 	wp_nonce_field( plugin_basename(__FILE__), 'teacher_noncename' );
 
 	// значение поля
-	$job_position = get_post_meta( $post->ID, 'job_position', 1 );
+    $job_position = get_post_meta( $post->ID, 'job_position', 1 );
+    $custom_id_teacher = get_post_meta( $post->ID );
 ?>
     <label for="job_position">Должность:</label><input name="job_position_field" id="job_position_field" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" />
     <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $custom_id_teacher; ?>"]' readonly/>
