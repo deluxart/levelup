@@ -68,19 +68,6 @@ function admin_init_teacher(){
     add_meta_box("job_position_teacher", "Дополнительно", "meta_options_teacher", "teachers", "side", "high");
 }
 
-// function meta_options_teacher(){
-//         global $post;
-//         $custom_teacher = get_post_custom($post->ID);
-//         $job_position = $custom_teacher["job_position"][0];
-//         $custom_id_teacher = $post->ID;
-//         ?>
-//             <label>Должность:</label><input name="job_position" type="text" style="width: 100%;" value="<?php echo $job_position; ?>" />
-//             <label>Айдишник:</label><input name='teacher_id' type='text' style='width: 100%;' value='[teacher id="<?php echo $custom_id_teacher; ?>"]' readonly/>
-//         <?php
-// }
-
-
-
 // HTML код блока
 function meta_options_teacher( $post, $meta ){
 	$screens = $meta['args'];
