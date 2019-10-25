@@ -101,7 +101,8 @@
 #level_footer.light .content .block ul.soc_links li { background: #003cff; box-shadow: none; }
 #level_footer.light .content .block ul.soc_links li i { color: #fff; }
 /* End - For light sheme style */
-
+.wp_queries { background: #25262b;color: #595959;font-size: 11px; padding: 7px 0; }
+.wp_queries.light { background: #f7f7f7; }
 
 @media (max-width: 992px) {
     #level_footer .content { grid-template-columns: 1fr 1fr; }

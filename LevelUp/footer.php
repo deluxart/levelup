@@ -197,7 +197,7 @@ jQuery(document).ready(function(){
         <div class="price-input" style="display:none">[text text-746 id:event_price]</div>
         <div class="date-input" style="display:none">[text text-747 id:event_date]</div>
         <?php if (current_user_can('level_10')) { ?>
-        <div class="tc" style="background: #25262b;color: #595959;font-size: 11px; padding: 7px 0;">Запросы: <?php echo get_num_queries(); ?></div>
+        <div class="tc wp_queries <?php the_field( 'footer_color' ); ?>" style="">Запросы: <?php echo get_num_queries(); ?></div>
         <?php } ?>
 
 <script src="https://e-timer.ru/js/etimer.js"></script>
@@ -208,9 +208,5 @@ jQuery(document).ready(function(){
 		});
 	});
 </script>
-<p class="d-none">
-
-
-</p>
 </body>
 </html>
