@@ -95,11 +95,11 @@
 
 /* For light sheme style */
 #level_footer.light { background: none; color: #444444; }
-#level_footer.light .content .block h2.widget-title, #level_footer.light .content .block .a-link.phone a, #level_footer.light .content .block i { color: #003cff; }
+#level_footer.light .content .block h2.widget-title, #level_footer.light .content .block .a-link.phone a, #level_footer.light .content .block i, #level_footer.light .content .block .a-link.location i, #level_footer.light .subscribe span, #level_footer.light .text-copyright span.blue, #level_footer.light .text-copyright { color: #003cff; }
 #level_footer.light .content .block::before { background: #dadada; }
-#level_footer.light .content .block a { color: #444; }
+#level_footer.light .content .block a { color: #444; font-weight: 300; }
 #level_footer.light .content .block ul.soc_links li { background: #003cff; box-shadow: none; }
-#level_footer.dark .content .block ul.soc_links li i { color: #fff; }
+#level_footer.light .content .block ul.soc_links li i { color: #fff; }
 /* End - For light sheme style */
 
 
