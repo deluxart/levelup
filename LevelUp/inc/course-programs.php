@@ -81,10 +81,6 @@ add_shortcode( 'program',  'call_shortcode_program' );
     }
 
 
-
-
-
-
     add_filter( 'manage_edit-course-programs_columns', 'my_edit_programs_columns' ) ;
     function my_edit_programs_columns( $columns ) {
         $columns = array(
@@ -108,8 +104,6 @@ add_shortcode( 'program',  'call_shortcode_program' );
                 if ( empty( $shortcode ) )
                     echo __( 'Unknown' );
                 else
-                    // printf( __( '[program id="%s"]' ), $shortcode );
-                    // <input type="text" onfocus="this.select();" readonly="" value="[sg_popup id=6796]" class="large-text code">
                     printf( __( '<input type="text" onfocus="this.select();" style="width: auto;max-width: 142px;" readonly="" value="[program id=%s]" class="large-text code">' ), $shortcode );
             break;
 
