@@ -1,32 +1,22 @@
 <?php
+// Register Post Type - Teachers
 add_action( 'init', 'lvl_teachers' );
-
 function lvl_teachers() {
-
-    // Раздел вопроса - faqcat
     register_taxonomy('teacherscat', array('teachers'), array(
-        'label'                 => 'Категории', // определяется параметром $labels->name
+        'label'                 => 'Категории',
         'labels'                => array(
             'name'              => 'Курс преподавателя',
-            // 'singular_name'     => 'Раздел вопроса',
-            // 'search_items'      => 'Искать Раздел вопроса',
             'all_items'         => 'Курс',
-            // 'parent_item'       => 'Родит. раздел вопроса',
-            // 'parent_item_colon' => 'Родит. раздел вопроса:',
-            // 'edit_item'         => 'Ред. Раздел вопроса',
-            // 'update_item'       => 'Обновить Раздел вопроса',
-            // 'add_new_item'      => 'Добавить Раздел вопроса',
-            // 'new_item_name'     => 'Новый категория',
             'menu_name'         => 'Категории (Курсы)',
         ),
-        'description'           => 'Категории для преподавателей', // описание таксономии
+        'description'           => 'Категории для преподавателей',
         'public'                => true,
-        'show_in_nav_menus'     => false, // равен аргументу public
-        'show_ui'               => true, // равен аргументу public
-        'show_tagcloud'         => false, // равен аргументу show_ui
+        'show_in_nav_menus'     => false,
+        'show_ui'               => true,
+        'show_tagcloud'         => false,
         'hierarchical'          => true,
         'rewrite'               => array('slug'=>'teachers', 'hierarchical'=>false, 'with_front'=>false, 'feed'=>false ),
-        'show_admin_column'     => true, // Позволить или нет авто-создание колонки таксономии в таблице ассоциированного типа записи. (с версии 3.5)
+        'show_admin_column'     => true,
     ) );
 
     $labels = array(
@@ -57,25 +47,18 @@ function lvl_teachers() {
     );
     register_post_type('teachers', $args);
 }
+// End - Register Post Type - Teachers
 
-
-
-// add_action("admin_init", "admin_init_teacher");
-// add_action('save_post', 'save_job_position');
+// Add custom Meta Box for job position
 add_action('add_meta_boxes', 'admin_init_teacher');
 function admin_init_teacher(){
     $screens = array( 'teachers' );
     add_meta_box("job_position_teacher", "Дополнительно", "meta_options_teacher", "teachers", "side", "high");
 }
 
-// HTML код блока
 function meta_options_teacher( $post, $meta ){
 	$screens = $meta['args'];
-
-	// Используем nonce для верификации
 	wp_nonce_field( plugin_basename(__FILE__), 'teacher_noncename' );
-
-	// значение поля
     $job_position = get_post_meta( $post->ID, 'job_position', 1 );
     $custom_id_teacher = $post->ID;
 ?>
@@ -84,69 +67,47 @@ function meta_options_teacher( $post, $meta ){
 <?php
 }
 
+add_action( 'save_post', 'job_position_save' );
+function job_position_save( $post_id ) {
+    if ( ! isset( $_POST['job_position_field'] ) )
+        return;
+    if ( ! wp_verify_nonce( $_POST['teacher_noncename'], plugin_basename(__FILE__) ) )
+        return;
+    if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
+        return;
+    if( ! current_user_can( 'edit_post', $post_id ) )
+        return;
+    $teacher_data = sanitize_text_field( $_POST['job_position_field'] );
+    update_post_meta( $post_id, 'job_position', $teacher_data );
+}
 
-    // function save_job_position($post_id){
-    //     global $post;
-    //     $my_data = sanitize_text_field( $_POST['job_position'] );
-    //     update_post_meta( $post_id, 'job_position', $my_data );
-    // }
-
-
-
-    add_action( 'save_post', 'job_position_save' );
-    function job_position_save( $post_id ) {
-        if ( ! isset( $_POST['job_position_field'] ) )
-            return;
-
-        if ( ! wp_verify_nonce( $_POST['teacher_noncename'], plugin_basename(__FILE__) ) )
-            return;
-
-        if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
-            return;
-
-        if( ! current_user_can( 'edit_post', $post_id ) )
-            return;
-
-        $my_data = sanitize_text_field( $_POST['job_position_field'] );
-
-        update_post_meta( $post_id, 'job_position', $my_data );
-    }
+// End - Add custom Meta Box for job position
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-    add_shortcode( 'teacher',  'call_shortcode_teacher' );
+add_shortcode( 'teacher',  'call_shortcode_teacher' );
     function call_shortcode_teacher( $atts ) {
-        ob_start();
-        $atts = shortcode_atts( array( 'id' => null ), $atts );
-        $teacher_query = new WP_Query( array(
-            'post_type' => 'teachers',
-            'p' => intval( $atts['id'] )
-        ));
+    ob_start();
+    $atts = shortcode_atts( array( 'id' => null ), $atts );
+    $teacher_query = new WP_Query( array(
+        'post_type' => 'teachers',
+        'p' => intval( $atts['id'] )
+    ));
 
-        echo '<div class="teacher">';
-        if ( $teacher_query->have_posts() ) :
-            while ( $teacher_query->have_posts() ) : $teacher_query->the_post();
-                get_template_part( 'template-parts/teacher', get_post_format() );
-            endwhile;
-        else :
-            get_template_part( 'template-parts/content', 'none' );
-        endif;
-        echo '</div>';
+    echo '<div class="teacher">';
+    if ( $teacher_query->have_posts() ) :
+        while ( $teacher_query->have_posts() ) : $teacher_query->the_post();
+            get_template_part( 'template-parts/teacher', get_post_format() );
+        endwhile;
+    else :
+        get_template_part( 'template-parts/content', 'none' );
+    endif;
+    echo '</div>';
 
-        wp_reset_postdata();
+    wp_reset_postdata();
         return ob_get_clean();
-    }
+}
 
 add_filter( 'manage_edit-teachers_columns', 'my_edit_teachers_columns' ) ;
 function my_edit_teachers_columns( $columns ) {
@@ -173,7 +134,6 @@ function my_manage_teachers_columns( $column, $post_id ) {
                 echo __( 'Unknown' );
             else
                 printf( __( '<input type="text" onfocus="this.select();" style="width: auto;max-width: 142px;" readonly="" value="[teacher id=%s]" class="large-text code">' ), $shortcode );
-                // printf( __( '[teacher id="%s"]' ), $shortcode );
         break;
 
         case 'riv_post_thumbs' :
