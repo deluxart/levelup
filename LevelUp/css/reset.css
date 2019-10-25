@@ -4,7 +4,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   /* Reset style for CF 7 */
 .wpcf7-form { overflow: hidden; }
 span.wpcf7-not-valid-tip { position: absolute; margin: 0; top: 0; right: 20px; }
-.wpcf7-form .ajax-loader { position: absolute; left: 50%; margin: 0; top: 50%; transform: translate(-50%, -50%); background-color: #f5f34f; width: 90%; background-repeat: no-repeat; background-position: center; background-image: url(../img/loading_gray.svg); background-size: 36px 36px; }
+.entry-content .wpcf7-form .ajax-loader { position: absolute; left: 50%; margin: 0; top: 50%; transform: translate(-50%, -50%); background-color: #f5f34f; width: 90%; background-repeat: no-repeat; background-position: center; background-image: url(../img/loading_gray.svg); background-size: 36px 36px; }
   /* End - Reset style for CF 7 */
 
 .widget_categories ul > li {  border-bottom: 1px solid #ededed; position: relative; padding-left: 17px; }

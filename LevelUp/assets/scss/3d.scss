@@ -127,7 +127,7 @@
 
 
 #details3d {
-    padding: 30px 50px;
+    padding: 60px 50px;
 
     .content {
         display: grid;
@@ -215,7 +215,7 @@
 
 
 #about3d {
-    padding: 40px 0;
+    padding: 40px 0 60px 0;
     .content {
         display: grid;
         grid-template-columns: 1fr auto;
@@ -239,7 +239,7 @@
 
 
 #why_in_course {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     position: relative;
     .content {
         display: grid;
@@ -331,7 +331,7 @@
         .foot-sec {
             display: grid;
             grid-template-columns: auto 1fr;
-            background: #013bf6;
+            background: #013bf6 url(https://levelup.ua/wp-content/uploads/2019/10/blue_pattern_logo.png) left bottom no-repeat;
             padding: 50px;
             grid-gap: 50px;
             border-radius: 0 0 16px 16px;
@@ -364,7 +364,7 @@
 
 #program3d {
     background: #f6f6f6;
-    padding-top: 100px;
+    padding-top: 70px;
 
     .content {
         .program-block {
@@ -453,6 +453,9 @@
 
 #prepod3d {
     position: relative;
+    background: url(https://levelup.ua/wp-content/uploads/2019/10/bg_prepods3d.png) center no-repeat;
+    background-size: contain;
+    padding-top: 30px;
 
     .container {
         & > h2 {
@@ -522,10 +525,12 @@
 
 
 #employment {
+    background: #f6f6f6;
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 50px;
+        align-items: center;
 
         .text {
             ul {
@@ -556,6 +561,10 @@
 
 
 #fishki {
+
+    &.course {
+        padding: 50px 0 70px 0;
+    }
     .cont {
         counter-reset: myCounter;
         display: grid;
@@ -611,15 +620,15 @@
 
                 &:before {
                     position: absolute;
-                    font-size: 215px;
+                    font-size: 180px;
                     counter-increment: myCounter;
                     content: counter(myCounter,decimal-leading-zero);
-                    bottom: 6px;
+                    bottom: 0px;
                     right: -1px;
-                    color: #ffffff2e;
+                    color: #ffffff1c;
                     font-weight: 900;
                     z-index: 0;
-                    line-height: 169px;
+                    line-height: 125px;
                     z-index: -1;
                 }
 
@@ -675,6 +684,30 @@
         grid-template-columns: auto 1fr;
         align-items: center;
         grid-gap: 40px;
+
+        .text {
+            .cont {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 40px;
+
+                & > div {
+                    position: relative;
+                    padding-left: 30px;
+
+                    &:before {
+                        position: absolute;
+                        content: '';
+                        width: 10px;
+                        height: 10px;
+                        background: #2400ff;
+                        border-radius: 30px;
+                        left: 0;
+                        top: 6px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -791,10 +824,13 @@
     padding: 70px 0;
     .content {
         border-radius: 10px;
-        background-color: #003cff;
+        // background-color: #003cff;
+        background: #003cff url(https://levelup.ua/wp-content/uploads/2019/10/bg_form_logo.png) right bottom no-repeat;
+        background-size: contain;
         display: grid;
         grid-template-columns: auto 1fr;
         align-items: center;
+         box-shadow: 0px 44px 84.39px 2.61px rgba(0, 72, 255, 0.25);
 
         .left-side {
             background: #fff;
@@ -843,6 +879,7 @@
                     .wpcf7-form {
                         display: grid;
                         grid-row-gap: 30px;
+                        overflow: visible;
 
                         & > p {
                             margin: 0;
@@ -860,6 +897,12 @@
 
                         input.wpcf7-form-control.wpcf7-submit {
                             margin: 0;
+                            background: #fff000;
+                            color: #444444;
+                            font-size: 14px;
+                            border: 0;
+                            box-shadow: 0px 43px 57.23px 1.77px rgba(255, 240, 0, 0.57);
+                            padding: 11px 60px;
                         }
                     }
                 }
@@ -895,4 +938,70 @@
 }
 
 
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    .course-page-3d #course_slider .content { padding-top: 197px; }
+}
+
+
+
+
+@media (max-width: 992px) {
+    .course-page-3d #course_slider .content > div:first-child { display: block; }
+    .course-page-3d #course_slider .content .text { grid-row: 2; }
+    .course-page-3d #course_slider .content .text > h1 { color: #003cff; }
+    .course-page-3d #course_slider .content { text-align: left; padding-top: 80px; }
+    .course-page-3d #course_slider .content .text { color: #444; }
+    .course-page-3d #course_slider { overflow: visible; }
+
+
+    .course-page-3d #details3d .content { grid-template-columns: 1fr; grid-gap: 10px; padding: 40px 50px 10px 50px;}
+    .course-page-3d #details3d { padding: 10px 20px;}
+    .course-page-3d #about3d .content { grid-template-columns: 1fr; }
+    .course-page-3d #why_in_course .content { grid-template-columns: 1fr; }
+    .course-page-3d #for_you3d .content .text .cont { grid-template-columns: 1fr; }
+    .course-page-3d #fishki .cont { grid-template-columns: 1fr; }
+    .course-page-3d #employment .content { display: block; }
+    .course-page-3d #employment .content .text { margin-bottom: 30px; }
+    .course-page-3d #feed-form3d .content { grid-template-columns: 1fr; padding-bottom: 40px; }
+    .course-page-3d #prepod3d .teacher-lvl { grid-template-columns: 1fr; grid-gap: 0; }
+    .course-page-3d #skills3d .content .foot-sec { background-size: contain; grid-template-columns: 1fr; grid-gap: 30px; }
+
+
+    .course-page-3d #after_course .container .cont { grid-template-columns: 1fr; grid-row-gap: 40px; }
+    .course-page-3d #after_course .container .cont .block .dr { text-align: left; }
+    .course-page-3d #after_course .container .cont .empty { display: none; }
+    .course-page-3d #after_course .container .cont { background: none; }
+    .course-page-3d #after_course .container .cont .block::before { font-size: 82px; }
+    .course-page-3d #after_course .container .cont .block span { max-width: 100%; }
+
+    .course-page-3d #feed-form3d .content .left-side { margin: 40px; padding: 40px; }
+    .course-page-3d #feed-form3d .content .left-side > div > div { margin: 0; }
+
+    .course-page-3d #for_you3d .content { grid-template-columns: 300px 1fr; }
+
+    .course-page-3d #skills3d .content .top-sec { grid-template-columns: 1fr 1fr; }
+    .course-page-3d #skills3d .content .top-sec .image { display: none; }
+    .course-page-3d #feed-form3d { padding-bottom: 20px; }
+    .course-page-3d #employment .slick-dotted.slick-slider { margin: 0; }
+    .course-page-3d #about3d .content .text h5 { line-height: normal; }
+    .course-page-3d #skills3d .content .foot-sec h2 span { display: inline-block; }
+
+    .course-page-3d #course_slider .content .text > p.reg-btn { position: relative; left: 0; transform: none; padding: 0px; border-radius: 50px 50px 0 0; text-align: center; }
+}
+
+
+
+@media (max-width: 768px) {
+    .course-page-3d #program3d { padding-top: 20px; }
+    .course-page-3d #program3d .content .program-block .spoiler .head { font-size: 16px; }
+    .course-page-3d #skills3d { padding-top: 50px; padding-bottom: 40px; }
+    .course-page-3d #for_you3d .content { grid-template-columns: 1fr; }
+    .course-page-3d #skills3d .content .top-sec { grid-template-columns: 1fr; }
+    .course-page-3d #skills3d .content .foot-sec .logos { grid-template-columns: 1fr 1fr; }
 }
