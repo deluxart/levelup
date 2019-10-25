@@ -48,7 +48,7 @@
         </svg>
 <div>
 
-<header id="header" class="fixed-top header-color">
+<header id="header" class="fixed-top header-color <?php the_field( 'header_color' ); ?>">
  <nav class="navbar navbar-expand-lg navbar-dark bg-kirpichik static-top">
   <div class="container">
     <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">

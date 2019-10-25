@@ -17,7 +17,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main <?php the_field( 'header_color' ); ?>" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
