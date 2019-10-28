@@ -4,6 +4,30 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 section#reg-offer-two { display: none !important; }
 
 
+/* Animate for IT-Conference */
+@-webkit-keyframes backlight {
+  0% { -webkit-transform: translate(0, 0); }
+  50% { -webkit-transform: translate(0px, 30px); }
+  100% { -webkit-transform: translate(0, 0); }
+}
+@-moz-keyframes backlight {
+  0% { -moz-transform: translate(0, 0); }
+  50% { -moz-transform: translate(0px, 30px); }
+  100% { -moz-transform: translate(0, 0); }
+}
+@-o-keyframes backlight {
+  0% { -o-transform: translate(0, 0); }
+  50% { -o-transform: translate(0px, 30px); }
+  100% { -o-transform: translate(0, 0); }
+}
+@keyframes backlight {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(0px, 30px); }
+  100% { transform: translate(0, 0); }
+}
+/* End - Animate for IT-Conference */
+
+
 
 
   /* Reset style for CF 7 */
