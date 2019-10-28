@@ -1,4 +1,5 @@
 .it-conference span.wpcf7-not-valid-tip { position: absolute; right: 0; top: 0; margin: 0; }
+.it-conference #conf_about .block_btn { z-index: 11; }
 .it-conference .wpcf7-form-control-wrap input { width: 100%; }
 .it-conference #conf_about .content .block .image { position: relative; }
 .it-conference #worth_coming .content > div.block .text h4 { font-size: 24px; margin-bottom: 20px; }

@@ -259,8 +259,6 @@ function contact_styles() {
         //подключаем стили
         wp_enqueue_style ( 'timeline', get_template_directory_uri()
             . '/assets/timeline/css/style.css', array(), '1.0' );
-        wp_enqueue_style ( 'stars', get_template_directory_uri()
-            . '/assets/particles-stars.css', array(), '1.0' );
         //отключаем стили
         wp_dequeue_style ( 'template' );
     }
