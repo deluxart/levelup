@@ -34,7 +34,7 @@
 .it-conference #conf_about .block.block_one { background: #f7f7f7; }
 .it-conference #conf_about .block.block_one .text { padding: 32px; }
 .it-conference #conf_about .block.block_two .image > div { position: relative; display: inline-block; }
-.it-conference #conf_about .block.block_two .image > div:before { position: absolute; top: 0; left: 0; width: 100%; height: 100%; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_2bg_text.png) center no-repeat; }
+.it-conference #conf_about .block.block_two .image > div.before-img2:before { position: absolute; top: 0; left: 0; width: 100%; height: 100%; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_2bg_text.png) center no-repeat; }
 .it-conference #conf_about .block.block_two ul.num_list { display: grid; grid-row-gap: 20px; }
 .it-conference #conf_about .block.block_two ul.num_list li { display: grid; grid-template-columns: 45px 1fr; grid-column-gap: 20px; }
 .it-conference #conf_about .block.block_three .text { padding: 20px; }
