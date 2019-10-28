@@ -1,5 +1,3 @@
-jQuery('.extended-parallax').paroller();
-
 // Поиск
     jQuery('.lux_search > .button').click(function () {
         jQuery('.search-open').toggleClass("open");
