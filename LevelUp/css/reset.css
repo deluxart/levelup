@@ -3,23 +3,6 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 
 section#reg-offer-two { display: none !important; }
 
-
-/* Animate for IT-Conference */
-/* .it-conference #conf_about .content .block.block_one .image::before,
-.it-conference #conf_about .content .block.block_three .image::before,
-.it-conference #conf_about .content .block.block_two .image::before {   -webkit-animation: backlight 2s linear infinite;
-  -moz-animation: backlight 2s linear infinite; -ms-animation: backlight 2s linear infinite; -o-animation: backlight 2s linear infinite; animation: backlight 2s linear infinite; } */
-
-
-@-webkit-keyframes backlight { 0% { -webkit-transform: translate(0, 0); } 50% { -webkit-transform: translate(0px, 30px); } 100% { -webkit-transform: translate(0, 0); } }
-@-moz-keyframes backlight { 0% { -moz-transform: translate(0, 0); } 50% { -moz-transform: translate(0px, 30px); } 100% { -moz-transform: translate(0, 0); } }
-@-o-keyframes backlight { 0% { -o-transform: translate(0, 0); } 50% { -o-transform: translate(0px, 30px); } 100% { -o-transform: translate(0, 0); } }
-@keyframes backlight { 0% { transform: translate(0, 0); } 50% { transform: translate(0px, 30px); } 100% { transform: translate(0, 0); } }
-/* End - Animate for IT-Conference */
-
-
-
-
   /* Reset style for CF 7 */
 .wpcf7-form { overflow: hidden; }
 span.wpcf7-not-valid-tip { position: absolute; margin: 0; top: 0; right: 20px; }
