@@ -5,10 +5,10 @@ section#reg-offer-two { display: none !important; }
 
 
 /* Animate for IT-Conference */
-.it-conference #conf_about .content .block.block_one .image::before,
+/* .it-conference #conf_about .content .block.block_one .image::before,
 .it-conference #conf_about .content .block.block_three .image::before,
 .it-conference #conf_about .content .block.block_two .image::before {   -webkit-animation: backlight 2s linear infinite;
-  -moz-animation: backlight 2s linear infinite; -ms-animation: backlight 2s linear infinite; -o-animation: backlight 2s linear infinite; animation: backlight 2s linear infinite; }
+  -moz-animation: backlight 2s linear infinite; -ms-animation: backlight 2s linear infinite; -o-animation: backlight 2s linear infinite; animation: backlight 2s linear infinite; } */
 
 
 @-webkit-keyframes backlight { 0% { -webkit-transform: translate(0, 0); } 50% { -webkit-transform: translate(0px, 30px); } 100% { -webkit-transform: translate(0, 0); } }
