@@ -2,8 +2,6 @@
 @-webkit-keyframes animParticle{from{-webkit-transform:translateY(0);transform:translateY(0)}to{-webkit-transform:translateY(-2560px);transform:translateY(-2560px)}}
 @keyframes animParticle{from{-webkit-transform:translateY(0);transform:translateY(0)}to{-webkit-transform:translateY(-2560px);transform:translateY(-2560px)}}
 
-
-
 .particles-animation-wrapper, .particles-bg {
     position: absolute;
     top: 0;
