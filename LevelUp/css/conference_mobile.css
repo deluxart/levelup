@@ -11,11 +11,12 @@
 
 .it-conference .wpcf7-form div.wpcf7-mail-sent-ok { margin: 0; background: none; border: 0; bottom: -3px; font-size: 14px; }
 .it-conference div.wpcf7 .ajax-loader { position: absolute; }
-.it-conference #conf_about .content .block.block_one .image:before { position: absolute; width: 347px; height: 312px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_1.png);
+
+.it-conference #conf_about .content .block.block_one .image .before-img:before { position: absolute; width: 347px; height: 312px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_1.png);
     top: -50px; left: 50%; transform: translateX(-40%); background-size: contain; background-repeat: no-repeat; }
-.it-conference #conf_about .content .block.block_two .image:before { position: absolute; width: 62px; height: 284px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_2.png); left: 150px; z-index: 1; }
+.it-conference #conf_about .content .block.block_two .image .before-img:before { position: absolute; width: 62px; height: 284px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_2.png); left: 150px; z-index: 1; }
 .it-conference #conf_about .content .block.block_two { margin: 60px 0; }
-.it-conference #conf_about .content .block.block_three .image:before { position: absolute; width: 444px; height: 280px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_3.png); left: 50%; top: 0; transform: translate(-56% , -41%);  }
+.it-conference #conf_about .content .block.block_three .image .before-img:before { position: absolute; width: 444px; height: 280px; content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/09/conf_about_3.png); left: 50%; top: 0; transform: translate(-56% , -41%);  }
 .it-conference .conf_diskont { background: #ff1569; color: #fff; display: inline-block; padding: 4px 10px; font-size: 15px; margin-top: 5px; }
 .it-conference #conf_program .content .cont_block_spiker .photo img { width: 90px;  border-radius: 50%; box-shadow: 21.213px 21.213px 48.5px 1.5px rgba(0, 0, 0, 0.4); }
 
@@ -104,7 +105,7 @@
     .it-conference #conf_about .block.block_two .image > div:before { background-size: contain; }
 
 
-    .it-conference #conf_about .content .block.block_three .image:before { transform: translate(-56% , -28%); width: 301px; height: 188px; background-size: contain; }
+    .it-conference #conf_about .content .block.block_three .image .before-img:before { transform: translate(-56% , -28%); width: 301px; height: 188px; background-size: contain; }
 
 
     .it-conference #for_whom .content { grid-template-columns: 1fr; }
