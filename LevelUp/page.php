@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area custom-page">
 		<main id="main" class="site-main <?php the_field( 'header_color' ); ?>" role="main">
 
 		<?php
@@ -30,7 +30,12 @@ get_header(); ?>
 
 		// End the loop.
 		endwhile;
-		?>
+        ?>
+
+<?php $after_cont = get_field( 'block_after_content_page' ); ?>
+<?php if ( $after_cont ) { ?>
+	<?php the_field( 'block_after_content_page' ); ?>
+<?php } ?>
 
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
