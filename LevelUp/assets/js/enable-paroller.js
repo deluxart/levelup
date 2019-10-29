@@ -1,0 +1,1 @@
+jQuery('.extended-parallax').paroller();

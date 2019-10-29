@@ -262,6 +262,7 @@ function contact_styles() {
         wp_enqueue_style ( 'stars-styles', get_template_directory_uri()
             . '/assets/particles-stars.css', array(), '1.0' );
         //отключаем стили
+        wp_enqueue_script( 'enable-paroller', get_template_directory_uri() . '/assets/js/enable-paroller.js', array( 'jquery' ), '434', true );
         wp_dequeue_style ( 'template' );
     }
 }
