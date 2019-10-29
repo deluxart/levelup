@@ -1,6 +1,6 @@
 
-@-webkit-keyframes animParticle{from{-webkit-transform:translateY(0);transform:translateY(0)}to{-webkit-transform:translateY(-2560px);transform:translateY(-2560px)}}
-@keyframes animParticle{from{-webkit-transform:translateY(0);transform:translateY(0)}to{-webkit-transform:translateY(-2560px);transform:translateY(-2560px)}}
+@-webkit-keyframes animParticle{from{-webkit-transform:translateX(0);transform:translateX(0)}to{-webkit-transform:translateX(-2560px);transform:translateX(-2560px)}}
+@keyframes animParticle{from{-webkit-transform:translateX(0);transform:translateX(0)}to{-webkit-transform:translateX(-2560px);transform:translateX(-2560px)}}
 
 .particles-animation-wrapper, .particles-bg {
     position: absolute;
@@ -39,7 +39,7 @@
 .particles-animation-wrapper .particle::after {
     position: absolute;
     content: "";
-    top: 2560px;
+    left: 2560px;
 }
 
 .particles-animation-wrapper .particle::after {
