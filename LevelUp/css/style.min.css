@@ -2169,7 +2169,7 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
 .slick-slide img {margin: 0 auto; }
 
 
-#course_details { background: #2e3035 url(https://levelup.ua/wp-content/uploads/2019/02/patter-dtls.png); background-position: left; color: #fff; }
+#course_details { background: #2e3035; color: #fff; }
 #course_details.one-column .content { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 30px; text-align: center; }
 #course_details.one-column .content img { width: 90px; display: block; margin: 0 auto; }
 #course_details.one-column .content h5 { padding: 22px 0 10px 0; font-size: 20px; color: #999999; margin: 0; }
