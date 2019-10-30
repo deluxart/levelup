@@ -32,7 +32,7 @@
 
 .hr-page #aboutHr { padding: 40px 0 60px 0; }
 .hr-page #aboutHr .content { display: grid; grid-template-columns: 1fr auto; grid-gap: 40px; align-items: center; }
-.hr-page #aboutHr .content.two { grid-template-columns: auto 1fr; }
+.hr-page #aboutHr .content.ttwo { grid-template-columns: auto 1fr; }
 .hr-page #aboutHr .content .text h2 { margin-bottom: 30px; ;}
 .hr-page #aboutHr .content .text h5 { font-size: 20px; color: #15acf2; font-weight: 600; margin-bottom: 30px; }
 .hr-page #aboutHr .content .image { text-align: center; }
