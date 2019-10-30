@@ -92,7 +92,7 @@ function event_options_do_page() { global $select_options; if ( ! isset( $_REQUE
      <td>
         <div class="g_one_auto">
           <input id="image_url" name="event_modal_options[image_url]" type="text" style="width: 100%" value="<?php echo $options_modal['image_url'];?>" class="code" required="">
-          <input type="button" name="upload-btn" id="upload-btn" class="button-secondary" value="Выбрать фон">
+          <input type="button" name="upload-btn" id="upload-btn" class="button-secondary upload-btn" value="Выбрать лого">
         </div>
         <div id="wpss_upload_image_thumb" class="wpss-file"><div id="event_modal_options[image_thumb_url]">
             <?php if(isset($options_modal['image_url']) && $options_modal['image_url'] !='') { ?>
