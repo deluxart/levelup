@@ -31,9 +31,15 @@
 .hr-page #dev-scheme .invite .content ul li .check { fill: #15acf2; }
 
 .hr-page #aboutHr { padding: 40px 0 60px 0; }
-.hr-page #aboutHr .content { display: grid; grid-template-columns: 1fr auto; grid-gap: 40px; }
+.hr-page #aboutHr .content { display: grid; grid-template-columns: 1fr auto; grid-gap: 40px; align-items: center; }
+.hr-page #aboutHr .content.two { grid-template-columns: auto 1fr; }
+.hr-page #aboutHr .content .text h2 { margin-bottom: 30px; ;}
 .hr-page #aboutHr .content .text h5 { font-size: 20px; color: #15acf2; font-weight: 600; margin-bottom: 30px; }
 .hr-page #aboutHr .content .image { text-align: center; }
+
+.hr-page .reg-offer.hr-addons .content { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 30px; color: #fff; }
+.hr-page .reg-offer.hr-addons .content > div { display: grid; grid-template-columns: 50px 1fr; grid-column-gap: 20px; }
+.hr-page .reg-offer.hr-addons .content > div i { font-size: 38px; }
 
 @media (max-width: 992px) {
   .hr-page #aboutHr .content { grid-template-columns: 1fr; }
