@@ -165,8 +165,8 @@
                                 );
                                 echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
                                 ?>
-		  		  						<div class="cat_menu_title cat_5">Индивидуальные курсы</div>
-		  		  		      <?php
+		  		  						<!-- <div class="cat_menu_title cat_5">Индивидуальные курсы</div>
+
                                 $menuParameters = array(
                                 //     Индивидуальные курсы
                                     'menu'            => '29',
@@ -182,7 +182,7 @@
                                     'walker_nav_menu_start_el'          => '',
                                 );
                                 echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
-                                ?>
+                      -->
 
 
       </div>
