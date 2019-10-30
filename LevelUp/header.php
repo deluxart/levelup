@@ -300,10 +300,10 @@
                                 echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
                                 ?>
 								</div>
-							<div>
+							<!-- <div>
 
 		  		  						<div class="cat_menu_title cat_5">Индивидуальные курсы</div>
-		  		  		      <?php
+
                                 $menuParameters = array(
                                 //     Индивидуальные курсы
                                     'menu'            => '29',
@@ -319,8 +319,8 @@
                                     'walker_nav_menu_start_el'          => '',
                                 );
                                 echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
-                                ?>
-							</div>
+
+							</div> -->
                         </div>
                         <p class="label label--topleft label--vert-mirror">Учебный IT-центр Level Up</p>
                         <p class="label label--bottomright label--vert">Профессиональная IT-подготовка</p>
