@@ -29,6 +29,19 @@
 .hr-page #dev-scheme .invite .content ul li { font-size: 16px; }
 .hr-page #dev-scheme .invite .content ul li h4 { font-size: 24px; }
 .hr-page #dev-scheme .invite .content ul li .check { fill: #15acf2; }
+
+
+.hr-page #aboutHr { padding: 40px 0 60px 0; }
+.hr-page #aboutHr .content { display: grid; grid-template-columns: 1fr auto; grid-gap: 40px; }
+.hr-page #aboutHr .content .text h5 { font-size: 20px; color: #15acf2; font-weight: 600; margin-bottom: 30px; }
+.hr-page #aboutHr .content .image { text-align: center; }
+
+
+@media (max-width: 992px) {
+  .hr-page #aboutHr .content { grid-template-columns: 1fr; }
+}
+
+
 .hr-page #prepod .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
 .hr-page #prepod .content h2 { margin-bottom: 100px; }
 .hr-page #prepod .content h2 span { color: #15acf2; }
