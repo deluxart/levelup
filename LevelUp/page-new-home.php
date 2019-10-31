@@ -25,7 +25,7 @@ Template Name: Главная страница (NEW)
 
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?333<?php echo date(get_option('date_format')); ?>3">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/new_home.css<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/new_home.css?<?php echo date(get_option('date_format')); ?>3">
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/3d.css?1<?php echo date(get_option('date_format')); ?>3"> -->
 
     <?php echo $options['gtm_code'];?>
