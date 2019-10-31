@@ -1,6 +1,23 @@
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
   margin: 0;	padding: 0;	border: 0;	font-size: 100%;	vertical-align: baseline;	background: transparent; }
 
+
+
+
+#loginform { background: #fff; box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.1); padding: 30px; }
+#loginform p { position: relative; }
+#loginform p input { top: -5px; margin-left: 28px; width: calc(100% - 38px); border: none; position: relative; border-bottom: 1px solid #ddd;
+  margin: 10px 0 10px 10px; outline: none; font-size: 16px; background: none;  box-shadow: none; }
+#loginform p.login-username:before { content: ''; bottom: 20px; position: absolute; width: 21px; height: 23px; background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-Mail-Blue-1.svg) no-repeat;
+         background-size: contain; z-index: 99999; }
+#loginform p.login-password:before { content: ''; bottom: 20px; position: absolute; width: 21px; height: 23px; background: url(https://levelup.ua/wp-content/uploads/2019/10/lock.svg) no-repeat;
+          background-size: contain; z-index: 99999; }
+
+
+
+
+
+
 section#reg-offer-two { display: none !important; }
 
   /* Reset style for CF 7 */
