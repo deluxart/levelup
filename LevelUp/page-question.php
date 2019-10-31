@@ -18,7 +18,10 @@ get_header(); ?>
 </div>
 <style>
 #loginform { background: #fff; box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.1); padding: 30px; }
-#loginform p { position: relative; }
+#loginform p { position: relative; margin: 20px 0; }
+#loginform > p:first-child { margin-top: 0; }
+#loginform > p:last-child { margin-bottom: 0; }
+#loginform label { padding-bottom: 10px; }
 #loginform p input { top: -5px; margin-left: 28px; width: 100%; border: none; position: relative; border-bottom: 1px solid #ddd;
   margin: 0; outline: none; font-size: 16px; background: none;  box-shadow: none; }
 #loginform p.login-username:before { content: ''; position: absolute;  left: 0; width: 21px; height: 23px; background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-Mail-Blue-1.svg) no-repeat;
