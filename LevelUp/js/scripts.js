@@ -693,7 +693,7 @@ jQuery(document).ready(function() {
     jQuery('#home_slider > .stub-header > img').css({'background-image': 'url(' + img_active + ')'});
 
     jQuery('.home-head-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-    jQuery('#advantages #outputText > div').hide();
+    jQuery('#home_slider > .stub-header > img').css({'background-image': 'none'});
         setTimeout(function(){
             jQuery('#home_slider > .stub-header > img').fadeIn().css({'background-image': 'url(' + img_active + ')'});
         },100);
