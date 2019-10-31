@@ -693,7 +693,7 @@ jQuery(document).ready(function() {
     var img_active = jQuery('#home_slider .home-head-slider .slick-current').children('img').attr('src');
     // jQuery('#home_slider > .stub-header > img').text(jQuery('.slick-active #inputText').text());
     // jQuery('#home_slider > .stub-header > img').css({ background: "url(' + img_active + ')" });
-    jQuery('#home_slider > .stub-header > .stub-header-bg').css({'background-image': 'url(' + img_active + ')'}).animate({opacity: 1},{duration:1000});
+    jQuery('#home_slider > .stub-header > .stub-header-bg').css({'background-image': 'url(' + img_active + ')'});
 
     jQuery('.home-head-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
     // jQuery('#home_slider > .stub-header > img').css({'background-image': 'none'});
@@ -701,8 +701,8 @@ jQuery(document).ready(function() {
             var img_active2 = jQuery('#home_slider .home-head-slider .slick-current').children('img').attr('src');
 
             // jQuery('#home_slider > .stub-header > .stub-header-bg').fadeIn().css({'background-image': 'url(' + img_active2 + ')'}).animate({opacity: 1},{duration:1000});
-            jQuery('#home_slider > .stub-header > .stub-header-bg').stop().animate({opacity: 0},1000,function(){
-                jQuery(this).css({'background-image': 'url(' + img_active2 + ')'}).animate({opacity: 1},{duration:1000});
+            jQuery('#home_slider > .stub-header > .stub-header-bg').stop().animate({opacity: 0},300,function(){
+                jQuery(this).css({'background-image': 'url(' + img_active2 + ')'}).animate({opacity: 1},{duration:300});
              });
         },100);
     });
