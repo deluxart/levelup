@@ -190,9 +190,9 @@ jQuery(document).ready(function(){
 
         <?php wp_footer(); ?>
         <script>
-        jQuery(".course_card").flip(
+        jQuery(".course_card").flip({
             trigger: 'hover'
-        );
+        });
         </script>
         <?php echo $options['jivosite_code'];?>
         <?php echo $options['binotel_code'];?>
