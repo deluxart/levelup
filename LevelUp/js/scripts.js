@@ -691,7 +691,7 @@ jQuery(document).ready(function() {
     jQuery('#home_slider > .stub-header > img').css({'background-image': 'url(' + img_active + ')'});
 
     jQuery('.home-head-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-    jQuery('#home_slider > .stub-header > img').fadeOut().css({'background-image': 'none'});
+    jQuery('#home_slider > .stub-header > img').css({'background-image': 'none'});
         setTimeout(function(){
             var img_active2 = jQuery('#home_slider .home-head-slider .slick-current').children('img').attr('src');
             jQuery('#home_slider > .stub-header > img').fadeIn().css({'background-image': 'url(' + img_active2 + ')'});
