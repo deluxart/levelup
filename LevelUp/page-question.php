@@ -19,10 +19,15 @@ get_header(); ?>
 <style>
 #loginform { background: #fff; box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.1); padding: 30px; }
 #loginform p { position: relative; }
-#loginform p input { top: -5px; margin-left: 28px; width: calc(100% - 38px); border: none; position: relative; border-bottom: 1px solid #ddd;
-  margin: 10px 0 10px 10px; outline: none; font-size: 16px; background: none;  box-shadow: none; }
+#loginform p input { top: -5px; margin-left: 28px; width: 100%; border: none; position: relative; border-bottom: 1px solid #ddd;
+  margin: 0; outline: none; font-size: 16px; background: none;  box-shadow: none; }
 #loginform p.login-username:before { content: ''; bottom: 20px; position: absolute; width: 21px; height: 23px; background: url(https://levelup.ua/wp-content/uploads/2018/06/Icon-Mail-Blue-1.svg) no-repeat;
          background-size: contain; z-index: 99999; }
+
+#loginform p input[type="text"], #loginform p input[type="password"] { width: calc(100% - 38px); position: relative; left: 38px; }
+
+
+
 #loginform p.login-password:before { content: ''; bottom: 20px; position: absolute; width: 21px; height: 23px; background: url(https://levelup.ua/wp-content/uploads/2019/10/lock.svg) no-repeat;
           background-size: contain; z-index: 99999; }
 #loginform input#wp-submit { background: #15acf2; padding: 15px 40px 15px 40px; box-shadow: 0px 0px 6px rgba(0,0,0,.05); font-size: 16px; color: #fff; border: 0; border-radius: 30px;}
