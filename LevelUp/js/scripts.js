@@ -685,6 +685,7 @@ jQuery('#subscribe-modal .icon--close').click(function () {
 
 
 jQuery(document).ready(function() {
+    var img_active = jQuery('#home_slider .home-head-slider .slick-current').children('img').attr('src');
     // jQuery('#home_slider > .stub-header > img').text(jQuery('.slick-active #inputText').text());
     // jQuery('#home_slider > .stub-header > img').css({ background: "url(' + img_active + ')" });
     jQuery('#home_slider > .stub-header > img').css({'background-image': 'url(' + img_active + ')'});
