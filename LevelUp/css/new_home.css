@@ -7,4 +7,6 @@
 .lvl2019 .menu-icon.open span:nth-child(2) { opacity: 0; left: -35px; }
 .lvl2019 .menu-icon.open span:nth-child(3) { top: 10px; -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg); }
 .lvl2019 #header .content { display: grid; grid-template-columns: auto 1fr auto; align-items: center; }
-.lvl2019 #home_slider .stub-header img { display: block; background-size: cover; background-repeat: no-repeat; background-position: center; }
+.lvl2019 #home_slider .stub-header { position: relative; }
+.lvl2019 #home_slider .stub-header .stub-header-bg { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center; -webkit-transition: opacity 5s linear; transition: opacity 5s linear; }
+.lvl2019 #home_slider .stub-header img { display: block; }
