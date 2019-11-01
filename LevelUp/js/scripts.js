@@ -699,12 +699,12 @@ jQuery(document).ready(function() {
 
 
 jQuery(document).ready(function() {
-    jQuery('#trust_us .text > .text-before').text(jQuery('#trust_us .text > h2').text());
+    jQuery('#trust_us > .text-before').text(jQuery('#trust_us .text > h2').text());
 
     jQuery('#trust_us .odinochnyy-slider-prepodovatel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-    jQuery('#trust_us .text > .text-before').hide();
+    jQuery('#trust_us > .text-before').hide();
         setTimeout(function(){
-            jQuery('#trust_us .text > .text-before').fadeIn().text(jQuery('#trust_us .text > h2').text());
+            jQuery('#trust_us > .text-before').fadeIn().text(jQuery('#trust_us .text > h2').text());
         },100);
     });
 });
