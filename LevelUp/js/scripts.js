@@ -707,10 +707,10 @@ jQuery(document).ready(function(){
 
         jQuery('ul.un-tabs > li').removeClass('current');
         // jQuery('.un-content').removeClass('current');
-        jQuery('.un-content.current').addClass('hideleft').removeClass('current');
+        jQuery('.un-content.current').addClass('showleft').removeClass('current');
 
         jQuery(this).addClass('current');
-        jQuery("#"+tab_id).fadeIn(200).removeClass('hideleft').addClass('showleft').addClass('current');
+        jQuery("#"+tab_id).fadeIn(200).addClass('showleft').addClass('current');
     });
 
 });
