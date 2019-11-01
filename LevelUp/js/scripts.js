@@ -683,7 +683,6 @@ jQuery('#subscribe-modal .icon--close').click(function () {
 
 
 // For new home page
-
 jQuery(document).ready(function() {
     var img_active = jQuery('#home_slider .home-head-slider .slick-current').children('img').attr('src');
     jQuery('#home_slider > .stub-header > .stub-header-bg').css({'background-image': 'url(' + img_active + ')'});
@@ -699,18 +698,24 @@ jQuery(document).ready(function() {
 });
 
 
+jQuery(document).ready(function() {
+    jQuery('#trust_us .text > .text-before').text(jQuery('#trust_us .text > h2').text());
+
+    jQuery('#trust_us .odinochnyy-slider-prepodovatel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    jQuery('#trust_us .text > .text-before').hide();
+        setTimeout(function(){
+            jQuery('#trust_us .text > .text-before').fadeIn().text(jQuery('#trust_us .text > h2').text());
+        },100);
+    });
+});
+
 
 jQuery(document).ready(function(){
-
     jQuery('ul.un-tabs li').click(function(){
         var tab_id = jQuery(this).attr('data-tab');
-
         jQuery('ul.un-tabs > li').removeClass('current');
-        // jQuery('.un-content').removeClass('current');
         jQuery('.un-content.current').removeClass('current');
-
         jQuery(this).addClass('current');
         jQuery("#"+tab_id).addClass('current');
     });
-
 });

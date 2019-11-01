@@ -176,7 +176,7 @@ jQuery('.event-speakers').slick({
 
 
 jQuery('.home-head-slider').slick({
-          dots: true,
+          dots: false,
           infinite: true,
           speed: 300,
           slidesToShow: 2,
@@ -188,7 +188,7 @@ jQuery('.home-head-slider').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false
               }
             }
           ]
