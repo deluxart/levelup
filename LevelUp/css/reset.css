@@ -4,7 +4,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   .course-page-3d .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok { display: block; margin: 0; border: 0; color: #fff; bottom: -35px; font-size: 14px; }
 
 
-section#reg-offer-two { display: none !important; }
+section#reg-offer-two, #loyality { display: none !important; }
 
   /* Reset style for CF 7 */
 .wpcf7-form { overflow: hidden; }
