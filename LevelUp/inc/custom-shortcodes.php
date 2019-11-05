@@ -31,14 +31,17 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
     $query = new WP_Query( $options );
     // run the loop based on the query
     if ( $query->have_posts() ) { ?>
-        <ul class="clothes-listing">
+        <!-- <ul class="clothes-listing"> -->
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-            <li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                <?php
+                 get_template_part( 'template-parts/lastnews', get_post_format() );
+                 ?>
+            <!-- <li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-            </li>
+            </li> -->
             <?php endwhile;
             wp_reset_postdata(); ?>
-        </ul>
+        <!-- </ul> -->
     <?php $myvariable = ob_get_clean();
     return $myvariable;
     }
