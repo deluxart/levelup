@@ -189,10 +189,40 @@ jQuery(document).ready(function(){
 
 
         <?php wp_footer(); ?>
+
         <script>
         jQuery(".course_card").flip({
             trigger: 'hover'
         });
+
+
+
+        const magicController = new ScrollMagic.Controller();
+
+document.querySelectorAll('section[data-bg]')
+  .forEach(section => {
+    const bgColor = section.dataset.bg;
+
+    new ScrollMagic.Scene({
+        triggerElement: section,
+        offset: -50,
+      })
+      .on('progress', event => {
+        const target = event.target.triggerElement();
+        target.style.backgroundColor = bgColor;
+        document.body.style.backgroundColor = bgColor;
+      })
+      .duration(function() {
+        return this.triggerElement().clientHeight;
+      })
+      .addIndicators() // ##debug
+      .addTo(magicController);
+  });
+
+
+
+
+
         </script>
         <?php echo $options['jivosite_code'];?>
         <?php echo $options['binotel_code'];?>
