@@ -14,6 +14,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
         'color' => '',
         // 'post_tag' => '',
         'category' => '',
+        'public'   => true,
     ), $atts );
         // define query parameters based on attributes
     $options = array(
