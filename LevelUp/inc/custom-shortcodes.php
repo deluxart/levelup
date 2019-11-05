@@ -12,7 +12,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
         'orderby' => 'title',
         'posts' => -1,
         'color' => '',
-        'post_tag' => '',
+        // 'post_tag' => '',
         'category' => '',
     ), $atts );
         // define query parameters based on attributes
@@ -22,7 +22,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
         'orderby' => $args['orderby'],
         'posts_per_page' => $args['posts'],
         'color' => $args['color'],
-        'post_tag' => $args['post_tag'],
+        // 'post_tag' => $args['post_tag'],
         'category_name' => $args['category']
     );
 
