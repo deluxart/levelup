@@ -215,7 +215,6 @@ document.querySelectorAll('section[data-bg]')
       .duration(function() {
         return this.triggerElement().clientHeight;
       })
-    //   .addIndicators() // ##debug
       .addTo(magicController);
   });
 
