@@ -277,6 +277,7 @@ add_action( 'wp_enqueue_scripts', 'contact_scripts' );
 
 
 require get_template_directory() . '/inc/options_page.php';
+require get_template_directory() . '/inc/custom-shortcodes.php';
 require get_template_directory() . '/inc/options_event-modal.php';
 
 require get_template_directory() . '/inc/teachers.php';
