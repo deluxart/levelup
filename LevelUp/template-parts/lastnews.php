@@ -9,6 +9,6 @@
  * @since Twenty Fifteen 1.0
  */
 ?>
-<div id="lastpost-<?php the_ID(); ?>" class="lastpost color-<?php echo $atts['color'] ?>">
+<div id="lastpost-<?php the_ID(); ?>" class="lastpost color-<?php echo $options['color'] ?>">
     <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('full'); ?></a>
 </div>
