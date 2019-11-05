@@ -13,6 +13,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
         'posts' => -1,
         'color' => '',
         // 'post_tag' => '',
+        'post_status' => 'publish',
         'category' => '',
         'public'   => true,
     ), $atts );
