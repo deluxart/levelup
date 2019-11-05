@@ -27,7 +27,7 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
     if ( $query->have_posts() ) { ?>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
                 <?php
-                 get_template_part( 'template-parts/lastnews', get_post_format() );
+                    get_template_part( 'template-parts/lastnews', get_post_format() );
                  ?>
             <?php endwhile;
             wp_reset_postdata(); ?>
