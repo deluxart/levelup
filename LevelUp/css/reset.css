@@ -1,7 +1,7 @@
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
   margin: 0;	padding: 0;	border: 0;	font-size: 100%;	vertical-align: baseline;	background: transparent; }
 
-  .course-page-3d .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok { display: block; margin: 0; border: 0; color: #fff; bottom: -35px; font-size: 14px; }
+  .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok { display: block; margin: 0; border: 0; color: #fff; bottom: -35px; font-size: 14px; }
 
 
 section#reg-offer-two, #loyality { display: none !important; }
