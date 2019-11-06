@@ -207,10 +207,10 @@ document.querySelectorAll('section[data-bg]')
         triggerElement: section,
         offset: -50,
       })
+      .setClassToggle(section, 'active')
       .on('progress', event => {
         const target = event.target.triggerElement();
         // target.style.backgroundColor = bgColor;
-        scene.target.setClassToggle("section", "class1 class2 class3");
         document.body.style.backgroundColor = bgColor;
       })
       .duration(function() {
