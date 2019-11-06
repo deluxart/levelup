@@ -183,7 +183,7 @@ jQuery('.home-head-slider').slick({
           slidesToScroll: 1,
           responsive: [
             {
-              breakpoint: 1024,
+              breakpoint: 993,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
