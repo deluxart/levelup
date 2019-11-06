@@ -210,6 +210,7 @@ document.querySelectorAll('section[data-bg]')
       .on('progress', event => {
         const target = event.target.triggerElement();
         target.style.backgroundColor = bgColor;
+        target.setClassToggle("section", "class1 class2 class3");
         document.body.style.backgroundColor = bgColor;
       })
       .duration(function() {
@@ -222,17 +223,6 @@ document.querySelectorAll('section[data-bg]')
 
 
   });
-
-var controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 100}});
-
-	// build scenes
-	new ScrollMagic.Scene({triggerElement: "section"})
-					.setClassToggle("section", "active") // add class toggle
-					.addIndicators() // add indicators (requires plugin)
-					.addTo(controller);
-
-
-
         </script>
         <?php echo $options['jivosite_code'];?>
         <?php echo $options['binotel_code'];?>
