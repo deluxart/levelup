@@ -209,8 +209,8 @@ document.querySelectorAll('section[data-bg]')
       })
       .on('progress', event => {
         const target = event.target.triggerElement();
-        target.style.backgroundColor = bgColor;
-        target.setClassToggle("section", "class1 class2 class3");
+        // target.style.backgroundColor = bgColor;
+        target.scene.setClassToggle("section", "class1 class2 class3");
         document.body.style.backgroundColor = bgColor;
       })
       .duration(function() {
