@@ -197,33 +197,52 @@ jQuery(document).ready(function(){
 
 
 
-        const magicController = new ScrollMagic.Controller();
+const magicController = new ScrollMagic.Controller();
 
-document.querySelectorAll('section[data-bg]')
+document.querySelectorAll('section[data-name]')
   .forEach(section => {
-    const bgColor = section.dataset.bg;
+    // const bgColor = section.dataset.bg;
     const sectionName = section.dataset.name || '';
 
     new ScrollMagic.Scene({
         triggerElement: section,
         offset: -50,
       })
+    //   .setClassToggle(section, 'active')
       .setClassToggle(document.body, sectionName)
-      .on('start', event => {
+    //   .on('progress', event => {
+    //     const target = event.target.triggerElement();
+    //     document.body.style.backgroundColor = bgColor;
+    //   })
+    //   .duration(function() {
+    //     return this.triggerElement().clientHeight;
+    //   })
+      .addTo(magicController);
+  });
+
+
+  document.querySelectorAll('section[data-bg]')
+  .forEach(section => {
+    const bgColor = section.dataset.bg;
+    // const sectionName = section.dataset.name || '';
+
+    new ScrollMagic.Scene({
+        triggerElement: section,
+        offset: -50,
+      })
+      .setClassToggle(section, 'active')
+    //   .setClassToggle(document.body, sectionName)
+      .on('progress', event => {
         const target = event.target.triggerElement();
         document.body.style.backgroundColor = bgColor;
-        // target.style.backgroundColor = bgColor;
-        target.classList.add('active');
-      })
-      .on('end', event => {
-        const target = event.target.triggerElement();
-        target.classList.remove('active');
       })
       .duration(function() {
         return this.triggerElement().clientHeight;
       })
       .addTo(magicController);
   });
+
+
 
         </script>
         <?php echo $options['jivosite_code'];?>
