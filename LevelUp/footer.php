@@ -208,18 +208,23 @@ document.querySelectorAll('section[data-bg]')
         triggerElement: section,
         offset: -50,
       })
-      .setClassToggle(section, 'active')
       .setClassToggle(document.body, sectionName)
-      .on('progress', event => {
+      .on('start', event => {
         const target = event.target.triggerElement();
-        // target.style.backgroundColor = bgColor;
         document.body.style.backgroundColor = bgColor;
+        // target.style.backgroundColor = bgColor;
+        target.classList.add('active');
+      })
+      .on('end', event => {
+        const target = event.target.triggerElement();
+        target.classList.remove('active');
       })
       .duration(function() {
         return this.triggerElement().clientHeight;
       })
       .addTo(magicController);
   });
+
         </script>
         <?php echo $options['jivosite_code'];?>
         <?php echo $options['binotel_code'];?>
