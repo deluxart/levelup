@@ -699,7 +699,7 @@ jQuery(document).ready(function() {
 
 
 jQuery(document).ready(function() {
-    jQuery('#trust_us > .text-before').text(jQuery('#trust_us .text > h2').text());
+    jQuery('#trust_us > .text-before').text(jQuery('#trust_us .slick-active .text > h2').text());
 
     jQuery('#trust_us .odinochnyy-slider-prepodovatel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
     jQuery('#trust_us > .text-before').hide();
