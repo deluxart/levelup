@@ -236,6 +236,7 @@ document.querySelectorAll('section[data-bg]')
 
 
 
+
         </script>
         <?php echo $options['jivosite_code'];?>
         <?php echo $options['binotel_code'];?>
