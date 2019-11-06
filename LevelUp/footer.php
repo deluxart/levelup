@@ -216,9 +216,20 @@ document.querySelectorAll('section[data-bg]')
         return this.triggerElement().clientHeight;
       })
       .addTo(magicController);
+
+
+
+
+
   });
 
+var controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 100}});
 
+	// build scenes
+	new ScrollMagic.Scene({triggerElement: "section"})
+					.setClassToggle("section", "active") // add class toggle
+					.addIndicators() // add indicators (requires plugin)
+					.addTo(controller);
 
 
 
