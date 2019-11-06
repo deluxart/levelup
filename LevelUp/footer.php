@@ -202,12 +202,14 @@ jQuery(document).ready(function(){
 document.querySelectorAll('section[data-bg]')
   .forEach(section => {
     const bgColor = section.dataset.bg;
+    const sectionName = section.dataset.name || '';
 
     new ScrollMagic.Scene({
         triggerElement: section,
         offset: -50,
       })
       .setClassToggle(section, 'active')
+      .setClassToggle(document.body, sectionName)
       .on('progress', event => {
         const target = event.target.triggerElement();
         // target.style.backgroundColor = bgColor;
@@ -217,11 +219,6 @@ document.querySelectorAll('section[data-bg]')
         return this.triggerElement().clientHeight;
       })
       .addTo(magicController);
-
-
-
-
-
   });
         </script>
         <?php echo $options['jivosite_code'];?>
