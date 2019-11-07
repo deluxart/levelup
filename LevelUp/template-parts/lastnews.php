@@ -10,5 +10,5 @@
  */
 ?>
 <div id="lastpost-<?php the_ID(); ?>" class="lastpost color-<?php $args['color'] ?>">
-    <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('full'); ?></a>
+    <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
 </div>
