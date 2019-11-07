@@ -206,14 +206,16 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
 /* For custom style header */
 .header-color.light .logo_desktop { display: none; }
 .header-color.light .dev-logo { display: inline-block; }
-#header.header-color.light { background: none; }
-#main.light { padding-top: 0; }
-#header.header-color.light .bg-kirpichik { background: none; box-shadow: none; background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.3) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.3) 100%);}
-.header-color.light .navbar-dark .navbar-nav a:focus, .header-color.light .navbar-dark .navbar-nav a:hover, .header-color.light .navbar-dark .navbar-nav a { color: #fff; }
-.header-color.light .navbar-dark .navbar-nav > li > a::before { border-right: 1px dotted #fff6; }
-.header-color.light .lux_search .button span i { color: #fff; }
 
+@media (min-width: 769px) {
+  #header.header-color.light { background: none; }
+  #main.light { padding-top: 0; }
+  #header.header-color.light .bg-kirpichik { background: none; box-shadow: none; background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.3) 100%);}
+  .header-color.light .navbar-dark .navbar-nav a:focus, .header-color.light .navbar-dark .navbar-nav a:hover, .header-color.light .navbar-dark .navbar-nav a { color: #fff; }
+  .header-color.light .navbar-dark .navbar-nav > li > a::before { border-right: 1px dotted #fff6; }
+  .header-color.light .lux_search .button span i { color: #fff; }
+}
 
 @media (max-width: 768px) {
 .logo_desktop { display: none; }
