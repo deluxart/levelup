@@ -286,7 +286,7 @@ jQuery('.home-head-slider').slick({
 
         jQuery('.news_slider').slick({
           dots: true,
-          adaptiveHeight: false,
+          adaptiveHeight: true,
           infinite: true,
           speed: 300,
           slidesToShow: 3,
