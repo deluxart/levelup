@@ -14,7 +14,7 @@ body.tag #share-bar { display: none !important; }
 #share-bar.left .sharing-providers > li { margin-left: 0; }
 #share-bar.right { right: 0; }
 #share-bar.right .sharing-providers > li { margin-right: 0; }
-#share-bar.animate .sharing-providers > li:hover { transform: scale(1.03); }
+/* #share-bar.animate .sharing-providers > li:hover { transform: scale(1.03); } */
 #share-bar.right.animate .sharing-providers > li:hover { transform: translateX(-5px); }
 
 .sharing-providers > li > a { text-decoration: none !important; font-family: 'FontAwesome'; width: 32px; height: 32px; line-height: 32px; display: block; }
