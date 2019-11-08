@@ -53,9 +53,9 @@
  <nav class="navbar navbar-expand-lg navbar-dark bg-kirpichik static-top">
   <div class="container">
     <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" class="logo_desktop" alt="LevelUp" />
-          <img src="<?php echo get_template_directory_uri(); ?>/img/mobile_logo.svg" class="logo_mobile" alt="LevelUp" />
-          <img src="<?php echo get_template_directory_uri(); ?>/img/Logo-white.svg" class="dev-logo" alt="LevelUp" />
+          <img src="https://levelup.ua/wp-content/uploads/2019/11/level_up-1.svg" class="logo_desktop" alt="LevelUp" />
+          <img src="https://levelup.ua/wp-content/uploads/2019/11/logo_mobile.svg" class="logo_mobile" alt="LevelUp" />
+          <img src="https://levelup.ua/wp-content/uploads/2019/11/level_up-1.svg" class="dev-logo" alt="LevelUp" />
     </a>
 
 	  <div class="header-phone">
