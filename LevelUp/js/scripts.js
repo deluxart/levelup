@@ -698,16 +698,16 @@ jQuery(document).ready(function() {
 });
 
 
-jQuery(document).ready(function() {
-    jQuery('#trust_us > .text-before').text(jQuery('#trust_us .slick-active .text > h2').text());
+// jQuery(document).ready(function() {
+//     jQuery('#trust_us > .text-before').text(jQuery('#trust_us .slick-active .text > h2').text());
 
-    jQuery('#trust_us .odinochnyy-slider-prepodovatel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-    jQuery('#trust_us > .text-before').hide();
-        setTimeout(function(){
-            jQuery('#trust_us > .text-before').fadeIn().text(jQuery('#trust_us .slick-active .text > h2').text());
-        },100);
-    });
-});
+//     jQuery('#trust_us .odinochnyy-slider-prepodovatel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+//     jQuery('#trust_us > .text-before').hide();
+//         setTimeout(function(){
+//             jQuery('#trust_us > .text-before').fadeIn().text(jQuery('#trust_us .slick-active .text > h2').text());
+//         },100);
+//     });
+// });
 
 
 jQuery(document).ready(function(){
