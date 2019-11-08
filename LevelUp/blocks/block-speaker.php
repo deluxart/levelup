@@ -1,5 +1,12 @@
+<?php
+    $block_title = block_field( 'title' );
+?>
+
 <div class="block-speaker-lab" style="margin-bottom: <?php block_field( 'margin-bottom' ); ?>px;">
-	<h4><?php block_field( 'title' ); ?></h4>
+
+<?php if ( ! empty( $block_title ) ) { ?>
+	<h4><?php echo $block_title ?></h4>
+<?php } ?>
 
 	<div class="speaker-grid">
 		<div>
