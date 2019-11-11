@@ -248,7 +248,7 @@ document.querySelectorAll('section[data-bg]')
         <?php if (current_user_can('level_10')) { ?>
         <div class="tc wp_queries <?php the_field( 'footer_color' ); ?>" style="">Запросы: <?php echo get_num_queries(); ?></div>
         <?php } ?>
-
+<!--
 <script src="https://e-timer.ru/js/etimer.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function() {
@@ -256,6 +256,6 @@ document.querySelectorAll('section[data-bg]')
 			etType: 0, etDate: "02.11.2019.10.0", etTitleText: "<a href='https://levelup.ua/it-conference-2019'>До початку:</a>", etTitleSize: 16, etShowSign: 3, etSep: ":", etFontFamily: "Trebuchet MS", etTextColor: "#a3a3a3", etPaddingTB: 15, etPaddingLR: 15, etBackground: "#333333", etBorderSize: 0, etBorderRadius: 2, etBorderColor: "white", etShadow: " 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 24, etNumberColor: "black", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "#eaff00", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
 		});
 	});
-</script>
+</script> -->
 </body>
 </html>
