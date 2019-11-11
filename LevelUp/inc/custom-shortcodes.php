@@ -45,7 +45,7 @@ function rmcc_post_cats_parameters_shortcode( $atts ) {
         'type' => 'post',
         'order' => 'date',
         'orderby' => 'title',
-        'posts' => 6,
+        'posts' => -1,
         'color' => '',
         'category' => '',
         'public'   => true,

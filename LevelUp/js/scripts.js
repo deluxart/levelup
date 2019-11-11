@@ -719,3 +719,15 @@ jQuery(document).ready(function(){
         jQuery("#"+tab_id).addClass('current');
     });
 });
+
+
+// For new FullScreen Menu
+jQuery(document).on('click', '.wp_queries', function () {
+    jQuery('.lvl-menu').addClass('show');
+    jQuery('body').addClass('open-lvl-menu');
+});
+jQuery(document).on('click', '.lvl-menu-close', function () {
+    jQuery('.lvl-menu').removeClass('show');
+    jQuery('body').removeClass('open-lvl-menu');
+});
+// End - For new FullScreen Menu

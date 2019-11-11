@@ -394,5 +394,17 @@
   </div>
 </nav>
 </header>
-
+<div class="lvl-menu" id="modal_menu">
+		<div class="lvl-menu-top">
+			<div class="container">
+				<a href="/" class="lvl-menu-logo"><img src="https://levelup.ua/wp-content/uploads/2019/11/level_up-1.svg" class="logo_desktop" alt="LevelUp" /></a>
+				<a href="#" class="lvl-menu-close">&nbsp;</a>
+			</div>
+		</div>
+		<div class="lvl-menu-wrapper">
+			<div class="container">
+				<div class="lvl-menu-content">///////</div>
+			</div>
+		</div>
+</div>
 	<div>
