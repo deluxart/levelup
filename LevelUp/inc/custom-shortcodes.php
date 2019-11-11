@@ -22,7 +22,6 @@ function rmcc_post_listing_parameters_shortcode( $atts ) {
         'category_name' => $args['category']
     );
 
-
     $query = new WP_Query( $options );
     if ( $query->have_posts() ) { ?>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
