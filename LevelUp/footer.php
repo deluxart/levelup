@@ -15,7 +15,7 @@
 ?>
 	</div><!-- .site-content -->
 
-<footer id="level_footer" class="<?php the_field( 'footer_color' ); ?>" data-name="white-section" data-bg="#fff">
+<footer id="level_footer" class="<?php the_field( 'footer_color' ); ?>">
 	<div class="container">
 		<div class="content">
 			<div class="block">
