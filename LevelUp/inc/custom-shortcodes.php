@@ -45,10 +45,11 @@ function rmcc_post_cats_parameters_shortcode( $atts ) {
         'type' => 'post',
         'order' => 'date',
         'orderby' => 'title',
-        'posts' => -1,
+        'posts' => 6,
         'color' => '',
         'category' => '',
         'public'   => true,
+        'status' => 'publish'
     ), $atts );
     $options = array(
         'post_type' => $args['type'],
@@ -58,7 +59,7 @@ function rmcc_post_cats_parameters_shortcode( $atts ) {
         'color' => $args['color'],
         'category_name' => $args['category'],
         'paged' => get_query_var('paged') ?: 1,
-        'post_status' => 'publish'
+        'post_status' => $args['status']
     );
 
     $query = new WP_Query( $options );
