@@ -30,8 +30,7 @@
 
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?123444111<?php echo date(get_option('date_format')); ?>3">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/new_home.css?11131231<?php echo date(get_option('date_format')); ?>3">
-    <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/3d.css?1<?php echo date(get_option('date_format')); ?>3"> -->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/new_home.css?111312231<?php echo date(get_option('date_format')); ?>3">
 
     <?php echo $options['gtm_code'];?>
 </head>
@@ -166,26 +165,6 @@
                                 );
                                 echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
                                 ?>
-		  		  						<!-- <div class="cat_menu_title cat_5">Индивидуальные курсы</div>
-
-                                $menuParameters = array(
-                                //     Индивидуальные курсы
-                                    'menu'            => '29',
-                                    'container'       => false,
-                                    'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
-                                    'depth'           => 0,
-                                    'echo'            => true,
-                                    'before'          => '',
-                                    'after'           => '',
-                                    'link_before'     => '',
-                                    'link_after'      => '',
-                                    'walker'          => '',
-                                    'walker_nav_menu_start_el'          => '',
-                                );
-                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
-                      -->
-
-
       </div>
     </div>
   </div>
