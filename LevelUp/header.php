@@ -63,6 +63,10 @@
 		          <img src="https://levelup.ua/wp-content/uploads/2019/11/level_up-1.svg" class="dev-logo" alt="LevelUp" />
 		    </a>
 		</div>
+        <div class="header-phone">
+            <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+380960842513">(096) 084 25 13</a>
+            <div class="header-phone_last"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+380997318385">(099) 731 83 85</a></div>
+        </div>
 		<div class="basic-nav">
             <?php
             wp_nav_menu( array(
