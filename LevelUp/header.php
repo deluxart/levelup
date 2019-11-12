@@ -503,7 +503,7 @@
 				<ul class="foot-list">
 					<li><a href="#"><i class="fa fa-map-marker " aria-hidden="true"></i><span>г. Днепр, ул. Троицкая, 21Г.</span></a></li>
 					<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (099) 731 83 85, +38 (096) 084 25 13</span></a></li>
-					<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span>+38 (099) 731 83 85, +38 (096) 084 25 13</span></a></li>
+					<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span>info@levelup.ua</span></a></li>
 				</ul>
 			</div>
 		</div>
