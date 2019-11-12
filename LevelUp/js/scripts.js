@@ -79,7 +79,7 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
 
 // Меню для мобильных устройств
 jQuery(function(){
-		var trigger_show = jQuery('.snj_sandwitch_btn_show');
+		var trigger_show = jQuery('.head-menu-btn-mobile');
 		var trigger_hide = jQuery('.snj_sandwitch_btn_hide');
 		var sndwch = jQuery('#snj_sandwitch');
 
