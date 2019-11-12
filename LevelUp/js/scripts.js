@@ -722,7 +722,7 @@ jQuery(document).ready(function(){
 
 
 // For new FullScreen Menu
-jQuery(document).on('click', '.wp_queries', function () {
+jQuery(document).on('click', '.head-menu-btn', function () {
     jQuery('.lvl-menu').addClass('show');
     jQuery('body').addClass('open-lvl-menu');
 });

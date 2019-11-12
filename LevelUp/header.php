@@ -29,8 +29,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
 
     <?php wp_head(); ?>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?123123w1111<?php echo date(get_option('date_format')); ?>3">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/new_home.css?1111<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?123444111<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/new_home.css?11131231<?php echo date(get_option('date_format')); ?>3">
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/3d.css?1<?php echo date(get_option('date_format')); ?>3"> -->
 
     <?php echo $options['gtm_code'];?>
@@ -216,112 +216,28 @@
     </div>
 
 
-<button style="border: 0; background: none; display: none;" class="action action--menu no-open"><span style="float: left; line-height: 38px; padding: 0 6px; font-size: 14px; font-weight: 600; text-transform: uppercase; color: #fff;">Меню</span><svg class="icon icon--menu" style="float: right;height: 38px !important;"><use xlink:href="#icon-menu"></use></svg></button>
-                <nav style="display: none;" class="menu">
+<!-- <button style="border: 0; background: none; display: none;" class="action action--menu no-open"><span style="float: left; line-height: 38px; padding: 0 6px; font-size: 14px; font-weight: 600; text-transform: uppercase; color: #fff;">Меню</span><svg class="icon icon--menu" style="float: right;height: 38px !important;"><use xlink:href="#icon-menu"></use></svg></button> -->
+                <!-- <nav style="display: none;" class="menu">
                 <div class="menu__item menu__item--1" data-direction="bt">
                     <div class="menu__item-inner">
                         <div class="mainmenu">
 							<div>
 		  						<div class="cat_menu_title cat_1">Программирование</div>
-                                <?php
-                                $menuParameters = array(
-                                //     Основы программирования
-                                    'menu'            => '25',
-                                    'container'       => false,
-                                    'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
-                                    'depth'           => 0,
-                                    'echo'            => true,
-                                    'before'          => '',
-                                    'after'           => '',
-                                    'link_before'     => '',
-                                    'link_after'      => '',
-                                    'walker'          => '',
-                                    'walker_nav_menu_start_el'          => '',
-                                );
-                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
-                                ?>
+
 							</div>
 								<div>
 		  						<div class="cat_menu_title cat_2">Дизайн и верстка</div>
-                                <?php
-                                $menuParameters = array(
-                                //     Дизайн и верстка
-                                    'menu'            => '26',
-                                    'container'       => false,
-                                    'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
-                                    'depth'           => 0,
-                                    'echo'            => true,
-                                    'before'          => '',
-                                    'after'           => '',
-                                    'link_before'     => '',
-                                    'link_after'      => '',
-                                    'walker'          => '',
-                                    'walker_nav_menu_start_el'          => '',
-                                );
-                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
-                                ?>
+
 							</div>
 								<div>
 		  						<div class="cat_menu_title cat_3">Маркетинг и IT-менеджмент</div>
-		                      <?php
-                                $menuParameters = array(
-                                //     Маркетинг и IT-менеджмент
-                                    'menu'            => '27',
-                                    'container'       => false,
-                                    'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
-                                    'depth'           => 0,
-                                    'echo'            => true,
-                                    'before'          => '',
-                                    'after'           => '',
-                                    'link_before'     => '',
-                                    'link_after'      => '',
-                                    'walker'          => '',
-                                    'walker_nav_menu_start_el'          => '',
-                                );
-                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
-                                ?>
+
 								</div>
 								<div>
 		  						<div class="cat_menu_title cat_4">Поддержка и аналитика</div>
-		  		                      <?php
-                                $menuParameters = array(
-                                //     Поддержка и аналитика
-                                    'menu'            => '28',
-                                    'container'       => false,
-                                    'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
-                                    'depth'           => 0,
-                                    'echo'            => true,
-                                    'before'          => '',
-                                    'after'           => '',
-                                    'link_before'     => '',
-                                    'link_after'      => '',
-                                    'walker'          => '',
-                                    'walker_nav_menu_start_el'          => '',
-                                );
-                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
-                                ?>
+
 								</div>
-							<!-- <div>
 
-		  		  						<div class="cat_menu_title cat_5">Индивидуальные курсы</div>
-
-                                $menuParameters = array(
-                                //     Индивидуальные курсы
-                                    'menu'            => '29',
-                                    'container'       => false,
-                                    'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
-                                    'depth'           => 0,
-                                    'echo'            => true,
-                                    'before'          => '',
-                                    'after'           => '',
-                                    'link_before'     => '',
-                                    'link_after'      => '',
-                                    'walker'          => '',
-                                    'walker_nav_menu_start_el'          => '',
-                                );
-                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
-
-							</div> -->
                         </div>
                         <p class="label label--topleft label--vert-mirror">Учебный IT-центр Level Up</p>
                         <p class="label label--bottomright label--vert">Профессиональная IT-подготовка</p>
@@ -337,23 +253,7 @@
                         <p class="label label--topleft label--line">Основное меню</p>
 
 						<div class="menu__item-link">
-                            <?php
-                                $menuParameters = array(
-                                //     Индивидуальные курсы
-                                'menu'            => '2638',
-                                'container'       => false,
-                                'items_wrap'      => '<ul class="basic_links">%3$s</ul>',
-                                'depth'           => 0,
-                                'echo'            => true,
-                                'before'          => '',
-                                'after'           => '',
-                                'link_before'     => '',
-                                'link_after'      => '',
-                                'walker'          => '',
-                                'walker_nav_menu_start_el'          => '',
-                                );
-                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
-                            ?>
+
                         </div>
 
                     </div>
@@ -387,7 +287,7 @@
                 </div>
                 <button class="action action--menu" style="border: 0; background: none;"><span class="">Меню</span><svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg></button>
                 <button class="action action--close"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></button>
-            </nav>
+            </nav> -->
 
             <div class="lux_search">
                 <div class="button"><span><i class="fa fa-search" aria-hidden="true"></i></span></div>
@@ -427,7 +327,7 @@
 					<div class="menu-name">
 						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_code.svg" alt=""></div><span>Программирование  ПО</span>
 					</div>
-					<ul class="menu-list">
+					<!-- <ul class="menu-list">
 						<li><a href="#">Основы программирования</a></li>
 						<li><a href="#">Программирование на Java</a></li>
 						<li><a href="#">JavaScript</a></li>
@@ -442,33 +342,84 @@
 						<li><a href="#">Разработка игр на Unity</a></li>
 						<li><a href="#">Разработка баз данных SQL</a></li>
 						<li><a href="#">Тестирование ПО</a></li>
-					</ul>
+					</ul> -->
+                    <?php
+                                $menuParameters = array(
+                                //     Основы программирования
+                                    'menu'            => '25',
+                                    'container'       => false,
+                                    'items_wrap'      => '<ul class="menu-list">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'echo'            => true,
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'walker'          => '',
+                                    'walker_nav_menu_start_el'          => '',
+                                );
+                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
+                    ?>
 				</div>
 				<div>
 
 					<div class="menu-name">
 						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_smm.svg" alt=""></div><span>Дизайн и компьютерная графика</span>
 					</div>
-					<ul class="menu-list">
+					<!-- <ul class="menu-list">
 						<li><a href="#">Основы графического дизайна</a></li>
 						<li><a href="#">Web UI/UX дизайн</a></li>
 						<li><a href="#">3D-моделирование</a></li>
 						<li><a href="#">WEB-дизайн</a></li>
 						<li><a href="#">HTML5, CSS3, JS и CMS</a></li>
 						<li><a href="#">Front End разработка</a></li>
-					</ul>
+					</ul> -->
+                    <?php
+                                $menuParameters = array(
+                                //     Дизайн и верстка
+                                    'menu'            => '26',
+                                    'container'       => false,
+                                    'items_wrap'      => '<ul class="menu-list">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'echo'            => true,
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'walker'          => '',
+                                    'walker_nav_menu_start_el'          => '',
+                                );
+                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
+                    ?>
 
 					<div class="menu-name">
 						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_cogs.svg" alt=""></div><span>Маркетинг и менеджмент</span>
 					</div>
-					<ul class="menu-list">
+					<!-- <ul class="menu-list">
 						<li><a href="#">Интернет-маркетинг</a></li>
 						<li><a href="#">SMM</a></li>
 						<li><a href="#">Создание и продвижение видеоконтента</a></li>
 						<li><a href="#">Project management</a></li>
 						<li><a href="#">IT-Английский</a></li>
 						<li><a href="#">HR — инструкция по применению</a></li>
-					</ul>
+					</ul> -->
+                    <?php
+                                $menuParameters = array(
+                                //     Маркетинг и IT-менеджмент
+                                    'menu'            => '27',
+                                    'container'       => false,
+                                    'items_wrap'      => '<ul class="menu-list">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'echo'            => true,
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'walker'          => '',
+                                    'walker_nav_menu_start_el'          => '',
+                                );
+                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
+                    ?>
 
 				</div>
 			</div>
@@ -476,22 +427,56 @@
 			<div class="menu-right">
 
 				<div>
-					<ul class="big-menu">
+					<!-- <ul class="big-menu">
 						<li><a href="#">Открыт набор</a></li>
 						<li><a href="#">О нас</a></li>
 						<li><a href="#">События</a></li>
 						<li><a href="#">Вакансии</a></li>
-					</ul>
+					</ul> -->
+                    <?php
+                                $menuParameters = array(
+                                //     Индивидуальные курсы
+                                'menu'            => '2638',
+                                'container'       => false,
+                                'items_wrap'      => '<ul class="big-menu">%3$s</ul>',
+                                'depth'           => 0,
+                                'echo'            => true,
+                                'before'          => '',
+                                'after'           => '',
+                                'link_before'     => '',
+                                'link_after'      => '',
+                                'walker'          => '',
+                                'walker_nav_menu_start_el'          => '',
+                                );
+                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
+                    ?>
 				</div>
 
 				<div>
 					<div class="menu-title">проекты</div>
-					<ul class="medium-menu">
+                    <?php
+                                $menuParameters = array(
+                                //     Индивидуальные курсы
+                                'menu'            => '3560',
+                                'container'       => false,
+                                'items_wrap'      => '<ul class="medium-menu">%3$s</ul>',
+                                'depth'           => 0,
+                                'echo'            => true,
+                                'before'          => '',
+                                'after'           => '',
+                                'link_before'     => '',
+                                'link_after'      => '',
+                                'walker'          => '',
+                                'walker_nav_menu_start_el'          => '',
+                                );
+                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
+                    ?>
+					<!-- <ul class="medium-menu">
 						<li><a href="#">Открыт набор</a></li>
 						<li><a href="#">О нас</a></li>
 						<li><a href="#">События</a></li>
 						<li><a href="#">Вакансии</a></li>
-					</ul>
+					</ul> -->
 				</div>
 
 			</div>
