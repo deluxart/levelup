@@ -50,6 +50,9 @@
 <div>
 
 
+
+
+
 <?php if (current_user_can('level_10')) { ?>
 <header id="header" class="fixed-top header-color <?php the_field( 'header_color' ); ?>">
 	<div class="content">
@@ -91,6 +94,8 @@
 </header>
 
 <?php } else { ?>
+
+
 
 
 <header id="header" class="fixed-top header-color <?php the_field( 'header_color' ); ?>">
@@ -214,6 +219,104 @@
   </div>
 </div>
 
+
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+
+            <?php
+            wp_nav_menu( array(
+                'menu'            => '2',
+                'container'       => false,
+                'items_wrap'      => '<ul class="navbar-nav ml-auto">%3$s</ul>',
+                'depth'           => 0,
+                'echo'            => true,
+                'before'          => '',
+                'after'           => '',
+                'link_before'     => '',
+                'link_after'      => '',
+                'walker'          => '',
+                'add_li_class'  => 'nav-item',
+                'link_class'   => 'nav-link',
+                  'walker_nav_menu_start_el'          => '',
+            ) );
+            ?>
+
+    </div>
+
+
+<!-- <button style="border: 0; background: none; display: none;" class="action action--menu no-open"><span style="float: left; line-height: 38px; padding: 0 6px; font-size: 14px; font-weight: 600; text-transform: uppercase; color: #fff;">Меню</span><svg class="icon icon--menu" style="float: right;height: 38px !important;"><use xlink:href="#icon-menu"></use></svg></button> -->
+                <!-- <nav style="display: none;" class="menu">
+                <div class="menu__item menu__item--1" data-direction="bt">
+                    <div class="menu__item-inner">
+                        <div class="mainmenu">
+							<div>
+		  						<div class="cat_menu_title cat_1">Программирование</div>
+
+							</div>
+								<div>
+		  						<div class="cat_menu_title cat_2">Дизайн и верстка</div>
+
+							</div>
+								<div>
+		  						<div class="cat_menu_title cat_3">Маркетинг и IT-менеджмент</div>
+
+								</div>
+								<div>
+		  						<div class="cat_menu_title cat_4">Поддержка и аналитика</div>
+
+								</div>
+
+                        </div>
+                        <p class="label label--topleft label--vert-mirror">Учебный IT-центр Level Up</p>
+                        <p class="label label--bottomright label--vert">Профессиональная IT-подготовка</p>
+                    </div>
+                </div>
+                <div class="menu__item menu__item--2" data-direction="lr">
+                    <div class="menu__item-inner">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2645.8589966414834!2d35.039444!3d48.4592349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2dfeea55555%3A0xb4637f658c8cf549!2z0KPRh9C10LHQvdGL0LkgSVQt0YbQtdC90YLRgCBMZXZlbCBVcA!5e0!3m2!1sru!2sua!4v1544525641874" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="menu__item menu__item--3" data-direction="bt">
+                    <div class="menu__item-inner">
+                        <p class="label label--topleft label--line">Основное меню</p>
+
+						<div class="menu__item-link">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="menu__item menu__item--4" data-direction="rl">
+                    <div class="menu__item-inner">
+                        <p class="label label--topleft label--line">Мы в сети</p>
+
+                        <div class="menu__item-link" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+                            <div class="sidemenu">
+                                <ul>
+                                <li><a href="https://www.instagram.com/levelup_ua/" class="sidemenu__item"><span class="sidemenu__item-inner"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</span></a></li>
+                                <li><a href="https://t.me/levelupit" class="sidemenu__item"><span class="sidemenu__item-inner"><i class="fa fa-telegram" aria-hidden="true"></i> telegram</span></a></li>
+                                <li><a href="https://www.facebook.com/levelupdpua/" class="sidemenu__item"><span class="sidemenu__item-inner"><i class="fa fa-facebook" aria-hidden="true"></i> facebook</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu__item menu__item--5" data-direction="tb">
+                    <div class="menu__item-inner">
+                        <p class="label label--topleft label--line">Наши контакты</p>
+                        <ul class="full_contacts">
+                            <li><i class="fa fa-location-arrow" aria-hidden="true"></i> г. Днепр, ул. Троицкая, 21Г.,</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> +38 (099) 731 83 85, +38 (096) 084 25 13</li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i> info@levelup.ua</li>
+                            <li class="read-link"><a href="<?php echo esc_url( home_url( '/' ) ); ?>kontakty/">Подробнее</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="action action--menu" style="border: 0; background: none;"><span class="">Меню</span><svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg></button>
+                <button class="action action--close"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></button>
+            </nav> -->
+
             <div class="lux_search">
                 <div class="button"><span><i class="fa fa-search" aria-hidden="true"></i></span></div>
             </div>
@@ -252,6 +355,22 @@
 					<div class="menu-name">
 						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_code.svg" alt=""></div><span>Программирование  ПО</span>
 					</div>
+					<!-- <ul class="menu-list">
+						<li><a href="#">Основы программирования</a></li>
+						<li><a href="#">Программирование на Java</a></li>
+						<li><a href="#">JavaScript</a></li>
+						<li><a href="#">Разработка на C# под .NET</a></li>
+						<li><a href="#">Программирование на 1С</a></li>
+						<li><a href="#">Программирование на Python</a></li>
+						<li><a href="#">Full Stack разработка</a></li>
+						<li><a href="#">Программирование PНР</a></li>
+						<li><a href="#">Разработка iOS приложений</a></li>
+						<li><a href="#">Программирование под Android</a></li>
+						<li><a href="#">Разработка игр на Unreal Engine 4</a></li>
+						<li><a href="#">Разработка игр на Unity</a></li>
+						<li><a href="#">Разработка баз данных SQL</a></li>
+						<li><a href="#">Тестирование ПО</a></li>
+					</ul> -->
                     <?php
                                 $menuParameters = array(
                                 //     Основы программирования
@@ -275,6 +394,14 @@
 					<div class="menu-name">
 						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_smm.svg" alt=""></div><span>Дизайн и компьютерная графика</span>
 					</div>
+					<!-- <ul class="menu-list">
+						<li><a href="#">Основы графического дизайна</a></li>
+						<li><a href="#">Web UI/UX дизайн</a></li>
+						<li><a href="#">3D-моделирование</a></li>
+						<li><a href="#">WEB-дизайн</a></li>
+						<li><a href="#">HTML5, CSS3, JS и CMS</a></li>
+						<li><a href="#">Front End разработка</a></li>
+					</ul> -->
                     <?php
                                 $menuParameters = array(
                                 //     Дизайн и верстка
@@ -296,6 +423,14 @@
 					<div class="menu-name last-child">
 						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_cogs.svg" alt=""></div><span>Маркетинг и менеджмент</span>
 					</div>
+					<!-- <ul class="menu-list">
+						<li><a href="#">Интернет-маркетинг</a></li>
+						<li><a href="#">SMM</a></li>
+						<li><a href="#">Создание и продвижение видеоконтента</a></li>
+						<li><a href="#">Project management</a></li>
+						<li><a href="#">IT-Английский</a></li>
+						<li><a href="#">HR — инструкция по применению</a></li>
+					</ul> -->
                     <?php
                                 $menuParameters = array(
                                 //     Маркетинг и IT-менеджмент
@@ -320,6 +455,12 @@
 			<div class="menu-right">
 
 				<div>
+					<!-- <ul class="big-menu">
+						<li><a href="#">Открыт набор</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">События</a></li>
+						<li><a href="#">Вакансии</a></li>
+					</ul> -->
                     <?php
                                 $menuParameters = array(
                                 //     Индивидуальные курсы
@@ -358,6 +499,12 @@
                                 );
                                 echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
                     ?>
+					<!-- <ul class="medium-menu">
+						<li><a href="#">Открыт набор</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">События</a></li>
+						<li><a href="#">Вакансии</a></li>
+					</ul> -->
 				</div>
 
 			</div>
