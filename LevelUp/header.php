@@ -392,7 +392,7 @@
                                 echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
                     ?>
 
-					<div class="menu-name">
+					<div class="menu-name last-child">
 						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_cogs.svg" alt=""></div><span>Маркетинг и менеджмент</span>
 					</div>
 					<!-- <ul class="menu-list">
