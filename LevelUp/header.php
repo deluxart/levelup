@@ -88,7 +88,7 @@
             </div>
 		</div>
 		<div class="menu-btn">
-			<a href="" class="head-menu-btn">Меню</a>
+			<a href="" class="head-menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
 		</div>
 	</div>
 </header>
