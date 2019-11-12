@@ -38,7 +38,7 @@ body.open-lvl-menu jdiv { display: none; }
 
 .lvl-menu .lvl-menu-content .lvl-menu-logo img { height: 100%; }
 
-.lvl-menu .lvl-menu-content .lvl-menu-close { position: relative; z-index: 1; display: inline-block; width: 16px; height: 16px; margin: 5px 0 0; background: url("https://landing.ua/images/icon-close-1.svg") no-repeat; -webkit-transition: -webkit-transform 0.6s ease-in-out; transition: -webkit-transform 0.6s ease-in-out; -o-transition: transform 0.6s ease-in-out; transition: transform 0.6s ease-in-out; transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out; -webkit-transform-origin: center; -ms-transform-origin: center; transform-origin: center; }
+.lvl-menu .lvl-menu-content .lvl-menu-close { position: relative; z-index: 1; display: inline-block; width: 16px; height: 16px; margin: 5px 0 0; background: url("https://levelup.ua/wp-content/uploads/2019/11/icon-close-1.svg") no-repeat; -webkit-transition: -webkit-transform 0.6s ease-in-out; transition: -webkit-transform 0.6s ease-in-out; -o-transition: transform 0.6s ease-in-out; transition: transform 0.6s ease-in-out; transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out; -webkit-transform-origin: center; -ms-transform-origin: center; transform-origin: center; }
 
 .lvl-menu .lvl-menu-content .lvl-menu-close:hover { -webkit-transform: scale(1.1) rotate(180deg); -ms-transform: scale(1.1) rotate(180deg); transform: scale(1.1) rotate(180deg); text-decoration: none; }
 
