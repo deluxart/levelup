@@ -30,16 +30,16 @@ body.page-template-page-news-blog .open-courses { padding: 0 !important; }
 .course h3 { padding: 0 0 25px 0; }
 .course h2 span { color: #15acf2; font-weight: inherit; }
 
-.prepod-carusel.course .course { padding: 0; }
-.about-courses .last { padding-top: 30px; }
-.list-group br { display: none; }
-
 h1.entry-title, .entry-header { display: none; }
 .single h1.entry-title, .single .entry-header { display: block; padding-top: 7px; font-weight: 700; font-size: 28px; }
 .modal { z-index: 9999999999; }
 
 iframe { max-width: 100%; }
 .for_adm .fixed-top { top: 32px; }
+
+.prepod-carusel.course .course { padding: 0; }
+.about-courses .last { padding-top: 30px; }
+.list-group br { display: none; }
 
 
 @media (max-width:768px) {
