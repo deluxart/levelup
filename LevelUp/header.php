@@ -88,7 +88,8 @@
             </div>
 		</div>
 		<div class="menu-btn">
-			<a href="" class="head-menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+			<a href="" class="head-menu-btn desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <button class="navbar-toggler snj_sandwitch_btn_show mobile-btn" type="button"><span class="navbar-toggler-icon"></span></button>
 		</div>
 	</div>
 </header>
@@ -111,9 +112,7 @@
 	<i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+380960842513">(096) 084 25 13</a>
 		  <div class="header-phone_last"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+380997318385">(099) 731 83 85</a></div>
 	  </div>
-    <button class="navbar-toggler snj_sandwitch_btn_show" type="button">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<button class="navbar-toggler snj_sandwitch_btn_show" type="button"><span class="navbar-toggler-icon"></span></button>
 
 <div id="snj_sandwitch"><div class="snj_sandwitch_btn_hide"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
 
