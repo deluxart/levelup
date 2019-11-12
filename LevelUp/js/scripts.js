@@ -729,5 +729,6 @@ jQuery(document).on('click', '.wp_queries', function () {
 jQuery(document).on('click', '.lvl-menu-close', function () {
     jQuery('.lvl-menu').removeClass('show');
     jQuery('body').removeClass('open-lvl-menu');
+    return false;
 });
 // End - For new FullScreen Menu
