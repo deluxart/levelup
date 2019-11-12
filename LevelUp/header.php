@@ -89,8 +89,7 @@
 		</div>
 		<div class="menu-btn">
 			<a href="" class="head-menu-btn desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
-			<a href="" class="head-menu-btn-mobile desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
-            <button class="navbar-toggler snj_sandwitch_btn_show mobile-btn" type="button"><span class="navbar-toggler-icon"></span></button>
+			<a href="" class="head-menu-btn-mobile mobile-btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
 		</div>
 	</div>
 </header>
