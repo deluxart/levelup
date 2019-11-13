@@ -6,11 +6,16 @@ body.blue-section .lvl2019 .slick-prev::before, body.blue-section .lvl2019 .slic
 
 .lvl2019 #trust_us .slick-prev { z-index: 99; }
 
+#main { padding-top: 90px; }
+#main.light { padding-top: 0; }
+
 #header { height: auto; padding: 0 30px; background-image: -moz-linear-gradient(180deg, #000cff 0%, #6c00ff 100%); background-image: -webkit-linear-gradient(180deg, #000cff 0%, #6c00ff 100%); background-image: -ms-linear-gradient(180deg, #000cff 0%, #6c00ff 100%); }
 #header .content { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; grid-gap: 40px; height: 90px; text-align: center; transition: .7s all; }
 #header .content .logo a img { display: none; height: 46px; }
 #header .content .logo a img.logo_desktop { display: block; }
-#header .content .header-phone { display: none; background-color: #00000026; }
+#header .content .header-phone { display: none; background-color: #00000026; border-radius: 5px; padding: 6px 17px; font-size: 16px; color: #fcf331; }
+#header .content .header-phone .header-phone_last { display: none; }
+#header .content .header-phone:hover .header-phone_last { display: block; transition: 0.5s; }
 #header .content .basic-nav ul.basic-menu { display: inline-block; }
 #header .content .basic-nav ul.basic-menu > li { display: inline-block; }
 #header .content .basic-nav ul.basic-menu > li.nav-item > a { padding: 15px 20px !important; color: #fff; text-decoration: none; position: relative; }
