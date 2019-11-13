@@ -1,7 +1,6 @@
 // Поиск
     jQuery('.lux_search > .button').click(function () {
         jQuery('.search-open').toggleClass("open");
-        // jQuery('.search-open input').focus();
         jQuery('.search-open-bg').toggleClass("open").css({display: 'block'});
     });
     jQuery('#search-modal .btnClose, #search-modal .modalClose, .search-open .icon--close').click(function () {
@@ -14,7 +13,6 @@
 jQuery(document).ready(function() {
   jQuery('.orig').focus(function() {
       jQuery('.search-open').addClass("open-full");
-      //return false;
     });
 
 
@@ -46,35 +44,15 @@ jQuery('.tg-item-excerpt').each(function() {
 });
 
 // Закрытие попапа после успешной отправки формы
-document.addEventListener( 'wpcf7mailsent', function( event ) {
+// document.addEventListener( 'wpcf7mailsent', function( event ) {
 
-    if ( '1073' == event.detail.contactFormId ) {
-					function explode(){
-					  jQuery(".sgpb-popup-close-button-6").click();
-					}
-					setTimeout(explode, 1500);
-    }
-}, false );
-
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-
-    if ( '1050' == event.detail.contactFormId ) {
-					function explode(){
-					  jQuery(".sgpb-popup-close-button-6").click();
-					}
-					setTimeout(explode, 1500);
-    }
-}, false );
-
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-
-    if ( '1172' == event.detail.contactFormId ) {
-					function explode(){
-					  jQuery(".sgpb-popup-close-button-6").click();
-					}
-					setTimeout(explode, 1500);
-    }
-}, false );
+//     if ( '1172' == event.detail.contactFormId ) {
+// 					function explode(){
+// 					  jQuery(".sgpb-popup-close-button-6").click();
+// 					}
+// 					setTimeout(explode, 1500);
+//     }
+// }, false );
 // Конец - Закрытие попапа после успешной отправки формы
 
 // Меню для мобильных устройств
@@ -130,14 +108,6 @@ jQuery( "#listCourses" ).click(function() {
   jQuery(".buttonModalCourses").click();
 	jQuery(".lvl_mobile_menu_shown").click();
 });
-
-jQuery(".navbar-toggler").click(function(){
-        jQuery( "body" ).addClass( "snj_nav" );
-});
-
-jQuery(".lvl_mobile_menu_btn_hide").click(function(){
-        jQuery( "body" ).removeClass( "snj_nav" );
-});
 // Конец - меню для мобильных устройств
 
 
@@ -151,74 +121,6 @@ jQuery(window).load(function() {
 });
 // Конец - Маска для инпута номера телефона
 
-
-setInterval(function(){jQuery('.saleRow').toggleClass('animate');}, 3000);
-
-jQuery(".SliderTarget").click(function(){
-	var fc = jQuery(this).hasClass('checked');
-		if (fc == true) {
-			jQuery("#tel22").focus();
-		}
-});
-
-jQuery(".SliderTarget.force-checked").click(function(){
-jQuery(".SliderTarget").removeClass('checked');
-});
-
-function getTimeRemaining(endtime) {
-  var t = Date.parse(endtime) - Date.parse(new Date());
-  var seconds = Math.floor((t / 1000) % 60);
-  var minutes = Math.floor((t / 1000 / 60) % 60);
-  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-  var days = Math.floor(t / (1000 * 60 * 60 * 24));
-  return {
-    'total': t,
-    'days': days,
-    'hours': hours,
-    'minutes': minutes,
-    'seconds': seconds
-  };
-}
-
-function initializeClock(id, endtime) {
-  var clock = document.getElementById(id);
-  var daysSpan = clock.querySelector('.days');
-  var hoursSpan = clock.querySelector('.hours');
-  var minutesSpan = clock.querySelector('.minutes');
-  var secondsSpan = clock.querySelector('.seconds');
-
-  function updateClock() {
-    var t = getTimeRemaining(endtime);
-
-    daysSpan.innerHTML = t.days;
-    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-    if (t.total <= 0) {
-      clearInterval(timeinterval);
-    }
-  }
-
-  updateClock();
-  var timeinterval = setInterval(updateClock, 1000);
-}
-
-
-
-
-if (jQuery("div").is("#deadlinetext")) {
-		function func() {
-			var a = document.getElementById('deadlinetext').innerText;
-			initializeClock('clockdiv', a);
-		}
-
-}
-
-setTimeout(func, 10);
-
-var myFuncSold = 12 -  jQuery('.force-checked').length;
- jQuery('.SoldNumber').text(myFuncSold);
 
 
 
@@ -405,18 +307,18 @@ jQuery(document).ready(function(){
 // End Tooltip boostrap
 
 
-// Цвет шапки на DEV-Studio
+// Высота шапки при прокрутке
 jQuery(function(){
- jQuery(window).scroll(function() {
-  var topHead = jQuery(document).scrollTop();
-  if (topHead > 70) {
-    jQuery('#header').removeClass('header-color');
-  } else {
-    jQuery('#header').addClass('header-color');
-}
- });
+    jQuery(window).scroll(function() {
+        var topHead = jQuery(document).scrollTop();
+        if (topHead > 70) {
+            jQuery('#header').removeClass('header-color');
+        } else {
+            jQuery('#header').addClass('header-color');
+        }
+    });
 });
-// End - Цвет шапки на DEV-Studio
+// End - Высота шапки при прокрутке
 
 
 // Табы для IT-Английский
@@ -683,19 +585,6 @@ jQuery(document).ready(function() {
         },100);
     });
 });
-
-
-// jQuery(document).ready(function() {
-//     jQuery('#trust_us > .text-before').text(jQuery('#trust_us .slick-active .text > h2').text());
-
-//     jQuery('#trust_us .odinochnyy-slider-prepodovatel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-//     jQuery('#trust_us > .text-before').hide();
-//         setTimeout(function(){
-//             jQuery('#trust_us > .text-before').fadeIn().text(jQuery('#trust_us .slick-active .text > h2').text());
-//         },100);
-//     });
-// });
-
 
 jQuery(document).ready(function(){
     jQuery('ul.un-tabs li').click(function(){
