@@ -319,10 +319,10 @@ input[type=button] {width: auto; overflow: visible;}
 .fullscreen-nav .action.action--menu:hover span, .full-nav .action.action--menu:hover span { color: #15acf2 !important; }
 
 #lvl_mobile_menu {display: none;}
-ul.mobile-menu li a { display: block; font-size: 18px;padding: 15px 0 15px 30px;color:#fff;text-align: left; position: relative;max-width: 600px;line-height: 20px;width: calc(100% - 70px);margin: 0 auto;border-bottom: 1px solid #ffffff1a;}
-ul.mobile-menu li a::before {content: "\f061";font-family: FontAwesome;left: 0; position: absolute; font-size: 17px; }
-ul.mobile-menu li a::after { right: 0; content: "\f105";font-family: FontAwesome; position: absolute; }
-ul.mobile-menu li a:last-child { border:0; }
+ul.mobile-menu li > a { display: block; font-size: 18px;padding: 15px 0 15px 30px;color:#fff;text-align: left; position: relative;max-width: 600px;line-height: 20px;width: calc(100% - 70px);margin: 0 auto;border-bottom: 1px solid #ffffff1a;}
+ul.mobile-menu li > a::before {content: "\f061";font-family: FontAwesome;left: 0; position: absolute; font-size: 17px; }
+ul.mobile-menu li > a::after { right: 0; content: "\f105";font-family: FontAwesome; position: absolute; }
+ul.mobile-menu li > a:last-child { border:0; }
 
 ul.mobile-menu li.home-page a { content: "\f015"; }
 ul.mobile-menu li.opened-page a { content: "\f015"; }
@@ -331,15 +331,6 @@ ul.mobile-menu li.news-page a { content: "\f1ea"; }
 ul.mobile-menu li.blog-page a { content: "\f044"; }
 ul.mobile-menu li.contacts-page a { content: "\f0e5"; }
 ul.mobile-menu li.about-page a { content: "\f19d"; }
-
-.lvl_mobile_menu-menu a:nth-child(1)::before { content: "\f015"; }
-.lvl_mobile_menu-menu a:nth-child(2)::before { content: "\f0f6"; }
-.lvl_mobile_menu-menu a:nth-child(3)::before { content: "\f022"; }
-.lvl_mobile_menu-menu a:nth-child(4)::before { content: "\f1ea"; }
-.lvl_mobile_menu-menu a:nth-child(5)::before { content: "\f044"; }
-.lvl_mobile_menu-menu a:nth-child(6)::before { content: "\f0e5"; }
-.lvl_mobile_menu-menu a:nth-child(7)::before { content: "\f0e6"; }
-.lvl_mobile_menu-menu a:nth-child(8)::before { content: "\f19d"; }
 
 .lvl_mobile_menu_btn_show, .lvl_mobile_menu_btn_hide {display: none;position: relative;margin: 0;right:0px; fill: #fff; }
 #lvl_mobile_menu .lvl_mobile_menu_btn_show,#lvl_mobile_menu .lvl_mobile_menu_btn_hide {top: 22px;right: 35px;position: absolute;}
