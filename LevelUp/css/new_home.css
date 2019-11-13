@@ -10,7 +10,7 @@ body.blue-section .lvl2019 .slick-prev::before, body.blue-section .lvl2019 .slic
 #header .content { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; grid-gap: 40px; height: 90px; text-align: center; transition: .7s all; }
 #header .content .logo a img { display: none; height: 46px; }
 #header .content .logo a img.logo_desktop { display: block; }
-#header .content .header-phone { display: none; }
+#header .content .header-phone { display: none; background-color: #00000026; }
 #header .content .basic-nav ul.basic-menu { display: inline-block; }
 #header .content .basic-nav ul.basic-menu > li { display: inline-block; }
 #header .content .basic-nav ul.basic-menu > li.nav-item > a { padding: 15px 20px !important; color: #fff; text-decoration: none; position: relative; }
@@ -176,7 +176,6 @@ body.open-lvl-menu jdiv { display: none; }
   .lvl_form .title-lvl-form { font-size: 21px; }
   .lvl-form-2019 { min-width: 0 !important; padding: 30px 30px 0 30px !important; } }
 body.page-id-7326 .navbar-dark .navbar-toggler, body.home .navbar-dark .navbar-toggler { color: #fff; }
-body.page-id-7326 #header .header-phone, body.home #header .header-phone { background-color: #00000026; }
 @media (min-width: 1200px) { body.page-id-7326 .container, body.home .container { max-width: 1240px; } }
 body.page-id-7326 #level_footer.light, body.home #level_footer.light { background: #fff !important; }
 body.page-id-7326 #main.light, body.home #main.light { padding-top: 0 !important; }
