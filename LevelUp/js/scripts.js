@@ -410,22 +410,9 @@ jQuery(function(){
  jQuery(window).scroll(function() {
   var topHead = jQuery(document).scrollTop();
   if (topHead > 70) {
-    jQuery('#header.light').removeClass('header-color');
-
-    jQuery('.page-id-4713 #header').removeClass('header-color');
-    jQuery('.page-id-6586 #header').removeClass('header-color');
-    jQuery('.home #header').removeClass('header-color');
-    jQuery('.post-template-single-empty #header').removeClass('header-color');
-    jQuery('.page-template-page-event #header').removeClass('header-color');
-
+    jQuery('#header').removeClass('header-color');
   } else {
-    jQuery('#header.light').addClass('header-color');
-
-    jQuery('.page-id-4713 #header').addClass('header-color');
-    jQuery('.page-id-6586 #header').addClass('header-color');
-    jQuery('.post-template-single-empty #header').addClass('header-color');
-    jQuery('.home #header').addClass('header-color');
-    jQuery('.page-template-page-event #header').addClass('header-color');
+    jQuery('#header').addClass('header-color');
 }
  });
 });
