@@ -20,7 +20,7 @@ body.blue-section .lvl2019 .slick-prev::before, body.blue-section .lvl2019 .slic
 #header .content .lux_search .button { position: relative; }
 #header .content .lux_search .button i { color: #fff; }
 #header .content .lux_search .button span { height: auto; width: auto; top: 0; }
-#header .content .menu-btn a { color: #fff; font-size: 21px; }
+#header .content .menu-btn button { color: #fff; font-size: 21px; background: none; border: 0; padding: 0; }
 #header .content .menu-btn .mobile-btn { display: none; }
 #header:not(.header-color) { height: auto; }
 #header:not(.header-color) .content { height: 64px; }
