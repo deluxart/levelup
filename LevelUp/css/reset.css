@@ -324,13 +324,13 @@ ul.mobile-menu li > a::before {content: "\f061";font-family: FontAwesome;left: 0
 ul.mobile-menu li > a::after { right: 0; content: "\f105";font-family: FontAwesome; position: absolute; }
 ul.mobile-menu li > a:last-child { border:0; }
 
-ul.mobile-menu li.home-page a { content: "\f015"; }
-ul.mobile-menu li.opened-page a { content: "\f015"; }
-ul.mobile-menu li.all-courses a { content: "\f022"; }
-ul.mobile-menu li.news-page a { content: "\f1ea"; }
-ul.mobile-menu li.blog-page a { content: "\f044"; }
-ul.mobile-menu li.contacts-page a { content: "\f0e5"; }
-ul.mobile-menu li.about-page a { content: "\f19d"; }
+ul.mobile-menu li.home-page > a { content: "\f015"; }
+ul.mobile-menu li.opened-page > a { content: "\f015"; }
+ul.mobile-menu li.all-courses > a { content: "\f022"; }
+ul.mobile-menu li.news-page > a { content: "\f1ea"; }
+ul.mobile-menu li.blog-page > a { content: "\f044"; }
+ul.mobile-menu li.contacts-page > a { content: "\f0e5"; }
+ul.mobile-menu li.about-page > a { content: "\f19d"; }
 
 .lvl_mobile_menu_btn_show, .lvl_mobile_menu_btn_hide {display: none;position: relative;margin: 0;right:0px; fill: #fff; }
 #lvl_mobile_menu .lvl_mobile_menu_btn_show,#lvl_mobile_menu .lvl_mobile_menu_btn_hide {top: 22px;right: 35px;position: absolute;}
