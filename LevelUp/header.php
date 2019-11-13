@@ -215,10 +215,8 @@
 <div class="lvl-menu">
 	<div class="lvl-menu-content">
 		<div class="lvl-menu-header">
-
 				<a href="/" class="lvl-menu-logo"><img src="https://levelup.ua/wp-content/uploads/2019/11/level_up-1.svg" alt="Level Up"></a>
-				<a href="#" class="lvl-menu-close">&nbsp;</a>
-
+                <button class="lvl-menu-close"><i class="fa fa-bars" aria-hidden="true"></i></button>
 		</div>
 		<div class="lvl-menu-left-side">
 
