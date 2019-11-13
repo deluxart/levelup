@@ -95,7 +95,127 @@
             <button class="head-menu-btn desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
             <button class="head-menu-btn-mobile mobile-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
 		</div>
+    </div>
+
+
+
+    <div id="lvl_mobile_menu">
+    <div class="lvl_mobile_menu_btn_hide">
+        <svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
+    </div>
+    <div class="lvl_mobile_menu-menu text-center">
+    <?php
+            wp_nav_menu( array(
+                'menu'            => '2',
+                'container'       => false,
+                'items_wrap'      => '<ul class="mobile-menu">%3$s</ul>',
+                'depth'           => 0,
+                'echo'            => true,
+                'before'          => '',
+                'after'           => '',
+                'link_before'     => '',
+                'link_after'      => '',
+                'walker'          => '',
+                'add_li_class'  => 'nav-item',
+                'link_class'   => 'nav-link',
+                  'walker_nav_menu_start_el'          => '',
+            ) );
+            ?>
 	</div>
+</div>
+
+
+<div class="modal fade" id="all_courses" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+		  <h5 class="modal-title reviews_name" id="exampleModalCenterTitle"><?php pll_e('All Level Up Courses','LevelUp'); ?></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  						<div class="cat_menu_title cat_1"><?php pll_e('Programming','LevelUp'); ?></div>
+                                <?php
+                                $menuParameters = array(
+                                //     Основы программирования
+                                    'menu'            => '25',
+                                    'container'       => false,
+                                    'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'echo'            => true,
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'walker'          => '',
+                                    'walker_nav_menu_start_el'          => '',
+                                );
+                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
+                                ?>
+
+		  						<div class="cat_menu_title cat_2"><?php pll_e('Design and layout','LevelUp'); ?></div>
+                                <?php
+                                $menuParameters = array(
+                                //     Дизайн и верстка
+                                    'menu'            => '26',
+                                    'container'       => false,
+                                    'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'echo'            => true,
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'walker'          => '',
+                                    'walker_nav_menu_start_el'          => '',
+                                );
+                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
+                                ?>
+
+		  						<div class="cat_menu_title cat_3"><?php pll_e('Marketing and IT Management','LevelUp'); ?></div>
+		                      <?php
+                                $menuParameters = array(
+                                //     Маркетинг и IT-менеджмент
+                                    'menu'            => '27',
+                                    'container'       => false,
+                                    'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'echo'            => true,
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'walker'          => '',
+                                    'walker_nav_menu_start_el'          => '',
+                                );
+                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
+                                ?>
+		  						<div class="cat_menu_title cat_4"><?php pll_e('Support and analytics','LevelUp'); ?></div>
+		  		                      <?php
+                                $menuParameters = array(
+                                //     Поддержка и аналитика
+                                    'menu'            => '28',
+                                    'container'       => false,
+                                    'items_wrap'      => '<ul class="f_nav">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'echo'            => true,
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'walker'          => '',
+                                    'walker_nav_menu_start_el'          => '',
+                                );
+                                echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
+                                ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 </header>
 
 <?php } else { ?>
@@ -118,18 +238,20 @@
 	  </div>
 <button class="navbar-toggler lvl_mobile_menu_btn_show head-menu-btn-mobile" type="button"><span class="navbar-toggler-icon"></span></button>
 
-<div id="lvl_mobile_menu"><div class="lvl_mobile_menu_btn_hide"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
-
-	</div><div class="lvl_mobile_menu-menu text-center">
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php pll_e('Home','LevelUp'); ?></a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>otkryt-nabor/"><?php pll_e('Set open','LevelUp'); ?></a>
-							<a href="#" data-toggle="modal" data-target="#all_courses"><?php pll_e('All courses','LevelUp'); ?></a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>novosti/"><?php pll_e('news and events','LevelUp'); ?></a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>blog/"><?php pll_e('blog','LevelUp'); ?></a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>kontakty/"><?php pll_e('contacts','LevelUp'); ?></a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>reviews/"><?php pll_e('Reviews','LevelUp'); ?></a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>aboutus/"><?php pll_e('About Us','LevelUp'); ?></a>
-						</div>
+<div id="lvl_mobile_menu">
+    <div class="lvl_mobile_menu_btn_hide">
+        <svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
+    </div>
+    <div class="lvl_mobile_menu-menu text-center">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php pll_e('Home','LevelUp'); ?></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>otkryt-nabor/"><?php pll_e('Set open','LevelUp'); ?></a>
+		<a href="#" data-toggle="modal" data-target="#all_courses"><?php pll_e('All courses','LevelUp'); ?></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>novosti/"><?php pll_e('news and events','LevelUp'); ?></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>blog/"><?php pll_e('blog','LevelUp'); ?></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>kontakty/"><?php pll_e('contacts','LevelUp'); ?></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>reviews/"><?php pll_e('Reviews','LevelUp'); ?></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>aboutus/"><?php pll_e('About Us','LevelUp'); ?></a>
+	</div>
 </div>
 
 
