@@ -788,79 +788,76 @@ add_filter('acf/format_value/type=textarea', 'do_shortcode');
 pll_register_string('Home', 'Home');
 
 // Открыт набор
-pll_register_string('Set open', 'Home');
+pll_register_string('Set open', 'Set open');
 
 // Все курсы
-pll_register_string('All courses', 'Home');
+pll_register_string('All courses', 'All courses');
 
 // Новости и события
-pll_register_string('news and events', 'Home');
+pll_register_string('news and events', 'news and events');
 
 // IT-блог
-pll_register_string('blog', 'Home');
+pll_register_string('blog', 'blog');
 
 // Контакты
-pll_register_string('contacts', 'Home');
+pll_register_string('contacts', 'contacts');
 
 // Отзывы
-pll_register_string('Reviews', 'Home');
+pll_register_string('Reviews', 'Reviews');
 
 // О нас
-pll_register_string('About Us', 'Home');
+pll_register_string('About Us', 'About Us');
 
 // Все курсы Level Up
-pll_register_string('All Level Up Courses', 'Home');
+pll_register_string('All Level Up Courses', 'All Level Up Courses');
 
-// Все курсы Level Up
-pll_register_string('All Level Up Courses', 'Home');
-
-// Все курсы Level Up
-pll_register_string('Programming', 'Home');
+// Программирование
+pll_register_string('Programming', 'Programming');
 
 
 // Дизайн и верстка
-pll_register_string('Design and layout', 'Home');
+pll_register_string('Design and layout', 'Design and layout');
 
 
 // Маркетинг и IT-менеджмент
-pll_register_string('Marketing and IT Management', 'Home');
+pll_register_string('Marketing and IT Management', 'Marketing and IT Management');
 
 
 // Поддержка и аналитика
-pll_register_string('Support and analytics', 'Home');
+pll_register_string('Support and analytics', 'Support and analytics');
 
 // Поддержка и аналитика
-pll_register_string('Support and analytics', 'Home');
+pll_register_string('Support and analytics', 'Support and analytics');
 
 // Программирование  ПО
-pll_register_string('Software programming', 'Home');
+pll_register_string('Software programming', 'Software programming');
 
 // Дизайн и компьютерная графика
-pll_register_string('Design and computer graphics', 'Home');
+pll_register_string('Design and computer graphics', 'Design and computer graphics');
 
 // г. Днепр, ул. Троицкая, 21Г.
-pll_register_string('levelup_location', 'Home');
+pll_register_string('levelup_location', 'levelup_location');
 
 // Введите слово, чтобы начать поиск
-pll_register_string('input_search', 'Home');
+pll_register_string('input_search', 'input_search');
 
 // Учебный IT-центр
-pll_register_string('Training IT Center', 'Home');
+pll_register_string('Training IT Center', 'Training IT Center');
 
 // Смотреть все
-pll_register_string('show_all', 'Home');
+pll_register_string('show_all', 'show_all');
 
 // Ближайшие ивенты:
-pll_register_string('Upcoming Events', 'Home');
+pll_register_string('Upcoming Events', 'Upcoming Events');
 
 // Будь вкурсе!
-pll_register_string('Stay in touch', 'Home');
+pll_register_string('Stay in touch', 'Stay in touch');
 
 // Актуальные новости и мероприятия в еженедельной рассылке от Level Up
-pll_register_string('Actual news', 'Home');
+pll_register_string('Actual news', 'Actual news');
 
 // Последние новости:
-pll_register_string('last_news', 'Home');
+pll_register_string('last_news', 'last_news');
 
 // * Вы так-же в любой момент с легкостью сможете отписаться от нашей рассылки
-pll_register_string('unsubscribe_info', 'Home');
+pll_register_string('unsubscribe_info', 'unsubscribe_info');
