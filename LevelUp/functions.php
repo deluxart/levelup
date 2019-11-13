@@ -182,6 +182,17 @@ function wporg_custom_box_html($post)
     <?php
 }
 
+add_filter( 'nav_menu_link_attributes', 'menu_atts', 10, 3 );
+function menu_atts( $atts, $item, $args )
+{
+  $menu_target = 7669;
+  if ($item->ID == $menu_target) {
+    $atts['data-toggle'] = 'modal';
+    $atts['data-target'] = '#all_courses';
+  }
+  return $atts;
+}
+
 function wporg_save_postdata($post_id)
 {
     if (array_key_exists('custom_sidebar', $_POST)) {
