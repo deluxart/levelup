@@ -116,11 +116,11 @@
 	<i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+380960842513">(096) 084 25 13</a>
 		  <div class="header-phone_last"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+380997318385">(099) 731 83 85</a></div>
 	  </div>
-<button class="navbar-toggler snj_sandwitch_btn_show head-menu-btn-mobile" type="button"><span class="navbar-toggler-icon"></span></button>
+<button class="navbar-toggler lvl_mobile_menu_btn_show head-menu-btn-mobile" type="button"><span class="navbar-toggler-icon"></span></button>
 
-<div id="snj_sandwitch"><div class="snj_sandwitch_btn_hide"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
+<div id="lvl_mobile_menu"><div class="lvl_mobile_menu_btn_hide"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
 
-	</div><div class="snj_sandwitch-menu text-center">
+	</div><div class="lvl_mobile_menu-menu text-center">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php pll_e('Home','LevelUp'); ?></a>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>otkryt-nabor/"><?php pll_e('Set open','LevelUp'); ?></a>
 							<a href="#" data-toggle="modal" data-target="#all_courses"><?php pll_e('All courses','LevelUp'); ?></a>

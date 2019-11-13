@@ -80,8 +80,8 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
 // Меню для мобильных устройств
 jQuery(function(){
 		var trigger_show = jQuery('.head-menu-btn-mobile');
-		var trigger_hide = jQuery('.snj_sandwitch_btn_hide');
-		var sndwch = jQuery('#snj_sandwitch');
+		var trigger_hide = jQuery('.lvl_mobile_menu_btn_hide');
+		var sndwch = jQuery('#lvl_mobile_menu');
 
 		if ( !sndwch.length ) return;
 		jQuery(trigger_show).one('click',function(){
@@ -89,8 +89,8 @@ jQuery(function(){
 		});
 
 		function _showMenu() {
-			trigger_show.toggleClass('snj_sandwitch_shown');
-			trigger_hide.toggleClass('snj_sandwitch_shown');
+			trigger_show.toggleClass('lvl_mobile_menu_shown');
+			trigger_hide.toggleClass('lvl_mobile_menu_shown');
 			sndwch.stop(1,1).fadeIn(function(){
 				jQuery(trigger_hide).one('click',function(){
 		            _hideMenu();
@@ -100,8 +100,8 @@ jQuery(function(){
 		}
 
 		function _hideMenu() {
-			trigger_show.toggleClass('snj_sandwitch_shown');
-			trigger_hide.toggleClass('snj_sandwitch_shown');
+			trigger_show.toggleClass('lvl_mobile_menu_shown');
+			trigger_hide.toggleClass('lvl_mobile_menu_shown');
 			sndwch.stop(1,1).fadeOut(function(){
 				jQuery(trigger_show).one('click',function(){
 		            _showMenu();
@@ -110,10 +110,10 @@ jQuery(function(){
 		}
 
 		function _resizeSndwch() {
-				sndwch.find('.snj_sandwitch-menu')
+				sndwch.find('.lvl_mobile_menu-menu')
 				.css(
 					'margin-top',
-					((sndwch.height() - sndwch.find('.snj_sandwitch-menu').height())/2) + "px"
+					((sndwch.height() - sndwch.find('.lvl_mobile_menu-menu').height())/2) + "px"
 				);
 		}
 		jQuery(window).resize(_resizeSndwch);
@@ -128,14 +128,14 @@ setTimeout(function(){
 
 jQuery( "#listCourses" ).click(function() {
   jQuery(".buttonModalCourses").click();
-	jQuery(".snj_sandwitch_shown").click();
+	jQuery(".lvl_mobile_menu_shown").click();
 });
 
 jQuery(".navbar-toggler").click(function(){
         jQuery( "body" ).addClass( "snj_nav" );
 });
 
-jQuery(".snj_sandwitch_btn_hide").click(function(){
+jQuery(".lvl_mobile_menu_btn_hide").click(function(){
         jQuery( "body" ).removeClass( "snj_nav" );
 });
 // Конец - меню для мобильных устройств
