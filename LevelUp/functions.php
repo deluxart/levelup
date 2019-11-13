@@ -778,3 +778,89 @@ add_shortcode('recent_posts', 'shapeSpace_recent_posts_shortcode');
 
 add_filter('acf/format_value/type=textarea', 'do_shortcode');
 
+
+
+
+
+// For polylang translate
+
+// Главная
+pll_register_string('Home', 'Home');
+
+// Открыт набор
+pll_register_string('Set open', 'Home');
+
+// Все курсы
+pll_register_string('All courses', 'Home');
+
+// Новости и события
+pll_register_string('news and events', 'Home');
+
+// IT-блог
+pll_register_string('blog', 'Home');
+
+// Контакты
+pll_register_string('contacts', 'Home');
+
+// Отзывы
+pll_register_string('Reviews', 'Home');
+
+// О нас
+pll_register_string('About Us', 'Home');
+
+// Все курсы Level Up
+pll_register_string('All Level Up Courses', 'Home');
+
+// Все курсы Level Up
+pll_register_string('All Level Up Courses', 'Home');
+
+// Все курсы Level Up
+pll_register_string('Programming', 'Home');
+
+
+// Дизайн и верстка
+pll_register_string('Design and layout', 'Home');
+
+
+// Маркетинг и IT-менеджмент
+pll_register_string('Marketing and IT Management', 'Home');
+
+
+// Поддержка и аналитика
+pll_register_string('Support and analytics', 'Home');
+
+// Поддержка и аналитика
+pll_register_string('Support and analytics', 'Home');
+
+// Программирование  ПО
+pll_register_string('Software programming', 'Home');
+
+// Дизайн и компьютерная графика
+pll_register_string('Design and computer graphics', 'Home');
+
+// г. Днепр, ул. Троицкая, 21Г.
+pll_register_string('levelup_location', 'Home');
+
+// Введите слово, чтобы начать поиск
+pll_register_string('input_search', 'Home');
+
+// Учебный IT-центр
+pll_register_string('Training IT Center', 'Home');
+
+// Смотреть все
+pll_register_string('show_all', 'Home');
+
+// Ближайшие ивенты:
+pll_register_string('Upcoming Events', 'Home');
+
+// Будь вкурсе!
+pll_register_string('Stay in touch', 'Home');
+
+// Актуальные новости и мероприятия в еженедельной рассылке от Level Up
+pll_register_string('Actual news', 'Home');
+
+// Последние новости:
+pll_register_string('last_news', 'Home');
+
+// * Вы так-же в любой момент с легкостью сможете отписаться от нашей рассылки
+pll_register_string('unsubscribe_info', 'Home');

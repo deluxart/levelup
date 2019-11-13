@@ -44,7 +44,7 @@
 			</div>
         </div>
         <div class="text-copyright">
-            <strong><span class="blue">LEVELUP</span>™ 2019</strong> Учебный IT-центр
+            <strong><span class="blue">LEVELUP</span>™ 2019</strong> <?php pll_e('Training IT Center','LevelUp'); ?>
         </div>
 	</div>
 </footer>
@@ -88,7 +88,7 @@
     <div class="close-search"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></div>
     <div class="modalClose"></div>
     <div class="search-modal-inner">
-        <p class="text-center">Введите слово, чтобы начать поиск</p>
+        <p class="text-center"><?php pll_e('input_search','LevelUp'); ?></p>
     <div class="container search">
         <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
     </div>
@@ -105,24 +105,24 @@
             <div class="subscribe-content">
                 <div class="top">
                     <div class="widget first">
-                        <h4>Ближайшие ивенты:</h4>
+                        <h4><?php pll_e('Upcoming Events','LevelUp'); ?></h4>
                         <?php echo do_shortcode('[recent_posts num="3" cat="2874"]'); ?>
-                        <div class="read_btn"><a href="https://levelup.ua/novosti">Смотреть все <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+                        <div class="read_btn"><a href="https://levelup.ua/novosti"><?php pll_e('show_all','LevelUp'); ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
                     </div>
                     <div class="form">
-                        <h2>Будь вкурсе!</h2>
-                        <p>Актуальные новости и мероприятия в еженедельной рассылке от Level Up</p>
+                        <h2><?php pll_e('Stay in touch','LevelUp'); ?></h2>
+                        <p><?php pll_e('Actual news','LevelUp'); ?></p>
                         <div class="form-cont">
                         <?php echo do_shortcode('[contact-form-7 id="294" title="Футер (Форма подписки)"]'); ?>
                         </div>
                     </div>
                     <div class="widget last">
-                        <h4>Последние новости:</h4>
+                        <h4><?php pll_e('last_news','LevelUp'); ?></h4>
                         <?php echo do_shortcode('[recent_posts num="3" cat="2205"]'); ?>
-                        <div class="read_btn"><a href="https://levelup.ua/novosti">Смотреть все <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+                        <div class="read_btn"><a href="https://levelup.ua/novosti"><?php pll_e('show_all','LevelUp'); ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
                     </div>
                 </div>
-                <div class="bottom">* Вы так-же в любой момент с легкостью сможете отписаться от нашей рассылки</div>
+                <div class="bottom"><?php pll_e('unsubscribe_info','LevelUp'); ?></div>
             </div>
     </div>
 </div>

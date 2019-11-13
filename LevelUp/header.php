@@ -121,14 +121,14 @@
 <div id="snj_sandwitch"><div class="snj_sandwitch_btn_hide"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg>
 
 	</div><div class="snj_sandwitch-menu text-center">
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Главная</a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>otkryt-nabor/">Открыт набор</a>
-							<a href="#" data-toggle="modal" data-target="#all_courses">Все курсы</a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>novosti/">Новости и события</a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>blog/">IT-блог</a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>kontakty/">Контакты</a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>reviews/">Отзывы</a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>aboutus/">О нас</a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php pll_e('Home','LevelUp'); ?></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>otkryt-nabor/"><?php pll_e('Set open','LevelUp'); ?></a>
+							<a href="#" data-toggle="modal" data-target="#all_courses"><?php pll_e('All courses','LevelUp'); ?></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>novosti/"><?php pll_e('news and events','LevelUp'); ?></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>blog/"><?php pll_e('blog','LevelUp'); ?></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>kontakty/"><?php pll_e('contacts','LevelUp'); ?></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>reviews/"><?php pll_e('Reviews','LevelUp'); ?></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>aboutus/"><?php pll_e('About Us','LevelUp'); ?></a>
 						</div>
 </div>
 
@@ -137,13 +137,13 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-		  <h5 class="modal-title reviews_name" id="exampleModalCenterTitle">Все курсы Level Up</h5>
+		  <h5 class="modal-title reviews_name" id="exampleModalCenterTitle"><?php pll_e('All Level Up Courses','LevelUp'); ?></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-		  						<div class="cat_menu_title cat_1">Программирование</div>
+		  						<div class="cat_menu_title cat_1"><?php pll_e('Programming','LevelUp'); ?></div>
                                 <?php
                                 $menuParameters = array(
                                 //     Основы программирования
@@ -162,7 +162,7 @@
                                 echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
                                 ?>
 
-		  						<div class="cat_menu_title cat_2">Дизайн и верстка</div>
+		  						<div class="cat_menu_title cat_2"><?php pll_e('Design and layout','LevelUp'); ?></div>
                                 <?php
                                 $menuParameters = array(
                                 //     Дизайн и верстка
@@ -181,7 +181,7 @@
                                 echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
                                 ?>
 
-		  						<div class="cat_menu_title cat_3">Маркетинг и IT-менеджмент</div>
+		  						<div class="cat_menu_title cat_3"><?php pll_e('Marketing and IT Management','LevelUp'); ?></div>
 		                      <?php
                                 $menuParameters = array(
                                 //     Маркетинг и IT-менеджмент
@@ -199,7 +199,7 @@
                                 );
                                 echo strip_tags(wp_nav_menu( $menuParameters ), '<a>' );
                                 ?>
-		  						<div class="cat_menu_title cat_4">Поддержка и аналитика</div>
+		  						<div class="cat_menu_title cat_4"><?php pll_e('Support and analytics','LevelUp'); ?></div>
 		  		                      <?php
                                 $menuParameters = array(
                                 //     Поддержка и аналитика
@@ -356,7 +356,7 @@
 			<div class="menu-left">
 				<div>
 					<div class="menu-name">
-						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_code.svg" alt=""></div><span>Программирование  ПО</span>
+						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_code.svg" alt=""></div><span><?php pll_e('Software programming','LevelUp'); ?></span>
 					</div>
 					<!-- <ul class="menu-list">
 						<li><a href="#">Основы программирования</a></li>
@@ -395,7 +395,7 @@
 				<div>
 
 					<div class="menu-name">
-						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_smm.svg" alt=""></div><span>Дизайн и компьютерная графика</span>
+						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_smm.svg" alt=""></div><span><?php pll_e('Design and computer graphics','LevelUp'); ?></span>
 					</div>
 					<!-- <ul class="menu-list">
 						<li><a href="#">Основы графического дизайна</a></li>
@@ -424,7 +424,7 @@
                     ?>
 
 					<div class="menu-name last-child">
-						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_cogs.svg" alt=""></div><span>Маркетинг и менеджмент</span>
+						<div class="nav-icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/lvl_menu_cogs.svg" alt=""></div><span><?php pll_e('Marketing and IT Management','LevelUp'); ?></span>
 					</div>
 					<!-- <ul class="menu-list">
 						<li><a href="#">Интернет-маркетинг</a></li>
@@ -517,7 +517,7 @@
 		<div class="lvl-menu-footer">
 			<div>
 				<ul class="foot-list">
-					<li><a href="#"><i class="fa fa-map-marker " aria-hidden="true"></i><span>г. Днепр, ул. Троицкая, 21Г.</span></a></li>
+					<li><a href="#"><i class="fa fa-map-marker " aria-hidden="true"></i><span><?php pll_e('levelup_location','LevelUp'); ?></span></a></li>
 					<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (099) 731 83 85, +38 (096) 084 25 13</span></a></li>
 					<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span>info@levelup.ua</span></a></li>
 				</ul>
