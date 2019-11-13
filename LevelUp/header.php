@@ -116,9 +116,9 @@
                 'link_before'     => '',
                 'link_after'      => '',
                 'walker'          => '',
-                'add_li_class'  => 'nav-item',
-                'link_class'   => 'nav-link',
-                  'walker_nav_menu_start_el'          => '',
+                'add_li_class'    => '',
+                'link_class'      => '',
+                'walker_nav_menu_start_el'          => '',
             ) );
             ?>
 	</div>
