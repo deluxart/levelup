@@ -319,7 +319,7 @@ input[type=button] {width: auto; overflow: visible;}
 .fullscreen-nav .action.action--menu:hover span, .full-nav .action.action--menu:hover span { color: #15acf2 !important; }
 
 #lvl_mobile_menu {display: none;}
-ul.mobile-menu li > a { display: block; font-size: 18px;padding: 15px 0 15px 30px;color:#fff;text-align: left; position: relative;max-width: 600px;line-height: 20px;width: calc(100% - 70px);margin: 0 auto;border-bottom: 1px solid #ffffff1a;}
+ul.mobile-menu li > a { display: block; outline: none; font-size: 18px;padding: 15px 0 15px 30px;color:#fff;text-align: left; position: relative;max-width: 600px;line-height: 20px;width: calc(100% - 70px);margin: 0 auto;border-bottom: 1px solid #ffffff1a;}
 ul.mobile-menu li > a::before {content: "\f061";font-family: FontAwesome;left: 0; position: absolute; font-size: 17px; }
 ul.mobile-menu li > a::after { right: 0; content: "\f105";font-family: FontAwesome; position: absolute; }
 ul.mobile-menu li:last-child  > a { border:0; }
