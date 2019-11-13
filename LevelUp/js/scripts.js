@@ -85,7 +85,8 @@ jQuery(function(){
 
 		if ( !sndwch.length ) return;
 		jQuery(trigger_show).one('click',function(){
-			_showMenu();
+            _showMenu();
+            return false;
 		});
 
 		function _showMenu() {
@@ -104,7 +105,8 @@ jQuery(function(){
 			trigger_hide.toggleClass('snj_sandwitch_shown');
 			sndwch.stop(1,1).fadeOut(function(){
 				jQuery(trigger_show).one('click',function(){
-		            _showMenu();
+                    _showMenu();
+                   return false;
 		        });
 			});
 		}

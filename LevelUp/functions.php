@@ -826,8 +826,6 @@ pll_register_string('Marketing and IT Management', 'Marketing and IT Management'
 // Поддержка и аналитика
 pll_register_string('Support and analytics', 'Support and analytics');
 
-// Поддержка и аналитика
-pll_register_string('Support and analytics', 'Support and analytics');
 
 // Программирование  ПО
 pll_register_string('Software programming', 'Software programming');
