@@ -334,23 +334,9 @@ background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform:
 /* Конец ФОТОГАЛЛЕРЕя*/
 
 .eng-programs .accordion {max-width: 100% !important; }
-
-
-.sub-menu {display:none; transition: 0.2s all}
-
-/* .menu-item-491:hover .sub-menu, .sub-menu:hover .sub-menu {display:inline-block !important;} */
-.nav-item a:hover {color: #15acf2 !important;}
-.sub-menu {font-size: 12px;}
-.nav-item a {padding: 5px !important;}
-
 .menu-item-491 {width: 200px}
 
 /* .sub-menu { background: url(https://levelup.ua/wp-content/uploads/2018/05/BG-Kirpichik.jpg); } */
-.menu-item:hover .sub-menu, .sub-menu:hover .sub-menu {display: grid !important;position: absolute;left: 0;width: 100%;top: 106px;grid-template-columns: 1fr 1fr 1fr;padding: 20px; }
-.navbar { padding: 0; }
-.navbar-dark .navbar-nav > li > a {padding: 15px 20px !important; position: relative; color: rgba(255,255,255,.5); }
-.home.page-template-sub-page .navbar-dark .navbar-nav > li:last-child > .nav-item a::before {border: none;}
-
 .last-list {padding-bottom:40px;}
 
 .qa h5{color: #fff}
