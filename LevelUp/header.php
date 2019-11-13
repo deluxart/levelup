@@ -106,7 +106,7 @@
     <div class="lvl_mobile_menu-menu text-center">
     <?php
             wp_nav_menu( array(
-                'menu'            => '2',
+                'menu'            => '3596',
                 'container'       => false,
                 'items_wrap'      => '<ul class="mobile-menu">%3$s</ul>',
                 'depth'           => 0,
