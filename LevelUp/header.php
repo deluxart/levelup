@@ -92,8 +92,8 @@
             </div>
 		</div>
 		<div class="menu-btn">
-			<a href="" class="head-menu-btn desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
-			<a href="" class="head-menu-btn-mobile mobile-btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <button class="head-menu-btn desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <button class="head-menu-btn-mobile mobile-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
 		</div>
 	</div>
 </header>
