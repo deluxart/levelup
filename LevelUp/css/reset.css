@@ -187,7 +187,25 @@ input:-webkit-autofill { -webkit-animation-name: autofill; -webkit-animation-fil
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {color: inherit;background-color: inherit;border-color: inherit;}
 .btn.focus, .btn:focus {box-shadow: none;}
 
+/* @media (min-width: 769px) {
+  #header.header-color.light { background: none; }
+  #main.light { padding-top: 0; }
+  #header.header-color.light .bg-kirpichik { background: none; box-shadow: none; background-image: -moz-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.3) 100%); background-image: -ms-linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.3) 100%);}
+  .header-color.light .navbar-dark .navbar-nav a:focus, .header-color.light .navbar-dark .navbar-nav a:hover, .header-color.light .navbar-dark .navbar-nav a { color: #fff; }
+  .header-color.light .navbar-dark .navbar-nav > li > a::before { border-right: 1px dotted #fff6; }
+  .header-color.light .lux_search .button span i { color: #fff; }
+} */
+
+/* @media (max-width: 768px) {
+.logo_desktop { display: none; }
+.logo_mobile { display: inline-block; }
+.navbar-brand { margin-right: 0; }
+.header-color.light .dev-logo {display: none}
+} */
+
 #wp-admin-bar-customize, #wp-admin-bar-updates { display: none; }
+
 
 article, aside, figure, footer, header, nav, section, details, summary {display: block;}
 html { box-sizing: border-box; }
