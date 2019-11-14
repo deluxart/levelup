@@ -85,7 +85,7 @@
 #course-result-list .container .white-block:after { content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/05/c-right.png); top: 0; right: -100%; z-index: -1; position: absolute; width: 100%; height: 100%; background-size: contain; background-position: left; background-repeat: no-repeat; }
 #course-result-list .container .white-block .content { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 40px; }
 #course-result-list .container .white-block .content .list-num > div { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 20px; align-items: center; position: relative; padding-bottom: 30px; font-size: 18px; }
-#course-result-list .container .white-block .content .list-num > div span { width: 50px; height: 50px; background: #0048ff; color: #fff; border-radius: 50%; text-align: center; line-height: 40px; border: 5px solid #99dfff; position: relative; }
+#course-result-list .container .white-block .content .list-num > div span { width: 50px; height: 50px; background: #0048ff; color: #fff; border-radius: 50%; text-align: center; line-height: 40px; border: 5px solid #ececec; position: relative; }
 #course-result-list .container .white-block .content .list-num > div:after { content: ''; height: 100%; width: 1px; position: absolute; background: #0048ff; top: 50px; left: 25px; z-index: 0; }
 #course-result-list .container .white-block .content .list-num > div:last-child { padding-bottom: 20px; }
 #course-result-list .container .white-block .content .list-num > div:last-child:after { display: none; }
