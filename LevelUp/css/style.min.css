@@ -1889,7 +1889,7 @@ section.slide .start_slide { font-weight: 600 !important; }
 .loyality .pattern { background: url(https://levelup.ua/wp-content/uploads/2019/02/patter-loyality.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
 .course_program .pattern { background: url(https://levelup.ua/wp-content/uploads/2019/02/patter-programs.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
 
-.course_program .card .mb-0:hover {background-image: linear-gradient(to right, #0048ff00, #09cbffb3) !important; border-radius: 3px;}
+.course_program .card .mb-0:hover {background-image: linear-gradient(to right, #0048ff00, #0000001a); border-radius: 3px;}
 .page-id-4007 span.name-course { display: inline-block; }
 
  @media (max-width: 992px) {
