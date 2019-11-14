@@ -441,12 +441,22 @@ jQuery(document).ready(function () {
 
 
 // Uneversal spoiler
-jQuery('.spoiler > .head').on('click', function(e){
+jQuery('.spoiler.parrent > .head').on('click', function(e){
     jQuery('div.spoiler.parrent').not(this).children('.cont').stop().slideUp(300);
-  jQuery(this).closest('div.spoiler').children('.cont').stop().slideUp(300);
-  jQuery('.spoiler > .head').not(this).removeClass('active');
-  jQuery('.spoiler > .cont').not(this).removeClass('active');
-  jQuery(this).closest('div.spoiler').children('.cont').stop().slideToggle(300).toggleClass('active');
+  jQuery(this).closest('div.spoiler.parrent').children('.cont').stop().slideUp(300);
+  jQuery('.spoiler.parrent > .head').not(this).removeClass('active');
+  jQuery('.spoiler.parrent > .cont').not(this).removeClass('active');
+  jQuery(this).closest('div.spoiler.parrent').children('.cont').stop().slideToggle(300).toggleClass('active');
+  jQuery(this).toggleClass('active');
+  e.preventDefault();
+});
+
+jQuery('.spoiler.child > .head').on('click', function(e){
+    jQuery('div.spoiler.child').not(this).children('.cont').stop().slideUp(300);
+  jQuery(this).closest('div.spoiler.child').children('.cont').stop().slideUp(300);
+  jQuery('.spoiler.child > .head').not(this).removeClass('active');
+  jQuery('.spoiler.child > .cont').not(this).removeClass('active');
+  jQuery(this).closest('div.spoiler.child').children('.cont').stop().slideToggle(300).toggleClass('active');
   jQuery(this).toggleClass('active');
   e.preventDefault();
 });
