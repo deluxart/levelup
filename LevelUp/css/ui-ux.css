@@ -15,18 +15,18 @@
 .ui-ux-page #dev-slider > .head::after { content: ''; position: absolute; background: url(https://levelup.ua/wp-content/uploads/2019/06/slider_bg2.png) top right no-repeat; background-size: contain; width: 100%; height: 100%; left: 0; top: 0; }
 .ui-ux-page #dev-slider > .head img { max-height: 600px; }
 .ui-ux-page #dev-slider.edge--bottom::after { background: #fff; height: 10%; }
-.ui-ux-page #what_will h2 { color: #15acf2; margin-bottom: 20px; }
+.ui-ux-page #what_will h2 { color: #0048ff; margin-bottom: 20px; }
 .ui-ux-page #what_will .cont { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 50px; }
 .ui-ux-page #what_will .cont > div { display: grid; grid-template-columns: 96px 1fr; grid-column-gap: 20px; align-items: center; position: relative; grid-row-gap: 40px; }
-.ui-ux-page #what_will .cont > div span:before { content: ''; width: 2px; background: #15acf2; height: calc(100% - -96px); position: absolute; left: 46px; transform: translateX(-50%); top: 48px; z-index: -1; }
+.ui-ux-page #what_will .cont > div span:before { content: ''; width: 2px; background: #0048ff; height: calc(100% - -96px); position: absolute; left: 46px; transform: translateX(-50%); top: 48px; z-index: -1; }
 .ui-ux-page #what_will .cont > div span img { width: 96px; background: #fff; }
-.ui-ux-page #what_will .cont > div h4 { color: #15acf2; font-size: 26px; }
+.ui-ux-page #what_will .cont > div h4 { color: #0048ff; font-size: 26px; }
 .ui-ux-page #what_will .cont > div p { font-size: 18px; grid-column: 2/3; }
 .ui-ux-page #what_will .cont > div:nth-child(3) span:before { display: none; }
 .ui-ux-page #what_will .cont > div:nth-child(4) span:before { display: none; }
-.ui-ux-page .container.title_sec h2 { color: #15acf2; padding-bottom: 10px; }
+.ui-ux-page .container.title_sec h2 { color: #0048ff; padding-bottom: 10px; }
 .ui-ux-page .container.title_sec p { font-size: 24px; padding-bottom: 20px; }
-.ui-ux-page .container.title_sec p span { color: #15acf2; }
+.ui-ux-page .container.title_sec p span { color: #0048ff; }
 .ui-ux-page .reg-offer.two-block { max-height: 340px; background-image: -moz-linear-gradient(-180deg, #a969b2 0%, #16add3 49%, #30c789 100%); background-image: -webkit-linear-gradient(-180deg, #a969b2 0%, #16add3 49%, #30c789 100%); background-image: -ms-linear-gradient(-180deg, #a969b2 0%, #16add3 49%, #30c789 100%); }
 .ui-ux-page .reg-offer.two-block .container img { width: 413px; height: auto; }
 .ui-ux-page .reg-offer.two-block .container > div { top: -74px; }
@@ -46,7 +46,7 @@
 .ui-ux-page .reg-offer.three-block .offer-many-text { text-align: left; }
 .ui-ux-page .reg-offer.three-block .offer-many-text p { line-height: normal; margin-bottom: 20px; color: #fff; }
 .ui-ux-page .reg-offer.three-block .offer-many-text p .yellow { color: #eaff00; font-weight: bold; }
-.ui-ux-page #after_course h2 { color: #15acf2; margin-bottom: 20px; }
+.ui-ux-page #after_course h2 { color: #0048ff; margin-bottom: 20px; }
 .ui-ux-page #after_course .container .cont { display: grid; grid-template-columns: 1fr 1fr 1fr; counter-reset: myCounter; grid-row-gap: 120px; background: url(https://levelup.ua/wp-content/uploads/2019/06/bg_after.jpg) center no-repeat; background-size: contain; }
 .ui-ux-page #after_course .container .cont .empty { grid-column: 2/3; grid-row: 1/4; }
 .ui-ux-page #after_course .container .cont .block { position: relative; }
@@ -58,25 +58,25 @@
 .ui-ux-page #take_seat .cont { display: grid; grid-template-columns: 62% 1fr; align-items: center; }
 .ui-ux-page #take_seat .cont > div:nth-child(1) { text-align: right; }
 .ui-ux-page #take_seat .cont > div:nth-child(2) { text-align: center; }
-.ui-ux-page #take_seat .cont .buttonLight, .ui-ux-page #take_seat .cont .sg-show-popup { background: #15acf2; border-color: #15acf2; color: #fff; }
+.ui-ux-page #take_seat .cont .buttonLight, .ui-ux-page #take_seat .cont .sg-show-popup { background: #0048ff; border-color: #0048ff; color: #fff; }
 .ui-ux-page #take_seat .cont .buttonLight:after, .ui-ux-page #take_seat .cont .sg-show-popup:after { background-image: url("/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg") !important; }
-.ui-ux-page #take_seat .cont .buttonLight:hover, .ui-ux-page #take_seat .cont .sg-show-popup:hover { border-color: #15acf2 !important; }
+.ui-ux-page #take_seat .cont .buttonLight:hover, .ui-ux-page #take_seat .cont .sg-show-popup:hover { border-color: #0048ff !important; }
 .ui-ux-page #take_seat .cont h3 { font-size: 28px; line-height: normal; margin-bottom: 10px; }
-.ui-ux-page #take_seat .cont h3 span { color: #15acf2; font-weight: 500; }
+.ui-ux-page #take_seat .cont h3 span { color: #0048ff; font-weight: 500; }
 .ui-ux-page #will_master { position: relative; }
 .ui-ux-page #will_master.course { padding: 0; }
 .ui-ux-page #will_master .bg-sec { background: #f8f8f8; position: absolute; content: ''; z-index: -1; height: 40%; left: 0; top: 30%; width: 100%; }
 .ui-ux-page #will_master .container { background: url(https://levelup.ua/wp-content/uploads/2019/06/bg_instruments.png) center no-repeat; padding: 230px 0; background-size: contain; }
 .ui-ux-page #will_master .cont { display: inline-block; background: #fff; border-radius: 7px; margin: 0 auto; position: relative; left: 50%; transform: translateX(-50%); box-shadow: 11px 11px 59px 0px rgba(124, 124, 124, 0.2); padding: 10px; }
-.ui-ux-page #will_master .cont h2 { padding: 0; color: #15acf2; }
+.ui-ux-page #will_master .cont h2 { padding: 0; color: #0048ff; }
 .ui-ux-page #will_master .cont p { font-size: 22px; }
-.ui-ux-page #fishki h2 { color: #15acf2; margin-bottom: 20px; }
+.ui-ux-page #fishki h2 { color: #0048ff; margin-bottom: 20px; }
 .ui-ux-page #fishki .cont { counter-reset: myCounter; display: grid; grid-template-columns: 1fr 1fr; grid-gap: 40px; }
 .ui-ux-page #fishki .cont .block { display: grid; grid-template-columns: 220px 1fr; background: #fff; box-shadow: 24.489px 13.575px 109px 0px rgba(50, 50, 50, 0.17); width: 100%; }
 .ui-ux-page #fishki .cont .block img { max-width: 220px; }
 .ui-ux-page #fishki .cont .block:last-child { margin-bottom: 0; }
 .ui-ux-page #fishki .cont .block div { padding: 30px; position: relative; z-index: 1; }
-.ui-ux-page #fishki .cont .block div:after { position: absolute; content: ''; left: 18px; height: calc(100% - -15px); top: 30px; width: 2px; background: #15acf2; display: none; }
+.ui-ux-page #fishki .cont .block div:after { position: absolute; content: ''; left: 18px; height: calc(100% - -15px); top: 30px; width: 2px; background: #0048ff; display: none; }
 .ui-ux-page #fishki .cont .block div:before { position: absolute; font-size: 215px; /*transform: translate(-50%, -50%);*/ counter-increment: myCounter; content: counter(myCounter,decimal-leading-zero); bottom: 6px; right: -8px; color: #fafafa; font-weight: bold; z-index: 0; line-height: 169px; z-index: -1; }
 .ui-ux-page #fishki .cont .block div h4 { text-transform: uppercase; font-size: 20px; line-height: 26px; }
 .ui-ux-page #fishki .cont .block.right { grid-template-columns: 1fr 220px; position: relative; }
@@ -85,7 +85,7 @@
 .ui-ux-page #fishki .cont .block.right > div:after { left: auto; right: 18px; }
 .ui-ux-page #fishki .cont .block.right img { grid-row: 1; grid-column: 2/3; }
 .ui-ux-page #fishki .cont .block:last-child div:after { display: none; }
-.ui-ux-page #course_after h2 { color: #15acf2; }
+.ui-ux-page #course_after h2 { color: #0048ff; }
 .ui-ux-page #course_after .cont { display: grid; grid-template-columns: 1fr 1fr; position: relative; width: calc(100% - -150px); left: -75px; padding: 60px 0; }
 .ui-ux-page #course_after .cont > div { position: relative; }
 .ui-ux-page #course_after .cont > div.center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 50%; text-align: center; width: 70px; height: 70px; z-index: 99; line-height: 68px; }
@@ -107,18 +107,18 @@
 .ui-ux-page #reg-offer-two.reg-offer .container > div.img img { max-width: 380px; display: block; margin: 0 auto; }
 .ui-ux-page #reg-offer-two.reg-offer .container .text { max-height: 290px; }
 .ui-ux-page #by_students { overflow: hidden; }
-.ui-ux-page #by_students h2 { color: #15acf2; margin: 30px 0; }
+.ui-ux-page #by_students h2 { color: #0048ff; margin: 30px 0; }
 .ui-ux-page #by_students h2 > span { display: block; font-size: 21px; color: #4c4c4c; text-transform: none; font-weight: 400; }
-.ui-ux-page #by_students h2 > span span { color: #15acf2; }
+.ui-ux-page #by_students h2 > span span { color: #0048ff; }
 .ui-ux-page #by_students .cont { text-align: right; }
 .ui-ux-page #by_students .cont .row_one { position: relative; margin-bottom: 40px; }
 .ui-ux-page #by_students .cont .row_one > div { display: grid; grid-template-columns: repeat(3, 1fr); width: 100%; max-width: 980px; grid-column-gap: 40px; position: relative; }
-.ui-ux-page #by_students .cont .row_one > div:before { position: absolute; height: 2px; right: 0; width: 250%; top: 50%; z-index: -1; content: ''; background: #15acf2; }
-.ui-ux-page #by_students .cont .row_one img { border-radius: 5px; background-color: #15acf2; box-shadow: 11.314px 11.314px 40px 0px rgba(0, 0, 0, 0.2); display: block; }
+.ui-ux-page #by_students .cont .row_one > div:before { position: absolute; height: 2px; right: 0; width: 250%; top: 50%; z-index: -1; content: ''; background: #0048ff; }
+.ui-ux-page #by_students .cont .row_one img { border-radius: 5px; background-color: #0048ff; box-shadow: 11.314px 11.314px 40px 0px rgba(0, 0, 0, 0.2); display: block; }
 .ui-ux-page #by_students .cont .row_two { display: inline-block; position: relative; right: 0; }
 .ui-ux-page #by_students .cont .row_two > div { display: grid; grid-template-columns: repeat(3, 1fr); width: 100%; max-width: 980px; grid-column-gap: 40px; position: relative; }
-.ui-ux-page #by_students .cont .row_two > div:before { position: absolute; height: 2px; left: 0; width: 250%; top: 50%; z-index: -1; content: ''; background: #15acf2; }
-.ui-ux-page #by_students .cont .row_two img { border-radius: 5px; background-color: #15acf2; box-shadow: 11.314px 11.314px 40px 0px rgba(0, 0, 0, 0.2); display: block; }
+.ui-ux-page #by_students .cont .row_two > div:before { position: absolute; height: 2px; left: 0; width: 250%; top: 50%; z-index: -1; content: ''; background: #0048ff; }
+.ui-ux-page #by_students .cont .row_two img { border-radius: 5px; background-color: #0048ff; box-shadow: 11.314px 11.314px 40px 0px rgba(0, 0, 0, 0.2); display: block; }
 .ui-ux-page #by_students .cont img { transition: 0.3s all; }
 .ui-ux-page #by_students .cont img:hover { box-shadow: 11.314px 11.314px 40px 0px rgba(0, 0, 0, 0.32); transform: scale(1.04); }
 .ui-ux-page #pm-prepod .content h2 { margin-bottom: 20px; }
@@ -126,11 +126,11 @@
 .ui-ux-page #course-program .program-grid > div.girl { align-self: end; }
 .ui-ux-page #course-program .program-grid > div.girl img { display: block; position: relative; bottom: -40px; }
 .ui-ux-page #awaits_you { position: relative; }
-.ui-ux-page #awaits_you h2 { color: #15acf2; }
+.ui-ux-page #awaits_you h2 { color: #0048ff; }
 .ui-ux-page #awaits_you .bg-sec { background: #f8f8f8; position: absolute; content: ''; z-index: -1; height: 40%; left: 0; top: 30%; width: 100%; display: none; }
 .ui-ux-page #awaits_you .cont { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 40px; }
 .ui-ux-page #awaits_you .cont > div { display: grid; grid-template-columns: 120px 1fr; align-items: center; }
-.ui-ux-page #awaits_you .cont > div h4 { font-size: 24px; color: #15acf2; padding-bottom: 10px; }
+.ui-ux-page #awaits_you .cont > div h4 { font-size: 24px; color: #0048ff; padding-bottom: 10px; }
 .ui-ux-page #awaits_you .cont > div p { font-size: 18px; color: #4c4c4c; }
 .ui-ux-page #offer-pm { margin-bottom: 50px; }
 .ui-ux-page #offer-pm .container .content div { position: relative; }
@@ -150,17 +150,17 @@
 .ui-ux-page.smm_page #after_course .container .cont { background: none; grid-column-gap: 30px; }
 .ui-ux-page.smm_page #will_master { background: #e5e4ef; position: relative; }
 .ui-ux-page.smm_page #will_master.course { padding: 80px 0; }
-.ui-ux-page.smm_page #will_master h2 { color: #15acf2; text-transform: uppercase; }
+.ui-ux-page.smm_page #will_master h2 { color: #0048ff; text-transform: uppercase; }
 .ui-ux-page.smm_page #will_master h2 span { display: block; text-transform: none; color: #4c4c4c; font-size: 21px; }
 .ui-ux-page.smm_page #will_master::before { content: ''; position: absolute; border: 20px solid transparent; border-top: 20px solid #fff; top: -0px; z-index: 999; left: calc(50% - 20px); }
 .ui-ux-page.smm_page #will_master .container { background: none; padding-right: 15px; padding-left: 15px; padding-top: 0; padding-bottom: 0; }
 .ui-ux-page.smm_page #will_master .cont { background: none; display: grid; grid-template-columns: repeat(7, 1fr); align-items: center; /*grid-column-gap: 40px;*/ border-radius: 0; left: 0; transform: none; box-shadow: none; padding: 0; }
-.ui-ux-page.smm_page #course_after h2 { color: #15acf2; }
+.ui-ux-page.smm_page #course_after h2 { color: #0048ff; }
 .ui-ux-page.smm_page #course_after .cont { display: grid; grid-template-columns: 1fr 1fr; position: relative; width: calc(100% - -60px); left: -30px; padding: 60px 0; }
 .ui-ux-page.smm_page #course_after .cont > div { position: relative; }
 .ui-ux-page.smm_page #course_after .cont > div.center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #fff; border-radius: 50%; text-align: center; width: 70px; height: 70px; z-index: 99; line-height: 68px; }
 .ui-ux-page.smm_page #course_after .cont > div h4 { position: absolute; bottom: 30px; left: 70px; font-size: 21px; color: #4c4c4c; text-shadow: none; line-height: normal; max-width: 65%; }
-.ui-ux-page.smm_page #course_after .cont > div h4 span.yellow { color: #15acf2; display: inline-block; }
+.ui-ux-page.smm_page #course_after .cont > div h4 span.yellow { color: #0048ff; display: inline-block; }
 .ui-ux-page.smm_page #course_after .cont > div.first { right: -30px; top: -50px; }
 .ui-ux-page.smm_page #course_after .cont > div.first h4 { bottom: -100px; left: 30px; }
 .ui-ux-page.smm_page #course_after .cont > div.last { left: -30px; bottom: -50px; }
@@ -245,7 +245,7 @@
   .ui-ux-page.smm_page .smm_banner .start_slide { margin: 40px auto; left: 50%; position: relative; transform: translateX(-50%); }
   .smm_banner .course_desc { font-size: 21px; line-height: normal; }
   .smm_banner span.corse_title { font-size: 21px; }
-  .ui-ux-page #after_course .container .cont .block::before { font-size: 82px; left: 0; font-size: 21px; background: #15acf2; font-weight: bold; width: 60px; height: 60px; text-align: center; line-height: 60px; border-radius: 50px; transform: none; position: relative; top: 0; }
+  .ui-ux-page #after_course .container .cont .block::before { font-size: 82px; left: 0; font-size: 21px; background: #0048ff; font-weight: bold; width: 60px; height: 60px; text-align: center; line-height: 60px; border-radius: 50px; transform: none; position: relative; top: 0; }
   .ui-ux-page #after_course .container .cont .block { position: relative; display: grid; grid-template-columns: auto 1fr; align-items: center; grid-column-gap: 14px; }
   .ui-ux-page #awaits_you .cont > div h4 { font-size: 21px; }
   .ui-ux-page #awaits_you .cont > div p { font-size: 16px; line-height: normal; } }

@@ -27,7 +27,7 @@
 #pm-course.course { padding-bottom: 20px; }
 #pm-course .container .content { display: grid; grid-template-columns: repeat(4, 1fr); align-items: center; }
 #pm-course .container .content > div span { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 20px; font-size: 18px; }
-#pm-course .container .content > div span i { font-size: 24px; color: #15acf2; line-height: 1.2; text-shadow: 12.245px 6.787px 18px rgba(27, 161, 255, 0.7); }
+#pm-course .container .content > div span i { font-size: 24px; color: #0048ff; line-height: 1.2; text-shadow: 12.245px 6.787px 18px rgba(27, 161, 255, 0.7); }
 #pm-course .container .content > div.image { grid-column: 2/4; grid-row: 1/5; text-align: center; }
 
 #reg-offer { margin-top: 50px; }
@@ -71,8 +71,8 @@
 #pm-prepod .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; grid-column-gap: 40px; }
 #pm-prepod .content > div:nth-child(1) { align-self: end; }
 #pm-prepod .content h2 { margin-bottom: 60px; }
-#pm-prepod .content h2 span { color: #15acf2; }
-#pm-prepod .content h4 { color: #15acf2; }
+#pm-prepod .content h2 span { color: #0048ff; }
+#pm-prepod .content h4 { color: #0048ff; }
 #pm-prepod .content p { color: #979797; }
 #pm-prepod .content p.description { padding-top: 50px; color: #4c4c4c; }
 #pm-prepod .content p.description:before { display: none; }
@@ -85,8 +85,8 @@
 #course-result-list .container .white-block:after { content: ''; background: url(https://levelup.ua/wp-content/uploads/2019/05/c-right.png); top: 0; right: -100%; z-index: -1; position: absolute; width: 100%; height: 100%; background-size: contain; background-position: left; background-repeat: no-repeat; }
 #course-result-list .container .white-block .content { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 40px; }
 #course-result-list .container .white-block .content .list-num > div { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 20px; align-items: center; position: relative; padding-bottom: 30px; font-size: 18px; }
-#course-result-list .container .white-block .content .list-num > div span { width: 50px; height: 50px; background: #15acf2; color: #fff; border-radius: 50%; text-align: center; line-height: 40px; border: 5px solid #99dfff; position: relative; }
-#course-result-list .container .white-block .content .list-num > div:after { content: ''; height: 100%; width: 1px; position: absolute; background: #15acf2; top: 50px; left: 25px; z-index: 0; }
+#course-result-list .container .white-block .content .list-num > div span { width: 50px; height: 50px; background: #0048ff; color: #fff; border-radius: 50%; text-align: center; line-height: 40px; border: 5px solid #99dfff; position: relative; }
+#course-result-list .container .white-block .content .list-num > div:after { content: ''; height: 100%; width: 1px; position: absolute; background: #0048ff; top: 50px; left: 25px; z-index: 0; }
 #course-result-list .container .white-block .content .list-num > div:last-child { padding-bottom: 20px; }
 #course-result-list .container .white-block .content .list-num > div:last-child:after { display: none; }
 
@@ -100,29 +100,29 @@
 #pm-details .container.line .content > div { display: grid; }
 #pm-details .container.line .content > div img { max-width: 90px; display: block; margin: 0 auto 20px auto; }
 #pm-details .container.line .content > div h4 { font-size: 22px; color: #999999; font-weight: normal; }
-#pm-details .container.line .content > div p { font-size: 22px; color: #15acf2; }
+#pm-details .container.line .content > div p { font-size: 22px; color: #0048ff; }
 
 #pm-contact.course { padding-top: 60px; padding-bottom: 0; }
-#pm-contact .container h2 { color: #15acf2; }
+#pm-contact .container h2 { color: #0048ff; }
 #pm-contact .container .content { display: grid; grid-template-columns: 60% 1fr; position: relative; padding-bottom: 120px; }
 #pm-contact .container .content > div > h4 { font-size: 20px; font-weight: bold; color: #4c4c4c; }
 #pm-contact .container .content > div > p { font-size: 14px; font-weight: normal; max-width: 300px; }
 #pm-contact .container .content .pm-form { position: relative; padding: 40px 0; }
 #pm-contact .container .content .pm-form div.wpcf7-mail-sent-ok { display: inline-block; margin: 0 auto; height: 49px; bottom: 9px; width: auto; background: #398f14; padding: 5px 40px; border: 1px solid #398f14; font-size: 18px; box-shadow: 0px 10px 20px 0px rgba(0, 67, 91, 0.25); color: #fff; border-radius: 50px; text-transform: none; font-weight: 300; line-height: 34px; left: 50%; white-space: nowrap; transform: translateX(-50%); }
-#pm-contact .container .content .pm-form .title_cf { font-size: 45px; font-weight: bold; color: #15acf2; line-height: 42px; }
+#pm-contact .container .content .pm-form .title_cf { font-size: 45px; font-weight: bold; color: #0048ff; line-height: 42px; }
 #pm-contact .container .content .pm-form .wpcf7-not-valid-tip { margin: 0; color: #fff; font-size: 12px; position: absolute; right: -34px; top: 0; display: inline-block !important; }
 #pm-contact .container .content .pm-form .wpcf7-form { position: relative; z-index: 10; }
 #pm-contact .container .content .pm-form .wpcf7-form p { margin: 0; }
 #pm-contact .container .content .pm-form:before { content: ''; position: absolute; background: #fff; width: 100%; box-shadow: 10.181px 18.367px 70px 0px rgba(0, 0, 0, 0.1); border-radius: 10px; height: 100%; left: 0; z-index: -2; top: 0; }
 #pm-contact .container .content:before { position: absolute; bottom: 0; height: 100%; content: ''; width: 100%; background: url(https://levelup.ua/wp-content/uploads/2019/05/bg_contacts.png) no-repeat; background-position: left bottom; background-size: contain; z-index: -1; max-width: 900px; }
 
-#pm-help h2 { color: #15acf2; padding-bottom: 50px; }
+#pm-help h2 { color: #0048ff; padding-bottom: 50px; }
 #pm-help .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; grid-column-gap: 70px; }
 #pm-help .content p.txt { font-size: 24px; line-height: normal; font-weight: 600; margin-bottom: 30px; }
-#pm-help .content p.txt span { color: #15acf2; }
+#pm-help .content p.txt span { color: #0048ff; }
 #pm-help .content ul > li { font-size: 18px; padding-bottom: 20px; }
 #pm-help .content ul > li span { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 20px; font-size: 18px; }
-#pm-help .content ul > li span i { font-size: 24px; color: #15acf2; line-height: 1.2; text-shadow: 12.245px 6.787px 18px rgba(27, 161, 255, 0.7); }
+#pm-help .content ul > li span i { font-size: 24px; color: #0048ff; line-height: 1.2; text-shadow: 12.245px 6.787px 18px rgba(27, 161, 255, 0.7); }
 #pm-help .content ul > li:last-child { padding-bottom: 0; }
 
 @media (max-width: 1100px) { #reg-offer.reg-offer .container { grid-template-columns: 1fr auto; }

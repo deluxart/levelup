@@ -5,6 +5,22 @@ body.blue-section .lvl2019 #trust_us .text-before, body.blue-section .lvl2019 #l
 body.blue-section .lvl2019 .slick-prev, body.blue-section .lvl2019 .slick-next { background: #fff; }
 body.blue-section .lvl2019 .slick-prev::before, body.blue-section .lvl2019 .slick-next::before { color: #003cff; }
 
+body.home footer { background: #fff !important; }
+
+.page-title { padding: 90px 0; }
+.page-title h2 { font-size: 72px; font-weight: 900; color: #003cff; }
+
+.wp-tag-cloud li { border: 0; background: #003cff; line-height: normal; }
+.wp-tag-cloud li a { color: #fff; }
+
+.posts_page .widget-title { font-size: 17px; color: #003cff; font-weight: 900; letter-spacing: normal; text-transform: uppercase; }
+.posts_page .widget_categories ul > li:hover a { color: #003cff; }
+.posts_page .tg-page-number.tg-page-current { background: #003cff; }
+.posts_page div.asl_w { background: #f7f7f7; border: 0; padding: 4px; }
+.posts_page div.asl_w .probox { background: none; background-color: transparent !important; }
+.posts_page div.asl_w .probox .promagnifier .innericon svg { fill: #003cff; }
+.posts_page .content .news img.tg-item-image { border-radius: 5px; }
+
 #main { padding-top: 90px; }
 #main.light { padding-top: 0; }
 

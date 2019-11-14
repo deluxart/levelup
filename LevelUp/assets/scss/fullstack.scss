@@ -2,7 +2,7 @@
     border: 0;
 
     h2 {
-        color: #15acf2;
+        color: #0048ff;
     }
 
     #about {
@@ -67,7 +67,7 @@
                         content: '';
                         width: 15px;
                         height: 15px;
-                        background: #15acf2;
+                        background: #0048ff;
                         border-radius: 30px;
                         top: 8px;
                     }
@@ -134,7 +134,7 @@
                         align-items: center;
 
                         h2 {
-                            color: #15acf2;
+                            color: #0048ff;
                             padding: 0;
                         }
 
@@ -143,7 +143,7 @@
                             color: #4c4c4c;
 
                             span {
-                                color: #15acf2;
+                                color: #0048ff;
 
                                 font-size: 38px;
                                 font-weight: bold;
@@ -335,7 +335,7 @@
         .text {
             h1 {
                 text-transform: uppercase;
-                color: #15acf2;
+                color: #0048ff;
                 font-size: 50px;
                 font-weight: bold;
 
@@ -460,7 +460,7 @@
             }
 
             &:hover {
-                background-image: linear-gradient(to right,#15acf200,#09cbffb3) !important;
+                background-image: linear-gradient(to right,#0048ff00,#09cbffb3) !important;
                 border-radius: 3px;
             }
         }

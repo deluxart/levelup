@@ -13,19 +13,19 @@
 .it-english #dev-slider.edge--bottom::after { background: #fff; height: 10%; }
 .it-english #dev-about { padding: 90px 0; }
 .it-english #dev-about h2 { padding-left: 0; margin-bottom: 0; }
-.it-english #dev-about h2 span { color: #15acf2; }
+.it-english #dev-about h2 span { color: #0048ff; }
 .it-english #dev-about h2:before { width: calc(100% - 47px); }
 .it-english .reg-offer { margin: 50px 0; }
 .it-english .reg-offer .container > div { grid-column: 1; }
 .it-english .reg-offer .container > div.img { grid-column: 2; }
 .it-english #dev-scheme { background: #fff; color: #4c4c4c; padding: 70px 0 0 0; }
 .it-english #dev-scheme h2 { color: #4c4c4c; margin-bottom: 20px; }
-.it-english #dev-scheme h2 span { color: #15acf2; }
+.it-english #dev-scheme h2 span { color: #0048ff; }
 .it-english #dev-scheme .invite .content { margin-top: 0; }
 .it-english #dev-scheme .invite .content img { max-width: 400px; }
 .it-english #dev-scheme .invite .content ul { margin-bottom: 30px; grid-row-gap: 50px; }
 .it-english #dev-scheme .invite .content ul li h4 { font-size: 24px; }
-.it-english #dev-scheme .invite .content ul li .check { fill: #15acf2; }
+.it-english #dev-scheme .invite .content ul li .check { fill: #0048ff; }
 .it-english .sec-testing { background: linear-gradient(to right, #01c9fe, #08a2ff); color: #fff; position: relative; box-shadow: 0px 41px 163px 0px rgba(0, 0, 0, 0.41); }
 .it-english .sec-testing:after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(https://levelup.ua/wp-content/uploads/2019/04/bg_offer2.png) no-repeat; background-position: 100% -70px; background-size: 725px; }
 .it-english .sec-testing .container { position: relative; z-index: 2; }
@@ -35,14 +35,14 @@
 .it-english .sec-testing p span { display: block; }
 .it-english #english-program { background: #fff; position: relative; padding: 70px 0 0 0; }
 .it-english #english-program .container { position: relative; z-index: 2; }
-.it-english #english-program h2 span { color: #15acf2; }
+.it-english #english-program h2 span { color: #0048ff; }
 .it-english #english-program .sec-descr { margin-top: 10px; }
 .it-english #english-program .sec-descr span { display: block; }
 .it-english #english-program .en-program { padding-top: 50px; }
 .it-english #english-program .en-program .en-tabs { display: flex; }
 .it-english #english-program .en-program .en-tabs li { flex-basis: auto; flex-grow: 1; text-align: center; cursor: pointer; font-size: 18px; font-weight: bold; padding: 20px 0; }
-.it-english #english-program .en-program .en-tabs li.current { background: #15acf2; color: #fff; }
-.it-english #english-program .en-cont { position: relative; background: #15acf2; padding: 35px 0; color: #fff; }
+.it-english #english-program .en-program .en-tabs li.current { background: #0048ff; color: #fff; }
+.it-english #english-program .en-cont { position: relative; background: #0048ff; padding: 35px 0; color: #fff; }
 .it-english #english-program .en-cont:after { content: ''; position: absolute; top: 0; left: 0; background: url(https://levelup.ua/wp-content/uploads/2019/04/bg_program_english.png) no-repeat; background-size: cover; height: 100%; width: 100%; }
 .it-english #english-program .en-cont .tab-content { display: none; }
 .it-english #english-program .en-cont .tab-content.current { display: inherit; }
@@ -60,7 +60,7 @@
 .it-english #course-prepod.course { padding: 70px 0; }
 .it-english #english-club { text-align: center; background: #eaf2f6; z-index: 0; padding-top: 50px; }
 .it-english #english-club .container > .tc .btn { position: relative; bottom: -44px; }
-.it-english #english-club h2 span { color: #15acf2; }
+.it-english #english-club h2 span { color: #0048ff; }
 .it-english #english-club .sec-descr { margin-top: 10px; }
 .it-english #english-club .sec-descr span { display: block; }
 .it-english #english-club .content { display: grid; grid-template-columns: repeat(4, 1fr); align-items: center; padding: 50px 0 10px 0; counter-reset: myCounter; text-align: left; }

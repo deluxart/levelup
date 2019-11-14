@@ -672,7 +672,7 @@ add_action( 'admin_enqueue_scripts', 'fadupla_svg_enqueue_scripts' );
 
 
 /**
- * Ajax get_attachment_url_media_library @#  
+ * Ajax get_attachment_url_media_library @#
  * @author fadupla
  */
 function fadupla_get_attachment_url_media_library() {
@@ -729,7 +729,7 @@ add_theme_support( 'editor-color-palette', array(
 	array(
 		'name'  => __( 'LevelUp blue', 'genesis-sample' ),
 		'slug'  => 'LevelUp-blue',
-		'color'	=> '#15acf2',
+		'color'	=> '#0048ff',
 	),
 	array(
 		'name'  => __( 'LevelUp pink', 'genesis-sample' ),

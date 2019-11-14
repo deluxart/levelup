@@ -33,7 +33,7 @@ p.login-remember { display: none; }
 
 #loginform p.login-password:before { content: ''; bottom: 10px; left: 0; position: absolute; width: 21px; height: 23px; background: url(https://levelup.ua/wp-content/uploads/2019/10/lock.svg) no-repeat;
           background-size: contain; z-index: 99999; }
-#loginform input#wp-submit { background: #15acf2; padding: 15px 40px 15px 40px; box-shadow: 0px 0px 6px rgba(0,0,0,.05); font-size: 16px; color: #fff; border: 0; border-radius: 30px;}
+#loginform input#wp-submit { background: #0048ff; padding: 15px 40px 15px 40px; box-shadow: 0px 0px 6px rgba(0,0,0,.05); font-size: 16px; color: #fff; border: 0; border-radius: 30px;}
 #loginform input#wp-submit:hover { background: #2980b9; cursor: pointer; }
 </style>
 <script>

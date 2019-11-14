@@ -3,7 +3,7 @@
 .lux_search .button { position: absolute; right: 0; z-index: 9; background: none; width: 32px; top: 0; height: 100%; }
 .lux_search .button span { display: inline-block; top: calc(50% - 15px); height: 32px; position: relative; width: 32px; border-radius: 30px; cursor: pointer; transition: 0.1s all; }
 .lux_search .button span:hover { cursor: pointer; transform: scale(1.2);}
-.lux_search .button span i { color: #15acf2; font-size: 20px; }
+.lux_search .button span i { color: #0048ff; font-size: 20px; }
 
 @keyframes bounce { 0%, 100%, 20%, 50%, 80% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
   40% { -webkit-transform: translateY(-8px); -ms-transform: translateY(-8px); transform: translateY(-8px); }
@@ -102,7 +102,7 @@
 
 .pagination h2 { display: none; }
 .pagination .nav-links { display: inline-block; margin: 0 auto 20px auto; }
-.pagination .nav-links a.page-numbers { display: inline-block; background: #15acf2; color: #fff; padding: 8px 16px; border-radius: 30px; min-width: 40px; text-align: center; margin: 0 3px; box-shadow: 3px 5px 15px 0px rgba(75, 75, 75, 0.29); }
+.pagination .nav-links a.page-numbers { display: inline-block; background: #0048ff; color: #fff; padding: 8px 16px; border-radius: 30px; min-width: 40px; text-align: center; margin: 0 3px; box-shadow: 3px 5px 15px 0px rgba(75, 75, 75, 0.29); }
 .pagination .nav-links span.current { display: inline-block; background: #b4b4b41a; color: #4c4c4c; padding: 8px 16px; border-radius: 30px; min-width: 40px; text-align: center; margin: 0 3px; box-shadow: 3px 5px 15px 0px rgba(75, 75, 75, 0.29); }
 
 @media (max-width: 992px) { .lux_search { position: absolute; right: 62px; }

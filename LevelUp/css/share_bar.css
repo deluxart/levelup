@@ -6,7 +6,7 @@ body.tag #share-bar { display: none !important; }
 
 .sharing-providers { list-style-type: none; }
 .sharing-providers { padding: 0; margin: 0; }
-.sharing-providers > li { display: block; text-align: center; width: 32px; height: 32px; padding: 0; margin: 0; background: #15acf2; }
+.sharing-providers > li { display: block; text-align: center; width: 32px; height: 32px; padding: 0; margin: 0; background: #0048ff; }
 .sharing-providers.circle > li { border-radius: 50%; margin: 0 0 8px; box-shadow: 1.854px 5.706px 24.3px 5.7px rgba(0, 0, 0, 0.1); }
 
 #share-bar::after { content: 'Поделиться:'; position: absolute; transform: rotate(-90deg); bottom: -66px; left: -40px; }

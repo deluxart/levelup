@@ -578,8 +578,8 @@
   background: #fff;
 }
 .timeline .timeline-item > .timeline-point.timeline-point-success {
-  color: #15acf2;
-  background: #15acf2;
+  color: #0048ff;
+  background: #0048ff;
 }
 .timeline .timeline-item > .timeline-point.timeline-point-info {
   color: #3e93cf;
@@ -737,14 +737,14 @@ grid-auto-flow: dense;}
 
 @media (min-width: 768px) {
 .timeline-body .name {color: #000000 !important;font-size: 18px;}
-.timeline-body .work {color: #15acf2 !important;font-size: 13px;}
+.timeline-body .work {color: #0048ff !important;font-size: 13px;}
 .timeline-body .theme {color: rgb(116, 119, 123);font-size: 13px;}
 }
 
 
 @media (max-width: 768px) {
 .timeline-body .name {color: #000000 !important;font-size: 14px;}
-.timeline-body .work {color: #15acf2 !important;font-size: 13px;}
+.timeline-body .work {color: #0048ff !important;font-size: 13px;}
 .timeline-body .theme {color: rgb(116, 119, 123);font-size: 13px;}
 }
 .timeline-event {background-color: rgb(252, 252, 252) !important;border-color: rgb(208, 208, 208) !important; border: 1px solid;}

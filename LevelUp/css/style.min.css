@@ -4,7 +4,7 @@
 .module-icon-1::after {background: url(https://levelup.ua/wp-content/uploads/2019/02/module.png) !important ;}
 .module-icon-2::after {background: url(https://levelup.ua/wp-content/uploads/2019/02/module-2.png) !important;}
 
-.result-of-the-course .list-group-item::before {content: '';height: 100%;width: 1px;position: absolute;background: #15acf2;top: 12px;left: 25px;}
+.result-of-the-course .list-group-item::before {content: '';height: 100%;width: 1px;position: absolute;background: #0048ff;top: 12px;left: 25px;}
 .result-of-the-course .list-group-item::after {width: 50px !important;height: 50px !important;}
 .list-img-icon-1::after {content: "01" !important;}
 .list-img-icon-2::after {content: "02" !important;}
@@ -20,7 +20,7 @@
 .result-of-the-course .list-group-item {position: relative;}
 
 .list-img-icon-1::after, .list-img-icon-2::after ,.list-img-icon-3::after ,.list-img-icon-4::after ,
-.list-img-icon-5::after ,.list-img-icon-6::after ,.list-img-icon-7::after ,.list-img-icon-8::after , .list-img-icon-9::after ,.list-img-icon-10::after {background: #15acf2 !important;color: #fff !important;position: absolute;border-radius: 50%;text-align: center;line-height: 40px;border: 5px solid #99dfff;background-image: none !important;}
+.list-img-icon-5::after ,.list-img-icon-6::after ,.list-img-icon-7::after ,.list-img-icon-8::after , .list-img-icon-9::after ,.list-img-icon-10::after {background: #0048ff !important;color: #fff !important;position: absolute;border-radius: 50%;text-align: center;line-height: 40px;border: 5px solid #99dfff;background-image: none !important;}
 
 @media (min-width: 768px) {
 .result-of-the-course .col-sm-12 .list-group-item:last-child::before { display: none; }
@@ -149,7 +149,7 @@ background-size: cover !important;}
 
    .name_Courses::first-letter {text-transform: lowercase;
   }
-.borderTwo {display: inherit;padding: 20px;background: #fff5;border-radius: 10px;margin: 0;height: auto;}.borderOne {display: inline-block;padding: 20px;background:#fff3;border-radius:10px;}.BlueROW {border-radius: 8px 8px 0 0;background: #15acf2;overflow: hidden;}.slideTitle {padding: 20px 20px 0 20px;}.p_Courses {font-weight: 400;font-size: 20px;color: #fff;margin-bottom: 0;}.name_Courses {font-weight: 400;font-size: 30px;color: #eaff00;margin-bottom: 0;line-height: 30px;display: block;padding-bottom: 8px;}.p_courses, .p_date_title {line-height: 20px;font-size: 12px !important;color: #fff;margin-bottom: 0;padding-top: 5px;}.slideInfoTopLeft {width: 50%;position: relative;display: block;float: left;text-align: center;}.slideInfoTopRight {width: 50%;position: relative;display: block;float: right;text-align: center;}.ShowShedulle {overflow: hidden;background: #c5ecfb}.name_courses {font-size: 24px !important;color: #eaff00;margin-bottom: 0;padding-bottom: 10px;}.shedulle_text {margin-bottom: 0;text-align:  center;color: #575656;padding: 10px 0;}/*.name_Courses {border-bottom: 1px solid #eaff00;}*/.totalTitle {margin-bottom: 0;color: #ec008c;font-size: 12px;text-align: center;line-height: 20px;padding-top: 30px;padding-bottom: 10px;}/* .images_column {column-count: 6;column-gap: 0;} */.pickImagesBOX {background: #fff}#clockdiv div {display: inline-block;}
+.borderTwo {display: inherit;padding: 20px;background: #fff5;border-radius: 10px;margin: 0;height: auto;}.borderOne {display: inline-block;padding: 20px;background:#fff3;border-radius:10px;}.BlueROW {border-radius: 8px 8px 0 0;background: #0048ff;overflow: hidden;}.slideTitle {padding: 20px 20px 0 20px;}.p_Courses {font-weight: 400;font-size: 20px;color: #fff;margin-bottom: 0;}.name_Courses {font-weight: 400;font-size: 30px;color: #eaff00;margin-bottom: 0;line-height: 30px;display: block;padding-bottom: 8px;}.p_courses, .p_date_title {line-height: 20px;font-size: 12px !important;color: #fff;margin-bottom: 0;padding-top: 5px;}.slideInfoTopLeft {width: 50%;position: relative;display: block;float: left;text-align: center;}.slideInfoTopRight {width: 50%;position: relative;display: block;float: right;text-align: center;}.ShowShedulle {overflow: hidden;background: #c5ecfb}.name_courses {font-size: 24px !important;color: #eaff00;margin-bottom: 0;padding-bottom: 10px;}.shedulle_text {margin-bottom: 0;text-align:  center;color: #575656;padding: 10px 0;}/*.name_Courses {border-bottom: 1px solid #eaff00;}*/.totalTitle {margin-bottom: 0;color: #ec008c;font-size: 12px;text-align: center;line-height: 20px;padding-top: 30px;padding-bottom: 10px;}/* .images_column {column-count: 6;column-gap: 0;} */.pickImagesBOX {background: #fff}#clockdiv div {display: inline-block;}
 #clockdiv span.smalltext {font-size: 14px; color: #eaff00}
 .pickImagesBOX {background: url(https://levelup.ua/wp-content/uploads/2018/11/angle_final.jpg) top center no-repeat;}
 
@@ -217,7 +217,7 @@ background-size: cover !important;}
 
 
 /*Пропустили занятие?*/
-.leave-lesson {background: #15acf2;}
+.leave-lesson {background: #0048ff;}
 .recordTitle {font-size: 40px;color: #eaff00;line-height: normal;}
 .recordDescr {font-size: 20px;padding-top: 20px;line-height: normal;color: #fff;font-weight: 300;}
 
@@ -266,8 +266,8 @@ img.ult-align-center {margin: 0 auto;}
 }
 
 .video-present { background-position-x: center; background-image: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Homepage-Yankula-Anton-Black-1.jpg) !important;}
-.VideoButton:hover {border: 2px solid #15acf2;border-top-color: rgb(21, 172, 242);border-right-color: rgb(21, 172, 242);border-bottom-color: rgb(21, 172, 242);border-left-color: rgb(21, 172, 242);
-background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform: scale(1.1); transform: scale(1.1); cursor: pointer;}
+.VideoButton:hover {border: 2px solid #0048ff;border-top-color: rgb(21, 172, 242);border-right-color: rgb(21, 172, 242);border-bottom-color: rgb(21, 172, 242);border-left-color: rgb(21, 172, 242);
+background: rgba(255, 255, 255, 0.01); border-color: #0048ff; -webkit-transform: scale(1.1); transform: scale(1.1); cursor: pointer;}
 
 .video-present .row {min-height: 400px;}
 .video-present h2 {color: #fff;text-align: center;}
@@ -303,7 +303,7 @@ background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform:
 .student-portfolios3d .img12 {background: url(https://levelup.ua/wp-content/uploads/2018/10/Untitled-12.jpg);}
 
 .student-portfolios3d div {background-size: cover !important;}
-.wrapper-grid div { background: #15acf2; padding: 1em; border-radius: 10px; color: #fff; }
+.wrapper-grid div { background: #0048ff; padding: 1em; border-radius: 10px; color: #fff; }
 
 @media (min-width: 992px) {
   .wrapper-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; grid-gap: 1em; }
@@ -326,7 +326,7 @@ background: rgba(255, 255, 255, 0.01); border-color: #15acf2; -webkit-transform:
 .modal .reviews-row {box-shadow: none; margin:0; padding:0;}
 .reviews_descr .abc {padding: 20px 0;}
 .reviews_name {font-size: 18px;}
-.btn-reviews {background: none;color: #15acf2;border: none;padding: 0;}
+.btn-reviews {background: none;color: #0048ff;border: none;padding: 0;}
 .btn-reviews:hover {background: none;color: #4c4c4c;border: none;padding: 0;}
 .btn-reviews:focus {box-shadow: none;}
 .btn-reviews:active {background: none;color: #4c4c4c;border: none;outline: none;}
@@ -600,7 +600,7 @@ span .five,.one,.two,.three,.four { display: block; position: absolute; width: 1
 .tabs_courses .nav-tabs .nav-item a { padding: 14px 0 !important; font-size: 16px !important; flex-grow: 1; text-align: center; }
 .nav-tab {display: flex;}
 
-.tabs_courses .nav-tabs .nav-item a.active {color: #15acf2 !important;}
+.tabs_courses .nav-tabs .nav-item a.active {color: #0048ff !important;}
 .tabs_courses .nav-tabs .nav-item a {color: #4c4c4c;}
 .tabs_courses.course {padding-bottom: 0px !important;}
 
@@ -895,7 +895,7 @@ max-width: 50%;}
 .jobs {background-image: url(https://levelup.ua/wp-content/uploads/2018/02/BG-Blog-Header.jpg);}
 
 /*.jobs h1 {font-size: 52px; color: #fff; text-align: center; font-weight: 300}*/
-.wantWork {color: #15acf2;font-size: 22px !important;line-height: 30px !important;}
+.wantWork {color: #0048ff;font-size: 22px !important;line-height: 30px !important;}
 
 
 .programs-two-rows.jobs-like .list-group-item {border: none !important}
@@ -988,21 +988,21 @@ max-width: 50%;}
 /*Конец Новогодний подарок 10 000 */
 
 /*Открыт набор таблица*/
-.price-table-portfolios{font-size: 21px;color: #15acf2;font-weight: 400;}
-.price-table-portfolios-uah{  white-space: nowrap;font-size: 16px;color: #15acf2;font-weight: 300;}
+.price-table-portfolios{font-size: 21px;color: #0048ff;font-weight: 400;}
+.price-table-portfolios-uah{  white-space: nowrap;font-size: 16px;color: #0048ff;font-weight: 300;}
 
 @media (max-width: 768px){
 .sc-table-responsive .tabletolist{text-align: center !important;}
  .shadow-box a{font-size: 20px;color: #121212 !important;}
-.price-table-portfolios-mob{font-size:20px;color:#15acf2;}.shadow-box img{        display: flex;    margin: 0 auto 10px auto;}
-.buttonSlider-nabor{    color:#15acf2 !important;    border-color: #15acf2 !important;
+.price-table-portfolios-mob{font-size:20px;color:#0048ff;}.shadow-box img{        display: flex;    margin: 0 auto 10px auto;}
+.buttonSlider-nabor{    color:#0048ff !important;    border-color: #0048ff !important;
 }
 }
 
 .price-table-portfolios{    white-space: nowrap;}
 .price-now-bottom{padding-bottom: 30px !important;}
 
-.price-table-portfolios-uah{font-size: 16px;color: #15acf2;font-weight: 300;}
+.price-table-portfolios-uah{font-size: 16px;color: #0048ff;font-weight: 300;}
  .price-new-top  {  text-align: center;     text-shadow: 0 0px 0px #e61876;color: rgba(0, 0, 0, .009);  font-size:12px !important; margin-bottom: 0 !important;   /*  display: none;*/
   }
 
@@ -1031,7 +1031,7 @@ max-width: 50%;}
 
 .table-price {white-space: nowrap;}
 .price-table-portfolios-mob {
-display: inline-block !important;    font-size: 21px;color: #15acf2;padding-right: 5px;font-weight: 400;margin: 0;}
+display: inline-block !important;    font-size: 21px;color: #0048ff;padding-right: 5px;font-weight: 400;margin: 0;}
 .price-table-portfolios-uah {    display: inline-block !important;/*width: 50%;*/ }.price-new-bottom {white-space: nowrap;}.price-table-portfolios-uah-new {display: inline-block !important;}.price-table-portfolios-new {    display: inline-block !important;}
 
 
@@ -1069,7 +1069,7 @@ img.alignleft {margin: 3px;}
 /*.single p {padding-bottom: 25px }*/
 .meetup-form p {padding-bottom: 0px !important }
 
-  .quoteb {font-style: italic;padding-left: 20px;border-left: 4px solid #15acf2;padding-top: 7px;padding-bottom: 7px;}
+  .quoteb {font-style: italic;padding-left: 20px;border-left: 4px solid #0048ff;padding-top: 7px;padding-bottom: 7px;}
 .smile_icon_list .list-img-icon {width: 45px;display: block;margin: 0 auto;max-height: 100%!important;max-width: 100%!important;-webkit-border-radius: 0!important;border-radius: 0!important;-webkit-box-shadow: none!important;box-shadow: none!important;top: 50%;position: absolute;left: 50%;-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
 .block_info_reg {    padding-top: 30px;}.wpb_wrapper p {padding-bottom:10px;}
 .icon_description {    font-size: 16px !important;}
@@ -1133,14 +1133,14 @@ img.alignleft {margin: 3px;}
 
 .pt20 {padding-top: 20px;}
 
-.about-course h3::after{content: "";position: absolute;width: 50%;height: 1px;background: #15acf2;right: 0;top: 17px;}
+.about-course h3::after{content: "";position: absolute;width: 50%;height: 1px;background: #0048ff;right: 0;top: 17px;}
 .about-course h3{text-align: center;font-weight: 500;}
-.about-course h3 span {color: #15acf2;background: #fff;z-index: 2; position: relative;}
+.about-course h3 span {color: #0048ff;background: #fff;z-index: 2; position: relative;}
 
 .mobile.who-are-need-a-course {text-align: center;}
-.mobile.who-are-need-a-course .course {background: #15acf2;clip-path: polygon(0 31%, 100% 0, 100% 100%, 0% 100%);padding-top: 150px; text-align: left;}
+.mobile.who-are-need-a-course .course {background: #0048ff;clip-path: polygon(0 31%, 100% 0, 100% 100%, 0% 100%);padding-top: 150px; text-align: left;}
 .mobile.who-are-need-a-course img {max-width: 70%;margin-bottom: -200px;z-index: 2; position: relative;}
-.mobile.who-are-need-a-course .course{background: #15acf2;-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%); clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%); padding-top: 180px;}
+.mobile.who-are-need-a-course .course{background: #0048ff;-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%); clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%); padding-top: 180px;}
 .mobile.who-are-need-a-course p {color: #fff; font-weight: 300;}
 
 
@@ -1165,7 +1165,7 @@ img.alignleft {margin: 3px;}
 @media (min-width: 768px) {
 .patern-cicle-1 { top: -150px;overflow: hidden;left: 250px;width: 200px;height: 200px; position: absolute;opacity: 0.1; }
 .patern-cicle-2 { top: 250px;overflow: hidden;right: 250px;width: 200px;height: 200px;position: absolute;opacity: 0.1; }
-.footer-menu-title.mon span {color: #15acf2;}
+.footer-menu-title.mon span {color: #0048ff;}
 .footer-menu-third.mon span {color: #eaff00;}
   .first-block-footer .fa {color: #eaff00;padding-right: 10px;font-size: 14px !important;}
   .footer-place-adress {color: #eaff00;}
@@ -1185,7 +1185,7 @@ img.alignleft {margin: 3px;}
 
 @media (max-width: 768px) {
    .footer-title-adress {color: #fff;font-size: 18px;vertical-align: middle;font-weight: 600;}
-.footer-menu-title.mon span {color: #15acf2;}
+.footer-menu-title.mon span {color: #0048ff;}
 .footer-menu-third.mon span {color: #eaff00;}
   .first-block-footer .fa {color: #eaff00;padding-right: 10px;font-size: 14px !important;}
   .footer-place-adress {color: #eaff00;}
@@ -1269,7 +1269,7 @@ img.alignleft {margin: 3px;}
 }
 
 .about-conf p {margin: 15px 15px 0 15px;}
-.about-conf h4::after {content: "";background: #15acf2;height: 1px;width: 220px;position: absolute;bottom: -10px;left: calc(50% - 110px);}
+.about-conf h4::after {content: "";background: #0048ff;height: 1px;width: 220px;position: absolute;bottom: -10px;left: calc(50% - 110px);}
 .about-conf h4 {position: relative;margin: 0 auto;margin-bottom: 20px;}
 
 .programs-conf .list-group-item::after {top: 20px;}
@@ -1290,7 +1290,7 @@ img.alignleft {margin: 3px;}
 
 }
 
-.partners h2 {text-align: center;color: #15acf2;}
+.partners h2 {text-align: center;color: #0048ff;}
 
 .whom-conf {background-image: url(https://levelup.ua/wp-content/uploads/2018/10/bf-conf-black.jpg?id=39114) !important;}
 
@@ -1434,7 +1434,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 .course_program ul li > ul li:before { content: "°"; top: 0px; color: #ffffffad; }
 .course_program ul li:last-child {padding-bottom:0;}
 
-.company-title {color: #15acf2;font-size: 22px;display: grid; grid-template-columns: minmax(80px,80px) 1fr;padding-top: 20px;align-items: center; grid-column-gap: 10px;}
+.company-title {color: #0048ff;font-size: 22px;display: grid; grid-template-columns: minmax(80px,80px) 1fr;padding-top: 20px;align-items: center; grid-column-gap: 10px;}
 .company-title p {grid-row: 2;}
 .company-rate {font-size: 20px; color: #121212;}
 
@@ -1464,7 +1464,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 .six-yaear-block-3 img {border-radius: 50%;border: 5px solid #dddddd80;}
 
 .six-yaear-block-3 .six-name {color: #000000;}
-.six-yaear-block-3 .six-work {color: #15acf2;}
+.six-yaear-block-3 .six-work {color: #0048ff;}
 .six-yaear-block-3 .six-descr {font-style:italic; color: #999999;}
 
 /*Блоок 4*/
@@ -1512,8 +1512,8 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 
 /*counters*/
 .counters-seven .content {display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-column-gap: 50px;}
-.counters-seven .number {font-size: 68px; color: #15acf2;text-align: center;font-weight: 600;}
-.counters-seven .text {font-size: 25px; color: #fff;text-align: center;background: #15acf2}
+.counters-seven .number {font-size: 68px; color: #0048ff;text-align: center;font-weight: 600;}
+.counters-seven .text {font-size: 25px; color: #fff;text-align: center;background: #0048ff}
 .counters-seven .descr {font-size: 24px; text-align: center;}
 @media (max-width: 992px) {
   .counters-seven .content {display: grid;grid-template-columns: 1fr 1fr;grid-column-gap: 30px;}
@@ -1593,7 +1593,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
   .course.counters-seven h2{text-align: center !important;}
 
 .line_and_circle.active.black::before  {background: #4c4c4c;}
-.line_and_circle.blue::before  {background: #15acf2;}
+.line_and_circle.blue::before  {background: #0048ff;}
 .line_and_circle.yellow::before  {background: #eaff00;}
 
 .counters-seven h2 {padding-right: 20px !important;}
@@ -1724,18 +1724,18 @@ position: relative;}
 /*Кому может быть полезен этот курс?*/
 
 /*Баннер*/
-.page-id-4007 span.name-course:after { width: 50px;height: 1px;content: "";background: #15acf2;bottom: -5px;/* padding-top: 20px; */left: 0;position: absolute;}
+.page-id-4007 span.name-course:after { width: 50px;height: 1px;content: "";background: #0048ff;bottom: -5px;/* padding-top: 20px; */left: 0;position: absolute;}
 .page-id-4007 .slide .container p { padding-top: 40px;max-width: 400px; }
-.page-id-4007 .course-way span {     background: #15acf2;font-size: 18px !important;padding: 3px 10px;line-height: 18px;font-weight: 600;margin-right: 3px; }
+.page-id-4007 .course-way span {     background: #0048ff;font-size: 18px !important;padding: 3px 10px;line-height: 18px;font-weight: 600;margin-right: 3px; }
 .page-id-4007 .course-way {padding-top: 25px;}
 .page-id-4007 .start_slide { text-align: left;color: #383838;text-shadow: none; }.page-id-4007 .btn-blue   { padding: 0 !important; }
-.page-id-4007 .btn-blue a:hover {     background: #15acf2;box-shadow: 26px 15px 59px 0px rgba(21, 172, 242, 0.7);border: 2px solid #15acf2 !important; }
-.page-id-4007 .btn-blue a  {line-height: 34px;transition: box-shadow 0.3s ease-in-out;letter-spacing: 0px;color: #fff !important;background: none;position: relative;font-size: 18px;font-weight: 300;border-radius: 50px;background: #15acf2;border: 2px solid #15acf2;padding: 8px 58px 8px 32px;display: inline-block;}  .page-id-4007 .btn-blue a:hover:after {background-image: url(https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg);}
+.page-id-4007 .btn-blue a:hover {     background: #0048ff;box-shadow: 26px 15px 59px 0px rgba(21, 172, 242, 0.7);border: 2px solid #0048ff !important; }
+.page-id-4007 .btn-blue a  {line-height: 34px;transition: box-shadow 0.3s ease-in-out;letter-spacing: 0px;color: #fff !important;background: none;position: relative;font-size: 18px;font-weight: 300;border-radius: 50px;background: #0048ff;border: 2px solid #0048ff;padding: 8px 58px 8px 32px;display: inline-block;}  .page-id-4007 .btn-blue a:hover:after {background-image: url(https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg);}
 .page-id-4007 section.slide .container { display: grid; grid-template-columns: 1fr 1fr;     height: 100%;align-items: center;}
 .page-id-4007 section.slide .container img {top: 200px;position: relative;}
 .page-id-4007 section.slide  {    background: url(https://levelup.ua/wp-content/uploads/2019/02/icons_on_web.svg);background-size: 80%;background-repeat: no-repeat;background-position-x: right;background-position-y: -200px;    height: 80vh;}
 .page-id-4007 .about-courses .grid-section {display: grid;grid-template-columns: 1fr 1fr;grid-row-gap: 40px;}
-.page-id-4007 .about-courses h3 { font-weight: 500 }.page-id-4007 .about-courses h3 span { color: #15acf2; }
+.page-id-4007 .about-courses h3 { font-weight: 500 }.page-id-4007 .about-courses h3 span { color: #0048ff; }
 .page-id-4007  .about-courses {margin-top: -100px;}
 
 @media (max-width: 768px) {.page-id-4007  .about-courses {margin-top: 0px;} .page-id-4007 section.slide {height: auto;}
@@ -1750,14 +1750,14 @@ position: relative;}
 
 .imm-module h2 {text-align: center;font-weight: 500; }
 
-.imm-module h2 span {color: #15acf2;}
+.imm-module h2 span {color: #0048ff;}
 .imm-module .sub {text-align: center; font-size: 22px}
 .imm-module .grid-item {display: grid; grid-template-columns: 1fr 1fr 1fr;    padding: 20px 0;}
 .imm-module .grid-item .fork:nth-child(1) {justify-self: end;    padding-top: 65px;}
 .imm-module .grid-item .fork:nth-child(3) {justify-self: start;    padding-top: 65px;}
-.imm-module .grid-item .word {font-size: 25px;background: #15acf2;color: #fff;display: inline-block;line-height: normal;font-weight: 700;padding: 3px 10px;}
+.imm-module .grid-item .word {font-size: 25px;background: #0048ff;color: #fff;display: inline-block;line-height: normal;font-weight: 700;padding: 3px 10px;}
 .imm-module .grid-item .fork {text-align: center;}
-.imm-module .grid-item .circle {  background: #15acf2;margin-top: 30px;border-radius: 50%;padding: 50px;width: 200px;height: 200px;    padding: 20px;display: grid;align-items: center; }
+.imm-module .grid-item .circle {  background: #0048ff;margin-top: 30px;border-radius: 50%;padding: 50px;width: 200px;height: 200px;    padding: 20px;display: grid;align-items: center; }
 .imm-module .grid-item .circle .t-1 {    font-size: 40px;color: #fff;font-weight: 700;line-height: normal;}
 
 .imm-module.java .grid-item .circle .t-1 { font-size: 28px;}
@@ -1797,26 +1797,26 @@ position: relative;}
   .page-id-4007 .list-img-icon-7::after,
   .page-id-4007 .list-img-icon-8::after,
   .page-id-4007 .list-img-icon-9::after,
-  .page-id-4007 .list-img-icon-10::after {background: #15acf2 !important;color: #fff !important;position: absolute;border-radius: 50%;text-align: center;line-height: 40px;border: 5px solid #99dfff;background-image: none !important;}
+  .page-id-4007 .list-img-icon-10::after {background: #0048ff !important;color: #fff !important;position: absolute;border-radius: 50%;text-align: center;line-height: 40px;border: 5px solid #99dfff;background-image: none !important;}
 
 
-   .page-id-4007 .result-of-the-course .list-group-item::after {width: 50px;height: 50px; background: #15acf2 !important;background-image: none;color: #fff !important;position: absolute;border-radius: 50%;text-align: center;line-height: 40px;border: 5px solid #99dfff;background-image: none !important;}
+   .page-id-4007 .result-of-the-course .list-group-item::after {width: 50px;height: 50px; background: #0048ff !important;background-image: none;color: #fff !important;position: absolute;border-radius: 50%;text-align: center;line-height: 40px;border: 5px solid #99dfff;background-image: none !important;}
 
 
 .page-id-4007 .list-img-icon-1::after {content: "01" !important;}
 .page-id-4007 .list-img-icon-2::after {content: "02" !important;}
 .page-id-4007 .list-img-icon-3::after {content: "03" !important;}.page-id-4007 .list-img-icon-4::after {content: "04" !important;} .page-id-4007 .list-img-icon-5::after {content: "01" !important;}  .page-id-4007 .list-img-icon-6::after {content: "02" !important;}        .page-id-4007 .list-img-icon-7::after {content: "03" !important;}              .page-id-4007 .list-img-icon-8::after {content: "04" !important;}
 .page-id-4007 .result-of-the-course .list-img-icon-4::before ,  .page-id-4007 .result-of-the-course .list-img-icon-8::before { content: none !important; }
-.page-id-4007 .result-of-the-course .list-group-item::before {content: '';height: 100%;width: 1px;position: absolute;background: #15acf2;top: 12px;left: 25px;}
+.page-id-4007 .result-of-the-course .list-group-item::before {content: '';height: 100%;width: 1px;position: absolute;background: #0048ff;top: 12px;left: 25px;}
 
 .module-icon-1::after {background: url(https://levelup.ua/wp-content/uploads/2019/02/module.png) !important;width: 101px;height: 101px;content: "";margin-bottom: 40px;position: absolute;left: -27px;}
-.module-icon-1::before, .module-icon-2::before {content: '';height: 100%;width: 1px;position: absolute;background: #15acf2;top: 12px;left: 25px;}
+.module-icon-1::before, .module-icon-2::before {content: '';height: 100%;width: 1px;position: absolute;background: #0048ff;top: 12px;left: 25px;}
 .module-icon-1, .module-icon-2 {position: relative;background: none !important;border: none;padding-left: 120px;justify-content: left !important;display: grid;text-align: left;min-height: 65px;}
 .module-icon-2::after  {background: url(https://levelup.ua/wp-content/uploads/2019/02/module-2.png) !important; width: 101px; height: 101px;
   content: ""; position: absolute; left: -27px;margin-bottom: 40px;}
 .module-icon-1, .module-icon-2 {height: 101px;}
-.module-icon-1 > div, .module-icon-2 > div {color: #15acf2;font-size: 30px;font-weight: 500;top: -10px;position: relative;}
-.module-icon-1 > p, .module-icon-2 > p {top: -30px;position: relative;font-size: 24px;color: #15acf2;}
+.module-icon-1 > div, .module-icon-2 > div {color: #0048ff;font-size: 30px;font-weight: 500;top: -10px;position: relative;}
+.module-icon-1 > p, .module-icon-2 > p {top: -30px;position: relative;font-size: 24px;color: #0048ff;}
 
 .page-id-4007 .result-of-the-course h2 {margin-bottom: 50px;}
 .page-id-4007 .result-of-the-course {background: none !important;}
@@ -1887,7 +1887,7 @@ section.slide .start_slide { font-weight: 600 !important; }
 .loyality .pattern { background: url(https://levelup.ua/wp-content/uploads/2019/02/patter-loyality.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
 .course_program .pattern { background: url(https://levelup.ua/wp-content/uploads/2019/02/patter-programs.png) !important; background-repeat: no-repeat; background-size: 100% 100%}
 
-.course_program .card .mb-0:hover {background-image: linear-gradient(to right, #15acf200, #09cbffb3) !important; border-radius: 3px;}
+.course_program .card .mb-0:hover {background-image: linear-gradient(to right, #0048ff00, #09cbffb3) !important; border-radius: 3px;}
 .page-id-4007 span.name-course { display: inline-block; }
 
  @media (max-width: 992px) {
@@ -2003,7 +2003,7 @@ input.wpcf7-form-control.wpcf7-submit.qbtn img{ float:left; padding-left:25px; }
 footer span.wpcf7-not-valid-tip{ color: #f92d88; margin-left: 0; font-size: 12px; margin-top: 5px; font-weight: 300; }
 footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf215; font-weight: 300; text-align: left; }
 .footer-contacts{ font-size:16px; color: #fff; font-weight: 300;  }
-.footer-contacts:hover{ font-size:16px; color: #15acf2; font-weight: 300;  }
+.footer-contacts:hover{ font-size:16px; color: #0048ff; font-weight: 300;  }
 .footer-img{ background-repeat: no-repeat; background-size: contain; background-image: url("/wp-content/uploads/2018/06/Footer-LEVEL-UP-2.png"); }
 
 .footer-social-icon{float:left; margin-right: 15px;padding-bottom: 20px; }

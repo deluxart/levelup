@@ -16,7 +16,7 @@
 .career-page #why-worked .content div.img { background: url(https://levelup.ua/wp-content/uploads/2019/08/icon_circle.svg) center no-repeat; display: grid; align-items: center; width: 144px; margin: 0 auto 20px auto; height: 144px; }
 .career-page #why-worked .content div.img img { display: block; max-width: 76px; margin: 0 auto; }
 .career-page #why-worked .content div h4 { margin-bottom: 12px; }
-.career-page #anna-lesnyh h2 { line-height: normal; color: #15acf2; }
+.career-page #anna-lesnyh h2 { line-height: normal; color: #0048ff; }
 .career-page #anna-lesnyh h2 span { display: block; }
 .career-page #anna-lesnyh h2 span.name { display: inline-block; white-space: nowrap; background-image: -moz-linear-gradient(0deg, #00baff 0%, #0971ff 100%); background-image: -webkit-linear-gradient(0deg, #00baff 0%, #0971ff 100%); background-image: -ms-linear-gradient(0deg, #00baff 0%, #0971ff 100%); box-shadow: 14.627px 13.64px 20px 0px rgba(4, 150, 255, 0.35); color: #fff; font-size: 32px; padding: 5px 10px; position: relative; margin-bottom: 5px; }
 .career-page #anna-lesnyh h2 span.name::after { position: absolute; content: ''; border: 25px solid transparent; border-left: 20px solid #0971ff; right: -45px; top: 0; }
@@ -25,7 +25,7 @@
 .career-page #anna-lesnyh .content ul li { display: grid; grid-template-columns: 32px 1fr; grid-column-gap: 15px; }
 .career-page #anna-lesnyh .content ul li img { display: block; border-radius: 50%; box-shadow: 12.245px 6.787px 18px rgba(27, 161, 255, 0.36); }
 .career-page #blog-posts { box-shadow: 15.358px 14.322px 103px 0px rgba(21, 172, 242, 0.14); }
-.career-page #blog-posts h2 { color: #15acf2; }
+.career-page #blog-posts h2 { color: #0048ff; }
 .career-page #blog-posts .tg-quito-custom .tg-item-content-holder[data-position="bottom"] { padding: 0; }
 .career-page #blog-posts .tg-quito-custom .tg-element-6 { padding-top: 0px; }
 .career-page #blog-posts .btn-all.btn-blue { text-align: center; }
@@ -33,7 +33,7 @@
 .career-page #we-worked.course { padding: 80px 0; }
 .career-page #we-worked h2 { text-transform: uppercase; }
 .career-page #we-worked .content { display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 50px; align-items: center; }
-.career-page #we-worked .content div h3 { padding-bottom: 30px; font-size: 24px; color: #15acf2; font-weight: 500; }
+.career-page #we-worked .content div h3 { padding-bottom: 30px; font-size: 24px; color: #0048ff; font-weight: 500; }
 .career-page #we-worked .content div.logotypes .cont { display: grid; grid-template-columns: repeat(3, 1fr); align-items: center; grid-gap: 30px; text-align: center; }
 .career-page #we-worked .content div.logotypes h3 { padding-bottom: 0px; }
 .career-page #we-worked .content div.logotypes p { padding-bottom: 30px; }
@@ -41,7 +41,7 @@
 .career-page #we-worked .content div.text ul { display: grid; grid-gap: 20px; }
 .career-page #we-worked .content div.text ul li { position: relative; display: grid; grid-template-columns: auto 1fr; grid-column-gap: 20px; font-size: 18px; }
 .career-page #we-worked .content div.text ul li strong { display: inline-block; }
-.career-page #we-worked .content div.text ul li i { font-size: 24px; color: #15acf2; line-height: 1.2; text-shadow: 12.245px 6.787px 18px rgba(27, 161, 255, 0.7); }
+.career-page #we-worked .content div.text ul li i { font-size: 24px; color: #0048ff; line-height: 1.2; text-shadow: 12.245px 6.787px 18px rgba(27, 161, 255, 0.7); }
 .career-page #offer-block { margin: 50px 0; background-image: -moz-linear-gradient(-180deg, #00beff 0%, #059bff 62%, #0a78ff 100%); background-image: -webkit-linear-gradient(-180deg, #00beff 0%, #059bff 62%, #0a78ff 100%); background-image: -ms-linear-gradient(-180deg, #00beff 0%, #059bff 62%, #0a78ff 100%); }
 .career-page #offer-block .content { display: grid; grid-template-columns: 450px 1fr; align-items: center; position: relative; padding: 42px; }
 .career-page #offer-block .content .block-image img { position: absolute; top: 50%; max-width: 450px; transform: translateY(-50%); }
@@ -50,7 +50,7 @@
 .career-page #offer-block .content .btn-write.btn-blue { position: absolute; bottom: 0; transform: translate(0, 50%); background: #fff; padding: 20px 20px 0 20px; border-radius: 50px 50px 0 0; }
 .career-page #offer-block .content .btn-write.btn-blue a.sg-show-popup { box-shadow: none !important; }
 .career-page #ours-partners.course { padding-bottom: 0; }
-.career-page #ours-partners h2 { color: #15acf2; padding-bottom: 0; text-transform: uppercase; }
+.career-page #ours-partners h2 { color: #0048ff; padding-bottom: 0; text-transform: uppercase; }
 .career-page #ours-partners .container > p { font-size: 21px; }
 .career-page #ours-partners .content { margin-top: 30px; text-align: center; display: grid; grid-template-columns: repeat(6, 1fr); align-items: center; grid-gap: 30px; }
 .career-page #ours-partners .content > div { display: inline-block; }
@@ -69,7 +69,7 @@
 .career-page #career-form .form .cont-form .submit_cf { padding-bottom: 0; }
 .career-page #career-form .form .cont-form .form_input_cf { width: 100%; }
 .career-page #career-form .form .cont-form .wpcf7-form-control-wrap input { padding: 0; }
-.career-page #career-form .form .cont-form .title_cf { font-size: 26px; color: #15acf2; font-weight: 600; }
+.career-page #career-form .form .cont-form .title_cf { font-size: 26px; color: #0048ff; font-weight: 600; }
 .career-page #career-form .form .cont-form .title_cf span { display: block; }
 .career-page #career-form .form .cont-form .title_cf p { font-weight: normal; font-size: 21px; color: #515152; }
 .career-page #video-reviews .content h2 { font-size: 46px; text-transform: uppercase; padding: 35px; box-shadow: -17.678px 17.678px 35px 0px rgba(24, 173, 241, 0.25); background: #fff; position: relative; background: linear-gradient(to right, #098fff, #04a8ff, #00beff); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 600; text-shadow: -10.607px 10.607px 15px rgba(7, 156, 255, 0.25); line-height: 60px; }

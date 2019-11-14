@@ -19,7 +19,6 @@ span.tg-item-term.language { display: none !important; }
 .single .status-publish .entry-content { padding: 0; font-family: 'Gilroy'; font-weight: 300; font-style: normal; font-size: 19px; }
 .single .status-publish .entry-header, .posts_page .head h1 { font-family: 'Gilroy'; font-weight: 600; }
 .full_post strong, .full_post .entry-header h1 { font-family: 'Gilroy'; font-weight: 600; }
-.full_post .news_sidebar { /*background: url(https://uaitsmart.com/wp-content/uploads/2019/08/shadow_line.png) top repeat-x;*/ padding: 25px 0 35px 0; font-family: 'Gilroy'; font-weight: 300; font-style: normal; }
 
 .entry-header ul.tag { margin: 0; padding: 0; position: relative; top: -10px; font-weight: normal; left: 0; }
 .entry-header ul.tag li { display: inline-block; padding: 0; margin: 0; font-size: 12px; color: #9e9e9e; padding: 0 13px; font-style: italic; position: relative; }
@@ -32,10 +31,10 @@ span.tg-item-term.language { display: none !important; }
 .entry-header ul.tag li span i { padding-right: 7px; }
 
 .full_post { width: 100%; padding: 0; }
-.full_post h2 { letter-spacing: normal; font-size: 14px !important; text-transform: uppercase; letter-spacing: 2.4px; padding-bottom: 18px; color: #15acf2; }
+.full_post h2 { letter-spacing: normal; font-size: 14px !important; text-transform: uppercase; letter-spacing: 2.4px; padding-bottom: 18px; color: #0048ff; }
 .full_post .news_sidebar { padding: 25px 0 35px 0; }
 .full_post .entry-header { text-align: center; }
-.full_post .entry-header h1 { color: #15acf2; font-weight: 600; }
+.full_post .entry-header h1 { color: #0048ff; font-weight: 600; }
 .full_post .container { max-width: 940px; }
 .full_post #content-page { max-width: 100%; position: relative; }
 .full_post .content-area { padding-left: 0; padding-bottom: 0 !important; }
@@ -58,7 +57,7 @@ span.tg-item-term.language { display: none !important; }
 
 .wp-tag-cloud li { display: inline-block; border: 1px solid #e0e0e0; padding: 3px 12px; border-radius: 30px; display: inline-block; margin-bottom: 4px; }
 .wp-tag-cloud li a { color: #010101; }
-.wp-tag-cloud li:hover { background: #15acf2; border-color: #15acf2; }
+.wp-tag-cloud li:hover { background: #0048ff; border-color: #0048ff; }
 .wp-tag-cloud li:hover a { color: #fff; }
 
 .w_soc { display: grid; grid-template-columns: auto auto auto 1fr; text-align: center; grid-column-gap: 15px; }
@@ -69,13 +68,12 @@ span.tg-item-term.language { display: none !important; }
 .w_soc li.fb a { color: #fff; background: #3b5998; }
 .w_soc a { display: grid; width: 42px; height: 42px; color: #676767; text-align: center; vertical-align: middle; border-radius: 50%; align-items: center; }
 
-.tg-page-number.tg-page-current { color: #fff !important; background: #15acf2; border-radius: 30px; }
+.tg-page-number.tg-page-current { color: #fff !important; background: #0048ff; border-radius: 30px; }
 
-.tg-nav-color:not(.dots):not(.tg-dropdown-value):not(.tg-dropdown-title):hover { color: #15acf2 !important; }
+.tg-nav-color:not(.dots):not(.tg-dropdown-value):not(.tg-dropdown-title):hover { color: #0048ff !important; }
 
-.posts_page .widget-title { letter-spacing: normal; font-size: 14px; text-transform: uppercase; letter-spacing: 2.4px; padding-bottom: 18px; color: #15acf2; }
+.posts_page .widget-title { letter-spacing: normal; font-size: 14px; text-transform: uppercase; letter-spacing: 2.4px; padding-bottom: 18px; color: #0048ff; }
 .posts_page .block_search { padding-bottom: 40px; }
-.posts_page div.asl_w .probox .promagnifier .innericon svg { fill: #15acf2; }
 .posts_page .srpw-block li { display: grid; grid-template-columns: auto 1fr; }
 .posts_page .srpw-clearfix::before, .posts_page .srpw-clearfix::after { display: none !important; }
 .posts_page .srpw-thumbnail { border-radius: 50%; }
@@ -87,18 +85,18 @@ span.tg-item-term.language { display: none !important; }
 .posts_page div.asl_w { border: 1px solid #e0e0e0; border-radius: 30px; height: auto; padding: 12px; box-sizing: border-box; box-shadow: none; }
 .posts_page .tg-grid-holder { left: 0 !important; }
 .posts_page .head { padding: 45px 0; }
-.posts_page .head h1 { letter-spacing: normal; color: #15acf2; }
+.posts_page .head h1 { letter-spacing: normal; color: #0048ff; }
 .posts_page .head > p { color: #6c6c6c; text-transform: uppercase; font-size: 14px; font-weight: 300; }
 .posts_page .content { display: grid; grid-template-columns: 68% 32%; }
 .posts_page.no-sidebar .content { display: grid; grid-template-columns: 1fr; }
-.posts_page .content {font-family: 'Gilroy'; font-weight: 600; }
+.posts_page .content { font-weight: 600; }
 .posts_page .content .news .tg-item { border-radius: 0px; overflow: hidden; box-shadow: none; }
 .posts_page .content .news .tg-maren-new .tg-element-3 { padding-top: 0; padding-bottom: 0px; line-height: normal; }
 .srpw-meta, .wp-tag-cloud li a { font-family: 'Gilroy'; font-weight: 300; font-style: normal; }
 .tg-txt .tg-nav-font { font-weight: normal; }
 .posts_page .content .news .tg-item-content-holder { background: none !important; font-family: 'Gilroy'; font-weight: 300; font-style: normal; }
 .posts_page .content .news .tg-maren-new .tg-item-content-holder[data-position="bottom"] { padding: 15px 0 0 0; min-height: 95px; }
-.posts_page .content .news .tg-item-title.tg-element-3 a { font-size: 18px; color: #010101 !important; line-height: 1.2; text-transform: none; font-family: 'Gilroy'; font-weight: 600;  }
+.posts_page .content .news .tg-item-title.tg-element-3 a { font-size: 18px; color: #010101 !important; line-height: 1.2; text-transform: none; font-weight: 600;  }
 .posts_page .content .news img.tg-item-image { border-radius: 0px; }
 .posts_page .content .news .tg-layout-masonry .tg-item-media-holder { border-radius: 0px; overflow: hidden; }
 .posts_page .content .sidebar { padding-left: 20px; }
@@ -106,7 +104,7 @@ span.tg-item-term.language { display: none !important; }
 .posts_page .content .sidebar > aside:last-child { padding: 0; }
 .posts_page .content .sidebar .all_posts { text-align: center; }
 .posts_page .content .sidebar .all_posts a { display: inline-block; color: #c3c3c3; padding: 5px 20px; border: 1px solid #e1e1e1; border-radius: 30px; font-size: 14px; margin-top: 5px; transition: 0.3s all; }
-.posts_page .content .sidebar .all_posts a:hover { color: #fff; background: #15acf2; border-color: #15acf2; }
+.posts_page .content .sidebar .all_posts a:hover { color: #fff; background: #0048ff; border-color: #0048ff; }
 
   @media (max-width: 992px) { .posts_page .content { grid-template-columns: 1fr; grid-row-gap: 30px; }
   .posts_page .content .sidebar { padding-left: 0; padding-bottom: 30px; }

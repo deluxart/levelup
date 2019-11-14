@@ -27,7 +27,7 @@
 
 .dev-studio { overflow: hidden; }
 .dev-studio h2 { color: #323232; line-height: normal; }
-.dev-studio h2 span { color: #15acf2; }
+.dev-studio h2 span { color: #0048ff; }
 .dev-studio .container { position: relative; z-index: 1; }
 
 #dev-slider { /*Временно*/ margin-top: -20px; position: relative; color: #fff; }
@@ -76,8 +76,8 @@
 #work_studio.edge--top--reverse:before { transform: skewY(-2.5deg); }
 #work_studio.edge--bottom:after { transform: skewY(-2.5deg); }
 #work_studio .month-line { display: grid; grid-template-columns: repeat(7, 1fr); border-radius: 30px; padding-top: 24px; margin: 50px 0 20px 0; }
-#work_studio .month-line > div { background: #15acf2; position: relative; height: 10px; }
-#work_studio .month-line > div span { position: absolute; top: -24px; font-size: 14px; font-weight: bold; transform: translateX(-30%); color: #15acf2; }
+#work_studio .month-line > div { background: #0048ff; position: relative; height: 10px; }
+#work_studio .month-line > div span { position: absolute; top: -24px; font-size: 14px; font-weight: bold; transform: translateX(-30%); color: #0048ff; }
 #work_studio .month-line > div:before { content: ''; width: 6px; height: 6px; position: absolute; left: 2px; top: 2px; background: #fff; border-radius: 30px; }
 #work_studio .month-line > div:first-child { border-radius: 30px 0 0 30px; }
 #work_studio .month-line > div:last-child { border-radius: 0 30px 30px 0; }
@@ -87,7 +87,7 @@
 #work_studio .month-line > div:nth-child(7) { background: #a0a0a0; }
 #work_studio .month-line > div:nth-child(7) span { color: #b1b1b1; }
 #work_studio .block-clock { text-align: center; margin-bottom: 30px; }
-#work_studio .block-clock .time-clock { font-size: 18px; font-weight: bold; color: #15acf2; display: inline-block; margin: 0 auto; line-height: 36px; }
+#work_studio .block-clock .time-clock { font-size: 18px; font-weight: bold; color: #0048ff; display: inline-block; margin: 0 auto; line-height: 36px; }
 #work_studio .block-clock .time-clock i { font-size: 36px; padding-right: 14px; vertical-align: middle; }
 
 #dev-mentors { background: linear-gradient(to bottom, #0e6ed7, #00abff); color: #fff; padding-top: 40px; position: relative; }
@@ -181,12 +181,12 @@
 #participation .container { z-index: 2; position: relative; padding-top: 70px; z-index: 3; }
 #participation:before { content: ''; position: absolute; border: 30px solid transparent; border-top: 20px solid #01a7fa; top: 0px; z-index: 999; left: calc(50% - 30px); }
 #participation h2 { color: #fff; padding-bottom: 60px; text-align: center; }
-#participation h2 span { color: #15acf2; }
+#participation h2 span { color: #0048ff; }
 #participation h2.next { padding-bottom: 60px; }
 #participation .content { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 40px; padding-bottom: 140px; z-index: 2; }
 #participation .content > div { text-align: center; }
 #participation .content > div p { margin: 20px 0 0 0; }
-#participation .content svg { max-width: 101px; width: 100%; display: block; margin: 0 auto; fill: #15acf2; }
+#participation .content svg { max-width: 101px; width: 100%; display: block; margin: 0 auto; fill: #0048ff; }
 
 #contacts { background: #303339; overflow: hidden; }
 #contacts .container { position: relative; padding-bottom: 70px; z-index: 3; }
@@ -197,8 +197,8 @@
 #contacts .content > div p { margin: 20px 0 0 0; }
 #contacts .content > div:nth-child(2) span.arrow { right: -32px; }
 #contacts .content svg { max-width: 101px; width: 100%; display: block; margin: 0 auto; fill: #fff; }
-#contacts .dev-form { background: #15acf2; padding: 45px 50px 33px 50px; border-radius: 15px; /*margin-bottom: 50px;*/ display: grid; grid-template-columns: 1fr 1fr; color: #fff; position: relative; z-index: 1; box-shadow: 0px 11px 40px #0006; top: -100px; text-align: center; max-width: 900px; margin-left: auto; margin-right: auto; }
-#contacts .dev-form .pricing_0 { fill: #15ACF2; }
+#contacts .dev-form { background: #0048ff; padding: 45px 50px 33px 50px; border-radius: 15px; /*margin-bottom: 50px;*/ display: grid; grid-template-columns: 1fr 1fr; color: #fff; position: relative; z-index: 1; box-shadow: 0px 11px 40px #0006; top: -100px; text-align: center; max-width: 900px; margin-left: auto; margin-right: auto; }
+#contacts .dev-form .pricing_0 { fill: #0048ff; }
 #contacts .dev-form .pricing_1 { fill: #FFFFFF; }
 #contacts .dev-form ul.pricing { display: grid; grid-row-gap: 20px; }
 #contacts .dev-form ul.pricing li { display: grid; grid-template-columns: auto 1fr; grid-gap: 30px; align-items: center; text-align: left; }
@@ -219,7 +219,7 @@
 
 .wrap-lines { position: relative; margin-bottom: 70px; }
 
-.wrap-lines .num { display: inline-block; background: #fff; color: #15acf2; font-size: 56px; font-weight: bold; font-style: normal; text-align: center; border-radius: 50%; flex-shrink: 0; margin: 0 auto; box-shadow: 15.999px 28.862px 38px 0px rgba(255, 255, 255, 0.35); }
+.wrap-lines .num { display: inline-block; background: #fff; color: #0048ff; font-size: 56px; font-weight: bold; font-style: normal; text-align: center; border-radius: 50%; flex-shrink: 0; margin: 0 auto; box-shadow: 15.999px 28.862px 38px 0px rgba(255, 255, 255, 0.35); }
 
 .wrap-lines .text { display: block; margin: 30px 0 0 0; text-align: center; font-size: 21px; line-height: normal; }
 
