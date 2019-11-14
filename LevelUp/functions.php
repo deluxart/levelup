@@ -405,10 +405,29 @@ function simple_spoiler_shortcode($atts, $content) {
 	}
 	return '<div class="spoiler">
 				<div class="head">'.$sp_name.'</div>
-				<div class="cont">'.$content.'</div>
+				<div class="cont">'.do_shortcode($content).'</div>
 			</div>';
 }
 add_shortcode( 'spoiler', 'simple_spoiler_shortcode' );
+
+
+// Спойлер для WP by Alexander Osadchyy
+function simple_spoiler_child_shortcode($atts, $content) {
+	if ( ! isset($atts['title']) ) {
+		$sp_name = __( 'Спойлер', 'simple-spoiler' );
+	} else {
+		$sp_name = $atts['title'];
+	}
+	return '<div class="spoiler">
+				<div class="head">'.$sp_name.'</div>
+				<div class="cont">'.$content.'</div>
+			</div>';
+}
+add_shortcode( 'spoiler-child', 'simple_spoiler_child_shortcode' );
+
+
+
+
 add_filter( 'comment_text', 'do_shortcode' );
 
 function my_tinymce_button() {
