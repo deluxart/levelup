@@ -418,12 +418,12 @@ function simple_spoiler_child_shortcode($atts, $content) {
 	} else {
 		$sp_name = $atts['title'];
 	}
-	return '<div class="spoiler">
+	return '<div class="spoiler child">
 				<div class="head">'.$sp_name.'</div>
 				<div class="cont">'.$content.'</div>
 			</div>';
 }
-add_shortcode( 'spoiler-child', 'simple_spoiler_child_shortcode' );
+add_shortcode( 'child', 'simple_spoiler_child_shortcode' );
 
 
 
