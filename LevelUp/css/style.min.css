@@ -104,7 +104,8 @@
 .mob-pt30 {padding-top: 30px;}
 }
 .va-b {vertical-align: bottom;}
-.bg-blue { background-image: linear-gradient(to right, #09a1ff , #00ccff);}
+/* -webkit-linear-gradient(180deg, #000cff 0%, #6c00ff 100%) */
+.bg-blue { background-image: linear-gradient(to left, #000cff , #6c00ff);}
 .w-fix {max-width: 1140px;}
 
 .title_achivments {padding-bottom: 50px;}
