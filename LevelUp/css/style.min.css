@@ -218,14 +218,15 @@ background-size: cover !important;}
 
 
 /*Пропустили занятие?*/
-.leave-lesson {background: #0048ff;}
+.leave-lesson { display: none !important; ;}
+/* .leave-lesson {background: #0048ff;}
 .recordTitle {font-size: 40px;color: #ffde00;line-height: normal;}
 .recordDescr {font-size: 20px;padding-top: 20px;line-height: normal;color: #fff;font-weight: 300;}
 
 @media (max-width:768px){
   .recordTitle{  font-size: 30px;  text-align: center;  padding-bottom: 20px;          }
   .recordDescr{font-size: 16px;   text-align: center;}
-}
+} */
 
 
 /*Конец Пропустили занятие?*/
@@ -464,12 +465,12 @@ background-repeat: no-repeat !important; background-size: cover !important;}
 .co-unity {background-image: url(https://levelup.ua/wp-content/uploads/2018/08/BG-Unity-Boomsday-White.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: center;background-size: cover}
 
 
-.leave-lesson {background: url(https://levelup.ua/wp-content/uploads/2018/11/video_record_pc.png); background-position: 0%; background-size: auto auto; min-height: 300px; display: flex;
+/* .leave-lesson {background: url(https://levelup.ua/wp-content/uploads/2018/11/video_record_pc.png); background-position: 0%; background-size: auto auto; min-height: 300px; display: flex;
   align-items: center; justify-content: center; background-size: cover; background-position: center;}
 
 @media (max-width: 768px) {
     .leave-lesson {background: url(https://levelup.ua/wp-content/uploads/2019/01/camera_768x720.png )!important;background-position-x: 0% !important;background-position-y: 0% !important;background-size: auto auto;min-height: 400px !important;background-position-y: bottom !important;align-items: start !important;background-size: cover !important;}
-}
+} */
 
 /*  APPLE*/
 
@@ -1644,23 +1645,23 @@ position: relative;}
 /*--------page-id-4007--------*/
 
 /*Блок Покинули занятие?*/
-.leave-lesson { background: url(https://levelup.ua/wp-content/uploads/2019/02/bg_recording.svg) !important; min-height: 580px;background-position: center center !important;margin-top: -60px; background-repeat: no-repeat !important;}
-.recordTitle .white { color: #fff; }
+/* .leave-lesson { background: url(https://levelup.ua/wp-content/uploads/2019/02/bg_recording.svg) !important; min-height: 580px;background-position: center center !important;margin-top: -60px; background-repeat: no-repeat !important;}
+.recordTitle .white { color: #fff; } */
 
 
-.leave-lesson .img { text-align: center; }
+/* .leave-lesson .img { text-align: center; }
 .leave-lesson .img img { top: 80px; position: relative; max-width: 50%; }
 .leave-lesson .row-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
 .leave-lesson .pattern { background: url(https://levelup.ua/wp-content/uploads/2019/02/patter-loyality-videorecord.png);     background-repeat: no-repeat; background-size: 100% 100%;background-position: center center; width: 100%;height: 100%;}
+ */
 
 
 
-
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
 .leave-lesson .pattern { background: none; }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 .recordTitle, .recordDescr { text-align: left; }
 .leave-lesson .container { background: url(https://levelup.ua/wp-content/uploads/2019/02/videocamera.png);background-repeat: no-repeat;background-size: contain;background-position: 103% 0 !important; margin: auto; }
 .leave-lesson .row-grid { grid-template-columns: 1fr 100px; }
@@ -1668,7 +1669,7 @@ position: relative;}
 .leave-lesson {margin-top: -15px;}
 .leave-lesson .pattern {margin: auto;}
 .leave-lesson {   background: url(https://levelup.ua/wp-content/uploads/2019/02/bg_recording.svg) !important;   background-size: cover !important;  background-repeat: no-repeat !important;   background-position: center !important;}
-}
+} */
 
 
 /*Конец Покинули занятие?*/
@@ -1934,8 +1935,8 @@ section.slide .start_slide { font-weight: 600 !important; }
 }
 
 .card.empty .btn.collapsed::after { content: ""; }
-.leave-lesson .recordDescr {max-width: 450px;}
-.leave-lesson .recordTitle {font-weight: 500;}
+/* .leave-lesson .recordDescr {max-width: 450px;}
+.leave-lesson .recordTitle {font-weight: 500;} */
 
 .course_details .ct-2 {display: block;font-size: 20px; line-height: normal; font-weight: 300;}
 .course_details .ct-1 { font-weight: 500; }
