@@ -114,7 +114,7 @@ h3 { font-size: 36px; font-weight: 400; font-family: 'Montserrat'; line-height: 
 .post-form-block .buttonLight:hover, .post-form-block .sg-show-popup:hover { color: #4c4c4c; border: 2px solid #0048ff !important; background: #0048ff; color: #fff;}
 .post-form-block .buttonLight:hover:after, .post-form-block .sg-show-popup:hover:after { background-image: url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg"); }
 
-.post-form-block.blue .buttonLight, .post-form-block.blue .sg-show-popup { color: #000; border: 2px solid #d1f700; background: #d1f700; }
+.post-form-block.blue .buttonLight, .post-form-block.blue .sg-show-popup { color: #000; border: 2px solid #ffde00; background: #ffde00; }
 .post-form-block.blue .buttonLight:after , .post-form-block.blue .sg-show-popup:after  { background-image: url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg"); }
 .post-form-block.blue .buttonLight:hover, .post-form-block.blue .sg-show-popup:hover { color: #000; border: 2px solid #ffde00 !important; background: #ffde00; color: #000; box-shadow: 0 10px 20px 0 rgba(0,67,91,.15);}
 .post-form-block.blue .buttonLight:hover:after, .post-form-block.blue .sg-show-popup:hover:after { background-image: url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg"); }
