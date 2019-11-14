@@ -403,7 +403,7 @@ function simple_spoiler_shortcode($atts, $content) {
 	} else {
 		$sp_name = $atts['title'];
 	}
-	return '<div class="spoiler">
+	return '<div class="spoiler parrent">
 				<div class="head">'.$sp_name.'</div>
 				<div class="cont">'.do_shortcode($content).'</div>
 			</div>';
