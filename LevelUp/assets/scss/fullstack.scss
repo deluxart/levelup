@@ -468,6 +468,14 @@
         .cont {
             display: none;
             padding: 10px 0 10px 60px;
+
+            & > .spoiler {
+                &:last-child {
+                      &:after {
+                          display: none;
+                       }
+                    }
+                }
         }
     }
 }
