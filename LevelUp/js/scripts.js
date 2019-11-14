@@ -442,7 +442,7 @@ jQuery(document).ready(function () {
 
 // Uneversal spoiler
 jQuery('.spoiler > .head').on('click', function(e){
-    jQuery('div.spoiler').not(this).children('.cont').stop().slideUp(300);
+    jQuery('div.spoiler').children('.cont').not(this).stop().slideUp(300);
   jQuery(this).parent('div.spoiler').children('.cont').stop().slideUp(300);
   jQuery('.spoiler > .head').not(this).removeClass('active');
   jQuery('.spoiler > .cont').not(this).removeClass('active');
