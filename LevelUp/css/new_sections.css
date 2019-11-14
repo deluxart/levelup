@@ -3,7 +3,7 @@
 #course_slider .content { display: grid; grid-template-columns: 1fr 1fr; min-height: 83vh; align-items: center; }
 #course_slider .content .text { text-shadow: 1px 1px 3px rgba(63,110,176,.5); color: #fff; }
 #course_slider .content .text > span { border-width: 0; display: block; font-weight: 200; font-size: 45px; text-transform: uppercase; }
-#course_slider .content .text > h1 { color: #eaff00; letter-spacing: 1px; font-weight: 700; font-size: 40px; text-transform: uppercase; }
+#course_slider .content .text > h1 { color: #ffde00; letter-spacing: 1px; font-weight: 700; font-size: 40px; text-transform: uppercase; }
 #course_slider .content .text > p.description { line-height: 30px; font-weight: 300; font-size: 22px; margin-top: 10px; }
 #course_slider .content .text > p.description:before { display: none; }
 #course_slider .content .text > p.date-start { line-height: 30px; font-size: 28px; padding: 40px 0 60px 0; }
@@ -75,7 +75,7 @@
 #level_footer .content > .block:last-child { padding: 0; }
 #level_footer .content > .block:last-child:before { display: none; }
 #level_footer .content .block ul.soc_links { overflow: hidden; margin-bottom: 20px; }
-#level_footer .content .block ul.soc_links li { float: left; margin-right: 15px; padding-bottom: 20px; transform: scale(1,1); transition: transform 550ms;  width: 30px; height: 30px; box-shadow: 0 0 6px 0 rgba(0,54,79,.35); background: #eaff00; border-radius: 30px; text-align: center; }
+#level_footer .content .block ul.soc_links li { float: left; margin-right: 15px; padding-bottom: 20px; transform: scale(1,1); transition: transform 550ms;  width: 30px; height: 30px; box-shadow: 0 0 6px 0 rgba(0,54,79,.35); background: #ffde00; border-radius: 30px; text-align: center; }
 #level_footer .content .block ul.soc_links li i { color: #2e3035; }
 #level_footer .content .block ul.soc_links li:hover { transform: scale(1,1); transition: transform 550ms; width: 30px; box-shadow: 0 0 6px 0 rgba(0,54,79,.35); }
 #level_footer .content .block ul.soc_links li a { display: grid; align-items: center; height: 30px; width: 30px; }
@@ -83,12 +83,12 @@
 #level_footer .content .block .a-link { display: grid; grid-template-columns: auto 1fr; align-items: center; grid-column-gap: 7px; }
 #level_footer .text-copyright { text-align: right;  color: #fff; position: relative; }
 #level_footer .text-copyright::before { content: ''; position: absolute; width: 100%; height: 1px; top: 50%; right: calc(-100% - 14px); background: #ffffff17;  }
-#level_footer .text-copyright span.blue { color: #07a5ff; }
+#level_footer .text-copyright span.blue { color: #0048ff; }
 #level_footer .content .block a { color: #fff; }
-#level_footer .content .block .a-link.phone a { color: #eaff00; }
+#level_footer .content .block .a-link.phone a { color: #ffde00; }
 #level_footer .content .block .a-link.mail { margin-bottom: 20px; }
-#level_footer .content .block .a-link.location i { color: #eaff00; }
-#level_footer .content .block i { color: #eaff00; }
+#level_footer .content .block .a-link.location i { color: #ffde00; }
+#level_footer .content .block i { color: #ffde00; }
 #level_footer .content .block ul.footer-links li { line-height: 32px; }
 #level_footer .content .block .subscribe { padding: 18px 0 0 0; font-weight: 500; }
 #level_footer .content .block .subscribe span:hover { cursor: pointer; text-decoration: underline; }
@@ -117,8 +117,8 @@
     #level_footer .content > .block:nth-child(3):before { display: block; }
     #level_footer .content .block h2.widget-title { margin-bottom: 0; }
     #level_footer .content .block:not(:first-child) aside h2.widget-title:before { position: absolute; content: "\f107"; font-family: FontAwesome; right: 0; top: 2px; font-weight: normal; transition: 0.3s all; }
-    #level_footer .content .block:not(:first-child) aside h2.widget-title.active:before { content: "\f106"; color: #eaff00; }
-    #level_footer .content .block h2.widget-title.active { color: #eaff00; }
+    #level_footer .content .block:not(:first-child) aside h2.widget-title.active:before { content: "\f106"; color: #ffde00; }
+    #level_footer .content .block h2.widget-title.active { color: #ffde00; }
     #level_footer .content .block { padding-right: 0; }
     #level_footer .content .block:not(:first-child)  h2.widget-title span { position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; }
     #level_footer #custom_html-2 { padding: 0; }

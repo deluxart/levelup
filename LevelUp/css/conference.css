@@ -96,16 +96,16 @@
 .it-conference #conf_program .content .cont_block_spiker { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 20px; text-align: right; }
 .it-conference #conf_program .content .cont_block_spiker .timeline__date { text-align: left; }
 .it-conference #conf_program .content .conf_tabs { display: grid; grid-template-columns: 1fr 1fr; /*border-radius: 50px;*/ }
-.it-conference #conf_program .content .conf_tabs > div { background: #202329; /*color: #00baff;*/ color: #eaff00; padding: 15px 40px; position: relative; }
+.it-conference #conf_program .content .conf_tabs > div { background: #202329; /*color: #00baff;*/ color: #ffde00; padding: 15px 40px; position: relative; }
 .it-conference #conf_program .content .conf_tabs > div.first_tab { text-align: right; border-radius: 50px 0 0 50px; }
-.it-conference #conf_program .content .conf_tabs > div.first_tab.active:before { content: ''; position: absolute; right: -1px; width: 1px; height: 100%; top: 0; background: #eaff00; z-index: 1; }
+.it-conference #conf_program .content .conf_tabs > div.first_tab.active:before { content: ''; position: absolute; right: -1px; width: 1px; height: 100%; top: 0; background: #ffde00; z-index: 1; }
 .it-conference #conf_program .content .conf_tabs > div.two_tab { text-align: left; border-radius: 0 50px 50px 0; color: #00baff; }
 .it-conference #conf_program .content .conf_tabs > div.two_tab.active { color: #fff; background: #00baff; box-shadow: 0px 46px 95.06px 2.94px rgba(0, 175, 255, 0.44); }
 .it-conference #conf_program .content .conf_tabs > div.two_tab.active:before { content: ''; position: absolute; left: -1px; width: 1px; height: 100%; top: 0; background: #00baff; z-index: 1; }
-.it-conference #conf_program .content .conf_tabs > div.active { color: #222327; background: #eaff00; box-shadow: 0px 46px 95.06px 2.94px rgba(234, 255, 0, 0.44); }
+.it-conference #conf_program .content .conf_tabs > div.active { color: #222327; background: #ffde00; box-shadow: 0px 46px 95.06px 2.94px rgba(234, 255, 0, 0.44); }
 .it-conference #conf_program .content .conf_tabs h3 { margin: 0; font-size: 28px; }
 .it-conference #conf_program .content h4 { font-size: 20px; }
-.it-conference #conf_program .content .timeline__container::after { position: absolute; content: ''; bottom: -5px; width: 10px; height: 10px; background: #eaff00; border-radius: 30px; left: calc(50% - 5px); }
+.it-conference #conf_program .content .timeline__container::after { position: absolute; content: ''; bottom: -5px; width: 10px; height: 10px; background: #ffde00; border-radius: 30px; left: calc(50% - 5px); }
 .it-conference #conf_program .content .two_tab_content:before { background: #00baff !important; }
 .it-conference #conf_program .content .two_tab_content .timeline__content, .it-conference #conf_program .content .two_tab_content .timeline__dot { border-color: #00baff !important; }
 .it-conference #conf_program .content .two_tab_content .timeline__content::before { border-right-color: #00baff; border-left-color: transparent; }
@@ -142,7 +142,7 @@
 .it-conference #conf_feedback .content > .text ul { display: grid; grid-row-gap: 60px; }
 .it-conference #conf_feedback .content > .text ul.feed_list > li { display: grid; grid-template-columns: 90px 1fr; grid-column-gap: 30px; align-items: center; position: relative; }
 .it-conference #conf_feedback .content > .text ul.feed_list > li:before { position: absolute; bottom: -30px; width: 64px; left: 50%; transform: translateX(-50%); content: ''; background: #fff; height: 1px; }
-.it-conference #conf_feedback .content > .text ul.feed_list > li h4 { font-size: 22px; font-weight: 700; color: #eaff00; }
+.it-conference #conf_feedback .content > .text ul.feed_list > li h4 { font-size: 22px; font-weight: 700; color: #ffde00; }
 .it-conference #conf_feedback .content > .text ul.feed_list > li span { display: block; }
 .it-conference #conf_feedback .content > .text ul.feed_list > li p { color: #fff; font-size: 22px; }
 .it-conference #conf_feedback .content > .text ul.feed_list > li:last-child:before { display: none; }

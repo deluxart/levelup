@@ -22,7 +22,7 @@ span.wpcf7-not-valid-tip { position: absolute; margin: 0; top: 0; right: 20px; }
 
 /* For Spoiler */
 .spoiler > .cont { position: relative; }
-.program-block .spoiler .head.active{color:#eaff00}
+.program-block .spoiler .head.active{color:#ffde00}
 
   .teacher-lvl { display: grid; grid-template-columns: 250px 1fr; align-items: center; grid-gap: 30px; }
   .teacher-lvl .photo { background: url(https://levelup.ua/wp-content/uploads/2019/10/prepod_frame.png); background-size: cover; background-position: center center; background-repeat: no-repeat; height: 250px;}
@@ -40,7 +40,7 @@ span.wpcf7-not-valid-tip { position: absolute; margin: 0; top: 0; right: 20px; }
 
 
 .add-timer .eTimer { position: absolute !important; bottom: 40px !important; right: 40px !important; border-radius: 5px !important; background: #00000082 !important; box-shadow: none !important; }
-.add-timer .eTimer a { color: #eaff00; text-decoration: none; }
+.add-timer .eTimer a { color: #ffde00; text-decoration: none; }
 .add-timer .eTimer .etUnit .etSign { font-size: 11px !important; color: #fff; }
 .eTimer .etUnit .etNumber { box-shadow: none !important;  }
 

@@ -63,7 +63,7 @@ iframe { max-width: 100%; }
 a.buttonLight, a.sg-show-popup { text-decoration: none; }
 .buttonLight:after, .sg-show-popup:after, .bg-blue .sg-show-popup:after, .buttonLight.blue:after{ background-image:url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg"); background-repeat:no-repeat; background-position:center center;
   content:""; width:18px; height:18px; position:absolute; transition: 0.2s; transform: translateZ(0); transition-duration: 0.1s;transition-property: transform; transition-timing-function: ease-out; margin-top: 8px; margin-left: 10px; top: 8px; right: 30px; }
-a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit .buttonLight:hover{ background: #eaff00; box-shadow: 0 10px 20px 0 rgba(0,67,91,.15); color:#4c4c4c; border: 2px solid #eaff00 !important; }
+a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit .buttonLight:hover{ background: #ffde00; box-shadow: 0 10px 20px 0 rgba(0,67,91,.15); color:#4c4c4c; border: 2px solid #ffde00 !important; }
 .course_details a.sg-show-popup:hover { color: #000; }
 .buttonLight:focus, .sg-show-popup:focus{  outline: none !important; }
 .buttonLight.black, .bg-blue .sg-show-popup{ color: #000; }
@@ -114,8 +114,8 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 
 
 /*Блок "Обратите внимание"*/
-.offer_attention { color:#eaff00; }
-.offer_attention p a { color:#eaff00; }
+.offer_attention { color:#ffde00; }
+.offer_attention p a { color:#ffde00; }
 .offer_attention p { font-size: 20px; color: #fff; }
 .offer_attention .buttonLight { margin-top: 25px; }
 .offer_attention .buttonLight, .offer_attention .sg-show-popup { margin-top: 25px; }
@@ -158,7 +158,7 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 .card { background-color: #fff0; border: 0; }
 .card .btn { padding-left: 0; padding-right: 0; width: 100%; text-align: left; position: relative; }
 .card .btn:after { content: "\f056"; font-family: FontAwesome; right: 15px; position: absolute; color: #f92d88; top: 18px; }
-.card .btn.collapsed:after { content: "\f055"; font-family: FontAwesome; right: 15px; position: absolute; color: #eaff00; top: 18px; }
+.card .btn.collapsed:after { content: "\f055"; font-family: FontAwesome; right: 15px; position: absolute; color: #ffde00; top: 18px; }
 .card .btn-link {font-weight: 400; color: #fff; background: #fff3; border-radius: 0; padding: 18px 40px 18px 18px; }
 .card .btn-link.collapsed { background: transparent; }
 .card .btn-link:hover { text-decoration: none; }
@@ -263,7 +263,7 @@ p.submit_cf { margin-bottom: 0;}
 
 /* Блок "Система лояльности" */
 .loyality { color: #fff; text-align: center; }
-.loyality h2 span { color: #eaff00; text-align: center;  }
+.loyality h2 span { color: #ffde00; text-align: center;  }
 .loyalty_system a:hover { color: #4c4c4c; }
 @media (min-width: 992px) {
 .loyalty_system { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 3fr; align-items: center; text-align: center; width: 100%; grid-row-gap: 30px;}
@@ -550,7 +550,7 @@ textarea { padding: 10px; max-width: 100%; }
 .form_input_enroll_on_course span.wpcf7-not-valid-tip {position: absolute;left: 111px;top: 0px;font-size: 12px !important;margin:0;color: #fff; }
 
 .slideBox form.wpcf7-form { position: relative; }
-.slideBox .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {display: block;position: absolute; bottom: 15px;width: calc(100% - 36px);left: 19px;height: 56px;top: -1px;background: #eaff00;border-radius: 50px;border: 1px solid #eaff00;line-height: 50px;color: #4c4c4c;margin:0;}
+.slideBox .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {display: block;position: absolute; bottom: 15px;width: calc(100% - 36px);left: 19px;height: 56px;top: -1px;background: #ffde00;border-radius: 50px;border: 1px solid #ffde00;line-height: 50px;color: #4c4c4c;margin:0;}
 .paidPlace {font-weight:600;}
 .pickImagesBOX {background: url(https://levelup.ua/wp-content/uploads/2018/11/angle_final.jpg) top center no-repeat;}
 @media (min-width:768px) {.slideInfoTopLeft {margin-left: -20px;}.slideBox {right:15px}}  .SliderMainbox {padding-bottom: 8px;}
@@ -806,10 +806,10 @@ ul.pp-posts { margin-bottom: 20px; }
 .consultation .form_input_cf, .sg-popup-content .form_input_cf { position: relative; }
 
 .consultation .form_input_cf:after{ width:100%; background: #fff6; height: 1px; position: absolute; content: ''; transition: 0.7s all; bottom: 0; left: 0; width: 100%; }
-.consultation .form_input_cf:before{ width:100%; background: #eaff00; height: 2px; position: absolute; content: ''; transition: 0.7s all; bottom: 0; right: 0; width: 0%; }
+.consultation .form_input_cf:before{ width:100%; background: #ffde00; height: 2px; position: absolute; content: ''; transition: 0.7s all; bottom: 0; right: 0; width: 0%; }
 
 .consultation div.form_input_cf.input-effect:after { width: 0%;  right: 0; }
-.consultation div.form_input_cf.input-effect:before { background: #eaff00; left: 0; width: 100%; height: 2px; }
+.consultation div.form_input_cf.input-effect:before { background: #ffde00; left: 0; width: 100%; height: 2px; }
 
 .sg-popup-content .form_input_cf:after{ width:100%; background: #d6d6d6; height: 1px; position: absolute; content: ''; transition: 0.7s all; bottom: 0; left: 0; width: 100%; }
 .sg-popup-content .form_input_cf:before{ width:100%; background: #ff1569; height: 2px; position: absolute; content: ''; transition: 0.7s all; bottom: 0; right: 0; width: 0%; }
@@ -869,7 +869,7 @@ ul.pp-posts { margin-bottom: 20px; }
 .dev-form .consultation .form_input_cf.input-effect .icon-top.phone { background-position: 0 -24px; background-size: 24px; }
 .dev-form .consultation .form_input_cf.input-effect .icon-top.mail { background-position: 0 -24px; background-size: 24px; }
 .dev-form .consultation .form_input_cf::after {background: #ffffff4d;}
-.dev-form div.wpcf7 .ajax-loader { background-image: url('../img/loading_gray.svg'); width: 142px; height: 46px; background-size: 36px 36px; position: absolute; left: calc(50% - 71px); top: 22px; background-color: #eaff00;
+.dev-form div.wpcf7 .ajax-loader { background-image: url('../img/loading_gray.svg'); width: 142px; height: 46px; background-size: 36px 36px; position: absolute; left: calc(50% - 71px); top: 22px; background-color: #ffde00;
 background-repeat: no-repeat; background-position: center; border-radius: 50px; margin: 0; }
 .dev-form .ajax-loader { position: absolute; top: 12px; right: 15px; }
 
@@ -1034,7 +1034,7 @@ padding: 12px 22px;top: 18px; width: 100%; }
 .sale_friday div + div { padding-left: 20px; line-height: 20px; }
 
 .sale_discont { float: left; color: #fff; font-size: 21px; color: #fff; text-align: left;font-weight: 100;padding-left: 10px;padding-left: 40px;}
-.sale_discont .discont {line-height: normal; font-size: 26px; color: #eaff00; font-weight: 700; }
+.sale_discont .discont {line-height: normal; font-size: 26px; color: #ffde00; font-weight: 700; }
 
 .sale_btn {float: right;padding-top: 5px; }
 .sale_btn p {margin-bottom: 0;}
@@ -1123,7 +1123,7 @@ padding: 12px 22px;top: 18px; width: 100%; }
 
 .news-reg .btn { font-weight:normal;border-radius:5px;border-width:2px;border-color:#ffffff;border-style:solid;background: #ffffff;color: #000000; margin-top: 5px; }
 .news-reg .btn:hover { color: #fff; background: #0b97d8; border-color: #0b97d8; }
-.news-reg .col-lg-8 span, .news-reg a { color: #eaff00; }
+.news-reg .col-lg-8 span, .news-reg a { color: #ffde00; }
 
 .news-reg a.sg-show-popup { color: #fff; text-decoration: none; }
 .news-reg a.sg-show-popup:hover { color: #4c4c4c !important; text-decoration: none; }
@@ -1215,15 +1215,15 @@ p.news_quote { border-left: 5px solid #0048ff; padding: 0 20px; margin-bottom: 2
 
 
 .course_program.bg-blue { background: linear-gradient(to top, #6c00ff, #2008ff); }
-.course_program .card:before {content: "•";width: 26px;height: 26px;position: absolute;color: #eaff00;text-align: center;top: 17px;left: 12px;font-size: 30px;line-height: 20px;z-index: 9;border-radius: 30px;}
-.course_program .card:after {content: '';height: calc(100% - 26px);width: 1px;position: absolute;background: #eaff00;top: 42px;left: 25px;z-index: 9;}
-.course_program .card:last-child:after {content: '';height: 19px;width: 1px;position: absolute;background: #eaff00;top: -19px;left: 25px;z-index: 9; }
+.course_program .card:before {content: "•";width: 26px;height: 26px;position: absolute;color: #ffde00;text-align: center;top: 17px;left: 12px;font-size: 30px;line-height: 20px;z-index: 9;border-radius: 30px;}
+.course_program .card:after {content: '';height: calc(100% - 26px);width: 1px;position: absolute;background: #ffde00;top: 42px;left: 25px;z-index: 9;}
+.course_program .card:last-child:after {content: '';height: 19px;width: 1px;position: absolute;background: #ffde00;top: -19px;left: 25px;z-index: 9; }
 
 .course_program .card-header, .collapse.show { position: relative; }
 .course_program .card-header:after, .collapse.show:after { position: absolute; bottom: 0; content: ''; width: 70%; border: 0; height: 1px;
 background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0)); transform: translateX(-50%); left: 50%; }
 .course_program .btn.btn-link.collapsed { color: #fff; }
-.course_program .btn.btn-link { color: #eaff00; }
+.course_program .btn.btn-link { color: #ffde00; }
 
 #about, .imm-module, #benefit, #course-result, #course-program, #course-prepod, #course_details, #loyality, #reviews { position: relative; }
 

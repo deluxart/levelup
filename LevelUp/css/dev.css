@@ -40,7 +40,7 @@
 #dev-slider > .container .content > .text { align-self: end; position: relative; bottom: -27px; text-align: center; }
 #dev-slider > .container .content > .text h1 { font-size: 48px; font-weight: 600; padding-bottom: 55px; }
 #dev-slider > .container .content > .text > p { font-weight: 300; line-height: normal; padding-bottom: 110px; }
-#dev-slider > .container .content > .text a.sg-show-popup { background: #eaff00; box-shadow: 26px 15px 70px 0px rgba(56, 56, 56, 0.45); border-color: #eaff00; color: #4c4c4c; }
+#dev-slider > .container .content > .text a.sg-show-popup { background: #ffde00; box-shadow: 26px 15px 70px 0px rgba(56, 56, 56, 0.45); border-color: #ffde00; color: #4c4c4c; }
 #dev-slider > .container .content > .text a.sg-show-popup:hover { color: #4c4c4c; }
 #dev-slider > .container .content > .text a.sg-show-popup:after { background-image: url("/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg"); }
 #dev-slider > .container .content > div:nth-child(2) { height: 100%; position: relative; }
@@ -61,7 +61,7 @@
 #dev-scheme .pattenr-bg:before { content: ''; position: absolute; background: url(/wp-content/uploads/2019/04/circle_lines.svg) no-repeat; background-size: 330px; height: 100%; width: 100%; background-position: -15% 30%; opacity: 0.2; top: 0; left: 0; }
 #dev-scheme .pattenr-bg:after { content: ''; position: absolute; background: url(/wp-content/uploads/2019/04/circle_lines.svg) no-repeat; background-size: 330px; height: 100%; width: 100%; background-position: 115% 30%; opacity: 0.2; top: 0; left: 0; }
 #dev-scheme .invite h2 { text-align: center; position: relative; color: #fff; }
-#dev-scheme .invite h2 span { color: #eaff00; }
+#dev-scheme .invite h2 span { color: #ffde00; }
 #dev-scheme .invite .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; grid-column-gap: 40px; margin-top: 30px; }
 #dev-scheme .invite .content ul { display: grid; grid-row-gap: 30px; margin-bottom: 90px; }
 #dev-scheme .invite .content ul li { display: grid; grid-template-columns: auto 1fr; grid-column-gap: 20px; }
@@ -92,11 +92,11 @@
 
 #dev-mentors { background: linear-gradient(to bottom, #0e6ed7, #00abff); color: #fff; padding-top: 40px; position: relative; }
 #dev-mentors:before { content: ''; height: 100%; width: 100%; position: absolute; top: 0; left: 0; background: url(/wp-content/uploads/2019/04/piece_druchki.png); background-size: contain; background-position: center; background-repeat: repeat-y; }
-#dev-mentors a.sg-show-popup.sg-show-popup { background: #eaff00; box-shadow: 26px 15px 70px 0px rgba(56, 56, 56, 0.45); border-color: #eaff00; color: #4c4c4c; }
+#dev-mentors a.sg-show-popup.sg-show-popup { background: #ffde00; box-shadow: 26px 15px 70px 0px rgba(56, 56, 56, 0.45); border-color: #ffde00; color: #4c4c4c; }
 #dev-mentors a.sg-show-popup.sg-show-popup:hover { color: #4c4c4c; background: #fbff11; }
 #dev-mentors a.sg-show-popup.sg-show-popup:after { background-image: url("/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg"); }
 #dev-mentors h2 { color: #fff; text-align: center; }
-#dev-mentors h2 span { color: #eaff00; }
+#dev-mentors h2 span { color: #ffde00; }
 #dev-mentors h2.mtitle { margin-top: 70px; }
 #dev-mentors p.description { margin-top: 10px; text-align: center; display: block; font-weight: 200; }
 #dev-mentors p.description:before { display: none; }
@@ -106,7 +106,7 @@
 #dev-mentors .content .mentor img { max-width: 90px; }
 #dev-mentors .content .line { position: relative; }
 #dev-mentors .content .line:before { position: absolute; content: ''; width: 100%; height: 1px; background: #fff; top: 45px; left: 0; }
-#dev-mentors .content .line:after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #eaff00; top: 41px; border-radius: 30px; }
+#dev-mentors .content .line:after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #ffde00; top: 41px; border-radius: 30px; }
 #dev-mentors .content .mentor-grid { position: relative; padding-bottom: 20px; }
 #dev-mentors .content .mentor-grid .mentor { display: inline-block; }
 #dev-mentors .content .mentor-grid:before { position: absolute; content: ''; width: 1px; height: 100%; background: #fff; top: 100%; left: 50%; }
@@ -114,9 +114,9 @@
 #dev-mentors .content .mentors-groups { display: grid; grid-template-columns: repeat(6, 1fr); margin-bottom: 50px; }
 #dev-mentors .content .mentors-groups > .users { position: relative; }
 #dev-mentors .content .mentors-groups > .users:before { position: absolute; content: ''; width: 100%; left: 51%; height: 1px; background: #fff; }
-#dev-mentors .content .mentors-groups > .users:nth-child(2):after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #eaff00; top: -3px; border-radius: 30px; }
+#dev-mentors .content .mentors-groups > .users:nth-child(2):after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #ffde00; top: -3px; border-radius: 30px; }
 #dev-mentors .content .mentors-groups > .users:last-child:before { left: 0; width: 50%; right: 50%; }
-#dev-mentors .content .mentors-groups > .users:last-child:after { position: absolute; content: ''; width: 9px; height: 9px; right: calc(50% - 4px); background: #eaff00; top: -3px; border-radius: 30px; }
+#dev-mentors .content .mentors-groups > .users:last-child:after { position: absolute; content: ''; width: 9px; height: 9px; right: calc(50% - 4px); background: #ffde00; top: -3px; border-radius: 30px; }
 #dev-mentors .content .mentors-groups > .users .mentor { position: relative; padding-top: 34px; }
 #dev-mentors .content .mentors-groups > .users .mentor img { max-width: 72px; }
 #dev-mentors .content .mentors-groups > .users .mentor:before { content: ''; width: 1px; height: 23px; background: #fff; position: absolute; top: 0; left: 50%; }
@@ -146,7 +146,7 @@
 #dev-mentors .content .mentor-grid-6 .sub-mentros .mentor:before { display: none; }
 #dev-mentors .content .mentor-grid-6 .sub-mentros .mentor strong { display: block; }
 #dev-mentors .content .mentor-grid-6 .sub-mentros > div.arrows img { margin-top: 21px; width: 21px; }
-#dev-mentors .content .mentors-title { height: 34px; display: inline-block; background: #eaff00; border-radius: 30px; font-size: 18px; color: #000; margin: 0 auto; line-height: 34px; padding: 0 27px; margin-top: -17px; position: absolute; transform: translateX(-50%); z-index: 1; }
+#dev-mentors .content .mentors-title { height: 34px; display: inline-block; background: #ffde00; border-radius: 30px; font-size: 18px; color: #000; margin: 0 auto; line-height: 34px; padding: 0 27px; margin-top: -17px; position: absolute; transform: translateX(-50%); z-index: 1; }
 #dev-mentors .content .mentors-title.stage-one { display: none; }
 #dev-mentors .content .mentors-title.stage-two { left: 50%; }
 #dev-mentors .content .mentors-title.stage-three { display: none; }
@@ -203,7 +203,7 @@
 #contacts .dev-form ul.pricing { display: grid; grid-row-gap: 20px; }
 #contacts .dev-form ul.pricing li { display: grid; grid-template-columns: auto 1fr; grid-gap: 30px; align-items: center; text-align: left; }
 #contacts .dev-form ul.pricing li svg { width: 100%; max-width: 70px; }
-#contacts .dev-form ul.pricing li h4 { font-size: 24px; color: #eaff00; }
+#contacts .dev-form ul.pricing li h4 { font-size: 24px; color: #ffde00; }
 #contacts .dev-form h3 { grid-column: 1/3; font-weight: 600; line-height: normal; margin-bottom: 40px; }
 #contacts .dev-form h3 span { display: block; }
 #contacts .dev-form .consultation { display: block; }
@@ -286,8 +286,8 @@
   .wrap-lines .text { margin-top: 20px; }
   /*Менторы*/
   #dev-mentors .content .mentors-groups { grid-template-columns: repeat(3, 1fr); grid-row-gap: 40px; position: relative; }
-  #dev-mentors .content .mentors-groups > .users:nth-child(5)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #eaff00; top: -3px; border-radius: 30px; }
-  #dev-mentors .content .mentors-groups > .users:nth-child(6)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #eaff00; top: -3px; border-radius: 30px; }
+  #dev-mentors .content .mentors-groups > .users:nth-child(5)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #ffde00; top: -3px; border-radius: 30px; }
+  #dev-mentors .content .mentors-groups > .users:nth-child(6)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #ffde00; top: -3px; border-radius: 30px; }
   #dev-mentors .content .mentors-title.stage-three { display: block; position: absolute; top: calc(50% - -20px); left: 50%; }
   #dev-mentors .content .mentors-groups > div.users:nth-child(5):before { display: none; }
   #contacts .content { padding-bottom: 135px; } }
@@ -346,11 +346,11 @@
   #result_course { padding-bottom: 50px; }
   /*Менторы*/
   #dev-mentors .content .mentors-groups { grid-template-columns: repeat(2, 1fr); grid-row-gap: 40px; position: relative; }
-  #dev-mentors .content .mentors-groups > .users:nth-child(5)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #eaff00; top: -3px; border-radius: 30px; }
-  #dev-mentors .content .mentors-groups > .users:nth-child(6)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #eaff00; top: -3px; border-radius: 30px; }
-  #dev-mentors .content .mentors-groups > .users:nth-child(3)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #eaff00; top: -3px; border-radius: 30px; }
-  #dev-mentors .content .mentors-groups > .users:nth-child(4)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #eaff00; top: -3px; border-radius: 30px; }
-  #dev-mentors .content .mentors-groups > .users:nth-child(8)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #eaff00; top: -3px; border-radius: 30px; }
+  #dev-mentors .content .mentors-groups > .users:nth-child(5)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #ffde00; top: -3px; border-radius: 30px; }
+  #dev-mentors .content .mentors-groups > .users:nth-child(6)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #ffde00; top: -3px; border-radius: 30px; }
+  #dev-mentors .content .mentors-groups > .users:nth-child(3)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #ffde00; top: -3px; border-radius: 30px; }
+  #dev-mentors .content .mentors-groups > .users:nth-child(4)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #ffde00; top: -3px; border-radius: 30px; }
+  #dev-mentors .content .mentors-groups > .users:nth-child(8)::after { position: absolute; content: ''; width: 9px; height: 9px; left: calc(50% - 4px); background: #ffde00; top: -3px; border-radius: 30px; }
   #dev-mentors .content .mentors-title.stage-two { display: block; position: absolute; top: calc(33% - -16px); left: 50%; }
   #dev-mentors .content .mentors-title.stage-three { display: block; position: absolute; top: calc(66% - -33px); left: 50%; }
   #dev-mentors .content .mentors-groups > div.users:nth-child(5):before { display: block; }

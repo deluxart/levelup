@@ -324,7 +324,7 @@ background-size: cover !important;
 }
 .pm_slide .text_course_1 { font-size: 28px; }
 .pm_slide .text_course_2 { color: #fff !important; font-size: 53px; margin-bottom: 30px;}
-.pm_slide .text_course_3 { color: #0048ff; background: #eaff00; display: inline-block; font-size: 29px; padding: 11px; text-shadow: none; white-space: nowrap;;}
+.pm_slide .text_course_3 { color: #0048ff; background: #ffde00; display: inline-block; font-size: 29px; padding: 11px; text-shadow: none; white-space: nowrap;;}
 
 }
 
@@ -406,7 +406,7 @@ background-size: cover !important;
 
 .text_course_2{
      font-family: Montserrat;
-      color: #eaff00!important;
+      color: #ffde00!important;
 	display: block;
           text-shadow: 1px 1px 3px rgba(63, 110, 176, 0.5);
     transition: none;
@@ -485,7 +485,7 @@ justify-content: center;
   letter-spacing: 0px;
   font-weight: 400;
   font-size: 58px;
-  color: #eaff00 !important;
+  color: #ffde00 !important;
   font-weight: 400 !important;
   font-size: 58px;
   font-family: Montserrat !important;
@@ -511,7 +511,7 @@ justify-content: center;
 /*VIDEOCONTENT*/
 .videocontent-title-1 { font-size: 45px; line-height: 60px; font-weight: 100; color: rgb(255, 255, 255); font-family: Montserrat; }
 .videocontent-title-2 { font-size: 50px; line-height: normal; font-weight: 200; color: #fff; font-family: Montserrat; display: block; }
-.videocontent-title-3 { font-size: 51px; line-height: normal; font-weight: 600; color: #eaff00; font-family: Montserrat; }
+.videocontent-title-3 { font-size: 51px; line-height: normal; font-weight: 600; color: #ffde00; font-family: Montserrat; }
 .videocontent {background-image: url(https://levelup.ua/wp-content/uploads/2018/12/lights.jpg)!important;}
 /*КОНЕЦ VIDEOCONTENT*/
 

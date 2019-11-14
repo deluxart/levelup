@@ -2,7 +2,7 @@
 .hr-page #dev-slider { margin-top: 0; background: linear-gradient(to bottom, #2fc7ff, #ace7fd); }
 .hr-page #dev-slider > .container .content { grid-column-gap: 0px; grid-template-columns: 1fr 1fr; }
 .hr-page #dev-slider > .container .content > .text { text-align: left; align-self: center; bottom: auto; }
-.hr-page #dev-slider > .container .content > .text h1 { color: #eaff00; padding-bottom: 35px; font-size: 46px; }
+.hr-page #dev-slider > .container .content > .text h1 { color: #ffde00; padding-bottom: 35px; font-size: 46px; }
 .hr-page #dev-slider > .container .content > .text h5 { font-size: 24px; }
 .hr-page #dev-slider > .container .content > .text > p { padding-bottom: 40px; }
 .hr-page #dev-slider > .container .content > .text a.sg-show-popup { margin-bottom: 19px; }
@@ -43,7 +43,7 @@
 .hr-page .reg-offer.hr-addons h2 { color: #fff; }
 .hr-page .reg-offer.hr-addons .content { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 30px; color: #fff; top: 0; }
 .hr-page .reg-offer.hr-addons .content > div { display: grid; grid-template-columns: 50px 1fr; grid-column-gap: 20px; }
-.hr-page .reg-offer.hr-addons .content > div i { font-size: 38px;  color: #eaff00; }
+.hr-page .reg-offer.hr-addons .content > div i { font-size: 38px;  color: #ffde00; }
 .hr-page .reg-offer.hr-addons .content > div span { font-weight: 600; font-size: 21px; }
 
 

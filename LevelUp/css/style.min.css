@@ -1,5 +1,5 @@
 .bg-kirpichik { background: #2e3035; transition: 0.7s all;}
-.bg-blue.course h2 span { color: #eaff00; }
+.bg-blue.course h2 span { color: #ffde00; }
 
 .module-icon-1::after {background: url(https://levelup.ua/wp-content/uploads/2019/02/module.png) !important ;}
 .module-icon-2::after {background: url(https://levelup.ua/wp-content/uploads/2019/02/module-2.png) !important;}
@@ -125,7 +125,7 @@ background-size: cover !important;}
 .Slider_courses_block{min-height:90vh !important;}}
 
   .text_course_1 {text-shadow: 1px 1px 3px rgba(63, 110, 176, 0.5);transition: none;line-height: 60px;border-width: 0px;display: block;margin: 0px;padding: 0px;letter-spacing: 0px;font-weight: 200;font-size: 45px;color: rgb(255, 255, 255);font-family: Montserrat;text-transform: uppercase;}
-  .text_course_2 {font-family: Montserrat;color: #eaff00 !important;display: block;text-shadow: 1px 1px 3px rgba(63, 110, 176, 0.5);transition: none;line-height: 60px;border-width: 0px;margin: 0px;padding: 0px;letter-spacing: 1px;font-weight: 700;font-size: 40px;text-transform: uppercase;}
+  .text_course_2 {font-family: Montserrat;color: #ffde00 !important;display: block;text-shadow: 1px 1px 3px rgba(63, 110, 176, 0.5);transition: none;line-height: 60px;border-width: 0px;margin: 0px;padding: 0px;letter-spacing: 1px;font-weight: 700;font-size: 40px;text-transform: uppercase;}
   .text_course_3{text-align: left;text-shadow: 1px 1px 3px rgba(63, 110, 176, 0.5);color: #fff;font-family: Montserrat;transition: none;line-height: 30px;border-width: 0px;margin: 0px;padding: 0px;letter-spacing: 0px;font-weight: 300;font-size: 22px;}
   .start_slide {text-shadow: 1px 1px 3px rgba(63, 110, 176, 0.5);line-height: 30px;border-width: 0px;margin: 0px;letter-spacing: 0px;font-size: 28px;color: rgb(255, 255, 255);font-family: Montserrat;padding: 40px 0 60px 0;}
 
@@ -142,16 +142,16 @@ background-size: cover !important;}
 
   .SliderMainbox {padding-bottom: 8px;}
   .p_Courses {display:block}
-  #clockdiv span.days, #clockdiv span.hours, #clockdiv span.minutes, #clockdiv span.seconds {font-size: 24px; color: #eaff00}
+  #clockdiv span.days, #clockdiv span.hours, #clockdiv span.minutes, #clockdiv span.seconds {font-size: 24px; color: #ffde00}
   .checked {position:relative;}
-  #clockdiv span {color: #eaff00;font-size: 24px;}
+  #clockdiv span {color: #ffde00;font-size: 24px;}
   #enroll_on_course input.wpcf7-form-control.wpcf7-submit, #enroll_on_course input.wpcf7-form-control.wpcf7-submit:focus, #enroll_on_course input.wpcf7-form-control.wpcf7-submit:hover {outline: none !important;}
 
 
    .name_Courses::first-letter {text-transform: lowercase;
   }
-.borderTwo {display: inherit;padding: 20px;background: #fff5;border-radius: 10px;margin: 0;height: auto;}.borderOne {display: inline-block;padding: 20px;background:#fff3;border-radius:10px;}.BlueROW {border-radius: 8px 8px 0 0;background: #0048ff;overflow: hidden;}.slideTitle {padding: 20px 20px 0 20px;}.p_Courses {font-weight: 400;font-size: 20px;color: #fff;margin-bottom: 0;}.name_Courses {font-weight: 400;font-size: 30px;color: #eaff00;margin-bottom: 0;line-height: 30px;display: block;padding-bottom: 8px;}.p_courses, .p_date_title {line-height: 20px;font-size: 12px !important;color: #fff;margin-bottom: 0;padding-top: 5px;}.slideInfoTopLeft {width: 50%;position: relative;display: block;float: left;text-align: center;}.slideInfoTopRight {width: 50%;position: relative;display: block;float: right;text-align: center;}.ShowShedulle {overflow: hidden;background: #c5ecfb}.name_courses {font-size: 24px !important;color: #eaff00;margin-bottom: 0;padding-bottom: 10px;}.shedulle_text {margin-bottom: 0;text-align:  center;color: #575656;padding: 10px 0;}/*.name_Courses {border-bottom: 1px solid #eaff00;}*/.totalTitle {margin-bottom: 0;color: #ec008c;font-size: 12px;text-align: center;line-height: 20px;padding-top: 30px;padding-bottom: 10px;}/* .images_column {column-count: 6;column-gap: 0;} */.pickImagesBOX {background: #fff}#clockdiv div {display: inline-block;}
-#clockdiv span.smalltext {font-size: 14px; color: #eaff00}
+.borderTwo {display: inherit;padding: 20px;background: #fff5;border-radius: 10px;margin: 0;height: auto;}.borderOne {display: inline-block;padding: 20px;background:#fff3;border-radius:10px;}.BlueROW {border-radius: 8px 8px 0 0;background: #0048ff;overflow: hidden;}.slideTitle {padding: 20px 20px 0 20px;}.p_Courses {font-weight: 400;font-size: 20px;color: #fff;margin-bottom: 0;}.name_Courses {font-weight: 400;font-size: 30px;color: #ffde00;margin-bottom: 0;line-height: 30px;display: block;padding-bottom: 8px;}.p_courses, .p_date_title {line-height: 20px;font-size: 12px !important;color: #fff;margin-bottom: 0;padding-top: 5px;}.slideInfoTopLeft {width: 50%;position: relative;display: block;float: left;text-align: center;}.slideInfoTopRight {width: 50%;position: relative;display: block;float: right;text-align: center;}.ShowShedulle {overflow: hidden;background: #c5ecfb}.name_courses {font-size: 24px !important;color: #ffde00;margin-bottom: 0;padding-bottom: 10px;}.shedulle_text {margin-bottom: 0;text-align:  center;color: #575656;padding: 10px 0;}/*.name_Courses {border-bottom: 1px solid #ffde00;}*/.totalTitle {margin-bottom: 0;color: #ec008c;font-size: 12px;text-align: center;line-height: 20px;padding-top: 30px;padding-bottom: 10px;}/* .images_column {column-count: 6;column-gap: 0;} */.pickImagesBOX {background: #fff}#clockdiv div {display: inline-block;}
+#clockdiv span.smalltext {font-size: 14px; color: #ffde00}
 .pickImagesBOX {background: url(https://levelup.ua/wp-content/uploads/2018/11/angle_final.jpg) top center no-repeat;}
 
   @media (max-width:768px) {.p_date_title {font-size: 16px !important;line-height: 20px !important;font-weight: 400;}.p_courses {font-size: 16px !important;line-height: 20px !important;font-weight: 400;}.name_courses {  font-size: 16px !important;line-height: 20px !important;font-weight: 400;}#clockdiv span.smalltext {font-size: 10px;}.slideTitle {padding: 10px 20px 0 20px;}.borderOne {padding:0;border:0;margin: 0;margin-top: 0px;background: none;}  .name_Courses {font-size: 22px;}  .newBannerSlide {line-height:22px !important;}  #clockdiv span:first-child {font-size: 17px !important;}    .slideInfoBottom  p{font-size: 12px !important;}
@@ -219,7 +219,7 @@ background-size: cover !important;}
 
 /*Пропустили занятие?*/
 .leave-lesson {background: #0048ff;}
-.recordTitle {font-size: 40px;color: #eaff00;line-height: normal;}
+.recordTitle {font-size: 40px;color: #ffde00;line-height: normal;}
 .recordDescr {font-size: 20px;padding-top: 20px;line-height: normal;color: #fff;font-weight: 300;}
 
 @media (max-width:768px){
@@ -384,7 +384,7 @@ background-repeat: no-repeat !important; background-size: cover !important;}
 
 
 .polesnie-ue4.course h3 {padding: 0 0 5px 0 !important; }
-.polesnie-ue4.course h3 {color: #eaff00 !important;}
+.polesnie-ue4.course h3 {color: #ffde00 !important;}
 
 .ue-4-wdy {background-image: url(https://levelup.ua/wp-content/uploads/2018/06/BG-Why-Unreal.jpg) !important;background-position-x: 0%;background-position-y: 0%;background-size: auto auto;background-position: top;background-size: cover}
 @media (max-width: 768px) {
@@ -447,7 +447,7 @@ background-repeat: no-repeat !important; background-size: cover !important;}
 
 .polesnie-unity.course h3 {padding: 0 0 5px 0 !important; }
 
-.polesnie-unity.course h3 {color: #eaff00 !important;}
+.polesnie-unity.course h3 {color: #ffde00 !important;}
 
 
 
@@ -566,7 +566,7 @@ span .five,.one,.two,.three,.four { display: block; position: absolute; width: 1
   .subscribe .ajax-loader {display: none !important;}
 }
 
-.subscribe input.wpcf7-form-control.wpcf7-submit:hover {background: #eaff00 !important; border: 1px solid #eaff00 !important; font-size: 16px !important; color: #4c4c4c !important;}
+.subscribe input.wpcf7-form-control.wpcf7-submit:hover {background: #ffde00 !important; border: 1px solid #ffde00 !important; font-size: 16px !important; color: #4c4c4c !important;}
 /*Конец Level Up — рассылка*/
 
 
@@ -578,10 +578,10 @@ span .five,.one,.two,.three,.four { display: block; position: absolute; width: 1
 .consultation .form_input_cf {width: 100%;border-bottom: 1px solid #fff6;}
 .consultation input::placeholder {color: #fff;}
 .consultation input {color: #ffffffb3;padding-left: 30px !important;width: 100% !important;}
-.consultation input.wpcf7-form-control.wpcf7-submit:hover {border: 1px solid #eaff00;}
+.consultation input.wpcf7-form-control.wpcf7-submit:hover {border: 1px solid #ffde00;}
 .consultation .submit_cf {padding: 20px 0px 0 0px !important;}
 .consultation .wpcf7-submit {width:  auto !important;}
-.consultation input.wpcf7-form-control.wpcf7-submit {background: #eaff00 !important;border: 1px solid #eaff00 !important;font-size: 16px !important;color: #4c4c4c !important;}
+.consultation input.wpcf7-form-control.wpcf7-submit {background: #ffde00 !important;border: 1px solid #ffde00 !important;font-size: 16px !important;color: #4c4c4c !important;}
 .consultation  span.wpcf7-not-valid-tip {font-weight: normal; display: inline-block; position: absolute; right: 10px; background: #ff1569; font-size: 12px; color: #fff; padding: 2px 5px; top: 0; border: none;
   outline: none; margin: 0px; }
 .consultation  span.wpcf7-not-valid-tip::before { content: ''; border: 11px solid transparent; border-right: 10px solid #ff1569; position: absolute; left: -21px; top: 0; }
@@ -789,7 +789,7 @@ span .five,.one,.two,.three,.four { display: block; position: absolute; width: 1
  .inkubator-offer p { font-size: 26px;}
 }
 
-.inkubator-offer h3 {color: #eaff00}
+.inkubator-offer h3 {color: #ffde00}
 .inkubator-solid-text {text-align: center;}
 
 .inkubator-1 {background: url(https://levelup.ua/wp-content/uploads/2018/06/Inkubator-Icon-1.png) no-repeat;}
@@ -1081,9 +1081,9 @@ img.alignleft {margin: 3px;}
 /* .saleRow {padding-bottom:30px; display: none !important;} */
 
 /* Новая цена на всех курсах  */
-.saleBottom {text-align: center;background: #eaff00;color: #4c4c4c;padding: 0 7px;}
-.saleTop {font-weight: 500;color:#eaff00;display: inline-block;margin-bottom: 0 !important;}
-.saleRow {color: #eaff00;position: relative;display: inline-block;margin: 0 auto;}
+.saleBottom {text-align: center;background: #ffde00;color: #4c4c4c;padding: 0 7px;}
+.saleTop {font-weight: 500;color:#ffde00;display: inline-block;margin-bottom: 0 !important;}
+.saleRow {color: #ffde00;position: relative;display: inline-block;margin: 0 auto;}
 
 
 .saleRow.animate{-webkit-animation-name:ripple;animation-name:ripple;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-duration:5s;animation-duration:5s}
@@ -1167,17 +1167,17 @@ img.alignleft {margin: 3px;}
 .patern-cicle-1 { top: -150px;overflow: hidden;left: 250px;width: 200px;height: 200px; position: absolute;opacity: 0.1; }
 .patern-cicle-2 { top: 250px;overflow: hidden;right: 250px;width: 200px;height: 200px;position: absolute;opacity: 0.1; }
 .footer-menu-title.mon span {color: #0048ff;}
-.footer-menu-third.mon span {color: #eaff00;}
-  .first-block-footer .fa {color: #eaff00;padding-right: 10px;font-size: 14px !important;}
-  .footer-place-adress {color: #eaff00;}
+.footer-menu-third.mon span {color: #ffde00;}
+  .first-block-footer .fa {color: #ffde00;padding-right: 10px;font-size: 14px !important;}
+  .footer-place-adress {color: #ffde00;}
   .footer-title-adress {color: #fff;font-size: 18px;vertical-align: middle;font-weight: 600;padding-top: 20px;padding-bottom: 10px;}
   .list-contact.mon {padding: 0 !important;}
   .adress-footer-2 {padding-top:  10px;}
-  .first-block-footer .fa {color: #eaff00;}
+  .first-block-footer .fa {color: #ffde00;}
   .footer-menu-third.mon span {color: #fff;}
   .footer-place-adress {color: #fff !important;}
-  .phone-footer-first a {color: #eaff00 !important;}
-  .phone-footer-second a {color: #eaff00 !important;}
+  .phone-footer-first a {color: #ffde00 !important;}
+  .phone-footer-second a {color: #ffde00 !important;}
   .footer-menu-title-post span, .footer-title-adress, .footer-menu-title.title3 {font-weight: 400;}
 }
 
@@ -1187,9 +1187,9 @@ img.alignleft {margin: 3px;}
 @media (max-width: 768px) {
    .footer-title-adress {color: #fff;font-size: 18px;vertical-align: middle;font-weight: 600;}
 .footer-menu-title.mon span {color: #0048ff;}
-.footer-menu-third.mon span {color: #eaff00;}
-  .first-block-footer .fa {color: #eaff00;padding-right: 10px;font-size: 14px !important;}
-  .footer-place-adress {color: #eaff00;}
+.footer-menu-third.mon span {color: #ffde00;}
+  .first-block-footer .fa {color: #ffde00;padding-right: 10px;font-size: 14px !important;}
+  .footer-place-adress {color: #ffde00;}
 .footer-menu-title.mon { text-align: center; }
 .footer-menu-second.mon { text-align: center; }
 .footer-img, .first-block-footer {padding-left: 0 !important}
@@ -1213,7 +1213,7 @@ img.alignleft {margin: 3px;}
 .footer-img {text-align: center;}
 .footer-img a {float: none !important;}
 .menu3 {margin-top: 20px !important;}
-.footer-menu-third.mon span {color: #eaff00;display: block;margin-top: -10px;padding-left: 23px;}
+.footer-menu-third.mon span {color: #ffde00;display: block;margin-top: -10px;padding-left: 23px;}
 
 .footer-menu-third.mon, .list-contact.mon {line-height: 30px;}
 .footer-contacts {font-size: 16px;}
@@ -1236,7 +1236,7 @@ img.alignleft {margin: 3px;}
  .page-id-558 .list-group-title.tc {min-height: 66px;align-items: center;align-self: center;display: grid;}
 }
 
-.more-course-text {color: #eaff00;text-align: center;padding: 30px 0 10px 0;margin: 0 auto;}
+.more-course-text {color: #ffde00;text-align: center;padding: 30px 0 10px 0;margin: 0 auto;}
 
 .speacker-grid {display: grid;grid-template-columns: 150px 1fr;align-items: center;grid-column-gap: 30px;padding: 0 10px;}
 
@@ -1326,7 +1326,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 
 
 
-.testing-skills .row > div:nth-child(3) p {color: #eaff00; font-weight: 200;}
+.testing-skills .row > div:nth-child(3) p {color: #ffde00; font-weight: 200;}
 .testing-skills .row > div:nth-child(2) p {color: #fff; font-weight: 200;}
  .testing-skills .row > div:nth-child(2) {border-left: 1px solid #ffffff4d;border-right: 1px solid #ffffff4d;}
 
@@ -1567,14 +1567,14 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 
 .six-yaear-block-2.event-seven { background:url(https://levelup.ua/wp-content/uploads/2019/02/bg-bottom2-blue-rectage.png) !important; background-size: contain !important;}
 .six-yaear-block-2.event-seven .items { color: #4c4c4c; }
-.button a {    background: #eaff00;border: 2px solid #eaff00;color: #4c4c4c;}
+.button a {    background: #ffde00;border: 2px solid #ffde00;color: #4c4c4c;}
    .button .sg-show-popup:after {    background-image: url(https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg);}
 .course.timeline-block.seven .theme {display: none;}
 
 .course.six-yaear-block-5.seven{background: url(https://levelup.ua/wp-content/uploads/2019/02/bg-registration.png);background-position-x: center;background-position-y: top;background-repeat: no-repeat;background-size:  cover}
 
 
-.dtls-seven  {color: #eaff00 !important; font-weight: 500;}
+.dtls-seven  {color: #ffde00 !important; font-weight: 500;}
 
 .button.footer-seven {text-align: center;padding: 50px 0 40px 0;}
 
@@ -1595,7 +1595,7 @@ height: 25px; position: absolute; overflow: visible; top: 0; left: 10px; backgro
 
 .line_and_circle.active.black::before  {background: #4c4c4c;}
 .line_and_circle.blue::before  {background: #0048ff;}
-.line_and_circle.yellow::before  {background: #eaff00;}
+.line_and_circle.yellow::before  {background: #ffde00;}
 
 .counters-seven h2 {padding-right: 20px !important;}
 .line_and_circle.right:before {right: -100%;left: auto;}
@@ -1632,7 +1632,7 @@ position: relative;}
 .reg-offer > div {background: url(https://levelup.ua/wp-content/uploads/2019/02/patern-fluid.png);}
 
 .yellow-btn a:hover {box-shadow: 13px 13px 36.1px 1.9px rgba(234, 255, 0, 0.5) !important;}
-.yellow-btn a { background: #eaff00 !important; border: 2px solid #eaff00; color: #4c4c4c !important; position: relative; z-index: 99; }
+.yellow-btn a { background: #ffde00 !important; border: 2px solid #ffde00; color: #4c4c4c !important; position: relative; z-index: 99; }
 .yellow-btn a:after { background-image: url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg") !important; }
 
 
@@ -1675,15 +1675,15 @@ position: relative;}
 
 /*Блок оффер*/
 .reg-offer .container {display: grid;grid-template-columns: 1fr 1fr;align-items: center;grid-gap: 20px;}
-.ot1 {font-size: 44px; font-weight: 500; color: #eaff00}
+.ot1 {font-size: 44px; font-weight: 500; color: #ffde00}
 .ot2 {font-size: 37px; font-weight: 400; color: #fff;}
-.ot3 {font-size: 37px; font-weight: 500; color: #eaff00}
+.ot3 {font-size: 37px; font-weight: 500; color: #ffde00}
 .ot4 {font-size: 37px; font-weight: 400; color: #fff; text-transform: uppercase;}
 .ot5 {font-size: 37px; font-weight: 400; color: #fff;}
 .ot6 {font-size: 37px; font-weight: 400; color: #fff;}
 .ot7 {font-size: 48px; font-weight: 400; color: #fff;}
 
-.page-id-483 .ot7, .page-id-483 .ot8{color: #eaff00}
+.page-id-483 .ot7, .page-id-483 .ot8{color: #ffde00}
 .page-id-483 .ot3 {color: #fff;}
 
 .ot8 {font-size: 37px; font-weight: 200; color: #fff;}
@@ -1840,7 +1840,7 @@ position: relative;}
 .page-id-4007 #heading10::before, .page-id-4007 #heading20::before {content: none;}
 
 
-.course_program-title h3  { color: #eaff00;text-align: left;font-weight: 600; position: relative; padding-left: 80px;}
+.course_program-title h3  { color: #ffde00;text-align: left;font-weight: 600; position: relative; padding-left: 80px;}
 .course_program-title h3 span {font-weight: 300; font-size: 22px;display: block;line-height: 20px;}
 
 .course_program-title::before {content: "";width: 60px;height: 60px;position: absolute;left: -5px;bottom: -5px;}
@@ -1964,7 +1964,7 @@ section.slide .start_slide { font-weight: 600 !important; }
 .email-input {z-index: 4;}
 .footerForm {text-align: center;}
 
-footer input.wpcf7-form-control.wpcf7-submit:hover {border: 1px solid #eaff00;text-transform: none;box-shadow: 13px 13px 16.1px 1.9px rgba(234, 255, 0, 0.3) !important;background: #eaff00;}
+footer input.wpcf7-form-control.wpcf7-submit:hover {border: 1px solid #ffde00;text-transform: none;box-shadow: 13px 13px 16.1px 1.9px rgba(234, 255, 0, 0.3) !important;background: #ffde00;}
 footer div.wpcf7 .ajax-loader {display: none;}
 
 .page-id-4007 section.slide .pattern {background: none !important;height: 100%;}
@@ -1975,10 +1975,10 @@ footer.site-footer { background: #2e3035; padding: 45px 0 45px; }
 footer.site-footer a { color: #fff; }
 footer .wpcf7-form p { margin: 0; position: relative }
 footer .wpcf7-form p .wpcf7-not-valid-tip {position: absolute;right: 0;top: 29px;display: inline-block !important;right: 30px;top: -4px;color:#fff;}
-input.wpcf7-form-control.footerInput { margin: 0;box-shadow: none;border: 1px solid #eaff00 !important;box-sizing: border-box;width: 100%;background: #27292f;height: 45px;color: #fff;
+input.wpcf7-form-control.footerInput { margin: 0;box-shadow: none;border: 1px solid #ffde00 !important;box-sizing: border-box;width: 100%;background: #27292f;height: 45px;color: #fff;
 padding: 0px 12px;border-radius: 20px;font-weight: 100;text-align: center;}
 
-footer input.wpcf7-form-control.wpcf7-submit.qbtn { border: 1px solid #eaff00;display: inline-block;background: #eaff00;border-radius: 0 0 30px 30px;text-transform: none;
+footer input.wpcf7-form-control.wpcf7-submit.qbtn { border: 1px solid #ffde00;display: inline-block;background: #ffde00;border-radius: 0 0 30px 30px;text-transform: none;
 font-size: 16px;font-weight: 300;padding: 5px 30px;color: #4c4c4c;margin-top: 0px !important;position: absolute;transform: translateX(-50%);z-index: 2;}
 input.wpcf7-form-control.wpcf7-submit.qbtn img{ float:left; padding-left:25px; }
 .footer-menu-title, .footer-menu-title-post{ color:#fff; font-size: 18px; vertical-align: middle; font-weight: 600; }
@@ -2028,7 +2028,7 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
   .page-id-4007  .instruments_section.course {margin-top: -20px;}
 }
 
-.page-id-4007 .list-group.first-list .ct-1 {color: #eaff00}
+.page-id-4007 .list-group.first-list .ct-1 {color: #ffde00}
 .page-id-4007 .list-group.first-list { transform: scale(1.08);background: #1d2027; }
 
 
@@ -2128,9 +2128,9 @@ footer .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{color:#acf21
 }
 
 @media (max-width: 768px) {
-  .ot1 {font-size: 34px; font-weight: 500; color: #eaff00}
+  .ot1 {font-size: 34px; font-weight: 500; color: #ffde00}
   .ot2 {font-size: 27px; font-weight: 400; color: #fff;}
-  .ot3 {font-size: 27px; font-weight: 500; color: #eaff00}
+  .ot3 {font-size: 27px; font-weight: 500; color: #ffde00}
   .ot4 {font-size: 27px; font-weight: 400; color: #fff; text-transform: uppercase;}
   .ot5 {font-size: 27px; font-weight: 400; color: #fff;}
   .ot6 {font-size: 27px; font-weight: 400; color: #fff;}
