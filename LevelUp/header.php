@@ -89,18 +89,17 @@
         <?php if (current_user_can('level_10')) { ?>
             <div>
                 <div class="lang-block">
-                    <span class="now-lang now-lang-<?php echo pll_current_language(); ?>">
-                    <?php echo pll_current_language(); // тут выводится текущий язык?>
+                    <div class="toggle_langs lang-<?php echo pll_current_language(); ?>"><?php echo pll_current_language(); ?></div>
+                    <?php
+                        $args = array(
+                            'theme_location' => 'lang',
+                            'menu'            => '3622',
+                            'container'=> 'nav',
+                            'menu_class' => 'lang-menu',
+                        );
+                        wp_nav_menu($args);
+                    ?>
                 </span>
-                <?php
-                    $args = array(
-                        'theme_location' => 'lang',
-                        'menu'            => '3622',
-                        'container'=> 'nav',
-                        'menu_class' => 'lang-menu',
-                    );
-                    wp_nav_menu($args);
-                ?>
                 </div>
             </div>
         <?php } ?>
