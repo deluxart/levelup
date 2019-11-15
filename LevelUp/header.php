@@ -87,7 +87,7 @@
             </div>
         </div>
         <?php if (current_user_can('level_10')) { ?>
-            <div>
+            <div class="lang-btn">
                 <div class="lang-block">
                     <div class="toggle_langs lang-<?php echo pll_current_language(); ?>"><?php echo pll_current_language('name'); ?></div>
                     <?php
