@@ -97,7 +97,6 @@
                         );
                         wp_nav_menu($args);
                     ?>
-                </span>
                 </div>
             </div>
 		<div class="menu-btn">
