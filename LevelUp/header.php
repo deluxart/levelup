@@ -92,13 +92,14 @@
                     <span class="now-lang now-lang-<?php echo pll_current_language(); ?>">
                     <?php echo pll_current_language(); // тут выводится текущий язык?>
                 </span>
-                <?php $args = array(
-                    'theme_location' => 'lang',
-                    'menu'            => '3622',
-                    'container'=> 'nav',
-                    'menu_class' => 'lang-menu',
-                );
-                    wp_nav_menu($args); // выводим меню языков
+                <?php
+                    $args = array(
+                        'theme_location' => 'lang',
+                        'menu'            => '3622',
+                        'container'=> 'nav',
+                        'menu_class' => 'lang-menu',
+                    );
+                    wp_nav_menu($args);
                 ?>
                 </div>
             </div>
