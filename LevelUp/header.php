@@ -85,7 +85,23 @@
             <div class="lux_search">
                 <div class="button"><span><i class="fa fa-search" aria-hidden="true"></i></span></div>
             </div>
-		</div>
+        </div>
+        <?php if (current_user_can('level_10')) { ?>
+            <div>
+                <div class="lang-block">
+                    <span class="now-lang now-lang-<?php echo pll_current_language(); ?>">
+                    <?php echo pll_current_language(); // тут выводится текущий язык?>
+                </span>
+                <?php $args = array(
+                    'theme_location' => 'lang',
+                    'container'=> 'nav',
+                    'menu_class' => 'lang-menu',
+                );
+                    wp_nav_menu($args); // выводим меню языков
+                ?>
+                </div>
+            </div>
+        <?php } ?>
 		<div class="menu-btn">
             <button class="head-menu-btn desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
             <button class="head-menu-btn-mobile mobile-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
