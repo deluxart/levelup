@@ -94,6 +94,7 @@
                 </span>
                 <?php $args = array(
                     'theme_location' => 'lang',
+                    'menu'            => '3622',
                     'container'=> 'nav',
                     'menu_class' => 'lang-menu',
                 );
