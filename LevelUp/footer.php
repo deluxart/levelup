@@ -211,6 +211,7 @@ document.querySelectorAll('section[data-bg]')
       .on('progress', event => {
         const target = event.target.triggerElement();
         document.body.style.backgroundColor = bgColor;
+        document.body.classList.add(sectionName);
         // target.style.backgroundColor = bgColor;
         target.classList.add('active');
       })
