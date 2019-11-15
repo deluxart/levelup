@@ -92,7 +92,7 @@
                     <div class="toggle_langs lang-<?php echo pll_current_language(); ?>"><?php echo pll_current_language(); ?></div>
                     <?php
                         $args = array(
-                            'theme_location' => 'lang',
+                            'container' => false,
                             'menu'            => '3622',
                             'menu_class' => 'lang-menu',
                         );
