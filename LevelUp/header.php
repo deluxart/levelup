@@ -86,7 +86,6 @@
                 <div class="button"><span><i class="fa fa-search" aria-hidden="true"></i></span></div>
             </div>
         </div>
-        <?php if (current_user_can('level_10')) { ?>
             <div class="lang-btn">
                 <div class="lang-block">
                     <div class="toggle_langs lang-<?php echo pll_current_language(); ?>"><?php echo pll_current_language('name'); ?></div>
@@ -101,7 +100,6 @@
                 </span>
                 </div>
             </div>
-        <?php } ?>
 		<div class="menu-btn">
             <button class="head-menu-btn desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
             <button class="head-menu-btn-mobile mobile-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
