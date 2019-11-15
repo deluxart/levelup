@@ -37,6 +37,18 @@
 
 <body <?php body_class(); ?>>
 <?php echo $options['gtm_code_n'];?>
+
+
+<?php
+if (isset($GLOBALS["polylang"])) {
+
+    $translations = $GLOBALS["polylang"]->model->post->get_translations($post->ID);
+}
+?>
+
+<span class="d-none"><?php var_dump($translations); ?></span>
+
+
 <svg class="hidden">
             <symbol id="icon-menu" viewBox="0 0 119 25">
                 <title>menu</title>
@@ -99,22 +111,6 @@
                     ?>
                 </div>
             </div>
-
-<?php
-if (isset($GLOBALS["polylang"])) {
-
-    $translations = $GLOBALS["polylang"]->model->post->get_translations($post->ID);
-
-    // var_dump($translations);
-
-}
-?>
-
-
-
-
-
-
 
 		<div class="menu-btn">
             <button class="head-menu-btn desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
