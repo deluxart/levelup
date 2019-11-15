@@ -96,7 +96,9 @@ if (isset($GLOBALS["polylang"])) {
                 <div class="button"><span><i class="fa fa-search" aria-hidden="true"></i></span></div>
             </div>
         </div>
-            <div class="lang-btn">
+
+        <?php if (count($translations) > 1) { ?>
+        <div class="lang-btn">
                 <div class="lang-block">
                     <div class="toggle_langs lang-<?php echo pll_current_language(); ?>"><?php echo pll_current_language('name'); ?></div>
                     <?php
@@ -108,7 +110,8 @@ if (isset($GLOBALS["polylang"])) {
                         wp_nav_menu($args);
                     ?>
                 </div>
-            </div>
+        </div>
+        <?php } ?>
 
 		<div class="menu-btn">
             <button class="head-menu-btn desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
