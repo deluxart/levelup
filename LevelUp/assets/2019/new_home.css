@@ -1,4 +1,6 @@
 body { background-color: #fff; transition: background-color 500ms; }
+body.home #header .content { grid-template-columns: auto 1fr auto auto auto; }
+body.home #header .content > .lang-btn { display: block; }
 body.open-lvl-menu jdiv { display: none; }
 body.blue-section .lvl2019 #trust_us .content .text h2, body.blue-section .lvl2019 #last-news h2, body.blue-section .lvl2019 #last-ivents h2, body.blue-section .lvl2019 #last-news .content h2, body.blue-section .lvl2019 #last-ivents .content p, body.blue-section .lvl2019 #last-news .content p { color: #fff; transition: 500ms; }
 body.blue-section .lvl2019 #trust_us .text-before, body.blue-section .lvl2019 #last-news .content > div .text-before, body.blue-section .lvl2019 #last-ivents .content > div .text-before { color: #ffffff0d; }
@@ -39,6 +41,15 @@ body.home footer#level_footer.light .subscribe span { color: #ffde00; }
 
 #header { height: auto; padding: 0 30px; background-image: -moz-linear-gradient(180deg, #000cff 0%, #6c00ff 100%); background-image: -webkit-linear-gradient(180deg, #000cff 0%, #6c00ff 100%); background-image: -ms-linear-gradient(180deg, #000cff 0%, #6c00ff 100%); }
 #header.light.header-color { background: none; }
+#header .lang-btn { display: none; }
+#header .lang-btn .lang-block { position: relative; }
+#header .lang-btn .lang-block .toggle_langs { color: #fff; position: relative; padding: 15px 40px 15px 20px; }
+#header .lang-btn .lang-block .toggle_langs:before { position: absolute; right: 20px; top: 50%; transform: translateY(-50%); content: "\f107"; font-family: FontAwesome; color: #fff; }
+#header .lang-btn .lang-block ul.lang-menu { display: none; position: absolute; background: #0000009e; left: 50%; transform: translateX(-50%); box-shadow: 0 5px 25px 0 rgba(57, 69, 54, 0.16); }
+#header .lang-btn .lang-block ul.lang-menu:before { content: ''; border: 10px solid transparent; border-bottom: 10px solid #000; left: calc(50% - 10px); position: absolute; top: -20px; z-index: 100; }
+#header .lang-btn .lang-block ul.lang-menu li a { font-size: 14px; padding: 7px 14px; display: block; color: #fff; }
+#header .lang-btn .lang-block:hover { cursor: pointer; }
+#header .lang-btn .lang-block:hover ul.lang-menu { display: block; }
 #header .content { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; grid-gap: 30px; height: 90px; text-align: center; transition: .7s all; }
 #header .content .logo a img { display: none; height: 46px; }
 #header .content .logo a img.logo_desktop { display: block; }
@@ -124,7 +135,8 @@ body.home footer#level_footer.light .subscribe span { color: #ffde00; }
   .lvl-menu .lvl-menu-content .menu-name { margin: 10px 0; }
   .lvl-menu .lvl-menu-content .menu-title { font-size: 16px; }
   .lvl-menu .lvl-menu-content .lvl-menu-footer ul { font-size: 14px; } }
-@media (max-width: 1100px) { #header .content .basic-nav ul.basic-menu > li.nav-item > a { padding: 12px 15px; font-size: 15px; }
+@media (max-width: 1100px) { #header .content { grid-gap: 10px; }
+  #header .content .basic-nav ul.basic-menu > li.nav-item > a { padding: 12px 15px; font-size: 15px; }
   .lvl-menu .lvl-menu-content .menu-title { margin: 30px 0 10px; }
   .lvl-menu ul li a { padding: 4px 0; }
   .lvl-menu .lvl-menu-content .menu-name { font-size: 16px; }
