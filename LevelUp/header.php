@@ -105,7 +105,7 @@ if (isset($GLOBALS["polylang"])) {
 
     $translations = $GLOBALS["polylang"]->model->post->get_translations($post->ID);
 
-    var_dump($translations);
+    // var_dump($translations);
 
 }
 ?>
