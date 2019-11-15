@@ -46,8 +46,6 @@ if (isset($GLOBALS["polylang"])) {
 }
 ?>
 
-<span class="d-none"><?php var_dump($translations); ?></span>
-
 
 <svg class="hidden">
             <symbol id="icon-menu" viewBox="0 0 119 25">
@@ -61,7 +59,7 @@ if (isset($GLOBALS["polylang"])) {
         </svg>
 <div>
 
-<header id="header" class="fixed-top header-color <?php the_field( 'header_color' ); ?>">
+<header id="header" class="fixed-top header-color <?php the_field( 'header_color' ); ?> <?php if (count($translations) > 1) { echo 'multilang'; } ?>">
 	<div class="content">
 		<div class="logo">
 		    <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
