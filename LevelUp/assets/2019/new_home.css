@@ -6,7 +6,7 @@ body.blue-section .lvl2019 .slick-prev, body.blue-section .lvl2019 .slick-next {
 body.blue-section .lvl2019 .slick-prev::before, body.blue-section .lvl2019 .slick-next::before { color: #003cff; }
 
 body.home .wp_queries.light { background: #0041ee; color: #fff; }
-body.home footer#level_footer { background: #0045ff !important; color: #fff; }
+body.home footer#level_footer { background: none !important; color: #fff; }
 body.home footer#level_footer.light { color: #fff; }
 body.home footer#level_footer.light .content .block ul.soc_links li { background: #ffde00; }
 body.home footer#level_footer.light .content .block ul.soc_links li a i { color: #0045ff; }
