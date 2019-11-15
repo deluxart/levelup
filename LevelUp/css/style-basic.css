@@ -68,9 +68,11 @@ a.buttonLight:hover, a.sg-show-popup:hover, .sg-show-popup:hover, .wpmtst-submit
 .buttonLight:focus, .sg-show-popup:focus{  outline: none !important; }
 .buttonLight.black, .bg-blue .sg-show-popup{ color: #000; }
 .buttonLight.blue { color: #fff; background: #0048ff; border-color: #0048ff; }
-.buttonLight.blue:hover {border-color: #0aa1e7 !important; background: #0aa1e7;color: #fff;}
-.btn-blue a.sg-show-popup { border-color: #0aa1e7 !important; background: #0aa1e7;color: #fff; }
-.btn-blue a.sg-show-popup:hover { border-color: #2cb9fb !important; background: #2cb9fb;color: #fff; }
+
+.buttonLight.blue:hover {border-color: #0048ff !important; background: #0048ff;color: #fff;}
+.btn-blue a.sg-show-popup { border-color: #0048ff !important; background: #0048ff;color: #fff; }
+.btn-blue a.sg-show-popup:hover { border-color: #1557ff !important; background: #1557ff;color: #fff; }
+
 .buttonLight.blue:hover:after, .buttonLight.blue:after, .btn-blue a.sg-show-popup:after { background-image:url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-White.svg"); }
 
 .Slider_courses_block a.sg-show-popup { color: #4c4c4c; background: #ffde00; }
