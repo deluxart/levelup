@@ -99,6 +99,23 @@
                     ?>
                 </div>
             </div>
+
+<?php
+if (isset($GLOBALS["polylang"])) {
+
+    $translations = $GLOBALS["polylang"]->model->post->get_translations($post->ID);
+
+    var_dump();
+
+}
+?>
+
+
+
+
+
+
+
 		<div class="menu-btn">
             <button class="head-menu-btn desktop-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
             <button class="head-menu-btn-mobile mobile-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
