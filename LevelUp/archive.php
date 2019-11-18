@@ -89,7 +89,17 @@ get_header(); ?>
 
             </div>
             <div class="sidebar">
-            <?php echo $this_sidebar ?>
+
+<?php if($this_sidebar == 'sidebar_for_news'){
+        if ( function_exists('dynamic_sidebar') ) dynamic_sidebar('news-sidebar');
+} elseif ($level_sidebar == 'blog-sidebar') {
+        if ( function_exists('dynamic_sidebar') ) dynamic_sidebar('blog-sidebar');
+ } else {
+
+} ?>
+
+
+                <?php echo $this_sidebar ?>
             </div>
 
 
