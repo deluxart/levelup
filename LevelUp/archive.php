@@ -41,8 +41,8 @@ get_header(); ?>
 
 
 <div class="page-title tc">
-	<h2><?php $this_catname ?></h2>
-    <p><?php $this_description ?></p>
+	<h2><?php echo $this_catname ?></h2>
+    <p><?php echo $this_description ?></p>
 </div>
 
 
@@ -89,7 +89,7 @@ get_header(); ?>
 
             </div>
             <div class="sidebar">
-            <?php $this_sidebar ?>
+            <?php echo $this_sidebar ?>
             </div>
 
 
