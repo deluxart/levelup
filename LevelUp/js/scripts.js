@@ -501,7 +501,7 @@ jQuery('.saleRow .saleBottom').each(function(i) {
 
 // Сокращение заголовков у новостей
 var desc_short = function () {
-    jQuery(".tg-item-title.tg-element-3 > a").text(function(i, text) {
+    jQuery(".tg-item-title.tg-element-3 > a, article .content-one .title-news h4 a").text(function(i, text) {
       if (text.length >= 50) {
         text = text.substring(0, 50);
         var lastIndex = text.lastIndexOf(" ");       // позиция последнего пробела
