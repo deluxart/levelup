@@ -18,7 +18,7 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
+	<section id="primary" class="content-area archive-php">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
