@@ -36,7 +36,7 @@ get_header(); ?>
 
 
 
-	<section id="primary" class="content-area archive-php">
+	<section id="primary" class="content-area archive">
 		<main id="main" class="site-main" role="main">
 
 <?php if( $this_catname){ ?>
