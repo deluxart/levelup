@@ -16,9 +16,14 @@
  * @since Twenty Fifteen 1.0
  */
 
-$taxonomy_prefix = NULL;
-$term_id = NULL;
-$term_id_prefixed = $taxonomy_prefix .'_'. $term_id;
+// Получаем данные текущего термина (рубрики)
+$term = get_queried_object();
+
+// Получаем значения произвольных полей
+$this_catname = get_field('zagolovok_kategorii', $term);
+$this_description = get_field('opisanie_kategorii', $term);
+$this_sidebar = get_field('sajdbar_dlya_dannoj_kategorii', $term);
+
 
 get_header(); ?>
 
