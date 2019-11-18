@@ -81,20 +81,19 @@ get_header(); ?>
 
 		endif;
 		?>
+                <div class="news-pagination">
+                <?php
+                            // Previous/next page navigation.
+                            the_posts_pagination( array(
+                                'prev_text'          => __( 'Previous page', 'LevelUp' ),
+                                'next_text'          => __( 'Next page', 'LevelUp' ),
+                                'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'LevelUp' ) . ' </span>',
+                            ) );
+                ?>
+                </div>
 
 
             </div>
-
-<?php
-			// Previous/next page navigation.
-			the_posts_pagination( array(
-				'prev_text'          => __( 'Previous page', 'LevelUp' ),
-				'next_text'          => __( 'Next page', 'LevelUp' ),
-				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'LevelUp' ) . ' </span>',
-            ) );
-?>
-
-
 
             <div class="sidebar">
 
