@@ -39,11 +39,14 @@ get_header(); ?>
 	<section id="primary" class="content-area archive-php">
 		<main id="main" class="site-main" role="main">
 
-
-<div class="page-title tc">
-	<h2><?php echo $this_catname ?></h2>
-    <p><?php echo $this_description ?></p>
-</div>
+<?php if( $this_catname){ ?>
+    <div class="page-title tc">
+        <h2><?php echo $this_catname ?></h2>
+        <?php if( $this_description ){ ?>
+            <p><?php echo $this_description ?></p>
+        <?php } ?>
+    </div>
+<?php } ?>
 
 
 <div class="posts_page <?php echo esc_attr( get_post_meta( get_the_ID(), '_lvl_meta_sidebar', true ) ); ?>">
