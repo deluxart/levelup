@@ -62,7 +62,7 @@ get_header(); ?>
 			// Start the Loop.
 			while ( have_posts() ) : the_post();
 
-				get_template_part( 'content', get_post_format() );
+				get_template_part( 'template-parts/archive', get_post_format() );
 
 			// End the loop.
 			endwhile;
