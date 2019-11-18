@@ -49,7 +49,7 @@ get_header(); ?>
 <?php } ?>
 
 
-<div class="posts_page <?php echo esc_attr( get_post_meta( get_the_ID(), '_lvl_meta_sidebar', true ) ); ?>">
+<div class="posts_page <?php echo esc_attr( get_post_meta( get_the_ID(), '_lvl_meta_sidebar', true ) ); ?> <?php if( $this_catname){ } else { echo 'no-cat-name'; } ?>">
     <div class="container">
         <div class="content">
             <div class="news">
