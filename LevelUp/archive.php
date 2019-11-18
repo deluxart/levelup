@@ -16,10 +16,38 @@
  * @since Twenty Fifteen 1.0
  */
 
+$taxonomy_prefix = NULL;
+$term_id = NULL;
+$term_id_prefixed = $taxonomy_prefix .'_'. $term_id;
+
 get_header(); ?>
+
+
+
+
+
+
+
+
+
 
 	<section id="primary" class="content-area archive-php">
 		<main id="main" class="site-main" role="main">
+
+
+<div class="page-title tc">
+	<h2><?php the_field( 'zagolovok_kategorii', $term_id_prefixed ); ?></h2>
+    <p><?php the_field( 'opisanie_kategorii', $term_id_prefixed ); ?></p>
+</div>
+
+
+<div class="posts_page <?php echo esc_attr( get_post_meta( get_the_ID(), '_lvl_meta_sidebar', true ) ); ?>">
+    <div class="container">
+        <div class="content">
+            <div class="news">
+
+
+
 
 		<?php if ( have_posts() ) : ?>
 
@@ -52,6 +80,18 @@ get_header(); ?>
 
 		endif;
 		?>
+
+
+            </div>
+            <div class="sidebar">
+            <?php the_field( 'sajdbar_dlya_dannoj_kategorii', $term_id_prefixed ); ?>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
 
 		</main><!-- .site-main -->
 	</section><!-- .content-area -->
