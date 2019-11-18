@@ -98,11 +98,8 @@ get_header(); ?>
 } elseif ($level_sidebar == 'blog-sidebar') {
         if ( function_exists('dynamic_sidebar') ) dynamic_sidebar('blog-sidebar');
  } else {
-
+    if ( function_exists('dynamic_sidebar') ) dynamic_sidebar('news-sidebar');
 } ?>
-
-
-                <?php echo $this_sidebar ?>
             </div>
 
 
