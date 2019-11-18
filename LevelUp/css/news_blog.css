@@ -106,7 +106,7 @@ span.tg-item-term.language { display: none !important; }
 .posts_page .content .sidebar .all_posts a { display: inline-block; color: #c3c3c3; padding: 5px 20px; border: 1px solid #e1e1e1; border-radius: 30px; font-size: 14px; margin-top: 5px; transition: 0.3s all; }
 .posts_page .content .sidebar .all_posts a:hover { color: #fff; background: #0048ff; border-color: #0048ff; }
 
-  @media (max-width: 992px) { .posts_page .content { grid-template-columns: 1fr; grid-row-gap: 30px; }
+  @media (max-width: 992px) { .posts_page .container > .content { grid-template-columns: 1fr; grid-row-gap: 30px; }
   .posts_page .content .sidebar { padding-left: 0; padding-bottom: 30px; }
     .related_posts ul { grid-template-columns: 1fr; grid-row-gap: 30px; }
 }
