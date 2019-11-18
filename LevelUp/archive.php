@@ -21,7 +21,7 @@ $term = get_queried_object();
 
 // Получаем значения произвольных полей
 $this_catname = get_field('zagolovok_kategorii', $term);
-$this_description = get_field('opisanie_kategorii', $term);
+$this_description = the_archive_description();
 $this_sidebar = get_field('sajdbar_dlya_dannoj_kategorii', $term);
 
 
