@@ -75,13 +75,6 @@ get_header(); ?>
 			// End the loop.
 			endwhile;
 
-			// Previous/next page navigation.
-			the_posts_pagination( array(
-				'prev_text'          => __( 'Previous page', 'LevelUp' ),
-				'next_text'          => __( 'Next page', 'LevelUp' ),
-				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'LevelUp' ) . ' </span>',
-			) );
-
 		// If no content, include the "No posts found" template.
 		else :
 			get_template_part( 'content', 'none' );
@@ -91,6 +84,18 @@ get_header(); ?>
 
 
             </div>
+
+<?php
+			// Previous/next page navigation.
+			the_posts_pagination( array(
+				'prev_text'          => __( 'Previous page', 'LevelUp' ),
+				'next_text'          => __( 'Next page', 'LevelUp' ),
+				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'LevelUp' ) . ' </span>',
+            ) );
+?>
+
+
+
             <div class="sidebar">
 
 <?php if($this_sidebar == 'sidebar_for_news'){
