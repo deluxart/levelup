@@ -85,9 +85,9 @@ get_header(); ?>
                 <?php
                             // Previous/next page navigation.
                             the_posts_pagination( array(
-                                'prev_text'          => __( 'Previous page', 'LevelUp' ),
-                                'next_text'          => __( 'Next page', 'LevelUp' ),
-                                'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'LevelUp' ) . ' </span>',
+                                'prev_text'          => pll_e('Previous page','LevelUp'),
+                                'next_text'          => pll_e('Next page','LevelUp'),
+                                'before_page_number' => '<span class="meta-nav screen-reader-text">' . pll_e('Page','LevelUp') . ' </span>',
                             ) );
                 ?>
                 </div>

@@ -889,3 +889,9 @@ pll_register_string('last_news', 'last_news');
 
 // * Вы так-же в любой момент с легкостью сможете отписаться от нашей рассылки
 pll_register_string('unsubscribe_info', 'unsubscribe_info');
+
+
+pll_register_string('Previous page', 'Previous page');
+pll_register_string('Next page', 'Next page');
+pll_register_string('Page', 'Page');
+
