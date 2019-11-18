@@ -41,8 +41,8 @@ get_header(); ?>
 
 
 <div class="page-title tc">
-	<h2><?php the_field( 'zagolovok_kategorii', $term_id_prefixed ); ?></h2>
-    <p><?php the_field( 'opisanie_kategorii', $term_id_prefixed ); ?></p>
+	<h2><?php $this_catname ?></h2>
+    <p><?php $this_description ?></p>
 </div>
 
 
@@ -89,7 +89,7 @@ get_header(); ?>
 
             </div>
             <div class="sidebar">
-            <?php the_field( 'sajdbar_dlya_dannoj_kategorii', $term_id_prefixed ); ?>
+            <?php $this_sidebar ?>
             </div>
 
 
