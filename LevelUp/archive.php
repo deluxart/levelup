@@ -21,7 +21,7 @@ $term = get_queried_object();
 
 // Получаем значения произвольных полей
 $this_catname = get_field('zagolovok_kategorii', $term);
-$this_description = the_archive_description();
+$this_description = get_field('opisanie_kategorii', $term);
 $this_sidebar = get_field('sajdbar_dlya_dannoj_kategorii', $term);
 
 
@@ -59,12 +59,12 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<?php
+			<!-- <header class="page-header">
+				< ? php
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+				? >
+			</header> -->
 
 			<?php
 			// Start the Loop.
