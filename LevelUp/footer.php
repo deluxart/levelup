@@ -44,12 +44,10 @@
 			</div>
         </div>
         <div class="text-copyright">
-            <strong><span class="blue">LEVELUP</span>™ 2019</strong> <?php pll_e('Training IT Center','LevelUp'); ?>
+            <strong><span class="blue">LEVELUP</span>™ <?php echo date('Y'); ?></strong> <?php pll_e('Training IT Center','LevelUp'); ?>
         </div>
 	</div>
 </footer>
-
-
 
 </div><!-- .site -->
 
