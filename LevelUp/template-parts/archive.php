@@ -8,6 +8,7 @@
  */
 
 ?>
+<div>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="content-one">
         <div class="thumbnail">
@@ -27,3 +28,4 @@
 		</div>
     </div>
 </article>
+</div>
