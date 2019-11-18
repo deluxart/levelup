@@ -15,7 +15,7 @@
 
 
 
-	<header class="entry-header">
+	<header class="entry-header content-php">
 		<?php
 			if ( is_single() ) :
 				the_title( '<h1>', '</h1>' );

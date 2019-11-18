@@ -10,7 +10,7 @@
  */
 ?>
 
-<article class="search-post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="search-post content-search-php" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div><?php LevelUp_post_thumbnail(); ?></div>
 	<div>
 	<header class="entry-header">
@@ -19,7 +19,7 @@
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
-		
+
 	</div><!-- .entry-summary -->
 
 	<?php if ( 'post' == get_post_type() ) : ?>
