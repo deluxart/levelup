@@ -55,7 +55,7 @@ get_header(); ?>
             <div class="news">
 
 
-
+<div class="list">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -73,7 +73,8 @@ get_header(); ?>
 			get_template_part( 'content', 'none' );
 
 		endif;
-		?>
+        ?>
+        </div>
                 <div class="news-pagination">
                 <?php
                             // Previous/next page navigation.
