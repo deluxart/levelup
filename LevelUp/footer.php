@@ -131,11 +131,13 @@
 	<div class="cont">
 		<div><img src="<?php echo $options_modal['image_url'];?>" alt=""></div>
 		<div class="content">
-			<h4><?php echo $options_modal['event_modal_title']; ?></h4>
+            <h4><?php echo $options_modal['event_modal_title']; ?></h4>
+            <?php if ( $options_modal['ativate_event_date_modal'] == 1) { ?>
 			<div class="date-block">
 				<div><strong><?php echo $options_modal['event_date']; ?></strong><?php echo $options_modal['event_location']; ?></div>
 				<div class="date-icon"><img src="https://levelup.ua/wp-content/uploads/2019/07/event-date-and-time-symbol.svg" alt=""></div>
-			</div>
+            </div>
+            <?php } ?>
 			<div class="feed-form">
 				<?php echo do_shortcode( wp_unslash($options_modal['contact_form']) ); ?>
 			</div>

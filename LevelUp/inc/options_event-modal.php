@@ -174,6 +174,24 @@ wp_editor( $content , $editor_id, $settings  );
 </tr>
 
 
+
+<tr style="border-bottom: 1px solid #f1f1f1;">
+    <th scope="row">Отображать блок даты в модальном окне</th>
+        <td>
+            <div class="g_one_auto">
+                <fieldset>
+                <legend class="screen-reader-text"><span>Включить блок даты</span></legend>
+                    <label for="blog_public">
+                    <input name="event_modal_options[ativate_event_date_modal]" type="checkbox" id="event_modal_options[ativate_event_date_modal]" value="1" <?php checked( "1" == $options_modal['ativate_event_date_modal'] ); ?>>
+                    Отображать дату</label>
+                    <p class="description">Будет ли отображаться блок с датой мероприятия</p>
+                </fieldset>
+                <input type="button" name="preview-btn" id="preview-btn" class="button-secondary flat" value="Предпросмотр">
+            </div>
+        </td>
+</tr>
+
+
 <tr class="form-field" style="border-bottom: 1px solid #f1f1f1;">
     <th valign="top" scope="row">
           <label>Дата / Время / Локация</label>
