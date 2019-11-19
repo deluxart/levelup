@@ -13,7 +13,7 @@
 
 /* Для новго дизайна */
 ul.list { margin-bottom: 30px; display: grid; grid-gap: 18px; }
-ul.list.col2 { grid-template-columns: 2; grid-column-gap: 50px; }
+ul.list.col2 { grid-template-columns: 1fr 1fr; grid-column-gap: 50px; }
 ul.list li { position: relative; display: grid; grid-template-columns: 18px 1fr; grid-gap: 18px; }
 ul.list li:before { position: relative; width: 18px; height: 18px; background: url(https://levelup.ua/wp-content/uploads/2019/11/list_chek.svg) center no-repeat; top: 3px; background-size: contain; content: ''; }
 
@@ -80,7 +80,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 .has-smargt-blue-color, .has-level-up-blue-color { color: #0048ff; }
 .has-level-up-pink-color { color: #ff1569; padding: 0 !important; }
 
-.meet-reg h3 { grid-column: 1/4; margin-bottom: 20px; margin-top: 20px; padding: 0; font-size: 32px; color: #0048ff; }
+.meet-reg h3 { grid-column: 1/4; margin-bottom: 40px; margin-top: 20px; padding: 0; font-size: 32px; color: #0048ff; }
 .meet-info img {margin: 0 auto;margin-bottom: 10px;}
 .meet-info b { margin-bottom: 4px; display: inline-block; font-size: 20px; font-weight: 900; color: #0048ff; }
 
