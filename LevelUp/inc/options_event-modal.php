@@ -225,6 +225,17 @@ wp_editor( $content , $editor_id, $settings  );
 </tr>
 
 
+<tr class="form-field">
+     <th valign="top" scope="row">
+        <label>Дополнительные стили для формы:</label>
+      </th>
+     <td>
+            <textarea name="event_modal_options[modal_styles]" id="event_modal_options[modal_styles]" class="large-text code" style="width: 100%;" rows="4" placeholder="Здесь стили для формы"><?php echo $options_modal['modal_styles'];?></textarea>
+            <p class="description">Стилизация формы</p>
+      </td>
+</tr>
+
+
 </table>
 
 
@@ -322,6 +333,8 @@ wp_editor( $content , $editor_id, $settings  );
 
 .event_modal span.wpcf7-not-valid-tip { margin: 0; top: 0; position: absolute; right: 15px; color: #fff; font-size: 12px; border-radius: 0 10px 10px 0; padding-right: 8px; }
 .event_modal div.wpcf7-mail-sent-ok {display: block; background: #5944e84f; color: #fff; bottom: -52px; margin: 0; width: 100%; padding: 14px 15px; font-size: 11px; border: 0; border-radius: 15px 15px 0 0; }
+
+<?php echo $options_modal['modal_styles']; ?>
 </style>
 <script type="text/javascript">
 
