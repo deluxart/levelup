@@ -11,6 +11,10 @@
 .column5 img { box-shadow: 5px 15px 34px #0003; }
 
 
+/* Для новго дизайна */
+/* ul.list {  } */
+ul.list li { position: relative; display: grid; grid-template-columns: 18px 1fr; grid-gap: 20px; }
+ul.list li:before { position: relative; width: 18px; height: 18px; background: url(https://levelup.ua/wp-content/uploads/2019/11/list_chek.svg) center no-repeat; background-size: contain; content: ''; }
 
 /* Партнеры мероприятия */
 .news-partners { margin-bottom: 20px; display: grid; grid-gap: 20px; }
