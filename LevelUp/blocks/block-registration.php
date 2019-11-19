@@ -15,11 +15,11 @@
 								<div class="classic-btn">
 									<a href="#" data-toggle="modal" class="sg-show-popup" data-target="#<?php block_field( 'id-modal' ); ?>"><?php block_field( 'text-btn' ); ?></a>
 								</div>
-								
-								
+
+
 							</div>
 						</div>
-						<div class="bottom-post-form-text"><?php block_field( 'end-text' ); ?></div>
+						<!-- <div class="bottom-post-form-text"><?php block_field( 'end-text' ); ?></div> -->
 			</div>
 		</div>
 	</div>
