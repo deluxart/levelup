@@ -3,9 +3,34 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 
   .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok { display: block; margin: 0; border: 0; color: #fff; bottom: -35px; font-size: 14px; }
   div.wpcf7-mail-sent-ok { display: block; margin: 0; border: 0; color: #fff; bottom: -35px; font-size: 14px; }
-
-
 section#reg-offer-two, #loyality { display: none !important; }
+
+
+
+
+
+.modal.show .modal-dialog { z-index: 99999; }
+body .modal-backdrop { z-index: 300; }
+section.archive .posts_page .content > .news .list { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px; }
+section.archive .posts_page.no-cat-name { padding-top: 30px; }
+.page-title h2 { line-height: normal; }
+article .content-one .thumbnail a { position: relative; display: block; }
+article .content-one .thumbnail a:before { position: absolute; content-one: ''; }
+article .content-one .thumbnail a img { display: block; border-radius: 5px; }
+article .content-one .title-news h4 a { font-size: 18px; color: #010101; line-height: normal; text-transform: none; font-weight: 600; display: block; padding: 22px 0 0 0; }
+article .content-one .details-news { font-size: 13px; line-height: 13px; font-weight: 400; padding: 5px 0 22px; }
+article .content-one .details-news span { display: inline-block; color: #999999; }
+
+
+@media (max-width: 620px) {
+    section.archive .posts_page .content > .news .list { grid-template-columns: 1fr; }
+}
+
+
+
+
+
+
 
   /* Reset style for CF 7 */
 .wpcf7-form { overflow: hidden; }
