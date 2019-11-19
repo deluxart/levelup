@@ -186,7 +186,6 @@ wp_editor( $content , $editor_id, $settings  );
                     Отображать дату</label>
                     <p class="description">Будет ли отображаться блок с датой мероприятия</p>
                 </fieldset>
-                <input type="button" name="preview-btn" id="preview-btn" class="button-secondary flat" value="Предпросмотр">
             </div>
         </td>
 </tr>
