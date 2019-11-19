@@ -88,9 +88,9 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 .meet-info p { margin: 0; line-height: normal; padding: 0; }
 
 @media (max-width: 768px) {
-    .meet-info { grid-template-columns: minmax(50px,50px) 1fr; text-align: left;grid-gap: 20px;align-items: center; margin-bottom: 20px;}
+    .meet-info {  text-align: left;grid-gap: 20px;align-items: center; }
     .meet-info > p {display: none}
-    .meet-reg { grid-template-columns: 1fr; text-align: center;max-width: 60%; margin: 0 auto; }
+    .meet-reg { grid-template-columns: 1fr; text-align: center;max-width: 60%; margin: 0 auto;  grid-gap: 30px; }
     .meet-reg h3 {grid-column: 1/1; margin-bottom: 20px;}
     .meet-align {display: inline-block;}
 }
@@ -153,6 +153,7 @@ p.post-tel-reg-phone a { text-decoration: none; font-size: 20px; color: #0048ff;
 
 @media (max-width: 768px) {
     .post-form-reg { grid-template-columns: 1fr; grid-row-gap: 10px; }
+    .post-form-reg .post-tel-reg { border-right: 1fr; border-bottom: 1px solid #d5d5d5; }
 }
 
 .editor-styles-wrapper .modal { display: none; }
