@@ -102,8 +102,7 @@ function lvl_home_post_slides( $atts ) {
     ob_start();
     $args = shortcode_atts( array (
         'type' => 'post',
-        'order' => 'date',
-        'orderby' => 'title',
+        'orderby' => 'date',
         'posts' => -1,
         // 'color' => '',
         // 'category' => '',
@@ -112,8 +111,8 @@ function lvl_home_post_slides( $atts ) {
     ), $atts );
     $options = array(
         'post_type' => $args['type'],
-        'order' => $args['order'],
-        'orderby' => $args['orderby'],
+        // 'order' => $args['order'],
+        // 'orderby' => $args['orderby'],
         'posts_per_page' => $args['posts'],
         // 'category_name' => $args['category'],
         'post_status' => 'publish'
