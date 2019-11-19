@@ -29,7 +29,6 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 
 
 
-
 /* Партнеры мероприятия */
 .news-partners { margin-bottom: 20px; display: grid; grid-gap: 20px; }
 .news-partners > .one-partner { display: grid; grid-template-columns: 120px 1fr; grid-column-gap: 20px; align-items: center; }
