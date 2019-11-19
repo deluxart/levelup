@@ -104,19 +104,16 @@ function lvl_home_post_slides( $atts ) {
         'type' => 'post',
         'orderby' => 'date',
         'posts' => -1,
-        // 'color' => '',
-        // 'category' => '',
-        // 'post_status' => 'publish',
         'public'   => true,
     ), $atts );
     $options = array(
         'post_type' => $args['type'],
-        // 'order' => $args['order'],
-        // 'orderby' => $args['orderby'],
         'posts_per_page' => $args['posts'],
-        // 'category_name' => $args['category'],
         'post_status' => 'publish'
     );
+
+$eventDate = date('d.m.Y', strtotime(get_post_meta($post->ID, 'dateend', 1)));
+$currentDate = date('d.m.Y');
 
     $query = new WP_Query( $options );
     if ( $query->have_posts() ) { ?>
