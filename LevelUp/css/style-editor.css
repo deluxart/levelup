@@ -27,7 +27,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 
 .single .entry-content h3 { color: #0048ff; font-weight: 900; }
 
-.meet-info { grid-template-columns: 90px 1fr; align-items: center; grid-template-columns: 30px; }
+.meet-info { display: grid; grid-template-columns: 90px 1fr; align-items: center; grid-template-columns: 30px; }
 .meet-info .details-icon { width: 90px; display: grid; align-items: center; height: 90px; border-radius: 50%; background-image: -moz-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -webkit-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -ms-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); }
 .meet-info .details-icon svg { fill: #fff; width: 34px; display: block; margin: 0 auto; }
 
@@ -79,11 +79,10 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 .has-smargt-blue-color, .has-level-up-blue-color { color: #0048ff; }
 .has-level-up-pink-color { color: #ff1569; padding: 0 !important; }
 
-.meet-reg { display: grid;grid-template-columns: 1fr 1fr 1fr;  }
-.meet-reg h3 { grid-column: 1/4; margin-bottom: 20px; margin-top: 20px; padding: 0; font-size: 24px; color: #0048ff; }
+.meet-reg h3 { grid-column: 1/4; margin-bottom: 20px; margin-top: 20px; padding: 0; font-size: 32px; color: #0048ff; }
 .meet-info img {margin: 0 auto;margin-bottom: 10px;}
 .meet-info b { margin-bottom: 4px; display: inline-block; font-size: 20px; font-weight: 900; color: #0048ff; }
-.meet-info { display: grid; }
+
 .rct {padding: 20px 0 !important; }
 .meet-info p { margin: 0; line-height: normal; padding: 0; }
 
