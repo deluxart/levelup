@@ -71,7 +71,7 @@
 #level_footer .content { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 30px; font-weight: 200; font-size: 14px; }
 #level_footer .content .block h2.widget-title { font-size: 16px; font-weight: 600; color: #003cff; margin-bottom: 30px; position: relative; }
 #level_footer .content .block { position: relative; padding-right: 30px; }
-#level_footer .content .block:before { position: absolute; content: ''; width: 1px; right: 0; height: 70%; top: calc(30% - 30px); background: #ffffff17; }
+#level_footer .content .block:before { position: absolute; content: ''; width: 1px; right: 0; height: 70%; top: calc(30% - 30px); background: #dadada; }
 #level_footer .content > .block:last-child { padding: 0; }
 #level_footer .content > .block:last-child:before { display: none; }
 #level_footer .content .block ul.soc_links { overflow: hidden; margin-bottom: 20px; }
@@ -94,19 +94,19 @@
 #level_footer .content .block .subscribe span:hover { cursor: pointer; text-decoration: underline; }
 
 /* For light sheme style */
+#level_footer.dark .text-copyright span.blue { color: #0048ff; }
 #level_footer.dark { background: #2e3035; color: #fff; }
 #level_footer.dark .content .block .a-link.phone a, #level_footer.dark .content .block i, #level_footer.dark .content .block .a-link.location i { color: #ffde00; }
     #level_footer.dark .content .block h2.widget-title,
     #level_footer.dark .subscribe span,
-    #level_footer.dark .text-copyright span.blue,
     #level_footer.dark .text-copyright { color: #fff; }
-#level_footer.dark .content .block::before { background: #dadada; }
+#level_footer.dark .content .block::before { background: #ffffff17;}
 #level_footer.dark .content .block a { color: #fff; }
 #level_footer.dark .content .block ul.soc_links li {  background: #ffde00; box-shadow: 0 0 6px 0 rgba(0,54,79,.35); }
 #level_footer.dark .content .block ul.soc_links li i { color: #2e3035; }
 
 .wp_queries { background: #f7f7f7;color: #595959;font-size: 11px; padding: 7px 0; }
-.wp_queries.light { background: #25262b; }
+.wp_queries.dark { background: #25262b; }
 /* End - For light sheme style */
 
 @media (max-width: 992px) {
