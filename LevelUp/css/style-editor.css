@@ -23,7 +23,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 .event-speacker .content .text { padding: 30px 70px; }
 .event-speacker .content .text h4.name { font-size: 28px; color: #0048ff; font-weight: 900; }
 .event-speacker .content .text span.position { font-size: 18px; color: 444444; font-weight: 600; display: block; margin: 10px 0 20px 0; }
-.event-speacker .content .text > p { font-size: 18px; color: 444444; }
+.event-speacker .content .text > p { font-size: 16px; color: 444444; }
 
 .single .entry-content h3 { color: #0048ff; font-weight: 900; }
 
