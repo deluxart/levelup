@@ -15,7 +15,7 @@ get_header(); ?>
 
 
 
-	<div id="content-news" class="content-area">
+	<div id="content-news" class="content-area editor-styles-wrapper">
 
 		<?php
 		// Start the loop.

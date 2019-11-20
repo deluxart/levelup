@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-.editor-styles-wrapper, .editor-post-title__block .editor-post-title__input { font-weight: 300; font-style: normal; line-height: normal; }
+.editor-styles-wrapper, .editor-post-title__block .editor-post-title__input { font-weight: 300; font-style: normal; line-height: normal; font-family: 'Montserrat'; }
 #content-news { width: 100%; }
 .editor-block-list__block > .editor-block-list__insertion-point { position: relative; top: 0; }
 .tc {text-align: center;}
@@ -70,7 +70,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 .editor-styles-wrapper p, .editor-styles-wrapper .mce-content-body, .editor-styles-wrapper p { line-height: 1.5 !important; }
 
 
-.editor-styles-wrapper strong, .editor-post-title__input { font-weight: 600; }
+.editor-styles-wrapper strong, .editor-post-title__input { font-weight: 600; font-family: 'Montserrat'; }
 .editor-post-title__input { color: #0048ff; }
 .editor-block-list__block dd, .editor-block-list__block li { margin: 0; }
 

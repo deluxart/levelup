@@ -8,30 +8,30 @@
 .single .block-widget .content-block a.news-title { font-size: 14px; color: #444444; font-weight: bold; }
 .single .block-lastartickles .content-block .catpost { display: grid; grid-template-columns: 60px 1fr; align-items: center; grid-column-gap: 20px; }
 
-.single #main h1 { font-weight: 900; font-size: 36px; color: #0048ff; }
-.single #main h2 { font-weight: 900; font-size: 32px; color: #0048ff; }
-.single #main h3 { font-weight: 900; font-size: 28px; color: #0048ff; }
-.single #main h4 { font-weight: 900; font-size: 24px; color: #0048ff; }
-.single #main h5 { font-weight: 900; font-size: 20px; color: #0048ff; }
-/* .single #main h6 {  } */
+.editor-styles-wrapper h1 { font-weight: 900; font-size: 36px; color: #0048ff; }
+.editor-styles-wrapper h2 { font-weight: 900; font-size: 32px; color: #0048ff; }
+.editor-styles-wrapper h3 { font-weight: 900; font-size: 28px; color: #0048ff; }
+.editor-styles-wrapper h4 { font-weight: 900; font-size: 24px; color: #0048ff; }
+.editor-styles-wrapper h5 { font-weight: 900; font-size: 20px; color: #0048ff; }
+/* .editor-styles-wrapper h6 {  } */
 
-.single #main .mt10 { margin-top: 10px; }
-.single #main .mt20 { margin-top: 20px; }
-.single #main .mt30 { margin-top: 30px; }
-.single #main .mt40 { margin-top: 40px; }
-.single #main .mt50 { margin-top: 50px; }
-.single #main .mt60 { margin-top: 60px; }
-.single #main .mt70 { margin-top: 70px; }
-.single #main .mt80 { margin-top: 80px; }
+.editor-styles-wrapper .mt10 { margin-top: 10px; }
+.editor-styles-wrapper .mt20 { margin-top: 20px; }
+.editor-styles-wrapper .mt30 { margin-top: 30px; }
+.editor-styles-wrapper .mt40 { margin-top: 40px; }
+.editor-styles-wrapper .mt50 { margin-top: 50px; }
+.editor-styles-wrapper .mt60 { margin-top: 60px; }
+.editor-styles-wrapper .mt70 { margin-top: 70px; }
+.editor-styles-wrapper .mt80 { margin-top: 80px; }
 
-.single #main .mb10 { margin-bottom: 10px; }
-.single #main .mb20 { margin-bottom: 20px; }
-.single #main .mb30 { margin-bottom: 30px; }
-.single #main .mb40 { margin-bottom: 40px; }
-.single #main .mb50 { margin-bottom: 50px; }
-.single #main .mb60 { margin-bottom: 60px; }
-.single #main .mb70 { margin-bottom: 70px; }
-.single #main .mb80 { margin-bottom: 80px; }
+.editor-styles-wrapper .mb10 { margin-bottom: 10px; }
+.editor-styles-wrapper .mb20 { margin-bottom: 20px; }
+.editor-styles-wrapper .mb30 { margin-bottom: 30px; }
+.editor-styles-wrapper .mb40 { margin-bottom: 40px; }
+.editor-styles-wrapper .mb50 { margin-bottom: 50px; }
+.editor-styles-wrapper .mb60 { margin-bottom: 60px; }
+.editor-styles-wrapper .mb70 { margin-bottom: 70px; }
+.editor-styles-wrapper .mb80 { margin-bottom: 80px; }
 
 #main { position: relative; z-index: 1; }
 body.single { position: relative; }
