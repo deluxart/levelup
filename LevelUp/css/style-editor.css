@@ -66,7 +66,8 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
     .event-speacker .content { grid-template-columns: 1fr; }
     .event-speacker .content img { margin: 0 auto; }
 
-    .single .block-widget .content-block, .single .block-widget .content-block { grid-template-columns: 1fr; }
+    .single .block-widget .content-block, .single .block-widget .content-block { grid-template-columns: 1fr; grid-row-gap: 30px; }
+    .single .block-widget .content-block img { margin-bottom: 0; }
 }
 
 
