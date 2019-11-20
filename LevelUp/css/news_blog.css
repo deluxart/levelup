@@ -8,6 +8,8 @@
 .single .block-widget .content-block a.news-title { font-size: 14px; color: #444444; font-weight: bold; }
 .single .block-lastartickles .content-block .catpost { display: grid; grid-template-columns: 60px 1fr; align-items: center; grid-column-gap: 20px; }
 
+.news_sidebar h2.widget-title { color: #003cff; font-size: 24px; font-weight: 700; margin-bottom: 20px; line-height: normal; }
+
 #main { position: relative; }
 body.single { position: relative; }
 body.single:before, body.single:after { position: absolute; content: ''; width: 50%; top: 0; height: 100%; z-index: -1; max-width: 500px; }
