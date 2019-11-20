@@ -36,7 +36,7 @@ span.tg-item-term.language { display: none !important; }
 .full_post .entry-header h1 { color: #0048ff; font-weight: 600; }
 .full_post .container { max-width: 940px; }
 .full_post #content-page { max-width: 100%; position: relative; }
-.full_post .content-area { padding-left: 0; padding-bottom: 0 !important; }
+.full_post .content-area { padding: 40px 0; }
 
 .single .content-area { overflow: visible; }
 .single .status-publish { background: none; box-shadow: none; border-radius: 0; margin-bottom: 0; overflow: visible; }

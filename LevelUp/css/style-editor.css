@@ -28,10 +28,10 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 /* Блок "Детали мероприятия" */
 .event-details { margin-bottom: 40px; ;}
 .event-details > h2 { text-align: center; }
-.event-details > .content { display: grid; grid-template-columns: repeat(3, 1fr); }
-.event-details > .content > div { display: grid; grid-template-columns: 90px 1fr; align-items: center; grid-column-gap: 30px; }
-.event-details > .content > div .details-icon { width: 90px; display: grid; align-items: center; height: 90px; border-radius: 50%; background-image: -moz-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -webkit-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -ms-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); }
-.event-details > .content > div .details-icon svg { fill: #fff; width: 34px; display: block; margin: 0 auto; }
+.event-details > .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-column-gap: 30px; }
+.event-details > .content > div { display: grid; grid-template-columns: 72px 1fr; align-items: center; grid-column-gap: 30px; }
+.event-details > .content > div .details-icon { width: 72px; display: grid; align-items: center; height: 72px; border-radius: 50%; background-image: -moz-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -webkit-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -ms-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); }
+.event-details > .content > div .details-icon svg { fill: #fff; width: 30px; display: block; margin: 0 auto; }
 
 /* Партнеры мероприятия */
 .news-partners { margin-bottom: 20px; display: grid; grid-gap: 20px; }
