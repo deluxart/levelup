@@ -27,7 +27,6 @@ span.tg-item-term.language { display: none !important; }
 .posts_page .news-slider-top .container { padding: 0; }
 .single .status-publish .entry-content { padding: 0; font-family: 'Gilroy'; font-weight: 300; font-style: normal; font-size: 19px; }
 .single .status-publish .entry-header, .posts_page .head h1 { font-family: 'Gilroy'; font-weight: 600; }
-.full_post strong, .full_post .entry-header h1 { font-family: 'Gilroy'; font-weight: 600; }
 
 .entry-header ul.tag { margin: 0; padding: 0; position: relative; top: -10px; font-weight: normal; left: 0; }
 .entry-header ul.tag li { display: inline-block; padding: 0; margin: 0; font-size: 12px; color: #9e9e9e; padding: 0 13px; font-style: italic; position: relative; }
