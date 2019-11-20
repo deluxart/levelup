@@ -22,3 +22,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .single .block-widget .content-block a.news-title { font-size: 14px; color: #444444; font-weight: bold; }
 
 .single .block-lastartickles .content-block .catpost { display: grid; grid-template-columns: 60px 1fr; align-items: center; grid-column-gap: 20px; }
+
+
+#main { position: relative; z-index: 1; }
+body.single { position: relative; }
+body.single:before, body.single:after { position: absolute; content: ''; width: 50%; top: 0; height: 100%; z-index: 0; }
+
+body.single:before { left: 0; background: url(https://levelup.ua/wp-content/uploads/2019/11/news_p_left.png); background-size: contain; }
+body.single:after { right: 0; background: url(https://levelup.ua/wp-content/uploads/2019/11/news_p_right.png); background-size: contain; }
