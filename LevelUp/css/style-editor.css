@@ -27,7 +27,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 
 /* Блок "Детали мероприятия" */
 .event-details { margin-bottom: 50px; ;}
-.event-details > h2 { text-align: center; }
+.event-details > h2 { text-align: center; margin-bottom: 40px; }
 .event-details > .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-column-gap: 30px; }
 .event-details > .content > div { display: grid; grid-template-columns: 72px 1fr; align-items: center; grid-column-gap: 30px; }
 .event-details > .content > div .details-icon { width: 72px; display: grid; align-items: center; height: 72px; border-radius: 50%; background-image: -moz-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -webkit-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -ms-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); }
