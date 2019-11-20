@@ -890,6 +890,12 @@ pll_register_string('last_news', 'last_news');
 // * Вы так-же в любой момент с легкостью сможете отписаться от нашей рассылки
 pll_register_string('unsubscribe_info', 'unsubscribe_info');
 
+// Найближчі івенти та новини
+pll_register_string('events_widget_title', 'events_widget_title');
+
+// Вам можуть бути цікаві ці статті
+pll_register_string('articles_widget_title', 'articles_widget_title');
+
 
 pll_register_string('Previous page', 'Previous page');
 pll_register_string('Next page', 'Next page');

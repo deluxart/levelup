@@ -36,7 +36,7 @@ get_header(); ?>
 
 <div class="block-lastnews block-widget">
     <div class="title-block">
-        <h4>Найближчі івенти та новини</h4>
+        <h4><?php pll_e('events_widget_title','LevelUp'); ?></h4>
     </div>
     <div class="content-block">
         <?php echo do_shortcode('[cat-posts category="news" posts="3" orderby="date" order="DESC"]'); ?>
@@ -46,7 +46,7 @@ get_header(); ?>
 
 <div class="block-lastartickles block-widget">
     <div class="title-block">
-        <h4>Вам можуть бути цікаві ці статті</h4>
+        <h4><?php pll_e('articles_widget_title','LevelUp'); ?></h4>
     </div>
     <div class="content-block">
         <?php echo do_shortcode('[cat-posts category="blog" posts="3" orderby="date" order="DESC"]'); ?>
