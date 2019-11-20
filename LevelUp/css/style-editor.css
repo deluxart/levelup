@@ -26,6 +26,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 .event-speacker .content .text > p { font-size: 16px; color: 444444; }
 
 /* Блок "Детали мероприятия" */
+.event-details { margin-bottom: 40px; ;}
 .event-details > h2 { text-align: center; }
 .event-details > .content { display: grid; grid-template-columns: repeat(3, 1fr); }
 .event-details > .content > div { display: grid; grid-template-columns: 90px 1fr; align-items: center; grid-column-gap: 30px; }
