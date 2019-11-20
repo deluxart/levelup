@@ -10,7 +10,7 @@ section#reg-offer-two, #loyality { display: none !important; }
 
 
 .modal.show .modal-dialog, .modal-content { z-index: 99999; }
-body .modal-backdrop { z-index: 300; }
+/* body .modal-backdrop { z-index: 300; } */
 section.archive .posts_page .content > .news .list { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px; }
 section.archive .posts_page.no-cat-name { padding-top: 30px; }
 .page-title h2 { line-height: normal; }
