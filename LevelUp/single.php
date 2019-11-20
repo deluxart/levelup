@@ -34,7 +34,7 @@ get_header(); ?>
 
 
 
-<div class="block-lastnews">
+<div class="block-lastnews block-widget">
     <div class="title-block">
         <h4>Найближчі івенти та новини</h4>
     </div>
@@ -44,7 +44,7 @@ get_header(); ?>
 </div>
 
 
-<div class="block-lastartickles">
+<div class="block-lastartickles block-widget">
     <div class="title-block">
         <h4>Вам можуть бути цікаві ці статті</h4>
     </div>
