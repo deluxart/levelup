@@ -1,10 +1,44 @@
-
-h2.entry-title { letter-spacing: normal; }
-
 .tg-grid-area-bottom1 { margin-top: 20px; }
-.entry-header ul.tag {
-  font-family: 'Gilroy';
-}
+
+
+.single .block-lastnews { margin-bottom: 50px; }
+.single .block-widget h4 { color: #003cff; font-size: 24px; font-weight: bold; margin-bottom: 20px; line-height: normal; }
+.single .block-widget .content-block { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 20px; }
+.single .block-widget .content-block img { display: block; border-radius: 10px; margin-bottom: 10px; }
+.single .block-widget .content-block a.news-title { font-size: 14px; color: #444444; font-weight: bold; }
+.single .block-lastartickles .content-block .catpost { display: grid; grid-template-columns: 60px 1fr; align-items: center; grid-column-gap: 20px; }
+
+.single #main h1 { font-weight: 900; font-size: 36px; color: #0048ff; }
+.single #main h2 { font-weight: 900; font-size: 32px; color: #0048ff; }
+.single #main h3 { font-weight: 900; font-size: 28px; color: #0048ff; }
+.single #main h4 { font-weight: 900; font-size: 24px; color: #0048ff; }
+.single #main h5 { font-weight: 900; font-size: 20px; color: #0048ff; }
+/* .single #main h6 {  } */
+
+.single #main .mt10 { margin-top: 10px; }
+.single #main .mt20 { margin-top: 20px; }
+.single #main .mt30 { margin-top: 30px; }
+.single #main .mt40 { margin-top: 40px; }
+.single #main .mt50 { margin-top: 50px; }
+.single #main .mt60 { margin-top: 60px; }
+.single #main .mt70 { margin-top: 70px; }
+.single #main .mt80 { margin-top: 80px; }
+
+.single #main .mb10 { margin-bottom: 10px; }
+.single #main .mb20 { margin-bottom: 20px; }
+.single #main .mb30 { margin-bottom: 30px; }
+.single #main .mb40 { margin-bottom: 40px; }
+.single #main .mb50 { margin-bottom: 50px; }
+.single #main .mb60 { margin-bottom: 60px; }
+.single #main .mb70 { margin-bottom: 70px; }
+.single #main .mb80 { margin-bottom: 80px; }
+
+#main { position: relative; z-index: 1; }
+body.single { position: relative; }
+body.single:before, body.single:after { position: absolute; content: ''; width: 50%; top: 0; height: 100%; z-index: 0; max-width: 500px; }
+
+body.single:before { left: 0; background: url(https://levelup.ua/wp-content/uploads/2019/11/news_p_left.png) left no-repeat; background-size: contain; }
+body.single:after { right: 0; background: url(https://levelup.ua/wp-content/uploads/2019/11/news_p_right.png) right no-repeat; background-size: contain; }
 
 span.tg-item-term.language { display: none !important; }
 .tg-cats-holder > span:last-child:not(.category) { display: none !important; }
