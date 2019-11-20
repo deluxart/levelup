@@ -22,7 +22,23 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .single .block-widget .content-block a.news-title { font-size: 14px; color: #444444; font-weight: bold; }
 .single .block-lastartickles .content-block .catpost { display: grid; grid-template-columns: 60px 1fr; align-items: center; grid-column-gap: 20px; }
 
+.single .entry-content .mt10 { margin-top: 10px; }
+.single .entry-content .mt20 { margin-top: 20px; }
+.single .entry-content .mt30 { margin-top: 30px; }
+.single .entry-content .mt40 { margin-top: 40px; }
+.single .entry-content .mt50 { margin-top: 50px; }
+.single .entry-content .mt60 { margin-top: 60px; }
+.single .entry-content .mt70 { margin-top: 70px; }
+.single .entry-content .mt80 { margin-top: 80px; }
 
+.single .entry-content .mb10 { margin-bottom: 10px; }
+.single .entry-content .mb20 { margin-bottom: 20px; }
+.single .entry-content .mb30 { margin-bottom: 30px; }
+.single .entry-content .mb40 { margin-bottom: 40px; }
+.single .entry-content .mb50 { margin-bottom: 50px; }
+.single .entry-content .mb60 { margin-bottom: 60px; }
+.single .entry-content .mb70 { margin-bottom: 70px; }
+.single .entry-content .mb80 { margin-bottom: 80px; }
 
 #main { position: relative; z-index: 1; }
 body.single { position: relative; }

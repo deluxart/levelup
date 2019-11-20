@@ -123,7 +123,7 @@ h3 { font-size: 36px; font-weight: 400; font-family: 'Montserrat'; line-height: 
 
 
 /*Форма регистрации*/
-.post-form-block { text-align: center; background: #fff; box-shadow: 0px 35px 63.05px 1.95px rgba(69, 69, 69, 0.18); border-radius: 10px; transition: box-shadow .5s ease-out; padding: 30px 20px;}
+.post-form-block { text-align: center; background: #fff; box-shadow: 0px 35px 63.05px 1.95px rgba(69, 69, 69, 0.18); border-radius: 10px; transition: box-shadow .5s ease-out; padding: 30px 20px; margin-bottom: 30px; }
 .post-form-block.blue {background: #0048ff;color: #fff;}
 .post-form-block .content {padding: 0 20px;}
 .post-form-block p {padding: 0;}
@@ -189,7 +189,7 @@ div[class^="wp-block-block-lab-"] .block-form { background: #fff; border: 5px so
 .block-quote-two::before { border-top: 1px solid #0048ff; width: 30%; content: ''; display: inline-block; padding-bottom: 15px; position: absolute; left: 50%; transform: translateX(-50%); top: 0; }
 .block-quote-two::after { border-top: 1px solid #0048ff; width: 30%; content: ''; display: inline-block; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; }
 
-.single-post .entry-content > p, .editor-block-list__layout .editor-block-list__block { margin-bottom: 15px; }
+.single-post .entry-content > p, .editor-block-list__layout .editor-block-list__block { margin-bottom: 30px; }
 
 ul.arrows3 { margin: 0 0 30px 0 !important; padding: 0 !important; list-style: none !important; line-height: normal !important; }
 ul.arrows3 li { position: relative; padding: 5px 26px; }

@@ -1,4 +1,4 @@
-<div class="post-form-block <?php block_field( 'block-color' ); ?>" id="open-reg" style="margin-bottom: <?php block_field( 'margin-bottom' ); ?>px">
+<div class="post-form-block <?php block_field( 'block-color' ); ?>" id="open-reg">
 	<div id="google">
 	<div id="fb">
 		<div id="mail">
