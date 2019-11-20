@@ -35,9 +35,6 @@
 .editor-styles-wrapper .mb70 { margin-bottom: 70px; }
 .editor-styles-wrapper .mb80 { margin-bottom: 80px; }
 
-
-
-
 /* Для новго дизайна */
 ul.list { margin-bottom: 30px; display: grid; grid-gap: 18px; }
 ul.list.col2 { grid-template-columns: 1fr 1fr; grid-column-gap: 50px; }
@@ -61,6 +58,17 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 .event-details > .content > div p { margin: 0; line-height: 1.5 !important; }
 .event-details > .content > div .details-icon { width: 72px; display: grid; align-items: center; height: 72px; border-radius: 50%; background-image: -moz-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -webkit-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -ms-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); }
 .event-details > .content > div .details-icon svg { fill: #fff; width: 30px; display: block; margin: 0 auto; }
+
+@media (max-width: 992px) {
+    .event-details > .content { grid-template-columns: 1fr; grid-row-gap: 30px; }
+    .event-details { margin-bottom: 50px; position: relative; left: 50%; transform: translateX(-50%); display: inline-block; }
+
+    .event-speacker .content { grid-template-columns: 1fr; }
+    .event-speacker .content img { margin: 0 auto; }
+
+    .single .block-widget .content-block, .single .block-widget .content-block { grid-template-columns: 1fr; }
+}
+
 
 /* Партнеры мероприятия */
 .news-partners { margin-bottom: 20px; display: grid; grid-gap: 20px; }

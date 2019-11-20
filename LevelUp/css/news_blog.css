@@ -10,7 +10,7 @@
 
 #main { position: relative; }
 body.single { position: relative; }
-body.single:before, body.single:after { position: absolute; content: ''; width: 50%; top: 0; height: 100%; z-index: 0; max-width: 500px; }
+body.single:before, body.single:after { position: absolute; content: ''; width: 50%; top: 0; height: 100%; z-index: -1; max-width: 500px; }
 
 body.single:before { left: 0; background: url(https://levelup.ua/wp-content/uploads/2019/11/news_p_left.png) left no-repeat; background-size: contain; }
 body.single:after { right: 0; background: url(https://levelup.ua/wp-content/uploads/2019/11/news_p_right.png) right no-repeat; background-size: contain; }
