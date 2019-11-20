@@ -31,7 +31,6 @@ span.tg-item-term.language { display: none !important; }
 .entry-header ul.tag li span i { padding-right: 7px; }
 
 .full_post { width: 100%; padding: 0; }
-.full_post h2 { letter-spacing: normal; font-size: 14px !important; text-transform: uppercase; letter-spacing: 2.4px; padding-bottom: 18px; color: #0048ff; }
 .full_post .news_sidebar { padding: 25px 0 35px 0; }
 .full_post .entry-header { text-align: center; }
 .full_post .entry-header h1 { color: #0048ff; font-weight: 600; }
