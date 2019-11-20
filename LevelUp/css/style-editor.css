@@ -10,7 +10,7 @@
 .column5 { display: grid; grid-template-columns: repeat(5, 1fr); grid-column-gap: 20px; }
 .column5 img { box-shadow: 5px 15px 34px #0003; }
 
-.editor-styles-wrapper h1 { font-weight: 900; font-size: 36px; color: #0048ff; margin: 0 0 30px 0; padding: 0; line-height: normal; }
+.editor-styles-wrapper h1 { font-weight: 900; font-size: 36px; color: #0048ff; margin: 0; padding: 0; line-height: normal; }
 .editor-styles-wrapper h2 { font-weight: 900; font-size: 32px; color: #0048ff; margin: 0 0 30px 0; padding: 0; line-height: normal; }
 .editor-styles-wrapper h3 { font-weight: 900; font-size: 28px; color: #0048ff; margin: 0 0 30px 0; padding: 0; line-height: normal; }
 .editor-styles-wrapper h4 { font-weight: 900; font-size: 24px; color: #0048ff; margin: 0 0 30px 0; padding: 0; line-height: normal; }
@@ -58,6 +58,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 .event-details > .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-column-gap: 30px; }
 .event-details > .content > div { display: grid; grid-template-columns: 72px 1fr; align-items: center; grid-column-gap: 30px; }
 .event-details > .content > div h5 { margin: 0; }
+.event-details > .content > div p { margin: 0; line-height: 1.5 !important; }
 .event-details > .content > div .details-icon { width: 72px; display: grid; align-items: center; height: 72px; border-radius: 50%; background-image: -moz-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -webkit-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); background-image: -ms-linear-gradient( 180deg, rgb(137,37,251) 1%, rgb(20,118,251) 100%); }
 .event-details > .content > div .details-icon svg { fill: #fff; width: 30px; display: block; margin: 0 auto; }
 
