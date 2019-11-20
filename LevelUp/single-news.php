@@ -34,6 +34,9 @@ get_header(); ?>
 
 
 
+
+
+
 		<?php $tags = wp_get_post_tags($post->ID);
 		if ($tags) {
 		$tag_ids = array();
