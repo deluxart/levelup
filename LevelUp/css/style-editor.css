@@ -142,6 +142,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 /*Форма регистрации*/
 .post-form-block { text-align: center; background: #fff; box-shadow: 0px 35px 63.05px 1.95px rgba(69, 69, 69, 0.18); border-radius: 10px; transition: box-shadow .5s ease-out; padding: 30px 20px; margin-bottom: 30px; }
 .post-form-block.blue {background: #0048ff;color: #fff;}
+.post-form-block .content > h2 { margin-bottom: 40px; }
 .post-form-block .content {padding: 0 20px;}
 .post-form-block p {padding: 0;}
 .post-form-block .classic-btn {text-align: center;}
