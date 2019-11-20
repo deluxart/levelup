@@ -15,7 +15,7 @@ get_header(); ?>
 
 
 
-	<div id="content-news" class="course content-area 222">
+	<div id="content-news" class="content-area">
 
 		<?php
 		// Start the loop.
