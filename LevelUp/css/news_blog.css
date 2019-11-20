@@ -27,8 +27,8 @@ span.tg-item-term.language { display: none !important; }
 .single .status-publish .post-image span { display: none; }
 .posts_page .news-slider-top { margin-bottom: 30px; }
 .posts_page .news-slider-top .container { padding: 0; }
-.single .status-publish .entry-content { padding: 0; font-family: 'Gilroy'; font-weight: 300; font-style: normal; font-size: 19px; }
-.single .status-publish .entry-header, .posts_page .head h1 { font-family: 'Gilroy'; font-weight: 600; }
+.single .status-publish .entry-content { padding: 0; font-weight: 300; font-style: normal; font-size: 19px; }
+.single .status-publish .entry-header, .posts_page .head h1 {  font-weight: 600; }
 
 .entry-header ul.tag { margin: 0; padding: 0; position: relative; top: -10px; font-weight: normal; left: 0; }
 .entry-header ul.tag li { display: inline-block; padding: 0; margin: 0; font-size: 12px; color: #9e9e9e; padding: 0 13px; font-style: italic; position: relative; }
@@ -102,9 +102,9 @@ span.tg-item-term.language { display: none !important; }
 .posts_page .content { font-weight: 600; }
 .posts_page .container > .content .news .tg-item { border-radius: 0px; overflow: hidden; box-shadow: none; }
 .posts_page .container > .content .news .tg-maren-new .tg-element-3 { padding-top: 0; padding-bottom: 0px; line-height: normal; }
-.srpw-meta, .wp-tag-cloud li a { font-family: 'Gilroy'; font-weight: 300; font-style: normal; }
+.srpw-meta, .wp-tag-cloud li a { font-weight: 300; font-style: normal; }
 .tg-txt .tg-nav-font { font-weight: normal; }
-.posts_page .container > .content .news .tg-item-content-holder { background: none !important; font-family: 'Gilroy'; font-weight: 300; font-style: normal; }
+.posts_page .container > .content .news .tg-item-content-holder { background: none !important;font-weight: 300; font-style: normal; }
 .posts_page .content .news .tg-maren-new .tg-item-content-holder[data-position="bottom"] { padding: 15px 0 0 0; min-height: 95px; }
 .posts_page .content .news .tg-item-title.tg-element-3 a { font-size: 18px; color: #010101 !important; line-height: 1.2; text-transform: none; font-weight: 600;  }
 .posts_page .content .news img.tg-item-image { border-radius: 0px; }
