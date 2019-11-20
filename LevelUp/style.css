@@ -17,5 +17,5 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .single .block-lastnews .content-block { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 20px; }
 .single .block-lastartickles .content-block { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 20px; }
 
-.single .block-lastnews .content-block img { display: block; border-radius: 10px; }
-.single .content-block a.news-title { font-size: 14px; color: #444444; }
+.single .block-lastnews .content-block img { display: block; border-radius: 10px; margin-bottom: 10px; }
+.single .content-block a.news-title { font-size: 14px; color: #444444; font-weight: bold; }
