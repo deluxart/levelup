@@ -104,7 +104,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 .editor-block-list__block dd, .editor-block-list__block li { margin: 0; }
 
 
-.wp-block { max-width: 795px !important }
+.wp-block { max-width: 910px !important }
 
 .has-smargt-blue-color, .has-level-up-blue-color { color: #0048ff; }
 .has-level-up-pink-color { color: #ff1569; padding: 0 !important; }
