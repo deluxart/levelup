@@ -3,7 +3,7 @@
 	<div id="fb">
 		<div id="mail">
 		<div class="content">
-				<div class="post-form-title"><?php block_field( 'title' ); ?></div>
+				<h2><?php block_field( 'title' ); ?></h2>
 						<div class="post-form-reg">
 							<div class="post-tel-reg">
 								<p class="post-tel-reg-title"><?php block_field( 'phones-title' ); ?></p>
