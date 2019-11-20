@@ -67,9 +67,11 @@ function rmcc_post_cats_parameters_shortcode( $atts ) {
     $query = new WP_Query( $options );
     if ( $query->have_posts() ) { ?>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+
                 <?php
                     get_template_part( 'template-parts/posts', get_post_format() );
                  ?>
+
             <?php endwhile;
             posts_nav_link();
             wp_reset_postdata(); ?>
