@@ -96,6 +96,7 @@
 /* For light sheme style */
 #level_footer.dark .text-copyright span.blue { color: #0048ff; }
 #level_footer.dark { background: #2e3035; color: #fff; }
+#level_footer.dark .content .block ul.soc_links li { background: #ffde00; }
 #level_footer.dark .content .block .a-link.phone a, #level_footer.dark .content .block i, #level_footer.dark .content .block .a-link.location i { color: #ffde00; }
     #level_footer.dark .content .block h2.widget-title,
     #level_footer.dark .subscribe span,
