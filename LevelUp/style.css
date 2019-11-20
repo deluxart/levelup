@@ -20,8 +20,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .single .block-widget .content-block { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 20px; }
 .single .block-widget .content-block img { display: block; border-radius: 10px; margin-bottom: 10px; }
 .single .block-widget .content-block a.news-title { font-size: 14px; color: #444444; font-weight: bold; }
-
 .single .block-lastartickles .content-block .catpost { display: grid; grid-template-columns: 60px 1fr; align-items: center; grid-column-gap: 20px; }
+
 
 
 #main { position: relative; z-index: 1; }
