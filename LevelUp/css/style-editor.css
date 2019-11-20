@@ -258,13 +258,7 @@ ul.num li:last-child { padding-bottom: 0; }
 
 
 
-.editor-post-title__block .editor-post-title__input {
-    padding: 0 35px;
-    margin-bottom: 40px;
-    font-weight: 600;
-    color: #0048ff;
-    text-align: center;
-}
+.editor-post-title__block .editor-post-title__input { padding: 0 35px; margin-bottom: 40px; font-weight: 900; color: #0048ff; text-align: center; }
 
 
 .block-speaker-lab, .block-speakers-lab { text-align: center; }
