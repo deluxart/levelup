@@ -1,4 +1,4 @@
-<div class="event-details" style="margin-bottom: <?php block_field( 'margin-bottom' ); ?>px">
+<div class="event-details">
     <h2><?php block_field( 'block-name' ); ?></h2>
     <div class="content">
         <div>
