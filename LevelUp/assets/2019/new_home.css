@@ -35,7 +35,7 @@ body.home footer#level_footer.light .subscribe span { color: #ffde00; }
 .posts_page div.asl_w .probox .promagnifier .innericon svg { fill: #003cff; }
 .posts_page .content .news img.tg-item-image { border-radius: 5px; }
 
-#main { padding-top: 90px; position: relative; z-index: 1; }
+#main { padding-top: 90px; position: relative; }
 #main.light { padding-top: 0; }
 
 #header { height: auto; padding: 0 30px; background-image: -moz-linear-gradient(180deg, #000cff 0%, #6c00ff 100%); background-image: -webkit-linear-gradient(180deg, #000cff 0%, #6c00ff 100%); background-image: -ms-linear-gradient(180deg, #000cff 0%, #6c00ff 100%); }
