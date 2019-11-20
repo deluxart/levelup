@@ -10,16 +10,16 @@ body.home .wp_queries.light { background: #0041ee; color: #fff; }
 body.home footer#level_footer { background: #0045ff !important; color: #fff; }
 body.home footer#level_footer .text-copyright { color: #fff; }
 body.home footer#level_footer .text-copyright span.blue { color: #ffde00; }
-body.home footer#level_footer.light { color: #fff; }
-body.home footer#level_footer.light .content .block ul.soc_links li { background: #ffde00; }
-body.home footer#level_footer.light .content .block ul.soc_links li a i { color: #0045ff; }
-body.home footer#level_footer.light .content .block ul.footer-links li a { color: #fff; }
-body.home footer#level_footer.light .content .block a, body.home footer#level_footer.light .content .block i { color: #ffde00; }
-body.home footer#level_footer.light .content .block h2.widget-title { color: #fff; }
-body.home footer#level_footer.light .content .block:before { background: #ffffff1a; }
-body.home footer#level_footer.light .content .block .a-link.phone a { color: #ffde00; }
-body.home footer#level_footer.light .content .block .a-link.location i { color: #ffde00; }
-body.home footer#level_footer.light .subscribe span { color: #ffde00; }
+body.home footer#level_footer.dark { color: #fff; }
+body.home footer#level_footer.dark .content .block ul.soc_links li { background: #ffde00; }
+body.home footer#level_footer.dark .content .block ul.soc_links li a i { color: #0045ff; }
+body.home footer#level_footer.dark .content .block ul.footer-links li a { color: #fff; }
+body.home footer#level_footer.dark .content .block a, body.home footer#level_footer.dark .content .block i { color: #ffde00; }
+body.home footer#level_footer.dark .content .block h2.widget-title { color: #fff; }
+body.home footer#level_footer.dark .content .block:before { background: #ffffff1a; }
+body.home footer#level_footer.dark .content .block .a-link.phone a { color: #ffde00; }
+body.home footer#level_footer.dark .content .block .a-link.location i { color: #ffde00; }
+body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 
 .page-title { padding: 90px 0; }
 .page-title h2 { font-size: 72px; font-weight: 900; color: #003cff; }
