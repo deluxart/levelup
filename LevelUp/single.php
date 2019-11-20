@@ -39,7 +39,7 @@ get_header(); ?>
         <h4>Найближчі івенти та новини</h4>
     </div>
     <div class="content-block">
-        <?php echo do_shortcode('[cat-posts category="news" posts="5" orderby="date" order="DESC"]'); ?>
+        <?php echo do_shortcode('[cat-posts category="news" posts="3" orderby="date" order="DESC"]'); ?>
     </div>
 </div>
 
@@ -49,7 +49,7 @@ get_header(); ?>
         <h4>Вам можуть бути цікаві ці статті</h4>
     </div>
     <div class="content-block">
-        <?php echo do_shortcode('[cat-posts category="blog" posts="5" orderby="date" order="DESC"]'); ?>
+        <?php echo do_shortcode('[cat-posts category="blog" posts="3" orderby="date" order="DESC"]'); ?>
     </div>
 </div>
 
