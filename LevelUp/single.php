@@ -33,45 +33,27 @@ get_header(); ?>
 
 
 
+<div class="block-lastnews">
+    <div class="title-block">
+        <h4>Найближчі івенти та новини</h4>
+    </div>
+    <div class="content-block">
+        <?php echo do_shortcode('[list-posts category="news" posts="5" orderby="date" order="DESC"]'); ?>
+    </div>
+</div>
 
-		<?php $tags = wp_get_post_tags($post->ID);
-		if ($tags) {
-		$tag_ids = array();
-		foreach($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
-		$args=array(
-			'tag__in' => $tag_ids,
-			'orderby' => rand,
-			'caller_get_posts' => 1,
-			'post__not_in' => array($post->ID),
-			'showposts' => 3
-		);
-		$my_query = new wp_query($args);
-		if( $my_query->have_posts() ) {
-		echo '<div class="related_posts">';
-		echo '<div class="container">';
-		echo '<h2 class="widget-title">Похожие записи:</h3>';
-		echo '<ul>';
-		while ($my_query->have_posts()) {
-		$my_query->the_post();
-		?>
-		<li>
-			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-				<div class="post-thumb"><?php the_post_thumbnail(); ?></div>
-				<div>
-					<?php the_title(); ?>
-					<span class="date_publ"><?php the_date(); ?></span>
-				</div>
-			</a>
-		</li>
-		<?php
-		}
-		echo '</ul>';
-		echo '</div>';
-		echo '</div>';
-		}
-		wp_reset_query();
-		}
-		?>
+
+<div class="block-lastartickles">
+    <div class="title-block">
+        <h4>Вам можуть бути цікаві ці статті</h4>
+    </div>
+    <div class="content-block">
+        <?php echo do_shortcode('[list-posts category="blog" posts="5" orderby="date" order="DESC"]'); ?>
+    </div>
+</div>
+
+
+
 
 
 <div class="news_sidebar">
