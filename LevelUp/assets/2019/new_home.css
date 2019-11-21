@@ -503,7 +503,7 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
   #header.multilang .content .lang-btn .lang-block { display: none; }
   .lvl2019 #trust_us .slick-slide { padding: 0; }
   .lvl2019 #trust_us .slick-prev, .lvl2019 #trust_us .slick-next { bottom: -52px; }
-  .lvl2019 #trust_us .content .image .text-img { box-shadow: none; font-size: 16px; }
+  .lvl2019 #trust_us .content .image .text-img { box-shadow: none; font-size: 16px; padding: 15px; }
   .lvl2019 #professions .content .course_card .back ul.course-info > li i { padding-top: 2px; }
   .lvl2019 #what_do_you_get .content figure.block h4 { padding: 0 20px; }
   .lvl2019 #what_do_you_get .content figure.block p { padding: 20px; font-size: 14px; }
