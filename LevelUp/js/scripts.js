@@ -515,7 +515,7 @@ var desc_short = function () {
   // Сокращение заголовков у новостей
 
 
-jQuery('#courses_schedulle_tbl tr').each(function() {
+jQuery('#courses_schedulle_tbl tr, .open-courses .container .course-block').each(function() {
     var course_line_id = jQuery(this).attr('data-id');
 
     if (course_line_id == 1) {
