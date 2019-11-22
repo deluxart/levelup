@@ -48,7 +48,7 @@ function open_courses_listing_parameters_shortcode( $atts ) {
         'orderby'			=> 'meta_value',
         // 'order' => $args['order'],
         // 'orderby' => $args['orderby'],
-        'order'				=> 'DESC',
+        'order'				=> 'ASC',
         'posts_per_page' => $args['posts']
     );
 
