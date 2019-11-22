@@ -39,8 +39,6 @@ function open_courses_listing_parameters_shortcode( $atts ) {
         // 'order' => 'date',
         // 'orderby' => 'title',
         'posts' => -1,
-        'color' => '',
-        'category' => '',
         // 'post_status' => 'publish',
         'public'   => true,
     ), $atts );
@@ -48,9 +46,7 @@ function open_courses_listing_parameters_shortcode( $atts ) {
         'post_type' => $args['type'],
         // 'order' => $args['order'],
         // 'orderby' => $args['orderby'],
-        'posts_per_page' => $args['posts'],
-        'category_name' => $args['category'],
-        'post_status' => 'publish'
+        'posts_per_page' => $args['posts']
     );
 
     $query = new WP_Query( $options );
