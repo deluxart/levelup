@@ -30,7 +30,14 @@
 		<div class="price">
 			<span class="title">Цена:</span>
 			<p><?php the_field( 'price_before' ); ?></p>
-			<h5><?php the_field( 'stoimost' ); ?><span><?php the_field( 'znachenie_czeny' ); ?></span></h5>
+			<h5><?php the_field( 'stoimost' ); ?>
+
+            <?php if ( get_field( 'znachenie_czeny' ) == 'grn_za_kurs' ) { ?>
+                <span class="price-block"><?php the_field( 'znachenie_czeny' ); ?></span>
+            <?php } else { ?>
+                <span class="price-block"><?php the_field( 'znachenie_czeny' ); ?></span>
+            <?php } ?>
+            </h5>
 		</div>
 		<a href="<?php the_field( 'vybrat_kurs' ); ?>" class="more-link">
 			<span>Подробнее</span>
