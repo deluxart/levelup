@@ -30,7 +30,42 @@ function lvl_course_shortcodes() {
 
 
 
+// Для блока с последними новостями на главной
+add_shortcode( 'list-open-courses', 'open_courses_listing_parameters_shortcode' );
+function open_courses_listing_parameters_shortcode( $atts ) {
+    ob_start();
+    $args = shortcode_atts( array (
+        'type' => 'levelup_courses',
+        // 'order' => 'date',
+        // 'orderby' => 'title',
+        'posts' => -1,
+        'color' => '',
+        'category' => '',
+        // 'post_status' => 'publish',
+        'public'   => true,
+    ), $atts );
+    $options = array(
+        'post_type' => $args['type'],
+        // 'order' => $args['order'],
+        // 'orderby' => $args['orderby'],
+        'posts_per_page' => $args['posts'],
+        'category_name' => $args['category'],
+        'post_status' => 'publish'
+    );
 
+    $query = new WP_Query( $options );
+    if ( $query->have_posts() ) { ?>
+            <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+                <?php
+                    get_template_part( 'template-parts/open-courses', get_post_format() );
+                 ?>
+            <?php endwhile;
+            wp_reset_postdata(); ?>
+    <?php $myvariable = ob_get_clean();
+    return $myvariable;
+    }
+}
+// Для блока с последними новостями на главной
 
 
     // add_filter( 'manage_edit-course-programs_columns', 'my_edit_programs_columns' ) ;
