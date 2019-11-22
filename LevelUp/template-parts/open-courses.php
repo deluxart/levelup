@@ -32,7 +32,7 @@
 			<p><?php the_field( 'price_before' ); ?></p>
 			<h5><?php the_field( 'stoimost' ); ?>
 
-            <?php if ( get_field( 'znachenie_czeny' ) == 'grn_za_kurs' ) { ?>
+            <?php if ( get_field( 'znachenie_czeny' ) == 'грн за курс' ) { ?>
                 <span class="price-block"><?php the_field( 'znachenie_czeny' ); ?></span>
             <?php } else { ?>
                 <span><?php the_field( 'znachenie_czeny' ); ?></span>
