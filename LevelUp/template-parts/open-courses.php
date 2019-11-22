@@ -15,7 +15,7 @@
 ?>
 
 
-<?php if ( get_field( 'otobrazhenie' ) == 1 ) { ?>
+<?php if ( get_field( 'otobrazhenie' ) == 0 ) { ?>
 
 
 <div class="course-block" id="course-<?php the_ID(); ?>">
