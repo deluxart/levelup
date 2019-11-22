@@ -299,6 +299,17 @@ require get_template_directory() . '/inc/course-programs.php';
 
 
 
+
+add_action('admin_head', 'levelup_courses_css');
+function levelup_courses_css() {
+    global $post_type;
+    if ((isset($_GET['post_type']) && $_GET['post_type'] == 'levelup_courses') || (isset($post_type) && $post_type == 'levelup_courses')) :
+        wp_enqueue_style( 'levelup_courses-styles', get_template_directory_uri() . '/assets/2019/course-shortcodes.css', array(), '3.2' );
+    endif;
+}
+
+
+
 // function LevelUp_resource_hints( $urls, $relation_type ) {
 // 	if ( wp_style_is( 'LevelUp-fonts', 'queue' ) && 'preconnect' === $relation_type ) {
 // 		if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '>=' ) ) {
