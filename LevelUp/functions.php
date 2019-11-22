@@ -294,6 +294,7 @@ require get_template_directory() . '/inc/custom-shortcodes.php';
 require get_template_directory() . '/inc/options_event-modal.php';
 
 require get_template_directory() . '/inc/teachers.php';
+require get_template_directory() . '/inc/course-shortcodes.php';
 require get_template_directory() . '/inc/course-programs.php';
 
 
