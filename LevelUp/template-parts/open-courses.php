@@ -35,7 +35,7 @@
             <?php if ( get_field( 'znachenie_czeny' ) == 'grn_za_kurs' ) { ?>
                 <span class="price-block"><?php the_field( 'znachenie_czeny' ); ?></span>
             <?php } else { ?>
-                <span class="price-block"><?php the_field( 'znachenie_czeny' ); ?></span>
+                <span><?php the_field( 'znachenie_czeny' ); ?></span>
             <?php } ?>
             </h5>
 		</div>
