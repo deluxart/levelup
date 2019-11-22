@@ -17,7 +17,7 @@
 
 <div class="course-block" id="course-<?php the_ID(); ?>">
 		<div class="m_head"><div class="icon"><img src="<?php the_field( 'logo_url' ); ?>" /></div>
-		<div class="name"><h4><?php the_title(); ?></h4><p style="font-style: italic;">-- Description --</p></div></div>
+		<div class="name"><h4><?php the_title(); ?></h4><p style="font-style: italic;">-- Description --<?php the_field( 'sort_courses' ); ?></p></div></div>
 		<div class="date">
 			<span class="title">Старт:</span>
 			<h5><?php the_field( 'data_starta' ); ?></h5>
