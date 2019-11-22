@@ -15,10 +15,11 @@
 ?>
 
 
-<?php if ( get_field( 'otobrazhenie' ) == 0 ) { ?>
+<?php if ( get_field( 'otobrazhenie' ) == 1 ) { ?>
 
 
-<div class="course-block" id="course-<?php the_ID(); ?>">
+<?php } else { ?>
+    <div class="course-block" id="course-<?php the_ID(); ?>">
 		<div class="m_head"><div class="icon"><img src="<?php the_field( 'logo_url' ); ?>" /></div>
 		<div class="name"><h4><?php the_title(); ?></h4><p style="font-style: italic;">Сортировка: <?php the_field( 'sort_courses' ); ?></p></div></div>
 		<div class="date">
@@ -35,7 +36,5 @@
 			<span>Подробнее</span>
 		</a>
 </div>
-<?php
-} else {
- // echo 'false';
-} ?>
+
+<?php } ?>
