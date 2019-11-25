@@ -110,7 +110,7 @@ function lvl_home_post_slides( $atts ) {
         'meta_key' => $eventDate,
         'orderby'  => array(
             'post_date' => 'DESC',
-            'meta_value' => 'ASC'
+            'meta_value' => 'DESC'
         )
     );
     $query = new WP_Query( $options );
