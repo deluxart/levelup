@@ -95,7 +95,7 @@ function lvl_home_post_slides( $atts ) {
         'type' => 'post',
         // 'order' => 'date',
         // 'orderby' => 'title',
-        'posts' => -1,
+        'posts' => 10,
         // 'post_status' => 'publish',
         'public'   => true,
     ), $atts );
