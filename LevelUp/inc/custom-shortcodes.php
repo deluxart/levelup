@@ -102,11 +102,11 @@ function lvl_home_post_slides( $atts ) {
     $options = array(
         'post_type' => $args['type'],
         'post_status' => 'publish',
+        'meta_key' => 'opublikovat_do',
         'orderby'  => array(
             'post_date' => 'DESC',
             'meta_value' => 'ASC'
-        ),
-    	'meta_key' => 'opublikovat_do'
+        )
     );
 
     $query = new WP_Query( $options );
