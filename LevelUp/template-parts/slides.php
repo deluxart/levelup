@@ -10,13 +10,13 @@
  */
 ?>
 <?php
-$eventDate = get_field( 'opublikovat_do' );
+$eventDate = get_field( 'event_date' );
 $currentDate = date('d.m.Y');
 
 if($currentDate <= $eventDate && get_field( 'add_home_slide' ) == 1) { ?>
 
-<div id="lastpost-<?php the_ID(); ?>" class="lastpost">
-    <a href="<?php the_permalink() ?>" title="<?php the_title(); ?> - <?php the_field( 'opublikovat_do' ); ?>"><?php the_post_thumbnail(); ?></a>
+<div id="lastpost-<?php the_ID(); ?>" class="lastpost" data-data="Дата - <?php the_field( 'event_date' ); ?>">
+    <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
 </div>
 
 <?php } ?>
