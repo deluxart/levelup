@@ -12,7 +12,7 @@
 
 ?>
 <?php
-$eventDate = get_field( 'opublikovat_do' );
+$eventDate = the_field( 'opublikovat_do' );
 $currentDate = date('d.m.Y');
 
 if($currentDate <= $eventDate && get_field( 'add_home_slide' ) == 1) { ?>
