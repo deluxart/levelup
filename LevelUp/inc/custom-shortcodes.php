@@ -93,7 +93,7 @@ function lvl_home_post_slides( $atts ) {
     ob_start();
     $args = shortcode_atts( array (
         'type' => 'post',
-        'orderby' => 'date',
+        // 'orderby' => 'date',
         'posts' => -1,
         'public'   => true,
     ), $atts );
