@@ -84,6 +84,10 @@ function rmcc_post_cats_parameters_shortcode( $atts ) {
 
 
 
+
+
+
+
 add_shortcode( 'home-slides', 'lvl_home_post_slides' );
 function lvl_home_post_slides( $atts ) {
     ob_start();
@@ -97,6 +101,7 @@ function lvl_home_post_slides( $atts ) {
         'post_type' => $args['type'],
         'posts_per_page' => $args['posts'],
         'post_status' => 'publish',
+        'order'				=> 'ASC',
         'orderby'  => array(
             'post_date' => 'DESC',
             'meta_value' => 'ASC'
