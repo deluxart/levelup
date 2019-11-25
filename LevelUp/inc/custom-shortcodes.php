@@ -109,9 +109,6 @@ function lvl_home_post_slides( $atts ) {
     	'meta_key' => 'opublikovat_do'
     );
 
-$eventDate = date('d.m.Y', strtotime(get_post_meta($post->ID, 'dateend', 1)));
-$currentDate = date('d.m.Y');
-
     $query = new WP_Query( $options );
     if ( $query->have_posts() ) { ?>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
