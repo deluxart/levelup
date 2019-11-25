@@ -84,42 +84,30 @@ function rmcc_post_cats_parameters_shortcode( $atts ) {
 
 
 
-
-
-
-
-
-
-
-
 add_shortcode( 'home-slides', 'lvl_home_post_slides' );
 function lvl_home_post_slides( $atts ) {
     ob_start();
-    // the_field( 'opublikovat_do' );
-    // $eventDate = get_field( r'opublikovat_do' );
     $args = shortcode_atts( array (
         'type' => 'post',
-        // 'orderby' => 'date',
+        'orderby' => 'date',
         'posts' => -1,
         'public'   => true,
-        'meta_key' => 'opublikovat_do',
-        'orderby'  => array(
-            'post_date' => 'DESC',
-            'meta_value' => 'ASC'
-        )
     ), $atts );
     $options = array(
         'post_type' => $args['type'],
         'posts_per_page' => $args['posts'],
         'post_status' => 'publish',
-        'meta_key' => 'opublikovat_do',
         'orderby'  => array(
             'post_date' => 'DESC',
             'meta_value' => 'ASC'
-        )
+        ),
+    	'meta_key' => 'opublikovat_do'
     );
-    $query = new WP_Query( $options );
 
+$eventDate = date('d.m.Y', strtotime(get_post_meta($post->ID, 'dateend', 1)));
+$currentDate = date('d.m.Y');
+
+    $query = new WP_Query( $options );
     if ( $query->have_posts() ) { ?>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
                 <?php
@@ -131,7 +119,6 @@ function lvl_home_post_slides( $atts ) {
     return $myvariable;
     }
 }
-
 
 
 
