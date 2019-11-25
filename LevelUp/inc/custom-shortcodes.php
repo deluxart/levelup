@@ -95,6 +95,8 @@ function rmcc_post_cats_parameters_shortcode( $atts ) {
 add_shortcode( 'home-slides', 'lvl_home_post_slides' );
 function lvl_home_post_slides( $atts ) {
     ob_start();
+    // the_field( 'opublikovat_do' );
+    $eventDate = get_field( 'opublikovat_do' );
     $args = shortcode_atts( array (
         'type' => 'post',
         // 'orderby' => 'date',
@@ -105,7 +107,7 @@ function lvl_home_post_slides( $atts ) {
         'post_type' => $args['type'],
         'posts_per_page' => $args['posts'],
         'post_status' => 'publish',
-        'meta_key' => 'opublikovat_do',
+        'meta_key' => $eventDate,
         'orderby'  => array(
             'post_date' => 'DESC',
             'meta_value' => 'ASC'
