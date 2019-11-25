@@ -102,7 +102,7 @@ function lvl_home_post_slides( $atts ) {
     $options = array(
         'post_type' => $args['type'],
         'post_status' => 'publish',
-        'meta_key' => 'opublikovat_do',
+        'meta_key' => 'event_date',
         'orderby'  => array(
             'post_date' => 'DESC',
             'meta_value' => 'ASC'
