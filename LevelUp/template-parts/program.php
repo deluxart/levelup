@@ -25,8 +25,8 @@
 
 
     <?php if ( have_rows( 'programma_kursa' ) ) : ?>
+        <div class="spoiler parrent">
         <?php while ( have_rows( 'programma_kursa' ) ) : the_row(); ?>
-    <div class="spoiler parrent">
 	        <div class="head"><?php the_sub_field( 'title' ); ?></div>
             <div class="cont">
             <?php if ( have_rows( 'opisanie' ) ) : ?>
