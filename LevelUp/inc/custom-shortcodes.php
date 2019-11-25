@@ -84,6 +84,14 @@ function rmcc_post_cats_parameters_shortcode( $atts ) {
 
 
 
+
+
+
+
+
+
+
+
 add_shortcode( 'home-slides', 'lvl_home_post_slides' );
 function lvl_home_post_slides( $atts ) {
     ob_start();
@@ -96,13 +104,15 @@ function lvl_home_post_slides( $atts ) {
     $options = array(
         'post_type' => $args['type'],
         'posts_per_page' => $args['posts'],
-        'post_status' => 'publish'
+        'post_status' => 'publish',
+        'orderby'  => array(
+            'post_date' => 'DESC',
+            'meta_value' => 'ASC'
+        ),
+        'meta_key' => 'opublikovat_do'
     );
-
-$eventDate = date('d.m.Y', strtotime(get_post_meta($post->ID, 'dateend', 1)));
-$currentDate = date('d.m.Y');
-
     $query = new WP_Query( $options );
+
     if ( $query->have_posts() ) { ?>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
                 <?php
@@ -114,6 +124,7 @@ $currentDate = date('d.m.Y');
     return $myvariable;
     }
 }
+
 
 
 
