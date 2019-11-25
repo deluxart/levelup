@@ -96,12 +96,17 @@ add_shortcode( 'home-slides', 'lvl_home_post_slides' );
 function lvl_home_post_slides( $atts ) {
     ob_start();
     // the_field( 'opublikovat_do' );
-    // $eventDate = get_field( 'opublikovat_do' );
+    // $eventDate = get_field( r'opublikovat_do' );
     $args = shortcode_atts( array (
         'type' => 'post',
         // 'orderby' => 'date',
         'posts' => -1,
         'public'   => true,
+        'meta_key' => 'opublikovat_do',
+        'orderby'  => array(
+            'post_date' => 'DESC',
+            'meta_value' => 'DESC'
+        )
     ), $atts );
     $options = array(
         'post_type' => $args['type'],
