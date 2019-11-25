@@ -105,7 +105,7 @@ function lvl_home_post_slides( $atts ) {
         'meta_key' => 'opublikovat_do',
         'orderby'  => array(
             'post_date' => 'DESC',
-            'meta_value' => 'DESC'
+            'meta_value' => 'ASC'
         )
     ), $atts );
     $options = array(
@@ -115,7 +115,7 @@ function lvl_home_post_slides( $atts ) {
         'meta_key' => 'opublikovat_do',
         'orderby'  => array(
             'post_date' => 'DESC',
-            'meta_value' => 'DESC'
+            'meta_value' => 'ASC'
         )
     );
     $query = new WP_Query( $options );
