@@ -39,7 +39,7 @@
                 <?php // no rows found ?>
             <?php endif; ?>
             </div>
-            </div>
+        </div>
         <?php endwhile; ?>
     <?php else : ?>
         <?php // no rows found ?>
