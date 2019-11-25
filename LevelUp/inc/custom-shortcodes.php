@@ -93,15 +93,15 @@ function lvl_home_post_slides( $atts ) {
     ob_start();
     $args = shortcode_atts( array (
         'type' => 'post',
-        // 'orderby' => 'date',
+        // 'order' => 'date',
+        // 'orderby' => 'title',
         'posts' => -1,
+        // 'post_status' => 'publish',
         'public'   => true,
     ), $atts );
     $options = array(
         'post_type' => $args['type'],
-        'posts_per_page' => $args['posts'],
         'post_status' => 'publish',
-        'order'				=> 'ASC',
         'orderby'  => array(
             'post_date' => 'DESC',
             'meta_value' => 'ASC'
