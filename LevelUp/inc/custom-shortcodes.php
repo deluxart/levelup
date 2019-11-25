@@ -101,14 +101,12 @@ function lvl_home_post_slides( $atts ) {
     ), $atts );
     $options = array(
         'post_type' => $args['type'],
+        'posts_per_page' => $args['posts'],
         'post_status' => 'publish',
-        'meta_key' => 'event_date',
-        'orderby'  => array(
-            'post_date' => 'DESC',
-            'meta_value' => 'ASC'
-        )
+        'order'             => 'ASC',
+        'orderby'           => 'meta_value',
+        'meta_key'      => 'event_date'
     );
-
     $query = new WP_Query( $options );
     if ( $query->have_posts() ) { ?>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
