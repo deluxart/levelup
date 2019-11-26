@@ -147,11 +147,23 @@ add_shortcode( 'program',  'call_shortcode_program' );
             'p' => intval( $atts['id'] )
         ) );
 
-        $out = '[program id="'. get_field( "programma_kursa" ) .'"]';
+        ob_start();
+        echo '<div class="program">';
+            if ( have_posts() ) :
+                    while ( have_posts() ) : the_post();
 
-        wp_reset_query();
-        return $out;
-    }
+                        get_template_part( 'template-parts/program-acf', get_post_format() );
+
+                    endwhile;
+                else :
+                    get_template_part( 'template-parts/content', 'none' );
+                endif;
+        echo '</div>';
+
+            wp_reset_query(); // сброс $wp_query
+            $out = ob_get_clean();
+            return $out;
+        }
 
 
 
