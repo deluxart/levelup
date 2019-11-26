@@ -103,9 +103,15 @@ function lvl_home_post_slides( $atts ) {
         'post_type' => $args['type'],
         'posts_per_page' => $args['posts'],
         'post_status' => 'publish',
-        'order'             => 'ASC',
-        'orderby'           => 'meta_value',
-        'meta_key'      => 'event_date'
+        'meta_query' => array(
+            'relation' => 'AND',
+            'query_one' => array('key' => 'post_date'),
+            'query_two' => array('key' => 'event_date'),
+        ),
+        'orderby' => array(
+            'query_one' => 'DESC',
+            'query_two' => 'ASC',
+        ),
     );
     $query = new WP_Query( $options );
     if ( $query->have_posts() ) { ?>
