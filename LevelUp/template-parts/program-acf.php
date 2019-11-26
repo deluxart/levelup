@@ -9,4 +9,4 @@
  * @since Twenty Fifteen 1.0
  */
 ?>
-<?php the_field( 'programma_kursa' ); ?>
+[program id="<?php the_field( 'programma_kursa' ); ?>"]
