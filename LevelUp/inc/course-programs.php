@@ -147,7 +147,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
             'p' => intval( $atts['id'] )
         ) );
 
-        $out = '[program id="'. get_field( "text_field" ) .'"]';
+        $out = '[program id="'. the_field( "text_field" ) .'"]';
 
         wp_reset_query();
         return $out;
