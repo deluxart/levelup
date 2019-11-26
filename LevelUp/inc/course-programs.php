@@ -149,8 +149,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
 
         $out = '[program id="'. get_field( "text_field" ) .'"]';
 
-        wp_reset_query(); // сброс $wp_query
-        $out = ob_get_clean();
+        wp_reset_query();
         return $out;
     }
 
