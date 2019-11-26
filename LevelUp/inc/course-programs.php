@@ -126,18 +126,6 @@ add_shortcode( 'program',  'call_shortcode_program' );
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     add_shortcode( 'program-acf',  'call_shortcode_program_acf' );
     function call_shortcode_program_acf( $atts, $content = '' ) {
         global $wp_query;
@@ -165,9 +153,6 @@ add_shortcode( 'program',  'call_shortcode_program' );
         }
 
 
-
-
-
         add_shortcode( 'teachers-acf',  'call_shortcode_teachers_acf' );
         function call_shortcode_teachers_acf( $atts, $content = '' ) {
             global $wp_query;
@@ -182,24 +167,18 @@ add_shortcode( 'program',  'call_shortcode_program' );
                         while ( have_posts() ) : the_post();
 
 
-
-
                             if ( have_rows( 'prepodavateli' ) ) :
                                 while ( have_rows( 'prepodavateli' ) ) : the_row();
 
-                                    echo '[teachere id=';
-                                        get_sub_field( 'prepod' );
+                                    echo '[teacher id=';
+                                        $prepod = get_sub_field( 'prepod' );
+                                        echo $prepod;
                                     echo ']';
                                     // var_dump( $teacher );
                                 endwhile;
                             else :
                                 // no rows found
                             endif;
-
-
-
-
-
 
                         endwhile;
                     else :
@@ -211,14 +190,6 @@ add_shortcode( 'program',  'call_shortcode_program' );
                 // return $out;
                 return do_shortcode( $out );
             }
-
-
-
-
-
-
-
-
 
 
 
