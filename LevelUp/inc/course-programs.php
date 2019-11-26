@@ -149,10 +149,8 @@ add_shortcode( 'program',  'call_shortcode_program' );
 
         ob_start();
         echo '<div class="program">[program id=';
-            if ( have_posts() ) : ?>
-<?php the_field( 'programma_kursa' ); ?>
-            <?php
-
+            if ( have_posts() ) :
+                    the_field( 'programma_kursa' );
                 endif;
         echo ']</div>';
 
