@@ -148,17 +148,15 @@ add_shortcode( 'program',  'call_shortcode_program' );
         ) );
 
         ob_start();
-        echo '<div class="program">[program id=';
             if ( have_posts() ) :
                     while ( have_posts() ) : the_post();
-
-                        the_field( 'programma_kursa' );
-
+                        echo '[program id=';
+                            the_field( 'programma_kursa' );
+                        echo ']';
                     endwhile;
                 else :
                     get_template_part( 'template-parts/content', 'none' );
                 endif;
-        echo ']</div>';
 
             wp_reset_query(); // сброс $wp_query
             $out = ob_get_clean();
