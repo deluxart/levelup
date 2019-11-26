@@ -180,9 +180,27 @@ add_shortcode( 'program',  'call_shortcode_program' );
             ob_start();
                 if ( have_posts() ) :
                         while ( have_posts() ) : the_post();
-                            echo '[teacher id=';
-                                the_field( 'prepodavateli' );
-                            echo ']';
+
+
+
+
+                            if ( have_rows( 'prepodavateli' ) ) :
+                                while ( have_rows( 'prepodavateli' ) ) : the_row();
+
+                                    echo '[teacher id=';
+                                        $teacher = get_sub_field( 'teacher' );
+                                    echo ']';
+                                    // var_dump( $teacher );
+                                endwhile;
+                            else :
+                                // no rows found
+                            endif;
+
+
+
+
+
+
                         endwhile;
                     else :
                         get_template_part( 'template-parts/content', 'none' );
