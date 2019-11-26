@@ -125,4 +125,48 @@ add_shortcode( 'program',  'call_shortcode_program' );
         return $post_types;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    add_shortcode( 'program-acf',  'call_shortcode_program_acf' );
+    function call_shortcode_program_acf( $atts, $content = '' ) {
+        global $wp_query;
+        $atts = shortcode_atts( array( 'id' => null ), $atts );
+        $wp_query = new WP_Query( array(
+            'post_type' => 'levelup_courses',
+            'p' => intval( $atts['id'] )
+        ) );
+
+        $out = '[program id="'. esc_html( the_field( 'programma_kursa' ) ) .'"]';
+
+        wp_reset_query(); // сброс $wp_query
+        $out = ob_get_clean();
+        return $out;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
