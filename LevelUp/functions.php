@@ -912,20 +912,3 @@ pll_register_string('articles_widget_title', 'articles_widget_title');
 pll_register_string('Previous page', 'Previous page');
 pll_register_string('Next page', 'Next page');
 pll_register_string('Page', 'Page');
-
-
-
-
-
-
-add_action( 'grid_metaboxes', function($result, $grid_id=null, $post_id=null) {
-    $final_results = [];
-    $allowed_types = ['static', 'abstract_list', 'post'];
-    /* default: 'static', 'abstract_list', 'reference', 'post' */
-    foreach($result as $item) {
-        if (in_array($item['type'], $allowed_types)) {
-            array_push($final_results, $item);
-        }
-    }
-    return $final_results;
-});
