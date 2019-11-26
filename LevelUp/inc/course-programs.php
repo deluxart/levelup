@@ -188,7 +188,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
                                 while ( have_rows( 'prepodavateli' ) ) : the_row();
 
                                     echo '[teachere id=';
-                                        $prepod = get_sub_field( 'prepod' );
+                                        get_sub_field( 'prepod' );
                                     echo ']';
                                     // var_dump( $teacher );
                                 endwhile;
