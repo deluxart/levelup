@@ -168,6 +168,31 @@ add_shortcode( 'program',  'call_shortcode_program' );
 
 
 
+        add_shortcode( 'teachers-acf',  'call_shortcode_teachers_acf' );
+        function call_shortcode_teachers_acf( $atts, $content = '' ) {
+            global $wp_query;
+            $atts = shortcode_atts( array( 'id' => null ), $atts );
+            $wp_query = new WP_Query( array(
+                'post_type' => 'levelup_courses',
+                'p' => intval( $atts['id'] )
+            ) );
+
+            ob_start();
+                if ( have_posts() ) :
+                        while ( have_posts() ) : the_post();
+                            echo '[teacher id=';
+                                the_field( 'prepodavateli' );
+                            echo ']';
+                        endwhile;
+                    else :
+                        get_template_part( 'template-parts/content', 'none' );
+                    endif;
+
+                wp_reset_query(); // сброс $wp_query
+                $out = ob_get_clean();
+                // return $out;
+                return do_shortcode( $out );
+            }
 
 
 
