@@ -147,7 +147,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
             'p' => intval( $atts['id'] )
         ) );
 
-        $out = '[program id="'. the_field( "programma_kursa" ) .'"]';
+        $out = '[program id="'. get_field( "programma_kursa" ) .'"]';
 
         wp_reset_query();
         return $out;
