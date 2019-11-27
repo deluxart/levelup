@@ -107,6 +107,8 @@ function lvl_home_post_slides( $atts ) {
         'orderby'           => 'meta_value',
         'meta_key'      => 'event_date'
     );
+
+
     // https://toster.ru/q/687409
     $query = new WP_Query( $options );
     if ( $query->have_posts() ) { ?>
