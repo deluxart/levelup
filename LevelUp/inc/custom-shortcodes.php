@@ -103,7 +103,7 @@ function lvl_home_post_slides( $atts ) {
         'post_type' => $args['type'],
         'posts_per_page' => $args['posts'],
         'post_status' => 'publish',
-        'order'             => 'ASC',
+        'order'             => 'DESC',
         'orderby'           => 'meta_value',
         'meta_key'      => 'event_date'
     );
