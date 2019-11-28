@@ -83,33 +83,32 @@ function rmcc_post_cats_parameters_shortcode( $atts ) {
 
 
 
-
-
-
-
-
 add_shortcode( 'home-slides', 'lvl_home_post_slides' );
 function lvl_home_post_slides( $atts ) {
     ob_start();
     $args = shortcode_atts( array (
         'type' => 'post',
-        // 'order' => 'date',
-        // 'orderby' => 'title',
-        'posts' => 10,
-        // 'post_status' => 'publish',
-        // 'public'   => true,
+        'posts' => -1,
+        'post_status' => 'publish',
+        'public'   => true,
     ), $atts );
     $options = array(
         'post_type' => $args['type'],
         'posts_per_page' => $args['posts'],
         'post_status' => 'publish',
-        'order'             => 'ASC',
-        'orderby'           => 'meta_value',
-        'meta_key'      => 'event_date_news'
+        'meta_query' => array(
+            'relation' => 'AND',
+            'feature_clause' => array(
+                'key' => 'event_date_news',
+                'compare' => 'EXISTS',
+            ),
+        ),
+
+        'orderby' => array(
+            'event_date_news' => 'ASC',
+            'date' => 'DESC',
+        )
     );
-
-
-    // https://toster.ru/q/687409
     $query = new WP_Query( $options );
     if ( $query->have_posts() ) { ?>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
