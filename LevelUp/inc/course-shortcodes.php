@@ -59,7 +59,7 @@ function my_edit_levelup_courses_columns( $columns ) {
         'data_starta' => __( 'Старт' ),
         'stoimost' => __( 'Стоимость' ),
         'grafik_zanyatij' => __( 'Расписание' ),
-        'otobrazhenie' => __( 'Открыть набор' ),
+        'otobrazhenie' => __( 'Открыт набор' ),
     );
     return $columns;
 }
