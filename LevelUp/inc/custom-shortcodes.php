@@ -97,15 +97,15 @@ function lvl_home_post_slides( $atts ) {
         // 'orderby' => 'title',
         'posts' => 10,
         // 'post_status' => 'publish',
-        'public'   => true,
+        // 'public'   => true,
     ), $atts );
     $options = array(
         'post_type' => $args['type'],
         'posts_per_page' => $args['posts'],
         'post_status' => 'publish',
-        'order'             => 'DESC',
+        'order'             => 'ASC',
         'orderby'           => 'meta_value',
-        'meta_key'      => 'event_date'
+        'meta_key'      => 'event_date_news'
     );
 
 
