@@ -92,8 +92,10 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
             if ( empty( $price ) )
                 echo __( 'Не указана' );
             else
-                printf( $price_before, ' ' );
-                printf( $price );
+                printf( $price_before );
+                echo __( ' ' );
+                printf( __( '<strong>%s</strong>' ), $price );
+                echo __( ' ' );
                 printf( $znachenie_czeny );
         break;
 
@@ -107,10 +109,11 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
 
         case 'otobrazhenie' :
             $otobrazhenie = get_field( "otobrazhenie", $post->ID );
+            $sortdate = get_field( "sort_courses", $post->ID );
             if ( $otobrazhenie == 1 )
                 echo __( '<span style="background: #fe5151;border-radius: 30px; padding: 3px 6px;color: #fff;">Скрыто</span>');
-            elseif ( $otobrazhenie == 2 )
-                echo __( 'Отображается' );
+            else
+                printf( __( '<strong>%s</strong>' ), $sortdate );
         break;
 
         default :
