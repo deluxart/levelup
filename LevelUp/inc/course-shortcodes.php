@@ -113,7 +113,7 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
             if ( $otobrazhenie == 1 )
                 echo __( '<span style="background: #fe5151;border-radius: 30px; padding: 3px 6px;color: #fff;">Скрыто</span>');
             else
-                printf( __( '<strong>%s</strong>' ), $sortdate );
+                printf( __( '<span style="background: #0048ff;border-radius: 30px; padding: 3px 6px;color: #fff;">%s</span>' ), $sortdate );
         break;
 
         default :
