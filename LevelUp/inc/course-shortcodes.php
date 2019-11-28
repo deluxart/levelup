@@ -30,6 +30,36 @@ function lvl_course_shortcodes() {
 
 
 
+
+function my_page_columns($columns)
+{
+    $columns = array(
+        'cb'         => '<input type="checkbox" />',
+        'title'             => 'Название курса',
+        'data_starta'     => 'Дата старта',
+        'date'        =>    'Дата',
+    );
+    return $columns;
+}
+
+function my_custom_columns($column)
+{
+    global $post;
+
+    if ($column == 'data_starta') {
+        echo get_field( "data_starta", $post->ID );
+    }
+    else {
+         echo '';
+    }
+}
+
+add_action("manage_levelup_courses_posts_custom_column", "my_custom_columns");
+add_filter("manage_levelup_courses_posts_columns", "my_page_columns");
+
+
+
+
 // Для блока с последними новостями на главной
 add_shortcode( 'list-open-courses', 'open_courses_listing_parameters_shortcode' );
 function open_courses_listing_parameters_shortcode( $atts ) {
