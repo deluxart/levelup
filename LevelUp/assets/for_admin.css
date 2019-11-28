@@ -9,7 +9,7 @@ img[src*='.svg'] {
 }
 
 .column-course_icon { text-align: center; width:48px !important; overflow:hidden; }
-.column-otobrazhenie { text-align: center; width:80px !important; overflow:hidden; }
+.column-otobrazhenie { text-align: center; width:100px !important; overflow:hidden; }
 
 .mce-i-my_button:before {
     content: '\f156';
