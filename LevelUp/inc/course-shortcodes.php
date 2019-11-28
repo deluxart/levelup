@@ -2,6 +2,23 @@
 add_action( 'init', 'lvl_course_shortcodes' );
 
 function lvl_course_shortcodes() {
+    register_taxonomy('levelup_courses_cat', array('levelup_courses'), array(
+        'label'                 => 'Категории',
+        'labels'                => array(
+            'name'              => 'Курс',
+            'all_items'         => 'Курс',
+            'menu_name'         => 'Категории (Курсы)',
+        ),
+        'description'           => 'Категории для преподавателей',
+        'public'                => true,
+        'show_in_nav_menus'     => false,
+        'show_ui'               => true,
+        'show_tagcloud'         => false,
+        'hierarchical'          => true,
+        'rewrite'               => array('slug'=>'teachers', 'hierarchical'=>false, 'with_front'=>false, 'feed'=>false ),
+        'show_admin_column'     => true,
+    ) );
+
 	$labels = array(
 		'name' => 'Курсы LVL',
 		'singular_name' => 'Курс',
@@ -31,31 +48,80 @@ function lvl_course_shortcodes() {
 
 
 
-function my_page_columns($columns)
-{
+
+
+add_filter( 'manage_edit-levelup_courses_columns', 'my_edit_levelup_courses_columns' ) ;
+function my_edit_levelup_courses_columns( $columns ) {
     $columns = array(
-        'cb'         => '<input type="checkbox" />',
-        'title'             => 'Название курса',
-        'data_starta'     => 'Дата старта',
-        'date'        =>    'Дата',
+        'cb' => '&lt;input type="checkbox" />',
+        'course_icon' => __('Иконка курса'),
+        'title' => __( 'Название курса' ),
+        'data_starta' => __( 'Старт' ),
+        'stoimost' => __( 'Стоимость' ),
+        'grafik_zanyatij' => __( 'Расписание' ),
+        'otobrazhenie' => __( 'Открыть набор' ),
     );
     return $columns;
 }
 
-function my_custom_columns($column)
-{
+
+add_action( 'manage_levelup_courses_posts_custom_column', 'my_manage_levelup_courses_columns', 10, 2 );
+function my_manage_levelup_courses_columns( $column, $post_id ) {
     global $post;
 
-    if ($column == 'data_starta') {
-        echo get_field( "data_starta", $post->ID );
-    }
-    else {
-         echo '';
+    switch( $column ) {
+        case 'course_icon' :
+            $logo = get_field( "logo_url", $post->ID );
+            if ( empty( $logo ) );
+            else
+                printf( $logo );
+                printf( __( '<img src="%s" style="display: block; max-width: 48px; max-height: 48px;" alt="" />' ), $logo );
+        break;
+
+        case 'data_starta' :
+            $start = get_field( "data_starta", $post->ID );
+            if ( empty( $start ) )
+                echo __( 'Не указана' );
+            else
+                printf( $start );
+        break;
+
+        case 'stoimost' :
+            $price = get_field( "stoimost", $post->ID );
+            $price_before = get_field( "price_before", $post->ID );
+            $znachenie_czeny = get_field( "znachenie_czeny", $post->ID );
+            if ( empty( $price ) )
+                echo __( 'Не указана' );
+            else
+                printf( $price );
+        break;
+
+        case 'grafik_zanyatij' :
+            $grafik = get_field( "grafik_zanyatij", $post->ID );
+            if ( empty( $grafik ) )
+                echo __( 'Не указан' );
+            else
+                printf( $grafik );
+        break;
+
+        case 'otobrazhenie' :
+            $otobrazhenie = get_field( "otobrazhenie", $post->ID );
+            if ( $otobrazhenie == 1 )
+                echo __( 'Скрыто' );
+            elseif ( $otobrazhenie == 2 )
+                echo __( 'Отображается' );
+        break;
+
+        default :
+            break;
     }
 }
 
-add_action("manage_levelup_courses_posts_custom_column", "my_custom_columns");
-add_filter("manage_levelup_courses_posts_columns", "my_page_columns");
+
+
+
+
+        // echo get_field( "data_starta", $post->ID );
 
 
 
