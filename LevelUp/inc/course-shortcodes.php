@@ -71,7 +71,7 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
 
     switch( $column ) {
         case 'course_icon' :
-            $logo = get_field( "logo_url", $post->ID );
+            $logo = the_field( "logo_url", $post->ID );
             if ( empty( $logo ) );
             else
                 printf( $logo );
