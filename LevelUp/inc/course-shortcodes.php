@@ -118,7 +118,13 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
 
 
 
+add_action('admin_head', 'my_column_width');
 
+function my_column_width() {
+    echo '<style type="text/css">';
+    echo '.column-course_icon { text-align: center; width:60px !important; overflow:hidden }';
+    echo '</style>';
+}
 
         // echo get_field( "data_starta", $post->ID );
 
