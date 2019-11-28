@@ -22,7 +22,7 @@ function courses_programs() {
 		'has_archive' => true,
 		'menu_icon' => 'dashicons-list-view',
 		'menu_position' => 10,
-		'supports' => array( 'title', 'editor', 'revisions')
+		'supports' => array( 'title', 'revisions')
 	);
 	register_post_type('course-programs', $args);
 }
