@@ -106,7 +106,7 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
         case 'otobrazhenie' :
             $otobrazhenie = get_field( "otobrazhenie", $post->ID );
             if ( $otobrazhenie == 1 )
-                echo __( 'Скрыто' );
+                echo __( '<span style="background: #fe5151;border-radius: 30px; padding: 3px 6px;color: #fff;">Скрыто</span>');
             elseif ( $otobrazhenie == 2 )
                 echo __( 'Отображается' );
         break;
