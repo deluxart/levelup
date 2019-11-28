@@ -8,6 +8,8 @@ img[src*='.svg'] {
     height: auto;
 }
 
+.column-course_icon { text-align: center; width:48px !important; overflow:hidden; }
+
 .mce-i-my_button:before {
     content: '\f156';
     display: inline-block;

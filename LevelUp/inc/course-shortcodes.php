@@ -54,7 +54,7 @@ add_filter( 'manage_edit-levelup_courses_columns', 'my_edit_levelup_courses_colu
 function my_edit_levelup_courses_columns( $columns ) {
     $columns = array(
         'cb' => '&lt;input type="checkbox" />',
-        'course_icon' => __('Иконка курса'),
+        'course_icon' => __(''),
         'title' => __( 'Название курса' ),
         'data_starta' => __( 'Старт' ),
         'stoimost' => __( 'Стоимость' ),
@@ -116,15 +116,6 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
     }
 }
 
-
-
-add_action('admin_head', 'my_column_width');
-
-function my_column_width() {
-    echo '<style type="text/css">';
-    echo '.column-course_icon { text-align: center; width:60px !important; overflow:hidden }';
-    echo '</style>';
-}
 
         // echo get_field( "data_starta", $post->ID );
 
