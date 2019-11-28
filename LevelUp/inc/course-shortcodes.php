@@ -92,7 +92,7 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
             if ( empty( $price ) )
                 echo __( 'Не указана' );
             else
-                printf( $price_before );
+                printf( $price_before, ' ' );
                 printf( $price );
                 printf( $znachenie_czeny );
         break;
