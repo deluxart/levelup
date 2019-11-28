@@ -89,10 +89,11 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
             $price = get_field( "stoimost", $post->ID );
             $price_before = get_field( "price_before", $post->ID );
             $znachenie_czeny = get_field( "znachenie_czeny", $post->ID );
+            $goodevil = array($price_before, $price, $znachenie_czeny);
             if ( empty( $price ) )
                 echo __( 'Не указана' );
             else
-                printf( $price );
+                printf( $goodevil );
         break;
 
         case 'grafik_zanyatij' :
