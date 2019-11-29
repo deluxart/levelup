@@ -22,7 +22,7 @@
 		<?php if ( get_sub_field( 'nabor_otkryt' ) == 1 ) {  ?>
 
 
-    <div class="course-block" id="course-<?php the_ID(); ?>">
+    <div class="course-block <?php the_sub_field( 'date_start' ); ?>" id="course-<?php the_ID(); ?>">
 		<div class="m_head"><div class="icon"><img src="<?php the_field( 'logo_url' ); ?>" /></div>
 		<div class="name"><h4><?php the_title(); ?></h4><p><?php the_field( 'description' ); ?></p></div></div>
 		<div class="date">
