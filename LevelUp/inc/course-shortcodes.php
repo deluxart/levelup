@@ -142,13 +142,18 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
 
 
         case 'otobrazhenie' :
-            $otobrazhenie = get_field( "otobrazhenie", $post->ID );
-            $sortdate = get_field( "sort_courses", $post->ID );
-            if ( $otobrazhenie == 1 )
-                echo __( '<span style="background: #fe5151;border-radius: 30px; padding: 3px 6px;color: #fff;">Скрыто</span>');
-            else
-                printf( __( '<strong>%s</strong>' ), $sortdate );
-        break;
+
+            if ( have_rows( 'otkryt_nabor' ) ) :
+                while ( have_rows( 'otkryt_nabor' ) ) : the_row();
+                    $otobrazhenie = get_sub_field( "nabor_otkryt", $post->ID );
+                    $sortdate = get_sub_field( "sortirovka", $post->ID );
+                    if ( $otobrazhenie == 1 )
+                    printf( __( '<strong>%s</strong>' ), $sortdate );
+                else
+                    echo __( '<span style="background: #fe5151;border-radius: 30px; padding: 3px 6px;color: #fff;">Скрыто</span>');
+                endwhile;
+            endif;
+    break;
 
         default :
             break;
@@ -176,6 +181,40 @@ function open_courses_listing_parameters_shortcode( $atts ) {
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
                 <?php
                     get_template_part( 'template-parts/open-courses', get_post_format() );
+                 ?>
+            <?php endwhile;
+            wp_reset_postdata(); ?>
+    <?php $myvariable = ob_get_clean();
+    return $myvariable;
+    }
+}
+
+
+
+add_shortcode( 'courses-list', 'courses_listing_home' );
+function courses_listing_home( $atts ) {
+    ob_start();
+    $args = shortcode_atts( array (
+        'type' => 'levelup_courses',
+        'posts' => -1,
+        'category' => '',
+        'public'   => true,
+    ), $atts );
+    $options = array(
+        'post_type' => $args['type'],
+        'meta_key'          => 'kol-vo_svobodnyh_mest',
+        'orderby'           => 'meta_value',
+        'order'             => 'ASC',
+        'posts_per_page' => $args['posts'],
+        'category_name' => $args['category'],
+        'post_status' => 'publish'
+    );
+
+    $query = new WP_Query( $options );
+    if ( $query->have_posts() ) { ?>
+            <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+                <?php
+                    get_template_part( 'template-parts/cards-course', get_post_format() );
                  ?>
             <?php endwhile;
             wp_reset_postdata(); ?>
