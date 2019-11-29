@@ -96,8 +96,8 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
             if ( have_rows( 'stoimost_kursa' ) ) :
                 while ( have_rows( 'stoimost_kursa' ) ) : the_row();
                     $price = get_sub_field( "price_course", $post->ID );
-                    $price_before = get_field( "before_price", $post->ID );
-                    $znachenie_czeny = get_field( "units", $post->ID );
+                    $price_before = get_sub_field( "before_price", $post->ID );
+                    $znachenie_czeny = get_sub_field( "units", $post->ID );
 
                     if ( empty( $price ) )
                         echo __( 'Не указана' );
