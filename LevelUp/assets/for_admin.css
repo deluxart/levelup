@@ -11,6 +11,7 @@ img[src*='.svg'] {
 .column-course_icon { text-align: center; width:48px !important; overflow:hidden; }
 .column-otobrazhenie { text-align: center; width:100px !important; overflow:hidden; }
 .inside.acf-fields > div:nth-child(2n) { background:#f7f7f7; }
+.acf-table > thead > tr > th { background: #ededed; }
 
 .mce-i-my_button:before {
     content: '\f156';
