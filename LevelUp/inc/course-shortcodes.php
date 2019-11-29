@@ -59,6 +59,7 @@ function my_edit_levelup_courses_columns( $columns ) {
         'data_starta' => __( 'Старт' ),
         'stoimost' => __( 'Стоимость' ),
         'grafik_zanyatij' => __( 'Расписание' ),
+        'cat_course' => __( 'Категория' ),
         'otobrazhenie' => __( 'Открыт набор' ),
     );
     return $columns;
@@ -106,6 +107,23 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
             else
                 printf( $grafik );
         break;
+
+
+        case 'cat_course' :
+            $taxonomy = 'levelup_courses_cat';
+            $post_type = get_post_type($post_id);
+            $terms = get_the_terms($post_id, $taxonomy);
+
+            if (!empty($terms) ) {
+                foreach ( $terms as $term )
+                $post_terms[] ="<a href='edit.php?post_type={$post_type}&{$taxonomy}={$term->slug}'> " .esc_html(sanitize_term_field('name', $term->name, $term->term_id, $taxonomy, 'edit')) . "</a>";
+                echo join('', $post_terms );
+            }
+             else echo '<i>Без категории</i>';
+        break;
+
+
+
 
         case 'otobrazhenie' :
             $otobrazhenie = get_field( "otobrazhenie", $post->ID );
@@ -163,48 +181,5 @@ function open_courses_listing_parameters_shortcode( $atts ) {
 }
 // Для блока с последними новостями на главной
 
-
-    // add_filter( 'manage_edit-course-programs_columns', 'my_edit_programs_columns' ) ;
-    // function my_edit_programs_columns( $columns ) {
-    //     $columns = array(
-    //         'cb' => '&lt;input type="checkbox" />',
-    //         'title' => __( 'Название курса (Программы)' ),
-    //         'shortcode' => __( 'Шорткод' ),
-    //         'date' => __( 'Date' )
-    //     );
-    //     return $columns;
-    // }
-
-
-    // add_action( 'manage_course-programs_posts_custom_column', 'my_manage_programs_columns', 10, 2 );
-    // function my_manage_programs_columns( $column, $post_id ) {
-    //     global $post;
-
-    //     switch( $column ) {
-    //         case 'shortcode' :
-    //             $shortcode = $post->ID;
-    //             if ( empty( $shortcode ) )
-    //                 echo __( 'Unknown' );
-    //             else
-    //                 printf( __( '<input type="text" onfocus="this.select();" style="width: auto;max-width: 142px;" readonly="" value="[program id=%s]" class="large-text code">' ), $shortcode );
-    //         break;
-
-    //         default :
-    //             break;
-    //     }
-    // }
-
-
-
-
-    // add_filter( 'pll_get_post_types', 'add_cpt_to_pll_programs', 10, 2 );
-    // function add_cpt_to_pll_programs( $post_types, $is_settings ) {
-    //     if ( $is_settings ) {
-
-    //     } else {
-    //         $post_types['levelup_courses'] = 'levelup_courses';
-    //     }
-    //     return $post_types;
-    // }
 
 ?>
