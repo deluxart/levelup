@@ -19,29 +19,29 @@ function lvl_course_shortcodes() {
         'show_admin_column'     => true,
     ) );
 
-	$labels = array(
-		'name' => 'Курсы Level Up',
-		'singular_name' => 'Курс',
-		'add_new' => 'Добавить курс',
-		'add_new_item' => 'Добавить новый курс',
-		'edit_item' => 'Редактировать курс',
-		'new_item' => 'Новый курс',
-		'all_items' => 'Все курсы',
-		'search_items' => 'Искать курс',
-		'not_found' =>  'Курс не найден.',
-		'not_found_in_trash' => 'В корзине нет курсов.',
-		'menu_name' => 'Курсы'
-	);
-	$args = array(
-		'labels' => $labels,
-		'public' => false,
-		'show_ui' => true,
-		'has_archive' => true,
-		'menu_icon' => 'dashicons-analytics',
-		'menu_position' => 10,
-		'supports' => array( 'title', 'thumbnail', 'revisions')
-	);
-	register_post_type('levelup_courses', $args);
+    $labels = array(
+        'name' => 'Курсы Level Up',
+        'singular_name' => 'Курс',
+        'add_new' => 'Добавить курс',
+        'add_new_item' => 'Добавить новый курс',
+        'edit_item' => 'Редактировать курс',
+        'new_item' => 'Новый курс',
+        'all_items' => 'Все курсы',
+        'search_items' => 'Искать курс',
+        'not_found' =>  'Курс не найден.',
+        'not_found_in_trash' => 'В корзине нет курсов.',
+        'menu_name' => 'Курсы'
+    );
+    $args = array(
+        'labels' => $labels,
+        'public' => false,
+        'show_ui' => true,
+        'has_archive' => true,
+        'menu_icon' => 'dashicons-analytics',
+        'menu_position' => 10,
+        'supports' => array( 'title', 'thumbnail', 'revisions')
+    );
+    register_post_type('levelup_courses', $args);
 }
 
 
@@ -155,31 +155,19 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
     }
 }
 
-
-        // echo get_field( "data_starta", $post->ID );
-
-
-
-
-// Для блока с последними новостями на главной
 add_shortcode( 'list-open-courses', 'open_courses_listing_parameters_shortcode' );
 function open_courses_listing_parameters_shortcode( $atts ) {
     ob_start();
     $args = shortcode_atts( array (
         'type' => 'levelup_courses',
-        // 'order' => 'date',
-        // 'orderby' => 'title',
         'posts' => -1,
-        // 'post_status' => 'publish',
         'public'   => true,
     ), $atts );
     $options = array(
         'post_type' => $args['type'],
-        'meta_key'			=> 'sort_courses',
-        'orderby'			=> 'meta_value',
-        // 'order' => $args['order'],
-        // 'orderby' => $args['orderby'],
-        'order'				=> 'ASC',
+        'meta_key'          => 'otkryt_nabor_sortirovka',
+        'orderby'           => 'meta_value',
+        'order'             => 'ASC',
         'posts_per_page' => $args['posts']
     );
 
@@ -195,7 +183,5 @@ function open_courses_listing_parameters_shortcode( $atts ) {
     return $myvariable;
     }
 }
-// Для блока с последними новостями на главной
-
 
 ?>
