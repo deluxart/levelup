@@ -40,11 +40,13 @@
                     <?php while ( have_rows( 'stoimost_kursa' ) ) : the_row(); ?>
                             <p><?php the_sub_field( 'before_price' ); ?></p>
                             <h5><?php the_sub_field( 'price_course' ); ?>
-                            <?php if ( the_sub_field( 'units' ) == 'грн за курс' ) { ?>
+
+                            <?php if ( get_sub_field( 'units' ) == 'грн за курс' ) { ?>
                                 <span class="price-block"><?php the_sub_field( 'units' ); ?></span>
                             <?php } else { ?>
                                 <span><?php the_sub_field( 'units' ); ?></span>
                             <?php } ?>
+
                             </h5>
                     <?php endwhile; ?>
                 <?php endif; ?>
