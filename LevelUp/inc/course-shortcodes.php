@@ -79,33 +79,38 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
         break;
 
         case 'data_starta' :
-
-
             if ( have_rows( 'data_raspisanie_grafik' ) ) :
                 while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row();
                     $start = get_sub_field( "date_start", $post->ID );
                 if ( empty( $start ) )
-                    echo __( 'Не указана' );
+                    echo __( 'Дата не указана' );
                 else
                     printf( $start );
                 endwhile;
             endif;
-
         break;
+
+
 
         case 'stoimost' :
-            $price = get_field( "stoimost", $post->ID );
-            $price_before = get_field( "price_before", $post->ID );
-            $znachenie_czeny = get_field( "znachenie_czeny", $post->ID );
-            if ( empty( $price ) )
-                echo __( 'Не указана' );
-            else
-                printf( $price_before );
-                echo __( ' ' );
-                printf( __( '<strong>%s</strong>' ), $price );
-                echo __( ' ' );
-                printf( $znachenie_czeny );
+            if ( have_rows( 'stoimost_kursa' ) ) :
+                while ( have_rows( 'stoimost_kursa' ) ) : the_row();
+                    $price = get_sub_field( "price_course", $post->ID );
+                    $price_before = get_field( "before_price", $post->ID );
+                    $znachenie_czeny = get_field( "units", $post->ID );
+
+                    if ( empty( $price ) )
+                        echo __( 'Не указана' );
+                    else
+                        printf( $price_before );
+                        echo __( ' ' );
+                        printf( __( '<strong>%s</strong>' ), $price );
+                        echo __( ' ' );
+                        printf( $znachenie_czeny );
+                    endwhile;
+                endif;
         break;
+
 
         case 'grafik_zanyatij' :
             $grafik = get_field( "grafik_zanyatij", $post->ID );
