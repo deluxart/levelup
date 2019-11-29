@@ -79,7 +79,7 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
         break;
 
         case 'data_starta' :
-            $start = get_sub_field( "date_start", $post->ID );
+            $start = the_sub_field( "date_start", $post->ID );
             if ( empty( $start ) )
                 echo __( 'Не указана' );
             else
