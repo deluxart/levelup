@@ -13,6 +13,9 @@ img[src*='.svg'] {
 .inside.acf-fields > div:nth-child(2n) { background:#f7f7f7; }
 .acf-table > thead > tr > th { background: #ededed; }
 
+[data-name="prepodavateli"] .acf-table thead {  display: none; }
+
+
 .mce-i-my_button:before {
     content: '\f156';
     display: inline-block;
