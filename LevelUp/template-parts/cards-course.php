@@ -25,6 +25,13 @@
 	    </div>
 	</div>
 	<div class="back">
+    <?php $course_places = get_field( 'kol-vo_svobodnyh_mest' ); ?>
+        <?php if( $course_places ){ ?>
+            <div class="places">
+                <div class="icon"><img src="https://levelup.ua/wp-content/uploads/2019/11/kreslo.svg" alt=""></div>
+                <div class="num"><?php the_field( 'kol-vo_svobodnyh_mest' ); ?></div>
+            </div>
+    <?php } ?>
 	    <div>
             <?php if ( have_rows( 'data_raspisanie_grafik' ) ) : ?>
                 <?php while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row(); ?>
