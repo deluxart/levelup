@@ -30,7 +30,7 @@
 
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?42133<?php echo date(get_option('date_format')); ?>3">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/2019/new_home.css?432<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/2019/new_home.css?678<?php echo date(get_option('date_format')); ?>3">
 
     <?php echo $options['gtm_code'];?>
 </head>
