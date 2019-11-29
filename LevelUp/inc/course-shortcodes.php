@@ -79,11 +79,18 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
         break;
 
         case 'data_starta' :
-            $start = the_sub_field( "date_start", $post->ID );
-            if ( empty( $start ) )
-                echo __( 'Не указана' );
-            else
-                printf( $start );
+
+
+            if ( have_rows( 'data_raspisanie_grafik' ) ) :
+                while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row();
+                    $start = the_sub_field( "date_start", $post->ID );
+                    if ( empty( $start ) )
+                    echo __( 'Не указана' );
+                else
+                    printf( $start );
+                endwhile;
+            endif;
+
         break;
 
         case 'stoimost' :
