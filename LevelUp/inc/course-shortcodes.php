@@ -191,7 +191,7 @@ function open_courses_listing_parameters_shortcode( $atts ) {
 
 
 
-add_shortcode( 'courses-list', 'courses_listing_home' );
+add_shortcode( 'courses', 'courses_listing_home' );
 function courses_listing_home( $atts ) {
     ob_start();
     $args = shortcode_atts( array (
