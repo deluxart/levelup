@@ -7,9 +7,9 @@ function lvl_course_shortcodes() {
         'labels'                => array(
             'name'              => 'Курс',
             'all_items'         => 'Курс',
-            'menu_name'         => 'Категории (Курсы)',
+            'menu_name'         => 'Категории курсов',
         ),
-        'description'           => 'Категории для преподавателей',
+        'description'           => 'Категории для курсов',
         'public'                => true,
         'show_in_nav_menus'     => false,
         'show_ui'               => true,
@@ -20,7 +20,7 @@ function lvl_course_shortcodes() {
     ) );
 
 	$labels = array(
-		'name' => 'Курсы LVL',
+		'name' => 'Курсы Level Up',
 		'singular_name' => 'Курс',
 		'add_new' => 'Добавить курс',
 		'add_new_item' => 'Добавить новый курс',
