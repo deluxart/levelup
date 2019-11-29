@@ -15,10 +15,13 @@
 ?>
 
 
-<?php if ( get_field( 'otobrazhenie' ) == 1 ) { ?>
 
 
-<?php } else { ?>
+<?php if ( have_rows( 'otkryt_nabor' ) ) : ?>
+	<?php while ( have_rows( 'otkryt_nabor' ) ) : the_row(); ?>
+		<?php if ( get_sub_field( 'nabor_otkryt' ) == 1 ) {  ?>
+
+
     <div class="course-block" id="course-<?php the_ID(); ?>">
 		<div class="m_head"><div class="icon"><img src="<?php the_field( 'logo_url' ); ?>" /></div>
 		<div class="name"><h4><?php the_title(); ?></h4><p><?php the_field( 'description' ); ?></p></div></div>
@@ -44,4 +47,11 @@
 		</a>
 </div>
 
-<?php } ?>
+
+
+<?php
+		} else {
+		 // echo 'false';
+		} ?>
+	<?php endwhile; ?>
+<?php endif; ?>
