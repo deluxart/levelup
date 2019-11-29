@@ -113,11 +113,15 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
 
 
         case 'grafik_zanyatij' :
-            $grafik = get_field( "grafik_zanyatij", $post->ID );
-            if ( empty( $grafik ) )
-                echo __( 'Не указан' );
-            else
-                printf( $grafik );
+            if ( have_rows( 'data_raspisanie_grafik' ) ) :
+                while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row();
+                    $grafik = get_sub_field( "schedule", $post->ID );
+                if ( empty( $grafik ) )
+                    echo __( 'График не указан' );
+                else
+                    printf( $grafik );
+                endwhile;
+            endif;
         break;
 
 
