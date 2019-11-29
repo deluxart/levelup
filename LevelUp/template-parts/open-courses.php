@@ -27,27 +27,32 @@
 		<div class="name"><h4><?php the_title(); ?></h4><p><?php the_field( 'description' ); ?></p></div></div>
 		<div class="date">
 			<span class="title">Старт:</span>
-			<h5><?php the_field( 'data_starta' ); ?></h5>
-			<p class="schedulle"><?php the_field( 'grafik_zanyatij' ); ?></p>
+            <?php if ( have_rows( 'data_raspisanie_grafik' ) ) : ?>
+                <?php while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row(); ?>
+                        <h5><?php the_sub_field( 'date_start' ); ?></h5>
+                        <p class="schedulle"><?php the_sub_field( 'schedule' ); ?>/p>
+                        <?php endwhile; ?>
+            <?php endif; ?>
 		</div>
 		<div class="price">
 			<span class="title">Цена:</span>
-			<p><?php the_field( 'price_before' ); ?></p>
-			<h5><?php the_field( 'stoimost' ); ?>
-
-            <?php if ( get_field( 'znachenie_czeny' ) == 'грн за курс' ) { ?>
-                <span class="price-block"><?php the_field( 'znachenie_czeny' ); ?></span>
-            <?php } else { ?>
-                <span><?php the_field( 'znachenie_czeny' ); ?></span>
-            <?php } ?>
-            </h5>
+                <?php if ( have_rows( 'stoimost_kursa' ) ) : ?>
+                    <?php while ( have_rows( 'stoimost_kursa' ) ) : the_row(); ?>
+                            <p><?php the_sub_field( 'before_price' ); ?></p>
+                            <h5><?php the_sub_field( 'price_course' ); ?>
+                            <?php if ( the_sub_field( 'units' ) == 'грн за курс' ) { ?>
+                                <span class="price-block"><?php the_sub_field( 'units' ); ?></span>
+                            <?php } else { ?>
+                                <span><?php the_sub_field( 'units' ); ?></span>
+                            <?php } ?>
+                            </h5>
+                    <?php endwhile; ?>
+                <?php endif; ?>
 		</div>
 		<a href="<?php the_field( 'vybrat_kurs' ); ?>" class="more-link">
 			<span>Подробнее</span>
 		</a>
 </div>
-
-
 
 <?php
 		} else {
