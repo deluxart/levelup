@@ -204,10 +204,16 @@ function courses_listing_home( $atts ) {
         'post_type' => $args['type'],
         'meta_key'          => 'kol-vo_svobodnyh_mest',
         'orderby'           => 'meta_value',
-        'order'             => 'ASC',
+        'order'             => 'DESC',
         'posts_per_page' => $args['posts'],
-        'category_name' => $args['category'],
-        'post_status' => 'publish'
+        // 'category_name' => $args['category'],
+        'post_status' => 'publish',
+
+        'tax_query'         => array( array(
+        'taxonomy'  => 'levelup_courses_cat',
+        'field'     => 'slug',
+        'terms'     => array( sanitize_title( $atts['category'] ) )
+        ) )
     );
 
     $query = new WP_Query( $options );
