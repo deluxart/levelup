@@ -461,7 +461,7 @@ jQuery('.spoiler.child > .head').on('click', function(e){
   e.preventDefault();
 });
 
-jQuery('body .program-block').not( "body.page-id-529" ).ready(function () {
+jQuery('body .program-block').not( ".page-id-529" ).ready(function () {
     var s_head = jQuery('.program-block').children('.spoiler').children('.head').hasClass('active');
     var s_cont = jQuery('.program-block').children('.spoiler').children('.cont').hasClass('active');
 
