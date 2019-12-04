@@ -461,12 +461,12 @@ jQuery('.spoiler.child > .head').on('click', function(e){
   e.preventDefault();
 });
 
-jQuery('body:not(.page-id-529) .program-block').ready(function () {
+jQuery('.program-block').ready(function () {
     var s_head = jQuery('.program-block').children('.spoiler').children('.head').hasClass('active');
     var s_cont = jQuery('.program-block').children('.spoiler').children('.cont').hasClass('active');
 
     if (s_head == false && s_cont == false) {
-        jQuery('.program-block').children('.spoiler').children('.head').first().click();
+        jQuery('body:not(.page-id-529) .program-block').children('.spoiler').children('.head').first().click();
     }
 });
 
