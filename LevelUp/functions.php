@@ -41,7 +41,15 @@ function LevelUp_setup() {
 	add_theme_support( 'title-tag' );
 
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 600, 600, true );
+    set_post_thumbnail_size( 600, 600, true );
+
+
+    if ( function_exists( 'add_theme_support' ) ) {
+        add_image_size( 'square-large', 600, 600, true); // name, width, height, crop
+    }
+
+
+
 
 	add_theme_support( 'html5', array(
 		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
