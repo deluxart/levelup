@@ -28,28 +28,26 @@ function courses_programs() {
 }
 
 
-add_action("admin_init", "admin_init_program");
-    // add_action('save_post', 'save_course_program');
+// add_action("admin_init", "admin_init_program");
+// add_action('save_post', 'save_course_program');
 
-    function admin_init_program(){
-        add_meta_box("course_program", "Дополнительно", "meta_options_program", "course-programs", "side", "high");
-    }
+//     function admin_init_program(){
+//         add_meta_box("course_program", "Дополнительно", "meta_options_program", "course-programs", "side", "high");
+//     }
 
-    function meta_options_program(){
-        global $post;
-        $custom = get_post_custom($post->ID);
-        // $program_meta= $custom["program_meta"][0];
-        $custom_id = $post->ID;
-?>
-    <!-- <label>Должность:</label><input name="program_meta" type="text" style="width: 100%;" value="<?php echo $program_meta; ?>" /> -->
-    <label>Айдишник:</label><input name='program_id' type='text' style='width: 100%;' value='[program id="<?php echo $custom_id; ?>"]' readonly/>
-<?php
-    }
+//     function meta_options_program(){
+//         global $post;
+//         $custom = get_post_custom($post->ID);
+//         $custom_id = $post->ID;
+// ? >
+//     <label>Айдишник:</label><input name='program_id' type='text' style='width: 100%;' value='[program id="< ?php echo $custom_id; ? >"]' readonly/>
+// < ?php
+//     }
 
-	// function save_course_program(){
-	// 	global $post;
-	// 	update_post_meta($post->ID, "program_meta", $_POST["program_meta"]);
-	// }
+// 	function save_course_program(){
+// 		global $post;
+// 		update_post_meta($post->ID, "program_meta", $_POST["program_meta"]);
+// 	}
 
 
 
