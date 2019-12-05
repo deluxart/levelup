@@ -48,8 +48,8 @@ get_header(); ?>
     <div class="title-block">
         <h4><?php pll_e('articles_widget_title','LevelUp'); ?></h4>
     </div>
-    <div class="content-block">
-        <?php echo do_shortcode('[cat-posts category="blog" posts="3" orderby="date" order="DESC"]'); ?>
+    <div class="content-block articles">
+        <?php echo do_shortcode('[cat-articles category="blog" posts="3" orderby="date" order="DESC"]'); ?>
     </div>
 </div>
 
