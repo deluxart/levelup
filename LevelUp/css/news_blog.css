@@ -3,13 +3,13 @@
 
 .single .block-lastnews { margin-bottom: 50px; }
 .single .block-widget h4 { color: #003cff; font-size: 24px; font-weight: bold; margin-bottom: 20px; line-height: normal; }
-.single .block-widget .content-block { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 20px; }
+.single .block-widget .content-block { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 40px; }
 .single .block-widget .content-block img { display: block; border-radius: 10px; margin-bottom: 10px; }
 
 .single .block-widget .content-block.articles img { margin: 0; border-radius: 50%; }
 
 
-.single .block-widget .content-block a.news-title { font-size: 14px; color: #444444; font-weight: bold; }
+.single .block-widget .content-block a.news-title { font-size: 14px; color: #444444; font-weight: normal; }
 .single .block-lastartickles .content-block .catpost { display: grid; grid-template-columns: 60px 1fr; align-items: center; grid-column-gap: 20px; }
 
 .news_sidebar h2.widget-title { color: #003cff; font-size: 24px; font-weight: 700; margin-bottom: 20px; line-height: normal; }
