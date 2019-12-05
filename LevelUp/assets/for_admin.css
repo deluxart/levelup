@@ -3,7 +3,7 @@
 @import 'https://levelup.ua/wp-content/themes/LevelUp/css/news_blog.css';
 
 
-img[src*='.svg'] {
+.wp-core-ui .attachment .thumbnail img[src*='.svg'], .upload-php img[src*='.svg'], .media-new-php img[src*='.svg'] {
     width: 100%;
     height: auto;
 }
