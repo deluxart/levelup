@@ -923,6 +923,14 @@ pll_register_string('Page', 'Page');
 
 
 
+function add_acf_body_class($class) {
+    $queried_object_id = get_queried_object_id();
+    $value = get_field('custom_class', $queried_object_id);
+    $class[] = $value;
+    return $class;
+}
+add_filter('body_class', 'add_acf_body_class');
+
 
 
 if( is_admin() ){
