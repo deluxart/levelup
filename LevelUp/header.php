@@ -67,6 +67,7 @@ if (isset($GLOBALS["polylang"])) {
 		          <img src="https://levelup.ua/wp-content/uploads/2019/11/level_up-1.svg" class="logo_desktop" alt="LevelUp" />
 		          <img src="https://levelup.ua/wp-content/uploads/2019/11/logo_mobile.svg" class="logo_mobile" alt="LevelUp" />
 		          <img src="https://levelup.ua/wp-content/uploads/2019/11/level_up-1.svg" class="dev-logo" alt="LevelUp" />
+                  <img src="https://levelup.ua/wp-content/uploads/2019/12/color_logo.svg" class="d-none color-logo" alt="LevelUp" alt="">
 		    </a>
 		</div>
         <div class="header-phone">
