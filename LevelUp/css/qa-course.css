@@ -1,0 +1,46 @@
+body.qa-body #header.light.header-color .content .logo a img.logo_desktop { display: none !important; }
+
+body.qa-body #header.light.header-color .content .logo a img.color-logo { display: block !important; }
+
+body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-item > a, body.qa-body #header.header-color .content .lux_search .button i, body.qa-body #header.header-color .content .menu-btn button { color: #0048ff; }
+
+body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-item > a::after { border-right: 1px dotted #0048ff54; }
+
+.course-page-3d.qa-course { background: url(https://levelup.ua/wp-content/uploads/2019/12/bg_top_page.png) top center; background-size: 1920px; background-position: top center; background-repeat: no-repeat; }
+.course-page-3d.qa-course #course_slider .content .text > h1 { color: #003cff; }
+.course-page-3d.qa-course #course_slider .content .text > span { color: #003cff; }
+.course-page-3d.qa-course #about3d .content .text > p { margin-bottom: 30px; }
+.course-page-3d.qa-course #about3d .content .text h5 { margin-bottom: 0; }
+.course-page-3d.qa-course .fullstack-page #fs-program { background: #0048ff; }
+.course-page-3d.qa-course .fullstack-page #fs-program .program-block .spoiler .head { color: #ffde00; }
+.course-page-3d.qa-course .fullstack-page #fs-program .program-block .spoiler:after { background: #4d7fff; }
+.course-page-3d.qa-course .fullstack-page #fs-program .spoiler_block:before { background: #4d7fff; }
+.course-page-3d.qa-course .fullstack-page #fs-program .spoiler_block .line-numbers { color: #ffffff; }
+.course-page-3d.qa-course #career_path { padding: 60px 0; }
+.course-page-3d.qa-course #career_path .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; grid-gap: 50px; }
+.course-page-3d.qa-course #career_path .content .text { text-align: center; }
+.course-page-3d.qa-course #career_path .content .text .career_graph { max-width: 450px; margin: 0 auto; }
+.course-page-3d.qa-course #career_path .content .text .career_graph h4 { font-size: 24px; font-weight: 900; color: #003cff; padding: 15px 30px; }
+.course-page-3d.qa-course #career_path .content .text .career_graph > div { position: relative; display: grid; grid-template-columns: 1fr 1fr; }
+.course-page-3d.qa-course #career_path .content .text .career_graph > div:before { content: ''; left: calc(50% - 1px); height: 100%; background: #9000ff; position: absolute; width: 2px; z-index: 0; top: 22px; }
+.course-page-3d.qa-course #career_path .content .text .career_graph > div:after { content: ''; left: calc(50% - 9px); height: 18px; background: #a0a0a0; position: absolute; top: calc(50% - 9px); border-radius: 50%; width: 18px; z-index: 1; border: 5px solid #fff; }
+.course-page-3d.qa-course #career_path .content .text .career_graph > div.first-item:before { top: calc(50% - 9px); }
+.course-page-3d.qa-course #career_path .content .text .career_graph > div.first-item:after { top: calc(50% - 11px); left: calc(50% - 11px); background: #9000ff; width: 22px; height: 22px; }
+.course-page-3d.qa-course #career_path .content .text .career_graph > div.last-item:before { display: none; }
+.course-page-3d.qa-course #career_path .content .text .career_graph > div.last-item:after { top: calc(50% - 11px); left: calc(50% - 11px); background: #0048ff; width: 22px; height: 22px; }
+.course-page-3d.qa-course #what_awaits_you { padding: 70px 0; }
+.course-page-3d.qa-course #what_awaits_you .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 50px; max-width: 900px; margin: 0 auto; }
+.course-page-3d.qa-course #what_awaits_you .content > div img { max-width: 90px; display: block; box-shadow: 0px 23px 32px 0px rgba(22, 96, 255, 0.3); border-radius: 50%; }
+.course-page-3d.qa-course #what_awaits_you .content > div h3 { color: #003cff; font-weight: 900; font-size: 26px; margin: 20px 0; }
+.course-page-3d.qa-course #what_awaits_you .content > div p { font-size: 16px; }
+.course-page-3d.qa-course #qa_course_result { padding-bottom: 70px; }
+.course-page-3d.qa-course #qa_course_result .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 50px; }
+.course-page-3d.qa-course #qa_course_result .content .image { align-self: center; }
+.course-page-3d.qa-course #qa_course_result .content ul { display: grid; grid-row-gap: 25px; }
+.course-page-3d.qa-course #qa_course_result .content ul li { position: relative; padding-left: 25px; }
+.course-page-3d.qa-course #qa_course_result .content ul li:before { position: absolute; content: ''; width: 9px; height: 9px; border-radius: 50%; background-image: -moz-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); background-image: -webkit-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); background-image: -ms-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); box-shadow: 5.657px 5.657px 9px 0px rgba(63, 35, 119, 0.45); top: 7px; left: 0; }
+
+@media (max-width: 992px) { .course-page-3d.qa-course #career_path .content { grid-template-columns: 1fr; }
+  .course-page-3d.qa-course #what_awaits_you .content { grid-template-columns: 1fr; }
+  .course-page-3d.qa-course #what_awaits_you .content > div { display: grid; grid-template-columns: 90px 1fr; grid-gap: 20px; align-items: center; }
+  .course-page-3d.qa-course #qa_course_result .content { grid-template-columns: 1fr; } }
