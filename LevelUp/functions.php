@@ -922,7 +922,7 @@ pll_register_string('Next page', 'Next page');
 pll_register_string('Page', 'Page');
 
 
-
+// Добавляем кастомный класс для body с помощью ACF
 function add_acf_body_class($class) {
     $queried_object_id = get_queried_object_id();
     $value = get_field('custom_class', $queried_object_id);
