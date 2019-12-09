@@ -64,7 +64,8 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
   .course-page-3d #course_slider .content { grid-gap: 30px; }
   .course-page-3d.qa-course #about3d .content { grid-gap: 40px; } }
 @media (max-width: 768px) { .course-page-3d #feed-form3d .content { display: block; padding: 20px; }
-  .course-page-3d #feed-form3d .content .left-side { margin: 0; padding: 30px 30px 30px 10px; }
+  .course-page-3d #feed-form3d .content .left-side { margin: 0 0 30px 0; padding: 30px 30px 30px 10px; grid-row-gap: 10px; }
+  .course-page-3d #feed-form3d .content .right-side .form-cont h2 { margin-bottom: 20px; }
   .course-page-3d #fishki .cont .block { grid-template-columns: 120px 1fr; }
   .course-page-3d #fishki .cont .block div h4 { font-size: 15px; line-height: normal; }
   .course-page-3d #fishki .cont .block div { padding: 20px; }
@@ -72,4 +73,7 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
   .course-page-3d #fishki .cont .block div::before { line-height: 60px; font-size: 80px; }
   .course-page-3d #fishki.course h2 { padding: 0; }
   .course-page-3d #for_you3d .content .text .cont { grid-gap: 30px; }
-  .course-page-3d #details3d .content { padding: 0; } }
+  .course-page-3d #details3d .content { padding: 0; }
+  .fullstack-page #fs-program > .container > .cont { display: block; }
+  .fullstack-page #fs-program h2 { margin-bottom: 0; line-height: normal; }
+  .fullstack-page #fs-program .program-block { width: calc(100% - -40px); } }
