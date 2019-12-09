@@ -6,6 +6,11 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
 
 body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-item > a::after { border-right: 1px dotted #0048ff54; }
 
+.course-page-3d.qa-course .wave.bottom { display: none; }
+
+@media (max-width: 992px) { body.qa-body #header.light.header-color .content .logo a img.color-logo { display: none; }
+  body.qa-body #header.light.header-color .content .logo a img.color-logo-mobile { display: block; }
+  .course-page-3d h2 { font-size: 38px; } }
 .course-page-3d.qa-course { background: url(https://levelup.ua/wp-content/uploads/2019/12/bg_top_page.png) top center; background-size: 1920px; background-position: top center; background-repeat: no-repeat; }
 .course-page-3d.qa-course #course_slider .content .text > h1 { color: #003cff; }
 .course-page-3d.qa-course #course_slider .content .text > span { color: #003cff; }
@@ -44,4 +49,9 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
 @media (max-width: 992px) { .course-page-3d.qa-course #career_path .content { grid-template-columns: 1fr; }
   .course-page-3d.qa-course #what_awaits_you .content { grid-template-columns: 1fr; }
   .course-page-3d.qa-course #what_awaits_you .content > div { display: grid; grid-template-columns: 90px 1fr; grid-gap: 20px; align-items: center; }
-  .course-page-3d.qa-course #qa_course_result .content { grid-template-columns: 1fr; } }
+  .course-page-3d.qa-course #qa_course_result .content { grid-template-columns: 1fr; }
+  .course-page-3d.qa-course #course_slider .content .text > h1 { font-size: 26px; }
+  .course-page-3d.qa-course #what_awaits_you .content { text-align: left; }
+  .course-page-3d #prepod3d .teacher-lvl .text { padding: 20px 30px; }
+  .course-page-3d #prepod3d .teacher-lvl .photo { margin-top: 20px; }
+  .course-page-3d #prepod3d .teacher-lvl .photo img { max-width: 150px; border-radius: 50%; } }

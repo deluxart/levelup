@@ -31,7 +31,7 @@
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?43111<?php echo date(get_option('date_format')); ?>3">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/2019/new_home.css?876<?php echo date(get_option('date_format')); ?>3">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/qa-course.css?8236<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/qa-course.css?7771<?php echo date(get_option('date_format')); ?>3">
 
     <?php echo $options['gtm_code'];?>
 </head>
@@ -67,7 +67,8 @@ if (isset($GLOBALS["polylang"])) {
 		          <img src="https://levelup.ua/wp-content/uploads/2019/11/level_up-1.svg" class="logo_desktop" alt="LevelUp" />
 		          <img src="https://levelup.ua/wp-content/uploads/2019/11/logo_mobile.svg" class="logo_mobile" alt="LevelUp" />
 		          <img src="https://levelup.ua/wp-content/uploads/2019/11/level_up-1.svg" class="dev-logo" alt="LevelUp" />
-                  <img src="https://levelup.ua/wp-content/uploads/2019/12/color_logo.svg" class="d-none color-logo" alt="LevelUp" alt="">
+                  <img src="https://levelup.ua/wp-content/uploads/2019/12/color_logo.svg" class="d-none color-logo" alt="LevelUp" alt="" />>
+                  <img src="https://levelup.ua/wp-content/uploads/2019/12/color_logo_mobile.svg" class="d-none color-logo-mobile" alt="LevelUp" alt="" />>
 		    </a>
 		</div>
         <div class="header-phone">
