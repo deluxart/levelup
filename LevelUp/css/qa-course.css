@@ -8,8 +8,9 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
 
 .course-page-3d.qa-course .wave.bottom { display: none; }
 
-@media (max-width: 992px) { body.qa-body #header.light.header-color .content .logo a img.color-logo { display: none; }
-  body.qa-body #header.light.header-color .content .logo a img.color-logo-mobile { display: block; }
+@media (max-width: 992px) { body.qa-body #header.light.header-color .content .logo a img.color-logo { display: none !important; }
+  body.qa-body #header.light.header-color .content .logo a img.color-logo-mobile { display: block !important; }
+  body.qa-body #header.light.header-color .content .logo a img.logo_mobile { display: none !important; }
   .course-page-3d h2 { font-size: 38px; } }
 .course-page-3d.qa-course { background: url(https://levelup.ua/wp-content/uploads/2019/12/bg_top_page.png) top center; background-size: 1920px; background-position: top center; background-repeat: no-repeat; }
 .course-page-3d.qa-course #course_slider .content .text > h1 { color: #003cff; }
