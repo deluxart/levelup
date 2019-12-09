@@ -81,6 +81,6 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
   .course-page-3d.qa-course #what_awaits_you { padding-top: 50px; }
   .course-page-3d.qa-course #qa_course_result .content { grid-gap: 30px; }
   .course-page-3d.qa-course #prepod3d { padding-top: 0; }
-  .course-page-3d #course_slider.course3d { overflow: hidden; }
+  .course-page-3d #course_slider { overflow: hidden; }
   .course-page-3d.qa-course #career_path .content .image { grid-row: 2; }
   .course-page-3d.qa-course #qa_course_result { padding-bottom: 0; } }
