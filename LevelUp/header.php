@@ -31,7 +31,7 @@
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?43111<?php echo date(get_option('date_format')); ?>3">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/2019/new_home.css?876<?php echo date(get_option('date_format')); ?>3">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/qa-course.css?876<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/qa-course.css?8236<?php echo date(get_option('date_format')); ?>3">
 
     <?php echo $options['gtm_code'];?>
 </head>

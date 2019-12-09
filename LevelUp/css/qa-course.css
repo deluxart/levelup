@@ -9,6 +9,7 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
 .course-page-3d.qa-course { background: url(https://levelup.ua/wp-content/uploads/2019/12/bg_top_page.png) top center; background-size: 1920px; background-position: top center; background-repeat: no-repeat; }
 .course-page-3d.qa-course #course_slider .content .text > h1 { color: #003cff; }
 .course-page-3d.qa-course #course_slider .content .text > span { color: #003cff; }
+.course-page-3d.qa-course #about3d .content { grid-gap: 140px; }
 .course-page-3d.qa-course #about3d .content .text > p { margin-bottom: 30px; }
 .course-page-3d.qa-course #about3d .content .text h5 { margin-bottom: 0; }
 .course-page-3d.qa-course .fullstack-page #fs-program { background: #0048ff; }
@@ -29,8 +30,8 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
 .course-page-3d.qa-course #career_path .content .text .career_graph > div.last-item:before { display: none; }
 .course-page-3d.qa-course #career_path .content .text .career_graph > div.last-item:after { top: calc(50% - 11px); left: calc(50% - 11px); background: #0048ff; width: 22px; height: 22px; }
 .course-page-3d.qa-course #what_awaits_you { padding: 70px 0; }
-.course-page-3d.qa-course #what_awaits_you .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 50px; max-width: 900px; margin: 0 auto; }
-.course-page-3d.qa-course #what_awaits_you .content > div img { max-width: 90px; display: block; box-shadow: 0px 23px 32px 0px rgba(22, 96, 255, 0.3); border-radius: 50%; }
+.course-page-3d.qa-course #what_awaits_you .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 70px; max-width: 1000px; margin: 0 auto; text-align: center; }
+.course-page-3d.qa-course #what_awaits_you .content > div img { max-width: 90px; display: block; box-shadow: 0px 23px 32px 0px rgba(22, 96, 255, 0.3); border-radius: 50%; display: block; margin: 0 auto; }
 .course-page-3d.qa-course #what_awaits_you .content > div h3 { color: #003cff; font-weight: 900; font-size: 26px; margin: 20px 0; }
 .course-page-3d.qa-course #what_awaits_you .content > div p { font-size: 16px; }
 .course-page-3d.qa-course #qa_course_result { padding-bottom: 70px; }
