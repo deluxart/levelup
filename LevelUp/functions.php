@@ -916,6 +916,9 @@ pll_register_string('events_widget_title', 'events_widget_title');
 // Вам можуть бути цікаві ці статті
 pll_register_string('articles_widget_title', 'articles_widget_title');
 
+// Подробнее
+pll_register_string('show_more_text', 'show_more_text');
+
 
 pll_register_string('Previous page', 'Previous page');
 pll_register_string('Next page', 'Next page');

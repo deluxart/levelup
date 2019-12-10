@@ -36,14 +36,14 @@
             <?php if ( have_rows( 'data_raspisanie_grafik' ) ) : ?>
                 <?php while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row(); ?>
                     <ul class="course-info">
-                        <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'date_start' ); ?></span></li>
-                        <li><i class="fa fa-clock-o" aria-hidden="true"></i><span><?php the_sub_field( 'duration' ); ?></span></li>
-                        <li><i class="fa fa-calendar" aria-hidden="true"></i><span><?php the_sub_field( 'schedule' ); ?></span></li>
+                        <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'date_start_start_rus' ); ?></span></li>
+                        <li><i class="fa fa-clock-o" aria-hidden="true"></i><span><?php the_sub_field( 'duration_duration_rus' ); ?></span></li>
+                        <li><i class="fa fa-calendar" aria-hidden="true"></i><span><?php the_sub_field( 'schedule_schedule_rus' ); ?></span></li>
                     </ul>
                 <?php endwhile; ?>
             <?php endif; ?>
 	    </div>
-	    <div class="lvl-btn yw"><a href="<?php the_field( 'vybrat_kurs' ); ?>">Подробнее</a></div>
+	    <div class="lvl-btn yw"><a href="<?php the_field( 'vybrat_kurs' ); ?>"><?php pll_e('show_more_text','LevelUp'); ?></a></div>
     </div>
 </div>
 
