@@ -35,11 +35,17 @@
 	    <div>
             <?php if ( have_rows( 'data_raspisanie_grafik' ) ) : ?>
                 <?php while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row(); ?>
-                    <ul class="course-info">
-                        <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'date_start_start_rus' ); ?></span></li>
-                        <li><i class="fa fa-clock-o" aria-hidden="true"></i><span><?php the_sub_field( 'duration_duration_rus' ); ?></span></li>
-                        <li><i class="fa fa-calendar" aria-hidden="true"></i><span><?php the_sub_field( 'schedule_schedule_rus' ); ?></span></li>
-                    </ul>
+
+                 <?php if ( have_rows( 'date_start' ) ) : ?>
+                        <?php while ( have_rows( 'date_start' ) ) : the_row(); ?>
+                        <h5><?php the_sub_field( 'start_rus' ); ?></h5>
+                            <ul class="course-info">
+                                <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_rus' ); ?></span></li>
+                                <li><i class="fa fa-clock-o" aria-hidden="true"></i><span><?php the_sub_field( 'duration_rus' ); ?></span></li>
+                                <li><i class="fa fa-calendar" aria-hidden="true"></i><span><?php the_sub_field( 'chedule_rus' ); ?></span></li>
+                            </ul>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
                 <?php endwhile; ?>
             <?php endif; ?>
 	    </div>
