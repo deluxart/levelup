@@ -81,7 +81,13 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
         case 'data_starta' :
             if ( have_rows( 'data_raspisanie_grafik' ) ) :
                 while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row();
-                    $start = get_sub_field( "date_start", $post->ID );
+
+                if ( have_rows( 'date_start' ) ) :
+                    while ( have_rows( 'date_start' ) ) : the_row();
+                        $start = get_sub_field( "start_rus", $post->ID );
+                    endwhile;
+                endif;
+
                 if ( empty( $start ) )
                     echo __( 'Дата не указана' );
                 else
@@ -95,8 +101,11 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
         case 'stoimost' :
             if ( have_rows( 'stoimost_kursa' ) ) :
                 while ( have_rows( 'stoimost_kursa' ) ) : the_row();
+
                     $price = get_sub_field( "price_course", $post->ID );
-                    $price_before = get_sub_field( "before_price", $post->ID );
+                    while ( have_rows( 'before_price' ) ) : the_row();
+                        $price_before = get_sub_field( "before_price_rus", $post->ID );
+			        endwhile;
                     $znachenie_czeny = get_sub_field( "units", $post->ID );
 
                     if ( empty( $price ) )
@@ -115,7 +124,13 @@ function my_manage_levelup_courses_columns( $column, $post_id ) {
         case 'grafik_zanyatij' :
             if ( have_rows( 'data_raspisanie_grafik' ) ) :
                 while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row();
-                    $grafik = get_sub_field( "schedule", $post->ID );
+
+                if ( have_rows( 'schedule' ) ) :
+                    while ( have_rows( 'schedule' ) ) : the_row();
+                        $grafik = get_sub_field( "schedule_rus", $post->ID );
+                    endwhile;
+                endif;
+
                 if ( empty( $grafik ) )
                     echo __( 'График не указан' );
                 else
