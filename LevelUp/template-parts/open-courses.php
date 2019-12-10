@@ -32,11 +32,15 @@
 
                     <?php if ( have_rows( 'date_start' ) ) : ?>
                         <?php while ( have_rows( 'date_start' ) ) : the_row(); ?>
-
                         <h5><?php the_sub_field( 'start_rus' ); ?></h5>
-                        <p class="schedulle"><?php the_sub_field( 'schedule_rus' ); ?></p>
                         <?php endwhile; ?>
                     <?php endif; ?>
+                    <?php if ( have_rows( 'schedule' ) ) : ?>
+			            <?php while ( have_rows( 'schedule' ) ) : the_row(); ?>
+                            <p class="schedulle"><?php the_sub_field( 'schedule_rus' ); ?></p>
+                        <?php endwhile; ?>
+		            <?php endif; ?>
+
 
                 <?php endwhile; ?>
             <?php endif; ?>
