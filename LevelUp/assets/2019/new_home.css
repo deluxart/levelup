@@ -308,7 +308,7 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #why_trust_us .content .list { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 40px; background: url(https://levelup.ua/wp-content/uploads/2019/11/opacity_logo.png) center no-repeat; background-size: 60%; }
 .lvl2019 #why_trust_us .content .list .block { text-align: center; }
 .lvl2019 #why_trust_us .content .list .block h5 { font-size: 18px; font-weight: bold; margin: 20px 0 10px 0; color: #003cff; transition: 0.3s all; }
-.lvl2019 #why_trust_us .content .list .block p { color: #003cff; }
+.lvl2019 #why_trust_us .content .list .block p { color: #444; }
 .lvl2019 #why_trust_us .content .list .img { position: relative; transition: 0.3s all; }
 .lvl2019 #why_trust_us .content .list .img:before { position: absolute; content: ''; width: 100px; height: 100px; left: 50%; transform: translateX(-50%); bottom: -20px; background: #00000017; z-index: 0; border-radius: 50%; }
 .lvl2019 #why_trust_us .content .list .img svg { display: block; max-width: 90px; margin: 0 auto; z-index: 1; position: relative; }
