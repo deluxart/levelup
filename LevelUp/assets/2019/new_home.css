@@ -286,13 +286,18 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #trust_us .content .text { position: relative; }
 .lvl2019 #trust_us .content .text h2 { color: #003cff; line-height: normal; }
 .lvl2019 #trust_us .content .text h2 span { display: block; }
+.lvl2019 #lvl_prepods { padding: 100px 0; position: relative; }
+.lvl2019 #lvl_prepods .container h2 { margin-bottom: 20px; }
+.lvl2019 #lvl_prepods .container .content img { display: block; }
+.lvl2019 #lvl_prepods.active { color: #fff; }
+.lvl2019 #lvl_prepods::before { position: absolute; width: 100%; height: 100px; bottom: 100px; background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%); background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%); content: ''; opacity: 0.2; }
 .lvl2019 #why_trust_us { padding: 120px 0; position: relative; transition: 0.3s all; }
-.lvl2019 #why_trust_us.active, body.blue-section .lvl2019 #why_trust_us.active { color: #fff; }
-.lvl2019 #why_trust_us.active h2, body.blue-section .lvl2019 #why_trust_us.active h2 { color: #fff; }
-.lvl2019 #why_trust_us.active .text-before, body.blue-section .lvl2019 #why_trust_us.active .text-before { color: #ffffff0d; }
-.lvl2019 #why_trust_us.active .content .list .block h5, body.blue-section .lvl2019 #why_trust_us.active .content .list .block h5 { color: #fff; }
-.lvl2019 #why_trust_us.active .content .list .img svg path, body.blue-section .lvl2019 #why_trust_us.active .content .list .img svg path { fill: #fff; }
-.lvl2019 #why_trust_us.active .content .list .img svg rect, body.blue-section  .lvl2019 #why_trust_us.active .content .list .img svg rect { fill: #fff; }
+.lvl2019 #why_trust_us.active, body.blue-section .lvl2019 #why_trust_us { color: #fff; }
+.lvl2019 #why_trust_us.active h2, body.blue-section .lvl2019 #why_trust_us h2 { color: #fff; }
+.lvl2019 #why_trust_us.active .text-before, body.blue-section .lvl2019 #why_trust_us .text-before { color: #ffffff0d; }
+.lvl2019 #why_trust_us.active .content .list .block h5, body.blue-section .lvl2019 #why_trust_us .content .list .block h5 { color: #fff; }
+.lvl2019 #why_trust_us.active .content .list .img svg path, body.blue-section .lvl2019 #why_trust_us .content .list .img svg path { fill: #fff; }
+.lvl2019 #why_trust_us.active .content .list .img svg rect, body.blue-section .lvl2019 #why_trust_us .content .list .img svg rect { fill: #fff; }
 .lvl2019 #why_trust_us h2 { color: #003cff; transition: 0.3s all; }
 .lvl2019 #why_trust_us .text-before { position: absolute; left: 20px; top: 50%; transform: translateY(-50%); font-size: 154px; line-height: 124px; z-index: 0; color: #0000000a; font-weight: 900; max-width: 400px; transition: 500ms; }
 .lvl2019 #why_trust_us .content { display: grid; grid-template-columns: 60% 1fr; align-items: center; position: relative; z-index: 2; }
