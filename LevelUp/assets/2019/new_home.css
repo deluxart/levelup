@@ -300,7 +300,7 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #why_trust_us.active .content .list .img svg path, body.blue-section .lvl2019 #why_trust_us .content .list .img svg path { fill: #fff; }
 .lvl2019 #why_trust_us.active .content .list .img svg rect, body.blue-section .lvl2019 #why_trust_us .content .list .img svg rect { fill: #fff; }
 
-.lvl2019 #why_trust_us.active .content .list .block p, body.blue-section .lvl2019 #why_trust_us .content .list .block { color: #fff; }
+.lvl2019 #why_trust_us.active .content .list .block p, body.blue-section .lvl2019 #why_trust_us .content .list .block p { color: #fff; }
 
 .lvl2019 #why_trust_us h2 { color: #003cff; transition: 0.3s all; }
 .lvl2019 #why_trust_us .text-before { position: absolute; left: 20px; top: 50%; transform: translateY(-50%); font-size: 154px; line-height: 124px; z-index: 0; color: #0000000a; font-weight: 900; max-width: 400px; transition: 500ms; }
