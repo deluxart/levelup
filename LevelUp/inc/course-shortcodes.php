@@ -38,7 +38,7 @@ function lvl_course_shortcodes() {
         'show_ui' => true,
         'has_archive' => true,
         'menu_icon' => 'dashicons-analytics',
-        'menu_position' => 1,
+        'menu_position' => 5,
         'supports' => array( 'title', 'thumbnail', 'revisions')
     );
     register_post_type('levelup_courses', $args);
