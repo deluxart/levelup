@@ -286,11 +286,9 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #trust_us .content .text { position: relative; }
 .lvl2019 #trust_us .content .text h2 { color: #003cff; line-height: normal; }
 .lvl2019 #trust_us .content .text h2 span { display: block; }
-.lvl2019 #lvl_prepods { padding: 100px 0; position: relative; }
-.lvl2019 #lvl_prepods .container h2 { margin-bottom: 20px; color: #003cff; }
-.lvl2019 #lvl_prepods.active .container h2, body.blue-section .lvl2019 #lvl_prepods .container { color: #fff; }
+.lvl2019 #lvl_prepods { padding: 100px 0; position: relative; backgroudn: #003cff; color: #fff; }
+.lvl2019 #lvl_prepods .container h2 { margin-bottom: 20px; color: #fff; }
 .lvl2019 #lvl_prepods .container .content img { display: block; }
-.lvl2019 #lvl_prepods.active { color: #fff; }
 .lvl2019 #lvl_prepods::before { position: absolute; width: 100%; height: 100px; bottom: 100px; background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%); background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%); content: ''; opacity: 0.2; }
 .lvl2019 #why_trust_us { padding: 120px 0; position: relative; transition: 0.3s all; }
 .lvl2019 #why_trust_us.active, body.blue-section .lvl2019 #why_trust_us { color: #fff; }
@@ -316,8 +314,7 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #why_trust_us .content .list .img svg path { fill: #003cff; transition: 0.3s all; }
 .lvl2019 #why_trust_us .content .list .img svg rect { fill: #003cff; transition: 0.3s all; }
 .lvl2019 #what_do_you_get { padding: 140px 0; }
-.lvl2019 #what_do_you_get h3 { color: #fff; margin-bottom: 45px; transition: 0.3s all; }
-.lvl2019 #what_do_you_get.active h3 { color: #003cff; }
+.lvl2019 #what_do_you_get h3 {  margin-bottom: 45px; transition: 0.3s all; color: #003cff; }
 .lvl2019 #what_do_you_get .content { display: grid; grid-template-columns: repeat(5, 1fr); grid-gap: 2px; position: relative; }
 .lvl2019 #what_do_you_get .content img { display: block; }
 .lvl2019 #what_do_you_get .content figure { position: relative; overflow: hidden; }
