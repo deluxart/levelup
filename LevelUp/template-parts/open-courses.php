@@ -29,9 +29,16 @@
 			<span class="title">Старт:</span>
             <?php if ( have_rows( 'data_raspisanie_grafik' ) ) : ?>
                 <?php while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row(); ?>
-                        <h5><?php the_sub_field( 'date_start' ); ?></h5>
+
+                    <?php if ( have_rows( 'date_start' ) ) : ?>
+                        <?php while ( have_rows( 'date_start' ) ) : the_row(); ?>
+
+                        <h5><?php the_sub_field( 'start_rus' ); ?></h5>
                         <p class="schedulle"><?php the_sub_field( 'schedule' ); ?></p>
                         <?php endwhile; ?>
+                    <?php endif; ?>
+
+                <?php endwhile; ?>
             <?php endif; ?>
 		</div>
 		<div class="price">
