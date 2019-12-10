@@ -34,7 +34,7 @@
                         <?php while ( have_rows( 'date_start' ) ) : the_row(); ?>
 
                         <h5><?php the_sub_field( 'start_rus' ); ?></h5>
-                        <p class="schedulle"><?php the_sub_field( 'schedule' ); ?></p>
+                        <p class="schedulle"><?php the_sub_field( 'schedule_rus' ); ?></p>
                         <?php endwhile; ?>
                     <?php endif; ?>
 
