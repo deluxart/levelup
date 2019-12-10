@@ -49,7 +49,12 @@
 			<span class="title">Цена:</span>
                 <?php if ( have_rows( 'stoimost_kursa' ) ) : ?>
                     <?php while ( have_rows( 'stoimost_kursa' ) ) : the_row(); ?>
-                            <p><?php the_sub_field( 'before_price' ); ?></p>
+
+                    <?php if ( have_rows( 'before_price' ) ) : ?>
+			            <?php while ( have_rows( 'before_price' ) ) : the_row(); ?>
+                            <p><?php the_sub_field( 'before_price_rus' ); ?></p>
+                        <?php endwhile; ?>
+		            <?php endif; ?>
                             <h5><?php the_sub_field( 'price_course' ); ?>
 
                             <?php if ( get_sub_field( 'units' ) == 'грн за курс' ) { ?>
