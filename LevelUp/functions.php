@@ -581,7 +581,7 @@ function my_admin_bar_menu( $wp_admin_bar ) {
 	$wp_admin_bar->add_menu( array(
 		'id'    => 'shortcodes',
 		'title' => '<span class="ab-icon"></span><span class="ab-label">'.__( 'Курсы Level Up', 'some-textdomain' ).'</span>',
-		'href'  => '/wp-admin/admin.php?page=shortcodes',
+		'href'  => '/wp-admin/edit.php?post_type=levelup_courses',
         'meta' => array(
                 'target' => '_blank', // Change to _blank for launching in a new window
                 'class' => 'shortcodes-link', // Add a class to your link
