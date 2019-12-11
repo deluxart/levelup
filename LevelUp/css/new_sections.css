@@ -90,6 +90,10 @@
 #level_footer .content .block .a-link.location i { color: #0048ff; }
 #level_footer .content .block i { color: #0048ff; }
 #level_footer .content .block ul.footer-links li { line-height: 32px; }
+#level_footer .content .block ul.footer-links li.reviews-footer { display: grid; grid-template-columns: 1fr auto; grid-gap: 14px; font-weight: 600; border-top: 1px solid #ffffff2b; }
+#level_footer .content .block ul.footer-links li.reviews-footer ul > li { margin: 0 3px; display: inline-block; }
+#level_footer .content .block ul.footer-links li.reviews-footer ul > li:last-child { margin-right: 0; }
+
 #level_footer .content .block .subscribe { padding: 18px 0 0 0; font-weight: 500; }
 #level_footer .content .block .subscribe span:hover { cursor: pointer; text-decoration: underline; }
 
