@@ -236,7 +236,7 @@ ul.arrows5 li:before { content: "\f138"; font-family: FontAwesome; position: abs
 
 ul.arrows6 { margin: 0 0 30px 0 !important; padding: 0 !important; list-style: none !important; line-height: normal !important; }
 ul.arrows6 li { position: relative; padding: 5px 24px; }
-ul.arrows6 li:before { content: "\f061"; font-family: FontAwesome; position: absolute; left: 0; top: 5px; color: #0048ff; }
+ul.arrows6 li:before { content: "\f061"; font-family: FontAwesome; position: absolute; left: 0; top: 7px; color: #0048ff; }
 
 ul.arrows7 { margin: 0 0 30px 0 !important; padding: 0 !important; list-style: none !important; line-height: normal !important; }
 ul.arrows7 li { position: relative; padding: 5px 24px; }

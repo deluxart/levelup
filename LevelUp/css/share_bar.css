@@ -1,4 +1,4 @@
-#share-bar { display: block; position: fixed; top: 33%; transform: translateY(-50%); margin-left: -60px; }
+#share-bar { display: block; position: fixed; top: 33%; transform: translateY(-50%); left: 50px; }
 
 body.tag #share-bar { display: none !important; }
 
@@ -9,7 +9,7 @@ body.tag #share-bar { display: none !important; }
 .sharing-providers > li { display: block; text-align: center; width: 32px; height: 32px; padding: 0; margin: 0; background: #0048ff; }
 .sharing-providers.circle > li { border-radius: 50%; margin: 0 0 8px; box-shadow: 1.854px 5.706px 24.3px 5.7px rgba(0, 0, 0, 0.1); }
 
-#share-bar::after { content: 'Поделиться:'; position: absolute; transform: rotate(-90deg); bottom: -73px; left: -46px; }
+#share-bar::after { content: 'Поделиться:'; position: absolute; transform: rotate(-90deg); bottom: -73px; left: -46px; font-weight: 600; color: #0048ff; font-size: 14px; text-transform: uppercase; }
 #share-bar.left { left: 0; }
 #share-bar.left .sharing-providers > li { margin-left: 0; }
 #share-bar.right { right: 0; }
@@ -23,7 +23,7 @@ body.tag #share-bar { display: none !important; }
 .sharing-providers > li > a,
 .sharing-providers > li > a:hover { text-decoration: none; }
 
-
+.sharing-providers > li { background: #0048ff; }
 .sharing-providers > li.facebook { background: #3b5998; }
 .sharing-providers > li.telegram { background: #0088cc; }
 .sharing-providers > li.viber { background: #59267c; }

@@ -52,7 +52,7 @@ span.tg-item-term.language { display: none !important; }
 .full_post .content-area { padding: 40px 0; }
 
 .single .content-area { overflow: visible; }
-.single .status-publish { background: none; box-shadow: none; border-radius: 0; margin-bottom: 0; overflow: visible; }
+.single .status-publish { background: none; box-shadow: none; border-radius: 0; margin-bottom: 0; overflow: visible; background:#fff; box-shadow: 0 35px 33.05px 29.95px rgb(255, 255, 255); }
 .single .post-image span { right: auto; left: 50%; transform: translateX(-50%); }
 .single .post-image img { margin: 0 auto 30px auto; }
 .single .entry-content { padding: 0; }
