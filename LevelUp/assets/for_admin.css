@@ -3,23 +3,16 @@
 @import 'https://levelup.ua/wp-content/themes/LevelUp/css/news_blog.css';
 
 
-.wp-core-ui .attachment .thumbnail img[src*='.svg'], .upload-php img[src*='.svg'], .media-new-php img[src*='.svg'] {
-    width: 100%;
-    height: auto;
-}
-
+.wp-core-ui .attachment .thumbnail img[src*='.svg'], .upload-php img[src*='.svg'], .media-new-php img[src*='.svg'] { width: 100%; height: auto; }
 .column-course_icon { text-align: center; width:48px !important; overflow:hidden; }
 .column-otobrazhenie { text-align: center; width:100px !important; overflow:hidden; }
 .inside.acf-fields > div:nth-child(2n) { background:#f7f7f7; }
 .acf-table > thead > tr > th { background: #ededed; }
-
 [data-name="prepodavateli"] .acf-table thead {  display: none; }
+.mce-i-my_button:before { content: '\f156'; display: inline-block; -webkit-font-smoothing: antialiased; font: normal 20px/1 dashicons; vertical-align: top; }
 
-
-.mce-i-my_button:before {
-    content: '\f156';
-    display: inline-block;
-    -webkit-font-smoothing: antialiased;
-    font: normal 20px/1 dashicons;
-    vertical-align: top;
-}
+/*For custom post types*/
+.post-type-teachers table.wp-list-table th.column-riv_post_thumbs, .post-type-teachers table.wp-list-table td.column-riv_post_thumbs { width: 54px; }
+.post-type-teachers table.wp-list-table td.column-riv_post_thumbs img { max-width: 54px; height: auto; }
+.update-nag { display: none !important; }
+#wpss_upload_image_thumb img { display: block; width: 100%; max-width: 100px; margin-top: 10px; }
