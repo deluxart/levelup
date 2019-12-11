@@ -154,7 +154,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 /*Форма регистрации*/
 .post-form-block { text-align: center; background: #fff; box-shadow: 0px 35px 63.05px 1.95px rgba(69, 69, 69, 0.18); border-radius: 10px; transition: box-shadow .5s ease-out; padding: 30px 20px; margin-bottom: 30px; }
 .post-form-block.blue {background: #0048ff;color: #fff;}
-.post-form-block .content > h2 { margin-bottom: 40px; }
+.post-form-block .content > h2 { margin: 0 0 40px 0; color: #0048ff; }
 .post-form-block .content {padding: 0 20px;}
 .post-form-block p {padding: 0;}
 .post-form-block .classic-btn {text-align: center;}
@@ -169,9 +169,9 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 .post-form-block.blue .buttonLight:hover:after, .post-form-block.blue .sg-show-popup:hover:after { background-image: url("https://levelup.ua/wp-content/uploads/2018/07/Icon-Button-Arrow-Black.svg"); }
 
 .post-form-reg .post-tel-reg { border-right: 1px solid #d5d5d5; }
-.post-form-reg .post-tel-reg-title, .post-form-reg .post-btn-reg-title { text-align: center; font-size: 22px; font-weight: bold; color: #0048ff; margin-bottom: 20px; }
+.post-form-reg .post-tel-reg-title, .post-form-reg .post-btn-reg-title { text-align: center; font-size: 22px; font-weight: bold; color: #0048ff; margin: 0  0 20px 0; }
 p.post-tel-reg-phone {text-align: center; margin-bottom: 0; font-size: 20px; color: #0048ff;line-height: normal;padding-bottom: 5px;}
-.post-tel-reg p { margin: 0; line-height: normal; padding: 0; }
+.post-tel-reg p { margin: 0 !important; line-height: normal; padding: 0; }
 p.post-tel-reg-phone a { text-decoration: none; font-size: 20px; color: #0048ff; }
 .post-form-block.blue p.post-tel-reg-phone a { text-decoration: none; font-size: 20px; color: #ffde00; }
 
