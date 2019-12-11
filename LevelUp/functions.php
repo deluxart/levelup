@@ -375,45 +375,16 @@ function LevelUp_widget_tag_cloud_args( $args ) {
 }
 add_filter( 'widget_tag_cloud_args', 'LevelUp_widget_tag_cloud_args' );
 
-function _SmrkvLib_GetCourse ($atts = array(), $content = null, $tag)
-{
-	global $wpdb;
-	$result =
-		$wpdb->get_results('SELECT * FROM smrkv_courses WHERE url like "'.$atts['cource'].'%"');
-	$dat_res = get_object_vars($result[0]);
-    // return $dat_res[$atts['field']];
-    return do_shortcode($dat_res[$atts['field']]);
-}
-add_shortcode( 'SmrkCourse', '_SmrkvLib_GetCourse' );
-
-// function include_file($atts) {
-//      extract(
-//           shortcode_atts(
-//                array(
-//                     'filepath' => 'NULL',
-//                     'key1' => 'NULL'
-//                ), $atts
-//           )
-//      );
-
-//      if(strpos($filepath,"?")) {
-//           $query_string_pos = strpos($filepath,"?");
-//           global $query_string;
-//           $query_string = substr($filepath,$query_string_pos + 1);
-//           $clean_file_path = substr($filepath,0,$query_string_pos);
-//      } else {
-//           $clean_file_path = $filepath;
-//      }
-//      if ($filepath != 'NULL' && file_exists(TEMPLATEPATH.$clean_file_path)){
-//           ob_start();
-//           include(TEMPLATEPATH.$clean_file_path);
-//           $content = ob_get_clean();
-//           return $content;
-//      }
+// function _SmrkvLib_GetCourse ($atts = array(), $content = null, $tag)
+// {
+// 	global $wpdb;
+// 	$result =
+// 		$wpdb->get_results('SELECT * FROM smrkv_courses WHERE url like "'.$atts['cource'].'%"');
+// 	$dat_res = get_object_vars($result[0]);
+//     // return $dat_res[$atts['field']];
+//     return do_shortcode($dat_res[$atts['field']]);
 // }
-//register the Shortcode handler
-// add_shortcode('include', 'include_file');
-
+// add_shortcode( 'SmrkCourse', '_SmrkvLib_GetCourse' );
 
 
 // Спойлер для WP by Alexander Osadchyy
@@ -526,23 +497,6 @@ function add_additional_class_on_li($classes, $item, $args) {
     return $classes;
 }
 add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
-
-
-
-
-
-
-// function add_menu_link_class( $atts, $item, $args ) {
-//   if($args->link_class) {
-//     $atts['class'] = $args->link_class;
-//   }
-//   return $atts;
-// }
-// add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
-
-
-
-
 
 /** чтоб РЕДАКТОР не удалял теги span без атрибутов */
 function override_mce_options($initArray) {
@@ -786,140 +740,36 @@ function my_stylesheet1(){
 }
 add_action('admin_head', 'my_stylesheet1');
 
-
-// recent posts shortcode
-// // @ https://digwp.com/2018/08/shortcode-display-recent-posts/
-function shapeSpace_recent_posts_shortcode($atts, $content = null) {
-
-	global $post;
-
-	extract(shortcode_atts(array(
-		'cat'     => '',
-		'num'     => '5',
-		'order'   => 'DESC',
-		'orderby' => 'post_date',
-	), $atts));
-
-	$args = array(
-		'cat'            => $cat,
-		'posts_per_page' => $num,
-		'order'          => $order,
-		'orderby'        => $orderby,
-	);
-
-	$var = '';
-
-	$posts = get_posts($args);
-	ob_start();
-	foreach($posts as $post) {
-
-		setup_postdata($post);
-		get_template_part( 'template-parts/widget', get_post_format() );
-
-	}
-
-	wp_reset_postdata();
-	$var = ob_get_contents();
-	ob_end_clean();
-	return '<div class="events_block last-mini">'. $var .'</div>';
-
-}
-add_shortcode('recent_posts', 'shapeSpace_recent_posts_shortcode');
-
 add_filter('acf/format_value/type=textarea', 'do_shortcode');
 
-
-
-
-
 // For polylang translate
-
-// Главная
 pll_register_string('Home', 'Home');
-
-// Открыт набор
 pll_register_string('Set open', 'Set open');
-
-// Все курсы
 pll_register_string('All courses', 'All courses');
-
-// Новости и события
 pll_register_string('news and events', 'news and events');
-
-// IT-блог
 pll_register_string('blog', 'blog');
-
-// Контакты
 pll_register_string('contacts', 'contacts');
-
-// Отзывы
 pll_register_string('Reviews', 'Reviews');
-
-// О нас
 pll_register_string('About Us', 'About Us');
-
-// Все курсы Level Up
 pll_register_string('All Level Up Courses', 'All Level Up Courses');
-
-// Программирование
 pll_register_string('Programming', 'Programming');
-
-
-// Дизайн и верстка
 pll_register_string('Design and layout', 'Design and layout');
-
-
-// Маркетинг и IT-менеджмент
 pll_register_string('Marketing and IT Management', 'Marketing and IT Management');
-
-
-// Поддержка и аналитика
 pll_register_string('Support and analytics', 'Support and analytics');
-
-
-// Программирование  ПО
 pll_register_string('Software programming', 'Software programming');
-
-// Дизайн и компьютерная графика
 pll_register_string('Design and computer graphics', 'Design and computer graphics');
-
-// г. Днепр, ул. Троицкая, 21Г.
 pll_register_string('levelup_location', 'levelup_location');
-
-// Введите слово, чтобы начать поиск
 pll_register_string('input_search', 'input_search');
-
-// Учебный IT-центр
 pll_register_string('Training IT Center', 'Training IT Center');
-
-// Смотреть все
 pll_register_string('show_all', 'show_all');
-
-// Ближайшие ивенты:
 pll_register_string('Upcoming Events', 'Upcoming Events');
-
-// Будь вкурсе!
 pll_register_string('Stay in touch', 'Stay in touch');
-
-// Актуальные новости и мероприятия в еженедельной рассылке от Level Up
 pll_register_string('Actual news', 'Actual news');
-
-// Последние новости:
 pll_register_string('last_news', 'last_news');
-
-// * Вы так-же в любой момент с легкостью сможете отписаться от нашей рассылки
 pll_register_string('unsubscribe_info', 'unsubscribe_info');
-
-// Найближчі івенти та новини
 pll_register_string('events_widget_title', 'events_widget_title');
-
-// Вам можуть бути цікаві ці статті
 pll_register_string('articles_widget_title', 'articles_widget_title');
-
-// Подробнее
 pll_register_string('show_more_text', 'show_more_text');
-
-
 pll_register_string('Previous page', 'Previous page');
 pll_register_string('Next page', 'Next page');
 pll_register_string('Page', 'Page');
@@ -934,35 +784,12 @@ function add_acf_body_class($class) {
 }
 add_filter('body_class', 'add_acf_body_class');
 
-
-
 if( is_admin() ){
 	// отключим проверку обновлений при любом заходе в админку...
 	remove_action( 'admin_init', '_maybe_update_core' );
 	remove_action( 'admin_init', '_maybe_update_plugins' );
 	remove_action( 'admin_init', '_maybe_update_themes' );
-
-	// отключим проверку обновлений при заходе на специальную страницу в админке...
 	remove_action( 'load-plugins.php', 'wp_update_plugins' );
 	remove_action( 'load-themes.php', 'wp_update_themes' );
-
-	// оставим принудительную проверку при заходе на страницу обновлений...
-	//remove_action( 'load-update-core.php', 'wp_update_plugins' );
-	//remove_action( 'load-update-core.php', 'wp_update_themes' );
-
-	// внутренняя страница админки "Update/Install Plugin" или "Update/Install Theme" - оставим не мешает...
-	//remove_action( 'load-update.php', 'wp_update_plugins' );
-	//remove_action( 'load-update.php', 'wp_update_themes' );
-
-	// событие крона не трогаем, через него будет проверяться наличие обновлений - тут все отлично!
-	//remove_action( 'wp_version_check', 'wp_version_check' );
-	//remove_action( 'wp_update_plugins', 'wp_update_plugins' );
-	//remove_action( 'wp_update_themes', 'wp_update_themes' );
-
-	/**
-	 * отключим проверку необходимости обновить браузер в консоли - мы всегда юзаем топовые браузеры!
-	 * эта проверка происходит раз в неделю...
-	 * @see https://wp-kama.ru/function/wp_check_browser_version
-	 */
 	add_filter( 'pre_site_transient_browser_'. md5( $_SERVER['HTTP_USER_AGENT'] ), '__return_true' );
 }

@@ -210,5 +210,42 @@ function cat_articles_listing_parameters_shortcode( $atts ) {
 
 
 
+// recent posts shortcode
+function shapeSpace_recent_posts_shortcode($atts, $content = null) {
+
+	global $post;
+
+	extract(shortcode_atts(array(
+		'cat'     => '',
+		'num'     => '5',
+		'order'   => 'DESC',
+		'orderby' => 'post_date',
+	), $atts));
+
+	$args = array(
+		'cat'            => $cat,
+		'posts_per_page' => $num,
+		'order'          => $order,
+		'orderby'        => $orderby,
+	);
+
+	$var = '';
+
+	$posts = get_posts($args);
+	ob_start();
+	foreach($posts as $post) {
+
+		setup_postdata($post);
+		get_template_part( 'template-parts/widget', get_post_format() );
+
+	}
+
+	wp_reset_postdata();
+	$var = ob_get_contents();
+	ob_end_clean();
+	return '<div class="events_block last-mini">'. $var .'</div>';
+
+}
+add_shortcode('recent_posts', 'shapeSpace_recent_posts_shortcode');
 
 ?>
