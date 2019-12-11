@@ -205,7 +205,7 @@ function open_courses_listing_parameters_shortcode( $atts ) {
 }
 
 
-
+// Список курсов (блоков) для главной страницы
 add_shortcode( 'courses', 'courses_listing_home' );
 function courses_listing_home( $atts ) {
     ob_start();
@@ -236,6 +236,47 @@ function courses_listing_home( $atts ) {
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
                 <?php
                     get_template_part( 'template-parts/cards-course', get_post_format() );
+                 ?>
+            <?php endwhile;
+            wp_reset_postdata(); ?>
+    <?php $myvariable = ob_get_clean();
+    return $myvariable;
+    }
+}
+
+
+
+// Список курсов (по категориям) для посадочных страниц - "Продолжайте свое обучение"
+add_shortcode( 'courses', 'courses_listing_pages' );
+function courses_listing_pages( $atts ) {
+    ob_start();
+    $args = shortcode_atts( array (
+        'type' => 'levelup_courses',
+        'posts' => -1,
+        'category' => '',
+        'public'   => true,
+    ), $atts );
+    $options = array(
+        'post_type' => $args['type'],
+        'meta_key'          => 'kol-vo_svobodnyh_mest',
+        'orderby'           => 'meta_value',
+        'order'             => 'DESC',
+        'posts_per_page' => $args['posts'],
+        // 'category_name' => $args['category'],
+        'post_status' => 'publish',
+
+        'tax_query'         => array( array(
+        'taxonomy'  => 'levelup_courses_cat',
+        'field'     => 'slug',
+        'terms'     => array( sanitize_title( $atts['category'] ) )
+        ) )
+    );
+
+    $query = new WP_Query( $options );
+    if ( $query->have_posts() ) { ?>
+            <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+                <?php
+                    get_template_part( 'template-parts/cards-course-pages', get_post_format() );
                  ?>
             <?php endwhile;
             wp_reset_postdata(); ?>
