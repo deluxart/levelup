@@ -1078,7 +1078,7 @@ img.alignleft {margin: 3px;}
 /* Новая цена на всех курсах  */
 .saleBottom {text-align: center;background: #ffde00;color: #4c4c4c;padding: 0 7px;}
 .saleTop {font-weight: 500;color:#ffde00;display: inline-block;margin-bottom: 0 !important;}
-.saleRow {color: #ffde00;position: relative;display: inline-block;margin: 0 auto;}
+.saleRow {color: #ffde00;position: relative;display: inline-block;margin: 0 auto;display: none !important;}
 
 
 .saleRow.animate{-webkit-animation-name:ripple;animation-name:ripple;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-duration:5s;animation-duration:5s}
