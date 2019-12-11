@@ -1,6 +1,8 @@
 .bg-kirpichik { background: #2e3035; transition: 0.7s all;}
 .bg-blue.course h2 span { color: #ffde00; }
 
+.modal-backdrop { z-index: 999; }
+
 .module-icon-1::after {background: url(https://levelup.ua/wp-content/uploads/2019/02/module.png) !important ;}
 .module-icon-2::after {background: url(https://levelup.ua/wp-content/uploads/2019/02/module-2.png) !important;}
 

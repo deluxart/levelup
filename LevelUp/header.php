@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
 
     <?php wp_head(); ?>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?12412343111<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?4321<?php echo date(get_option('date_format')); ?>3">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/2019/new_home.css?12332<?php echo date(get_option('date_format')); ?>3">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/qa-course.css?7721371<?php echo date(get_option('date_format')); ?>3">
 
