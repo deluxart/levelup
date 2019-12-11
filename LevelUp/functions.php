@@ -797,6 +797,7 @@ if( is_admin() ){
 
 function remove_menus(){
     remove_menu_page( 'edit.php?post_type=rl_gallery' ); // Галерея
+    remove_menu_page( 'edit-comments.php' ); // Комментарии
     remove_menu_page( 'admin.php?page=responsive-lightbox-settings' ); // Responsive Lightbox & Gallery
 
   }
