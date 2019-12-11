@@ -350,3 +350,7 @@ p.theme:before {content: "\f0f6"; font-family: FontAwesome;padding-right: 8px;co
 
 .block-icon-lab { box-shadow: 0 1px 10px rgba(0,0,0,.16); padding: 20px; display: grid; grid-template-columns: auto 1fr; grid-column-gap: 15px; }
 .block-icon-lab i {font-size: 48px;}
+
+.has-text-align-left { text-align: left; }
+.has-text-align-center { text-align: center; }
+.has-text-align-right { text-align: right; }
