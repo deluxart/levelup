@@ -793,3 +793,11 @@ if( is_admin() ){
 	remove_action( 'load-themes.php', 'wp_update_themes' );
 	add_filter( 'pre_site_transient_browser_'. md5( $_SERVER['HTTP_USER_AGENT'] ), '__return_true' );
 }
+
+
+function remove_menus(){
+    remove_menu_page( 'edit.php?post_type=rl_gallery' ); // Галерея
+    remove_menu_page( 'admin.php?page=responsive-lightbox-settings' ); // Responsive Lightbox & Gallery
+
+  }
+add_action( 'admin_menu', 'remove_menus' );
