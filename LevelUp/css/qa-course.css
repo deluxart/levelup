@@ -1,5 +1,11 @@
 body.qa-body #header.light.header-color .content .logo a img.logo_desktop { display: none !important; }
 
+
+body.qa-body #header.multilang.header-color .content .lang-btn .lang-block .toggle_langs { color: #0048ff; }
+body.qa-body #header.multilang.header-color .content .lang-btn .lang-block .toggle_langs:before { color: #0048ff; }
+
+
+
 body.qa-body #header.light.header-color .content .logo a img.color-logo { display: block !important; }
 
 body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-item > a, body.qa-body #header.header-color .content .lux_search .button i, body.qa-body #header.header-color .content .menu-btn button { color: #0048ff; }
