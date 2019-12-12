@@ -142,17 +142,19 @@ add_shortcode( 'program',  'call_shortcode_program' );
                         while ( have_rows( 'course_program' ) ) : the_row();
                             $programma_kursa = get_sub_field( 'programma_kursa' );
                             $programma_kursa_ukr = get_sub_field( 'programma_kursa_ukr' );
+
+                            echo '[programm id=';
+                            if(pll_current_language() == 'ru') {
+                                echo $programma_kursa_ukr;
+                            } else if(pll_current_language() == 'ua') {
+                                echo $programma_kursa;
+                            }
+                            echo ']';
                         endwhile;
                     endif;
 
 
-                        echo '[programm id=';
-                        if(pll_current_language() == 'ru') {
-                            echo $programma_kursa_ukr;
-                        } else if(pll_current_language() == 'ua') {
-                            echo $programma_kursa;
-                        }
-                        echo ']';
+
                     endwhile;
                 else :
                     get_template_part( 'template-parts/content', 'none' );
