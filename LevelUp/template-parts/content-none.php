@@ -1,51 +1,37 @@
 <?php
 /**
- * Template part for displaying a message that posts cannot be found
+ * The template part for displaying a message that posts cannot be found
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * Learn more: {@link https://codex.wordpress.org/Template_Hierarchy}
  *
- * @package LevelUp
+ * @package WordPress
+ * @subpackage Twenty_Fifteen
+ * @since Twenty Fifteen 1.0
  */
-
 ?>
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'LevelUp' ); ?></h1>
+		<h4 class="tc page-title" style="padding: 0;"><?php _e( 'Ничего не найдено', 'LevelUp' ); ?></h4>
 	</header><!-- .page-header -->
 
-	<div class="page-content">
-		<?php
-		if ( is_home() && current_user_can( 'publish_posts' ) ) :
+	<div class="tc page-content">
 
-			printf(
-				'<p>' . wp_kses(
-					/* translators: 1: link to WP admin new post page. */
-					__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'LevelUp' ),
-					array(
-						'a' => array(
-							'href' => array(),
-						),
-					)
-				) . '</p>',
-				esc_url( admin_url( 'post-new.php' ) )
-			);
+		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
-		elseif ( is_search() ) :
-			?>
+			<p class="tc"><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'LevelUp' ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'LevelUp' ); ?></p>
-			<?php
-			get_search_form();
+		<?php elseif ( is_search() ) : ?>
 
-		else :
-			?>
+			<p class="tc"><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'LevelUp' ); ?></p>
+			<?php get_search_form(); ?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'LevelUp' ); ?></p>
-			<?php
-			get_search_form();
+		<?php else : ?>
 
-		endif;
-		?>
+			<p class="tc"><?php _e( 'Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь.', 'LevelUp' ); ?></p>
+			<?php get_search_form(); ?>
+
+		<?php endif; ?>
+
 	</div><!-- .page-content -->
 </section><!-- .no-results -->
