@@ -12,7 +12,7 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h4 class="tc page-title"><?php _e( 'Ничего не найдено', 'LevelUp' ); ?></h4>
+		<h4 class="tc page-title" style="padding: 0;"><?php _e( 'Ничего не найдено', 'LevelUp' ); ?></h4>
 	</header><!-- .page-header -->
 
 	<div class="tc page-content">
