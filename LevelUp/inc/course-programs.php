@@ -146,7 +146,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
                     endif;
 
 
-                        echo '[program id=';
+                        echo '[programm id=';
                         if(pll_current_language() == 'ru') {
                             echo $programma_kursa_ukr;
                         } else if(pll_current_language() == 'ua') {
