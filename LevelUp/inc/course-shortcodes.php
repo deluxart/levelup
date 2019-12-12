@@ -247,7 +247,7 @@ function courses_listing_home( $atts ) {
 
 
 // Список курсов (по категориям) для посадочных страниц - "Продолжайте свое обучение"
-add_shortcode( 'courses', 'courses_listing_pages' );
+add_shortcode( 'courses-pages', 'courses_listing_pages' );
 function courses_listing_pages( $atts ) {
     ob_start();
     $args = shortcode_atts( array (
