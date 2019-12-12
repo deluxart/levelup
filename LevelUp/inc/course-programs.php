@@ -135,23 +135,30 @@ add_shortcode( 'program',  'call_shortcode_program' );
         ) );
 
         ob_start();
-
+            if ( have_posts() ) :
+                    while ( have_posts() ) : the_post();
 
                     if ( have_rows( 'course_program' ) ) :
                         while ( have_rows( 'course_program' ) ) : the_row();
-                            $programma_kursa = get_sub_field( 'programma_kursa' );
-                            $programma_kursa_ukr = get_sub_field( 'programma_kursa_ukr' );
 
-                            echo '[programm id=';
-                            if(pll_current_language() == 'ru') {
-                                echo $programma_kursa_ukr;
-                            } else if(pll_current_language() == 'ua') {
-                                echo $programma_kursa;
-                            }
-                            echo ']';
-                        endwhile;
-                    endif;
+                        echo '[program id=';
+                        if(pll_current_language() == 'ru') {
+                            $program = get_sub_field( 'programma_kursa' );
+                            echo $program;
+                        } else if(pll_current_language() == 'ua') {
+                            $program = get_sub_field( 'programma_kursa_ukr' );
+                            echo $program;
+                        }
+                        echo ']';
 
+                    endwhile;
+                endif;
+
+
+                    endwhile;
+                else :
+                    get_template_part( 'template-parts/content', 'none' );
+                endif;
 
             wp_reset_query(); // сброс $wp_query
             $out = ob_get_clean();
