@@ -146,8 +146,8 @@ add_shortcode( 'program',  'call_shortcode_program' );
                             $program = get_sub_field( 'programma_kursa' );
                             echo $program;
                         } else if(pll_current_language() == 'ua') {
-                            $program = get_sub_field( 'programma_kursa_ukr' );
-                            echo $program;
+                            $program_ukr = get_sub_field( 'programma_kursa_ukr' );
+                            echo $program_ukr;
                         }
                         echo ']';
 
