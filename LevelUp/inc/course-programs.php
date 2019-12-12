@@ -135,8 +135,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
         ) );
 
         ob_start();
-            if ( have_posts() ) :
-                    while ( have_posts() ) : the_post();
+
 
                     if ( have_rows( 'course_program' ) ) :
                         while ( have_rows( 'course_program' ) ) : the_row();
@@ -153,12 +152,6 @@ add_shortcode( 'program',  'call_shortcode_program' );
                         endwhile;
                     endif;
 
-
-
-                    endwhile;
-                else :
-                    get_template_part( 'template-parts/content', 'none' );
-                endif;
 
             wp_reset_query(); // сброс $wp_query
             $out = ob_get_clean();
