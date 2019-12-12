@@ -16,7 +16,7 @@
 </div> -->
 
 
-<div id="program-<?php the_ID(); ?>">
+<div id="program-<?php the_ID(); ?>" title="<?php the_title(); ?>">
     <div class="program-block">
 
 
