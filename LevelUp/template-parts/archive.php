@@ -11,7 +11,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="content-one">
         <div class="thumbnail">
-			<a href="<?php the_permalink(); ?>"><?php LevelUp_post_thumbnail('full'); ?></a>
+			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('full'); ?></a>
             <div class="item-overlay"></div>
         </div>
         <div class="title-news">
