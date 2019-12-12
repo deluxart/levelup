@@ -151,7 +151,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
                             if( $program_ukr ){
                                 echo $program_ukr;
                               } else {
-                                $program;
+                                echo $program;
                               }
 
                         }
