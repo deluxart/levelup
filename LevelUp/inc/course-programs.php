@@ -144,7 +144,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
                         $program = get_sub_field( 'programma_kursa' );
                         $program_ukr = get_sub_field( 'programma_kursa_ukr' );
 
-                        echo '[program id=';
+                        echo '[programm id=';
                             echo $program;
                         // if(pll_current_language() == 'ru') {
                         //     echo $program;
