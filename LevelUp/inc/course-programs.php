@@ -138,14 +138,10 @@ add_shortcode( 'program',  'call_shortcode_program' );
             if ( have_posts() ) :
                     while ( have_posts() ) : the_post();
 
-                    if ( have_rows( 'course_program' ) ) :
-                        while ( have_rows( 'course_program' ) ) : the_row();
-
-                        $program = get_sub_field( 'programma_kursa' );
-                        $program_ukr = get_sub_field( 'programma_kursa_ukr' );
+                       $programma_kursa = get_field( 'programma_kursa' );
 
                         echo '[program id=';
-                            echo $program;
+                            echo $programma_kursa;
                         // if(pll_current_language() == 'ru') {
                         //     echo $program;
                         // } else if(pll_current_language() == 'ua') {
@@ -156,10 +152,6 @@ add_shortcode( 'program',  'call_shortcode_program' );
                         //       }
                         // }
                         echo ']';
-
-                    endwhile;
-                endif;
-
 
                     endwhile;
                 else :
