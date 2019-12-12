@@ -126,14 +126,6 @@ add_shortcode( 'program',  'call_shortcode_program' );
 
     add_shortcode( 'program-acf',  'call_shortcode_program_acf' );
 
-    if ( have_rows( 'course_program' ) ) :
-        while ( have_rows( 'course_program' ) ) : the_row();
-            $programma_kursa = get_sub_field( 'programma_kursa' );
-            $programma_kursa_ukr = get_sub_field( 'programma_kursa_ukr' );
-        endwhile;
-    endif;
-
-
     function call_shortcode_program_acf( $atts, $content = '' ) {
         global $wp_query;
         $atts = shortcode_atts( array( 'id' => null ), $atts );
@@ -141,6 +133,14 @@ add_shortcode( 'program',  'call_shortcode_program' );
             'post_type' => 'levelup_courses',
             'p' => intval( $atts['id'] )
         ) );
+
+        if ( have_rows( 'course_program' ) ) :
+            while ( have_rows( 'course_program' ) ) : the_row();
+                $programma_kursa = get_sub_field( 'programma_kursa' );
+                $programma_kursa_ukr = get_sub_field( 'programma_kursa_ukr' );
+            endwhile;
+        endif;
+
         ob_start();
             if ( have_posts() ) :
                     while ( have_posts() ) : the_post();
