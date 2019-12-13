@@ -10,6 +10,18 @@
 .column5 { display: grid; grid-template-columns: repeat(5, 1fr); grid-column-gap: 20px; }
 .column5 img { box-shadow: 5px 15px 34px #0003; }
 
+
+/* VANILLA GALLERIES */
+
+.gallery-columns-2 .gallery-item { max-width: 50%; }
+.gallery-columns-3 .gallery-item { max-width: 33.33%; }
+.gallery-columns-4 .gallery-item { max-width: 25%; }
+.gallery-columns-5 .gallery-item { max-width: 20%; }
+.gallery-columns-6 .gallery-item { max-width: 16.66%; }
+.gallery-columns-7 .gallery-item { max-width: 14.28%; }
+.gallery-columns-8 .gallery-item { max-width: 12.5%; }
+.gallery-columns-9 .gallery-item { max-width: 11.11%; }
+
 .editor-post-title__block .editor-post-title__input { margin: 0 !important; }
 
 .editor-styles-wrapper h1 { font-weight: 900; font-size: 36px; color: #0048ff !important; margin: 0; padding: 0; line-height: normal; }
