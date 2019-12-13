@@ -12,7 +12,7 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
 
 body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-item > a::after { border-right: 1px dotted #0048ff54; }
 
-.course-page-3d.qa-course .wave.bottom { display: none; }
+/* .course-page-3d.qa-course .wave.bottom { display: none; } */
 
 .course-page-3d #prepod3d .teacher-lvl .text h4 { margin-bottom: 5px; }
 
