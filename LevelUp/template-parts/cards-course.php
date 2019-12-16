@@ -42,7 +42,13 @@
 
                             <?php if ( have_rows( 'date_start' ) ) : ?>
                                 <?php while ( have_rows( 'date_start' ) ) : the_row(); ?>
-                                <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_rus' ); ?></span></li>
+
+                                    <?php if(pll_current_language() == 'ru'){ ?>
+                                        <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_rus' ); ?></span></li>
+                                    <?php } else { ?>
+                                        <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_ua' ); ?></span></li>
+                                    <?php } ?>
+
                                     <?php endwhile; ?>
                             <?php endif; ?>
 
