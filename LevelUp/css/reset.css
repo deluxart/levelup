@@ -85,7 +85,7 @@ span.wpcf7-not-valid-tip { position: absolute; margin: 0; top: 0; right: 20px; }
 
 /* For widget */
 .events_block { display: grid; grid-row-gap: 30px; }
-.events_block article { display: grid; grid-template-columns: 54px 1fr; grid-column-gap: 10px; position: relative; align-items: center; box-shadow: none; }
+.events_block article { display: grid; grid-template-columns: 54px 1fr; grid-column-gap: 10px; position: relative; align-items: center; box-shadow: none !important; }
 .events_block > article::before { position: absolute; content: ''; width: 100%; height: 1px; background: #f3f3f3; left: 0; bottom: -15px; }
 .events_block > article:last-child::before {display: none}
 .events_block article .widget img { border-radius: 50%; display: block; }
