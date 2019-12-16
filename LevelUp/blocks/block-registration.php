@@ -24,6 +24,7 @@
 		</div>
 	</div>
 </div>
+    <div class="event_mail hidden"><?php block_field( 'cf-mail' ); ?></div>
 	<div class="liqpay hidden"><?php block_field( 'liqpay' ); ?></div>
 </div>
 
@@ -36,7 +37,21 @@
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 
 			</div>
-			<div class="modal-body sg-popup-content"><?php block_field( 'content-modal' ); ?></div>
+			<div class="modal-body sg-popup-content">
+
+            <?php block_field( 'content-modal' ); ?>
+
+
+            <?php
+                if ( block_value( 'contact-form' ) == 'free' ) {
+                    echo do_shortcode('[cf7form cf7key="registraciya-na-besplatnoe-meropriyatie"]');
+                } elseif ( block_value( 'contact-form' ) == 'not_free' ) {
+                    echo do_shortcode('[cf7form cf7key="registraciya-na-platnoe-meropriyatie"]');
+                }
+            ?>
+
+
+        </div>
 		</div>
 	</div>
 </div>

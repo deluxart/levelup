@@ -411,6 +411,7 @@ jQuery(document).ready(function () {
     var linkFb = window.location.href.indexOf("#fb") > -1;
     var linkMail = window.location.href.indexOf("#mail") > -1;
     var event_img = jQuery('.has-post-thumbnail img').attr('src');
+    var event_mail = jQuery('.event_mail').text();
     var event_price = jQuery('.event_price').text();
     var event_date = jQuery('.event_date').text();
     var event_time = jQuery('.event_time').text();
@@ -434,6 +435,7 @@ jQuery(document).ready(function () {
 
     jQuery('#event_img').val(event_img);
     jQuery('#link_liqpay').val(link_liqpay);
+    jQuery('#event_mail').val(event_mail);
     jQuery('#event_price').val(event_price);
     jQuery('#event_date').val(event_date);
     jQuery('#event_time').val(event_time);
