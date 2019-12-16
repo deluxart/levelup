@@ -226,7 +226,7 @@ div[class^="wp-block-block-lab-"] .block-form { background: #fff; border: 5px so
 }
 
 /*Блок-тень*/
-.block-shadow-lab { box-shadow: 0 1px 10px rgba(0,0,0,.16); border-radius: 5px; transition: box-shadow .5s ease-out; padding: 30px 20px; }
+.block-shadow-lab { box-shadow: 0 1px 50px rgba(0,0,0,.16); border-radius: 5px; transition: box-shadow .5s ease-out; padding: 30px 20px; background: #fff; }
 
 /*Блок-цитата*/
 .block-quote-lab { padding-left: 1em; }
