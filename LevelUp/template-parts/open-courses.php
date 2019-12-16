@@ -28,7 +28,21 @@
 
     <div class="course-block" id="course-<?php the_ID(); ?>">
 		<div class="m_head"><div class="icon"><img src="<?php the_field( 'logo_url' ); ?>" /></div>
-		<div class="name"><h4><?php the_title(); ?></h4><p><?php the_field( 'description' ); ?></p></div></div>
+		<div class="name"><h4>
+
+ <?php if ( have_rows( 'nazvanie_kursa' ) ) : ?>
+	<?php while ( have_rows( 'nazvanie_kursa' ) ) : the_row(); ?>
+		<?php the_sub_field( 'rus' ); ?>
+	<?php endwhile; ?>
+<?php endif; ?>
+
+        </h4><p>
+        <?php if ( have_rows( 'descriptions' ) ) : ?>
+            <?php while ( have_rows( 'descriptions' ) ) : the_row(); ?>
+                <?php the_sub_field( 'rus' ); ?>
+            <?php endwhile; ?>
+        <?php endif; ?>
+        </p></div></div>
 		<div class="date">
 			<span class="title">Старт:</span>
             <?php if ( have_rows( 'data_raspisanie_grafik' ) ) : ?>
@@ -80,7 +94,19 @@
 
     <div class="course-block" id="course-<?php the_ID(); ?>">
 		<div class="m_head"><div class="icon"><img src="<?php the_field( 'logo_url' ); ?>" /></div>
-		<div class="name"><h4><?php the_title(); ?></h4><p><?php the_field( 'description' ); ?></p></div></div>
+		<div class="name"><h4>
+        <?php if ( have_rows( 'nazvanie_kursa' ) ) : ?>
+            <?php while ( have_rows( 'nazvanie_kursa' ) ) : the_row(); ?>
+                <?php the_sub_field( 'ukr' ); ?>
+            <?php endwhile; ?>
+        <?php endif; ?>
+        </h4><p>
+        <?php if ( have_rows( 'descriptions' ) ) : ?>
+            <?php while ( have_rows( 'descriptions' ) ) : the_row(); ?>
+                <?php the_sub_field( 'ukr' ); ?>
+            <?php endwhile; ?>
+        <?php endif; ?>
+        </p></div></div>
 		<div class="date">
 			<span class="title">Старт:</span>
             <?php if ( have_rows( 'data_raspisanie_grafik' ) ) : ?>

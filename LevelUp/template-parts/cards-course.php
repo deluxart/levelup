@@ -21,7 +21,21 @@
 	<div class="front">
 	    <div>
 	        <div class="img"><img src="<?php the_field( 'logo_url' ); ?>" alt=""></div>
-	        <h6><?php the_title(); ?></h6>
+	        <h6>
+            <?php if(pll_current_language() == 'ru'){ ?>
+                <?php if ( have_rows( 'nazvanie_kursa' ) ) : ?>
+                    <?php while ( have_rows( 'nazvanie_kursa' ) ) : the_row(); ?>
+                        <?php the_sub_field( 'rus' ); ?>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+            <?php } else { ?>
+                <?php if ( have_rows( 'nazvanie_kursa' ) ) : ?>
+                    <?php while ( have_rows( 'nazvanie_kursa' ) ) : the_row(); ?>
+                        <?php the_sub_field( 'ukr' ); ?>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+            <?php } ?>
+            </h6>
 	    </div>
 	</div>
 	<div class="back">
