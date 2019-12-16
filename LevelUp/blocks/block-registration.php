@@ -39,7 +39,7 @@
 			</div>
 			<div class="modal-body sg-popup-content">
 
-            <?php block_field( 'content-modal' ); ?>
+            <!-- < ?php block_field( 'content-modal' ); ? > -->
 
 
             <?php
