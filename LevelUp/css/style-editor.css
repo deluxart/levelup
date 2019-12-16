@@ -237,6 +237,7 @@ div[class^="wp-block-block-lab-"] .block-form { background: #fff; border: 5px so
 .block-quote-two::after { border-top: 1px solid #0048ff; width: 30%; content: ''; display: inline-block; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; }
 
 .single-post .entry-content > p, .editor-block-list__layout .editor-block-list__block { margin-bottom: 30px; }
+.single-post .category-blog .entry-content > p { margin-bottom: 15px; }
 
 ul.arrows3 { margin: 0 0 30px 0 !important; padding: 0 !important; list-style: none !important; line-height: normal !important; }
 ul.arrows3 li { position: relative; padding: 5px 26px; }
