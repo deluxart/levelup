@@ -885,6 +885,11 @@
                             margin: 0;
                             position: absolute;
                         }
+
+                        .ajax-loader {
+                            min-width: 90px;
+                            background-color: #fff000;
+                        }
                     }
                 }
 
@@ -914,6 +919,11 @@
                     padding: 0;
                     width: 100%;
                     position: relative;
+
+                    span.wpcf7-not-valid-tip {
+                        font-size: 12px;
+                        color:#fff;
+                    }
 
                     & > i {
                         position: absolute;
