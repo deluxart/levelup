@@ -46,7 +46,7 @@
                                     <?php if(pll_current_language() == 'ru'){ ?>
                                         <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_rus' ); ?></span></li>
                                     <?php } else { ?>
-                                        <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_ua' ); ?></span></li>
+                                        <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_ukr' ); ?></span></li>
                                     <?php } ?>
 
                                     <?php endwhile; ?>
