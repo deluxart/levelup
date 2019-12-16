@@ -37,17 +37,13 @@
                 <?php while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row(); ?>
 
 
-                        <h5><?php the_sub_field( 'start_rus' ); ?></h5>
+                <?php if(pll_current_language() == 'ru'){ ?>
                             <ul class="course-info">
 
                             <?php if ( have_rows( 'date_start' ) ) : ?>
                                 <?php while ( have_rows( 'date_start' ) ) : the_row(); ?>
 
-                                    <?php if(pll_current_language() == 'ru'){ ?>
-                                        <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_rus' ); ?></span></li>
-                                    <?php } else { ?>
-                                        <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_ukr' ); ?></span></li>
-                                    <?php } ?>
+                                <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_rus' ); ?></span></li>
 
                                     <?php endwhile; ?>
                             <?php endif; ?>
@@ -65,6 +61,32 @@
 		                    <?php endif; ?>
 
                             </ul>
+
+                            <?php } else { ?>
+                                <ul class="course-info">
+
+                                <?php if ( have_rows( 'date_start' ) ) : ?>
+                                    <?php while ( have_rows( 'date_start' ) ) : the_row(); ?>
+
+                                    <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_ukr' ); ?></span></li>
+
+                                        <?php endwhile; ?>
+                                <?php endif; ?>
+
+                                <?php if ( have_rows( 'duration' ) ) : ?>
+                                    <?php while ( have_rows( 'duration' ) ) : the_row(); ?>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i><span><?php the_sub_field( 'duration_ukr' ); ?></span></li>
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
+
+                                <?php if ( have_rows( 'schedule' ) ) : ?>
+                                    <?php while ( have_rows( 'schedule' ) ) : the_row(); ?>
+                                    <li><i class="fa fa-calendar" aria-hidden="true"></i><span><?php the_sub_field( 'schedule_ukr' ); ?></span></li>
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
+
+                                </ul>
+                            <?php } ?>
                 <?php endwhile; ?>
             <?php endif; ?>
 	    </div>
