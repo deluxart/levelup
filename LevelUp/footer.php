@@ -111,7 +111,7 @@
                         <h2><?php pll_e('Stay in touch','LevelUp'); ?></h2>
                         <p><?php pll_e('Actual news','LevelUp'); ?></p>
                         <div class="form-cont">
-                        <?php echo do_shortcode('[contact-form-7 id="294" title="Футер (Форма подписки)"]'); ?>
+                        <?php echo do_shortcode('[cf7form cf7key="futer-forma-podpysky"]'); ?>
                         </div>
                     </div>
                     <div class="widget last">
