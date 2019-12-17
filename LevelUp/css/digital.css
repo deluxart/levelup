@@ -6,8 +6,6 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
 
 body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-item > a::after { border-right: 1px dotted #0048ff54; }
 
-.course-page-3d.qa-course .wave.bottom { display: none; }
-
 .course-page-3d #prepod3d .teacher-lvl .text h4 { margin-bottom: 5px; }
 
 @media (max-width: 992px) { body.qa-body #header.light.header-color .content .logo a img.color-logo { display: none !important; }
@@ -17,44 +15,64 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
 .course-page-3d.digital-course { background: url(https://levelup.ua/wp-content/uploads/2019/12/bg_top_page.png) top center; background-size: 1920px; background-position: top center; background-repeat: no-repeat; }
 .course-page-3d.digital-course #course_slider .content .text > h1 { color: #003cff; }
 .course-page-3d.digital-course #course_slider .content .text > span { color: #003cff; }
-.course-page-3d.digital-course #career_path { padding: 60px 0; }
-.course-page-3d.digital-course #career_path .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; grid-gap: 50px; }
-.course-page-3d.digital-course #career_path .content .text { text-align: center; }
-.course-page-3d.digital-course #career_path .content .text .career_graph { max-width: 450px; margin: 0 auto; }
-.course-page-3d.digital-course #career_path .content .text .career_graph h4 { font-size: 24px; font-weight: 900; color: #003cff; padding: 15px 30px; }
-.course-page-3d.digital-course #career_path .content .text .career_graph > div { position: relative; display: grid; grid-template-columns: 1fr 1fr; }
-.course-page-3d.digital-course #career_path .content .text .career_graph > div:before { content: ''; left: calc(50% - 1px); height: 100%; background: #9000ff; position: absolute; width: 2px; z-index: 0; top: 22px; }
-.course-page-3d.digital-course #career_path .content .text .career_graph > div:after { content: ''; left: calc(50% - 9px); height: 18px; background: #a0a0a0; position: absolute; top: calc(50% - 9px); border-radius: 50%; width: 18px; z-index: 1; border: 5px solid #fff; }
-.course-page-3d.digital-course #career_path .content .text .career_graph > div.first-item:before { top: calc(50% - 9px); }
-.course-page-3d.digital-course #career_path .content .text .career_graph > div.first-item:after { top: calc(50% - 11px); left: calc(50% - 11px); background: #9000ff; width: 22px; height: 22px; }
-.course-page-3d.digital-course #career_path .content .text .career_graph > div.last-item:before { display: none; }
-.course-page-3d.digital-course #career_path .content .text .career_graph > div.last-item:after { top: calc(50% - 11px); left: calc(50% - 11px); background: #0048ff; width: 22px; height: 22px; }
 .course-page-3d.digital-course #what_awaits_you { padding: 70px 0; }
-.course-page-3d.digital-course #what_awaits_you .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 70px; max-width: 1000px; margin: 0 auto; text-align: center; }
-.course-page-3d.digital-course #what_awaits_you .content > div img { max-width: 90px; display: block; box-shadow: 0px 23px 32px 0px rgba(22, 96, 255, 0.3); border-radius: 50%; display: block; margin: 0 auto; }
-.course-page-3d.digital-course #what_awaits_you .content > div h3 { color: #003cff; font-weight: 900; font-size: 26px; margin: 20px 0; }
+.course-page-3d.digital-course #what_awaits_you .content { display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 70px; margin: 0 auto; }
+.course-page-3d.digital-course #what_awaits_you .content > div { display: grid; grid-template-columns: 80px 1fr; grid-gap: 30px; }
+.course-page-3d.digital-course #what_awaits_you .content > div img { max-width: 80px; display: block; border-radius: 50%; display: block; margin: 0 auto; }
+.course-page-3d.digital-course #what_awaits_you .content > div h3 { color: #003cff; font-weight: 600; font-size: 20px; line-height: normal; margin: 20px 0; }
+.course-page-3d.digital-course #what_awaits_you .content > div h3 span { display: inline-block; }
 .course-page-3d.digital-course #what_awaits_you .content > div p { font-size: 16px; }
+.course-page-3d.digital-course #knowledge { padding: 70px 0; background: #003cff url(https://levelup.ua/wp-content/uploads/2019/12/bg_logo_digital.png) no-repeat; background-size: 350px; background-position: 50% 90%; }
+.course-page-3d.digital-course #knowledge h2 { color: #fff; }
+.course-page-3d.digital-course #knowledge h2.two-title { margin-bottom: 10px; }
+.course-page-3d.digital-course #knowledge p.two-desc { color: #fff; margin-bottom: 50px; }
+.course-page-3d.digital-course #knowledge .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 70px; }
+.course-page-3d.digital-course #knowledge .content > div.img { align-items: center; }
+.course-page-3d.digital-course #knowledge .content ul { display: grid; grid-gap: 10px; }
+.course-page-3d.digital-course #knowledge .content ul li { position: relative; padding-left: 25px; font-size: 18px; color: #fff; font-weight: 500; }
+.course-page-3d.digital-course #knowledge .content ul li:before { position: absolute; content: ''; width: 9px; height: 9px; border-radius: 50%; background: #fff; box-shadow: 5.657px 5.657px 9px 0px rgba(255, 255, 255, 0.45); top: 7px; left: 0; }
+.course-page-3d.digital-course #knowledge .programs { display: grid; grid-template-columns: repeat(7, 1fr); grid-gap: 50px; }
+.course-page-3d.digital-course #knowledge .programs > div { background: #fff; border-radius: 7px; overflow: hidden; box-shadow: 13px 22px 80px 0px rgba(14, 24, 25, 0.43); display: grid; align-items: center; text-align: center; padding: 18px; }
+.course-page-3d.digital-course #knowledge .programs > div img { margin: 0 auto; display: block; }
+.course-page-3d.digital-course #program_modules { padding: 70px 0; }
+.course-page-3d.digital-course #program_modules .content { display: grid; grid-template-columns: auto 1fr; grid-gap: 70px; align-items: center; }
+.course-page-3d.digital-course #program_modules .content .title h2 span { display: block; }
+.course-page-3d.digital-course #program_modules .content .modules { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 45px; }
+.course-page-3d.digital-course #program_modules .content .modules > div .img { position: relative; }
+.course-page-3d.digital-course #program_modules .content .modules > div .img img { max-width: 52px; position: relative; }
+.course-page-3d.digital-course #program_modules .content .modules > div .img:before { position: absolute; top: -4px; left: 1px; width: 70px; height: 70px; content: ''; border-radius: 50%; background: #e2eafc; }
+.course-page-3d.digital-course #program_modules .content .modules > div p { font-size: 18px; position: relative; margin-top: 12px; }
+.course-page-3d.digital-course #program_modules .content .modules > div h4 { font-size: 18px; color: #003cff; font-weight: 900; position: relative; line-height: normal; }
 .course-page-3d.digital-course #qa_course_result { padding-bottom: 70px; }
 .course-page-3d.digital-course #qa_course_result .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 50px; }
 .course-page-3d.digital-course #qa_course_result .content .image { align-self: center; }
 .course-page-3d.digital-course #qa_course_result .content ul { display: grid; grid-row-gap: 25px; }
 .course-page-3d.digital-course #qa_course_result .content ul li { position: relative; padding-left: 25px; }
-.course-page-3d.digital-course #qa_course_result .content ul li:before { position: absolute; content: ''; width: 9px; height: 9px; border-radius: 50%; background-image: -moz-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); background-image: -webkit-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); background-image: -ms-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); box-shadow: 5.657px 5.657px 9px 0px rgba(63, 35, 119, 0.45); top: 7px; left: 0; }
+.course-page-3d.digital-course #qa_course_result .content ul li h4 { font-size: 18px; font-weight: bold; margin-bottom: 10px; line-height: normal; }
+.course-page-3d.digital-course #qa_course_result .content ul li:before { position: absolute; content: ''; width: 9px; height: 9px; border-radius: 50%; background-image: -moz-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); background-image: -webkit-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); background-image: -ms-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); box-shadow: 5.657px 5.657px 9px 0px rgba(63, 35, 119, 0.45); top: 7px; z-index: -1; left: 0; }
 
-@media (max-width: 992px) { .course-page-3d.qa-course #career_path .content { grid-template-columns: 1fr; }
-  .course-page-3d.qa-course #what_awaits_you .content { grid-template-columns: 1fr; }
-  .course-page-3d.qa-course #what_awaits_you .content > div { display: grid; grid-template-columns: 90px 1fr; grid-gap: 20px; align-items: center; }
-  .course-page-3d.qa-course #qa_course_result .content { grid-template-columns: 1fr; }
-  .course-page-3d.qa-course #course_slider .content .text > h1 { font-size: 26px; }
-  .course-page-3d.qa-course #what_awaits_you .content { text-align: left; }
+@media (max-width: 992px) { .course-page-3d.digital-course #career_path .content { grid-template-columns: 1fr; }
+  .course-page-3d.digital-course #what_awaits_you .content { grid-template-columns: 1fr; }
+  .course-page-3d.digital-course #what_awaits_you .content > div { display: grid; grid-template-columns: 60px 1fr; grid-gap: 20px; align-items: center; }
+  .course-page-3d.digital-course #qa_course_result .content { grid-template-columns: 1fr; }
+  .course-page-3d.digital-course #course_slider .content .text > h1 { font-size: 26px; }
+  .course-page-3d.digital-course #what_awaits_you .content { text-align: left; }
   .course-page-3d #prepod3d .teacher-lvl .text { padding: 20px 30px; }
   .course-page-3d #prepod3d .slick-slide { padding: 35px; }
   .course-page-3d #prepod3d .teacher-lvl .photo { margin-top: 20px; }
   .course-page-3d #prepod3d .teacher-lvl .photo img { max-width: 150px; border-radius: 50%; }
-  .course-page-3d.qa-course #what_awaits_you .content { grid-gap: 30px; }
-  .course-page-3d.qa-course #what_awaits_you .content > div h3 { margin: 0; font-size: 22px; }
+  .course-page-3d.digital-course #what_awaits_you .content { grid-gap: 30px; }
+  .course-page-3d.digital-course #what_awaits_you .content > div h3 { margin: 0; font-size: 22px; }
   .course-page-3d #course_slider .content { grid-gap: 30px; }
-  .course-page-3d.qa-course #about3d .content { grid-gap: 40px; } }
+  .course-page-3d.digital-course #about3d .content { grid-gap: 40px; }
+  .course-page-3d.digital-course #knowledge .content { grid-template-columns: 1fr; grid-gap: 40px; }
+  .course-page-3d.digital-course #knowledge .programs { grid-template-columns: repeat(4, 1fr); }
+  .course-page-3d.digital-course #knowledge .content > div.img img { margin: 0 auto; display: block; }
+  .course-page-3d.digital-course #qa_course_result .content { grid-template-columns: 1fr; }
+  .course-page-3d.digital-course #qa_course_result .content .image img { margin: 0 auto; display: block; }
+  .course-page-3d.digital-course #program_modules .content { grid-template-columns: 1fr; grid-gap: 40px; }
+  .course-page-3d #course_slider .content .image img { display: block; margin: 0 auto; }
+  .course-page-3d #course_slider .content { grid-template-columns: 1fr; } }
 @media (max-width: 768px) { .course-page-3d #feed-form3d .content { display: block; padding: 30px 20px; }
   .course-page-3d #feed-form3d .content .left-side { margin: 0 0 30px 0; padding: 30px 30px 30px 10px; grid-row-gap: 10px; }
   .course-page-3d #feed-form3d .content .right-side .form-cont h2 { margin-bottom: 20px; }
@@ -66,10 +84,16 @@ body.qa-body #header.header-color .content .basic-nav ul.basic-menu > li.nav-ite
   .course-page-3d #fishki.course h2 { padding: 0; }
   .course-page-3d #for_you3d .content .text .cont { grid-gap: 30px; }
   .course-page-3d #details3d .content { padding: 0; }
-  .course-page-3d.qa-course #career_path .content .text .career_graph h4 { font-size: 21px; padding: 5px 30px; }
-  .course-page-3d.qa-course #what_awaits_you { padding-top: 50px; }
-  .course-page-3d.qa-course #qa_course_result .content { grid-gap: 30px; }
-  .course-page-3d.qa-course #prepod3d { padding-top: 0; }
+  .course-page-3d.digital-course #what_awaits_you { padding-top: 50px; }
+  .course-page-3d.digital-course #qa_course_result .content { grid-gap: 30px; }
+  .course-page-3d.digital-course #prepod3d { padding-top: 0; }
   .course-page-3d #course_slider { overflow: hidden; }
-  .course-page-3d.qa-course #career_path .content .image { grid-row: 2; }
-  .course-page-3d.qa-course #qa_course_result { padding-bottom: 0; } }
+  .course-page-3d.digital-course #career_path .content .image { grid-row: 2; }
+  .course-page-3d.digital-course #qa_course_result { padding-bottom: 0; }
+  .course-page-3d.digital-course #what_awaits_you .content > div { align-items: start; }
+  .course-page-3d.digital-course #what_awaits_you .content > div h3 { margin-bottom: 10px; }
+  .course-page-3d.digital-course #knowledge .programs { grid-template-columns: repeat(2, 1fr); }
+  .course-page-3d.digital-course #program_modules .content .modules { grid-template-columns: 1fr; }
+  .course-page-3d.digital-course #program_modules .content .modules > div { display: grid; grid-template-columns: 70px 1fr; grid-gap: 20px; }
+  .course-page-3d.digital-course #program_modules .content .modules > div .img { grid-row: 1/3; }
+  .course-page-3d #fishki.course { padding-top: 0px; } }
