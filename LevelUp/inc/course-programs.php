@@ -102,7 +102,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
                 if ( empty( $shortcode ) )
                     echo __( 'Unknown' );
                 else
-                    printf( __( '<input type="text" onfocus="this.select();" style="width: auto;max-width: 142px;" readonly="" value="[program id=%s]" class="large-text code">' ), $shortcode );
+                    printf( __( '<input type="text" onfocus="this.select();" style="width: auto;max-width: 142px;" readonly="" value="[program-acf id=%s]" class="large-text code">' ), $shortcode );
             break;
 
             default :
@@ -140,7 +140,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
 
                        $programma_kursa = get_field( 'programma_kursa' );
 
-                        echo '[program id=';
+                        echo '[program-acf id=';
                             echo $programma_kursa;
                         // if(pll_current_language() == 'ru') {
                         //     echo $program;
