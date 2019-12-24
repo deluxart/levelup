@@ -102,7 +102,7 @@ add_shortcode( 'program',  'call_shortcode_program' );
                 if ( empty( $shortcode ) )
                     echo __( 'Unknown' );
                 else
-                    printf( __( '<input type="text" onfocus="this.select();" style="width: auto;max-width: 180px;" readonly="" value="[program-acf id=%s]" class="large-text code">' ), $shortcode );
+                    printf( __( '<input type="text" onfocus="this.select();" style="width: 100%;max-width: 179px;" readonly="" value="[program-acf id=%s]" class="large-text code">' ), $shortcode );
             break;
 
             default :
