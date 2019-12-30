@@ -84,7 +84,9 @@
 #work_studio .month-line > div:first-child { border-radius: 30px 0 0 30px; }
 #work_studio .month-line > div:last-child { border-radius: 0 30px 30px 0; }
 /* #work_studio .month-line > div:nth-child(6) { background: #a0a0a0; } */
-/* #work_studio .month-line > div:nth-child(6):before { border: 2px solid #217693; width: 10px; height: 10px; top: 0; left: -2px; } */
+#work_studio .month-line > div:nth-child(2):before { border: 2px solid #217693; width: 10px; height: 10px; top: 0; left: -2px; }
+#work_studio .month-line > div:nth-child(4):before { border: 2px solid #217693; width: 10px; height: 10px; top: 0; left: -2px; }
+#work_studio .month-line > div:nth-child(6):before { border: 2px solid #217693; width: 10px; height: 10px; top: 0; left: -2px; }
 /* #work_studio .month-line > div:nth-child(6) span { color: #b1b1b1; }
 #work_studio .month-line > div:nth-child(7) { background: #a0a0a0; }
 #work_studio .month-line > div:nth-child(7) span { color: #b1b1b1; } */
