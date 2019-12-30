@@ -76,16 +76,18 @@
 #work_studio.edge--top--reverse:before { transform: skewY(-2.5deg); }
 #work_studio.edge--bottom:after { transform: skewY(-2.5deg); }
 #work_studio .month-line { display: grid; grid-template-columns: repeat(7, 1fr); border-radius: 30px; padding-top: 24px; margin: 50px 0 20px 0; }
-#work_studio .month-line > div { background: #0048ff; position: relative; height: 10px; }
-#work_studio .month-line > div span { position: absolute; top: -24px; font-size: 14px; font-weight: bold; transform: translateX(-30%); color: #0048ff; }
+#work_studio .month-line > div { background: #a0a0a0; position: relative; height: 10px; }
+#work_studio .month-line > div span { position: absolute; top: -24px; font-size: 14px; font-weight: bold; transform: translateX(-30%); color: #0048ff; color: #b1b1b1; }
+#work_studio .month-line > div.blue-line { background: #0048ff; }
+#work_studio .month-line > div.blue-line span { color: #0048ff; }
 #work_studio .month-line > div:before { content: ''; width: 6px; height: 6px; position: absolute; left: 2px; top: 2px; background: #fff; border-radius: 30px; }
 #work_studio .month-line > div:first-child { border-radius: 30px 0 0 30px; }
 #work_studio .month-line > div:last-child { border-radius: 0 30px 30px 0; }
-#work_studio .month-line > div:nth-child(6) { background: #a0a0a0; }
-#work_studio .month-line > div:nth-child(6):before { border: 2px solid #217693; width: 10px; height: 10px; top: 0; left: -2px; }
-#work_studio .month-line > div:nth-child(6) span { color: #b1b1b1; }
+/* #work_studio .month-line > div:nth-child(6) { background: #a0a0a0; } */
+/* #work_studio .month-line > div:nth-child(6):before { border: 2px solid #217693; width: 10px; height: 10px; top: 0; left: -2px; } */
+/* #work_studio .month-line > div:nth-child(6) span { color: #b1b1b1; }
 #work_studio .month-line > div:nth-child(7) { background: #a0a0a0; }
-#work_studio .month-line > div:nth-child(7) span { color: #b1b1b1; }
+#work_studio .month-line > div:nth-child(7) span { color: #b1b1b1; } */
 #work_studio .block-clock { text-align: center; margin-bottom: 30px; }
 #work_studio .block-clock .time-clock { font-size: 18px; font-weight: bold; color: #0048ff; display: inline-block; margin: 0 auto; line-height: 36px; }
 #work_studio .block-clock .time-clock i { font-size: 36px; padding-right: 14px; vertical-align: middle; }
