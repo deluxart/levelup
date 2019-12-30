@@ -110,6 +110,15 @@ function lvl_home_post_slides( $atts ) {
         )
     );
     $query = new WP_Query( $options );
+    $count = $query->found_posts;
+
+if ( $count <= 2 ) {
+    echo '<div class="test1-slide"><a href="https://levelup.ua/dev-studio"><img src="https://levelup.ua/wp-content/uploads/2019/12/dev-studio.jpg" alt=""></a></div>';
+} elseif ( $count <= 1 ) {
+    echo '<div class="test2-slide"><a href="https://levelup.ua/dev-studio"><img src="https://levelup.ua/wp-content/uploads/2019/12/dev-studio.jpg" alt=""></a></div>';
+    echo '<div class="test2-slide"><a href="https://levelup.ua/career-center"><img src="https://levelup.ua/wp-content/uploads/2019/12/image-career.jpg" alt=""></a></div>';
+}
+
     if ( $query->have_posts() ) { ?>
             <?php while ( $query->have_posts() ) : $query->the_post(); ?>
                 <?php
@@ -120,6 +129,12 @@ function lvl_home_post_slides( $atts ) {
     <?php $myvariable = ob_get_clean();
     return $myvariable;
     }
+
+
+
+
+
+
 }
 
 
