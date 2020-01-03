@@ -519,6 +519,7 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
   .lvl2019 #lvl_mission h2 { margin-bottom: 10px; } }
 @media (max-width: 768px) { .lvl2019 #professions .content .course_card .back ul.course-info > li { align-items: start; }
   #header.multilang .content .lang-btn .lang-block { display: none; }
+  .lvl2019 #professions .content .course_card .places { display: none; }
   .lvl2019 #trust_us .slick-slide { padding: 0; }
   .lvl2019 #trust_us .slick-prev, .lvl2019 #trust_us .slick-next { bottom: -52px; }
   .lvl2019 #trust_us .content .image .text-img { box-shadow: none; font-size: 16px; padding: 15px; }
