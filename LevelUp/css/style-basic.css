@@ -9,6 +9,13 @@ h4 { font-size: 26px; font-weight: 500; font-family: 'Montserrat'; line-height: 
 h5 { font-size: 18px; font-weight: 400; font-family: 'Montserrat'; line-height: 24px; }
 h6 { font-size: 14px; font-weight: 300; font-family: 'Montserrat'; line-height: 18px; }
 
+
+@media (max-width: 768px) {
+  h2 { font-size: 32px; line-height: normal; }
+  h3 { font-size: 24px; }
+}
+
+
 a { color: #0048ff; }
 .h100 { height: 100%; }
 
