@@ -257,7 +257,7 @@ if (isset($GLOBALS["polylang"])) {
 					<li><a href="https://t.me/levelupit" target="_blank"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
 				</ul>
 				<div class="v-line"></div>
-				<div class="vertical-text">мы в сети</div>
+				<div class="vertical-text"><?php pll_e('we_socials','LevelUp'); ?></div>
 
 		</div>
 		<div class="lvl-menu-block-content">

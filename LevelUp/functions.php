@@ -775,6 +775,8 @@ pll_register_string('Previous page', 'Previous page');
 pll_register_string('Next page', 'Next page');
 pll_register_string('Page', 'Page');
 pll_register_string('projects', 'projects');
+pll_register_string('we_socials', 'we_socials');
+
 
 
 // Добавляем кастомный класс для body с помощью ACF
