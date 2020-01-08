@@ -355,7 +355,7 @@ if (isset($GLOBALS["polylang"])) {
 				</div>
 
 				<div>
-					<div class="menu-title">проекты</div>
+					<div class="menu-title"><?php pll_e('projects','LevelUp'); ?></div>
                     <?php
                                 $menuParameters = array(
                                 //     Индивидуальные курсы
