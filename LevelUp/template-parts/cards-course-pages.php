@@ -13,7 +13,7 @@
 
 
 ?>
-<div>
+<div class="lvl2019">
 <div class="course_card" id="block-course-<?php the_ID(); ?>">
 	<div class="front">
 	    <div>
