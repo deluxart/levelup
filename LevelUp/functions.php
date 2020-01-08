@@ -488,6 +488,7 @@ register_nav_menus(array(
 	'full_nav_5'    => 'Меню #5 (Маркетинг и IT-менеджмент)',
 	'full_nav_6'    => 'Меню #6 (Поддержка и аналитика)',
 	'full_nav_7'    => 'Меню #7 (Индивидуальные курсы)',
+	'full_nav_8'    => 'Меню #8 (Проекты)',
 ));
 
 function add_additional_class_on_li($classes, $item, $args) {
