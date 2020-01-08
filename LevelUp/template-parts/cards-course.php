@@ -17,6 +17,7 @@
 
 <?php if ( get_field( 'blok_home' ) == 1 ) { ?>
 
+<div>
 <div class="course_card" id="block-course-<?php the_ID(); ?>">
 	<div class="front">
 	    <div>
@@ -106,7 +107,7 @@
 	    </div>
 	    <div class="lvl-btn yw"><a href="<?php the_field( 'vybrat_kurs' ); ?>"><?php pll_e('show_more_text','LevelUp'); ?></a></div>
     </div>
-</div>
+</div></div>
 
 <?php } else {
  // echo 'false';
