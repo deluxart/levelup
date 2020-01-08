@@ -244,19 +244,19 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #professions .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 50px; }
 .lvl2019 #professions .content .show-link { display: grid; align-items: center; text-align: center; background-image: -moz-linear-gradient(-180deg, #9000ff 0%, #0036ff 100%); background-image: -webkit-linear-gradient(-180deg, #9000ff 0%, #0036ff 100%); background-image: -ms-linear-gradient(-180deg, #9000ff 0%, #0036ff 100%); box-shadow: 0px 29px 73px 0px rgba(18, 34, 94, 0.24); border-radius: 15px; }
 .lvl2019 #professions .content .show-link a { color: #ffde00; border-radius: 15px; }
-.lvl2019 #professions .content .course_card { font-size: 18px; height: 300px; }
-.lvl2019 #professions .content .course_card .img { box-shadow: 0px 8px 70px 0px rgba(0, 0, 0, 0.18); background: #f3f3f3; border-radius: 50%; text-align: center; display: block; width: 154px; height: 154px; margin: 0 auto 30px auto; }
-.lvl2019 #professions .content .course_card .img img { display: block; width: 64px; position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); }
-.lvl2019 #professions .content .course_card h6 { text-align: center; font-weight: 600; }
-.lvl2019 #professions .content .course_card .front { background-color: white; box-shadow: 0px 29px 73px 0px rgba(18, 34, 94, 0.24); border-radius: 15px; color: #444444; padding: 40px; }
-.lvl2019 #professions .content .course_card .back { background-image: -moz-linear-gradient(135deg, #9000ff 0%, #0036ff 100%); background-image: -webkit-linear-gradient(135deg, #9000ff 0%, #0036ff 100%); background-image: -ms-linear-gradient(135deg, #9000ff 0%, #0036ff 100%); box-shadow: 0px 29px 73px 0px rgba(18, 34, 94, 0.24); border-radius: 15px; color: #fff; padding: 40px; display: grid; grid-template-rows: 1fr auto; }
-.lvl2019 #professions .content .course_card .back ul.course-info { display: inline-block; font-size: 16px; width: 100%; margin-top: 15px; margin-bottom: 20px; position: relative; left: 50%; transform: translateX(-50%); }
-.lvl2019 #professions .content .course_card .back ul.course-info > li { display: grid; grid-template-columns: 23px 1fr; grid-column-gap: 20px; align-items: center; margin-bottom: 22px; }
-.lvl2019 #professions .content .course_card .back ul.course-info > li:last-child { margin-bottom: 0; }
-.lvl2019 #professions .content .course_card .back .lvl-btn { text-align: center; }
-.lvl2019 #professions .content .course_card .back .lvl-btn a { padding: 10px 30px; font-size: 14px; }
-.lvl2019 #professions .content .course_card .places { position: absolute; box-shadow: 0px 22px 51px 0px rgba(0, 0, 0, 0.35); display: grid; grid-template-columns: 24px 1fr; align-items: center; grid-gap: 12px; background:#ffde00; color:#0045ff; padding: 5px 10px; border-radius: 7px; right: 15px; top: 15px; }
-.lvl2019 #professions .content .course_card .places .icon { width: 24px; height: 22px; display: block; }
+.course_card { font-size: 18px; height: 300px; }
+.course_card .img { box-shadow: 0px 8px 70px 0px rgba(0, 0, 0, 0.18); background: #f3f3f3; border-radius: 50%; text-align: center; display: block; width: 154px; height: 154px; margin: 0 auto 30px auto; }
+.course_card .img img { display: block; width: 64px; position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.course_card h6 { text-align: center; font-weight: 600; }
+.course_card .front { background-color: white; box-shadow: 0px 29px 73px 0px rgba(18, 34, 94, 0.24); border-radius: 15px; color: #444444; padding: 40px; }
+.course_card .back { background-image: -moz-linear-gradient(135deg, #9000ff 0%, #0036ff 100%); background-image: -webkit-linear-gradient(135deg, #9000ff 0%, #0036ff 100%); background-image: -ms-linear-gradient(135deg, #9000ff 0%, #0036ff 100%); box-shadow: 0px 29px 73px 0px rgba(18, 34, 94, 0.24); border-radius: 15px; color: #fff; padding: 40px; display: grid; grid-template-rows: 1fr auto; }
+.course_card .back ul.course-info { display: inline-block; font-size: 16px; width: 100%; margin-top: 15px; margin-bottom: 20px; position: relative; left: 50%; transform: translateX(-50%); }
+.course_card .back ul.course-info > li { display: grid; grid-template-columns: 23px 1fr; grid-column-gap: 20px; align-items: center; margin-bottom: 22px; }
+.course_card .back ul.course-info > li:last-child { margin-bottom: 0; }
+.course_card .back .lvl-btn { text-align: center; }
+.course_card .back .lvl-btn a { padding: 10px 30px; font-size: 14px; }
+.course_card .places { position: absolute; box-shadow: 0px 22px 51px 0px rgba(0, 0, 0, 0.35); display: grid; grid-template-columns: 24px 1fr; align-items: center; grid-gap: 12px; background:#ffde00; color:#0045ff; padding: 5px 10px; border-radius: 7px; right: 15px; top: 15px; }
+.course_card .places .icon { width: 24px; height: 22px; display: block; }
 .lvl2019 #professions ul.un-tabs { display: grid; grid-template-columns: repeat(3, 1fr); background: #fff; box-shadow: 0px 15px 55px 0px rgba(0, 60, 255, 0.21); margin-bottom: 40px; border-radius: 50px; overflow: hidden; }
 .lvl2019 #professions ul.un-tabs > li { font-size: 15px; color: #003cff; transition: 0.05s ease-out; text-align: center; }
 .lvl2019 #professions ul.un-tabs > li > div { display: inline-block; margin: 0 auto; padding: 18px 25px; }
@@ -493,15 +493,15 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
   .lvl2019 #last-news .content .news_slider { position: relative; top: 0; transform: none; right: auto; }
   .lvl2019 #last-ivents .content .news_slider { position: relative; top: 0; transform: none; left: auto; }
   .lvl2019 #professions .content { grid-template-columns: 1fr; }
-  .lvl2019 #professions .content .course_card { display: grid; grid-template-columns: 1fr 1fr; height: auto; background: #fff; border-radius: 15px; box-shadow: 0px 29px 73px 0px rgba(18, 34, 94, 0.24); }
-  .lvl2019 #professions .content .course_card .front { transform: none !important; position: relative !important; display: grid; align-items: center; padding: 10px; box-shadow: none; }
-  .lvl2019 #professions .content .course_card .back { box-shadow: none; }
-  .lvl2019 #professions .content .course_card .img { width: 90px; height: 90px; margin: 12px auto 22px auto; }
-  .lvl2019 #professions .content .course_card .img img { max-height: 80px; }
-  .lvl2019 #professions .content .course_card h6 { font-size: 14px; }
-  .lvl2019 #professions .content .course_card .back { transform: none !important; position: relative !important; padding: 15px; }
-  .lvl2019 #professions .content .course_card .back ul.course-info { font-size: 14px; margin-bottom: 20px; margin-top: 0; }
-  .lvl2019 #professions .content .course_card .back ul.course-info > li { display: grid; grid-template-columns: 23px 1fr; grid-column-gap: 3px; align-items: center; margin-bottom: 12px; }
+  .course_card { display: grid; grid-template-columns: 1fr 1fr; height: auto; background: #fff; border-radius: 15px; box-shadow: 0px 29px 73px 0px rgba(18, 34, 94, 0.24); }
+  .course_card .front { transform: none !important; position: relative !important; display: grid; align-items: center; padding: 10px; box-shadow: none; }
+  .course_card .back { box-shadow: none; }
+  .course_card .img { width: 90px; height: 90px; margin: 12px auto 22px auto; }
+  .course_card .img img { max-height: 80px; }
+  .course_card h6 { font-size: 14px; }
+  .course_card .back { transform: none !important; position: relative !important; padding: 15px; }
+  .course_card .back ul.course-info { font-size: 14px; margin-bottom: 20px; margin-top: 0; }
+  .course_card .back ul.course-info > li { display: grid; grid-template-columns: 23px 1fr; grid-column-gap: 3px; align-items: center; margin-bottom: 12px; }
   .lvl2019 #trust_us { overflow: hidden; padding: 90px 0; }
   .lvl2019 #trust_us .text-before { transform: none; font-size: 64px; line-height: 50px; top: 100px; }
   .lvl2019 #professions { padding-bottom: 90px; }
@@ -517,16 +517,16 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
   .lvl2019 #home_slider .content > div.text p { font-size: 15px; }
   .lvl2019 #lvl_mission .tc img { max-width: 165px; }
   .lvl2019 #lvl_mission h2 { margin-bottom: 10px; } }
-@media (max-width: 768px) { .lvl2019 #professions .content .course_card .back ul.course-info > li { align-items: start; }
+@media (max-width: 768px) { .course_card .back ul.course-info > li { align-items: start; }
   #header.multilang .content .lang-btn .lang-block { display: none; }
-  .lvl2019 #professions .content .course_card .places { display: none; }
+  .course_card .places { display: none; }
   .lvl2019 #trust_us .slick-slide { padding: 0; }
   .lvl2019 #trust_us .slick-prev, .lvl2019 #trust_us .slick-next { bottom: -52px; }
   .lvl2019 #trust_us .content .image .text-img { box-shadow: none; font-size: 16px; padding: 15px; }
-  .lvl2019 #professions .content .course_card .back ul.course-info > li i { padding-top: 2px; }
+  .course_card .back ul.course-info > li i { padding-top: 2px; }
   .lvl2019 #what_do_you_get .content figure.block h4 { padding: 0 20px; }
   .lvl2019 #what_do_you_get .content figure.block p { padding: 20px; font-size: 14px; }
-  .lvl2019 #professions .content .course_card .back .lvl-btn a { padding: 7px 20px; font-size: 13px; }
+  .course_card .back .lvl-btn a { padding: 7px 20px; font-size: 13px; }
   .lvl2019 #lvl_mission .content p.big-txt span { display: block; }
   .lvl2019 #lvl_mission::before { background: none; }
   .lvl2019 #last-news .content .slider-block .slick-slide, .lvl2019 #last-ivents .content .slider-block .slick-slide { padding: 0; }
