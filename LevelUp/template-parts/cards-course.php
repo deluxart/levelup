@@ -13,10 +13,7 @@
 
 
 ?>
-
-
 <?php if ( get_field( 'blok_home' ) == 1 ) { ?>
-
 <div>
 <div class="course_card" id="block-course-<?php the_ID(); ?>">
 	<div class="front">
@@ -110,5 +107,5 @@
 </div></div>
 
 <?php } else {
- // echo 'false';
+
 } ?>
