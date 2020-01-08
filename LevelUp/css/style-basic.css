@@ -1241,10 +1241,11 @@ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255
 #course-result #outputText { font-size: 130px;max-width: 1100px; line-height: 100px; top: 50px; left: 110px; text-transform: uppercase; user-select: none; -moz-user-select: none; }
 #loyality #outputText { font-size: 130px;color: #000;max-width: 1100px; line-height: 100px; top: 50px; left: 110px; text-transform: uppercase; user-select: none; -moz-user-select: none; text-align: left; }
 
-
+@media (max-width: 1200px) {
+  #course-result #outputText { font-size: 82px; line-height: 66px; left: 60px; }
+}
 @media (max-width: 992px) {
 		#benefit #outputText { font-size: 82px; line-height: 72px; left: 60px; max-width: 600px; }
-		#course-result #outputText { font-size: 82px; line-height: 66px; left: 60px; }
 		#loyality #outputText { font-size: 82px; line-height: 66px; left: 60px; }
 		.reg-offer { margin-bottom: 0; }
 }
