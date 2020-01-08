@@ -13,51 +13,26 @@
 
 
 ?>
-
-
-
-
-
 <div>
-    <div class="course_card_block tc">
-        <img src="<?php the_field( 'logo_url' ); ?>" alt="" />
-        <h4>Разработка под Android</h4>
-
-        <?php if ( have_rows( 'data_raspisanie_grafik' ) ) : ?>
-                <?php while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row(); ?>
-                            <?php if ( have_rows( 'date_start' ) ) : ?>
-                                <?php while ( have_rows( 'date_start' ) ) : the_row(); ?>
-                                <p<?php the_sub_field( 'start_rus' ); ?></p>
-                                    <?php endwhile; ?>
-                            <?php endif; ?>
-                <?php endwhile; ?>
-            <?php endif; ?>
-
-            <div class="price">
-            <span>Цена</span>
-            [SmrkCourse cource="java-programmirovanie-pod-android" field="price"] [SmrkCourse cource="java-programmirovanie-pod-android" field="units"]
-            </div>
-        <div class="col tc"><a href="https://levelup.ua/portfolios/java-programmirovanie-pod-android/" class="btn buttonLight black" role="button" aria-pressed="true">Подробнее</a></div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<?php if ( get_field( 'blok_home' ) == 1 ) { ?>
-
 <div class="course_card" id="block-course-<?php the_ID(); ?>">
 	<div class="front">
 	    <div>
 	        <div class="img"><img src="<?php the_field( 'logo_url' ); ?>" alt=""></div>
-	        <h6><?php the_title(); ?></h6>
+	        <h6>
+            <?php if(pll_current_language() == 'ru'){ ?>
+                <?php if ( have_rows( 'nazvanie_kursa' ) ) : ?>
+                    <?php while ( have_rows( 'nazvanie_kursa' ) ) : the_row(); ?>
+                        <?php the_sub_field( 'rus' ); ?>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+            <?php } else { ?>
+                <?php if ( have_rows( 'nazvanie_kursa' ) ) : ?>
+                    <?php while ( have_rows( 'nazvanie_kursa' ) ) : the_row(); ?>
+                        <?php the_sub_field( 'ukr' ); ?>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+            <?php } ?>
+            </h6>
 	    </div>
 	</div>
 	<div class="back">
@@ -73,12 +48,14 @@
                 <?php while ( have_rows( 'data_raspisanie_grafik' ) ) : the_row(); ?>
 
 
-                        <h5><?php the_sub_field( 'start_rus' ); ?></h5>
+                <?php if(pll_current_language() == 'ru'){ ?>
                             <ul class="course-info">
 
                             <?php if ( have_rows( 'date_start' ) ) : ?>
                                 <?php while ( have_rows( 'date_start' ) ) : the_row(); ?>
+
                                 <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_rus' ); ?></span></li>
+
                                     <?php endwhile; ?>
                             <?php endif; ?>
 
@@ -95,13 +72,36 @@
 		                    <?php endif; ?>
 
                             </ul>
+
+                            <?php } else { ?>
+                                <ul class="course-info">
+
+                                <?php if ( have_rows( 'date_start' ) ) : ?>
+                                    <?php while ( have_rows( 'date_start' ) ) : the_row(); ?>
+
+                                    <li><i class="fa fa-rocket" aria-hidden="true"></i><span><?php the_sub_field( 'start_ukr' ); ?></span></li>
+
+                                        <?php endwhile; ?>
+                                <?php endif; ?>
+
+                                <?php if ( have_rows( 'duration' ) ) : ?>
+                                    <?php while ( have_rows( 'duration' ) ) : the_row(); ?>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i><span><?php the_sub_field( 'duration_ukr' ); ?></span></li>
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
+
+                                <?php if ( have_rows( 'schedule' ) ) : ?>
+                                    <?php while ( have_rows( 'schedule' ) ) : the_row(); ?>
+                                    <li><i class="fa fa-calendar" aria-hidden="true"></i><span><?php the_sub_field( 'schedule_ukr' ); ?></span></li>
+                                    <?php endwhile; ?>
+                                <?php endif; ?>
+
+                                </ul>
+                            <?php } ?>
                 <?php endwhile; ?>
             <?php endif; ?>
 	    </div>
 	    <div class="lvl-btn yw"><a href="<?php the_field( 'vybrat_kurs' ); ?>"><?php pll_e('show_more_text','LevelUp'); ?></a></div>
     </div>
-</div>
+</div></div>
 
-<?php } else {
- // echo 'false';
-} ?>
