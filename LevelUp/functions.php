@@ -809,16 +809,16 @@ add_action( 'admin_menu', 'remove_menus' );
 
 
 // Для поиска по медиафайлам
-add_filter( 'posts_search', 'qna_habr_q695436', 10, 2 );
-function qna_habr_q695436( $search, $wp_query )
-{
-    global $wpdb, $page;
-    if ( !is_admin() && 'upload.php' != $page )
-        return $search;
-    $search = str_replace(
-        'AND ((',
-        'AND (((' . $wpdb->prefix . 'posts.guid LIKE \'%' . $_GET['s'] . '%\') OR ',
-        $search
-    );
-    return $search;
-}
+// add_filter( 'posts_search', 'qna_habr_q695436', 10, 2 );
+// function qna_habr_q695436( $search, $wp_query )
+// {
+//     global $wpdb, $page;
+//     if ( !is_admin() && 'upload.php' != $page )
+//         return $search;
+//     $search = str_replace(
+//         'AND ((',
+//         'AND (((' . $wpdb->prefix . 'posts.guid LIKE \'%' . $_GET['s'] . '%\') OR ',
+//         $search
+//     );
+//     return $search;
+// }
