@@ -41,6 +41,8 @@ span.wpcf7-not-valid-tip { position: absolute; margin: 0; top: 0; right: 20px; }
 .entry-content .wpcf7-form .ajax-loader { position: absolute; left: 50%; margin: 0; top: 50%; transform: translate(-50%, -50%); background-color: #f5f34f; width: auto; min-width: 80px; background-repeat: no-repeat; background-position: center; background-image: url(../img/loading_gray.svg); background-size: 36px 36px; }
 
 #registration.modal .wpcf7-form .ajax-loader { transform: none; }
+#registration.modal .wpcf7-form span.wpcf7-not-valid-tip { padding: 3px 5px; right: 0; top: 50%; transform: translateY(-50%); margin: 0; }
+#registration.modal .wpcf7-form-control-wrap { width: 100%; position: relative; display: block; }
 
 /* End - Reset style for CF 7 */
 
