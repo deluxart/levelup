@@ -87,15 +87,15 @@ if (isset($GLOBALS["polylang"])) {
     <?php while ( have_rows( 'menyu_v_shapke' ) ) : the_row(); ?>
 
 <?php if ( have_rows( 'punkty_menyu' ) ) : ?>
-    <?php while ( have_rows( 'punkty_menyu' ) ) : the_row(); ?>
     <ul class="basic-menu">
+    <?php while ( have_rows( 'punkty_menyu' ) ) : the_row(); ?>
         <?php if ( have_rows( 'punkt_menyu' ) ) : ?>
             <?php while ( have_rows( 'punkt_menyu' ) ) : the_row(); ?>
                 <li class="menu-item nav-item"><a href="<?php the_sub_field( 'ssylka' ); ?>"><?php the_sub_field( 'nazvanie' ); ?></a></li>
             <?php endwhile; ?>
         <?php endif; ?>
-        </ul>
     <?php endwhile; ?>
+    </ul>
 <?php else : ?>
     <?php // no rows found ?>
 <?php endif; ?>
@@ -124,9 +124,6 @@ if (isset($GLOBALS["polylang"])) {
             ) );
     ?>
 <?php } ?>
-
-
-
 
 
 
