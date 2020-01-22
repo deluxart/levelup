@@ -237,7 +237,7 @@ document.querySelectorAll('section[data-bg]')
 
 
 
-<?php if ( get_field( 'kastomnoe_menyu' ) !== 1 ) { ?>
+<?php if ( get_field( 'kastomnoe_menyu' ) == false ) { ?>
 jQuery(function(){
   jQuery('a[href^="#"]').on('click', function(event) {
     event.preventDefault();
