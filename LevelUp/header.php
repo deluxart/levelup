@@ -83,13 +83,12 @@ if (isset($GLOBALS["polylang"])) {
 
 
 
-
         <?php if ( have_rows( 'menyu_v_shapke' ) ) : ?>
 	<?php while ( have_rows( 'menyu_v_shapke' ) ) : the_row(); ?>
-		<?php if ( get_sub_field( 'add_custom_menu' ) == 1 ) { ?>
+		<?php if ( get_sub_field( 'add_custom_menu' ) == 0 ) { ?>
 
 
-<?php
+            <?php
             wp_nav_menu( array(
                 'menu'            => '2',
                 'container'       => false,
@@ -109,6 +108,7 @@ if (isset($GLOBALS["polylang"])) {
 
 <?php } else { ?>
 
+
     <?php if ( have_rows( 'punkty_menyu' ) ) : ?>
     <?php while ( have_rows( 'punkty_menyu' ) ) : the_row(); ?>
     <ul class="basic-menu">
@@ -122,6 +122,7 @@ if (isset($GLOBALS["polylang"])) {
 <?php else : ?>
     <?php // no rows found ?>
 <?php endif; ?>
+
 
 		<?php } ?>
 	<?php endwhile; ?>
