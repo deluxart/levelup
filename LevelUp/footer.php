@@ -238,17 +238,17 @@ document.querySelectorAll('section[data-bg]')
 
 
 <?php if ( get_field( 'kastomnoe_menyu' ) == 1 ) { ?>
-// jQuery(function(){
-//   jQuery('a[href^="#"]').on('click', function(event) {
-//     event.preventDefault();
+jQuery(function(){
+  jQuery('a[href^="#"]').on('click', function(event) {
+    event.preventDefault();
 
-//     var sc = jQuery(this).attr("href"),
-//         dn = jQuery(sc).offset().top;
+    var sc = jQuery(this).attr("href"),
+        dn = jQuery(sc).offset().top;
 
-//     jQuery('html, body').animate({scrollTop: dn - 150}, 1000);
+    jQuery('html, body').animate({scrollTop: dn - 150}, 1000);
 
-//   });
-// });
+  });
+});
 
 
 
@@ -289,7 +289,7 @@ jQuery(window).on('scroll', function () {
 
 nav.find('a').on('click', function () {
     const id = jQuery(this).attr('href'),
-        dn = jQuery(sc).offset().top;
+        dn = jQuery(id).offset().top;
 
         jQuery('html, body').animate({scrollTop: dn - 150}, 1000);
     // jQuery('html, body').animate({
