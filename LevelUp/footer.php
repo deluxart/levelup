@@ -271,7 +271,7 @@ window.addEventListener('orientationchange', function () {
 }, false);
 
 jQuery(window).on('scroll', function () {
-    const position = jQuery(this).scrollTop();
+    const position = jQuery(this).scrollTop() - 150;
 
     section.each(function () {
         const top = jQuery(this).offset().top - navHeight - 5,
