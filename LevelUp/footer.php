@@ -291,10 +291,10 @@ nav.find('a').on('click', function () {
     const id = jQuery(this).attr('href'),
         dn = jQuery(id).offset().top;
 
-        // jQuery('html, body').animate({scrollTop: dn - 150}, 1000);
-    jQuery('html, body').animate({
-        scrollTop: jQuery(id).offset().top - navHeight
-    }, 1000);
+        jQuery('html, body').animate({scrollTop: dn - 150}, 1000);
+    // jQuery('html, body').animate({
+    //     scrollTop: jQuery(id).offset().top - navHeight
+    // }, 1000);
 
     return false;
 });
