@@ -237,6 +237,20 @@ document.querySelectorAll('section[data-bg]')
 
 
 
+<?php if ( get_field( 'kastomnoe_menyu' ) !== 1 ) { ?>
+jQuery(function(){
+  jQuery('a[href^="#"]').on('click', function(event) {
+    event.preventDefault();
+
+    var sc = jQuery(this).attr("href"),
+        dn = jQuery(sc).offset().top;
+
+    jQuery('html, body').animate({scrollTop: dn - 150}, 1000);
+
+  });
+});
+<?php } ?>
+
 
         </script>
         <?php echo $options['jivosite_code'];?>
