@@ -249,6 +249,67 @@ jQuery(function(){
 
   });
 });
+
+
+
+
+
+
+
+
+
+
+jQuery(function($) {
+
+const section = jQuery('.lvl-section'),
+      nav = jQuery('.basic-nav'),
+      navHeight = nav.outerHeight(); // получаем высоту навигации
+
+// поворот экрана
+window.addEventListener('orientationchange', function () {
+    navHeight = nav.outerHeight();
+}, false);
+
+jQuery(window).on('scroll', function () {
+    const position = jQuery(this).scrollTop();
+
+    section.each(function () {
+        const top = jQuery(this).offset().top - navHeight - 5,
+              bottom = top + jQuery(this).outerHeight();
+
+        if (position >= top && position <= bottom) {
+            nav.find('a').removeClass('active');
+            section.removeClass('active');
+
+            jQuery(this).addClass('active');
+            nav.find('a[href="#' + jQuery(this).attr('id') + '"]').addClass('active');
+        }
+    });
+});
+
+nav.find('a').on('click', function () {
+    const id = jQuery(this).attr('href');
+
+    jQuery('html, body').animate({
+        scrollTop: jQuery(id).offset().top - navHeight
+    }, 1000);
+
+    return false;
+});
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
 <?php } ?>
 
 
