@@ -81,14 +81,32 @@ if (isset($GLOBALS["polylang"])) {
 		<div class="basic-nav">
 
 
+<?php if ( get_field( 'kastomnoe_menyu' ) == 1 ) { ?>
+
+<?php if ( have_rows( 'menyu_v_shapke' ) ) : ?>
+    <?php while ( have_rows( 'menyu_v_shapke' ) ) : the_row(); ?>
+
+<?php if ( have_rows( 'punkty_menyu' ) ) : ?>
+    <?php while ( have_rows( 'punkty_menyu' ) ) : the_row(); ?>
+    <ul class="basic-menu">
+        <?php if ( have_rows( 'punkt_menyu' ) ) : ?>
+            <?php while ( have_rows( 'punkt_menyu' ) ) : the_row(); ?>
+                <li class="menu-item nav-item"><a href="<?php the_sub_field( 'ssylka' ); ?>"><?php the_sub_field( 'nazvanie' ); ?></a></li>
+            <?php endwhile; ?>
+        <?php endif; ?>
+        </ul>
+    <?php endwhile; ?>
+<?php else : ?>
+    <?php // no rows found ?>
+<?php endif; ?>
+
+	<?php endwhile; ?>
+<?php endif; ?>
 
 
-        <?php if ( have_rows( 'menyu_v_shapke' ) ) : ?>
-	<?php while ( have_rows( 'menyu_v_shapke' ) ) : the_row(); ?>
-		<?php if ( get_sub_field( 'add_custom_menu' ) == 0 ) { ?>
 
-
-            <?php
+<?php } else { ?>
+    <?php
             wp_nav_menu( array(
                 'menu'            => '2',
                 'container'       => false,
@@ -104,29 +122,10 @@ if (isset($GLOBALS["polylang"])) {
                 'link_class'   => 'nav-link',
                   'walker_nav_menu_start_el'          => '',
             ) );
-            ?>
-
-<?php } else { ?>
-
-
-    <?php if ( have_rows( 'punkty_menyu' ) ) : ?>
-    <?php while ( have_rows( 'punkty_menyu' ) ) : the_row(); ?>
-    <ul class="basic-menu">
-        <?php if ( have_rows( 'punkt_menyu' ) ) : ?>
-            <?php while ( have_rows( 'punkt_menyu' ) ) : the_row(); ?>
-                <li class="menu-item nav-item"><a href="<?php the_sub_field( 'ssylka' ); ?>"><?php the_sub_field( 'nazvanie' ); ?></a></li>
-            <?php endwhile; ?>
-        <?php endif; ?>
-        </ul>
-    <?php endwhile; ?>
-<?php else : ?>
-    <?php // no rows found ?>
-<?php endif; ?>
+    ?>
+<?php } ?>
 
 
-		<?php } ?>
-	<?php endwhile; ?>
-<?php endif; ?>
 
 
 
