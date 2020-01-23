@@ -37,6 +37,6 @@
 
 <?php
 if ( block_value( 'discont' ) ) {
-	echo "<style>.meet-reg .event_price:after { content: '*' }</style>";
+	echo "<style>.event-details .content .event_price:after { content: '*' }</style>";
 }
 ?>
