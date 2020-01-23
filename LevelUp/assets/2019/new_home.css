@@ -233,7 +233,7 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #home_slider .content > div.text p { font-size: 20px; margin-bottom: 0px; font-weight: 200; }
 .lvl2019 #home_slider .content > div.text span { font-size: 36px; color: #fff; display: block; margin: 0 auto; }
 .lvl2019 #home_slider .content > div.text span span { display: inline-block; }
-.lvl2019 #home_slider .content > div .home-head-slider { position: absolute; max-width: 1482px; margin-bottom: 0; bottom: 51px; }
+.lvl2019 #home_slider .content > div .home-head-slider { position: absolute; max-width: 100%; margin-bottom: 0; bottom: 51px; }
 .lvl2019 #home_slider .content > div .home-head-slider .slick-slide img { border-radius: 15px; outline: none; }
 .lvl2019 #home_slider .content > div .home-head-slider .slick-dots { display: none !important; }
 .lvl2019 #lvl_about { padding: 120px 0; }
@@ -423,7 +423,7 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #form_feedback .content .form .form_input_cf > i { position: absolute; z-index: 1; top: 50%; transform: translateY(-50%); left: 20px; width: 16px; color: #4c4c4c; }
 .lvl2019 #form_feedback .content .form .form_input_cf .wpcf7-form-control-wrap input { background: #fff; width: 100%; height: auto; padding: 11px 20px 11px 55px; border-radius: 30px; }
 
-@media (max-width: 1600px) { .lvl2019 #home_slider .content > div .home-head-slider { max-width: 1100px; }
+@media (max-width: 1600px) { .lvl2019 #home_slider .content > div .home-head-slider { max-width: 100%; }
   .lvl2019 #last-ivents .content .slider-block .slick-dotted.slick-slider { max-width: 980px; }
   .lvl2019 #last-news .content .slider-block .slick-dotted.slick-slider { max-width: 980px; }
   #form_feedback { margin-top: 0; }
