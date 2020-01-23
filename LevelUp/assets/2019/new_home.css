@@ -226,7 +226,7 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #home_slider .content .slick-list { padding: 30px 0; }
 .lvl2019 #home_slider .content .slick-slide { position: relative; }
 .lvl2019 #home_slider .content div.head-btn a.sg-show-popup { box-shadow: none; }
-.lvl2019 #home_slider .content div.head-btn { position: absolute; bottom: 0; left: 50%; transform: translate(-50%, -50%); }
+.lvl2019 #home_slider .content div.head-btn { position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 50%); }
 
 
 .lvl2019 #home_slider .content > div.text { align-self: end; position: relative; bottom: 110px; padding-bottom: 100px; color: #fff; text-align: left; display: none; }
