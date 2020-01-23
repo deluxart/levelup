@@ -446,14 +446,15 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
   .lvl2019 #what_do_you_get .content figure.block p { padding: 25px; }
   .lvl2019 #why_trust_us .content .text { grid-column: 2; text-align: right; padding-right: 0px; }
   .lvl2019 #why_trust_us .content .list { grid-column: 1; grid-row: 1; }
-  .lvl2019 #why_trust_us .text-before { color: #ffffff0d; right: 20px; text-align: right; left: auto; max-width: 700px; font-size: 100px; line-height: 75px; }
-  .lvl2019 #home_slider .stub-header img { min-height: 600px; } }
+  .lvl2019 #why_trust_us .text-before { color: #ffffff0d; right: 20px; text-align: right; left: auto; max-width: 700px; font-size: 100px; line-height: 75px; } }
 @media (max-width: 1200px) { .lvl2019 h2 { font-size: 56px; }
   .lvl2019 #why_trust_us .content .text { padding-right: 40px; }
   .lvl2019 #what_do_you_get .content figure.block h4 { font-size: 18px; font-weight: 700; }
   .lvl2019 #lvl_mission .content { font-size: 21px; }
   .lvl2019 #lvl_mission .img-wave img { transform: translateY(72%); }
-  .lvl2019 #constituents .content { grid-gap: 80px; } }
+  .lvl2019 #constituents .content { grid-gap: 80px; }
+  .lvl2019 #home_slider .stub-header img { min-height: 600px; }
+}
 @media (max-width: 992px) { #header.multilang .content { grid-template-columns: auto 1fr auto auto; }
   .lvl2019 h3 { line-height: normal; }
   .lvl2019 h2 { font-size: 40px; }
