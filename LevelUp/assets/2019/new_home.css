@@ -218,11 +218,14 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #home_slider .stub-header { position: relative; overflow: hidden; }
 .lvl2019 #home_slider .stub-header:before { position: absolute; left: 0; top: 0; height: 100%; width: 100%; content: ''; background: #0000008f; z-index: 2; }
 .lvl2019 #home_slider .stub-header .stub-header-bg { position: absolute; content: ''; top: -40px; left: -40px; width: calc(100% - -80px); height: calc(100% - -80px); filter: blur(8px); -webkit-filter: blur(8px); background-size: cover; background-repeat: no-repeat; background-position: center; -webkit-transition: 0.5s all; transition: 0.5s all; }
-.lvl2019 #home_slider .stub-header img { display: block; min-height: 670px; }
+.lvl2019 #home_slider .stub-header img { display: block; min-height: 700px; }
 .lvl2019 #home_slider .content { width: 100%; display: grid; grid-template-columns: minmax(0, 1fr); grid-column-gap: 50px; height: 100%; }
 .lvl2019 #home_slider .content > div { position: relative; }
 
+
+.lvl2019 #home_slider .content .slick-list { padding: 30px 0; }
 .lvl2019 #home_slider .content .slick-slide { position: relative; }
+.lvl2019 #home_slider .content div.head-btn a.sg-show-popup { box-shadow: none; }
 .lvl2019 #home_slider .content div.head-btn { position: absolute; bottom: 0; left: 50%; transform: translate(-50%, -50%); }
 
 
@@ -444,7 +447,7 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
   .lvl2019 #why_trust_us .content .text { grid-column: 2; text-align: right; padding-right: 0px; }
   .lvl2019 #why_trust_us .content .list { grid-column: 1; grid-row: 1; }
   .lvl2019 #why_trust_us .text-before { color: #ffffff0d; right: 20px; text-align: right; left: auto; max-width: 700px; font-size: 100px; line-height: 75px; }
-  .lvl2019 #home_slider .stub-header img { min-height: 500px; } }
+  .lvl2019 #home_slider .stub-header img { min-height: 600px; } }
 @media (max-width: 1200px) { .lvl2019 h2 { font-size: 56px; }
   .lvl2019 #why_trust_us .content .text { padding-right: 40px; }
   .lvl2019 #what_do_you_get .content figure.block h4 { font-size: 18px; font-weight: 700; }
@@ -546,4 +549,10 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
   .lvl2019 #home_slider .content > div.text ul { font-size: 20px; } }
 @media (max-width: 520px) {
   .page-title h2 { font-size: 32px; }
+}
+
+
+
+@media (max-width: 992px) {
+  .lvl2019 #home_slider .stub-header img {  min-height: 500px; }
 }
