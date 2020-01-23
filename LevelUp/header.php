@@ -30,7 +30,7 @@
 
     <?php wp_head(); ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/dist/styles-all.min.css?31212321231<?php echo date(get_option('date_format')); ?>3">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/2019/new_home.css?1231231322332<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/2019/new_home.css?21231231322332<?php echo date(get_option('date_format')); ?>3">
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/digital.css?7721371<?php echo date(get_option('date_format')); ?>3"> -->
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/career-consultant.css?7721371<?php echo date(get_option('date_format')); ?>3">
 
