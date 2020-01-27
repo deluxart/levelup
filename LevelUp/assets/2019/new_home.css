@@ -418,7 +418,7 @@ body.home footer#level_footer.dark .subscribe span { color: #ffde00; }
 .lvl2019 #form_feedback .content .text .two-columns { display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
 .lvl2019 #form_feedback .content .form h3 { margin-bottom: 50px; color: #fff; }
 .lvl2019 #form_feedback .content .form .wpcf7 { max-width: 370px; margin: 0 auto; }
-.lvl2019 #form_feedback .content .form .wpcf7 .ajax-loader { position: absolute; }
+.lvl2019 #form_feedback .content .form .wpcf7 .ajax-loader { position: absolute; background-color: #fff000; }
 .lvl2019 #form_feedback .content .form .wpcf7 .wpcf7-form { display: grid; grid-row-gap: 30px; overflow: visible; }
 .lvl2019 #form_feedback .content .form span.wpcf7-not-valid-tip { font-size: 12px; color: #fff; }
 .lvl2019 #form_feedback .content .form .wpcf7 .wpcf7-form > p { margin: 0; position: absolute; }
