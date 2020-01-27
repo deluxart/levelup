@@ -1,35 +1,20 @@
 .course-page-3d.js-course { background: url(https://levelup.ua/wp-content/uploads/2019/12/bg_top_page.png) top center; background-size: 1920px; background-position: top center; background-repeat: no-repeat; }
-.course-page-3d.js-course #course_slider .content .text > h1 { color: #003cff; }
+.course-page-3d.js-course #course_slider .content .text > h1 { font-weight: 800; color: #003cff; }
 .course-page-3d.js-course #course_slider .content .text > span { color: #003cff; }
-.course-page-3d.js-course #what_awaits_you { padding: 70px 0; }
+.course-page-3d.js-course #about3d .content .image .description { text-align: left; }
+.course-page-3d.js-course #about3d .content .image .pricing { display: grid; grid-template-columns: 1fr auto; align-items: center; text-align: left; bottom: -20px; position: relative; }
+.course-page-3d.js-course #what_awaits_you { background: #f6f6f6; padding: 70px 0; }
 .course-page-3d.js-course #what_awaits_you .content { display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 70px; margin: 0 auto; }
 .course-page-3d.js-course #what_awaits_you .content > div { display: grid; grid-template-columns: 80px 1fr; grid-gap: 30px; }
 .course-page-3d.js-course #what_awaits_you .content > div img { max-width: 80px; display: block; border-radius: 50%; display: block; margin: 0 auto; }
 .course-page-3d.js-course #what_awaits_you .content > div h3 { color: #003cff; font-weight: 600; font-size: 20px; line-height: normal; margin: 20px 0; }
 .course-page-3d.js-course #what_awaits_you .content > div h3 span { display: inline-block; }
 .course-page-3d.js-course #what_awaits_you .content > div p { font-size: 16px; }
-.course-page-3d.js-course #knowledge { padding: 70px 0; background: #003cff url(https://levelup.ua/wp-content/uploads/2019/12/bg_logo_digital.png) no-repeat; background-size: 350px; background-position: 50% 90%; }
-.course-page-3d.js-course #knowledge h2 { color: #fff; }
-.course-page-3d.js-course #knowledge h2.two-title { margin-bottom: 10px; }
-.course-page-3d.js-course #knowledge p.two-desc { color: #fff; margin-bottom: 50px; }
-.course-page-3d.js-course #knowledge .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 70px; }
-.course-page-3d.js-course #knowledge .content > div.img { align-items: center; }
-.course-page-3d.js-course #knowledge .content ul { display: grid; grid-gap: 10px; }
-.course-page-3d.js-course #knowledge .content ul li { position: relative; padding-left: 25px; font-size: 18px; color: #fff; font-weight: 500; }
-.course-page-3d.js-course #knowledge .content ul li:before { position: absolute; content: ''; width: 9px; height: 9px; border-radius: 50%; background: #fff; box-shadow: 5.657px 5.657px 9px 0px rgba(255, 255, 255, 0.45); top: 7px; left: 0; }
-.course-page-3d.js-course #knowledge .programs { display: grid; grid-template-columns: repeat(7, 1fr); grid-gap: 50px; }
-.course-page-3d.js-course #knowledge .programs > div { background: #fff; border-radius: 7px; overflow: hidden; box-shadow: 13px 22px 80px 0px rgba(14, 24, 25, 0.43); display: grid; align-items: center; text-align: center; padding: 18px; }
-.course-page-3d.js-course #knowledge .programs > div img { margin: 0 auto; display: block; }
-.course-page-3d.js-course #program_modules { padding: 70px 0; }
-.course-page-3d.js-course #program_modules .content { display: grid; grid-template-columns: auto 1fr; grid-gap: 70px; align-items: center; }
-.course-page-3d.js-course #program_modules .content .title h2 span { display: block; }
-.course-page-3d.js-course #program_modules .content .modules { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 45px; }
-.course-page-3d.js-course #program_modules .content .modules > div .img { position: relative; }
-.course-page-3d.js-course #program_modules .content .modules > div .img img { max-width: 52px; position: relative; }
-.course-page-3d.js-course #program_modules .content .modules > div .img:before { position: absolute; top: -4px; left: 1px; width: 70px; height: 70px; content: ''; border-radius: 50%; background: #e2eafc; }
-.course-page-3d.js-course #program_modules .content .modules > div p { font-size: 18px; position: relative; margin-top: 12px; }
-.course-page-3d.js-course #program_modules .content .modules > div h4 { font-size: 18px; color: #003cff; font-weight: 900; position: relative; line-height: normal; }
-.course-page-3d.js-course #qa_course_result { padding-bottom: 70px; }
+.course-page-3d.js-course #for_you3d { padding: 50px 0; }
+.course-page-3d.js-course #for_you3d .content .text h2 { font-size: 36px; }
+.course-page-3d.js-course #for_you3d .content .text .cont { grid-template-columns: 1fr; grid-gap: 20px; }
+.course-page-3d.js-course #fishki { padding-top: 0; }
+.course-page-3d.js-course #qa_course_result { padding-top: 30px; padding-bottom: 70px; }
 .course-page-3d.js-course #qa_course_result .content { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 50px; }
 .course-page-3d.js-course #qa_course_result .content .image { align-self: center; }
 .course-page-3d.js-course #qa_course_result .content ul { display: grid; grid-row-gap: 25px; }
@@ -46,20 +31,12 @@
   .course-page-3d.js-course #what_awaits_you .content { grid-gap: 30px; }
   .course-page-3d.js-course #what_awaits_you .content > div h3 { margin: 0; font-size: 22px; }
   .course-page-3d.js-course #about3d .content { grid-gap: 40px; }
-  .course-page-3d.js-course #knowledge .content { grid-template-columns: 1fr; grid-gap: 40px; }
-  .course-page-3d.js-course #knowledge .programs { grid-template-columns: repeat(4, 1fr); }
-  .course-page-3d.js-course #knowledge .content > div.img img { margin: 0 auto; display: block; }
   .course-page-3d.js-course #qa_course_result .content { grid-template-columns: 1fr; }
-  .course-page-3d.js-course #qa_course_result .content .image img { margin: 0 auto; display: block; }
-  .course-page-3d.js-course #program_modules .content { grid-template-columns: 1fr; grid-gap: 40px; } }
+  .course-page-3d.js-course #qa_course_result .content .image img { margin: 0 auto; display: block; } }
 @media (max-width: 768px) { .course-page-3d.js-course #what_awaits_you { padding-top: 50px; }
   .course-page-3d.js-course #qa_course_result .content { grid-gap: 30px; }
   .course-page-3d.js-course #prepod3d { padding-top: 0; }
   .course-page-3d.js-course #career_path .content .image { grid-row: 2; }
   .course-page-3d.js-course #qa_course_result { padding-bottom: 0; }
   .course-page-3d.js-course #what_awaits_you .content > div { align-items: start; }
-  .course-page-3d.js-course #what_awaits_you .content > div h3 { margin-bottom: 10px; }
-  .course-page-3d.js-course #knowledge .programs { grid-template-columns: repeat(2, 1fr); }
-  .course-page-3d.js-course #program_modules .content .modules { grid-template-columns: 1fr; }
-  .course-page-3d.js-course #program_modules .content .modules > div { display: grid; grid-template-columns: 70px 1fr; grid-gap: 20px; }
-  .course-page-3d.js-course #program_modules .content .modules > div .img { grid-row: 1/3; } }
+  .course-page-3d.js-course #what_awaits_you .content > div h3 { margin-bottom: 10px; } }
