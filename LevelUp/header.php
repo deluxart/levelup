@@ -33,6 +33,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/2019/new_home.css?1<?php echo date(get_option('date_format')); ?>3">
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/digital.css?7721371<?php echo date(get_option('date_format')); ?>3"> -->
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/career-consultant.css?7721371<?php echo date(get_option('date_format')); ?>3">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/javascript.css?7721371<?php echo date(get_option('date_format')); ?>3">
 
 
 
