@@ -117,6 +117,7 @@ jQuery(window).load(function() {
     jQuery(document).each(function(){
       jQuery('#tel22, #tel23, #tel24').mask('+380999999999');
       jQuery('#tel-event').mask('+38 (099) 999-99-99');
+      jQuery('.phone-mask').mask('+38 (099) 999-99-99');
     });
 });
 // Конец - Маска для инпута номера телефона
