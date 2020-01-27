@@ -26,7 +26,7 @@ article .content-one .details-news span { display: inline-block; color: #999999;
 
 
 @media (max-width: 620px) {
-    section.archive .posts_page .content > .news .list { grid-template-columns: 1fr; }
+    section.archive .posts_page .content > .news .list { grid-template-columns: minmax(0, 1fr); }
 }
 
 
