@@ -412,13 +412,14 @@ if (isset($GLOBALS["polylang"])) {
 
 			</div>
 
-		</div>
+        </div>
+
 
 		<div class="lvl-menu-footer">
 			<div>
 				<ul class="foot-list">
 					<li><a href="#"><i class="fa fa-map-marker " aria-hidden="true"></i><span><?php pll_e('levelup_location','LevelUp'); ?></span></a></li>
-					<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (099) 731 83 85, +38 (096) 084 25 13</span></a></li>
+					<li><a href="tel:+380997318385"><i class="fa fa-phone" aria-hidden="true"></i><span>(099) 731 83 85</span></a>,<a href="tel:+380960842513"><i class="fa fa-phone" aria-hidden="true"></i><span>(096) 084 25 13</span></a></li>
 					<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span>info@levelup.ua</span></a></li>
 				</ul>
 			</div>
