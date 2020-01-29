@@ -1,4 +1,13 @@
-.career-consultant { overflow: hidden; }
+#header .content .basic-nav ul.basic-menu > li.nav-item > a.active { color: #ffde00; }
+
+body.career-page #level_footer { padding: 20px 0; }
+
+body.career-page #level_footer .container .content { display: none; }
+
+body.career-page #header .content .search { display: none; }
+
+body.career-page #header .content .menu-btn { display: none; }
+
 @media (min-width: 1200px) { .career-consultant .container { max-width: 1300px; } }
 .career-consultant img { display: block; }
 .career-consultant h2 { font-weight: 900; }
@@ -73,6 +82,7 @@
 .career-consultant #benefits .content .text.third h2 span.dot-right:before { content: ''; right: 0; }
 .career-consultant #benefits .content .text.third p { padding-left: 40px; font-weight: 600; margin-bottom: 30px; }
 .career-consultant #benefits .content .text.third .sec-btn { padding-left: 40px; }
+.career-consultant #levelup_team { padding-top: 120px; }
 .career-consultant #levelup_team .content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; grid-gap: 60px; }
 .career-consultant #levelup_team .content > div h4 { font-size: 21px; color: #444444; position: relative; margin-bottom: 30px; padding-left: 32px; line-height: normal; }
 .career-consultant #levelup_team .content > div h4:before { position: absolute; content: ''; left: 0; width: 11px; height: 11px; background: #0048ff; top: 9px; }
@@ -83,12 +93,102 @@
 .career-consultant #levelup_team .content h2:before { width: 20px; height: 20px; background: #ffde00; content: ''; position: absolute; left: 0; top: 19px; }
 .career-consultant #levelup_team .content .txt-columns { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 40px; }
 .career-consultant #levelup_team .content .txt-columns strong { display: inline-block; padding: 0; }
-.career-consultant #levelup_team .team_block_photo { position: relative; margin-top: 100px; }
+.career-consultant #levelup_team .team_block_photo { position: relative; margin-top: 100px; margin-bottom: 20px; box-shadow: 14.5px 25.115px 46px 0px rgba(0, 0, 0, 0.15); }
 .career-consultant #levelup_team .team_block_photo .text { position: absolute; height: 100%; width: 100%; left: 0; top: 0; display: grid; grid-template-columns: 1fr auto; align-items: center; color: #fff; padding: 80px 70px; }
 .career-consultant #levelup_team .team_block_photo .text h2 span { display: block; }
 .career-consultant #levelup_team .team_block_photo .text > div { text-align: right; align-self: end; }
 .career-consultant #levelup_team .team_block_photo .text > div p { line-height: normal; font-size: 36px; margin-bottom: 20px; }
 .career-consultant #levelup_team .team_block_photo .text > div p span { display: block; }
 
-@media (min-width: 1600px) { .career-consultant #top_slider .container .content { background-size: 700px; background-position: 60% 100%; } }
-@media (max-width: 1600px) { .career-consultant #top_slider .container .content { grid-template-columns: 32% 1fr 26%; } }
+@media (min-width: 1600px) { .career-consultant #top_slider .container .content { background-size: 600px; background-position: 60% 100%; } }
+@media (max-width: 1600px) { .career-consultant #top_slider .container .content { grid-template-columns: 32% 1fr 26%; background-size: 500px; background-position: 54% 100%; }
+  .career-consultant #top_slider .top-bg { min-height: 600px; } }
+@media (max-width: 1440px) { .career-consultant #top_slider .container .content .title h1 { margin-bottom: 30px; font-size: 32px; }
+  .career-consultant #top_slider .container .content .title p { padding-top: 50px; }
+  .career-consultant #top_slider .container .content > .descr span.ls-text { padding-top: 75px; }
+  .career-consultant #blue_section .foot-section .left_side .num h2 { font-size: 40px; }
+  .career-consultant #blue_section .foot-section .left_side { grid-gap: 60px; }
+  .career-consultant #blue_section .foot-section .right_side h2 { font-size: 36px; margin-bottom: 0; }
+  .career-consultant #blue_section .foot-section .left_side .num h2 { font-size: 30px; }
+  .career-consultant #blue_section .foot-section .left_side .num p { max-width: 250px; }
+  .career-consultant #blue_section .foot-section .right_side .image img { margin-top: 50px; } }
+@media (max-width: 1200px) { .career-consultant #blue_section .foot-section .right_side h2::before { top: 14px; }
+  .career-consultant #top_slider .top-bg { min-height: 550px; }
+  .career-consultant #top_slider .container .content { grid-template-columns: 42% 1fr 32%; background-size: 400px; background-position: 61% 100%; }
+  .career-consultant #top_slider .container .content .title h1 { font-size: 27px; font-weight: 800; }
+  .career-consultant #top_slider .container .content .title p { font-size: 18px; }
+  .career-consultant #top_slider .container .content > .descr { font-size: 20px; }
+  .career-consultant #top_slider .container .content .title { padding-right: 40px; }
+  .career-consultant #blue_section .top-section > div h2, .career-consultant #valuable_consultation .content .text h2, .career-consultant #blue_section .foot-section .right_side h2, .career-consultant #benefits .content h2, .career-consultant #benefits .content h2, .career-consultant #levelup_team .content h2 { font-size: 36px; }
+  .career-consultant #career-about .content { grid-template-columns: 35% 1fr; }
+  .career-consultant #career-about .content .text h2 { font-size: 30px; } }
+@media (min-width: 992px) and (max-width: 1200px) { .career-consultant #valuable_consultation .content { grid-template-columns: 1fr 1fr; }
+  .career-consultant #valuable_consultation .content > div.text.first { grid-row: 2; grid-column: 1/3; }
+  .career-consultant #valuable_consultation .content > div.text.first ul { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-row: 2; }
+  .career-consultant #valuable_consultation .content > div.text.second { grid-column: 1/2; grid-row: 1; }
+  .career-consultant #valuable_consultation .content > div.image { grid-column: 2/3; grid-row: 1; }
+  .career-consultant #valuable_consultation { background-size: contain; }
+  body.career-page .container { max-width: calc(100% - 60px); padding: 0; }
+  .career-consultant #blue_section .foot-section { grid-template-columns: 1fr; }
+  .career-consultant #blue_section .foot-section .left_side { grid-row: 2; }
+  .career-consultant #blue_section .foot-section .right_side { grid-row: 1; display: grid; grid-template-columns: 1fr 1fr; grid-gap: 40px; align-items: center; }
+  .career-consultant #levelup_team .content .txt-columns { grid-template-columns: 1fr; } }
+@media (max-width: 992px) { .career-consultant #career-about .content, .career-consultant #valuable_consultation .content, .career-consultant #blue_section .top-section, .career-consultant #blue_section .foot-section, .career-consultant #benefits .content, .career-consultant #levelup_team .content { grid-template-columns: 1fr; }
+  .career-consultant #blue_section .top-section { padding-left: 0; }
+  .career-consultant #top_slider .container .content .photo img { display: none; }
+  .career-consultant section img { max-width: 400px; margin: 0 auto; }
+  .career-consultant #levelup_team .team_block_photo img { max-width: 100%; }
+  .career-consultant #blue_section .top-section .form .cf7sg-container { max-width: 100%; }
+  .career-consultant #blue_section .foot-section .left_side { grid-row: 2; }
+  .career-consultant #benefits .content .image { grid-row: 1; }
+  .career-consultant #benefits .content .text { grid-row: 2; }
+  .career-consultant #benefits .content .image.second { grid-row: 3; }
+  .career-consultant #benefits .content .text.second { grid-row: 4; }
+  .career-consultant #benefits .content .image.third { grid-row: 5; }
+  .career-consultant #benefits .content .text.third { grid-row: 6; }
+  .career-consultant #levelup_team .team_block_photo .text { padding: 50px 30px; }
+  .career-consultant #levelup_team .team_block_photo .text h2 { font-size: 24px; }
+  .career-consultant #levelup_team .team_block_photo .text > div p { font-size: 21px; }
+  .career-consultant #top_slider .container .content { grid-template-columns: 1fr 1fr; background: none; padding-top: 100px; background: none; }
+  .career-consultant #top_slider .container .content .title { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 30px; align-items: center; grid-column: 1/3; }
+  .career-consultant #top_slider .container .content .photo img { display: block; opacity: 1; max-width: 100%; }
+  .career-consultant #top_slider .top-bg { display: none; }
+  .career-consultant #top_slider .container { position: relative; left: 0; transform: none; }
+  .career-consultant #top_slider { background: url(https://levelup.ua/wp-content/uploads/2020/01/bg_top_slider.jpg) center no-repeat; background-size: cover; }
+  .career-consultant #blue_section .foot-section .left_side .num p { max-width: 100%; } }
+@media (max-width: 768px) { .career-consultant #top_slider .container .content { grid-template-columns: 1fr; }
+  .career-consultant #top_slider .container .content .title { grid-column: 1/2; grid-row: 1; grid-template-columns: 1fr; }
+  .career-consultant #top_slider .container .content .photo { grid-row: 3; }
+  .career-consultant #top_slider .container .content .descr { grid-row: 2; }
+  .career-consultant #top_slider .container .content .btn-block { grid-row: 4; }
+  .career-consultant #top_slider .container .content .title h1 { font-size: 21px; margin-bottom: 0; }
+  .career-consultant #top_slider .container .content .title p { font-size: 16px; }
+  .career-consultant #top_slider .container .content > .descr { text-align: left; font-size: 16px; border-right: 0; padding-right: 0; margin-top: 30px; }
+  .career-consultant #top_slider .container .content > .descr span.ls-text { display: none; }
+  .career-consultant #top_slider .container .content .btn-block { left: 0; }
+  .career-consultant section img { max-width: 250px; width: 100%; }
+  .career-consultant #career-about .content .text h2, .career-consultant #blue_section .top-section > div h2, .career-consultant #valuable_consultation .content .text h2, .career-consultant #blue_section .foot-section .right_side h2, .career-consultant #benefits .content h2, .career-consultant #benefits .content h2, .career-consultant #levelup_team .content h2 { font-size: 24px; }
+  .career-consultant #blue_section .foot-section { grid-gap: 40px; }
+  .career-consultant #blue_section .foot-section .left_side { grid-gap: 40px; grid-template-columns: 1fr; }
+  .career-consultant #blue_section .foot-section .left_side .num h2 { font-size: 24px; margin-bottom: 20px; }
+  .career-consultant #blue_section .foot-section .left_side .num p { padding-left: 24px; }
+  .career-consultant #benefits .content .text h4 { font-size: 21px; }
+  .career-consultant #benefits .content h2 { padding-left: 0px; }
+  .career-consultant #benefits .content .text.third p { padding: 0; }
+  .career-consultant #benefits .content .text.third .sec-btn { padding: 0; }
+  .career-consultant #levelup_team .content .txt-columns { grid-template-columns: 1fr; }
+  .career-consultant #levelup_team .team_block_photo .text { position: relative; color: #0048ff; padding: 0; grid-template-columns: 1fr; grid-gap: 30px; text-align: center; }
+  .career-consultant #levelup_team .team_block_photo { box-shadow: none; }
+  .career-consultant #levelup_team .team_block_photo img { box-shadow: 14.5px 25.115px 46px 0px rgba(0, 0, 0, 0.15); margin-bottom: 30px; }
+  .career-consultant #levelup_team .team_block_photo .text > div { text-align: center; }
+  .career-consultant #levelup_team .content .image { grid-row: 2; }
+  .career-consultant #career-about { padding-top: 50px; }
+  .career-consultant #valuable_consultation, .career-consultant #blue_section { padding: 50px 0; }
+  .career-consultant #blue_section .foot-section { padding-top: 40px; }
+  .career-consultant #benefits { padding-top: 20px; }
+  .career-consultant #benefits .content h2::before { top: -38px; }
+  .career-consultant #levelup_team { padding-top: 40px; }
+  .career-consultant #levelup_team .team_block_photo { margin-bottom: 30px; }
+  .career-consultant #valuable_consultation { background: none; }
+  .career-consultant #levelup_team .team_block_photo { margin-top: 40px; }
+  .career-consultant ul.list { margin-bottom: 0px; } }
