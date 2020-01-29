@@ -90,7 +90,7 @@ ul.list li:before { position: relative; width: 18px; height: 18px; background: u
 
 @media (max-width: 768px) {
     .event-speacker .content .text { padding: 30px; }
-    .single .block-widget .content-block a.news-title { font-weight: 600; font-size: 16px; margin-top: 10px; }
+    .single .block-widget .content-block a.news-title { font-weight: 600; font-size: 16px; margin-top: 10px; display: block; }
     .full_post .container { padding-left: 20px; padding-right: 20px; }
 }
 
