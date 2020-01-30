@@ -163,7 +163,7 @@ body.career-page #header .content .menu-btn { display: none; }
   .career-consultant #top_slider .container .content .btn-block { grid-row: 4; }
   .career-consultant #top_slider .container .content .title h1 { font-size: 21px; margin-bottom: 0; }
   .career-consultant #top_slider .container .content .title p { font-size: 16px; }
-  .career-consultant #top_slider .container .content > .descr { text-align: left; font-size: 16px; border-right: 0; padding-right: 0; margin-top: 30px; }
+  .career-consultant #top_slider .container .content > .descr { text-align: left; font-size: 16px; border-right: 0; padding-right: 0; margin-top: 30px; display: none; }
   .career-consultant #top_slider .container .content > .descr span.ls-text { display: none; }
   .career-consultant #top_slider .container .content .btn-block { left: 0; }
   .career-consultant section img { max-width: 250px; width: 100%; }
