@@ -35,7 +35,7 @@ get_header(); ?>
 
 
 <?php if ( in_category( 'blog' ) ) { ?>
-
+<div class="blog-block">
 <div class="block-lastartickles block-widget">
     <div class="title-block">
         <h4><?php pll_e('articles_widget_title','LevelUp'); ?></h4>
@@ -54,7 +54,7 @@ get_header(); ?>
     </div>
 </div>
 
-
+</div>
 <?php } else { ?>
 
 <div class="block-lastnews block-widget">

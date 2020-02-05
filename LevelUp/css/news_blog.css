@@ -6,6 +6,10 @@
 .single .block-widget .content-block { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 40px; }
 .single .block-widget .content-block img { display: block; border-radius: 10px; margin-bottom: 10px; }
 
+
+.single .blog-block .block-lastnews { margin-bottom: 0px; }
+.single .blog-block .block-lastartickles { margin-bottom: 50px; }
+
 .single .block-widget .content-block.articles img { margin: 0; border-radius: 50%; }
 
 
