@@ -170,6 +170,7 @@ function cat_post_listing_parameters_shortcode( $atts ) {
         'posts_per_page' => $args['posts'],
         'color' => $args['color'],
         'category_name' => $args['category'],
+        'post__not_in' => array( get_the_ID() ),
         'post_status' => 'publish'
     );
 
@@ -207,6 +208,7 @@ function cat_articles_listing_parameters_shortcode( $atts ) {
         'posts_per_page' => $args['posts'],
         'color' => $args['color'],
         'category_name' => $args['category'],
+        'post__not_in' => array( get_the_ID() ),
         'post_status' => 'publish'
     );
 
