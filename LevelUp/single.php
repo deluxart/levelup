@@ -34,7 +34,7 @@ get_header(); ?>
 
 
 
-<?php if ( is_category( 'blog' ) ) { ?>
+<?php if ( in_category( 'blog' ) ) { ?>
 
 <div class="block-lastartickles block-widget">
     <div class="title-block">
