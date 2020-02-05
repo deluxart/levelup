@@ -34,6 +34,29 @@ get_header(); ?>
 
 
 
+<?php if ( is_category( 'blog' ) ) { ?>
+
+<div class="block-lastartickles block-widget">
+    <div class="title-block">
+        <h4><?php pll_e('articles_widget_title','LevelUp'); ?></h4>
+    </div>
+    <div class="content-block articles">
+        <?php echo do_shortcode('[cat-articles category="blog" posts="3" orderby="date" order="DESC"]'); ?>
+    </div>
+</div>
+
+<div class="block-lastnews block-widget">
+    <div class="title-block">
+        <h4><?php pll_e('events_widget_title','LevelUp'); ?></h4>
+    </div>
+    <div class="content-block">
+        <?php echo do_shortcode('[cat-posts category="news" posts="3" orderby="date" order="DESC"]'); ?>
+    </div>
+</div>
+
+
+<?php } else { ?>
+
 <div class="block-lastnews block-widget">
     <div class="title-block">
         <h4><?php pll_e('events_widget_title','LevelUp'); ?></h4>
@@ -53,6 +76,7 @@ get_header(); ?>
     </div>
 </div>
 
+<?php } ?>
 
 
 
