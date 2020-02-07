@@ -360,7 +360,7 @@ if (!jQuery(this).is("current")) {
     jQuery(".tab-content").height(listItemHeight + "px");
 }
 });
-jQuery('.course-page-3d.java-course #java_what_will .content .top_section .en-tabs').children('.li').first().click();
+jQuery('.course-page-3d.java-course #java_what_will .content .top_section .en-tabs').children('li').first().click();
 
 
 
