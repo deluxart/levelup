@@ -21,6 +21,13 @@
 .course-page-3d.js-course #qa_course_result .content ul li { position: relative; padding-left: 25px; }
 .course-page-3d.js-course #qa_course_result .content ul li h4 { font-size: 18px; font-weight: bold; margin-bottom: 10px; line-height: normal; }
 .course-page-3d.js-course #qa_course_result .content ul li:before { position: absolute; content: ''; width: 9px; height: 9px; border-radius: 50%; background-image: -moz-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); background-image: -webkit-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); background-image: -ms-linear-gradient(135deg, #0036ff 0%, #9000ff 100%); box-shadow: 5.657px 5.657px 9px 0px rgba(63, 35, 119, 0.45); top: 7px; z-index: -1; left: 0; }
+.course-page-3d.js-course .fullstack-page #fs-program { background: #0048ff; }
+.course-page-3d.js-course .fullstack-page #fs-program .program-block .spoiler .head { color: #ffde00; }
+.course-page-3d.js-course .fullstack-page #fs-program .program-block .spoiler:after { background: #4d7fff; }
+.course-page-3d.js-course .fullstack-page #fs-program .spoiler_block:before { background: #4d7fff; }
+.course-page-3d.js-course .fullstack-page #fs-program .spoiler_block .line-numbers { color: #ffffff; }
+
+
 
 @media (max-width: 992px) { .course-page-3d.js-course #career_path .content { grid-template-columns: 1fr; }
   .course-page-3d.js-course #what_awaits_you .content { grid-template-columns: 1fr; }
