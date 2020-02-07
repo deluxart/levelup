@@ -1,0 +1,80 @@
+@media (min-width: 1200px) { .qa-body.java-page #java_what_will .container { max-width: 1300px; } }
+.course-page-3d.java-course { background: url(https://levelup.ua/wp-content/uploads/2019/12/bg_top_page.png) top center; background-size: 1920px; background-position: top center; background-repeat: no-repeat; }
+.course-page-3d.java-course #course_slider .content .text > h1 { font-weight: 800; color: #003cff; }
+.course-page-3d.java-course #course_slider .content .text > span { color: #003cff; }
+.course-page-3d.java-course #course_slider .content .image { text-align: right; }
+.course-page-3d.java-course #about3d .content .image .description { text-align: left; }
+.course-page-3d.java-course #about3d .content .image .pricing { display: grid; grid-template-columns: 1fr auto; align-items: center; text-align: left; bottom: -20px; position: relative; }
+.course-page-3d.java-course .fullstack-page #fs-program { background: #0048ff; }
+.course-page-3d.java-course .fullstack-page #fs-program .program-block .spoiler .head { color: #ffde00; }
+.course-page-3d.java-course .fullstack-page #fs-program .program-block .spoiler:after { background: #4d7fff; }
+.course-page-3d.java-course .fullstack-page #fs-program .spoiler_block:before { background: #4d7fff; }
+.course-page-3d.java-course .fullstack-page #fs-program .spoiler_block .line-numbers { color: #ffffff; }
+.course-page-3d.java-course #java_what_will { padding: 70px 0; }
+.course-page-3d.java-course #java_what_will .en-cont .tab-content { display: none; }
+.course-page-3d.java-course #java_what_will .en-cont .tab-content.current { display: inherit; }
+.course-page-3d.java-course #java_what_will .content .top_section { display: grid; grid-template-columns: 1fr auto; align-items: center; }
+.course-page-3d.java-course #java_what_will .content .top_section .text { padding: 40px 50px; }
+.course-page-3d.java-course #java_what_will .content .top_section .text h4 { font-size: 24px; color: #003cff; line-height: normal; margin-bottom: 15px; }
+.course-page-3d.java-course #java_what_will .content .top_section .text h4 span { display: inline-block; }
+.course-page-3d.java-course #java_what_will .content .top_section .text p { font-size: 16px; color: #444444; }
+.course-page-3d.java-course #java_what_will .content .top_section .nav-tabs { align-self: end; border: 0; }
+.course-page-3d.java-course #java_what_will .content .top_section .en-tabs { display: grid; grid-template-columns: 1fr 1fr; }
+.course-page-3d.java-course #java_what_will .content .top_section .en-tabs li { border-bottom: 14px solid #dbdbdb; padding: 60px 45px; }
+.course-page-3d.java-course #java_what_will .content .top_section .en-tabs li:hover { cursor: pointer; }
+.course-page-3d.java-course #java_what_will .content .top_section .en-tabs li span { color: #939393; font-size: 16px; }
+.course-page-3d.java-course #java_what_will .content .top_section .en-tabs li h3 { font-size: 50px; font-weight: 900; color: #7a7a7a; }
+.course-page-3d.java-course #java_what_will .content .top_section .en-tabs li h3 span { font-size: 50px; font-weight: 900; display: block; color: #7a7a7a; }
+.course-page-3d.java-course #java_what_will .content .top_section .en-tabs li.current { border-bottom: 14px solid #003cff; color: #003cff; }
+.course-page-3d.java-course #java_what_will .content .top_section .en-tabs li.current h3 { color: #003cff; }
+.course-page-3d.java-course #java_what_will .content .top_section .en-tabs li.current span { color: #003cff; }
+.course-page-3d.java-course #java_what_will .content .foot_section { background: #003cff; color: #fff; padding: 70px 50px; }
+.course-page-3d.java-course #java_what_will .content .foot_section .tab-content { display: none; }
+.course-page-3d.java-course #java_what_will .content .foot_section .tab-content.current { display: block; }
+.course-page-3d.java-course #java_what_will .content .foot_section .tab-content .cont { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 80px; }
+.course-page-3d.java-course #java_what_will .content .foot_section .tab-content .cont .block .icon-img { width: 73px; height: 73px; position: relative; display: block; margin: 0 auto 20px auto; }
+.course-page-3d.java-course #java_what_will .content .foot_section .tab-content .cont .block .icon-img:before { position: absolute; content: ''; top: 0; left: 0; background: #fff; border-radius: 50%; background-color: white; opacity: 0.102; width: 100%; height: 100%; }
+.course-page-3d.java-course #java_what_will .content .foot_section .tab-content .cont .block .icon-img img { width: 100%; max-width: 54px; margin: 0 auto; display: block; }
+.course-page-3d.java-course #java_what_will .content .foot_section .tab-content .cont .block h4 { font-size: 20px; color: #ffde00; line-height: normal; margin-bottom: 20px; }
+.course-page-3d.java-course #java_what_will .content .foot_section .tab-content .cont .block p { font-size: 16px; color: #fff; }
+.course-page-3d.java-course #for_you3d { padding: 50px 0; }
+.course-page-3d.java-course #for_you3d .content .text h2 { font-size: 36px; }
+.course-page-3d.java-course #for_you3d .content .text .cont { grid-template-columns: 1fr; grid-gap: 20px; }
+.course-page-3d.java-course #fishki { padding-top: 0; }
+.course-page-3d.java-course #java_course_result { padding-top: 30px; padding-bottom: 70px; }
+.course-page-3d.java-course #java_course_result h2 { padding-bottom: 30px; }
+.course-page-3d.java-course #java_course_result .content .section { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 50px; }
+.course-page-3d.java-course #java_course_result .content .section .title { position: relative; }
+.course-page-3d.java-course #java_course_result .content .section .title h4 { font-size: 24px; line-height: normal; color: #003cff; font-weight: 900; }
+.course-page-3d.java-course #java_course_result .content .section .title h4 span { display: block; }
+.course-page-3d.java-course #java_course_result .content .section .title span.num { position: absolute; top: 0; left: 0; font-size: 140px; line-height: 140px; color: #eeeeee; font-weight: 900; transform: translate(-50%, -36px); z-index: -1; }
+.course-page-3d.java-course #java_course_result .content .section .block ul { display: grid; grid-gap: 40px; margin: 0; }
+.course-page-3d.java-course #java_course_result .content .section .block ul.list li { padding-left: 30px; display: block; font-weight: bold; }
+.course-page-3d.java-course #java_course_result .content .section .block ul.list li:before { position: absolute; content: ''; width: 10px; height: 10px; background: #2400ff; border-radius: 30px; left: 0; top: 6px; }
+.course-page-3d.java-course #java_course_result .content .plus-line { padding: 70px 0; text-align: center; position: relative; }
+.course-page-3d.java-course #java_course_result .content .plus-line:before { position: absolute; height: 1px; background: #e5e5e5; top: 50%; left: 50%; transform: translateX(-50%); width: 80%; content: ''; z-index: -1; }
+.course-page-3d.java-course #java_course_result .content .plus-line span { color: #003cff; font-size: 36px; font-weight: 900; }
+
+@media (max-width: 992px) { .course-page-3d.java-course #career_path .content { grid-template-columns: 1fr; }
+  .course-page-3d.java-course #what_awaits_you .content { grid-template-columns: 1fr; }
+  .course-page-3d.java-course #what_awaits_you .content > div { display: grid; grid-template-columns: 60px 1fr; grid-gap: 20px; align-items: center; }
+  .course-page-3d.java-course #qa_course_result .content { grid-template-columns: 1fr; }
+  .course-page-3d.java-course #course_slider .content .text > h1 { font-size: 26px; }
+  .course-page-3d.java-course #what_awaits_you .content { text-align: left; }
+  .course-page-3d.java-course #what_awaits_you .content { grid-gap: 30px; }
+  .course-page-3d.java-course #what_awaits_you .content > div h3 { margin: 0; font-size: 22px; }
+  .course-page-3d.java-course #about3d .content { grid-gap: 40px; }
+  .course-page-3d.java-course #qa_course_result .content { grid-template-columns: 1fr; }
+  .course-page-3d.java-course #qa_course_result .content .image img { margin: 0 auto; display: block; } }
+@media (max-width: 768px) { .fullstack-page #fs-program > .container > .cont { display: block; }
+  .fullstack-page #fs-program h2 { margin-bottom: 0; line-height: normal; }
+  .fullstack-page #fs-program .program-block { width: calc(100% - -40px); }
+  .course-page-3d.java-course #what_awaits_you { padding-top: 50px; }
+  .course-page-3d.java-course #qa_course_result .content { grid-gap: 30px; }
+  .course-page-3d.java-course #prepod3d { padding-top: 0; }
+  .course-page-3d.java-course #career_path .content .image { grid-row: 2; }
+  .course-page-3d.java-course #qa_course_result { padding-bottom: 0; }
+  .course-page-3d.java-course #what_awaits_you .content > div { align-items: start; }
+  .course-page-3d.java-course #what_awaits_you .content > div h3 { margin-bottom: 10px; } }
+
+/*# sourceMappingURL=java.css.map */
