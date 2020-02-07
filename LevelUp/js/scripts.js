@@ -357,7 +357,7 @@ if (!jQuery(this).is("current")) {
     var listItemHeight = jQuery(".foot_section")
         .find(".tab-content:eq(" + numberIndex + ")")
         .innerHeight();
-    jQuery(".tab-content").height(listItemHeight + "px");
+    jQuery(".foot_section").height(listItemHeight + "px");
 }
 });
 
