@@ -344,6 +344,7 @@ jQuery(window).scroll(function() {
 jQuery(document).on("click", "ul.en-tabs li", function() {
 var numberIndex = jQuery(this).index();
 var tab_id = jQuery(this).attr('data-tab');
+
 jQuery('.tab-content').removeClass('current');
 jQuery("#"+tab_id).addClass('current');
 
@@ -356,9 +357,11 @@ if (!jQuery(this).is("current")) {
     var listItemHeight = jQuery(".foot_section")
         .find(".tab-content:eq(" + numberIndex + ")")
         .innerHeight();
-    jQuery(".foot_section").height(listItemHeight + "px");
+    jQuery(".tab-content").height(listItemHeight + "px");
 }
 });
+jQuery('.course-page-3d.java-course #java_what_will .content .top_section .en-tabs').children('.li').first().click();
+
 
 
 
